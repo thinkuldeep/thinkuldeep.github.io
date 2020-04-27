@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wenbxr on Kuldeep Singh</title>
+    <link>https://thinkuldeep.github.io/tags/wenbxr/</link>
+    <description>Recent content in wenbxr on Kuldeep Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Apr 2020 10:58:08 -0400</lastBuildDate>
+    
+	<atom:link href="https://thinkuldeep.github.io/tags/wenbxr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WebXR - the new Web</title>
+      <link>https://thinkuldeep.github.io/post/webxr-the-new-web/</link>
+      <pubDate>Sat, 11 Apr 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/webxr-the-new-web/</guid>
+      <description>The web has grown from a read-only web (Web 1.0) to interactive web (Web 2.0) and then moved into the semantic web which is more connected and more immersive. 3D content on the web is there for quite some time, the most web-browsers support rendering 3D content natively. The rise for XR technologies and advancements in devices and the internet is leading the demand for Web-based XR. It will be a norm for web-based development.</description>
+    </item>
+    
+  </channel>
+</rss>

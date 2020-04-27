@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Kuldeep Singh  | WebXR - the new Web</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.69.2" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.1cb140d8ba31d5b2f1114537dd04802a.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="WebXR - the new Web" />
+<meta property="og:description" content="The web has grown from a read-only web (Web 1.0) to interactive web (Web 2.0) and then moved into the semantic web which is more connected and more immersive. 3D content on the web is there for quite some time, the most web-browsers support rendering 3D content natively. The rise for XR technologies and advancements in devices and the internet is leading the demand for Web-based XR. It will be a norm for web-based development." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://thinkuldeep.github.io/post/webxr-the-new-web/" />
+<meta property="article:published_time" content="2020-04-11T10:58:08-04:00" />
+<meta property="article:modified_time" content="2020-04-11T10:58:08-04:00" />
+<meta itemprop="name" content="WebXR - the new Web">
+<meta itemprop="description" content="The web has grown from a read-only web (Web 1.0) to interactive web (Web 2.0) and then moved into the semantic web which is more connected and more immersive. 3D content on the web is there for quite some time, the most web-browsers support rendering 3D content natively. The rise for XR technologies and advancements in devices and the internet is leading the demand for Web-based XR. It will be a norm for web-based development.">
+<meta itemprop="datePublished" content="2020-04-11T10:58:08-04:00" />
+<meta itemprop="dateModified" content="2020-04-11T10:58:08-04:00" />
+<meta itemprop="wordCount" content="1408">
+
+
+
+<meta itemprop="keywords" content="xr,webxr,ar,immersive-web,spatialweb,general," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="WebXR - the new Web"/>
+<meta name="twitter:description" content="The web has grown from a read-only web (Web 1.0) to interactive web (Web 2.0) and then moved into the semantic web which is more connected and more immersive. 3D content on the web is there for quite some time, the most web-browsers support rendering 3D content natively. The rise for XR technologies and advancements in devices and the internet is leading the demand for Web-based XR. It will be a norm for web-based development."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://miro.medium.com/max/478/1*Vdx66t8bjwzeW5VM5RC3xQ.gif');">
+    <div class="pb3-m pb6-l bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://thinkuldeep.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Kuldeep Singh
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/post/" title="Articles page">
+              Articles
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+<a href="https://www.thoughtworks.com/profiles/kuldeep-singh" target="_blank" class="link-transition instagram link dib z-999 pt3 pt0-l mr1" title="ThougthWorks link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+    <svg  height="36px"  style="enable-background:new 0 0 65 35;" version="1.1" viewBox="0 0 65 30" width="36px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M0 5.93V0h25.132v5.93h-9.06v29h-7v-29zM29.255 0h3.5L38.5 28.2 44.87 0h3.463l6.052 28.188L60.535 0H64l-8 34.92h-3.587l-5.93-28.546L40.16 34.92h-3.587z"
+      style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://www.linkedin.com/in/kuldeep-reck/" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/thinkuldeep" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://gitlab.com/kuldeeps2" target="_blank" class="link-transition gitlab link dib z-999 pt3 pt0-l mr1" title="Gitlab link" rel="noopener" aria-label="follow on Gitlab——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M29.782 199.732L256 493.714 8.074 309.699c-6.856-5.142-9.712-13.996-7.141-21.993l28.849-87.974zm75.405-174.806c-3.142-8.854-15.709-8.854-18.851 0L29.782 199.732h131.961L105.187 24.926zm56.556 174.806L256 493.714l94.257-293.982H161.743zm349.324 87.974l-28.849-87.974L256 493.714l247.926-184.015c6.855-5.142 9.711-13.996 7.141-21.993zm-85.404-262.78c-3.142-8.854-15.709-8.854-18.851 0l-56.555 174.806h131.961L425.663 24.926z"></path></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://twitter.com/thinkuldeep" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://www.instagram.com/thinkuldeep/" target="_blank" class="link-transition instagram link dib z-999 pt3 pt0-l mr1" title="Instagram link" rel="noopener" aria-label="follow on Instagram——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.271,26.578v-0.006c0.502,0,1.005,0.01,1.508-0.002  c0.646-0.017,1.172-0.57,1.172-1.217c0-0.963,0-1.927,0-2.89c0-0.691-0.547-1.24-1.236-1.241c-0.961,0-1.922-0.001-2.883,0  c-0.688,0.001-1.236,0.552-1.236,1.243c-0.001,0.955-0.004,1.91,0.003,2.865c0.001,0.143,0.028,0.291,0.073,0.426  c0.173,0.508,0.639,0.82,1.209,0.823C41.344,26.579,41.808,26.578,42.271,26.578z M33,27.817c-3.384-0.002-6.135,2.721-6.182,6.089  c-0.049,3.46,2.72,6.201,6.04,6.272c3.454,0.074,6.248-2.686,6.321-6.043C39.254,30.675,36.462,27.815,33,27.817z M21.046,31.116  v0.082c0,4.515-0.001,9.03,0,13.545c0,0.649,0.562,1.208,1.212,1.208c7.16,0.001,14.319,0.001,21.479,0  c0.656,0,1.215-0.557,1.215-1.212c0.001-4.509,0-9.02,0-13.528v-0.094h-2.912c0.411,1.313,0.537,2.651,0.376,4.014  c-0.161,1.363-0.601,2.631-1.316,3.803s-1.644,2.145-2.779,2.918c-2.944,2.006-6.821,2.182-9.946,0.428  c-1.579-0.885-2.819-2.12-3.685-3.713c-1.289-2.373-1.495-4.865-0.739-7.451C22.983,31.116,22.021,31.116,21.046,31.116z   M45.205,49.255c0.159-0.026,0.318-0.049,0.475-0.083c1.246-0.265,2.264-1.304,2.508-2.557c0.025-0.137,0.045-0.273,0.067-0.409  V21.794c-0.021-0.133-0.04-0.268-0.065-0.401c-0.268-1.367-1.396-2.428-2.78-2.618c-0.058-0.007-0.113-0.02-0.17-0.03H20.761  c-0.147,0.027-0.296,0.047-0.441,0.08c-1.352,0.308-2.352,1.396-2.545,2.766c-0.008,0.057-0.02,0.114-0.029,0.171V46.24  c0.028,0.154,0.05,0.311,0.085,0.465c0.299,1.322,1.427,2.347,2.77,2.52c0.064,0.008,0.13,0.021,0.195,0.03H45.205z M33,64  C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+
+<a href="https://medium.com/@thinkuldeep" target="_blank" class="link-transition medium link dib z-999 pt3 pt0-l mr1" title="Medium link" rel="noopener" aria-label="follow on Medium——Opens in a new window">
+    <svg  height="32px"  style="enable-background:new 0 0 170 170;" version="1.1" viewBox="0 0 170 170" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M46.5340803,65.2157554 C46.6968378,63.6076572 46.0836,62.018231 44.8828198,60.93592 L32.6512605,46.2010582 L32.6512605,44 L70.6302521,44 L99.9859944,108.380952 L125.794585,44 L162,44 L162,46.2010582 L151.542017,56.2281011 C150.640424,56.9153477 150.193188,58.0448862 150.380019,59.1628454 L150.380019,132.837155 C150.193188,133.955114 150.640424,135.084652 151.542017,135.771899 L161.755369,145.798942 L161.755369,148 L110.38282,148 L110.38282,145.798942 L120.963119,135.527337 C122.002801,134.487948 122.002801,134.182246 122.002801,132.592593 L122.002801,73.0417402 L92.585901,147.755438 L88.6106443,147.755438 L54.3622782,73.0417402 L54.3622782,123.115814 C54.0767278,125.221069 54.7759199,127.3406 56.2581699,128.863022 L70.0186741,145.55438 L70.0186741,147.755438 L31,147.755438 L31,145.55438 L44.7605042,128.863022 C46.2319621,127.338076 46.8903838,125.204485 46.5340803,123.115814 L46.5340803,65.2157554 Z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">WebXR - the new Web</h1>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        ARTICLES
+      </aside>
+      
+
+
+
+
+  <div id="sharing" class="mt3">
+
+    
+    <a href="https://www.facebook.com/sharer.php?u=https://thinkuldeep.github.io/post/webxr-the-new-web/" class="facebook no-underline" aria-label="share on Facebook">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+
+    </a>
+
+    
+    
+    <a href="https://twitter.com/share?url=https://thinkuldeep.github.io/post/webxr-the-new-web/&amp;text=WebXR%20-%20the%20new%20Web" class="twitter no-underline" aria-label="share on Twitter">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+    </a>
+
+    
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://thinkuldeep.github.io/post/webxr-the-new-web/&amp;title=WebXR%20-%20the%20new%20Web" class="linkedin no-underline" aria-label="share on LinkedIn">
+      <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+    </a>
+  </div>
+
+      <h1 class="f1 athelas mt3 mb1">WebXR - the new Web</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-04-11T10:58:08-04:00">April 11, 2020</time>
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>The web has grown from a read-only web (Web 1.0) to interactive web (Web 2.0) and then moved into the semantic web which is more connected and more immersive. 3D content on the web is there for quite some time, the most web-browsers support rendering 3D content natively. The rise for XR technologies and advancements in devices and the internet is leading the demand for Web-based XR. It will be a norm for web-based development.</p>
+<p>We are going through the Covid19 time, and most of us are <a href="https://medium.com/xrpractices/xr-development-from-home-f246796fb7a1">working from home</a>. These days, one message is quite popular on social media, asking to keep your kids engaged, and let them bring <a href="https://www.indiatvnews.com/technology/apps-google-3d-animals-how-to-watch-dogs-tigers-animals-in-3d-android-ios-604208">Google 3D animals in your bedroom</a></p>
+<p><img src="https://miro.medium.com/max/932/1*8iQvsLLL8C6_-GTUeFnkgw.png" alt="My son Lakshya with his pet Simbu (Google 3D animals)">
+However, this feature was there for some time now. Google search pages have provision to show models in 3D in your space, you need a compatible phone for making it work.</p>
+<p>This is WebXR. Experiencing XR directly on a website without a need for special apps, or downloads. Generally, XR application development needs a good amount of effort and cost on platforms such as <a href="https://unity.com/">Unity 3D</a>, <a href="https://engine.vuforia.com/engine">Vuforia</a>, <a href="https://www.wikitude.com/">Wikitude</a>. The content is delivered in the form of an app for XR enabled smartphones or head-mounted devices such as <a href="https://www.microsoft.com/en-us/hololens">Hololens</a>, <a href="https://www.oculus.com/">Oculus</a>, <a href="https://www.nreal.ai/">NReal</a>, or similar. With WebXR technology, we can build applications directly with our favorite web technology (HTML, JavaScript) and deliver the content on our website.</p>
+<p>There are few WebXR libraries popular these days such as <a href="https://www.babylonjs.com/">babylon.js</a>, <a href="https://threejs.org/">three.js</a>, and <a href="https://aframe.io/">A-frame</a>. WebVR is quite stable but WebXR is experimental at this stage in most of the libraries. In addition to <a href="https://developers.google.com/web/updates/tags/webxr">Google</a> and <a href="https://mixedreality.mozilla.org/">Mozilla</a>, organizations like <a href="https://www.8thwall.com/">8th Wall</a>, <a href="https://xr.plus/">XR+</a> are also putting great effort into making the WebXR stable. At <a href="https://www.thoughtworks.com/">ThoughtWorks</a>, we have built some cool projects for our clients utilizing available WebXR libraries.</p>
+<p>In this post, we will say hello to WebXR, and also takes you through the classic XR development in Unity 3D. The first part of the article is for people who are new to Unity 3D, so they need to say hello to the Unity 3D platform, then we will go to the WebXR world, and understand how we can co-relate both the world.</p>
+<p>Note: — We will discuss the WebAR part for android here, you may relate it to WebVR and for other devices, the concept is more or less the same. Follow the respective libraries documentation if you are more interested in the WebVR part or for other devices.</p>
+<h1 id="hello-xr-world">Hello XR World!</h1>
+<p>If you haven’t yet gone through Unity 3D, please read below a cool article by my colleague Neelarghya Mondal -</p>
+<blockquote>
+<p>Well let me tell you this won’t be the end all be all… This is just the beginning of a series of Journal log styled…
+<a href="https://medium.com/xrpractices/lets-get-started-with-unity-a5b262436a8">Let’s get started with Unity…</a></p>
+</blockquote>
+<p>Then set up the first XR project using AR Core — [the google guidelines](the google guidelines), Import the ARCore SDK package into Unity.</p>
+<ul>
+<li>Remove the main camera, light and the add prefabs “ARCore Device” and “Environment Light” available in ARCore SDK.</li>
+<li>Create a prefab of Cube with rotating script</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">RotateCube</span> : MonoBehaviour
+{
+    <span style="color:#66d9ef">private</span> Vector3 rotation = <span style="color:#66d9ef">new</span> Vector3(<span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">30</span>, <span style="color:#ae81ff">0</span>);
+    <span style="color:#66d9ef">void</span> Update()
+    {
+      transform.Rotate(rotation * Time.deltaTime);
+    }
+}
+</code></pre></div><ul>
+<li>Create an InputManager class that instantiates the cube prefab at the touch position.</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">InputManager</span> : MonoBehaviour
+{
+    <span style="color:#66d9ef">public</span> Camera camera;
+    <span style="color:#66d9ef">public</span> GameObject cubePrefab;
+    <span style="color:#75715e">// Update is called once per frame
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">void</span> Update()
+    {
+      Touch touch;
+      <span style="color:#66d9ef">if</span> (Input.touchCount &gt; <span style="color:#ae81ff">0</span> &amp;&amp; (touch = Input.GetTouch(<span style="color:#ae81ff">0</span>)).phase == TouchPhase.Began)
+      {
+        CreateCube(touch.position);
+      }
+      <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (Input.GetMouseButtonDown(<span style="color:#ae81ff">0</span>))
+      {
+        CreateCube(Input.mousePosition);
+      }
+    }
+    <span style="color:#66d9ef">void</span> CreateCube(Vector2 position)
+    {
+      Ray ray = camera.ScreenPointToRay(position);
+      Instantiate(cubePrefab, (ray.origin + ray.direction), Quaternion.identity);
+    }
+}
+</code></pre></div><p><img src="https://miro.medium.com/max/1400/1*eZFc_x8vhI0tFBCUCWbeZA.png" alt="code"></p>
+<ul>
+<li>You can test it directly on an Android Phone (ARCore compatible). Connect the phone via USB, and test it with ARCore Instant preview. It needs some extra services running on the device. Alternatively, you can just build and run the project for android, and it will install the app to the device, and you can play with your XR app.
+This completes the first part, and now we know how a typical AR app is built and delivered.
+Find the source code <a href="https://github.com/thinkuldeep/hello-xr">here</a></li>
+</ul>
+<p><img src="https://miro.medium.com/max/478/1*OgtNLexicWqI97C4Ykcxsw.gif" alt="demo"></p>
+<h1 id="hello-web-xr">Hello Web XR!</h1>
+<p>Let’s say hello to Web XR. We will try to implement a similar example that we have implemented in the last section, but this time without the Unity 3D platform and without building an app for the device. We will implement a simple web page that can do the same, using WebXR library <a href="https://threejs.org">https://threejs.org</a></p>
+<h2 id="create-a-web-page">Create a web page</h2>
+<ul>
+<li>Create a work folder and open it in the editor — I use Intellij but you may use any text editor. Create an HTML file and host it in web-server — <code>index.html</code>, <a href="https://www.jetbrains.com/help/idea/php-built-in-web-server.html">Intellij has built it web-server</a> which is just a click away, but you may use <a href="https://threejs.org/docs/#manual/en/introduction/How-to-run-things-locally">other easy ways</a></li>
+<li>You may download <a href="https://github.com/mrdoob/three.js/archive/master.zip">three.js dependencies</a> on your own or just download via some package manager — <code>npm install three</code></li>
+<li>Follow the steps described by three.js and update the index.html page — <a href="https://threejs.org/docs/#manual/en/introduction/Creating-a-scene">Creating-a-scene</a></li>
+<li>For XR enabled scene keep renderer.xr.enabled = true;</li>
+<li>Now, <code>index.html</code> looks like below with an On Touch logic which adds a cube on touching the screen.</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;module&#34;</span>&gt;
+  <span style="color:#66d9ef">import</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">as</span> <span style="color:#a6e22e">THREE</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;./node_modules/three/build/three.module.js&#39;</span>;
+  <span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">ARButton</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;./node_modules/three/examples/jsm/webxr/ARButton.js&#39;</span>;
+  <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">container</span>;
+  <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">camera</span>, <span style="color:#a6e22e">scene</span>, <span style="color:#a6e22e">renderer</span>, <span style="color:#a6e22e">lastmesh</span>;
+  <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">controller</span>;
+  <span style="color:#a6e22e">init</span>();
+  <span style="color:#a6e22e">animate</span>();
+  <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">init</span>() {
+    <span style="color:#a6e22e">container</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>( <span style="color:#e6db74">&#39;div&#39;</span> );
+    document.<span style="color:#a6e22e">body</span>.<span style="color:#a6e22e">appendChild</span>( <span style="color:#a6e22e">container</span> );
+    <span style="color:#a6e22e">scene</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">THREE</span>.<span style="color:#a6e22e">Scene</span>();
+    <span style="color:#a6e22e">camera</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">THREE</span>.<span style="color:#a6e22e">PerspectiveCamera</span>( <span style="color:#ae81ff">70</span>, window.<span style="color:#a6e22e">innerWidth</span> <span style="color:#f92672">/</span> window.<span style="color:#a6e22e">innerHeight</span>, <span style="color:#ae81ff">0.01</span>, <span style="color:#ae81ff">20</span> );
+    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">light</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">THREE</span>.<span style="color:#a6e22e">HemisphereLight</span>( <span style="color:#ae81ff">0xffffff</span>, <span style="color:#ae81ff">0xbbbbff</span>, <span style="color:#ae81ff">1</span> );
+    <span style="color:#a6e22e">light</span>.<span style="color:#a6e22e">position</span>.<span style="color:#a6e22e">set</span>( <span style="color:#ae81ff">0.5</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0.25</span> );
+    <span style="color:#a6e22e">scene</span>.<span style="color:#a6e22e">add</span>( <span style="color:#a6e22e">light</span> );
+    <span style="color:#a6e22e">renderer</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">THREE</span>.<span style="color:#a6e22e">WebGLRenderer</span>( { <span style="color:#a6e22e">antialias</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>, <span style="color:#a6e22e">alpha</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span> } );
+    <span style="color:#a6e22e">renderer</span>.<span style="color:#a6e22e">setPixelRatio</span>( window.<span style="color:#a6e22e">devicePixelRatio</span> );
+    <span style="color:#a6e22e">renderer</span>.<span style="color:#a6e22e">setSize</span>( window.<span style="color:#a6e22e">innerWidth</span>, window.<span style="color:#a6e22e">innerHeight</span> );
+    <span style="color:#a6e22e">renderer</span>.<span style="color:#a6e22e">xr</span>.<span style="color:#a6e22e">enabled</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;
+    <span style="color:#a6e22e">container</span>.<span style="color:#a6e22e">appendChild</span>( <span style="color:#a6e22e">renderer</span>.<span style="color:#a6e22e">domElement</span> );
+    document.<span style="color:#a6e22e">body</span>.<span style="color:#a6e22e">appendChild</span>( <span style="color:#a6e22e">ARButton</span>.<span style="color:#a6e22e">createButton</span>( <span style="color:#a6e22e">renderer</span> ) );
+    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">geometry</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">THREE</span>.<span style="color:#a6e22e">BoxGeometry</span>( <span style="color:#ae81ff">0.1</span>, <span style="color:#ae81ff">0.1</span>, <span style="color:#ae81ff">0.1</span> );
+    <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">onSelect</span>() {
+      <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">material</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">THREE</span>.<span style="color:#a6e22e">MeshNormalMaterial</span>();
+      <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">mesh</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">THREE</span>.<span style="color:#a6e22e">Mesh</span>( <span style="color:#a6e22e">geometry</span>, <span style="color:#a6e22e">material</span> );
+      <span style="color:#a6e22e">mesh</span>.<span style="color:#a6e22e">position</span>.<span style="color:#a6e22e">set</span>( <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#f92672">-</span> <span style="color:#ae81ff">0.3</span> ).<span style="color:#a6e22e">applyMatrix4</span>( <span style="color:#a6e22e">controller</span>.<span style="color:#a6e22e">matrixWorld</span> );
+      <span style="color:#a6e22e">mesh</span>.<span style="color:#a6e22e">quaternion</span>.<span style="color:#a6e22e">setFromRotationMatrix</span>( <span style="color:#a6e22e">controller</span>.<span style="color:#a6e22e">matrixWorld</span> );
+      <span style="color:#a6e22e">scene</span>.<span style="color:#a6e22e">add</span>(<span style="color:#a6e22e">mesh</span>);
+      <span style="color:#a6e22e">lastmesh</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">mesh</span>;
+    }
+    <span style="color:#a6e22e">controller</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">renderer</span>.<span style="color:#a6e22e">xr</span>.<span style="color:#a6e22e">getController</span>( <span style="color:#ae81ff">0</span> );
+    <span style="color:#a6e22e">controller</span>.<span style="color:#a6e22e">addEventListener</span>( <span style="color:#e6db74">&#39;select&#39;</span>, <span style="color:#a6e22e">onSelect</span> );
+    <span style="color:#a6e22e">scene</span>.<span style="color:#a6e22e">add</span>( <span style="color:#a6e22e">controller</span> );
+    window.<span style="color:#a6e22e">addEventListener</span>( <span style="color:#e6db74">&#39;resize&#39;</span>, <span style="color:#a6e22e">onWindowResize</span>, <span style="color:#66d9ef">false</span> );
+  }
+  <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">onWindowResize</span>() {
+    <span style="color:#a6e22e">camera</span>.<span style="color:#a6e22e">aspect</span> <span style="color:#f92672">=</span> window.<span style="color:#a6e22e">innerWidth</span> <span style="color:#f92672">/</span> window.<span style="color:#a6e22e">innerHeight</span>;
+    <span style="color:#a6e22e">camera</span>.<span style="color:#a6e22e">updateProjectionMatrix</span>();
+    <span style="color:#a6e22e">renderer</span>.<span style="color:#a6e22e">setSize</span>( window.<span style="color:#a6e22e">innerWidth</span>, window.<span style="color:#a6e22e">innerHeight</span> );
+  }
+  <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">animate</span>() {
+    <span style="color:#a6e22e">renderer</span>.<span style="color:#a6e22e">setAnimationLoop</span>( <span style="color:#a6e22e">render</span> );
+  }
+  <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">render</span>() {
+    <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">lastmesh</span>){
+      <span style="color:#a6e22e">lastmesh</span>.<span style="color:#a6e22e">rotation</span>.<span style="color:#a6e22e">x</span> <span style="color:#f92672">+=</span> <span style="color:#ae81ff">0.1</span>;
+      <span style="color:#a6e22e">lastmesh</span>.<span style="color:#a6e22e">rotation</span>.<span style="color:#a6e22e">y</span> <span style="color:#f92672">+=</span> <span style="color:#ae81ff">0.2</span>;
+    }
+    <span style="color:#a6e22e">renderer</span>.<span style="color:#a6e22e">render</span>(<span style="color:#a6e22e">scene</span>, <span style="color:#a6e22e">camera</span> );
+  }
+&lt;/<span style="color:#f92672">script</span>&gt;
+</code></pre></div><h2 id="host-and-test-the-web-page">Host and test the web page</h2>
+<p>Publish the page in the web-server and test it. The page is now hosted in the inbuilt web-server of IntelliJ, <a href="https://www.jetbrains.com/help/idea/php-built-in-web-server.html">make sure external access is enabled</a>. <code>http://localhost:8001/hello-webxr/index.html</code>. It is still not ready to be used on browsers, we need to do some customizations on the browsers to make it work.</p>
+<p>On PC, we need to install WebXR <a href="https://blog.mozvr.com/webxr-emulator-extension/">emulators</a> in the browser to make it work. VR emulator is great but the AR emulator still doesn’t work well.</p>
+<p>On Mobile, open chrome browser and open <code>chrome://flags</code> page. Search for XR and enable all the experimental features. Make sure The <a href="https://developers.google.com/ar/discover/supported-devices">device must have ARCore support</a>.
+<img src="https://miro.medium.com/max/648/1*Gh3KqgVdNzVVXMllhigXUA.png" alt="flags"></p>
+<p>Now we want to test the page which is running on PC/Laptop in the chrome browser on the android phone. There are multiple ways to do that (port forwarding, hotspot, etc). Simplest is, come on the same wifi network and access the page via IP instead of localhost. Type in <code>http://192.168.0.6:8001/hello-webxr/index.html</code></p>
+<p>Once the web page is loaded, it will ask to start XR experience, and also ask for the user consent for accessing the camera.</p>
+<p>Once approved, it scans the area and you can start placing the cubes.</p>
+<p>Source code is available <a href="https://github.com/thinkuldeep/hello-webxr">here</a></p>
+<p><img src="https://miro.medium.com/max/478/1*Vdx66t8bjwzeW5VM5RC3xQ.gif" alt="WebXR"></p>
+<p>Try this link in your android phone right now, and experience the WebXR.
+<a href="https://thinkuldeep.github.io/hello-webxr">https://thinkuldeep.github.io/hello-webxr/</a></p>
+<p>I tried, a similar implementation can be done with Babylon JS but “immersive-ar” mode is not stable there when we host webpage, however, “immersive-vr” mode works great.
+So these webpages can be opened in any supported browser on the XR devices, you get all advantage of Web, and server the XR content simply from your website.
+This completes our introduction with WebXR.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>We have got an introduction to XR as well as WebXR. There are some features in XR which may not be achieved by WebXR but it is still a great option to take the technology to a wider audience. There are already great examples at the respective sites of these libraries, the community is also submitting some good projects samples and games. Try those, and stay tuned to WebXR, it is coming.</p>
+<p>It is originally published at <a href="https://medium.com/xrpractices/webxr-the-new-web-779168b1e6f4">XR Practices Medium Publication</a></p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/xr" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">xr</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/webxr" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">webxr</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/ar" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">ar</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/immersive-web" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">immersive-web</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/spatialweb" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">spatialweb</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/general" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">general</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://thinkuldeep.github.io/" >
+    &copy;  Kuldeep Singh 2020 
+  </a>
+    <div>
+
+
+<a href="https://www.thoughtworks.com/profiles/kuldeep-singh" target="_blank" class="link-transition instagram link dib z-999 pt3 pt0-l mr1" title="ThougthWorks link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+    <svg  height="36px"  style="enable-background:new 0 0 65 35;" version="1.1" viewBox="0 0 65 30" width="36px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M0 5.93V0h25.132v5.93h-9.06v29h-7v-29zM29.255 0h3.5L38.5 28.2 44.87 0h3.463l6.052 28.188L60.535 0H64l-8 34.92h-3.587l-5.93-28.546L40.16 34.92h-3.587z"
+      style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://www.linkedin.com/in/kuldeep-reck/" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/thinkuldeep" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://gitlab.com/kuldeeps2" target="_blank" class="link-transition gitlab link dib z-999 pt3 pt0-l mr1" title="Gitlab link" rel="noopener" aria-label="follow on Gitlab——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M29.782 199.732L256 493.714 8.074 309.699c-6.856-5.142-9.712-13.996-7.141-21.993l28.849-87.974zm75.405-174.806c-3.142-8.854-15.709-8.854-18.851 0L29.782 199.732h131.961L105.187 24.926zm56.556 174.806L256 493.714l94.257-293.982H161.743zm349.324 87.974l-28.849-87.974L256 493.714l247.926-184.015c6.855-5.142 9.711-13.996 7.141-21.993zm-85.404-262.78c-3.142-8.854-15.709-8.854-18.851 0l-56.555 174.806h131.961L425.663 24.926z"></path></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://twitter.com/thinkuldeep" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://www.instagram.com/thinkuldeep/" target="_blank" class="link-transition instagram link dib z-999 pt3 pt0-l mr1" title="Instagram link" rel="noopener" aria-label="follow on Instagram——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.271,26.578v-0.006c0.502,0,1.005,0.01,1.508-0.002  c0.646-0.017,1.172-0.57,1.172-1.217c0-0.963,0-1.927,0-2.89c0-0.691-0.547-1.24-1.236-1.241c-0.961,0-1.922-0.001-2.883,0  c-0.688,0.001-1.236,0.552-1.236,1.243c-0.001,0.955-0.004,1.91,0.003,2.865c0.001,0.143,0.028,0.291,0.073,0.426  c0.173,0.508,0.639,0.82,1.209,0.823C41.344,26.579,41.808,26.578,42.271,26.578z M33,27.817c-3.384-0.002-6.135,2.721-6.182,6.089  c-0.049,3.46,2.72,6.201,6.04,6.272c3.454,0.074,6.248-2.686,6.321-6.043C39.254,30.675,36.462,27.815,33,27.817z M21.046,31.116  v0.082c0,4.515-0.001,9.03,0,13.545c0,0.649,0.562,1.208,1.212,1.208c7.16,0.001,14.319,0.001,21.479,0  c0.656,0,1.215-0.557,1.215-1.212c0.001-4.509,0-9.02,0-13.528v-0.094h-2.912c0.411,1.313,0.537,2.651,0.376,4.014  c-0.161,1.363-0.601,2.631-1.316,3.803s-1.644,2.145-2.779,2.918c-2.944,2.006-6.821,2.182-9.946,0.428  c-1.579-0.885-2.819-2.12-3.685-3.713c-1.289-2.373-1.495-4.865-0.739-7.451C22.983,31.116,22.021,31.116,21.046,31.116z   M45.205,49.255c0.159-0.026,0.318-0.049,0.475-0.083c1.246-0.265,2.264-1.304,2.508-2.557c0.025-0.137,0.045-0.273,0.067-0.409  V21.794c-0.021-0.133-0.04-0.268-0.065-0.401c-0.268-1.367-1.396-2.428-2.78-2.618c-0.058-0.007-0.113-0.02-0.17-0.03H20.761  c-0.147,0.027-0.296,0.047-0.441,0.08c-1.352,0.308-2.352,1.396-2.545,2.766c-0.008,0.057-0.02,0.114-0.029,0.171V46.24  c0.028,0.154,0.05,0.311,0.085,0.465c0.299,1.322,1.427,2.347,2.77,2.52c0.064,0.008,0.13,0.021,0.195,0.03H45.205z M33,64  C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+
+<a href="https://medium.com/@thinkuldeep" target="_blank" class="link-transition medium link dib z-999 pt3 pt0-l mr1" title="Medium link" rel="noopener" aria-label="follow on Medium——Opens in a new window">
+    <svg  height="32px"  style="enable-background:new 0 0 170 170;" version="1.1" viewBox="0 0 170 170" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M46.5340803,65.2157554 C46.6968378,63.6076572 46.0836,62.018231 44.8828198,60.93592 L32.6512605,46.2010582 L32.6512605,44 L70.6302521,44 L99.9859944,108.380952 L125.794585,44 L162,44 L162,46.2010582 L151.542017,56.2281011 C150.640424,56.9153477 150.193188,58.0448862 150.380019,59.1628454 L150.380019,132.837155 C150.193188,133.955114 150.640424,135.084652 151.542017,135.771899 L161.755369,145.798942 L161.755369,148 L110.38282,148 L110.38282,145.798942 L120.963119,135.527337 C122.002801,134.487948 122.002801,134.182246 122.002801,132.592593 L122.002801,73.0417402 L92.585901,147.755438 L88.6106443,147.755438 L54.3622782,73.0417402 L54.3622782,123.115814 C54.0767278,125.221069 54.7759199,127.3406 56.2581699,128.863022 L70.0186741,145.55438 L70.0186741,147.755438 L31,147.755438 L31,145.55438 L44.7605042,128.863022 C46.2319621,127.338076 46.8903838,125.204485 46.5340803,123.115814 L46.5340803,65.2157554 Z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

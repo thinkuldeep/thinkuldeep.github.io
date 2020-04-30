@@ -31,6 +31,20 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/tutorial/</loc>
+    <lastmod>2020-04-26T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/tutorials/</loc>
+    <lastmod>2020-04-26T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/unity/</loc>
     <lastmod>2020-04-26T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -87,6 +101,13 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/webxr/</loc>
+    <lastmod>2020-04-11T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/post/webxr-the-new-web/</loc>
     <lastmod>2020-04-11T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -94,8 +115,57 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/wenbxr/</loc>
-    <lastmod>2020-04-11T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/post/extending_reality_with_ar_and_vr-2/</loc>
+    <lastmod>2020-04-10T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/mr/</loc>
+    <lastmod>2020-04-10T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/usecases/</loc>
+    <lastmod>2020-04-10T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/extending_reality_with_ar_and_vr-1/</loc>
+    <lastmod>2020-04-05T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/fundamentals/</loc>
+    <lastmod>2020-04-05T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/covid19/</loc>
+    <lastmod>2020-04-02T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/work-from-home/</loc>
+    <lastmod>2020-04-02T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/xr-development-from-home/</loc>
+    <lastmod>2020-04-02T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

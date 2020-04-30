@@ -18,9 +18,13 @@
     
 
     
+      <link rel="stylesheet" href="/css/custom.css">
+    
 
     
       
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
     
 
     
@@ -39,7 +43,7 @@
 
 
 
-<meta itemprop="keywords" content="xr,ar,vr,exterprisexr,android,unity," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="xr,ar,vr,exterprisexr,android,unity,tutorials," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="User Account Management In XR"/>
 <meta name="twitter:description" content="In the previous article, we described the importance of interoperability in while building Enterprise XR solutions, In the article, we will discuss how to manage user accounts in the XR device, and implement single sign-on across the XR apps. We will use Android’s AccountManger approach to login into active directory and integrated it into Unity. Please read my earlier article on setting up the app in active directory, log in using android webview, considering a web-based company login form should appear for login, and no custom login form is allowed to capture the credentials."/>
 
@@ -48,7 +52,7 @@
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-164764029-1', 'auto');
+	ga('create', 'UA-165124840-1', 'auto');
 	
 	ga('send', 'pageview');
 }
@@ -66,7 +70,7 @@ if (!doNotTrack) {
 
   
   
-  <header class="cover bg-top" style="background-image: url('https://thinkuldeep.github.io/images/user-account-management-in-xr.gif');">
+  <header class="cover bg-top" style="background-image: url('https://thinkuldeep.github.io/images/user-account-management-in-xr1.gif');">
     <div class="pb3-m pb6-l bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
@@ -713,7 +717,7 @@ If the intent is available, means the XR authenticator app is installed in the d
 <li>Now go back to the Account Authenticator app, and logout (ie remove the account).</li>
 <li>On the Account Viewer app, the cube is no more rotating, and no user profile data is shown.</li>
 </ul>
-<p><img src="https://miro.medium.com/max/766/1*J_IalmJe1-h7QvTcqLFXfQ.gif" alt="Test"></p>
+<p><img src="/images/user-account-management-in-xr1.gif" alt="Test"></p>
 <p>This completes the tests. You can found complete source code here :</p>
 <ul>
 <li>Android Library: <a href="https://github.com/thinkuldeep/xr-user-authentication">https://github.com/thinkuldeep/xr-user-authentication</a></li>
@@ -749,6 +753,10 @@ If the intent is available, means the XR authenticator app is installed in the d
      <a href="/tags/unity" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">unity</a>
    </li>
   
+   <li class="list">
+     <a href="/tags/tutorials" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">tutorials</a>
+   </li>
+  
 </ul>
 <div class="mt6 instapaper_ignoref">
       
@@ -767,6 +775,18 @@ If the intent is available, means the XR authenticator app is installed in the d
 	   
 	     <li  class="mb2">
           <a href="/post/webxr-the-new-web/">WebXR - the new Web</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/extending_reality_with_ar_and_vr-2/">eXtending reality with AR and VR - Part 2</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/extending_reality_with_ar_and_vr-1/">eXtending reality with AR and VR - Part 1</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/xr-development-from-home/">XR development from home</a>
         </li>
 	    
     </ul>

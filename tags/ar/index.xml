@@ -29,5 +29,25 @@
       <description>The web has grown from a read-only web (Web 1.0) to interactive web (Web 2.0) and then moved into the semantic web which is more connected and more immersive. 3D content on the web is there for quite some time, the most web-browsers support rendering 3D content natively. The rise for XR technologies and advancements in devices and the internet is leading the demand for Web-based XR. It will be a norm for web-based development.</description>
     </item>
     
+    <item>
+      <title>eXtending reality with AR and VR - Part 2</title>
+      <link>https://thinkuldeep.github.io/post/extending_reality_with_ar_and_vr-2/</link>
+      <pubDate>Fri, 10 Apr 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/extending_reality_with_ar_and_vr-2/</guid>
+      <description>In Part I of the article, we summarized our observations of eXtended reality’s foundational blocks - AR, VR and MR. We also discussed the popular and most relevant tools and implementations of the new technology. In Part II of the article, we will be looking at a few accessible and novel implementations of the tech.
+At ThoughtWorks, we have delivered both XR solutions and components of XR SDK (Software Development Kit) on the back of which XR solutions are built.</description>
+    </item>
+    
+    <item>
+      <title>eXtending reality with AR and VR - Part 1</title>
+      <link>https://thinkuldeep.github.io/post/extending_reality_with_ar_and_vr-1/</link>
+      <pubDate>Sun, 05 Apr 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/extending_reality_with_ar_and_vr-1/</guid>
+      <description>The way we interact with technology today is not too far from what was predicted by futuristic, sci-fi pop culture. We are living in a world where sophisticated touch and gesture based interactions are collaborating with state of the art wearables, sensors, Augmented Reality (AR), Virtual Reality (VR) and Mixed Reality (MR). And, this is eXtending user experiences to be extremely immersive.
+Add to this, Gartner’s expectation that 5G and AR/VR implementation will transform not only customer engagement but brands’ entire product management cycles as well.</description>
+    </item>
+    
   </channel>
 </rss>

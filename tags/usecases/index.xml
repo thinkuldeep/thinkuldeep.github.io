@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>usecases on Kuldeep Singh</title>
+    <link>https://thinkuldeep.github.io/tags/usecases/</link>
+    <description>Recent content in usecases on Kuldeep Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Apr 2020 10:58:08 -0400</lastBuildDate>
+    
+	<atom:link href="https://thinkuldeep.github.io/tags/usecases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>eXtending reality with AR and VR - Part 2</title>
+      <link>https://thinkuldeep.github.io/post/extending_reality_with_ar_and_vr-2/</link>
+      <pubDate>Fri, 10 Apr 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/extending_reality_with_ar_and_vr-2/</guid>
+      <description>In Part I of the article, we summarized our observations of eXtended reality’s foundational blocks - AR, VR and MR. We also discussed the popular and most relevant tools and implementations of the new technology. In Part II of the article, we will be looking at a few accessible and novel implementations of the tech.
+At ThoughtWorks, we have delivered both XR solutions and components of XR SDK (Software Development Kit) on the back of which XR solutions are built.</description>
+    </item>
+    
+  </channel>
+</rss>

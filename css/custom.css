@@ -2,9 +2,13 @@
   max-width:none;
 }
 
-.pv6-l, .pv6, .pb6-l {
+.pb6-l {
+    padding-bottom: 0rem;
+}
+
+.pv6-l, .pv6 {
     padding-top: 2rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 

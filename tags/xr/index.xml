@@ -6,10 +6,21 @@
     <description>Recent content in xr on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Apr 2020 10:58:08 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2020 10:58:08 -0400</lastBuildDate>
     
 	<atom:link href="https://thinkuldeep.github.io/tags/xr/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Spatial Web - Life beyond Keyboard and Screen</title>
+      <link>https://thinkuldeep.github.io/talk/gids_2020_blr_spatialweb/</link>
+      <pubDate>Thu, 20 Aug 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/talk/gids_2020_blr_spatialweb/</guid>
+      <description>Get ready: Great International Developer Summit is re-scheduled from 17-21st Aug, in Bangalore.
+Come and talk about the life beyond keyboard and screens, spatial web is taking over get ready&amp;hellip;
+ The talk is about Spatial Web is an umbrella term for the next generation web technologies that will transform every aspect of our life. It will connect the human and machines seamlessly such that the difference between physical and virtual will disappear.</description>
+    </item>
     
     <item>
       <title>User Account Management In XR</title>
@@ -56,6 +67,29 @@ Add to this, Gartner’s expectation that 5G and AR/VR implementation will trans
       
       <guid>https://thinkuldeep.github.io/post/xr-development-from-home/</guid>
       <description>Covid19 has challenged the way we eat, the way we commute, the way we socialize, and the way we work. In short, it impacted the way we live. More than a million people got infected and the number is growing exponentially, it has impacted the whole world. We need to find new ways of life and change our focus and priorities to save nature and humanity. Technology can play a great role in coping with it.</description>
+    </item>
+    
+    <item>
+      <title>SLAM Aware Applications</title>
+      <link>https://thinkuldeep.github.io/talk/thougthwors_awayday_2019_slam_aware_apps/</link>
+      <pubDate>Thu, 19 Sep 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/talk/thougthwors_awayday_2019_slam_aware_apps/</guid>
+      <description>Presented At : Thoutworks&amp;rsquo;s Awayday 2019, where the entire ThoughtWorks India travelled to celebrate togetherness.
+Around 2000 Thoghtworkers get together, and enjoyed fusion of technology showcases, cultural event and more.
+Glimpse here
+ I and my colleague Raju Kandaswamy presented this talk in the breakout sessions in category Seismic Shifts
+The talk is about  What is SLAM (Simultaneous Localization And Mapping)? The use cases of SLAM? How does it work?</description>
+    </item>
+    
+    <item>
+      <title>Think Beyond Keyboard and Screen</title>
+      <link>https://thinkuldeep.github.io/talk/google_devfest_2019_think_beyond_keyboard_and_screen/</link>
+      <pubDate>Thu, 05 Sep 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/talk/google_devfest_2019_think_beyond_keyboard_and_screen/</guid>
+      <description>Presented At : Google DevFest 2019, by Google Developer&amp;rsquo;s Group, GDG Cloud Delhi .
+The talks is about  How the User interactions evolved with time? Why is it important to think beyond the tradition keyboard and screen? Where is the industry heading? How will it impact us?  Intro here  Explore the world beyond your normal ways of communicating with smart devices! #Explore AR/VR with @thinkuldeep@WTM_Delhi @gdg_nd @thoughtworksIN</description>
     </item>
     
   </channel>

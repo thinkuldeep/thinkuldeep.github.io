@@ -1,8 +1,15 @@
 .measure-wide {
-    max-width:none;
+  max-width:none;
 }
 
-.pv6-l, .pv6 {
+.pv6-l, .pv6, .pb6-l {
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
+}
+
+
+img[src*="#profile"] {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
 }

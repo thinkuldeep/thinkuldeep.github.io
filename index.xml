@@ -70,6 +70,26 @@ Add to this, Gartner’s expectation that 5G and AR/VR implementation will trans
     </item>
     
     <item>
+      <title>Enterprise XR - Interoperability</title>
+      <link>https://thinkuldeep.github.io/post/enterprise-xr-interoperability/</link>
+      <pubDate>Sat, 28 Mar 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/enterprise-xr-interoperability/</guid>
+      <description>In the previous article, we discussed implementing multi-factor authentication for an andorid application, and in the article we will cover another enterprise aspect, Interoperability.
+Interoperability is key aspect when we build enterprise solutions using XR technologies. The enterprises have digital assets in form of mobile apps, libraries, system APIs, and they can’t just throw away these existing investments, in fact, the XR apps must be implemented in such a way that it is interoperable with them seamlessly.</description>
+    </item>
+    
+    <item>
+      <title>Enterprise XR - Multi-Factor Authentication</title>
+      <link>https://thinkuldeep.github.io/post/enterprise-xr-multi-factor-authentication/</link>
+      <pubDate>Wed, 25 Mar 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/enterprise-xr-multi-factor-authentication/</guid>
+      <description>XR use cases are growing with advancements in the devices, internet and development technologies. There is an ever-growing demand to build enterprise use cases using ARVR technology. Most enterprise use cases eventually require integration with an enterprise ecosystem such as IAM (Identity and Access Management), ERP, CRM, and single sign-on with other systems.
+Most organizations protect digital assets with a single sign-on using Multiple Factor Authentication (MFA). The MFA is generally a web-browser based authentication where the browser redirects to tenant’s authentication page where the user provides their credentials and then the user confirms another factor (PIN, OTP, SMS or mobile notifications), once it succeeds, it gets redirected back to the protected resource.</description>
+    </item>
+    
+    <item>
       <title>SLAM Aware Applications</title>
       <link>https://thinkuldeep.github.io/talk/thougthwors_awayday_2019_slam_aware_apps/</link>
       <pubDate>Thu, 19 Sep 2019 10:58:08 -0400</pubDate>

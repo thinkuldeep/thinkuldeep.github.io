@@ -185,6 +185,34 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/post/enterprise-xr-interoperability/</loc>
+    <lastmod>2020-03-28T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/integration/</loc>
+    <lastmod>2020-03-28T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/enterprise-xr-multi-factor-authentication/</loc>
+    <lastmod>2020-03-25T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/mfa/</loc>
+    <lastmod>2020-03-25T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/post/</loc>
     <lastmod>2020-03-02T12:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>

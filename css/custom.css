@@ -18,26 +18,3 @@ img[src*="#profile"] {
     margin-right: auto;
 }
 
-.tags {
-    float: left;
-    width: 100%;;
-}
-
-.tags li {
-    float: left;
-    width: 20%;
-}
-
-.tags li.first {
-    clear:left;
-}
-
-.tags ul,
-.tags ul li {
-    float: none;
-    width: 100%;
-}
-
-.clear-left {
-    clear: left;
-}

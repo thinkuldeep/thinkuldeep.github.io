@@ -18,3 +18,12 @@ img[src*="#profile"] {
     margin-right: auto;
 }
 
+img.home-link {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+img.home-link:hover {
+    border: 3px solid #dcf000;
+}

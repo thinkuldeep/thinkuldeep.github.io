@@ -59,7 +59,21 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/book-review/</loc>
+    <lastmod>2020-05-03T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/post/change_to_become_more_successful_/</loc>
+    <lastmod>2020-05-03T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/covid19/</loc>
     <lastmod>2020-05-03T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -81,6 +95,13 @@
   
   <url>
     <loc>https://thinkuldeep.github.io/tags/success/</loc>
+    <lastmod>2020-05-03T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/takeaways/</loc>
     <lastmod>2020-05-03T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -150,6 +171,13 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/thoughtworks/</loc>
+    <lastmod>2020-04-10T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/usecases/</loc>
     <lastmod>2020-04-10T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -166,13 +194,6 @@
   <url>
     <loc>https://thinkuldeep.github.io/tags/fundamentals/</loc>
     <lastmod>2020-04-05T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/covid19/</loc>
-    <lastmod>2020-04-02T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -241,6 +262,69 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/post/success_mantra_amazon/</loc>
+    <lastmod>2020-01-24T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/augmenting_the_travel_reality/</loc>
+    <lastmod>2019-11-26T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/transportation/</loc>
+    <lastmod>2019-11-26T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/travel/</loc>
+    <lastmod>2019-11-26T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/ide/</loc>
+    <lastmod>2019-10-30T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/sonarqube/</loc>
+    <lastmod>2019-10-30T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/static-code-analysis/</loc>
+    <lastmod>2019-10-30T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/static_code_analysis_unity_2/</loc>
+    <lastmod>2019-10-30T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/static_code_analysis_unity_1/</loc>
+    <lastmod>2019-10-29T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/talk/thougthworks_awayday_2019_slam_aware_apps/</loc>
     <lastmod>2019-09-19T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -250,6 +334,27 @@
   <url>
     <loc>https://thinkuldeep.github.io/tags/slam/</loc>
     <lastmod>2019-09-19T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/inception/</loc>
+    <lastmod>2019-09-15T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/inception_workshop_key_takaways/</loc>
+    <lastmod>2019-09-15T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/workshop/</loc>
+    <lastmod>2019-09-15T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

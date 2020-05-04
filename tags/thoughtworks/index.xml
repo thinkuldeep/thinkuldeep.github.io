@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>thoughtworks on Kuldeep Singh</title>
+    <link>https://thinkuldeep.github.io/tags/thoughtworks/</link>
+    <description>Recent content in thoughtworks on Kuldeep Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Apr 2020 10:58:08 -0400</lastBuildDate>
+    
+	<atom:link href="https://thinkuldeep.github.io/tags/thoughtworks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>eXtending reality with AR and VR - Part 2</title>
+      <link>https://thinkuldeep.github.io/post/extending_reality_with_ar_and_vr-2/</link>
+      <pubDate>Fri, 10 Apr 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/extending_reality_with_ar_and_vr-2/</guid>
+      <description>In Part I of the article, we summarized our observations of eXtended reality’s foundational blocks - AR, VR and MR. We also discussed the popular and most relevant tools and implementations of the new technology. In Part II of the article, we will be looking at a few accessible and novel implementations of the tech.
+At ThoughtWorks, we have delivered both XR solutions and components of XR SDK (Software Development Kit) on the back of which XR solutions are built.</description>
+    </item>
+    
+    <item>
+      <title>eXtending reality with AR and VR - Part 1</title>
+      <link>https://thinkuldeep.github.io/post/extending_reality_with_ar_and_vr-1/</link>
+      <pubDate>Sun, 05 Apr 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/extending_reality_with_ar_and_vr-1/</guid>
+      <description>The way we interact with technology today is not too far from what was predicted by futuristic, sci-fi pop culture. We are living in a world where sophisticated touch and gesture based interactions are collaborating with state of the art wearables, sensors, Augmented Reality (AR), Virtual Reality (VR) and Mixed Reality (MR). And, this is eXtending user experiences to be extremely immersive.
+Add to this, Gartner’s expectation that 5G and AR/VR implementation will transform not only customer engagement but brands’ entire product management cycles as well.</description>
+    </item>
+    
+    <item>
+      <title>XR development from home</title>
+      <link>https://thinkuldeep.github.io/post/xr-development-from-home/</link>
+      <pubDate>Thu, 02 Apr 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/xr-development-from-home/</guid>
+      <description>Covid19 has challenged the way we eat, the way we commute, the way we socialize, and the way we work. In short, it impacted the way we live. More than a million people got infected and the number is growing exponentially, it has impacted the whole world. We need to find new ways of life and change our focus and priorities to save nature and humanity. Technology can play a great role in coping with it.</description>
+    </item>
+    
+    <item>
+      <title>Inception Workshop | Key Takeaways</title>
+      <link>https://thinkuldeep.github.io/post/inception_workshop_key_takaways/</link>
+      <pubDate>Sun, 15 Sep 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/inception_workshop_key_takaways/</guid>
+      <description>Inception exercise is very common in software development, where we gather the business requirements and define the delivery plan for the MVP(Minimum Viable Product) on a shared understanding. There are a set of tools and practices available to define the MVP requirements and its delivery plan. Famous tools are Lean Value Tree, Business Model Canvas, Plane Map, Elevator Pitch, Futurespective, Empathy Maps, Value Proposition Canvas, User Journey Map, Gamestorming, Process Diagram, MoSCoW, Communication Plan, Project Plan etc.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -57,6 +57,24 @@
     </item>
     
     <item>
+      <title>book-review</title>
+      <link>https://thinkuldeep.github.io/tags/book-review/</link>
+      <pubDate>Sun, 03 May 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/book-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>covid19</title>
+      <link>https://thinkuldeep.github.io/tags/covid19/</link>
+      <pubDate>Sun, 03 May 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/covid19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>general</title>
       <link>https://thinkuldeep.github.io/tags/general/</link>
       <pubDate>Sun, 03 May 2020 10:58:08 -0400</pubDate>
@@ -80,6 +98,15 @@
       <pubDate>Sun, 03 May 2020 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/tags/success/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>takeaways</title>
+      <link>https://thinkuldeep.github.io/tags/takeaways/</link>
+      <pubDate>Sun, 03 May 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/takeaways/</guid>
       <description></description>
     </item>
     
@@ -138,6 +165,15 @@
     </item>
     
     <item>
+      <title>thoughtworks</title>
+      <link>https://thinkuldeep.github.io/tags/thoughtworks/</link>
+      <pubDate>Fri, 10 Apr 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/thoughtworks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>usecases</title>
       <link>https://thinkuldeep.github.io/tags/usecases/</link>
       <pubDate>Fri, 10 Apr 2020 10:58:08 -0400</pubDate>
@@ -152,15 +188,6 @@
       <pubDate>Sun, 05 Apr 2020 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/tags/fundamentals/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>covid19</title>
-      <link>https://thinkuldeep.github.io/tags/covid19/</link>
-      <pubDate>Thu, 02 Apr 2020 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.github.io/tags/covid19/</guid>
       <description></description>
     </item>
     
@@ -192,11 +219,74 @@
     </item>
     
     <item>
+      <title>transportation</title>
+      <link>https://thinkuldeep.github.io/tags/transportation/</link>
+      <pubDate>Tue, 26 Nov 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/transportation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>travel</title>
+      <link>https://thinkuldeep.github.io/tags/travel/</link>
+      <pubDate>Tue, 26 Nov 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ide</title>
+      <link>https://thinkuldeep.github.io/tags/ide/</link>
+      <pubDate>Wed, 30 Oct 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/ide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sonarqube</title>
+      <link>https://thinkuldeep.github.io/tags/sonarqube/</link>
+      <pubDate>Wed, 30 Oct 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/sonarqube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>static code analysis</title>
+      <link>https://thinkuldeep.github.io/tags/static-code-analysis/</link>
+      <pubDate>Wed, 30 Oct 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/static-code-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>slam</title>
       <link>https://thinkuldeep.github.io/tags/slam/</link>
       <pubDate>Thu, 19 Sep 2019 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/tags/slam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inception</title>
+      <link>https://thinkuldeep.github.io/tags/inception/</link>
+      <pubDate>Sun, 15 Sep 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/inception/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workshop</title>
+      <link>https://thinkuldeep.github.io/tags/workshop/</link>
+      <pubDate>Sun, 15 Sep 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/workshop/</guid>
       <description></description>
     </item>
     

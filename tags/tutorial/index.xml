@@ -49,5 +49,25 @@ Interoperability is key aspect when we build enterprise solutions using XR techn
 Most organizations protect digital assets with a single sign-on using Multiple Factor Authentication (MFA). The MFA is generally a web-browser based authentication where the browser redirects to tenant’s authentication page where the user provides their credentials and then the user confirms another factor (PIN, OTP, SMS or mobile notifications), once it succeeds, it gets redirected back to the protected resource.</description>
     </item>
     
+    <item>
+      <title>Static Code Analysis for Unity3D — Part 2</title>
+      <link>https://thinkuldeep.github.io/post/static_code_analysis_unity_2/</link>
+      <pubDate>Wed, 30 Oct 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/static_code_analysis_unity_2/</guid>
+      <description>This article is in continuation of Static Code Analysis for Unity3D — Part 1 where we talked about setting up a local sonar server, sonar scanner and running the analysis for a Unity3D project.
+It this article, we will discuss setting up the Static Code Analysis with SonarCube in IDE — Rider. We are using Rider as the “External Script Editor” in Unity. Configure Rider here in Unity&amp;gt; Preferences &amp;gt; External Tools &amp;gt; External Script Editor.</description>
+    </item>
+    
+    <item>
+      <title>Static Code Analysis for Unity3D — Part 1</title>
+      <link>https://thinkuldeep.github.io/post/static_code_analysis_unity_1/</link>
+      <pubDate>Tue, 29 Oct 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/static_code_analysis_unity_1/</guid>
+      <description>Static code analysis is a standard practice in software development. There are code scanner tools, which scans the code to find vulnerabilities. There are some nice tools for visualizing and managing code quality. One of the most used tool is SonarQube, supports 25+ languages and flexible configurations of the rules.
+There are not enough resources talking about static code analysis for Unity3D. This post covers steps to configure SonarQube and use it for scanning Unity projects.</description>
+    </item>
+    
   </channel>
 </rss>

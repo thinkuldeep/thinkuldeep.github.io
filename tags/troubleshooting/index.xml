@@ -20,5 +20,14 @@
       <description>IT Modernization is one of the key factors of today&amp;rsquo;s digital transformation. Most of the enterprises trying to define digital transformation strategy. IT organizations trying to redesign the organizations to meet the changing business need, and uplift the technology and people. Non-IT organizations are also trying to setup digital department to take care of companies digital assets and modernize them. However, IT modernization does not always result in a profit, it may lead to revenue loss if it does not fit to the organization design.</description>
     </item>
     
+    <item>
+      <title>Request Tracing Using Nginx and Spring Boot</title>
+      <link>https://thinkuldeep.github.io/post/request-tracing/</link>
+      <pubDate>Tue, 02 Oct 2018 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/request-tracing/</guid>
+      <description>Most web applications are hosted behind a load balancer or web-server such as Nginx/HTTPD, which intercepts all the requests and directs dynamic content requests to the application server, such as Tomcat. Correlating requests traversing from the front-end server to the backend servers are general requirements. In this post, we will discuss tracing the request in the simplest way in an Nginx and Spring Boot-based application without using an external heavyweight library like Slueth.</description>
+    </item>
+    
   </channel>
 </rss>

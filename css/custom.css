@@ -7,7 +7,7 @@
 }
 
 .pv6-l, .pv6 {
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-bottom: 2rem;
 }
 
@@ -26,4 +26,12 @@ img.home-link {
 
 img.home-link:hover {
     border: 3px solid #dcf000;
+}
+
+.f-subheadline-l {
+    font-size: 3rem;
+}
+
+.pv3 {
+    padding-bottom: 0rem;
 }

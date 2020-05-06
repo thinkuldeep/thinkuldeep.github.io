@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pratice on Kuldeep Singh</title>
+    <link>https://thinkuldeep.github.io/tags/pratice/</link>
+    <description>Recent content in pratice on Kuldeep Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Sep 2018 10:58:08 -0400</lastBuildDate>
+    
+	<atom:link href="https://thinkuldeep.github.io/tags/pratice/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Boost your organisation agility by test-first-pair development</title>
+      <link>https://thinkuldeep.github.io/post/test-first-pair-development/</link>
+      <pubDate>Sat, 15 Sep 2018 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/test-first-pair-development/</guid>
+      <description>Agile software development methodology is the key selling point for most of the IT organisations, however many of the organisations have gone by the literal meaning of the word &amp;ldquo;Agile&amp;rdquo;. They follow agile practices without really being agile. If we go by Manifesto for Agile Software Development, it focus more on human factor (people, interaction, collaboration) which produces working software as per the need of time, than on processes, tools and strict planning.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -192,11 +192,38 @@
     </item>
     
     <item>
+      <title>agile</title>
+      <link>https://thinkuldeep.github.io/tags/agile/</link>
+      <pubDate>Thu, 02 Apr 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/agile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pair-development</title>
+      <link>https://thinkuldeep.github.io/tags/pair-development/</link>
+      <pubDate>Thu, 02 Apr 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/pair-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>work from home</title>
       <link>https://thinkuldeep.github.io/tags/work-from-home/</link>
       <pubDate>Thu, 02 Apr 2020 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/tags/work-from-home/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xp</title>
+      <link>https://thinkuldeep.github.io/tags/xp/</link>
+      <pubDate>Thu, 02 Apr 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/xp/</guid>
       <description></description>
     </item>
     
@@ -449,6 +476,87 @@
       <pubDate>Fri, 15 Feb 2019 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/tags/spring-boot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>design</title>
+      <link>https://thinkuldeep.github.io/tags/design/</link>
+      <pubDate>Mon, 05 Nov 2018 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>organization</title>
+      <link>https://thinkuldeep.github.io/tags/organization/</link>
+      <pubDate>Mon, 05 Nov 2018 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/organization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>process</title>
+      <link>https://thinkuldeep.github.io/tags/process/</link>
+      <pubDate>Mon, 05 Nov 2018 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/process/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://thinkuldeep.github.io/tags/software/</link>
+      <pubDate>Mon, 05 Nov 2018 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>request-tracing</title>
+      <link>https://thinkuldeep.github.io/tags/request-tracing/</link>
+      <pubDate>Tue, 02 Oct 2018 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/request-tracing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web-server</title>
+      <link>https://thinkuldeep.github.io/tags/web-server/</link>
+      <pubDate>Tue, 02 Oct 2018 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/web-server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pratice</title>
+      <link>https://thinkuldeep.github.io/tags/pratice/</link>
+      <pubDate>Sat, 15 Sep 2018 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/pratice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tdd</title>
+      <link>https://thinkuldeep.github.io/tags/tdd/</link>
+      <pubDate>Sat, 15 Sep 2018 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/tdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>upgrade</title>
+      <link>https://thinkuldeep.github.io/tags/upgrade/</link>
+      <pubDate>Wed, 29 Aug 2018 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/upgrade/</guid>
       <description></description>
     </item>
     

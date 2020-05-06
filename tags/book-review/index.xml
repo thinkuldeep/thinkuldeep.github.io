@@ -39,5 +39,25 @@
 It&amp;rsquo;s now more than 6 months of my journey with Thoughtworks, an organization which started as a social experiment more than 25 years ago, and believes in balancing 3 pillars in life ; sustainability, excellence and purpose.</description>
     </item>
     
+    <item>
+      <title>Software Development as a Design Process</title>
+      <link>https://thinkuldeep.github.io/post/software-development-as-design-process/</link>
+      <pubDate>Mon, 05 Nov 2018 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/software-development-as-design-process/</guid>
+      <description>The book &amp;ldquo;Agile IT Organization Design - For digital transformation and continuous delivery&amp;rdquo; by Sriram Narayan explains software development as a design process. Following statement from the book means a lot.
+ &amp;ldquo;Software development is a design process, and the production environment is the factory where product takes place. IT OPS work to keep the factory running..&amp;rdquo;
+ It questions the way we traditionally think of operation support, maintenance, production bugs, rework, their costs and budgets and the focus in software development life.</description>
+    </item>
+    
+    <item>
+      <title>Boost your organisation agility by test-first-pair development</title>
+      <link>https://thinkuldeep.github.io/post/test-first-pair-development/</link>
+      <pubDate>Sat, 15 Sep 2018 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/test-first-pair-development/</guid>
+      <description>Agile software development methodology is the key selling point for most of the IT organisations, however many of the organisations have gone by the literal meaning of the word &amp;ldquo;Agile&amp;rdquo;. They follow agile practices without really being agile. If we go by Manifesto for Agile Software Development, it focus more on human factor (people, interaction, collaboration) which produces working software as per the need of time, than on processes, tools and strict planning.</description>
+    </item>
+    
   </channel>
 </rss>

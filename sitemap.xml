@@ -122,7 +122,7 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/exterprisexr/</loc>
+    <loc>https://thinkuldeep.github.io/tags/enterprise/</loc>
     <lastmod>2020-04-26T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -150,7 +150,21 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/xr-ar-vr-mr/</loc>
+    <lastmod>2020-04-26T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/immersive-web/</loc>
+    <lastmod>2020-04-11T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/spatial-web/</loc>
     <lastmod>2020-04-11T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -326,6 +340,13 @@
   
   <url>
     <loc>https://thinkuldeep.github.io/tags/ide/</loc>
+    <lastmod>2019-10-30T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/practice/</loc>
     <lastmod>2019-10-30T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -563,6 +584,13 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/spring/</loc>
+    <lastmod>2019-02-15T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/spring-boot/</loc>
     <lastmod>2019-02-15T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -633,13 +661,6 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/pratice/</loc>
-    <lastmod>2018-09-15T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.github.io/tags/tdd/</loc>
     <lastmod>2018-09-15T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -689,14 +710,7 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/internet-of-things/</loc>
-    <lastmod>2017-02-21T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/iot/</loc>
+    <loc>https://thinkuldeep.github.io/tags/internet-of-things-iot/</loc>
     <lastmod>2017-02-21T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -752,6 +766,27 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/clean-code/</loc>
+    <lastmod>2016-01-14T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/maintainability/</loc>
+    <lastmod>2016-01-14T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/clean-code/</loc>
+    <lastmod>2016-01-14T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/connected-things/</loc>
     <lastmod>2016-01-01T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -768,6 +803,48 @@
   <url>
     <loc>https://thinkuldeep.github.io/post/the-driving-forces-iot/</loc>
     <lastmod>2016-01-01T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/choose-orm-carefully/</loc>
+    <lastmod>2015-07-16T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/hibernate/</loc>
+    <lastmod>2015-07-16T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/orm/</loc>
+    <lastmod>2015-07-16T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/effectiveness/</loc>
+    <lastmod>2015-01-14T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/efficiency/</loc>
+    <lastmod>2015-01-14T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/software-effectiveness-vs-efficiency/</loc>
+    <lastmod>2015-01-14T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

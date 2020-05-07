@@ -267,6 +267,16 @@ A comprehensive IoT ecosystem consists of many different parts such as electroni
     </item>
     
     <item>
+      <title>Writing maintainable code is like house cleaning</title>
+      <link>https://thinkuldeep.github.io/post/clean-code/</link>
+      <pubDate>Thu, 14 Jan 2016 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/clean-code/</guid>
+      <description>Your house will remain clean for longer duration if you follow certain rules strictly such as put things at right place after use, clear any mesh just after doing it, repair/upgrade things on time, daily dusting, vacuum cleaning etc. We may avoid a massive cleanup if we apply a series of small efforts daily.
+ Let for the same while writing the code –  Your code will remain maintainable for longer duration if you follow certain rules strictly such as follow the coding standards and guidelines, clean the code just after it, fix/refactor on time, periodic design review and refactoring.</description>
+    </item>
+    
+    <item>
       <title>The Driving Forces Behind IoT</title>
       <link>https://thinkuldeep.github.io/post/the-driving-forces-iot/</link>
       <pubDate>Fri, 01 Jan 2016 10:58:08 -0400</pubDate>
@@ -274,6 +284,26 @@ A comprehensive IoT ecosystem consists of many different parts such as electroni
       <guid>https://thinkuldeep.github.io/post/the-driving-forces-iot/</guid>
       <description>Everybody in the software industry is talking about IoT in terms of billions of devices, their growth in coming years, changing business models, and adaptation of the IoT in the market. Connecting the things has become so prevalent nowadays, that every software company wants to expand in IoT by building IoT-centric products and services.
 There are many industrial applications which connect to sensors and actuators, and can be controlled remotely. They have been around for a long time.</description>
+    </item>
+    
+    <item>
+      <title>Choose ORM carefully!</title>
+      <link>https://thinkuldeep.github.io/post/choose-orm-carefully/</link>
+      <pubDate>Thu, 16 Jul 2015 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/choose-orm-carefully/</guid>
+      <description>We have recently migrated source code from Hibernate ORM to JDBC (Spring JDBC template) based implementation. Performance has been improved 10 times.
+User case (Oracle 11g, JBoss 6, JDK 6, Hibernate, Spring 3) : A tree structure in database is getting populated from a deep file system (directory structure) having around 75000 nodes. Each node (directory) contains text files, which get parsed based on business rules and then populate the database ( BRANCHs representing a node, tables referring to branch, tree_nodes).</description>
+    </item>
+    
+    <item>
+      <title>Software Effectiveness vs Software Efficiency</title>
+      <link>https://thinkuldeep.github.io/post/software-effectiveness-vs-efficiency/</link>
+      <pubDate>Wed, 14 Jan 2015 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/software-effectiveness-vs-efficiency/</guid>
+      <description>I define software effectiveness as, doing the objective effectively, I mean correctly. Efficiency can be defined as, using the resources optimally where resources could be memory, CPU, time, files, connections, databases etc.
+From my experience, in most (should I call many) of the software projects, efficiency/performance is not much accentuated during the system design and in earlier phases(requirement and estimation) as compared to the emphasis given late in the game, coding and testing and mostly in maintenance.</description>
     </item>
     
   </channel>

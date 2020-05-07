@@ -129,11 +129,11 @@
     </item>
     
     <item>
-      <title>exterprisexr</title>
-      <link>https://thinkuldeep.github.io/tags/exterprisexr/</link>
+      <title>enterprise</title>
+      <link>https://thinkuldeep.github.io/tags/enterprise/</link>
       <pubDate>Sun, 26 Apr 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/tags/exterprisexr/</guid>
+      <guid>https://thinkuldeep.github.io/tags/enterprise/</guid>
       <description></description>
     </item>
     
@@ -156,11 +156,29 @@
     </item>
     
     <item>
+      <title>xr ar vr mr</title>
+      <link>https://thinkuldeep.github.io/tags/xr-ar-vr-mr/</link>
+      <pubDate>Sun, 26 Apr 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/xr-ar-vr-mr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>immersive-web</title>
       <link>https://thinkuldeep.github.io/tags/immersive-web/</link>
       <pubDate>Sat, 11 Apr 2020 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/tags/immersive-web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spatial web</title>
+      <link>https://thinkuldeep.github.io/tags/spatial-web/</link>
+      <pubDate>Sat, 11 Apr 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/spatial-web/</guid>
       <description></description>
     </item>
     
@@ -287,6 +305,15 @@
       <pubDate>Wed, 30 Oct 2019 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/tags/ide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>practice</title>
+      <link>https://thinkuldeep.github.io/tags/practice/</link>
+      <pubDate>Wed, 30 Oct 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/practice/</guid>
       <description></description>
     </item>
     
@@ -498,6 +525,15 @@
     </item>
     
     <item>
+      <title>spring</title>
+      <link>https://thinkuldeep.github.io/tags/spring/</link>
+      <pubDate>Fri, 15 Feb 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/spring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>spring boot</title>
       <link>https://thinkuldeep.github.io/tags/spring-boot/</link>
       <pubDate>Fri, 15 Feb 2019 10:58:08 -0400</pubDate>
@@ -561,15 +597,6 @@
     </item>
     
     <item>
-      <title>pratice</title>
-      <link>https://thinkuldeep.github.io/tags/pratice/</link>
-      <pubDate>Sat, 15 Sep 2018 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.github.io/tags/pratice/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>tdd</title>
       <link>https://thinkuldeep.github.io/tags/tdd/</link>
       <pubDate>Sat, 15 Sep 2018 10:58:08 -0400</pubDate>
@@ -606,20 +633,11 @@
     </item>
     
     <item>
-      <title>internet of things</title>
-      <link>https://thinkuldeep.github.io/tags/internet-of-things/</link>
+      <title>Internet Of Things (IOT)</title>
+      <link>https://thinkuldeep.github.io/tags/internet-of-things-iot/</link>
       <pubDate>Tue, 21 Feb 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/tags/internet-of-things/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>iot</title>
-      <link>https://thinkuldeep.github.io/tags/iot/</link>
-      <pubDate>Tue, 21 Feb 2017 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.github.io/tags/iot/</guid>
+      <guid>https://thinkuldeep.github.io/tags/internet-of-things-iot/</guid>
       <description></description>
     </item>
     
@@ -660,6 +678,24 @@
     </item>
     
     <item>
+      <title>clean-code</title>
+      <link>https://thinkuldeep.github.io/tags/clean-code/</link>
+      <pubDate>Thu, 14 Jan 2016 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/clean-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>maintainability</title>
+      <link>https://thinkuldeep.github.io/tags/maintainability/</link>
+      <pubDate>Thu, 14 Jan 2016 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/maintainability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>connected things</title>
       <link>https://thinkuldeep.github.io/tags/connected-things/</link>
       <pubDate>Fri, 01 Jan 2016 10:58:08 -0400</pubDate>
@@ -674,6 +710,42 @@
       <pubDate>Fri, 01 Jan 2016 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/tags/forces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hibernate</title>
+      <link>https://thinkuldeep.github.io/tags/hibernate/</link>
+      <pubDate>Thu, 16 Jul 2015 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/hibernate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>orm</title>
+      <link>https://thinkuldeep.github.io/tags/orm/</link>
+      <pubDate>Thu, 16 Jul 2015 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/orm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>effectiveness</title>
+      <link>https://thinkuldeep.github.io/tags/effectiveness/</link>
+      <pubDate>Wed, 14 Jan 2015 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/effectiveness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>efficiency</title>
+      <link>https://thinkuldeep.github.io/tags/efficiency/</link>
+      <pubDate>Wed, 14 Jan 2015 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/efficiency/</guid>
       <description></description>
     </item>
     

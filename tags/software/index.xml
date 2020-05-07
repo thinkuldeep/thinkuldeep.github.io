@@ -22,5 +22,15 @@
  It questions the way we traditionally think of operation support, maintenance, production bugs, rework, their costs and budgets and the focus in software development life.</description>
     </item>
     
+    <item>
+      <title>Software Effectiveness vs Software Efficiency</title>
+      <link>https://thinkuldeep.github.io/post/software-effectiveness-vs-efficiency/</link>
+      <pubDate>Wed, 14 Jan 2015 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/software-effectiveness-vs-efficiency/</guid>
+      <description>I define software effectiveness as, doing the objective effectively, I mean correctly. Efficiency can be defined as, using the resources optimally where resources could be memory, CPU, time, files, connections, databases etc.
+From my experience, in most (should I call many) of the software projects, efficiency/performance is not much accentuated during the system design and in earlier phases(requirement and estimation) as compared to the emphasis given late in the game, coding and testing and mostly in maintenance.</description>
+    </item>
+    
   </channel>
 </rss>

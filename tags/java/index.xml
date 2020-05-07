@@ -47,5 +47,15 @@
       <description>Microservices-based development is happening all around the industry; more than 70% are trying development of microservice-based software. Microservices simplify integration of the businesses, processes, technology, and people by breaking down the big-bang monolith problem to a smaller set that can be handled independently. However, it also comes with the problem of managing relations between these smaller sets. We used to manage fewer independent units, so there was less operation and planning effort.</description>
     </item>
     
+    <item>
+      <title>Choose ORM carefully!</title>
+      <link>https://thinkuldeep.github.io/post/choose-orm-carefully/</link>
+      <pubDate>Thu, 16 Jul 2015 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/choose-orm-carefully/</guid>
+      <description>We have recently migrated source code from Hibernate ORM to JDBC (Spring JDBC template) based implementation. Performance has been improved 10 times.
+User case (Oracle 11g, JBoss 6, JDK 6, Hibernate, Spring 3) : A tree structure in database is getting populated from a deep file system (directory structure) having around 75000 nodes. Each node (directory) contains text files, which get parsed based on business rules and then populate the database ( BRANCHs representing a node, tables referring to branch, tree_nodes).</description>
+    </item>
+    
   </channel>
 </rss>

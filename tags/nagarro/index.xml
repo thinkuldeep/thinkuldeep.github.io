@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nagarro on Kuldeep Singh</title>
+    <link>https://thinkuldeep.github.io/tags/nagarro/</link>
+    <description>Recent content in nagarro on Kuldeep Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Aug 2018 10:58:08 -0400</lastBuildDate>
+    
+	<atom:link href="https://thinkuldeep.github.io/tags/nagarro/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Accept the change!</title>
+      <link>https://thinkuldeep.github.io/post/accept_the_change/</link>
+      <pubDate>Thu, 09 Aug 2018 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/accept_the_change/</guid>
+      <description>The change is inevitable and constant; it is a part of our life. Sooner or later, we have to accept the change. 13 years ago, I joined a small IT organisation of around 100 people, as a developer. I have grown with the organisation; a 40 times growth journey. I really thank the organisation for giving me opportunity, and transforming me, what I am today. Now, the time has come to accept a change, and start a new journey.</description>
+    </item>
+    
+    <item>
+      <title>IOT 101: A primer on Internet of Things</title>
+      <link>https://thinkuldeep.github.io/post/iot_simplified/</link>
+      <pubDate>Tue, 21 Feb 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/iot_simplified/</guid>
+      <description>IOT 101 A Primer on Internet of Things  from Kuldeep Singh  The IoT can be described as “Connecting the Things to internet”.
+A comprehensive IoT ecosystem consists of many different parts such as electronic circuitry, sensing and acting capability, embedded systems, edge computing, network protocols, communication networks, cloud computing, big data management and analytics, business rules etcetera. This maze of varied parts can be better classified into 4 broad categories:</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://thinkuldeep.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/about/</guid>
+      <description>Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.
+Kuldeep has developed innovative solutions that impact effectiveness and efficiency across domains, right from manufacturing to aviation, commodity trading and more. Kuldeep also invests time into evangelizing concepts like connected worker, installation assistant, remote expert, indoor positioning and digital twin, using smart glasses, IoT, blockchain and ARVR technologies within the CXO circles.</description>
+    </item>
+    
+  </channel>
+</rss>

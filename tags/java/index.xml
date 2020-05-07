@@ -38,5 +38,14 @@
       <description>Java 11&amp;rsquo;s release candidate is already here, and the industry is still roaming around Java 8. Every six months, we will see a new release. It is good that Java is evolving at a fast speed to catch up the challengers, but at the same time, it is also scary to catch its speed, even the Java ecosystem (build tools, IDE, etc.) is not catching up that fast. It feels like we are losing track.</description>
     </item>
     
+    <item>
+      <title>5 Hard Lessons From Microservices Development</title>
+      <link>https://thinkuldeep.github.io/post/lessons_from_microservices_development/</link>
+      <pubDate>Mon, 23 Jul 2018 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/lessons_from_microservices_development/</guid>
+      <description>Microservices-based development is happening all around the industry; more than 70% are trying development of microservice-based software. Microservices simplify integration of the businesses, processes, technology, and people by breaking down the big-bang monolith problem to a smaller set that can be handled independently. However, it also comes with the problem of managing relations between these smaller sets. We used to manage fewer independent units, so there was less operation and planning effort.</description>
+    </item>
+    
   </channel>
 </rss>

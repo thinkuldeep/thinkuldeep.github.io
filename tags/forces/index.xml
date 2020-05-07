@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>forces on Kuldeep Singh</title>
+    <link>https://thinkuldeep.github.io/tags/forces/</link>
+    <description>Recent content in forces on Kuldeep Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Jan 2016 10:58:08 -0400</lastBuildDate>
+    
+	<atom:link href="https://thinkuldeep.github.io/tags/forces/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Driving Forces Behind IoT</title>
+      <link>https://thinkuldeep.github.io/post/the-driving-forces-iot/</link>
+      <pubDate>Fri, 01 Jan 2016 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/the-driving-forces-iot/</guid>
+      <description>Everybody in the software industry is talking about IoT in terms of billions of devices, their growth in coming years, changing business models, and adaptation of the IoT in the market. Connecting the things has become so prevalent nowadays, that every software company wants to expand in IoT by building IoT-centric products and services.
+There are many industrial applications which connect to sensors and actuators, and can be controlled remotely. They have been around for a long time.</description>
+    </item>
+    
+  </channel>
+</rss>

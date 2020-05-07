@@ -29,5 +29,14 @@
       <description>Most web applications are hosted behind a load balancer or web-server such as Nginx/HTTPD, which intercepts all the requests and directs dynamic content requests to the application server, such as Tomcat. Correlating requests traversing from the front-end server to the backend servers are general requirements. In this post, we will discuss tracing the request in the simplest way in an Nginx and Spring Boot-based application without using an external heavyweight library like Slueth.</description>
     </item>
     
+    <item>
+      <title>5 Hard Lessons From Microservices Development</title>
+      <link>https://thinkuldeep.github.io/post/lessons_from_microservices_development/</link>
+      <pubDate>Mon, 23 Jul 2018 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/lessons_from_microservices_development/</guid>
+      <description>Microservices-based development is happening all around the industry; more than 70% are trying development of microservice-based software. Microservices simplify integration of the businesses, processes, technology, and people by breaking down the big-bang monolith problem to a smaller set that can be handled independently. However, it also comes with the problem of managing relations between these smaller sets. We used to manage fewer independent units, so there was less operation and planning effort.</description>
+    </item>
+    
   </channel>
 </rss>

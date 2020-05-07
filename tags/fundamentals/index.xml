@@ -41,5 +41,25 @@ The talks are about  How the User interactions evolved with time? Why is it impo
 The talks is about  How the User interactions evolved with time? Why is it important to think beyond the tradition keyboard and screen? Where is the industry heading? How will it impact us?  Intro here  Explore the world beyond your normal ways of communicating with smart devices! #Explore AR/VR with @thinkuldeep@WTM_Delhi @gdg_nd @thoughtworksIN</description>
     </item>
     
+    <item>
+      <title>IOT 101: A primer on Internet of Things</title>
+      <link>https://thinkuldeep.github.io/post/iot_simplified/</link>
+      <pubDate>Tue, 21 Feb 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/iot_simplified/</guid>
+      <description>IOT 101 A Primer on Internet of Things  from Kuldeep Singh  The IoT can be described as “Connecting the Things to internet”.
+A comprehensive IoT ecosystem consists of many different parts such as electronic circuitry, sensing and acting capability, embedded systems, edge computing, network protocols, communication networks, cloud computing, big data management and analytics, business rules etcetera. This maze of varied parts can be better classified into 4 broad categories:</description>
+    </item>
+    
+    <item>
+      <title>The Driving Forces Behind IoT</title>
+      <link>https://thinkuldeep.github.io/post/the-driving-forces-iot/</link>
+      <pubDate>Fri, 01 Jan 2016 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/the-driving-forces-iot/</guid>
+      <description>Everybody in the software industry is talking about IoT in terms of billions of devices, their growth in coming years, changing business models, and adaptation of the IoT in the market. Connecting the things has become so prevalent nowadays, that every software company wants to expand in IoT by building IoT-centric products and services.
+There are many industrial applications which connect to sensors and actuators, and can be controlled remotely. They have been around for a long time.</description>
+    </item>
+    
   </channel>
 </rss>

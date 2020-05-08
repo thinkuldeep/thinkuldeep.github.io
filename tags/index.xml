@@ -12,20 +12,11 @@
     
     
     <item>
-      <title>ar</title>
-      <link>https://thinkuldeep.github.io/tags/ar/</link>
+      <title>developer-summit</title>
+      <link>https://thinkuldeep.github.io/tags/developer-summit/</link>
       <pubDate>Thu, 20 Aug 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/tags/ar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mr</title>
-      <link>https://thinkuldeep.github.io/tags/mr/</link>
-      <pubDate>Thu, 20 Aug 2020 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.github.io/tags/mr/</guid>
+      <guid>https://thinkuldeep.github.io/tags/developer-summit/</guid>
       <description></description>
     </item>
     
@@ -39,11 +30,11 @@
     </item>
     
     <item>
-      <title>vr</title>
-      <link>https://thinkuldeep.github.io/tags/vr/</link>
+      <title>talk</title>
+      <link>https://thinkuldeep.github.io/tags/talk/</link>
       <pubDate>Thu, 20 Aug 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/tags/vr/</guid>
+      <guid>https://thinkuldeep.github.io/tags/talk/</guid>
       <description></description>
     </item>
     
@@ -156,15 +147,6 @@
     </item>
     
     <item>
-      <title>xr ar vr mr</title>
-      <link>https://thinkuldeep.github.io/tags/xr-ar-vr-mr/</link>
-      <pubDate>Sun, 26 Apr 2020 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.github.io/tags/xr-ar-vr-mr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>immersive-web</title>
       <link>https://thinkuldeep.github.io/tags/immersive-web/</link>
       <pubDate>Sat, 11 Apr 2020 10:58:08 -0400</pubDate>
@@ -228,11 +210,11 @@
     </item>
     
     <item>
-      <title>pair-development</title>
-      <link>https://thinkuldeep.github.io/tags/pair-development/</link>
+      <title>pair-programming</title>
+      <link>https://thinkuldeep.github.io/tags/pair-programming/</link>
       <pubDate>Thu, 02 Apr 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/tags/pair-development/</guid>
+      <guid>https://thinkuldeep.github.io/tags/pair-programming/</guid>
       <description></description>
     </item>
     
@@ -264,6 +246,15 @@
     </item>
     
     <item>
+      <title>cloud</title>
+      <link>https://thinkuldeep.github.io/tags/cloud/</link>
+      <pubDate>Wed, 25 Mar 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>mfa</title>
       <link>https://thinkuldeep.github.io/tags/mfa/</link>
       <pubDate>Wed, 25 Mar 2020 10:58:08 -0400</pubDate>
@@ -273,11 +264,38 @@
     </item>
     
     <item>
+      <title>ar</title>
+      <link>https://thinkuldeep.github.io/tags/ar/</link>
+      <pubDate>Thu, 27 Feb 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/ar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>event</title>
       <link>https://thinkuldeep.github.io/tags/event/</link>
       <pubDate>Thu, 27 Feb 2020 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/tags/event/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mr</title>
+      <link>https://thinkuldeep.github.io/tags/mr/</link>
+      <pubDate>Thu, 27 Feb 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/mr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vr</title>
+      <link>https://thinkuldeep.github.io/tags/vr/</link>
+      <pubDate>Thu, 27 Feb 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/vr/</guid>
       <description></description>
     </item>
     
@@ -597,6 +615,15 @@
     </item>
     
     <item>
+      <title>pair-development</title>
+      <link>https://thinkuldeep.github.io/tags/pair-development/</link>
+      <pubDate>Sat, 15 Sep 2018 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/pair-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>tdd</title>
       <link>https://thinkuldeep.github.io/tags/tdd/</link>
       <pubDate>Sat, 15 Sep 2018 10:58:08 -0400</pubDate>
@@ -633,11 +660,11 @@
     </item>
     
     <item>
-      <title>Internet Of Things (IOT)</title>
-      <link>https://thinkuldeep.github.io/tags/internet-of-things-iot/</link>
+      <title>IOT</title>
+      <link>https://thinkuldeep.github.io/tags/iot/</link>
       <pubDate>Tue, 21 Feb 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/tags/internet-of-things-iot/</guid>
+      <guid>https://thinkuldeep.github.io/tags/iot/</guid>
       <description></description>
     </item>
     

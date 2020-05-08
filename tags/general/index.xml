@@ -39,6 +39,16 @@
     </item>
     
     <item>
+      <title>Google Devfest 2019 - Think Beyond Keyboard and Screen</title>
+      <link>https://thinkuldeep.github.io/talk/google_devfest_2019_think_beyond_keyboard_and_screen/</link>
+      <pubDate>Thu, 05 Sep 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/talk/google_devfest_2019_think_beyond_keyboard_and_screen/</guid>
+      <description>Presented At : Google DevFest 2019, by Google Developer&amp;rsquo;s Group, GDG Cloud Delhi .
+The talks is about  How the User interactions evolved with time? Why is it important to think beyond the tradition keyboard and screen? Where is the industry heading? How will it impact us?  Intro here  Explore the world beyond your normal ways of communicating with smart devices! #Explore AR/VR with @thinkuldeep@WTM_Delhi @gdg_nd @thoughtworksIN</description>
+    </item>
+    
+    <item>
       <title>Can IT modernization lead to revenue loss?</title>
       <link>https://thinkuldeep.github.io/post/can_it_modernization_lead_to_revenue_loss/</link>
       <pubDate>Wed, 10 Apr 2019 10:58:08 -0400</pubDate>
@@ -54,6 +64,16 @@
       
       <guid>https://thinkuldeep.github.io/post/accept_the_change/</guid>
       <description>The change is inevitable and constant; it is a part of our life. Sooner or later, we have to accept the change. 13 years ago, I joined a small IT organisation of around 100 people, as a developer. I have grown with the organisation; a 40 times growth journey. I really thank the organisation for giving me opportunity, and transforming me, what I am today. Now, the time has come to accept a change, and start a new journey.</description>
+    </item>
+    
+    <item>
+      <title>Software Effectiveness vs Software Efficiency</title>
+      <link>https://thinkuldeep.github.io/post/software-effectiveness-vs-efficiency/</link>
+      <pubDate>Wed, 14 Jan 2015 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/software-effectiveness-vs-efficiency/</guid>
+      <description>I define software effectiveness as, doing the objective effectively, I mean correctly. Efficiency can be defined as, using the resources optimally where resources could be memory, CPU, time, files, connections, databases etc.
+From my experience, in most (should I call many) of the software projects, efficiency/performance is not much accentuated during the system design and in earlier phases(requirement and estimation) as compared to the emphasis given late in the game, coding and testing and mostly in maintenance.</description>
     </item>
     
   </channel>

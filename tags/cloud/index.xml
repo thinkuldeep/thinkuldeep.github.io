@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cloud on Kuldeep Singh</title>
+    <link>https://thinkuldeep.github.io/tags/cloud/</link>
+    <description>Recent content in cloud on Kuldeep Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Mar 2020 10:58:08 -0400</lastBuildDate>
+    
+	<atom:link href="https://thinkuldeep.github.io/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Enterprise XR - Multi-Factor Authentication</title>
+      <link>https://thinkuldeep.github.io/post/enterprise-xr-multi-factor-authentication/</link>
+      <pubDate>Wed, 25 Mar 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/enterprise-xr-multi-factor-authentication/</guid>
+      <description>XR use cases are growing with advancements in the devices, internet and development technologies. There is an ever-growing demand to build enterprise use cases using ARVR technology. Most enterprise use cases eventually require integration with an enterprise ecosystem such as IAM (Identity and Access Management), ERP, CRM, and single sign-on with other systems.
+Most organizations protect digital assets with a single sign-on using Multiple Factor Authentication (MFA). The MFA is generally a web-browser based authentication where the browser redirects to tenant’s authentication page where the user provides their credentials and then the user confirms another factor (PIN, OTP, SMS or mobile notifications), once it succeeds, it gets redirected back to the protected resource.</description>
+    </item>
+    
+    <item>
+      <title>Can IT modernization lead to revenue loss?</title>
+      <link>https://thinkuldeep.github.io/post/can_it_modernization_lead_to_revenue_loss/</link>
+      <pubDate>Wed, 10 Apr 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/can_it_modernization_lead_to_revenue_loss/</guid>
+      <description>IT Modernization is one of the key factors of today&amp;rsquo;s digital transformation. Most of the enterprises trying to define digital transformation strategy. IT organizations trying to redesign the organizations to meet the changing business need, and uplift the technology and people. Non-IT organizations are also trying to setup digital department to take care of companies digital assets and modernize them. However, IT modernization does not always result in a profit, it may lead to revenue loss if it does not fit to the organization design.</description>
+    </item>
+    
+    <item>
+      <title>IOT 101: A primer on Internet of Things</title>
+      <link>https://thinkuldeep.github.io/post/iot_simplified/</link>
+      <pubDate>Tue, 21 Feb 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/iot_simplified/</guid>
+      <description>IOT 101 A Primer on Internet of Things  from Kuldeep Singh  The IoT can be described as “Connecting the Things to internet”.
+A comprehensive IoT ecosystem consists of many different parts such as electronic circuitry, sensing and acting capability, embedded systems, edge computing, network protocols, communication networks, cloud computing, big data management and analytics, business rules etcetera. This maze of varied parts can be better classified into 4 broad categories:</description>
+    </item>
+    
+  </channel>
+</rss>

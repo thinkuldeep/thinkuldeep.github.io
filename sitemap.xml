@@ -731,6 +731,13 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/introduction/</loc>
+    <lastmod>2017-02-21T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/iot/</loc>
     <lastmod>2017-02-21T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -829,6 +836,27 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/platform/</loc>
+    <lastmod>2015-08-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/sigfox/</loc>
+    <lastmod>2015-08-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/sigfox-an-introduction/</loc>
+    <lastmod>2015-08-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/post/choose-orm-carefully/</loc>
     <lastmod>2015-07-16T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -866,6 +894,97 @@
   <url>
     <loc>https://thinkuldeep.github.io/post/software-effectiveness-vs-efficiency/</loc>
     <lastmod>2015-01-14T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/analysis/</loc>
+    <lastmod>2014-08-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/comparision/</loc>
+    <lastmod>2014-08-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/framework/</loc>
+    <lastmod>2014-08-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/choosing_iot_platform/</loc>
+    <lastmod>2014-08-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/security/</loc>
+    <lastmod>2014-08-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/arduino/</loc>
+    <lastmod>2014-07-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/azure/</loc>
+    <lastmod>2014-07-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/ble/</loc>
+    <lastmod>2014-07-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</loc>
+    <lastmod>2014-07-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/concept/</loc>
+    <lastmod>2014-07-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/microsoft/</loc>
+    <lastmod>2014-07-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/raspberry-pi/</loc>
+    <lastmod>2014-07-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/smart-meeting-room/</loc>
+    <lastmod>2014-07-17T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

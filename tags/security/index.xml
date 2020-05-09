@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>security on Kuldeep Singh</title>
+    <link>https://thinkuldeep.github.io/tags/security/</link>
+    <description>Recent content in security on Kuldeep Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Aug 2014 10:58:08 -0400</lastBuildDate>
+    
+	<atom:link href="https://thinkuldeep.github.io/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Framework for choosing an IoT Platform</title>
+      <link>https://thinkuldeep.github.io/post/choosing_iot_platform/</link>
+      <pubDate>Sun, 17 Aug 2014 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/choosing_iot_platform/</guid>
+      <description>##IoT Platform As we understand “IoT Platform” is an essential building block of IoT Ecosystem . A platform essentially decouples the business application from low level details of the technology stack and required services. Thus, it makes more sense to go for an off-the-shelf platform that provide all the relevant features and required flexibility, instead of developing the whole IoT stack from scratch. Selection of an IoT Platform is a key to develop a scalable and robust IoT Solution.</description>
+    </item>
+    
+  </channel>
+</rss>

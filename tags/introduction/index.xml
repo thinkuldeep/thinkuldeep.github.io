@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>introduction on Kuldeep Singh</title>
+    <link>https://thinkuldeep.github.io/tags/introduction/</link>
+    <description>Recent content in introduction on Kuldeep Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Feb 2017 10:58:08 -0400</lastBuildDate>
+    
+	<atom:link href="https://thinkuldeep.github.io/tags/introduction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IOT 101: A primer on Internet of Things</title>
+      <link>https://thinkuldeep.github.io/post/iot_simplified/</link>
+      <pubDate>Tue, 21 Feb 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/iot_simplified/</guid>
+      <description>IOT 101 A Primer on Internet of Things  from Kuldeep Singh  The IoT can be described as “Connecting the Things to internet”.
+A comprehensive IoT ecosystem consists of many different parts such as electronic circuitry, sensing and acting capability, embedded systems, edge computing, network protocols, communication networks, cloud computing, big data management and analytics, business rules etcetera. This maze of varied parts can be better classified into 4 broad categories:</description>
+    </item>
+    
+    <item>
+      <title>SIGFOX - An Introduction</title>
+      <link>https://thinkuldeep.github.io/post/sigfox-an-introduction/</link>
+      <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/sigfox-an-introduction/</guid>
+      <description>##Introduction SIGFOX is providing a communication solution dedicated to the Internet of Things
+Dedicated to the IOT means:
+ Simplicity: No configuration, no pairing, no signaling Autonomy: Very low energy consumption, allowing years of autonomy on battery without maintenance Small messages: No large assets or multimedia, only small messages  It is a LPWA (Low-Power Wide-Area) network, currently operating in 20 countries in Europe, Americas and Asia/Pacific. Communications over the SIGFOX network are bi-directional: uplink from device &amp;amp; downlink to the device.</description>
+    </item>
+    
+  </channel>
+</rss>

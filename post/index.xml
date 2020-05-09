@@ -287,6 +287,17 @@ There are many industrial applications which connect to sensors and actuators, a
     </item>
     
     <item>
+      <title>SIGFOX - An Introduction</title>
+      <link>https://thinkuldeep.github.io/post/sigfox-an-introduction/</link>
+      <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/sigfox-an-introduction/</guid>
+      <description>##Introduction SIGFOX is providing a communication solution dedicated to the Internet of Things
+Dedicated to the IOT means:
+ Simplicity: No configuration, no pairing, no signaling Autonomy: Very low energy consumption, allowing years of autonomy on battery without maintenance Small messages: No large assets or multimedia, only small messages  It is a LPWA (Low-Power Wide-Area) network, currently operating in 20 countries in Europe, Americas and Asia/Pacific. Communications over the SIGFOX network are bi-directional: uplink from device &amp;amp; downlink to the device.</description>
+    </item>
+    
+    <item>
       <title>Choose ORM carefully!</title>
       <link>https://thinkuldeep.github.io/post/choose-orm-carefully/</link>
       <pubDate>Thu, 16 Jul 2015 10:58:08 -0400</pubDate>
@@ -304,6 +315,25 @@ User case (Oracle 11g, JBoss 6, JDK 6, Hibernate, Spring 3) : A tree structure i
       <guid>https://thinkuldeep.github.io/post/software-effectiveness-vs-efficiency/</guid>
       <description>I define software effectiveness as, doing the objective effectively, I mean correctly. Efficiency can be defined as, using the resources optimally where resources could be memory, CPU, time, files, connections, databases etc.
 From my experience, in most (should I call many) of the software projects, efficiency/performance is not much accentuated during the system design and in earlier phases(requirement and estimation) as compared to the emphasis given late in the game, coding and testing and mostly in maintenance.</description>
+    </item>
+    
+    <item>
+      <title>Framework for choosing an IoT Platform</title>
+      <link>https://thinkuldeep.github.io/post/choosing_iot_platform/</link>
+      <pubDate>Sun, 17 Aug 2014 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/choosing_iot_platform/</guid>
+      <description>##IoT Platform As we understand “IoT Platform” is an essential building block of IoT Ecosystem . A platform essentially decouples the business application from low level details of the technology stack and required services. Thus, it makes more sense to go for an off-the-shelf platform that provide all the relevant features and required flexibility, instead of developing the whole IoT stack from scratch. Selection of an IoT Platform is a key to develop a scalable and robust IoT Solution.</description>
+    </item>
+    
+    <item>
+      <title>Building a smart meeting room concept</title>
+      <link>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</link>
+      <pubDate>Thu, 17 Jul 2014 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</guid>
+      <description>##Introduction On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
+Smart Meeting Room is a step forward in automating the availability and booking procedure of a meeting room.</description>
     </item>
     
   </channel>

@@ -25,7 +25,7 @@ img.home-link {
 }
 
 img.home-link:hover {
-    border: 3px solid #dcf000;
+    border: 3px solid #f0d300;
 }
 
 .f-subheadline-l {
@@ -35,3 +35,185 @@ img.home-link:hover {
 .pv3 {
     padding-bottom: 0rem;
 }
+
+a.show-search {
+   padding-left: 2rem;
+}
+
+
+a.show-search svg {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 10px;
+    cursor: pointer;
+}
+a.show-search  svg path {
+    fill: rgba(255, 255, 255, 0.7)
+}
+a.show-search:hover svg path {
+    fill: #67eba2;
+}
+
+aside.search {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: #f4f4f4;
+    width: 100vw;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    transition: opacity 0.3s linear;
+}
+aside.search.active {
+    opacity: 1;
+    visibility: visible;
+}
+aside.search.visible {
+    visibility: visible;
+}
+aside.search .toggle-search {
+    cursor: pointer;
+}
+aside.search .type:before {
+    content: "Type";
+    margin-right: 0.2rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+aside.search .close {
+    position: fixed;
+    top: 9px;
+    right: 20px;
+    width: 2rem;
+    height: 2rem;
+    z-index: 999;
+}
+
+aside.search .close-search {
+    position: fixed;
+    top: 30px;
+    left: 0rem;
+    width: 2rem;
+    height: 2rem;
+    z-index: 900;
+}
+
+@media screen and (max-width: 57rem) {
+    aside.search .close {
+        right: 10px;
+    }
+    aside.search .close-search {
+        top: 20px;
+    }
+}
+aside.search .close svg {
+    width: 2rem;
+    height: 2rem;
+}
+aside.search .close svg path {
+    fill: #67eba2;
+}
+aside.search .search-wrapper {
+    position: fixed;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #282e37, #282e37, #282e37, #282e37, transparent, transparent);
+    padding: 3rem 1.5rem 4.5rem;
+}
+@media screen and (max-width: 36rem) {
+    aside.search .search-wrapper {
+        padding: 3rem 0.5rem 4.5rem;
+    }
+}
+aside.search .search-wrapper input[type="search"] {
+    border: 3px solid #94f1be;
+    color: rgba(0, 0, 0, 0.2);
+    line-height: 2rem;
+    font-size: 2rem;
+    border-radius: 5px;
+    padding: 8px 15px;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 30px;
+}
+
+aside.search .search-wrapper input[type="search"]::-webkit-input-placeholder {
+    color: #d3d3d3;
+    opacity: 1;
+}
+aside.search .search-wrapper input[type="search"]::-moz-placeholder {
+    color: #d3d3d3;
+    opacity: 1;
+}
+aside.search .search-wrapper input[type="search"]::-ms-input-placeholder {
+    color: #d3d3d3;
+    opacity: 1;
+}
+aside.search .search-wrapper input[type="search"]::placeholder {
+    color: #d3d3d3;
+    opacity: 1;
+}
+aside.search .search-wrapper input[type="search"]:focus {
+    border: 3px solid #67eba2;
+    outline: none;
+    color: #3d434c;
+    box-shadow: 0 0 18px #67eba2;
+}
+aside.search .search-wrapper input[type="search"]::-webkit-search-decoration, aside.search .search-wrapper input[type="search"]::-webkit-search-cancel-button, aside.search .search-wrapper input[type="search"]::-webkit-search-results-button, aside.search .search-wrapper input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+    background-image: url(/images/close.svg);
+    background-size: contain;
+    height: 1.2rem;
+    width: 1.2rem;
+}
+aside.search ul.search-results {
+    padding: 11rem 1.5rem 1rem;
+}
+@media screen and (max-width: 36rem) {
+    aside.search ul.search-results {
+        padding: 11rem 0.5rem 1rem;
+    }
+}
+aside.search ul.search-results li {
+    list-style-type: none;
+}
+aside.search ul.search-results li h4 {
+    color: #f4f4f4;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+aside.search ul.search-results li h4 a {
+    border-bottom: none;
+}
+aside.search ul.search-results li .tags .tag {
+    color: #67eba2;
+}
+aside.search ul.search-results li .tags .tag:first-child {
+    margin-left: 0;
+}
+aside.search ul.search-results li .tags .tag:hover {
+    color: #67eba2;
+    background: rgba(255, 255, 255, .1);
+}
+aside.search ul.search-results li .purpose span {
+    font-weight: 700;
+    margin-right: 0.5rem;
+    text-transform: uppercase;
+}
+aside.search .search-documentation {
+    text-align: right;
+    padding-right: 3px;
+    margin-top: 2px;
+    font-size: 0.8rem;
+}
+
+

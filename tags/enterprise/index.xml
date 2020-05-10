@@ -6,10 +6,20 @@
     <description>Recent content in enterprise on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Apr 2020 10:58:08 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2020 10:58:08 -0400</lastBuildDate>
     
 	<atom:link href="https://thinkuldeep.github.io/tags/enterprise/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>OS Customization for XR Device</title>
+      <link>https://thinkuldeep.github.io/post/os-customization-for-xr-devices/</link>
+      <pubDate>Sun, 10 May 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/os-customization-for-xr-devices/</guid>
+      <description>The Operating System of XR (AR VR) devices is mostly customized to the hardware of the device, and not just that the OS level customizations are needed to meet the enterprise needs such as integration with Enterprise MDM (Mobile Device Management) solutions (such as Intune, MobileIron and Airwatch), 3D lock screen, idle-timeout, custom home screen, custom settings, security, as so on.
+Most organizations currently using traditional hardware and software assets such as mobile devices, laptops, and desktops, and the processes and policies for managing these devices are quite stable and straightforward by now.</description>
+    </item>
     
     <item>
       <title>User Account Management In XR</title>

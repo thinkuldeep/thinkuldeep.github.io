@@ -710,13 +710,6 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/pair-development/</loc>
-    <lastmod>2018-09-15T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.github.io/tags/tdd/</loc>
     <lastmod>2018-09-15T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -759,6 +752,41 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/apache/</loc>
+    <lastmod>2018-01-08T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/apache_spark_on_windows/</loc>
+    <lastmod>2018-01-08T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/scala/</loc>
+    <lastmod>2018-01-08T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/spark/</loc>
+    <lastmod>2018-01-08T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/windows/</loc>
+    <lastmod>2018-01-08T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/guide/</loc>
     <lastmod>2017-02-21T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -787,6 +815,27 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/post/exploring-google-glass/</loc>
+    <lastmod>2017-02-20T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/smart-glass/</loc>
+    <lastmod>2017-02-20T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/vuzix/</loc>
+    <lastmod>2017-02-20T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/post/iot-disruption-multi-skilled-people/</loc>
     <lastmod>2017-01-03T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -808,57 +857,57 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/analysis/</loc>
-    <lastmod>2016-08-22T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/c&#43;&#43;/</loc>
+    <lastmod>2016-12-16T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/azure/</loc>
-    <lastmod>2016-08-22T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/concept/</loc>
+    <lastmod>2016-12-16T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/bosch/</loc>
-    <lastmod>2016-08-22T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/insect-monitoring/</loc>
+    <lastmod>2016-12-16T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/comparision/</loc>
-    <lastmod>2016-08-22T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/post/iot-insect-monitoring/</loc>
+    <lastmod>2016-12-16T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/framework/</loc>
-    <lastmod>2016-08-22T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/mqtt/</loc>
+    <lastmod>2016-12-16T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/ibm/</loc>
-    <lastmod>2016-08-22T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/opencv/</loc>
+    <lastmod>2016-12-16T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/post/iot_cloud_platform_comparision/</loc>
-    <lastmod>2016-08-22T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/python/</loc>
+    <lastmod>2016-12-16T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/platform/</loc>
-    <lastmod>2016-08-22T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/raspberry-pi/</loc>
+    <lastmod>2016-12-16T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -927,6 +976,48 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/analysis/</loc>
+    <lastmod>2015-08-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/comparision/</loc>
+    <lastmod>2015-08-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/framework/</loc>
+    <lastmod>2015-08-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/choosing_iot_platform/</loc>
+    <lastmod>2015-08-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/platform/</loc>
+    <lastmod>2015-08-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/security/</loc>
+    <lastmod>2015-08-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/sigfox/</loc>
     <lastmod>2015-08-17T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -962,6 +1053,48 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/arduino/</loc>
+    <lastmod>2015-04-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/azure/</loc>
+    <lastmod>2015-04-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/ble/</loc>
+    <lastmod>2015-04-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</loc>
+    <lastmod>2015-04-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/microsoft/</loc>
+    <lastmod>2015-04-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/smart-meeting-room/</loc>
+    <lastmod>2015-04-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/effectiveness/</loc>
     <lastmod>2015-01-14T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -983,64 +1116,43 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/post/choosing_iot_platform/</loc>
-    <lastmod>2014-08-17T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/javaone/</loc>
+    <lastmod>2014-10-01T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/security/</loc>
-    <lastmod>2014-08-17T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/talk/oracle-rapid-modernization-of-java-applications-to-jdk-8/</loc>
+    <lastmod>2014-10-01T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/arduino/</loc>
-    <lastmod>2014-07-17T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/oracle/</loc>
+    <lastmod>2014-10-01T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/ble/</loc>
-    <lastmod>2014-07-17T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/bosch/</loc>
+    <lastmod>2014-08-22T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</loc>
-    <lastmod>2014-07-17T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/ibm/</loc>
+    <lastmod>2014-08-22T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/concept/</loc>
-    <lastmod>2014-07-17T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/microsoft/</loc>
-    <lastmod>2014-07-17T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/raspberry-pi/</loc>
-    <lastmod>2014-07-17T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/smart-meeting-room/</loc>
-    <lastmod>2014-07-17T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/post/iot_cloud_platform_comparision/</loc>
+    <lastmod>2014-08-22T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

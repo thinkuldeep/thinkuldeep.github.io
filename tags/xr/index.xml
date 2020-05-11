@@ -171,5 +171,15 @@ The talks is about  How the User interactions evolved with time? Why is it impor
  In this post, we will discuss how the user interactions evolved with time and what is next!</description>
     </item>
     
+    <item>
+      <title>Exploring the Smart Glasses</title>
+      <link>https://thinkuldeep.github.io/post/exploring-google-glass/</link>
+      <pubDate>Mon, 20 Feb 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/exploring-google-glass/</guid>
+      <description>Introduction This article describes the fundamentals of light-weight smart glasses such as Google Glass and Vuzix M100 It also explain the development practices with pros and cons of its usage, limitation and future of these glasses in our lives.
+Google Glass Enterprise Edition Google Glass enterprise edition is a plain Android based smart glass that you can wear and performs operations just like a smartphone and with the use of a small screen located in the front of your right eye can perform a decent range of tasks.</description>
+    </item>
+    
   </channel>
 </rss>

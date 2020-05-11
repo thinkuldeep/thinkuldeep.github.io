@@ -69,5 +69,15 @@ It this article, we will discuss setting up the Static Code Analysis with SonarC
 There are not enough resources talking about static code analysis for Unity3D. This post covers steps to configure SonarQube and use it for scanning Unity projects.</description>
     </item>
     
+    <item>
+      <title>Exploring the Smart Glasses</title>
+      <link>https://thinkuldeep.github.io/post/exploring-google-glass/</link>
+      <pubDate>Mon, 20 Feb 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/exploring-google-glass/</guid>
+      <description>Introduction This article describes the fundamentals of light-weight smart glasses such as Google Glass and Vuzix M100 It also explain the development practices with pros and cons of its usage, limitation and future of these glasses in our lives.
+Google Glass Enterprise Edition Google Glass enterprise edition is a plain Android based smart glass that you can wear and performs operations just like a smartphone and with the use of a small screen located in the front of your right eye can perform a decent range of tasks.</description>
+    </item>
+    
   </channel>
 </rss>

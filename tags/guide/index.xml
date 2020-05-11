@@ -37,7 +37,7 @@ There are many industrial applications which connect to sensors and actuators, a
       <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/sigfox-an-introduction/</guid>
-      <description>##Introduction SIGFOX is providing a communication solution dedicated to the Internet of Things
+      <description>Introduction SIGFOX is providing a communication solution dedicated to the Internet of Things
 Dedicated to the IOT means:
  Simplicity: No configuration, no pairing, no signaling Autonomy: Very low energy consumption, allowing years of autonomy on battery without maintenance Small messages: No large assets or multimedia, only small messages  It is a LPWA (Low-Power Wide-Area) network, currently operating in 20 countries in Europe, Americas and Asia/Pacific. Communications over the SIGFOX network are bi-directional: uplink from device &amp;amp; downlink to the device.</description>
     </item>

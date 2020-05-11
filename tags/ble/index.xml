@@ -6,7 +6,7 @@
     <description>Recent content in BLE on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Jul 2014 10:58:08 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2015 10:58:08 -0400</lastBuildDate>
     
 	<atom:link href="https://thinkuldeep.github.io/tags/ble/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,10 @@
     <item>
       <title>Building a smart meeting room concept</title>
       <link>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</link>
-      <pubDate>Thu, 17 Jul 2014 10:58:08 -0400</pubDate>
+      <pubDate>Fri, 17 Apr 2015 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</guid>
-      <description>##Introduction On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
+      <description>Introduction On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
 Smart Meeting Room is a step forward in automating the availability and booking procedure of a meeting room.</description>
     </item>
     

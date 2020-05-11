@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Google on Kuldeep Singh</title>
+    <title>google on Kuldeep Singh</title>
     <link>https://thinkuldeep.github.io/tags/google/</link>
-    <description>Recent content in Google on Kuldeep Singh</description>
+    <description>Recent content in google on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Sep 2019 10:58:08 -0400</lastBuildDate>
@@ -23,9 +23,19 @@ The talks is about  How the User interactions evolved with time? Why is it impor
     </item>
     
     <item>
+      <title>Exploring the Smart Glasses</title>
+      <link>https://thinkuldeep.github.io/post/exploring-google-glass/</link>
+      <pubDate>Mon, 20 Feb 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/exploring-google-glass/</guid>
+      <description>Introduction This article describes the fundamentals of light-weight smart glasses such as Google Glass and Vuzix M100 It also explain the development practices with pros and cons of its usage, limitation and future of these glasses in our lives.
+Google Glass Enterprise Edition Google Glass enterprise edition is a plain Android based smart glass that you can wear and performs operations just like a smartphone and with the use of a small screen located in the front of your right eye can perform a decent range of tasks.</description>
+    </item>
+    
+    <item>
       <title>IOT Cloud Platforms -  A Comparative Study</title>
       <link>https://thinkuldeep.github.io/post/iot_cloud_platform_comparision/</link>
-      <pubDate>Mon, 22 Aug 2016 10:58:08 -0400</pubDate>
+      <pubDate>Fri, 22 Aug 2014 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/iot_cloud_platform_comparision/</guid>
       <description>Introduction The vision of IoT can be seen from two perspectives— ‘Internet’ centric and ‘Thing’ centric. The Internet centric architecture will involve internet services being the main focus while data is contributed by the objects. In the object centric architecture, the smart objects take the center stage.

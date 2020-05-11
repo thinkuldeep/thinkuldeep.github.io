@@ -60,12 +60,22 @@ Most organizations protect digital assets with a single sign-on using Multiple F
     </item>
     
     <item>
+      <title>Exploring the Smart Glasses</title>
+      <link>https://thinkuldeep.github.io/post/exploring-google-glass/</link>
+      <pubDate>Mon, 20 Feb 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/exploring-google-glass/</guid>
+      <description>Introduction This article describes the fundamentals of light-weight smart glasses such as Google Glass and Vuzix M100 It also explain the development practices with pros and cons of its usage, limitation and future of these glasses in our lives.
+Google Glass Enterprise Edition Google Glass enterprise edition is a plain Android based smart glass that you can wear and performs operations just like a smartphone and with the use of a small screen located in the front of your right eye can perform a decent range of tasks.</description>
+    </item>
+    
+    <item>
       <title>Building a smart meeting room concept</title>
       <link>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</link>
-      <pubDate>Thu, 17 Jul 2014 10:58:08 -0400</pubDate>
+      <pubDate>Fri, 17 Apr 2015 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</guid>
-      <description>##Introduction On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
+      <description>Introduction On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
 Smart Meeting Room is a step forward in automating the availability and booking procedure of a meeting room.</description>
     </item>
     

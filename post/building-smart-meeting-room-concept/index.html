@@ -31,24 +31,24 @@
     
 
     <meta property="og:title" content="Building a smart meeting room concept" />
-<meta property="og:description" content="##Introduction On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
+<meta property="og:description" content="Introduction On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
 Smart Meeting Room is a step forward in automating the availability and booking procedure of a meeting room." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/" />
-<meta property="article:published_time" content="2014-07-17T10:58:08-04:00" />
-<meta property="article:modified_time" content="2014-07-17T10:58:08-04:00" />
+<meta property="article:published_time" content="2015-04-17T10:58:08-04:00" />
+<meta property="article:modified_time" content="2015-04-17T10:58:08-04:00" />
 <meta itemprop="name" content="Building a smart meeting room concept">
-<meta itemprop="description" content="##Introduction On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
+<meta itemprop="description" content="Introduction On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
 Smart Meeting Room is a step forward in automating the availability and booking procedure of a meeting room.">
-<meta itemprop="datePublished" content="2014-07-17T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2014-07-17T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1266">
+<meta itemprop="datePublished" content="2015-04-17T10:58:08-04:00" />
+<meta itemprop="dateModified" content="2015-04-17T10:58:08-04:00" />
+<meta itemprop="wordCount" content="1271">
 
 
 
 <meta itemprop="keywords" content="smart meeting room,IOT,azure,cloud,concept,enterprise,Arduino,Raspberry PI,BLE,Microsoft," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Building a smart meeting room concept"/>
-<meta name="twitter:description" content="##Introduction On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
+<meta name="twitter:description" content="Introduction On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
 Smart Meeting Room is a step forward in automating the availability and booking procedure of a meeting room."/>
 
       
@@ -292,16 +292,16 @@ if (!doNotTrack) {
       <h1 class="f1 athelas mt3 mb1">Building a smart meeting room concept</h1>
       
       
-      <time class="f6 mv4 dib tracked" datetime="2014-07-17T10:58:08-04:00">July 17, 2014</time>
+      <time class="f6 mv4 dib tracked" datetime="2015-04-17T10:58:08-04:00">April 17, 2015</time>
 
       
       
         <span class="f6 mv4 dib tracked"> - 6 minutes read</span>
-        <span class="f6 mv4 dib tracked"> - 1266 words</span>
+        <span class="f6 mv4 dib tracked"> - 1271 words</span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>##Introduction
-On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="introduction">Introduction</h2>
+<p>On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.</p>
 <p>Smart Meeting Room is a step forward in automating the availability and booking procedure of a meeting room.</p>
 <p>The main idea behind this app is to avoid the hassle of opening outlook, checking for room availability and then booking the room in which a user is already in. The user will just have to give a voice command to check the availability of room and another one to book the room. The application will recognize the user’s command and give a speech output. In order to confirm the identity of person, a camera is initiated, capturing the user’s image and recognizing it using the face detection API.</p>
 <p>To fully automate a meeting room, an AC control module and a TV control module have been integrated into the app which allows the user to control the room’s air conditioning unit and the TV unit through simple voice commands.</p>
@@ -326,21 +326,36 @@ On a usual day at office, if an employee wishes to book a meeting room, he or sh
 <p>The architecture of the Smart Meeting Room system was designed to provide a stable foundation, both for current functionality and for future requirements.</p>
 <p><img src="/images/smart-meeting-arch.png" alt=""></p>
 <ul>
-<li>Universal Windows Application:  Universal Windows Platform (UWP) provides a common app platform available on every device that runs Windows 10. The Universal windows app written for the Smart Meeting Room will run on Raspberry Pi 3 installed with windows IoT Core operating system.
-UWP provides a large set of APIs to work with which makes it easy to integrate richer experiences with your devices such as natural user interfaces, searching, online storage and cloud based services.
+<li>
+<p>Universal Windows Application:  Universal Windows Platform (UWP) provides a common app platform available on every device that runs Windows 10. The Universal windows app written for the Smart Meeting Room will run on Raspberry Pi 3 installed with windows IoT Core operating system.
+UWP provides a large set of APIs to work with which makes it easy to integrate richer experiences with your devices such as natural user interfaces, searching, online storage and cloud based services.</p>
 <ul>
 <li>User Interface: A user interface created using XAML provides users to interact with the system directly.</li>
 <li>Media Control: The Media Control component in the universal apps enables us to use the webcam attached with our system and show a live camera feed to capture the image.</li>
 <li>Bluetooth Low Energy (BLE): The power-efficiency of Bluetooth with low energy functionality makes it perfect for devices that run for long periods on limited power sources. We use the Bluetooth GATT profile to connect with the Arduino board in order to send the commands for the AC and the TV operations.</li>
 </ul>
 </li>
-<li>Microsoft Speech Platform: The Microsoft Speech Platform provides a comprehensive Speech Platform Runtime management in voice-enabled applications. It provides the ability to recognize spoken words (speech recognition) and to generate synthesized speech (text-to-speech or TTS) to enhance users&rsquo; interaction.</li>
-<li>Microsoft Exchange Web Service: The Microsoft’s Exchange Web Service allows us to connect to the Office 365 account and access the public folders and calendars and retrieve the free/busy status and availability of the meeting rooms.</li>
-<li>Microsoft Face API: The Project Oxford’s Face API for windows universal apps allows for programmatic access to the cognitive service subscription. We use the API to detect faces in the picture captured, identify the faces and retrieve their stored information.</li>
-<li>Microsoft Office 365 Web API: The Office 365 Managed APIs provides a managed interface for developing the application that allow programmatic access to public folders and calendars.</li>
-<li>Microsoft Project Oxford Face Detection API: The Microsoft cognitive services Face API Detect one or more human faces in an image, organize people into groups according to visual similarity, and identify previously tagged people in images.</li>
-<li>Arduino Application: The application to control the AC and the TV is run on a single board microcontroller such as Arduino Uno.</li>
-<li>Smart Meeting Room Web Application: A separate web application running on Microsoft Azure Platform is made for users to register themselves.</li>
+<li>
+<p>Microsoft Speech Platform: The Microsoft Speech Platform provides a comprehensive Speech Platform Runtime management in voice-enabled applications. It provides the ability to recognize spoken words (speech recognition) and to generate synthesized speech (text-to-speech or TTS) to enhance users&rsquo; interaction.</p>
+</li>
+<li>
+<p>Microsoft Exchange Web Service: The Microsoft’s Exchange Web Service allows us to connect to the Office 365 account and access the public folders and calendars and retrieve the free/busy status and availability of the meeting rooms.</p>
+</li>
+<li>
+<p>Microsoft Face API: The Project Oxford’s Face API for windows universal apps allows for programmatic access to the cognitive service subscription. We use the API to detect faces in the picture captured, identify the faces and retrieve their stored information.</p>
+</li>
+<li>
+<p>Microsoft Office 365 Web API: The Office 365 Managed APIs provides a managed interface for developing the application that allow programmatic access to public folders and calendars.</p>
+</li>
+<li>
+<p>Microsoft Project Oxford Face Detection API: The Microsoft cognitive services Face API Detect one or more human faces in an image, organize people into groups according to visual similarity, and identify previously tagged people in images.</p>
+</li>
+<li>
+<p>Arduino Application: The application to control the AC and the TV is run on a single board microcontroller such as Arduino Uno.</p>
+</li>
+<li>
+<p>Smart Meeting Room Web Application: A separate web application running on Microsoft Azure Platform is made for users to register themselves.</p>
+</li>
 </ul>
 <h2 id="constraints-and-challenges">Constraints and Challenges</h2>
 <ul>
@@ -373,7 +388,7 @@ UWP provides a large set of APIs to work with which makes it easy to integrate r
 <li><a href="https://blogs.office.com/2014/05/12/net-and-javascript-libraries-for-office-365-apis/">Office 365 OAuth</a></li>
 <li><a href="https://github.com/OfficeDev/O365-WebApp-OAuthController">https://github.com/OfficeDev/O365-WebApp-OAuthController</a></li>
 </ul>
-<p>This concept was supported by my colleagues at IoT Center of Excellence at <a href="https://www.nagarro.com/en">Nagarro</a></p>
+<p>This concept was supported by my colleagues <a href="https://www.linkedin.com/in/ricktam-kundu/">Ricktam K</a> and <a href="https://www.linkedin.com/in/harshgodha/">Harsh Godha</a> at IoT Center of Excellence of <a href="https://www.nagarro.com/en">Nagarro</a></p>
 
 <h2 class="f5 fw4 dib">
     <a href="/tags/smart-meeting-room"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃smart meeting room</a>
@@ -426,6 +441,17 @@ UWP provides a large set of APIs to work with which makes it easy to integrate r
 
 
 
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/post/iot_cloud_platform_comparision/">IOT Cloud Platforms -  A Comparative Study</a>
+        </li>
+	    
+    </ul>
+</div>
 
 </aside>
 

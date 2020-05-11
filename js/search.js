@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return i && i.length > 0;
       })
       .map(function (i) {
-        return  "<a class=\"ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1 ml1\" href='/tags/" + i.split(" ").join("-") + "'>" + "#" + mark(i, searchString) +"</a>";
+        return  "<a class=\"ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1 ml1\" href='/tags/" + i.split(" ").join("-").toLowerCase() + "'>" + "#" + mark(i, searchString) +"</a>";
       })
 
 

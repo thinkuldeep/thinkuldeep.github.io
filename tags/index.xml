@@ -120,6 +120,15 @@
     </item>
     
     <item>
+      <title>GE</title>
+      <link>https://thinkuldeep.github.io/tags/ge/</link>
+      <pubDate>Sun, 03 May 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/ge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>general</title>
       <link>https://thinkuldeep.github.io/tags/general/</link>
       <pubDate>Sun, 03 May 2020 10:58:08 -0400</pubDate>
@@ -417,7 +426,7 @@
     </item>
     
     <item>
-      <title>google</title>
+      <title>Google</title>
       <link>https://thinkuldeep.github.io/tags/google/</link>
       <pubDate>Thu, 05 Sep 2019 10:58:08 -0400</pubDate>
       
@@ -723,6 +732,69 @@
     </item>
     
     <item>
+      <title>analysis</title>
+      <link>https://thinkuldeep.github.io/tags/analysis/</link>
+      <pubDate>Mon, 22 Aug 2016 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>azure</title>
+      <link>https://thinkuldeep.github.io/tags/azure/</link>
+      <pubDate>Mon, 22 Aug 2016 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bosch</title>
+      <link>https://thinkuldeep.github.io/tags/bosch/</link>
+      <pubDate>Mon, 22 Aug 2016 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/bosch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>comparision</title>
+      <link>https://thinkuldeep.github.io/tags/comparision/</link>
+      <pubDate>Mon, 22 Aug 2016 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/comparision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>framework</title>
+      <link>https://thinkuldeep.github.io/tags/framework/</link>
+      <pubDate>Mon, 22 Aug 2016 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/framework/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IBM</title>
+      <link>https://thinkuldeep.github.io/tags/ibm/</link>
+      <pubDate>Mon, 22 Aug 2016 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/ibm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>platform</title>
+      <link>https://thinkuldeep.github.io/tags/platform/</link>
+      <pubDate>Mon, 22 Aug 2016 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/platform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>product</title>
       <link>https://thinkuldeep.github.io/tags/product/</link>
       <pubDate>Wed, 17 Aug 2016 10:58:08 -0400</pubDate>
@@ -777,15 +849,6 @@
     </item>
     
     <item>
-      <title>platform</title>
-      <link>https://thinkuldeep.github.io/tags/platform/</link>
-      <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.github.io/tags/platform/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>sigfox</title>
       <link>https://thinkuldeep.github.io/tags/sigfox/</link>
       <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
@@ -831,33 +894,6 @@
     </item>
     
     <item>
-      <title>analysis</title>
-      <link>https://thinkuldeep.github.io/tags/analysis/</link>
-      <pubDate>Sun, 17 Aug 2014 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.github.io/tags/analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>comparision</title>
-      <link>https://thinkuldeep.github.io/tags/comparision/</link>
-      <pubDate>Sun, 17 Aug 2014 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.github.io/tags/comparision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>framework</title>
-      <link>https://thinkuldeep.github.io/tags/framework/</link>
-      <pubDate>Sun, 17 Aug 2014 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.github.io/tags/framework/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>security</title>
       <link>https://thinkuldeep.github.io/tags/security/</link>
       <pubDate>Sun, 17 Aug 2014 10:58:08 -0400</pubDate>
@@ -872,15 +908,6 @@
       <pubDate>Thu, 17 Jul 2014 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/tags/arduino/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>azure</title>
-      <link>https://thinkuldeep.github.io/tags/azure/</link>
-      <pubDate>Thu, 17 Jul 2014 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.github.io/tags/azure/</guid>
       <description></description>
     </item>
     

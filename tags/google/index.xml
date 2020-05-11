@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>google on Kuldeep Singh</title>
+    <title>Google on Kuldeep Singh</title>
     <link>https://thinkuldeep.github.io/tags/google/</link>
-    <description>Recent content in google on Kuldeep Singh</description>
+    <description>Recent content in Google on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Sep 2019 10:58:08 -0400</lastBuildDate>
@@ -20,6 +20,16 @@
       <description>Presented At : Google DevFest 2019, by Google Developer&amp;rsquo;s Group, GDG Cloud Delhi .
 The talks is about  How the User interactions evolved with time? Why is it important to think beyond the tradition keyboard and screen? Where is the industry heading? How will it impact us?  Intro here  We have built office-explorer #DevFest2019 pic.twitter.com/0yRz7Euo8J
 &amp;mdash; Kuldeep Singh (@thinkuldeep) September 10, 2019  Detailed Slides   Think beyond keyboard and screen - dev fest 2019  from Kuldeep Singh  Feedback It was well recevied the participats.</description>
+    </item>
+    
+    <item>
+      <title>IOT Cloud Platforms -  A Comparative Study</title>
+      <link>https://thinkuldeep.github.io/post/iot_cloud_platform_comparision/</link>
+      <pubDate>Mon, 22 Aug 2016 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/iot_cloud_platform_comparision/</guid>
+      <description>Introduction The vision of IoT can be seen from two perspectives— ‘Internet’ centric and ‘Thing’ centric. The Internet centric architecture will involve internet services being the main focus while data is contributed by the objects. In the object centric architecture, the smart objects take the center stage.
+In order to realize the full potential of cloud computing as well as ubiquitous sensing, a combined framework with a cloud at the center seems to be most viable.</description>
     </item>
     
   </channel>

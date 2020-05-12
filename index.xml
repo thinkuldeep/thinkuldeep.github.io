@@ -349,6 +349,15 @@ Insect management relies on the early detection and accuracy of insect populatio
     </item>
     
     <item>
+      <title>Industrial IoT (IIOT) Reference Architecture</title>
+      <link>https://thinkuldeep.github.io/post/iiot-reference-architecture/</link>
+      <pubDate>Tue, 16 Aug 2016 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/iiot-reference-architecture/</guid>
+      <description>Introduction The industry has been going through an evolution. Industry 4.0 is the fourth industrial revolution where the key will be on digital transformation. Industry 4.0 creates what has been called a &amp;ldquo;smart factory&amp;rdquo;. Within the modular structured smart factories, cyber-physical systems monitor physical processes, create a virtual copy of the physical world and make decentralized decisions. Over the Internet of Things, cyber-physical systems communicate and cooperate with each other and with humans in real time, and via the Internet of Services, both internal and cross-organizational services are offered and used by participants of the value chain.</description>
+    </item>
+    
+    <item>
       <title>Writing maintainable code is like house cleaning</title>
       <link>https://thinkuldeep.github.io/post/clean-code/</link>
       <pubDate>Thu, 14 Jan 2016 10:58:08 -0400</pubDate>
@@ -406,6 +415,15 @@ User case (Oracle 11g, JBoss 6, JDK 6, Hibernate, Spring 3) : A tree structure i
       <guid>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</guid>
       <description>Introduction On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
 Smart Meeting Room is a step forward in automating the availability and booking procedure of a meeting room.</description>
+    </item>
+    
+    <item>
+      <title>Smart bottle IOT concept</title>
+      <link>https://thinkuldeep.github.io/post/building-smart-bottle-concept/</link>
+      <pubDate>Fri, 17 Apr 2015 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/building-smart-bottle-concept/</guid>
+      <description>Introduction The rapid growth of Internet of Things (IoT) and miniature wearable biosensors have generated new opportunities for personalized eHealth and mHealth services. We present a case study of an intelligent cap that can measure the amount of water in the bottle, monitor activity of opening or closing of bottle cap. This paper presents a Proof of Concept implementation for such a connected smart bottle that sends measurements to the IoT Platform.</description>
     </item>
     
     <item>

@@ -934,6 +934,34 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/industrial/</loc>
+    <lastmod>2016-08-16T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/iiot-reference-architecture/</loc>
+    <lastmod>2016-08-16T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/industry-4.0/</loc>
+    <lastmod>2016-08-16T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/smart-factory/</loc>
+    <lastmod>2016-08-16T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/clean-code/</loc>
     <lastmod>2016-01-14T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1088,7 +1116,49 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/node-mcu/</loc>
+    <lastmod>2015-04-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/smart-bottle/</loc>
+    <lastmod>2015-04-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/building-smart-bottle-concept/</loc>
+    <lastmod>2015-04-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/smart-cap/</loc>
+    <lastmod>2015-04-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/smart-meeting-room/</loc>
+    <lastmod>2015-04-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/thingspeak/</loc>
+    <lastmod>2015-04-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/ultrasonic/</loc>
     <lastmod>2015-04-17T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

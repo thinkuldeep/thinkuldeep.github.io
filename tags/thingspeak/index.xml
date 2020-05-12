@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>thingspeak on Kuldeep Singh</title>
+    <link>https://thinkuldeep.github.io/tags/thingspeak/</link>
+    <description>Recent content in thingspeak on Kuldeep Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Apr 2015 10:58:08 -0400</lastBuildDate>
+    
+	<atom:link href="https://thinkuldeep.github.io/tags/thingspeak/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Smart bottle IOT concept</title>
+      <link>https://thinkuldeep.github.io/post/building-smart-bottle-concept/</link>
+      <pubDate>Fri, 17 Apr 2015 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/building-smart-bottle-concept/</guid>
+      <description>Introduction The rapid growth of Internet of Things (IoT) and miniature wearable biosensors have generated new opportunities for personalized eHealth and mHealth services. We present a case study of an intelligent cap that can measure the amount of water in the bottle, monitor activity of opening or closing of bottle cap. This paper presents a Proof of Concept implementation for such a connected smart bottle that sends measurements to the IoT Platform.</description>
+    </item>
+    
+  </channel>
+</rss>

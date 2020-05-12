@@ -29,5 +29,14 @@
       <description>Microservices-based development is happening all around the industry; more than 70% are trying development of microservice-based software. Microservices simplify integration of the businesses, processes, technology, and people by breaking down the big-bang monolith problem to a smaller set that can be handled independently. However, it also comes with the problem of managing relations between these smaller sets. We used to manage fewer independent units, so there was less operation and planning effort.</description>
     </item>
     
+    <item>
+      <title>Industrial IoT (IIOT) Reference Architecture</title>
+      <link>https://thinkuldeep.github.io/post/iiot-reference-architecture/</link>
+      <pubDate>Tue, 16 Aug 2016 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/iiot-reference-architecture/</guid>
+      <description>Introduction The industry has been going through an evolution. Industry 4.0 is the fourth industrial revolution where the key will be on digital transformation. Industry 4.0 creates what has been called a &amp;ldquo;smart factory&amp;rdquo;. Within the modular structured smart factories, cyber-physical systems monitor physical processes, create a virtual copy of the physical world and make decentralized decisions. Over the Internet of Things, cyber-physical systems communicate and cooperate with each other and with humans in real time, and via the Internet of Services, both internal and cross-organizational services are offered and used by participants of the value chain.</description>
+    </item>
+    
   </channel>
 </rss>

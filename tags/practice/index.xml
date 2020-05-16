@@ -50,5 +50,15 @@ There are not enough resources talking about static code analysis for Unity3D. T
  Let for the same while writing the code –  Your code will remain maintainable for longer duration if you follow certain rules strictly such as follow the coding standards and guidelines, clean the code just after it, fix/refactor on time, periodic design review and refactoring.</description>
     </item>
     
+    <item>
+      <title>Object Oriented JavaScript</title>
+      <link>https://thinkuldeep.github.io/post/oojs/</link>
+      <pubDate>Tue, 27 Jan 2015 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/oojs/</guid>
+      <description>Introduction JavaScript has been regarded as a functional programing language by most of the developers. This book is targeted for all the JavaScript developers to shift their thinking from the functional to the object oriented programing language.
+The course requires basic knowledge of JavaScript syntax. If you already know some JavaScript, you will find a lot of eye-openers as you go along and learn what more the JavaScript can do for you.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>java 10 on Kuldeep Singh</title>
+    <link>https://thinkuldeep.github.io/tags/java-10/</link>
+    <description>Recent content in java 10 on Kuldeep Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Aug 2018 10:58:08 -0400</lastBuildDate>
+    
+	<atom:link href="https://thinkuldeep.github.io/tags/java-10/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Quick Catch up Before Java 11</title>
+      <link>https://thinkuldeep.github.io/post/before_java11/</link>
+      <pubDate>Wed, 29 Aug 2018 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/before_java11/</guid>
+      <description>Java 11&amp;rsquo;s release candidate is already here, and the industry is still roaming around Java 8. Every six months, we will see a new release. It is good that Java is evolving at a fast speed to catch up the challengers, but at the same time, it is also scary to catch its speed, even the Java ecosystem (build tools, IDE, etc.) is not catching up that fast. It feels like we are losing track.</description>
+    </item>
+    
+  </channel>
+</rss>

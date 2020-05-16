@@ -52,28 +52,84 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/android/</loc>
-    <lastmod>2020-05-10T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/3d/</loc>
+    <lastmod>2020-05-16T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/aosp/</loc>
-    <lastmod>2020-05-10T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/android/</loc>
+    <lastmod>2020-05-16T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/ar/</loc>
+    <lastmod>2020-05-16T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/arcore/</loc>
+    <lastmod>2020-05-16T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://thinkuldeep.github.io/tags/customization/</loc>
-    <lastmod>2020-05-10T10:58:08-04:00</lastmod>
+    <lastmod>2020-05-16T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://thinkuldeep.github.io/tags/enterprise/</loc>
+    <lastmod>2020-05-16T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/mr/</loc>
+    <lastmod>2020-05-16T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/run-a-2d-app-in-xr-container/</loc>
+    <lastmod>2020-05-16T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/system/</loc>
+    <lastmod>2020-05-16T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/unity/</loc>
+    <lastmod>2020-05-16T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/vr/</loc>
+    <lastmod>2020-05-16T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/aosp/</loc>
     <lastmod>2020-05-10T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -158,13 +214,6 @@
   
   <url>
     <loc>https://thinkuldeep.github.io/tags/tutorial/</loc>
-    <lastmod>2020-04-26T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/unity/</loc>
     <lastmod>2020-04-26T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -318,28 +367,7 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/ar/</loc>
-    <lastmod>2020-02-27T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.github.io/tags/event/</loc>
-    <lastmod>2020-02-27T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/mr/</loc>
-    <lastmod>2020-02-27T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/vr/</loc>
     <lastmod>2020-02-27T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -724,6 +752,34 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/java-10/</loc>
+    <lastmod>2018-08-29T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/java-11/</loc>
+    <lastmod>2018-08-29T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/java-8/</loc>
+    <lastmod>2018-08-29T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/java-9/</loc>
+    <lastmod>2018-08-29T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/upgrade/</loc>
     <lastmod>2018-08-29T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1004,6 +1060,48 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/arduino/</loc>
+    <lastmod>2016-04-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/azure/</loc>
+    <lastmod>2016-04-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/ble/</loc>
+    <lastmod>2016-04-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</loc>
+    <lastmod>2016-04-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/microsoft/</loc>
+    <lastmod>2016-04-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/smart-meeting-room/</loc>
+    <lastmod>2016-04-17T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/androidthings/</loc>
     <lastmod>2016-04-10T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1137,43 +1235,43 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/arduino/</loc>
-    <lastmod>2015-04-17T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/course/</loc>
+    <lastmod>2015-01-27T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/azure/</loc>
-    <lastmod>2015-04-17T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/javascript/</loc>
+    <lastmod>2015-01-27T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/ble/</loc>
-    <lastmod>2015-04-17T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/js/</loc>
+    <lastmod>2015-01-27T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</loc>
-    <lastmod>2015-04-17T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/object-oriented/</loc>
+    <lastmod>2015-01-27T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/microsoft/</loc>
-    <lastmod>2015-04-17T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/post/oojs/</loc>
+    <lastmod>2015-01-27T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/smart-meeting-room/</loc>
-    <lastmod>2015-04-17T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/oops/</loc>
+    <lastmod>2015-01-27T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1195,6 +1293,69 @@
   <url>
     <loc>https://thinkuldeep.github.io/post/software-effectiveness-vs-efficiency/</loc>
     <lastmod>2015-01-14T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/benchmakring/</loc>
+    <lastmod>2014-12-10T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/hashmap/</loc>
+    <lastmod>2014-12-10T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/java8-hashmap-performance-improvement/</loc>
+    <lastmod>2014-12-10T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/java8-lambda-expression/</loc>
+    <lastmod>2014-12-10T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/lambda-expression/</loc>
+    <lastmod>2014-12-10T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/performance/</loc>
+    <lastmod>2014-12-10T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/whatsnew/</loc>
+    <lastmod>2014-12-10T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/java8-stream-api/</loc>
+    <lastmod>2014-12-08T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/stream-api/</loc>
+    <lastmod>2014-12-08T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

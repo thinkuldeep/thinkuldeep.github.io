@@ -217,3 +217,10 @@ aside.search .search-documentation {
 }
 
 
+code, .code {
+    color:white;
+    background-color: rgba(0, 0, 0, 0.42);
+    border-radius: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+}

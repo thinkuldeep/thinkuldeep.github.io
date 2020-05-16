@@ -40,11 +40,11 @@
 <meta itemprop="description" content="Are you ready for Java 11? In this post, we will discuss some of the useful features of Java 8, 9, and 10 that you need to know before jumping into Java11.">
 <meta itemprop="datePublished" content="2018-08-29T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2018-08-29T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1710">
+<meta itemprop="wordCount" content="1744">
 
 
 
-<meta itemprop="keywords" content="upgrade,java," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="upgrade,java,java 11,java 8,java 9,java 10," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="A Quick Catch up Before Java 11"/>
 <meta name="twitter:description" content="Are you ready for Java 11? In this post, we will discuss some of the useful features of Java 8, 9, and 10 that you need to know before jumping into Java11."/>
 
@@ -298,7 +298,7 @@ if (!doNotTrack) {
       
       
         <span class="f6 mv4 dib tracked"> - 9 minutes read</span>
-        <span class="f6 mv4 dib tracked"> - 1710 words</span>
+        <span class="f6 mv4 dib tracked"> - 1744 words</span>
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Java 11&rsquo;s release candidate is already here, and the industry is still roaming around Java 8. Every six months, we will see a new release. It is good that Java is evolving at a fast speed to catch up the challengers, but at the same time, it is also scary to catch its speed, even the Java ecosystem (build tools, IDE, etc.) is not catching up that fast. It feels like we are losing track. If I can&rsquo;t catch up with my favorite language, then I will probably choose another one, as it is equally as good to adapt to the new one. Below, we will discuss some of the useful features from Java 8, 9 and 10 that you need to know before jumping into Java 11.</p>
@@ -309,6 +309,7 @@ if (!doNotTrack) {
 <h4 id="a-quick-recap">A Quick Recap</h4>
 <h5 id="lambda-expression-parameters---body">Lambda Expression: <code>(parameters) -&gt; {body}</code></h5>
 <p>Lambda expressions opened the gates for the functional programming lovers to keep using Java. Lambda expressions expect zero or more parameters, which can be accessed in the expression body and returned with the evaluated result.</p>
+<p>Read my earlier article on <a href="/post/java8-lambda-expression">Introduction to Lambda Expressions</a></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">Comparator<span style="color:#f92672">&lt;</span>Integer<span style="color:#f92672">&gt;</span> comparator <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>a<span style="color:#f92672">,</span> b<span style="color:#f92672">)</span> <span style="color:#f92672">-&gt;</span> a<span style="color:#f92672">-</span>b<span style="color:#f92672">;</span>
 System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>comparator<span style="color:#f92672">.</span><span style="color:#a6e22e">compare</span><span style="color:#f92672">(</span>3<span style="color:#f92672">,</span> 4<span style="color:#f92672">));</span> <span style="color:#75715e">// -1
 </span></code></pre></div><h5 id="functional-interface-an-interface-with-only-one-method">Functional Interface: an Interface With Only one Method</h5>
@@ -320,6 +321,7 @@ System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span>
 <p>Static and instance methods can be accessed with  <code>:: operator</code>, and constructors may be accessed with <code>::new</code>, and they can be passed as a functional parameter, e.g. <code>System.out::println</code>.</p>
 <h5 id="streams-much-more-than-iterations">Streams: Much More Than Iterations</h5>
 <p>Streams are a sequence of objects and operations. A lot of default methods have been added in the interfaces to support  <code>forEach</code>, <code>filter</code>, <code>map</code> , and reduce constructs of the streams. Java libraries, which were providing collections, now support the streams. e.g. <code>BufferredReader.lines()</code>. All the collections can be easily converted to streams. Parallel stream operations are also supported, which distributes the operations on the multiple CPUs internally.</p>
+<p>Read my earlier article on <a href="/post/java8-stream-api">Introduction to Steam APIs</a></p>
 <h5 id="intermediate-operations-the-lazy-operation">Intermediate Operations: the Lazy Operation</h5>
 <p>For intermediate operations performed lazily, nothing happens until the terminating operation is called.</p>
 <ul>
@@ -339,6 +341,8 @@ System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span>
 <p>The <code>PermGen</code> has been removed completely and replaced by  <code>MetaSpace</code>. Metaspace is no more part of the heap memory, but of the native memory allocated to the process. JVM tuning needs different aspects now, as monitoring is required, not just for the heap, but also for the native memory.</p>
 <p>Some combinations of GCs has deprecated. GC is allocated automatically based on the environment configurations.</p>
 <p>There were other changes in NIO, DateTime, Security, compact JDK profiles, and tools like jDeps, jjs, the JavaScript Engine, etc.</p>
+<h4 id="hashmap-improvements">HashMap Improvements</h4>
+<p>Java 8 has improved the HashMap collisions, have a look the <a href="/post/java8-hashmap-performance-improvement">HashMap Performance benchmarking</a></p>
 <h2 id="java-9-continue-the-tradition">Java 9: Continue the Tradition</h2>
 <p>Java 9 has been around us for more than a year now. Its key feature module system is still not well adapted. In my opinion, it will take more time to really adopt such features in the mainstream. It challenges developers in the way they design classes. They now need to think more in terms of application modules than just a group of classes. Anyway, it is a similar challenge to what a traditional developer faces through microservice-based development.  Java 9 continued adding functional programming features to keep Java alive and also improved JVM internals.</p>
 <h4 id="java-platform-module-system-small-is-big">Java Platform Module System: Small Is Big</h4>
@@ -444,6 +448,22 @@ var set <span style="color:#f92672">=</span> Set<span style="color:#f92672">.</s
     <a href="/tags/java"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃java</a>
 </h2>
 
+<h2 class="f5 fw4 dib">
+    <a href="/tags/java-11"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃java 11</a>
+</h2>
+
+<h2 class="f5 fw4 dib">
+    <a href="/tags/java-8"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃java 8</a>
+</h2>
+
+<h2 class="f5 fw4 dib">
+    <a href="/tags/java-9"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃java 9</a>
+</h2>
+
+<h2 class="f5 fw4 dib">
+    <a href="/tags/java-10"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃java 10</a>
+</h2>
+
 <div class="mt2 instapaper_ignoref">
           <div class="fb-comments" data-href="https://thinkuldeep.github.io/post/before_java11/" data-numposts="5" data-width=""></div>
       
@@ -461,6 +481,22 @@ var set <span style="color:#f92672">=</span> Set<span style="color:#f92672">.</s
     <ul class="pa0 list">
 	   
 	     <li  class="mb2">
+          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/java8-stream-api/">Introduction to Java Stream API</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/talk/oracle-rapid-modernization-of-java-applications-to-jdk-8/">JavaOne - Rapid Modernization of Java Applications to JDK 8</a>
+        </li>
+	    
+	     <li  class="mb2">
           <a href="/post/lessons_from_microservices_development/">5 Hard Lessons From Microservices Development</a>
         </li>
 	    
@@ -470,10 +506,6 @@ var set <span style="color:#f92672">=</span> Set<span style="color:#f92672">.</s
 	    
 	     <li  class="mb2">
           <a href="/post/choose-orm-carefully/">Choose ORM carefully!</a>
-        </li>
-	    
-	     <li  class="mb2">
-          <a href="/talk/oracle-rapid-modernization-of-java-applications-to-jdk-8/">JavaOne - Rapid Modernization of Java Applications to JDK 8</a>
         </li>
 	    
     </ul>

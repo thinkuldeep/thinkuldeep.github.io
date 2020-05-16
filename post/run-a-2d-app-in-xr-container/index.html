@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta property="fb:app_id" content="263238410439239" />
+    
+    <title>Kuldeep Singh  | Run a 2D App in XR Container</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.69.2" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.1cb140d8ba31d5b2f1114537dd04802a.css" rel="stylesheet">
+    
+
+    
+      <link rel="stylesheet" href="/css/custom.css">
+    
+
+    
+      
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+    
+
+    
+
+    <meta property="og:title" content="Run a 2D App in XR Container" />
+<meta property="og:description" content="This article covers a concept implementation for an XR App Container for 2D app" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://thinkuldeep.github.io/post/run-a-2d-app-in-xr-container/" />
+<meta property="article:published_time" content="2020-05-16T10:58:08-04:00" />
+<meta property="article:modified_time" content="2020-05-16T10:58:08-04:00" />
+<meta itemprop="name" content="Run a 2D App in XR Container">
+<meta itemprop="description" content="This article covers a concept implementation for an XR App Container for 2D app">
+<meta itemprop="datePublished" content="2020-05-16T10:58:08-04:00" />
+<meta itemprop="dateModified" content="2020-05-16T10:58:08-04:00" />
+<meta itemprop="wordCount" content="2559">
+
+
+
+<meta itemprop="keywords" content="xr,ar,vr,mr,3d,enterprise,android,system,customization,Unity,ARCore," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Run a 2D App in XR Container"/>
+<meta name="twitter:description" content="This article covers a concept implementation for an XR App Container for 2D app"/>
+
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-165124840-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+    <script data-ad-client="ca-pub-1704519698707483" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  </head>
+
+  <body class="ma0 avenir bg-near-white production">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=263238410439239&autoLogAppEvents=1"></script>
+    
+   
+  
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://thinkuldeep.github.io/images/xr-container-3.png');">
+    <div class="pb3-m pb6-l bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <div class="flex-l items-center">
+     <a href="https://thinkuldeep.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+        <img src="/images/profile.jpg" class="home-link" />
+     </a>
+      <a class="show-search toggle-search hover-white no-underline white-90" title="Search in my space">
+        <svg xmlns="http://www.w3.org/2000/svg" width="612.056" height="612.057" viewbox="0 0 613 613">
+          <path d="M595.2 513.908L493.775 412.482c26.707-41.727 42.685-91.041 42.685-144.263C536.459 120.085 416.375 0 268.24 0 120.106 0 .021 120.085.021 268.219c0 148.134 120.085 268.22 268.219 268.22 53.222 0 102.537-15.979 144.225-42.686l101.426 101.463c22.454 22.453 58.854 22.453 81.271 0 22.492-22.491 22.492-58.855.038-81.308zm-326.96-54.103c-105.793 0-191.585-85.793-191.585-191.585 0-105.793 85.792-191.585 191.585-191.585s191.585 85.792 191.585 191.585c.001 105.792-85.791 191.585-191.585 191.585z" />
+        </svg>
+        <span class=".">Search</span>
+      </a>
+    <aside class="search">
+   <div class="z-999" style="margin-top: 1.5rem;">
+    <a class="show-search toggle-search z-999 close-search" title="Close Search">
+        <svg height="512" width="512" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M443.6 387.1L312.4 255.4l131.5-130c5.4-5.4 5.4-14.2 0-19.6l-37.4-37.6c-2.6-2.6-6.1-4-9.8-4-3.7 0-7.2 1.5-9.8 4L256 197.8 124.9 68.3c-2.6-2.6-6.1-4-9.8-4-3.7 0-7.2 1.5-9.8 4L68 105.9c-5.4 5.4-5.4 14.2 0 19.6l131.5 130L68.4 387.1c-2.6 2.6-4.1 6.1-4.1 9.8 0 3.7 1.4 7.2 4.1 9.8l37.4 37.6c2.7 2.7 6.2 4.1 9.8 4.1 3.5 0 7.1-1.3 9.8-4.1L256 313.1l130.7 131.1c2.7 2.7 6.2 4.1 9.8 4.1 3.5 0 7.1-1.3 9.8-4.1l37.4-37.6c2.6-2.6 4.1-6.1 4.1-9.8-.1-3.6-1.6-7.1-4.2-9.7z"/></svg>
+    </a>
+   </div>
+    <div class="search-wrapper" style="z-index: 20">
+        <form class="search" method="get">
+            <input type="search" placeholder="search..." disabled="disabled" />
+        </form>
+    </div>
+    <ul class="search-results">
+        <li>
+        </li>
+    </ul>
+</aside>
+
+    </div>
+    <div class="flex-l items-center z-999">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="☞ About page">
+              ☞ About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/post/" title="☞ Articles page">
+              ☞ Articles
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/talk/" title="☞ Talks page">
+              ☞ Talks
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/tags/" title="☞ Tags page">
+              ☞ Tags
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/search/" title=" page">
+              
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+<a href="https://www.thoughtworks.com/profiles/kuldeep-singh" target="_blank" class="link-transition instagram link dib z-999 pt3 pt0-l mr1" title="ThougthWorks link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+    <svg  height="36px"  style="enable-background:new 0 0 65 35;" version="1.1" viewBox="0 0 65 30" width="36px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M0 5.93V0h25.132v5.93h-9.06v29h-7v-29zM29.255 0h3.5L38.5 28.2 44.87 0h3.463l6.052 28.188L60.535 0H64l-8 34.92h-3.587l-5.93-28.546L40.16 34.92h-3.587z"
+      style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://www.linkedin.com/in/kuldeep-reck/" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/thinkuldeep" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://gitlab.com/kuldeeps2" target="_blank" class="link-transition gitlab link dib z-999 pt3 pt0-l mr1" title="Gitlab link" rel="noopener" aria-label="follow on Gitlab——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M29.782 199.732L256 493.714 8.074 309.699c-6.856-5.142-9.712-13.996-7.141-21.993l28.849-87.974zm75.405-174.806c-3.142-8.854-15.709-8.854-18.851 0L29.782 199.732h131.961L105.187 24.926zm56.556 174.806L256 493.714l94.257-293.982H161.743zm349.324 87.974l-28.849-87.974L256 493.714l247.926-184.015c6.855-5.142 9.711-13.996 7.141-21.993zm-85.404-262.78c-3.142-8.854-15.709-8.854-18.851 0l-56.555 174.806h131.961L425.663 24.926z"></path></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://twitter.com/thinkuldeep" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://www.instagram.com/thinkuldeep/" target="_blank" class="link-transition instagram link dib z-999 pt3 pt0-l mr1" title="Instagram link" rel="noopener" aria-label="follow on Instagram——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.271,26.578v-0.006c0.502,0,1.005,0.01,1.508-0.002  c0.646-0.017,1.172-0.57,1.172-1.217c0-0.963,0-1.927,0-2.89c0-0.691-0.547-1.24-1.236-1.241c-0.961,0-1.922-0.001-2.883,0  c-0.688,0.001-1.236,0.552-1.236,1.243c-0.001,0.955-0.004,1.91,0.003,2.865c0.001,0.143,0.028,0.291,0.073,0.426  c0.173,0.508,0.639,0.82,1.209,0.823C41.344,26.579,41.808,26.578,42.271,26.578z M33,27.817c-3.384-0.002-6.135,2.721-6.182,6.089  c-0.049,3.46,2.72,6.201,6.04,6.272c3.454,0.074,6.248-2.686,6.321-6.043C39.254,30.675,36.462,27.815,33,27.817z M21.046,31.116  v0.082c0,4.515-0.001,9.03,0,13.545c0,0.649,0.562,1.208,1.212,1.208c7.16,0.001,14.319,0.001,21.479,0  c0.656,0,1.215-0.557,1.215-1.212c0.001-4.509,0-9.02,0-13.528v-0.094h-2.912c0.411,1.313,0.537,2.651,0.376,4.014  c-0.161,1.363-0.601,2.631-1.316,3.803s-1.644,2.145-2.779,2.918c-2.944,2.006-6.821,2.182-9.946,0.428  c-1.579-0.885-2.819-2.12-3.685-3.713c-1.289-2.373-1.495-4.865-0.739-7.451C22.983,31.116,22.021,31.116,21.046,31.116z   M45.205,49.255c0.159-0.026,0.318-0.049,0.475-0.083c1.246-0.265,2.264-1.304,2.508-2.557c0.025-0.137,0.045-0.273,0.067-0.409  V21.794c-0.021-0.133-0.04-0.268-0.065-0.401c-0.268-1.367-1.396-2.428-2.78-2.618c-0.058-0.007-0.113-0.02-0.17-0.03H20.761  c-0.147,0.027-0.296,0.047-0.441,0.08c-1.352,0.308-2.352,1.396-2.545,2.766c-0.008,0.057-0.02,0.114-0.029,0.171V46.24  c0.028,0.154,0.05,0.311,0.085,0.465c0.299,1.322,1.427,2.347,2.77,2.52c0.064,0.008,0.13,0.021,0.195,0.03H45.205z M33,64  C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+
+<a href="https://medium.com/@thinkuldeep" target="_blank" class="link-transition medium link dib z-999 pt3 pt0-l mr1" title="Medium link" rel="noopener" aria-label="follow on Medium——Opens in a new window">
+    <svg  height="32px"  style="enable-background:new 0 0 170 170;" version="1.1" viewBox="0 0 170 170" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M46.5340803,65.2157554 C46.6968378,63.6076572 46.0836,62.018231 44.8828198,60.93592 L32.6512605,46.2010582 L32.6512605,44 L70.6302521,44 L99.9859944,108.380952 L125.794585,44 L162,44 L162,46.2010582 L151.542017,56.2281011 C150.640424,56.9153477 150.193188,58.0448862 150.380019,59.1628454 L150.380019,132.837155 C150.193188,133.955114 150.640424,135.084652 151.542017,135.771899 L161.755369,145.798942 L161.755369,148 L110.38282,148 L110.38282,145.798942 L120.963119,135.527337 C122.002801,134.487948 122.002801,134.182246 122.002801,132.592593 L122.002801,73.0417402 L92.585901,147.755438 L88.6106443,147.755438 L54.3622782,73.0417402 L54.3622782,123.115814 C54.0767278,125.221069 54.7759199,127.3406 56.2581699,128.863022 L70.0186741,145.55438 L70.0186741,147.755438 L31,147.755438 L31,145.55438 L44.7605042,128.863022 C46.2319621,127.338076 46.8903838,125.204485 46.5340803,123.115814 L46.5340803,65.2157554 Z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+      <a class="w-5"></a>
+      <div>
+
+      </div>
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Run a 2D App in XR Container</h1>
+          
+            <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              This article covers a concept implementation for an XR App Container for 2D app
+            </h2>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        ARTICLES
+      </aside>
+      
+
+
+
+
+  <div id="sharing" class="mt3">
+
+    
+    <a href="https://www.facebook.com/sharer.php?u=https://thinkuldeep.github.io/post/run-a-2d-app-in-xr-container/" class="facebook no-underline" aria-label="share on Facebook">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+
+    </a>
+
+    
+    
+    <a href="https://twitter.com/share?url=https://thinkuldeep.github.io/post/run-a-2d-app-in-xr-container/&amp;text=Run%20a%202D%20App%20in%20XR%20Container" class="twitter no-underline" aria-label="share on Twitter">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+    </a>
+
+    
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://thinkuldeep.github.io/post/run-a-2d-app-in-xr-container/&amp;title=Run%20a%202D%20App%20in%20XR%20Container" class="linkedin no-underline" aria-label="share on LinkedIn">
+      <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+    </a>
+  </div>
+
+      <h1 class="f1 athelas mt3 mb1">Run a 2D App in XR Container</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-05-16T10:58:08-04:00">May 16, 2020</time>
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 13 minutes read</span>
+        <span class="f6 mv4 dib tracked"> - 2559 words</span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>There are a number of Enterprise XR use cases where we have a need to open the existing 2D apps in the XR devices in a wrapper app, and this article covers a concept, have a look!</p>
+<p>After trying the <a href="/post/os-customization-for-xr-devices">OS level customization</a> on an XR device, you may like to run your XR apps as a system app. Here is a simple article by <a href="https://medium.com/u/6b8d20e9607d">Raju K</a></p>
+<blockquote>
+<p><a href="https://medium.com/xrpractices/android-system-apps-development-d73bedfb8def">Android System Apps development</a> -  Android Emulator Setup and guidelines to develop system applications</p>
+</blockquote>
+<p>Now, you may also want to open existing applications in an XR container, and that&rsquo;s where the XR container app must be a system app and the above article will help you there, however, this article is about building the XR container itself to open existing Android Activity in an XR container and interact with it.</p>
+<p>This article covers building a XR container app using <a href="https://unity.com/">Unity</a>, and <a href="https://developers.google.com/ar">ARCore</a>, which renders an activity of another android app, in 3D space.</p>
+<h2 id="3d-container-dev-environment-setup">3D Container Dev Environment Setup</h2>
+<h4 id="create-a-unity-project">Create a Unity Project</h4>
+<ul>
+<li>
+<p>If you are new to Unity then follow this <a href="https://medium.com/xrpractices/lets-get-started-with-unity-a5b262436a8">simple article</a> by <a href="https://medium.com/u/e542e1488e3c">Neelarghya</a></p>
+</li>
+<li>
+<p>Download and setup XR project using AR Core — the <a href="https://developers.google.com/ar/develop/unity/quickstart-android">google guidelines</a>,</p>
+</li>
+<li>
+<p>Import the ARCore SDK package into Unity.</p>
+</li>
+<li>
+<p>Remove the main camera, light, and the add prefabs “<code>ARCore Device</code>” and “<code>Environment Light</code>” available in ARCore SDK.</p>
+</li>
+<li>
+<p>Create a Cube and scale it such that it looks like a panel. This is where we would see the android activity.</p>
+</li>
+<li>
+<p>Create a material with add to Cube, and set shader “<code>Unlit/Texture</code>”, may choose some default image.
+<img src="/images/xr-container-1.png" alt="Project"></p>
+</li>
+<li>
+<p>Go to File &gt; Build and Settings</p>
+</li>
+<li>
+<p>Switch Build target to Android</p>
+</li>
+<li>
+<p>Change the Player Settings &gt; Other Settings — package name, minimum SDK version 21.</p>
+</li>
+<li>
+<p>Select <code>ARCore Supported</code> in <code>XR Settings</code></p>
+</li>
+<li>
+<p>Check export and export the project.
+It will export the project as an android project at a path say — <code>EXPORT_PATH</code></p>
+</li>
+</ul>
+<h4 id="create-an-android-project">Create an Android Project</h4>
+<ul>
+<li>Open Android Studio and create an empty project.</li>
+<li>Create a module in it as a Library
+<img src="/images/xr-container-2.png" alt="Project"></li>
+</ul>
+<h2 id="implement-a-2d-wrapper">Implement a 2D Wrapper</h2>
+<h4 id="copy-the-unity-generated-unity-activity">Copy the Unity Generated Unity Activity</h4>
+<ul>
+<li>
+<p>Go to Android Studio.</p>
+</li>
+<li>
+<p>Copy <code>EXPORT_PATH/src/main/java/com/tk/threed/container/UnityPlayerActivity.java</code> — -&gt; <code>AndroidLibrary/main/java/com/tk/activitywrapperlibrary/UnityPlayerActivity.java</code></p>
+</li>
+<li>
+<p>Copy <code>EXPORT_PATH/libs/unity-classes.jar</code> to <code>Library/libs</code></p>
+</li>
+<li>
+<p>File &gt; Sync Project and Gradle Files — this should fix all the errors in <code>UnityPlayerActivity</code>.</p>
+</li>
+<li>
+<p>Now let the <code>UnityPlayerActivity</code> extend from <code>ActivityGroup</code> instead <code>Activity</code>, I know it is deprecated, there are other ways in the latest Android API using fragments, etc, but let&rsquo;s go with it until I try other ways. Don&rsquo;t change anything else in this class.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UnityPlayerActivity</span> <span style="color:#66d9ef">extends</span> ActivityGroup
+<span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">protected</span> UnityPlayer mUnityPlayer<span style="color:#f92672">;</span> <span style="color:#75715e">// don&#39;t change the name of this variable; referenced from native code
+</span><span style="color:#75715e"></span>    <span style="color:#75715e">// Setup activity layout
+</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">@Override</span> <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>Bundle savedInstanceState<span style="color:#f92672">)</span>
+    <span style="color:#f92672">{</span>
+        requestWindowFeature<span style="color:#f92672">(</span>Window<span style="color:#f92672">.</span><span style="color:#a6e22e">FEATURE_NO_TITLE</span><span style="color:#f92672">);</span>
+        <span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>savedInstanceState<span style="color:#f92672">);</span>
+        mUnityPlayer <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> UnityPlayer<span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">);</span>
+        setContentView<span style="color:#f92672">(</span>mUnityPlayer<span style="color:#f92672">);</span>
+        mUnityPlayer<span style="color:#f92672">.</span><span style="color:#a6e22e">requestFocus</span><span style="color:#f92672">();</span>
+    <span style="color:#f92672">}</span>
+<span style="color:#f92672">...</span>
+<span style="color:#f92672">}</span>
+</code></pre></div></li>
+</ul>
+<h4 id="implement-an-app-container">Implement an App Container</h4>
+<p>The app container loads the given activity as a view in a given ActivityGroup. It gets initialized with an instance of an Activity Group.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AppContainer</span> <span style="color:#f92672">{</span>
+  <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> AppContainer instance<span style="color:#f92672">;</span>
+  <span style="color:#66d9ef">private</span> ActivityGroup context<span style="color:#f92672">;</span>
+  <span style="color:#66d9ef">private</span> <span style="color:#a6e22e">AppContainer</span><span style="color:#f92672">(</span>ActivityGroup context<span style="color:#f92672">){</span>
+    <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">context</span> <span style="color:#f92672">=</span> context<span style="color:#f92672">;</span>
+  <span style="color:#f92672">}</span>
+  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">synchronized</span> AppContainer  
+     <span style="color:#a6e22e">createInstance</span><span style="color:#f92672">(</span>ActivityGroup context<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+       <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>instance <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">){</span>
+         instance <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> AppContainer<span style="color:#f92672">(</span>context<span style="color:#f92672">);</span>
+       <span style="color:#f92672">}</span>
+     <span style="color:#66d9ef">return</span> instance<span style="color:#f92672">;</span>
+  <span style="color:#f92672">}</span>
+  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> AppContainer <span style="color:#a6e22e">getInstance</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">return</span> instance<span style="color:#f92672">;</span>
+ <span style="color:#f92672">}</span>
+<span style="color:#f92672">...</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><ul>
+<li>
+<p>Add a method to start a given activity by a <code>LocalActivityManager</code> and add it to the activity group. It runs in the UI thread, and avoid certain exceptions (not listing them here)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">addActivityView</span><span style="color:#f92672">(</span><span style="color:#66d9ef">final</span> Class activityClass<span style="color:#f92672">,</span> <span style="color:#66d9ef">final</span> <span style="color:#66d9ef">int</span> viewportWidth<span style="color:#f92672">,</span> <span style="color:#66d9ef">final</span> <span style="color:#66d9ef">int</span> viewportHeight<span style="color:#f92672">){</span>
+  context<span style="color:#f92672">.</span><span style="color:#a6e22e">runOnUiThread</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Runnable<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+    <span style="color:#a6e22e">@Override</span>
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">run</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+      Intent intent <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Intent<span style="color:#f92672">(</span>context<span style="color:#f92672">,</span> activityClass<span style="color:#f92672">);</span>
+      LocalActivityManager mgr <span style="color:#f92672">=</span> context<span style="color:#f92672">.</span><span style="color:#a6e22e">getLocalActivityManager</span><span style="color:#f92672">();</span>
+      Window w <span style="color:#f92672">=</span> mgr<span style="color:#f92672">.</span><span style="color:#a6e22e">startActivity</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;MyIntentID&#34;</span><span style="color:#f92672">,</span> intent<span style="color:#f92672">);</span>
+      activityView <span style="color:#f92672">=</span> w <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">?</span> w<span style="color:#f92672">.</span><span style="color:#a6e22e">getDecorView</span><span style="color:#f92672">()</span> <span style="color:#f92672">:</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
+      activityView<span style="color:#f92672">.</span><span style="color:#a6e22e">requestFocus</span><span style="color:#f92672">();</span>
+      addActivityToLayout<span style="color:#f92672">(</span>context<span style="color:#f92672">,</span> viewportWidth<span style="color:#f92672">,</span> viewportHeight<span style="color:#f92672">);</span>
+    <span style="color:#f92672">}</span>
+  <span style="color:#f92672">});</span>
+<span style="color:#f92672">}</span>
+</code></pre></div></li>
+<li>
+<p>Add the activity to Layout — this will add the activity to a lower layer so it is not visible in the foreground.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">addActivityToLayout</span><span style="color:#f92672">(</span>Activity context<span style="color:#f92672">,</span> <span style="color:#66d9ef">int</span> viewPortWidth<span style="color:#f92672">,</span> <span style="color:#66d9ef">int</span> viewPortHeight<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+  Rect rect <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Rect<span style="color:#f92672">(</span>0<span style="color:#f92672">,</span> 0<span style="color:#f92672">,</span> viewPortWidth<span style="color:#f92672">,</span> viewPortHeight<span style="color:#f92672">);</span>
+  FrameLayout<span style="color:#f92672">.</span><span style="color:#a6e22e">LayoutParams</span> layoutParams <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> FrameLayout<span style="color:#f92672">.</span><span style="color:#a6e22e">LayoutParams</span><span style="color:#f92672">(</span>rect<span style="color:#f92672">.</span><span style="color:#a6e22e">width</span><span style="color:#f92672">(),</span> rect<span style="color:#f92672">.</span><span style="color:#a6e22e">height</span><span style="color:#f92672">());</span>
+  layoutParams<span style="color:#f92672">.</span><span style="color:#a6e22e">setMargins</span><span style="color:#f92672">(</span>rect<span style="color:#f92672">.</span><span style="color:#a6e22e">left</span><span style="color:#f92672">,</span> rect<span style="color:#f92672">.</span><span style="color:#a6e22e">top</span><span style="color:#f92672">,</span> 0<span style="color:#f92672">,</span> 0<span style="color:#f92672">);</span>
+  activityView<span style="color:#f92672">.</span><span style="color:#a6e22e">setLayoutParams</span><span style="color:#f92672">(</span>layoutParams<span style="color:#f92672">);</span>
+  activityView<span style="color:#f92672">.</span><span style="color:#a6e22e">measure</span><span style="color:#f92672">(</span>viewPortWidth<span style="color:#f92672">,</span> viewPortHeight<span style="color:#f92672">);</span>
+  ViewGroup viewGroup <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>ViewGroup<span style="color:#f92672">)</span> context<span style="color:#f92672">.</span><span style="color:#a6e22e">getWindow</span><span style="color:#f92672">().</span><span style="color:#a6e22e">getDecorView</span><span style="color:#f92672">().</span><span style="color:#a6e22e">getRootView</span><span style="color:#f92672">();</span>
+  viewGroup<span style="color:#f92672">.</span><span style="color:#a6e22e">setFocusable</span><span style="color:#f92672">(</span><span style="color:#66d9ef">true</span><span style="color:#f92672">);</span>
+  viewGroup<span style="color:#f92672">.</span><span style="color:#a6e22e">setFocusableInTouchMode</span><span style="color:#f92672">(</span><span style="color:#66d9ef">true</span><span style="color:#f92672">);</span>
+  initBitmapBuffer<span style="color:#f92672">(</span>viewPortWidth<span style="color:#f92672">,</span> viewPortHeight<span style="color:#f92672">);</span>
+  viewGroup<span style="color:#f92672">.</span><span style="color:#a6e22e">addView</span><span style="color:#f92672">(</span>activityView<span style="color:#f92672">,</span> 0<span style="color:#f92672">);</span> <span style="color:#75715e">//Add at lower layer
+</span><span style="color:#75715e"></span><span style="color:#f92672">}</span>
+</code></pre></div><p>What? are you serious, if this is not visible in the foreground, how would you see it.
+Well, we will render the bitmap of this activity view. Remember the screen we created in Unity, we will render this bitmap there, wait and watch!</p>
+</li>
+<li>
+<p>Let’s initialize a bitmap as follows</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">private</span> Bitmap bitmap<span style="color:#f92672">;</span>
+<span style="color:#66d9ef">private</span> Canvas canvas<span style="color:#f92672">;</span>
+<span style="color:#66d9ef">private</span> ByteBuffer buffer<span style="color:#f92672">;</span>
+<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">initBitmapBuffer</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> viewPortWidth<span style="color:#f92672">,</span> <span style="color:#66d9ef">int</span> viewPortHeight<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+  bitmap <span style="color:#f92672">=</span> Bitmap<span style="color:#f92672">.</span><span style="color:#a6e22e">createBitmap</span><span style="color:#f92672">(</span>viewPortWidth<span style="color:#f92672">,</span> viewPortHeight<span style="color:#f92672">,</span> Bitmap<span style="color:#f92672">.</span><span style="color:#a6e22e">Config</span><span style="color:#f92672">.</span><span style="color:#a6e22e">ARGB_8888</span><span style="color:#f92672">);</span>
+  canvas <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Canvas<span style="color:#f92672">(</span>bitmap<span style="color:#f92672">);</span>
+  buffer <span style="color:#f92672">=</span> ByteBuffer<span style="color:#f92672">.</span><span style="color:#a6e22e">allocate</span><span style="color:#f92672">(</span>bitmap<span style="color:#f92672">.</span><span style="color:#a6e22e">getByteCount</span><span style="color:#f92672">());</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>Now the buffer is ready and ready to be consumed. let&rsquo;s expose a consumption method.</p>
+</li>
+<li>
+<p>Render the texture — Here comes the magic method which renders a given native texture pointer using OpenGL (Don’t ask me details, some help from here). It draws the activity views on a canvas (which has bitmap) and then copies the bitmap’s pixel to the buffer, then it magically writes the row pixel data against the native texture pointer.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">renderTexture</span><span style="color:#f92672">(</span><span style="color:#66d9ef">final</span> <span style="color:#66d9ef">int</span> texturePointer<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+  <span style="color:#66d9ef">byte</span><span style="color:#f92672">[]</span> imageBuffer<span style="color:#f92672">;</span>
+  imageBuffer <span style="color:#f92672">=</span> getOutputBuffer<span style="color:#f92672">();</span>
+  <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>imageBuffer<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span> <span style="color:#f92672">&gt;</span> 1<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+    Log<span style="color:#f92672">.</span><span style="color:#a6e22e">d</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;d&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;render texture&#34;</span><span style="color:#f92672">);</span>
+    <span style="color:#75715e">//activityView.requestFocus();
+</span><span style="color:#75715e"></span>    GLES20<span style="color:#f92672">.</span><span style="color:#a6e22e">glBindTexture</span><span style="color:#f92672">(</span>GLES20<span style="color:#f92672">.</span><span style="color:#a6e22e">GL_TEXTURE_2D</span><span style="color:#f92672">,</span> texturePointer<span style="color:#f92672">);</span>
+  
+    GLES20<span style="color:#f92672">.</span><span style="color:#a6e22e">glTexSubImage2D</span><span style="color:#f92672">(</span>GLES20<span style="color:#f92672">.</span><span style="color:#a6e22e">GL_TEXTURE_2D</span><span style="color:#f92672">,</span> 0<span style="color:#f92672">,</span> 0<span style="color:#f92672">,</span> 0<span style="color:#f92672">,</span> activityView<span style="color:#f92672">.</span><span style="color:#a6e22e">getWidth</span><span style="color:#f92672">(),</span>
+      activityView<span style="color:#f92672">.</span><span style="color:#a6e22e">getHeight</span><span style="color:#f92672">(),</span> GLES20<span style="color:#f92672">.</span><span style="color:#a6e22e">GL_RGBA</span><span style="color:#f92672">,</span> GLES20<span style="color:#f92672">.</span><span style="color:#a6e22e">GL_UNSIGNED_BYTE</span><span style="color:#f92672">,</span>
+      ByteBuffer<span style="color:#f92672">.</span><span style="color:#a6e22e">wrap</span><span style="color:#f92672">(</span>imageBuffer<span style="color:#f92672">));</span>
+  <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+  
+<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">byte</span><span style="color:#f92672">[]</span> <span style="color:#a6e22e">getOutputBuffer</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+  <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>canvas <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
+      canvas<span style="color:#f92672">.</span><span style="color:#a6e22e">drawColor</span><span style="color:#f92672">(</span>0<span style="color:#f92672">,</span> PorterDuff<span style="color:#f92672">.</span><span style="color:#a6e22e">Mode</span><span style="color:#f92672">.</span><span style="color:#a6e22e">CLEAR</span><span style="color:#f92672">);</span>
+      activityView<span style="color:#f92672">.</span><span style="color:#a6e22e">draw</span><span style="color:#f92672">(</span>canvas<span style="color:#f92672">);</span>
+      bitmap<span style="color:#f92672">.</span><span style="color:#a6e22e">copyPixelsToBuffer</span><span style="color:#f92672">(</span>buffer<span style="color:#f92672">);</span>
+      buffer<span style="color:#f92672">.</span><span style="color:#a6e22e">rewind</span><span style="color:#f92672">();</span>
+      <span style="color:#66d9ef">return</span> buffer<span style="color:#f92672">.</span><span style="color:#a6e22e">array</span><span style="color:#f92672">();</span>
+    <span style="color:#f92672">}</span><span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>Exception e<span style="color:#f92672">){</span>
+      Log<span style="color:#f92672">.</span><span style="color:#a6e22e">w</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;AppContainer&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;getOutputBuffer&#34;</span><span style="color:#f92672">,</span> e<span style="color:#f92672">);</span>
+      <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">byte</span><span style="color:#f92672">[</span>0<span style="color:#f92672">];</span>
+    <span style="color:#f92672">}</span>
+  <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">byte</span><span style="color:#f92672">[</span>0<span style="color:#f92672">];</span>
+  <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+  
+</code></pre></div></li>
+</ul>
+<h4 id="using-the-app-container">Using The App Container</h4>
+<p>Add just line at the end of <code>UnityPlayerActivity.OnCreate</code> method, and initialize the app container. No more changes here.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#a6e22e">@Override</span> <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>Bundle savedInstanceState<span style="color:#f92672">)</span>
+<span style="color:#f92672">{</span>
+<span style="color:#f92672">...</span>   
+    AppContainer<span style="color:#f92672">.</span><span style="color:#a6e22e">createInstance</span><span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">);</span>
+<span style="color:#f92672">}</span><span style="color:#960050;background-color:#1e0010">`</span>
+</code></pre></div><p>Ok, enough of Java, let’s get back to Unity. A 3D screen is waiting to consume the texture.</p>
+<h4 id="using-activitywrapper-library">Using ActivityWrapper Library</h4>
+<p>Before we go, let&rsquo;s build this library, so that it can be included in Unity Project.</p>
+<ul>
+<li>
+<p>Go to Build &gt; Make <code>activitywrapperlibrary</code></p>
+</li>
+<li>
+<p>Copy the library (AAR) from “<code>activitywrapperlibrary/build/outputs/aar/activitywrapperlibrary-debug.aar</code>” to “<code>Unity Project/Assets/Plugins/Android</code>”</p>
+</li>
+<li>
+<p>Add an android manifest file coping from earlier exported path <code>EXPORT_PATH/src/main</code>, make the following changes.</p>
+</li>
+<li>
+<p>Change the name of the main Activity to the activity we defined as the wrapper.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml">...
+<span style="color:#f92672">&lt;application</span> <span style="color:#a6e22e">tools:replace=</span><span style="color:#e6db74">&#34;android:icon,android:theme,android:allowBackup &#34;</span><span style="color:#a6e22e">android:theme=</span><span style="color:#e6db74">&#34;@style/UnityThemeSelector&#34;</span>
+  
+<span style="color:#960050;background-color:#1e0010">...</span>            
+<span style="color:#960050;background-color:#1e0010">&lt;activity</span> <span style="color:#a6e22e">android:label=</span><span style="color:#e6db74">&#34;@string/app_name&#34;</span>
+          <span style="color:#a6e22e">android:screenOrientation=</span><span style="color:#e6db74">&#34;fullSensor&#34;</span>
+<span style="color:#960050;background-color:#1e0010">....</span>
+<span style="color:#a6e22e">android:name=</span><span style="color:#e6db74">&#34;com.tk.activitywrapperlibrary.UnityPlayerActivity&#34;</span> <span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;intent-filter&gt;</span>
+      <span style="color:#f92672">&lt;action</span> <span style="color:#a6e22e">android:name=</span><span style="color:#e6db74">&#34;android.intent.action.MAIN&#34;</span> <span style="color:#f92672">/&gt;</span>
+      <span style="color:#f92672">&lt;category</span> <span style="color:#a6e22e">android:name=</span><span style="color:#e6db74">&#34;android.intent.category.LAUNCHER&#34;</span> <span style="color:#f92672">/&gt;</span>
+      <span style="color:#f92672">&lt;category</span> <span style="color:#a6e22e">android:name=</span><span style="color:#e6db74">&#34;android.intent.category.LEANBACK_LAUNCHER&#34;</span> <span style="color:#f92672">/&gt;</span>
+    <span style="color:#f92672">&lt;/intent-filter&gt;</span>
+    <span style="color:#f92672">&lt;meta-data</span> <span style="color:#a6e22e">android:name=</span><span style="color:#e6db74">&#34;unityplayer.UnityActivity&#34;</span> <span style="color:#a6e22e">android:value=</span><span style="color:#e6db74">&#34;true&#34;</span> <span style="color:#f92672">/&gt;</span>
+  <span style="color:#f92672">&lt;/activity&gt;</span>
+  <span style="color:#f92672">&lt;meta-data</span> <span style="color:#a6e22e">android:name=</span><span style="color:#e6db74">&#34;unity.build-id&#34;</span> <span style="color:#a6e22e">android:value=</span><span style="color:#e6db74">&#34;d92db379-0eb8-4355-a322-0ba760976bb7&#34;</span> <span style="color:#f92672">/&gt;</span>
+  <span style="color:#f92672">&lt;meta-data</span> <span style="color:#a6e22e">android:name=</span><span style="color:#e6db74">&#34;unity.splash-mode&#34;</span> <span style="color:#a6e22e">android:value=</span><span style="color:#e6db74">&#34;0&#34;</span> <span style="color:#f92672">/&gt;</span>
+  <span style="color:#f92672">&lt;meta-data</span> <span style="color:#a6e22e">android:name=</span><span style="color:#e6db74">&#34;unity.splash-enable&#34;</span> <span style="color:#a6e22e">android:value=</span><span style="color:#e6db74">&#34;True&#34;</span> <span style="color:#f92672">/&gt;</span>
+    
+...
+<span style="color:#f92672">&lt;/application&gt;</span>
+</code></pre></div><p>Now, this newly implemented activity will act as a Main Player Activity and on the start of the unity app, it will start the app container.</p>
+<p>But when you try to run this, you will see multiple Manifest merger conflicts, use User the “<code>tools: replace</code>” at the <code>&lt;application&gt;</code> as well as <code>&lt;activity&gt;</code> level wherever it is required. You can always see merge conflicts in the Android Manifest Viewer of Android Studio.</p>
+<p><img src="/images/xr-container-4.png" alt="Project"></p>
+<p>Other issues will be related to <code>unity-classes.jar</code> which somehow gets packages in the generated library as well as supplied by Unity itself. You need one copy,</p>
+<p>Somehow “<code>provided</code>” and “<code>compileOnly</code>” wasn&rsquo;t working for me while generating library, so I did a quick workaround, please find some better solution for it. I have to exclude <code>unity-classes.jar</code> from the main Gradle file of unity project, here is a way to do that.</p>
+</li>
+<li>
+<p>Go to File &gt; Build Settings&gt; Player Settings &gt; Publishing Settings &gt; Check on Custom Gradle Template</p>
+</li>
+<li>
+<p>It should generate a file<code> mainTemplate.gradle</code>, edit the file and add exclude in dependencies in dependencies section as follows</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-groovy" data-lang="groovy"><span style="color:#f92672">...</span>
+<span style="color:#f92672">**</span>APPLY_PLUGINS<span style="color:#f92672">**</span>
+dependencies <span style="color:#f92672">{</span>
+    implementation <span style="color:#a6e22e">fileTree</span><span style="color:#f92672">(</span>dir: <span style="color:#e6db74">&#39;libs&#39;</span><span style="color:#f92672">,</span> include: <span style="color:#f92672">[</span><span style="color:#e6db74">&#39;*.jar&#39;</span><span style="color:#f92672">],</span> excludes: <span style="color:#f92672">[</span><span style="color:#e6db74">&#39;unity-classes.jar&#39;</span><span style="color:#f92672">])</span>
+       
+<span style="color:#f92672">**</span>DEPS<span style="color:#f92672">**}</span>
+<span style="color:#f92672">...</span>
+</code></pre></div><p>This should fix the build issues in unity. Enough now, we haven&rsquo;t yet build any 3D activity loader, let&rsquo;s jump there.</p>
+</li>
+</ul>
+<h2 id="implement-xr-activity-loader">Implement XR Activity Loader</h2>
+<p>Let&rsquo;s add more components in the scene, label, and a Load button in Unity.
+<img src="/images/xr-container-3.png" alt="Project"></p>
+<h4 id="render-the-activity-in-a-3d-screen">Render the Activity in a 3D Screen</h4>
+<p>Let&rsquo;s create a script to render the activity on the screen.</p>
+<ul>
+<li>
+<p>Script with the name of the activity class, and height, width as input</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ActivityLoader</span> : MonoBehaviour
+{
+  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">string</span> activityClassName;
+  <span style="color:#66d9ef">public</span> Button load;
+  <span style="color:#66d9ef">public</span> Text response;
+  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> width = <span style="color:#ae81ff">1080</span>;
+  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> height = <span style="color:#ae81ff">1920</span>;
+  <span style="color:#66d9ef">private</span> AndroidJavaObject m_AppContainer;
+  <span style="color:#66d9ef">private</span> IntPtr m_NativeTexturePointer;
+  <span style="color:#66d9ef">private</span> Renderer m_Renderer;
+  <span style="color:#66d9ef">private</span> Texture2D m_ImageTexture2D;
+  <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> Start()
+  {
+    m_Renderer = GetComponent&lt;Renderer&gt;();
+    load.onClick.AddListener(OnLoad);
+    m_ImageTexture2D = <span style="color:#66d9ef">new</span> Texture2D(width, height, TextureFormat.ARGB32, <span style="color:#66d9ef">false</span>)
+      {filterMode = FilterMode.Point};
+    m_ImageTexture2D.Apply();
+  }
+...
+}
+</code></pre></div></li>
+<li>
+<p>On clicking the load button, it should load the given activity class. By this time the AppContainer must be initialized, and let&rsquo;s call it to load the activity in a view.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> OnLoad()
+{
+  <span style="color:#66d9ef">if</span> (activityClassName != <span style="color:#66d9ef">null</span>)
+  {
+    response.text = <span style="color:#e6db74">&#34;Loading &#34;</span> + activityClassName;
+    AndroidJavaClass activityClass = <span style="color:#66d9ef">new</span> AndroidJavaClass(activityClassName);
+    AndroidJavaClass appContainerClass = <span style="color:#66d9ef">new</span> AndroidJavaClass(<span style="color:#e6db74">&#34;com.tk.activitywrapperlibrary.AppContainer&#34;</span>);
+    m_AppContainer = appContainerClass.CallStatic&lt;AndroidJavaObject&gt;(<span style="color:#e6db74">&#34;getInstance&#34;</span>);
+  
+    m_AppContainer.Call(<span style="color:#e6db74">&#34;addActivityView&#34;</span>, activityClass, width, height);
+    m_Renderer.material.mainTexture = m_ImageTexture2D;
+    Debug.LogWarning(<span style="color:#e6db74">&#34;Rendering starts&#34;</span>);
+    StartCoroutine(RenderTexture(m_ImageTexture2D.GetNativeTexturePtr()));
+  }
+  <span style="color:#66d9ef">else</span>
+  {
+    response.text = <span style="color:#e6db74">&#34;No package found&#34;</span>;
+  }
+}
+</code></pre></div></li>
+<li>
+<p>Load the texture, call the magic method now in a coroutine, and keep calling it. I know it&rsquo;s not optimal, but lets first make it work then we will discuss multiple methods of optimizations.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">private</span> IEnumerator RenderTexture(IntPtr nativePointer)
+{
+  <span style="color:#66d9ef">yield</span> <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> WaitForEndOfFrame();
+  <span style="color:#66d9ef">while</span> (<span style="color:#66d9ef">true</span>)
+  {
+    m_AppContainer.Call(<span style="color:#e6db74">&#34;renderTexture&#34;</span>, nativePointer.ToInt32());
+    <span style="color:#66d9ef">yield</span> <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> WaitForEndOfFrame();
+    <span style="color:#66d9ef">yield</span> <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> WaitForEndOfFrame();
+    <span style="color:#66d9ef">yield</span> <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> WaitForEndOfFrame();
+  }
+}
+</code></pre></div></li>
+<li>
+<p>Add this script to <code>Screen</code> GameObject. Assign button, response.</p>
+</li>
+<li>
+<p>What to give in Activity Class Name. Oh! we haven’t created any app activity yet which we want to render here. Let’s do that first.</p>
+</li>
+</ul>
+<h2 id="the-2d-app">The 2D App</h2>
+<p>Let&rsquo;s build a 2D app that we want to render in the unity 3D container. Go back to the Android Studio, Choose Login Activity while project creation.
+<img src="/images/xr-container-5.png" alt="Project"></p>
+<p>It generates a full login app and input fields and so.</p>
+<p>Try to run this app. Just make and deploy to the phone or emulator. and see how it runs.
+<img src ="/images/xr-container-6.png" style="width:50%; height:50%"/></p>
+<p>Now we can open this activity from another app if we build our container app as a system app. Ref to <a href="https://medium.com/xrpractices/android-system-apps-development-d73bedfb8def">article</a>
+Or we can include this app in Unity as a library. Let&rsquo;s go with this.</p>
+<h4 id="build-it-as-a-library">Build it as a Library</h4>
+<p>To include this app in Unity, we need to build it as a library.</p>
+<p>Follow the steps.</p>
+<ul>
+<li>
+<p>Open <code>build.gradle</code> and change <code>apply plugin: ‘com.android.application’</code> to <code>apply plugin: ‘com.android.library’</code></p>
+</li>
+<li>
+<p>Remove <code>applicationId “com.tk.loginapp”</code> from <code>defaultConfig</code></p>
+</li>
+<li>
+<p>Update the Android Manifest as follows — remove the intent filters</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#75715e">&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;</span>
+<span style="color:#f92672">&lt;manifest</span> <span style="color:#a6e22e">xmlns:android=</span><span style="color:#e6db74">&#34;http://schemas.android.com/apk/res/android&#34;</span>
+  <span style="color:#a6e22e">package=</span><span style="color:#e6db74">&#34;com.tk.loginapp&#34;</span><span style="color:#f92672">&gt;</span>
+  <span style="color:#f92672">&lt;application</span>
+    <span style="color:#a6e22e">android:allowBackup=</span><span style="color:#e6db74">&#34;true&#34;</span>
+    <span style="color:#a6e22e">android:icon=</span><span style="color:#e6db74">&#34;@mipmap/ic_launcher&#34;</span>
+    <span style="color:#a6e22e">android:label=</span><span style="color:#e6db74">&#34;@string/app_name&#34;</span>
+    <span style="color:#a6e22e">android:roundIcon=</span><span style="color:#e6db74">&#34;@mipmap/ic_launcher_round&#34;</span>
+    <span style="color:#a6e22e">android:supportsRtl=</span><span style="color:#e6db74">&#34;true&#34;</span>
+    <span style="color:#a6e22e">android:theme=</span><span style="color:#e6db74">&#34;@style/AppTheme&#34;</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;activity</span>
+      <span style="color:#a6e22e">android:name=</span><span style="color:#e6db74">&#34;.ui.login.LoginActivity&#34;</span>
+      <span style="color:#a6e22e">android:label=</span><span style="color:#e6db74">&#34;@string/app_name&#34;</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;/activity&gt;</span>
+  <span style="color:#f92672">&lt;/application&gt;</span>
+<span style="color:#f92672">&lt;/manifest&gt;</span>
+</code></pre></div></li>
+<li>
+<p>Click on Sync Now</p>
+</li>
+<li>
+<p>Go to Build &gt; Make module ‘app’</p>
+</li>
+<li>
+<p>It will generate AAR in <code>app/build/outputs/aar/app-debug.aar</code></p>
+</li>
+</ul>
+<h4 id="using-the-2d-app-library-in-unity">Using the 2D App library in Unity</h4>
+<ul>
+<li>
+<p>Follow the same steps as earlier, copy the AAR to <code>Unity Project/Assets/Plugins/Android</code></p>
+</li>
+<li>
+<p>Open file <code>mainTemplate.gradle</code>, edit the file and copy all the dependencies entries from 2D apps Gradle file and paste in dependencies section as follows</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-groovy" data-lang="groovy"><span style="color:#f92672">...</span>
+<span style="color:#f92672">**</span>APPLY_PLUGINS<span style="color:#f92672">**</span>
+dependencies <span style="color:#f92672">{</span>
+    implementation <span style="color:#a6e22e">fileTree</span><span style="color:#f92672">(</span>dir: <span style="color:#e6db74">&#39;libs&#39;</span><span style="color:#f92672">,</span> include: <span style="color:#f92672">[</span><span style="color:#e6db74">&#39;*.jar&#39;</span><span style="color:#f92672">],</span> excludes: <span style="color:#f92672">[</span><span style="color:#e6db74">&#39;unity-classes.jar&#39;</span><span style="color:#f92672">])</span>
+    implementation <span style="color:#e6db74">&#39;androidx.appcompat:appcompat:1.1.0&#39;</span>
+    implementation <span style="color:#e6db74">&#39;com.google.android.material:material:1.1.0&#39;</span>
+    implementation <span style="color:#e6db74">&#39;androidx.annotation:annotation:1.1.0&#39;</span>
+    implementation <span style="color:#e6db74">&#39;androidx.constraintlayout:constraintlayout:1.1.3&#39;</span>
+    implementation <span style="color:#e6db74">&#39;androidx.lifecycle:lifecycle-extensions:2.2.0&#39;</span>
+      
+<span style="color:#f92672">**</span>DEPS<span style="color:#f92672">**}</span>
+<span style="color:#f92672">...</span>
+</code></pre></div></li>
+<li>
+<p>Now, the 2D app is fully available in Unity.</p>
+</li>
+<li>
+<p>Let&rsquo;s define the activity  in <code>/Assets/Plungs/Android/AndroidManifest.xml</code> It is better to redefine the activities as per the available themes which we are going to render in 3D.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#f92672">&lt;activity</span> <span style="color:#a6e22e">tools:replace=</span><span style="color:#e6db74">&#34;android:theme&#34;</span> <span style="color:#a6e22e">android:name=</span><span style="color:#e6db74">&#34;com.tk.loginapp.ui.login.LoginActivity&#34;</span>  <span style="color:#a6e22e">android:theme=</span><span style="color:#e6db74">&#34;@style/Theme.AppCompat.Light&#34;</span><span style="color:#f92672">/&gt;</span>
+</code></pre></div></li>
+<li>
+<p>If you still run into <code>InflateExceptions</code> while running the app, then follow the article below by <a href="https://medium.com/u/6b8d20e9607d">Raju K</a></p>
+</li>
+</ul>
+<blockquote>
+<p><a href="https://medium.com/xrpractices/the-inflateexception-of-death-c08c47ba65af">The InflateException of Death</a> - AppCompat Library woes in Android</p>
+</blockquote>
+<h2 id="running-a-2d-activity-in-xr-container">Running a 2D Activity in XR Container</h2>
+<p>So, the time has come to know the class name of the activity, here it is “<code>com.tk.loginapp.ui.login.LoginActivity</code>”.</p>
+<ul>
+<li>
+<p>Go to Unity and give this name in the Script of the Screen Game Object.
+<img src="/images/xr-container-7.png" alt="Project"></p>
+</li>
+<li>
+<p>Connect your android phone via USB and Go to File &gt; Build and Run. Wait for the build to complete and here you go.
+<img src ="/images/xr-container-8.jpeg" style="width:50%; height:50%"/></p>
+<p>Wow, the login app’s activity is getting rendered in the 3D environment but the texture is mirrored, and the color is not coming as it was in 2D.</p>
+<p>I can see the cursor blinking in the text box, which means the texture is continuously getting rendered. See logcat, there is a continuous log of rendering. Great!</p>
+</li>
+</ul>
+<h4 id="fixing-mirror-issue">Fixing Mirror Issue</h4>
+<p>Let’s fix the mirroring issue, Luckily <a href="https://medium.com/u/6b8d20e9607d">Raju K</a> has done good research here, see the article</p>
+<blockquote>
+<p><a href="https://medium.com/xrpractices/unity-shader-graph-part-1-9ec0347ce940">Unity Shader Graph — Part 1</a> -  In one of the projects that I’m working on recently, there was a need to mirror the texture at runtime.</p>
+</blockquote>
+<ul>
+<li>
+<p>Let&rsquo;s create a simple Unlit shader that just does mirroring. Right-click and Create &gt; Shader &gt; Unlit Shader &gt; Give it a name and Open.</p>
+</li>
+<li>
+<p>This project will open in the editor. You may directly modify the file (if you don’t want to follow full steps), make the changes in bold.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-groovy" data-lang="groovy">Shader <span style="color:#e6db74">&#34;Unlit/Mirror&#34;</span>
+<span style="color:#f92672">{</span>
+    Properties
+    <span style="color:#f92672">{</span>
+        _MainTex <span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Texture&#34;</span><span style="color:#f92672">,</span> <span style="color:#ae81ff">2</span>D<span style="color:#f92672">)</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;white&#34;</span> <span style="color:#f92672">{}</span>
+        <span style="color:#f92672">[</span>Toggle<span style="color:#f92672">(</span>MIRROR_X<span style="color:#f92672">)]</span> _FlipX <span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Mirror X&#34;</span><span style="color:#f92672">,</span> Float<span style="color:#f92672">)</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+        <span style="color:#f92672">[</span>Toggle<span style="color:#f92672">(</span>MIRROR_Y<span style="color:#f92672">)]</span> _FlipY <span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Mirror Y&#34;</span><span style="color:#f92672">,</span> Float<span style="color:#f92672">)</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+    <span style="color:#f92672">}</span>
+    SubShader
+    <span style="color:#f92672">{</span>
+  <span style="color:#f92672">...</span>
+        Pass
+        <span style="color:#f92672">{</span>
+  <span style="color:#f92672">...</span>
+            <span style="color:#960050;background-color:#1e0010">#</span>pragma multi_compile_fog
+            <span style="color:#960050;background-color:#1e0010">#</span>pragma multi_compile ___ MIRROR_X
+            <span style="color:#960050;background-color:#1e0010">#</span>pragma multi_compile ___ MIRROR_Y
+   <span style="color:#f92672">...</span>
+            v2f <span style="color:#a6e22e">vert</span> <span style="color:#f92672">(</span>appdata v<span style="color:#f92672">)</span>
+            <span style="color:#f92672">{</span>
+                v2f o<span style="color:#f92672">;</span>
+                o<span style="color:#f92672">.</span><span style="color:#a6e22e">vertex</span> <span style="color:#f92672">=</span> UnityObjectToClipPos<span style="color:#f92672">(</span>v<span style="color:#f92672">.</span><span style="color:#a6e22e">vertex</span><span style="color:#f92672">);</span>
+                float2 untransformedUV <span style="color:#f92672">=</span> v<span style="color:#f92672">.</span><span style="color:#a6e22e">uv</span><span style="color:#f92672">;</span>
+                <span style="color:#960050;background-color:#1e0010">#</span>ifdef MIRROR_X
+                    untransformedUV<span style="color:#f92672">.</span><span style="color:#a6e22e">x</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1.0</span> <span style="color:#f92672">-</span> untransformedUV<span style="color:#f92672">.</span><span style="color:#a6e22e">x</span><span style="color:#f92672">;</span>
+                <span style="color:#960050;background-color:#1e0010">#</span>endif <span style="color:#75715e">// MIRROR_X
+</span><span style="color:#75715e"></span>                <span style="color:#960050;background-color:#1e0010">#</span>ifdef MIRROR_Y
+                    untransformedUV<span style="color:#f92672">.</span><span style="color:#a6e22e">y</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1.0</span> <span style="color:#f92672">-</span> untransformedUV<span style="color:#f92672">.</span><span style="color:#a6e22e">y</span><span style="color:#f92672">;</span>
+                <span style="color:#960050;background-color:#1e0010">#</span>endif <span style="color:#75715e">// MIRROR_Y
+</span><span style="color:#75715e"></span>                o<span style="color:#f92672">.</span><span style="color:#a6e22e">uv</span> <span style="color:#f92672">=</span> TRANSFORM_TEX<span style="color:#f92672">(</span>untransformedUV<span style="color:#f92672">,</span> _MainTex<span style="color:#f92672">);</span>
+                UNITY_TRANSFER_FOG<span style="color:#f92672">(</span>o<span style="color:#f92672">,</span>o<span style="color:#f92672">.</span><span style="color:#a6e22e">vertex</span><span style="color:#f92672">);</span>
+                <span style="color:#66d9ef">return</span> o<span style="color:#f92672">;</span>
+            <span style="color:#f92672">}</span>
+<span style="color:#f92672">---</span>
+<span style="color:#f92672">}</span>
+</code></pre></div></li>
+<li>
+<p>Change shader for the material of Screen GameObject select this newly created shader. Check Mirror Y, and rotation 180.
+<img src="/images/xr-container-9.png" alt="Project"></p>
+</li>
+</ul>
+<h2 id="xr-container-in-action">XR Container in Action</h2>
+<p>Run the app again. Here you go.
+<img src ="/images/xr-container-10.gif" style="width:50%; height:50%"/></p>
+<p>Congratulations! you are able to run your 2D app in an XR container. You can go closer to it.</p>
+<p>This is not complete yet, we have just rendered the texture, and the next challenges are implementing all the interactions Gaze, Touch, Gestures, Voice, keyboard inputs for UI controls or work with controllers, etc. However, interactions are also possible, we need to dispatch the events to all the views which are rendering in texture, and the x, y coordinate may be fetched on the texture area by adding a collider on the Screen GameObject. Get the touch, gesture event, and raycast to the object, the raycast hit coordinates, then can be transformed to x, y coordinate on-screen, the dispatch mouse click event at that position in the internal activity-view. Similar ways we can implement drag, key pressed, etc.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Though we are able to run a 2D app’s one activity in an XR app container and but this approach has many flaws</p>
+<ul>
+<li><code>ActivityGroup</code> is deprecated and may soon be removed from android&rsquo;s future versions.</li>
+<li>Since the other activity runs in the background, there would side effects on observers inside the activity. The different apps may need different customizations, and the approach is not scalable to meet all the requirements</li>
+<li>Handling full activity life-cycle is a challenge</li>
+<li>We are controlling only one activity and if that activity is spawning some child activity then there would be issues.</li>
+<li>Building AAR for the existing system app is challenging, even if we build them maintenance would be a nightmare.</li>
+<li>Invoking existing running activity from other app is not allowed due to security, we get over it by building the container as a system app, but still, not all the permissions and access to shared storage would not be possible.</li>
+<li>Multiple versions of android would create conflict and issues while inflating the layout in texture.</li>
+</ul>
+<p>This approach is just a Proof of Concept, it may not be a production-ready approach.</p>
+<p><strong>Try it out and share your learning in this field, do let me know if you have any other finding. if this can be done in a better way.</strong></p>
+<p>This article is original published on <a href="https://medium.com/xrpractices/run-a-2d-app-in-xr-container-77fff7e9678b">XR Practices Publication</a></p>
+
+<h2 class="f5 fw4 dib">
+    <a href="/tags/xr"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃xr</a>
+</h2>
+
+<h2 class="f5 fw4 dib">
+    <a href="/tags/ar"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃ar</a>
+</h2>
+
+<h2 class="f5 fw4 dib">
+    <a href="/tags/vr"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃vr</a>
+</h2>
+
+<h2 class="f5 fw4 dib">
+    <a href="/tags/mr"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃mr</a>
+</h2>
+
+<h2 class="f5 fw4 dib">
+    <a href="/tags/3d"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃3d</a>
+</h2>
+
+<h2 class="f5 fw4 dib">
+    <a href="/tags/enterprise"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃enterprise</a>
+</h2>
+
+<h2 class="f5 fw4 dib">
+    <a href="/tags/android"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃android</a>
+</h2>
+
+<h2 class="f5 fw4 dib">
+    <a href="/tags/system"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃system</a>
+</h2>
+
+<h2 class="f5 fw4 dib">
+    <a href="/tags/customization"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃customization</a>
+</h2>
+
+<h2 class="f5 fw4 dib">
+    <a href="/tags/unity"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃Unity</a>
+</h2>
+
+<h2 class="f5 fw4 dib">
+    <a href="/tags/arcore"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃ARCore</a>
+</h2>
+
+<div class="mt2 instapaper_ignoref">
+          <div class="fb-comments" data-href="https://thinkuldeep.github.io/post/run-a-2d-app-in-xr-container/" data-numposts="5" data-width=""></div>
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/post/user-account-management-in-xr/">User Account Management In XR</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/enterprise-xr-interoperability/">Enterprise XR - Interoperability</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/enterprise-xr-multi-factor-authentication/">Enterprise XR - Multi-Factor Authentication</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/augmenting_the_travel_reality/">Augmenting the Travel Reality</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/os-customization-for-xr-devices/">OS Customization for XR Device</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/extending_reality_with_ar_and_vr-2/">eXtending reality with AR and VR - Part 2</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/extending_reality_with_ar_and_vr-1/">eXtending reality with AR and VR - Part 1</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/xr-development-from-home/">XR development from home</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/talk/thougthworks_xrday/">XR Day - ThoughtWorks India</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/evolution_of_technology_and_user_interactions/">Evolution of Technology and User Interactions</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/exploring-google-glass/">Exploring the Smart Glasses</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/webxr-the-new-web/">WebXR - the new Web</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/static_code_analysis_unity_2/">Static Code Analysis for Unity3D — Part 2</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/static_code_analysis_unity_1/">Static Code Analysis for Unity3D — Part 1</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/talk/thougthworks_awayday_2019_slam_aware_apps/">AwayDay 2019 - SLAM Aware Applications</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://thinkuldeep.github.io/" >
+    &copy;  Kuldeep Singh 2020 
+  </a>
+    <div>
+
+
+<a href="https://www.thoughtworks.com/profiles/kuldeep-singh" target="_blank" class="link-transition instagram link dib z-999 pt3 pt0-l mr1" title="ThougthWorks link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+    <svg  height="36px"  style="enable-background:new 0 0 65 35;" version="1.1" viewBox="0 0 65 30" width="36px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M0 5.93V0h25.132v5.93h-9.06v29h-7v-29zM29.255 0h3.5L38.5 28.2 44.87 0h3.463l6.052 28.188L60.535 0H64l-8 34.92h-3.587l-5.93-28.546L40.16 34.92h-3.587z"
+      style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://www.linkedin.com/in/kuldeep-reck/" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/thinkuldeep" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://gitlab.com/kuldeeps2" target="_blank" class="link-transition gitlab link dib z-999 pt3 pt0-l mr1" title="Gitlab link" rel="noopener" aria-label="follow on Gitlab——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M29.782 199.732L256 493.714 8.074 309.699c-6.856-5.142-9.712-13.996-7.141-21.993l28.849-87.974zm75.405-174.806c-3.142-8.854-15.709-8.854-18.851 0L29.782 199.732h131.961L105.187 24.926zm56.556 174.806L256 493.714l94.257-293.982H161.743zm349.324 87.974l-28.849-87.974L256 493.714l247.926-184.015c6.855-5.142 9.711-13.996 7.141-21.993zm-85.404-262.78c-3.142-8.854-15.709-8.854-18.851 0l-56.555 174.806h131.961L425.663 24.926z"></path></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://twitter.com/thinkuldeep" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://www.instagram.com/thinkuldeep/" target="_blank" class="link-transition instagram link dib z-999 pt3 pt0-l mr1" title="Instagram link" rel="noopener" aria-label="follow on Instagram——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.271,26.578v-0.006c0.502,0,1.005,0.01,1.508-0.002  c0.646-0.017,1.172-0.57,1.172-1.217c0-0.963,0-1.927,0-2.89c0-0.691-0.547-1.24-1.236-1.241c-0.961,0-1.922-0.001-2.883,0  c-0.688,0.001-1.236,0.552-1.236,1.243c-0.001,0.955-0.004,1.91,0.003,2.865c0.001,0.143,0.028,0.291,0.073,0.426  c0.173,0.508,0.639,0.82,1.209,0.823C41.344,26.579,41.808,26.578,42.271,26.578z M33,27.817c-3.384-0.002-6.135,2.721-6.182,6.089  c-0.049,3.46,2.72,6.201,6.04,6.272c3.454,0.074,6.248-2.686,6.321-6.043C39.254,30.675,36.462,27.815,33,27.817z M21.046,31.116  v0.082c0,4.515-0.001,9.03,0,13.545c0,0.649,0.562,1.208,1.212,1.208c7.16,0.001,14.319,0.001,21.479,0  c0.656,0,1.215-0.557,1.215-1.212c0.001-4.509,0-9.02,0-13.528v-0.094h-2.912c0.411,1.313,0.537,2.651,0.376,4.014  c-0.161,1.363-0.601,2.631-1.316,3.803s-1.644,2.145-2.779,2.918c-2.944,2.006-6.821,2.182-9.946,0.428  c-1.579-0.885-2.819-2.12-3.685-3.713c-1.289-2.373-1.495-4.865-0.739-7.451C22.983,31.116,22.021,31.116,21.046,31.116z   M45.205,49.255c0.159-0.026,0.318-0.049,0.475-0.083c1.246-0.265,2.264-1.304,2.508-2.557c0.025-0.137,0.045-0.273,0.067-0.409  V21.794c-0.021-0.133-0.04-0.268-0.065-0.401c-0.268-1.367-1.396-2.428-2.78-2.618c-0.058-0.007-0.113-0.02-0.17-0.03H20.761  c-0.147,0.027-0.296,0.047-0.441,0.08c-1.352,0.308-2.352,1.396-2.545,2.766c-0.008,0.057-0.02,0.114-0.029,0.171V46.24  c0.028,0.154,0.05,0.311,0.085,0.465c0.299,1.322,1.427,2.347,2.77,2.52c0.064,0.008,0.13,0.021,0.195,0.03H45.205z M33,64  C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+
+<a href="https://medium.com/@thinkuldeep" target="_blank" class="link-transition medium link dib z-999 pt3 pt0-l mr1" title="Medium link" rel="noopener" aria-label="follow on Medium——Opens in a new window">
+    <svg  height="32px"  style="enable-background:new 0 0 170 170;" version="1.1" viewBox="0 0 170 170" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M46.5340803,65.2157554 C46.6968378,63.6076572 46.0836,62.018231 44.8828198,60.93592 L32.6512605,46.2010582 L32.6512605,44 L70.6302521,44 L99.9859944,108.380952 L125.794585,44 L162,44 L162,46.2010582 L151.542017,56.2281011 C150.640424,56.9153477 150.193188,58.0448862 150.380019,59.1628454 L150.380019,132.837155 C150.193188,133.955114 150.640424,135.084652 151.542017,135.771899 L161.755369,145.798942 L161.755369,148 L110.38282,148 L110.38282,145.798942 L120.963119,135.527337 C122.002801,134.487948 122.002801,134.182246 122.002801,132.592593 L122.002801,73.0417402 L92.585901,147.755438 L88.6106443,147.755438 L54.3622782,73.0417402 L54.3622782,123.115814 C54.0767278,125.221069 54.7759199,127.3406 56.2581699,128.863022 L70.0186741,145.55438 L70.0186741,147.755438 L31,147.755438 L31,145.55438 L44.7605042,128.863022 C46.2319621,127.338076 46.8903838,125.204485 46.5340803,123.115814 L46.5340803,65.2157554 Z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="/js/search.js"></script>
+
+  </body>
+</html>

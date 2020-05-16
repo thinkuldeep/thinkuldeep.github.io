@@ -68,6 +68,16 @@ Insect management relies on the early detection and accuracy of insect populatio
     </item>
     
     <item>
+      <title>Building a smart meeting room concept</title>
+      <link>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</link>
+      <pubDate>Sun, 17 Apr 2016 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</guid>
+      <description>Introduction On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
+Smart Meeting Room is a step forward in automating the availability and booking procedure of a meeting room.</description>
+    </item>
+    
+    <item>
       <title>Exploring AndroidThings IoT</title>
       <link>https://thinkuldeep.github.io/post/exploring-android-things/</link>
       <pubDate>Sun, 10 Apr 2016 10:58:08 -0400</pubDate>
@@ -105,16 +115,6 @@ There are many industrial applications which connect to sensors and actuators, a
       <description>Introduction SIGFOX is providing a communication solution dedicated to the Internet of Things
 Dedicated to the IOT means:
  Simplicity: No configuration, no pairing, no signaling Autonomy: Very low energy consumption, allowing years of autonomy on battery without maintenance Small messages: No large assets or multimedia, only small messages  It is a LPWA (Low-Power Wide-Area) network, currently operating in 20 countries in Europe, Americas and Asia/Pacific. Communications over the SIGFOX network are bi-directional: uplink from device &amp;amp; downlink to the device.</description>
-    </item>
-    
-    <item>
-      <title>Building a smart meeting room concept</title>
-      <link>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</link>
-      <pubDate>Fri, 17 Apr 2015 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</guid>
-      <description>Introduction On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
-Smart Meeting Room is a step forward in automating the availability and booking procedure of a meeting room.</description>
     </item>
     
     <item>

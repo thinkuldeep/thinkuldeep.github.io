@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lambda-expression on Kuldeep Singh</title>
+    <link>https://thinkuldeep.github.io/tags/lambda-expression/</link>
+    <description>Recent content in lambda-expression on Kuldeep Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Dec 2014 10:58:08 -0400</lastBuildDate>
+    
+	<atom:link href="https://thinkuldeep.github.io/tags/lambda-expression/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction to Java Lambda Expression</title>
+      <link>https://thinkuldeep.github.io/post/java8-lambda-expression/</link>
+      <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/java8-lambda-expression/</guid>
+      <description>Introduction After Java 8, developers can apply functional programming constructs in a pure Object-Oriented programming language through lambda expressions. Using lambda expression sequential and parallel execution can be achieved by passing behavior into methods. In Java world lambdas can be thought of as an anonymous method with a more compact syntax. Here compact means it is not mandatory to specify access modifiers, return type and parameter types while defining the expression.</description>
+    </item>
+    
+  </channel>
+</rss>

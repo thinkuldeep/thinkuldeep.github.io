@@ -67,6 +67,35 @@ User case (Oracle 11g, JBoss 6, JDK 6, Hibernate, Spring 3) : A tree structure i
     </item>
     
     <item>
+      <title>HashMap Performance Improvement in Java 8</title>
+      <link>https://thinkuldeep.github.io/post/java8-hashmap-performance-improvement/</link>
+      <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/java8-hashmap-performance-improvement/</guid>
+      <description>Introduction Hash collision degrades the performance of HashMap significantly. Java 8 has introduced a new strategy to deal with hash collisions, thus improving the performance of HashMaps. Considering this improvement in Java 8 for hash collisions, existing applications can expect performance improvements in case they are using HashMaps having large number of elements by simply upgrading to Java 8.
+Earlier, when multiple keys ends up in the same bucket, then values along with their keys are placed in a linked list.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Java Lambda Expression</title>
+      <link>https://thinkuldeep.github.io/post/java8-lambda-expression/</link>
+      <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/java8-lambda-expression/</guid>
+      <description>Introduction After Java 8, developers can apply functional programming constructs in a pure Object-Oriented programming language through lambda expressions. Using lambda expression sequential and parallel execution can be achieved by passing behavior into methods. In Java world lambdas can be thought of as an anonymous method with a more compact syntax. Here compact means it is not mandatory to specify access modifiers, return type and parameter types while defining the expression.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Java Stream API</title>
+      <link>https://thinkuldeep.github.io/post/java8-stream-api/</link>
+      <pubDate>Mon, 08 Dec 2014 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/java8-stream-api/</guid>
+      <description>Introduction Prior to JDK 8, collections can only be managed through iterators with the use of for, foreach or while loops. It means that we instruct a computer to execute the algorithm steps.
+int sum(List&amp;lt;Integer&amp;gt; list) { Iterator&amp;lt;Integer&amp;gt; intIterator = list.iterator(); int sum = 0; while (intIterator.hasNext()) { int number = intIterator.next(); if (number &amp;gt; 5) { sum += number; } } return sum; } The above approach has the following tailbacks:</description>
+    </item>
+    
+    <item>
       <title>JavaOne - Rapid Modernization of Java Applications to JDK 8</title>
       <link>https://thinkuldeep.github.io/talk/oracle-rapid-modernization-of-java-applications-to-jdk-8/</link>
       <pubDate>Wed, 01 Oct 2014 10:58:08 -0400</pubDate>

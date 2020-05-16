@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3d on Kuldeep Singh</title>
+    <link>https://thinkuldeep.github.io/tags/3d/</link>
+    <description>Recent content in 3d on Kuldeep Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 May 2020 10:58:08 -0400</lastBuildDate>
+    
+	<atom:link href="https://thinkuldeep.github.io/tags/3d/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Run a 2D App in XR Container</title>
+      <link>https://thinkuldeep.github.io/post/run-a-2d-app-in-xr-container/</link>
+      <pubDate>Sat, 16 May 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/run-a-2d-app-in-xr-container/</guid>
+      <description>There are a number of Enterprise XR use cases where we have a need to open the existing 2D apps in the XR devices in a wrapper app, and this article covers a concept, have a look!
+After trying the OS level customization on an XR device, you may like to run your XR apps as a system app. Here is a simple article by Raju K
+ Android System Apps development - Android Emulator Setup and guidelines to develop system applications</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Run a 2D App in XR Container</title>
+      <link>https://thinkuldeep.github.io/post/run-a-2d-app-in-xr-container/</link>
+      <pubDate>Sat, 16 May 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/run-a-2d-app-in-xr-container/</guid>
+      <description>There are a number of Enterprise XR use cases where we have a need to open the existing 2D apps in the XR devices in a wrapper app, and this article covers a concept, have a look!
+After trying the OS level customization on an XR device, you may like to run your XR apps as a system app. Here is a simple article by Raju K
+ Android System Apps development - Android Emulator Setup and guidelines to develop system applications</description>
+    </item>
+    
+    <item>
       <title>OS Customization for XR Device</title>
       <link>https://thinkuldeep.github.io/post/os-customization-for-xr-devices/</link>
       <pubDate>Sun, 10 May 2020 10:58:08 -0400</pubDate>
@@ -324,6 +335,16 @@ Insect management relies on the early detection and accuracy of insect populatio
     </item>
     
     <item>
+      <title>Building a smart meeting room concept</title>
+      <link>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</link>
+      <pubDate>Sun, 17 Apr 2016 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</guid>
+      <description>Introduction On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
+Smart Meeting Room is a step forward in automating the availability and booking procedure of a meeting room.</description>
+    </item>
+    
+    <item>
       <title>Exploring AndroidThings IoT</title>
       <link>https://thinkuldeep.github.io/post/exploring-android-things/</link>
       <pubDate>Sun, 10 Apr 2016 10:58:08 -0400</pubDate>
@@ -384,13 +405,13 @@ User case (Oracle 11g, JBoss 6, JDK 6, Hibernate, Spring 3) : A tree structure i
     </item>
     
     <item>
-      <title>Building a smart meeting room concept</title>
-      <link>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</link>
-      <pubDate>Fri, 17 Apr 2015 10:58:08 -0400</pubDate>
+      <title>Object Oriented JavaScript</title>
+      <link>https://thinkuldeep.github.io/post/oojs/</link>
+      <pubDate>Tue, 27 Jan 2015 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</guid>
-      <description>Introduction On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
-Smart Meeting Room is a step forward in automating the availability and booking procedure of a meeting room.</description>
+      <guid>https://thinkuldeep.github.io/post/oojs/</guid>
+      <description>Introduction JavaScript has been regarded as a functional programing language by most of the developers. This book is targeted for all the JavaScript developers to shift their thinking from the functional to the object oriented programing language.
+The course requires basic knowledge of JavaScript syntax. If you already know some JavaScript, you will find a lot of eye-openers as you go along and learn what more the JavaScript can do for you.</description>
     </item>
     
     <item>
@@ -401,6 +422,35 @@ Smart Meeting Room is a step forward in automating the availability and booking 
       <guid>https://thinkuldeep.github.io/post/software-effectiveness-vs-efficiency/</guid>
       <description>I define software effectiveness as, doing the objective effectively, I mean correctly. Efficiency can be defined as, using the resources optimally where resources could be memory, CPU, time, files, connections, databases etc.
 From my experience, in most (should I call many) of the software projects, efficiency/performance is not much accentuated during the system design and in earlier phases(requirement and estimation) as compared to the emphasis given late in the game, coding and testing and mostly in maintenance.</description>
+    </item>
+    
+    <item>
+      <title>HashMap Performance Improvement in Java 8</title>
+      <link>https://thinkuldeep.github.io/post/java8-hashmap-performance-improvement/</link>
+      <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/java8-hashmap-performance-improvement/</guid>
+      <description>Introduction Hash collision degrades the performance of HashMap significantly. Java 8 has introduced a new strategy to deal with hash collisions, thus improving the performance of HashMaps. Considering this improvement in Java 8 for hash collisions, existing applications can expect performance improvements in case they are using HashMaps having large number of elements by simply upgrading to Java 8.
+Earlier, when multiple keys ends up in the same bucket, then values along with their keys are placed in a linked list.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Java Lambda Expression</title>
+      <link>https://thinkuldeep.github.io/post/java8-lambda-expression/</link>
+      <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/java8-lambda-expression/</guid>
+      <description>Introduction After Java 8, developers can apply functional programming constructs in a pure Object-Oriented programming language through lambda expressions. Using lambda expression sequential and parallel execution can be achieved by passing behavior into methods. In Java world lambdas can be thought of as an anonymous method with a more compact syntax. Here compact means it is not mandatory to specify access modifiers, return type and parameter types while defining the expression.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Java Stream API</title>
+      <link>https://thinkuldeep.github.io/post/java8-stream-api/</link>
+      <pubDate>Mon, 08 Dec 2014 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/java8-stream-api/</guid>
+      <description>Introduction Prior to JDK 8, collections can only be managed through iterators with the use of for, foreach or while loops. It means that we instruct a computer to execute the algorithm steps.
+int sum(List&amp;lt;Integer&amp;gt; list) { Iterator&amp;lt;Integer&amp;gt; intIterator = list.iterator(); int sum = 0; while (intIterator.hasNext()) { int number = intIterator.next(); if (number &amp;gt; 5) { sum += number; } } return sum; } The above approach has the following tailbacks:</description>
     </item>
     
     <item>

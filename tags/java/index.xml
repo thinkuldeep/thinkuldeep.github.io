@@ -106,5 +106,58 @@ I have supported Venkat and presented the JMod tool demo with him.
 Here are some coverages - https://www.nagarro.com/en/news-events/nagarro-has-java-8-covered-at-oracle-open-world I have lead the Nagarrro Stall and showcased the JMod demo to 300+ visitors.</description>
     </item>
     
+    <item>
+      <title>Strange JSP Compilation Issue </title>
+      <link>https://thinkuldeep.github.io/post/jsp-compilation-issues/</link>
+      <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/jsp-compilation-issues/</guid>
+      <description>Introduction We were getting following error on the production sever (Linux, Jboss). We were in the middle of user acceptance testing with the client, many users were accessing the application to simulate various scenarios in a live session.
+the application was crashing just after 2-3 minute of start with above error, and no user were able to access the application. We were expected for fix the issue ASAP, as the users were assembled for the web session, all were waiting for the server up.</description>
+    </item>
+    
+    <item>
+      <title>Using JGraphX for </title>
+      <link>https://thinkuldeep.github.io/post/java-jgraphx/</link>
+      <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/java-jgraphx/</guid>
+      <description>Introduction We have use JgraphX library in our project to create some dynamic graph of Classes and their interconnection with cluster of classes. One sample i have attached. We have also done DAR for finalizing this library. We have analyzed two more tools - Graphviz and Grappa. I have attached the DAR analysis report also.
+JGraphX (jGraph 6) is the most powerful, easy-to-use and feature-rich open source graph drawing component available for Java.</description>
+    </item>
+    
+    <item>
+      <title>Default Timezone in Java and MySQL</title>
+      <link>https://thinkuldeep.github.io/post/java-mysql-timezone-configuration/</link>
+      <pubDate>Sun, 15 Apr 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/java-mysql-timezone-configuration/</guid>
+      <description>Introduction On one of our production environments, we had an issue our application related to time, specially modified time and creation time of the entities. It was quite random in nature for some entities.
+We suspected that there might be issue in the timezone configuration.
+Analysing the problem On production environment, we had limited permissions. We were not allowed to change system timezone. We noticed that Jboss is automatically picking the system timezone “Europe/Berlin” (which was configured from root user) and if we check the timezone for the linux user for which we have access it shows GMT time.</description>
+    </item>
+    
+    <item>
+      <title>Compiling Java Native C/C&#43;&#43; Code</title>
+      <link>https://thinkuldeep.github.io/post/java-jni-cpp/</link>
+      <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/java-jni-cpp/</guid>
+      <description>Introduction We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
+ How to write a JNI program. jni_md.h not found. Incompatible data types. On widows cygwin1.dll is required when running Java code on the native library. and more.  Actually we were compiling NLP Solver’s native library (IPOPT) on windows 32 bit and on 64bit linux machine.
+Solving the chaos!</description>
+    </item>
+    
+    <item>
+      <title>Font configuration in JVM</title>
+      <link>https://thinkuldeep.github.io/post/java-font-mapping/</link>
+      <pubDate>Thu, 05 Jan 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/java-font-mapping/</guid>
+      <description>Introduction Last year we have migrated one of our application from Java 5 to Java 6. The Java 6(OpenJDK) installation was done by client on a fresh system. After installing our application (under JBoss app), we found the fonts on JFreeCharts and on the images generated from AWT were not correct.
+We have solved the issue by configuring the fonts at JVM level. Let understand it better.
+How AWT / JFreeCharts shows the fonts AWT rely on native fonts, it usages default Java fonts (which best fits) if no native fonts mapping found.</description>
+    </item>
+    
   </channel>
 </rss>

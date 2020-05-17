@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fonts on Kuldeep Singh</title>
+    <link>https://thinkuldeep.github.io/tags/fonts/</link>
+    <description>Recent content in fonts on Kuldeep Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Jan 2012 10:58:08 -0400</lastBuildDate>
+    
+	<atom:link href="https://thinkuldeep.github.io/tags/fonts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Font configuration in JVM</title>
+      <link>https://thinkuldeep.github.io/post/java-font-mapping/</link>
+      <pubDate>Thu, 05 Jan 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/java-font-mapping/</guid>
+      <description>Introduction Last year we have migrated one of our application from Java 5 to Java 6. The Java 6(OpenJDK) installation was done by client on a fresh system. After installing our application (under JBoss app), we found the fonts on JFreeCharts and on the images generated from AWT were not correct.
+We have solved the issue by configuring the fonts at JVM level. Let understand it better.
+How AWT / JFreeCharts shows the fonts AWT rely on native fonts, it usages default Java fonts (which best fits) if no native fonts mapping found.</description>
+    </item>
+    
+  </channel>
+</rss>

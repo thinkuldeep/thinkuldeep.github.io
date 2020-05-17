@@ -1164,7 +1164,7 @@
     </item>
     
     <item>
-      <title>javascript</title>
+      <title>JavaScript</title>
       <link>https://thinkuldeep.github.io/tags/javascript/</link>
       <pubDate>Tue, 27 Jan 2015 10:58:08 -0400</pubDate>
       
@@ -1304,6 +1304,195 @@
       <pubDate>Fri, 22 Aug 2014 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/tags/ibm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>compilation</title>
+      <link>https://thinkuldeep.github.io/tags/compilation/</link>
+      <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/compilation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>configuration</title>
+      <link>https://thinkuldeep.github.io/tags/configuration/</link>
+      <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/configuration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>extendability</title>
+      <link>https://thinkuldeep.github.io/tags/extendability/</link>
+      <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/extendability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>issues</title>
+      <link>https://thinkuldeep.github.io/tags/issues/</link>
+      <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/issues/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jsp</title>
+      <link>https://thinkuldeep.github.io/tags/jsp/</link>
+      <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/jsp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plugin</title>
+      <link>https://thinkuldeep.github.io/tags/plugin/</link>
+      <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/plugin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tuning</title>
+      <link>https://thinkuldeep.github.io/tags/tuning/</link>
+      <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/tuning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>database</title>
+      <link>https://thinkuldeep.github.io/tags/database/</link>
+      <pubDate>Sun, 15 Apr 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jvm</title>
+      <link>https://thinkuldeep.github.io/tags/jvm/</link>
+      <pubDate>Sun, 15 Apr 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/jvm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mysql</title>
+      <link>https://thinkuldeep.github.io/tags/mysql/</link>
+      <pubDate>Sun, 15 Apr 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>timezone</title>
+      <link>https://thinkuldeep.github.io/tags/timezone/</link>
+      <pubDate>Sun, 15 Apr 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/timezone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>optimization</title>
+      <link>https://thinkuldeep.github.io/tags/optimization/</link>
+      <pubDate>Sat, 10 Mar 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/optimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI</title>
+      <link>https://thinkuldeep.github.io/tags/ai/</link>
+      <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data engineering</title>
+      <link>https://thinkuldeep.github.io/tags/data-engineering/</link>
+      <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JNI</title>
+      <link>https://thinkuldeep.github.io/tags/jni/</link>
+      <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/jni/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>native</title>
+      <link>https://thinkuldeep.github.io/tags/native/</link>
+      <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/native/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLP Solver</title>
+      <link>https://thinkuldeep.github.io/tags/nlp-solver/</link>
+      <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/nlp-solver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>awt</title>
+      <link>https://thinkuldeep.github.io/tags/awt/</link>
+      <pubDate>Thu, 05 Jan 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/awt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>customizations</title>
+      <link>https://thinkuldeep.github.io/tags/customizations/</link>
+      <pubDate>Thu, 05 Jan 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/customizations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fonts</title>
+      <link>https://thinkuldeep.github.io/tags/fonts/</link>
+      <pubDate>Thu, 05 Jan 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/fonts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jfreechart</title>
+      <link>https://thinkuldeep.github.io/tags/jfreechart/</link>
+      <pubDate>Thu, 05 Jan 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/jfreechart/</guid>
       <description></description>
     </item>
     

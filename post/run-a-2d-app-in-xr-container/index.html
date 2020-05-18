@@ -40,7 +40,7 @@
 <meta itemprop="description" content="This article covers a concept implementation for an XR App Container for 2D app">
 <meta itemprop="datePublished" content="2020-05-16T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2020-05-16T10:58:08-04:00" />
-<meta itemprop="wordCount" content="2559">
+<meta itemprop="wordCount" content="2592">
 
 
 
@@ -298,7 +298,7 @@ if (!doNotTrack) {
       
       
         <span class="f6 mv4 dib tracked"> - 13 minutes read</span>
-        <span class="f6 mv4 dib tracked"> - 2559 words</span>
+        <span class="f6 mv4 dib tracked"> - 2592 words</span>
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>There are a number of Enterprise XR use cases where we have a need to open the existing 2D apps in the XR devices in a wrapper app, and this article covers a concept, have a look!</p>
@@ -788,7 +788,13 @@ dependencies <span style="color:#f92672">{</span>
 <li>Multiple versions of android would create conflict and issues while inflating the layout in texture.</li>
 </ul>
 <p>This approach is just a Proof of Concept, it may not be a production-ready approach.</p>
-<p><strong>Try it out and share your learning in this field, do let me know if you have any other finding. if this can be done in a better way.</strong></p>
+<p>There are other approaches you may try out such as</p>
+<ul>
+<li>Customize the Window Manager of the OS, and place the 2D windows in spatial coordinates.</li>
+<li>Use <a href="https://developer.android.com/reference/android/hardware/display/VirtualDisplay">VirtualDisplay</a> and <a href="https://developer.android.com/reference/android/app/Presentation">Presentation</a></li>
+<li>Analyse <a href="https://www.reddit.com/r/OculusGo/comments/ba6ul9/guide_launching_android_apps_in_vrshelldesktop/">Oculus TV/VrShell App</a></li>
+</ul>
+<p><strong>Try these out and share your learning in this field, do let me know if you have any other finding. if this can be done in a better way.</strong></p>
 <p>This article is original published on <a href="https://medium.com/xrpractices/run-a-2d-app-in-xr-container-77fff7e9678b">XR Practices Publication</a></p>
 
 <h2 class="f5 fw4 dib">

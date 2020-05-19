@@ -1403,6 +1403,34 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/apache-camel/</loc>
+    <lastmod>2013-12-02T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/apache-camel-ssh-component/</loc>
+    <lastmod>2013-12-02T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/camel-component/</loc>
+    <lastmod>2013-12-02T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/ssh/</loc>
+    <lastmod>2013-12-02T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/compilation/</loc>
     <lastmod>2012-05-27T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>

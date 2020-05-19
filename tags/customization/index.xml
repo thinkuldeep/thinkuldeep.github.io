@@ -32,5 +32,16 @@ After trying the OS level customization on an XR device, you may like to run you
 Most organizations currently using traditional hardware and software assets such as mobile devices, laptops, and desktops, and the processes and policies for managing these devices are quite stable and straightforward by now.</description>
     </item>
     
+    <item>
+      <title>Apache Camel SSH Component</title>
+      <link>https://thinkuldeep.github.io/post/apache-camel-ssh-component/</link>
+      <pubDate>Mon, 02 Dec 2013 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/apache-camel-ssh-component/</guid>
+      <description>Introduction This article is about troubleshooting issues we have faced while using apache camel’s SSH routes. It also covers step wise guide to setup apache camel routes.
+Prerequisites  Windows7 Eclipse Juno Java 1.7  Problem Statement We were getting following issues in the logs when connecting to one of the SSH server using Apache Camel-SSH. This was happening in one of the instance in production environment.
+Here are few logs :</description>
+    </item>
+    
   </channel>
 </rss>

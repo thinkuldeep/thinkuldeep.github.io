@@ -108,5 +108,16 @@ Google formally took the veils off of Brillo at its I/O 2015 conference. It is a
 int sum(List&amp;lt;Integer&amp;gt; list) { Iterator&amp;lt;Integer&amp;gt; intIterator = list.iterator(); int sum = 0; while (intIterator.hasNext()) { int number = intIterator.next(); if (number &amp;gt; 5) { sum += number; } } return sum; } The above approach has the following tailbacks:</description>
     </item>
     
+    <item>
+      <title>Apache Camel SSH Component</title>
+      <link>https://thinkuldeep.github.io/post/apache-camel-ssh-component/</link>
+      <pubDate>Mon, 02 Dec 2013 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/apache-camel-ssh-component/</guid>
+      <description>Introduction This article is about troubleshooting issues we have faced while using apache camel’s SSH routes. It also covers step wise guide to setup apache camel routes.
+Prerequisites  Windows7 Eclipse Juno Java 1.7  Problem Statement We were getting following issues in the logs when connecting to one of the SSH server using Apache Camel-SSH. This was happening in one of the instance in production environment.
+Here are few logs :</description>
+    </item>
+    
   </channel>
 </rss>

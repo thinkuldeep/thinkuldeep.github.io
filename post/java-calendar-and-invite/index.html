@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta property="fb:app_id" content="263238410439239" />
+    
+    <title>Kuldeep Singh  | Managing Calendar and Invites in Java</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.69.2" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.1cb140d8ba31d5b2f1114537dd04802a.css" rel="stylesheet">
+    
+
+    
+      <link rel="stylesheet" href="/css/custom.css">
+    
+
+    
+      
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+    
+
+    
+
+    <meta property="og:title" content="Managing Calendar and Invites in Java" />
+<meta property="og:description" content="Microsoft Exchange calendar integration in Java" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://thinkuldeep.github.io/post/java-calendar-and-invite/" />
+<meta property="article:published_time" content="2012-01-22T10:58:08-04:00" />
+<meta property="article:modified_time" content="2012-01-22T10:58:08-04:00" />
+<meta itemprop="name" content="Managing Calendar and Invites in Java">
+<meta itemprop="description" content="Microsoft Exchange calendar integration in Java">
+<meta itemprop="datePublished" content="2012-01-22T10:58:08-04:00" />
+<meta itemprop="dateModified" content="2012-01-22T10:58:08-04:00" />
+<meta itemprop="wordCount" content="1072">
+
+
+
+<meta itemprop="keywords" content="microsoft,java,exchange,integrations,enterprise," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Managing Calendar and Invites in Java"/>
+<meta name="twitter:description" content="Microsoft Exchange calendar integration in Java"/>
+
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-165124840-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+    <script data-ad-client="ca-pub-1704519698707483" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  </head>
+
+  <body class="ma0 avenir bg-near-white production">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=263238410439239&autoLogAppEvents=1"></script>
+    
+   
+  
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://thinkuldeep.github.io/images/java-ms-exchange.png');">
+    <div class="pb3-m pb6-l bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <div class="flex-l items-center">
+     <a href="https://thinkuldeep.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+        <img src="/images/profile.jpg" class="home-link" />
+     </a>
+      <a class="show-search toggle-search hover-white no-underline white-90" title="Search in my space">
+        <svg xmlns="http://www.w3.org/2000/svg" width="612.056" height="612.057" viewbox="0 0 613 613">
+          <path d="M595.2 513.908L493.775 412.482c26.707-41.727 42.685-91.041 42.685-144.263C536.459 120.085 416.375 0 268.24 0 120.106 0 .021 120.085.021 268.219c0 148.134 120.085 268.22 268.219 268.22 53.222 0 102.537-15.979 144.225-42.686l101.426 101.463c22.454 22.453 58.854 22.453 81.271 0 22.492-22.491 22.492-58.855.038-81.308zm-326.96-54.103c-105.793 0-191.585-85.793-191.585-191.585 0-105.793 85.792-191.585 191.585-191.585s191.585 85.792 191.585 191.585c.001 105.792-85.791 191.585-191.585 191.585z" />
+        </svg>
+        <span class=".">Search</span>
+      </a>
+    <aside class="search">
+   <div class="z-999" style="margin-top: 1.5rem;">
+    <a class="show-search toggle-search z-999 close-search" title="Close Search">
+        <svg height="512" width="512" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M443.6 387.1L312.4 255.4l131.5-130c5.4-5.4 5.4-14.2 0-19.6l-37.4-37.6c-2.6-2.6-6.1-4-9.8-4-3.7 0-7.2 1.5-9.8 4L256 197.8 124.9 68.3c-2.6-2.6-6.1-4-9.8-4-3.7 0-7.2 1.5-9.8 4L68 105.9c-5.4 5.4-5.4 14.2 0 19.6l131.5 130L68.4 387.1c-2.6 2.6-4.1 6.1-4.1 9.8 0 3.7 1.4 7.2 4.1 9.8l37.4 37.6c2.7 2.7 6.2 4.1 9.8 4.1 3.5 0 7.1-1.3 9.8-4.1L256 313.1l130.7 131.1c2.7 2.7 6.2 4.1 9.8 4.1 3.5 0 7.1-1.3 9.8-4.1l37.4-37.6c2.6-2.6 4.1-6.1 4.1-9.8-.1-3.6-1.6-7.1-4.2-9.7z"/></svg>
+    </a>
+   </div>
+    <div class="search-wrapper" style="z-index: 20">
+        <form class="search" method="get">
+            <input type="search" placeholder="search..." disabled="disabled" />
+        </form>
+    </div>
+    <ul class="search-results">
+        <li>
+        </li>
+    </ul>
+</aside>
+
+    </div>
+    <div class="flex-l items-center z-999">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="☞ About page">
+              ☞ About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/post/" title="☞ Articles page">
+              ☞ Articles
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/talk/" title="☞ Talks page">
+              ☞ Talks
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/tags/" title="☞ Tags page">
+              ☞ Tags
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/search/" title=" page">
+              
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+<a href="https://www.thoughtworks.com/profiles/kuldeep-singh" target="_blank" class="link-transition instagram link dib z-999 pt3 pt0-l mr1" title="ThougthWorks link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+    <svg  height="36px"  style="enable-background:new 0 0 65 35;" version="1.1" viewBox="0 0 65 30" width="36px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M0 5.93V0h25.132v5.93h-9.06v29h-7v-29zM29.255 0h3.5L38.5 28.2 44.87 0h3.463l6.052 28.188L60.535 0H64l-8 34.92h-3.587l-5.93-28.546L40.16 34.92h-3.587z"
+      style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://www.linkedin.com/in/kuldeep-reck/" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/thinkuldeep" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://gitlab.com/kuldeeps2" target="_blank" class="link-transition gitlab link dib z-999 pt3 pt0-l mr1" title="Gitlab link" rel="noopener" aria-label="follow on Gitlab——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M29.782 199.732L256 493.714 8.074 309.699c-6.856-5.142-9.712-13.996-7.141-21.993l28.849-87.974zm75.405-174.806c-3.142-8.854-15.709-8.854-18.851 0L29.782 199.732h131.961L105.187 24.926zm56.556 174.806L256 493.714l94.257-293.982H161.743zm349.324 87.974l-28.849-87.974L256 493.714l247.926-184.015c6.855-5.142 9.711-13.996 7.141-21.993zm-85.404-262.78c-3.142-8.854-15.709-8.854-18.851 0l-56.555 174.806h131.961L425.663 24.926z"></path></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://twitter.com/thinkuldeep" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://www.instagram.com/thinkuldeep/" target="_blank" class="link-transition instagram link dib z-999 pt3 pt0-l mr1" title="Instagram link" rel="noopener" aria-label="follow on Instagram——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.271,26.578v-0.006c0.502,0,1.005,0.01,1.508-0.002  c0.646-0.017,1.172-0.57,1.172-1.217c0-0.963,0-1.927,0-2.89c0-0.691-0.547-1.24-1.236-1.241c-0.961,0-1.922-0.001-2.883,0  c-0.688,0.001-1.236,0.552-1.236,1.243c-0.001,0.955-0.004,1.91,0.003,2.865c0.001,0.143,0.028,0.291,0.073,0.426  c0.173,0.508,0.639,0.82,1.209,0.823C41.344,26.579,41.808,26.578,42.271,26.578z M33,27.817c-3.384-0.002-6.135,2.721-6.182,6.089  c-0.049,3.46,2.72,6.201,6.04,6.272c3.454,0.074,6.248-2.686,6.321-6.043C39.254,30.675,36.462,27.815,33,27.817z M21.046,31.116  v0.082c0,4.515-0.001,9.03,0,13.545c0,0.649,0.562,1.208,1.212,1.208c7.16,0.001,14.319,0.001,21.479,0  c0.656,0,1.215-0.557,1.215-1.212c0.001-4.509,0-9.02,0-13.528v-0.094h-2.912c0.411,1.313,0.537,2.651,0.376,4.014  c-0.161,1.363-0.601,2.631-1.316,3.803s-1.644,2.145-2.779,2.918c-2.944,2.006-6.821,2.182-9.946,0.428  c-1.579-0.885-2.819-2.12-3.685-3.713c-1.289-2.373-1.495-4.865-0.739-7.451C22.983,31.116,22.021,31.116,21.046,31.116z   M45.205,49.255c0.159-0.026,0.318-0.049,0.475-0.083c1.246-0.265,2.264-1.304,2.508-2.557c0.025-0.137,0.045-0.273,0.067-0.409  V21.794c-0.021-0.133-0.04-0.268-0.065-0.401c-0.268-1.367-1.396-2.428-2.78-2.618c-0.058-0.007-0.113-0.02-0.17-0.03H20.761  c-0.147,0.027-0.296,0.047-0.441,0.08c-1.352,0.308-2.352,1.396-2.545,2.766c-0.008,0.057-0.02,0.114-0.029,0.171V46.24  c0.028,0.154,0.05,0.311,0.085,0.465c0.299,1.322,1.427,2.347,2.77,2.52c0.064,0.008,0.13,0.021,0.195,0.03H45.205z M33,64  C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+
+<a href="https://medium.com/@thinkuldeep" target="_blank" class="link-transition medium link dib z-999 pt3 pt0-l mr1" title="Medium link" rel="noopener" aria-label="follow on Medium——Opens in a new window">
+    <svg  height="32px"  style="enable-background:new 0 0 170 170;" version="1.1" viewBox="0 0 170 170" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M46.5340803,65.2157554 C46.6968378,63.6076572 46.0836,62.018231 44.8828198,60.93592 L32.6512605,46.2010582 L32.6512605,44 L70.6302521,44 L99.9859944,108.380952 L125.794585,44 L162,44 L162,46.2010582 L151.542017,56.2281011 C150.640424,56.9153477 150.193188,58.0448862 150.380019,59.1628454 L150.380019,132.837155 C150.193188,133.955114 150.640424,135.084652 151.542017,135.771899 L161.755369,145.798942 L161.755369,148 L110.38282,148 L110.38282,145.798942 L120.963119,135.527337 C122.002801,134.487948 122.002801,134.182246 122.002801,132.592593 L122.002801,73.0417402 L92.585901,147.755438 L88.6106443,147.755438 L54.3622782,73.0417402 L54.3622782,123.115814 C54.0767278,125.221069 54.7759199,127.3406 56.2581699,128.863022 L70.0186741,145.55438 L70.0186741,147.755438 L31,147.755438 L31,145.55438 L44.7605042,128.863022 C46.2319621,127.338076 46.8903838,125.204485 46.5340803,123.115814 L46.5340803,65.2157554 Z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+      <a class="w-5"></a>
+      <div>
+
+      </div>
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Managing Calendar and Invites in Java</h1>
+          
+            <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Microsoft Exchange calendar integration in Java
+            </h2>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        ARTICLES
+      </aside>
+      
+
+
+
+
+  <div id="sharing" class="mt3">
+
+    
+    <a href="https://www.facebook.com/sharer.php?u=https://thinkuldeep.github.io/post/java-calendar-and-invite/" class="facebook no-underline" aria-label="share on Facebook">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+
+    </a>
+
+    
+    
+    <a href="https://twitter.com/share?url=https://thinkuldeep.github.io/post/java-calendar-and-invite/&amp;text=Managing%20Calendar%20and%20Invites%20in%20Java" class="twitter no-underline" aria-label="share on Twitter">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+    </a>
+
+    
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://thinkuldeep.github.io/post/java-calendar-and-invite/&amp;title=Managing%20Calendar%20and%20Invites%20in%20Java" class="linkedin no-underline" aria-label="share on LinkedIn">
+      <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+    </a>
+  </div>
+
+      <h1 class="f1 athelas mt3 mb1">Managing Calendar and Invites in Java</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2012-01-22T10:58:08-04:00">January 22, 2012</time>
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 6 minutes read</span>
+        <span class="f6 mv4 dib tracked"> - 1072 words</span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="introduction">Introduction</h2>
+<p>Calendars are used to store formation for various events. Calendar viewer displays the month-date view and for each day displays the events/reminders information.</p>
+<p>Invites are the events in the form of email. Once the invite for an event sent to a user via email then that event will be stored in the calendar view and same can be seen in the day information of the calendar view.</p>
+<h2 id="calendars">Calendars</h2>
+<p>Calendar data can be stored in files; there are some standard formats for storing calendars
+iCalendar is a computer file format which allows Internet users to send meeting requests and tasks to other Internet users, via email, or sharing files with an extension of <code>.ics</code>. Recipients of the <code>iCalendar</code> data file (with supporting software, such as an email client or calendar application) can respond to the sender easily or counter propose another meeting date/time.</p>
+<h4 id="core-object">Core object</h4>
+<p><code>iCalendar</code>'s design was based on the previous file format <code>vCalendar</code> created by the Internet Mail Consortium (IMC).</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hacksw/handcal//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:uid1@example.com
+DTSTAMP:19970714T170000Z
+ORGANIZER;CN=John Doe:MAILTO:john.doe@example.com
+DTSTART:19970714T170000Z
+DTEND:19970715T035959Z
+SUMMARY:Bastille Day Party
+END:VEVENT
+END:VCALENDAR
+</code></pre></div><h4 id="other-tags">Other tags</h4>
+<pre><code>    Events (VEVENT). To-do (VTODO), VJOURNAL, VFREEBUSY, etc
+</code></pre>
+<h4 id="supported-products">Supported Products</h4>
+<p><code>iCalendar</code> is used and supported by a large number of products, including Google Calendar, Apple iCal, GoDaddy Online Group Calendar, IBM Lotus Notes, Yahoo! Calendar, Evolution (software) , KeepandShare, Lightning extension for Mozilla Thunderbird and SeaMonkey, and by Microsoft Outlook.</p>
+<h2 id="java-solution">Java Solution</h2>
+<p>We can export events information in a <code>.ics</code> file as per the <code>iCalendar</code> format, using Java File IO apis. Similarly Invites/Meeting requests can be sent as email using Java Mail API. Here is flow diagram.</p>
+<p><img src="/images/java-ms-exchange.png" alt="image"></p>
+<h4 id="implementation-steps-for-sending-email-invites">Implementation steps for Sending Email Invites</h4>
+<ul>
+<li>
+<p>Register calendar mime type in java</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#75715e">// register the text/calendar mime type
+</span><span style="color:#75715e"></span>MimetypesFileTypeMap mimetypes <span style="color:#f92672">=</span> 	<span style="color:#f92672">(</span>MimetypesFileTypeMap<span style="color:#f92672">)</span>MimetypesFileTypeMap<span style="color:#f92672">.</span><span style="color:#a6e22e">getDefaultFileTypeMap</span><span style="color:#f92672">();</span>
+mimetypes<span style="color:#f92672">.</span><span style="color:#a6e22e">addMimeTypes</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;text/calendar ics ICS&#34;</span><span style="color:#f92672">);</span>
+  
+<span style="color:#75715e">// register the handling of text/calendar mime type
+</span><span style="color:#75715e"></span>MailcapCommandMap mailcap <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>MailcapCommandMap<span style="color:#f92672">)</span> 	MailcapCommandMap<span style="color:#f92672">.</span><span style="color:#a6e22e">getDefaultCommandMap</span><span style="color:#f92672">();</span>
+mailcap<span style="color:#f92672">.</span><span style="color:#a6e22e">addMailcap</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;text/calendar;;x-java-content-handler=com.sun.mail.handlers.text_plain&#34;</span><span style="color:#f92672">);</span>
+</code></pre></div></li>
+<li>
+<p>Create message and assign recipients and sender.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#75715e">// create a message
+</span><span style="color:#75715e"></span>MimeMessage msg <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> MimeMessage<span style="color:#f92672">(</span>session<span style="color:#f92672">);</span>
+  
+<span style="color:#75715e">// set the from and to address
+</span><span style="color:#75715e"></span>InternetAddress addressFrom <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> InternetAddress<span style="color:#f92672">(</span>from<span style="color:#f92672">);</span>
+msg<span style="color:#f92672">.</span><span style="color:#a6e22e">setFrom</span><span style="color:#f92672">(</span>addressFrom<span style="color:#f92672">);</span>
+InternetAddress<span style="color:#f92672">[]</span> addressTo <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> InternetAddress<span style="color:#f92672">[</span>recipients<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">];</span>
+<span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span> i <span style="color:#f92672">&lt;</span> recipients<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">;</span> i<span style="color:#f92672">++)</span> <span style="color:#f92672">{</span>
+    addressTo<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> InternetAddress<span style="color:#f92672">(</span>recipients<span style="color:#f92672">[</span>i<span style="color:#f92672">]);</span>
+<span style="color:#f92672">}</span>
+msg<span style="color:#f92672">.</span><span style="color:#a6e22e">setRecipients</span><span style="color:#f92672">(</span>Message<span style="color:#f92672">.</span><span style="color:#a6e22e">RecipientType</span><span style="color:#f92672">.</span><span style="color:#a6e22e">TO</span><span style="color:#f92672">,</span> addressTo<span style="color:#f92672">);</span>
+</code></pre></div></li>
+<li>
+<p>Create an alternative body part.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#75715e">// Create an alternative Multipart
+</span><span style="color:#75715e"></span>Multipart multipart <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> MimeMultipart<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;alternative&#34;</span><span style="color:#f92672">);</span>
+</code></pre></div></li>
+<li>
+<p>Set body of invite.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#75715e">// part 1, html text
+</span><span style="color:#75715e"></span>MimeBodyPart descriptionPart <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> MimeBodyPart<span style="color:#f92672">();</span>
+String content <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&lt;font size=&#39;\&#39;2\&#39;&#39;&gt;&#34;</span> <span style="color:#f92672">+</span> emailMsgTxt <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;&lt;/font&gt;&#34;</span><span style="color:#f92672">;</span>
+descriptionPart<span style="color:#f92672">.</span><span style="color:#a6e22e">setContent</span><span style="color:#f92672">(</span>content<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;text/html; charset=utf-8&#34;</span><span style="color:#f92672">);</span>
+multipart<span style="color:#f92672">.</span><span style="color:#a6e22e">addBodyPart</span><span style="color:#f92672">(</span>descriptionPart<span style="color:#f92672">);</span>
+</code></pre></div></li>
+<li>
+<p>Add Calendar part</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#75715e">// Add part two, the calendar
+</span><span style="color:#75715e"></span>BodyPart calendarPart <span style="color:#f92672">=</span> buildCalendarPart<span style="color:#f92672">();</span>
+multipart<span style="color:#f92672">.</span><span style="color:#a6e22e">addBodyPart</span><span style="color:#f92672">(</span>calendarPart<span style="color:#f92672">);</span>
+</code></pre></div><p>The method calendar part can be generated in following ways.</p>
+<ul>
+<li>Using Plain Text</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">SimpleDateFormat iCalendarDateFormat <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> SimpleDateFormat<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;yyyyMMdd&#39;T&#39;HHmm&#39;00&#39;&#34;</span><span style="color:#f92672">);</span>
+BodyPart calendarPart <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> MimeBodyPart<span style="color:#f92672">();</span>
+
+String calendarContent <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;BEGIN:VCALENDAR\n&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;METHOD:REQUEST\n&#34;</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;PRODID: BCP - Meeting\n&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;VERSION:2.0\n&#34;</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;BEGIN:VEVENT\n&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;DTSTAMP:&#34;</span>
+    <span style="color:#f92672">+</span> iCalendarDateFormat<span style="color:#f92672">.</span><span style="color:#a6e22e">format</span><span style="color:#f92672">(</span>currentdate<span style="color:#f92672">)</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;\n&#34;</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;DTSTART:&#34;</span>
+    <span style="color:#f92672">+</span> iCalendarDateFormat<span style="color:#f92672">.</span><span style="color:#a6e22e">format</span><span style="color:#f92672">(</span>startdatetime<span style="color:#f92672">)</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;\n&#34;</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;DTEND:&#34;</span>
+    <span style="color:#f92672">+</span> iCalendarDateFormat<span style="color:#f92672">.</span><span style="color:#a6e22e">format</span><span style="color:#f92672">(</span>enddatetime<span style="color:#f92672">)</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;\n&#34;</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;SUMMARY:Test 123\n&#34;</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;UID:324\n&#34;</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE:MAILTO:kuldeep@nagarro.com\n&#34;</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;ORGANIZER:MAILTO:kuldeep@nagarro.com\n&#34;</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;LOCATION:gurgaon\n&#34;</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;DESCRIPTION:learn some stuff\n&#34;</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;SEQUENCE:0\n&#34;</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;PRIORITY:5\n&#34;</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;CLASS:PUBLIC\n&#34;</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;STATUS:CONFIRMED\n&#34;</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;TRANSP:OPAQUE\n&#34;</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;BEGIN:VALARM\n&#34;</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;ACTION:DISPLAY\n&#34;</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;DESCRIPTION:REMINDER\n&#34;</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;TRIGGER;RELATED=START:-PT00H15M00S\n&#34;</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;END:VALARM\n&#34;</span>
+    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;END:VEVENT\n&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;END:VCALENDAR&#34;</span><span style="color:#f92672">;</span>
+calendarPart<span style="color:#f92672">.</span><span style="color:#a6e22e">addHeader</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Content-Class&#34;</span><span style="color:#f92672">,</span><span style="color:#e6db74">&#34;urn:content-classes:calendarmessage&#34;</span><span style="color:#f92672">);</span>
+calendarPart<span style="color:#f92672">.</span><span style="color:#a6e22e">setContent</span><span style="color:#f92672">(</span>calendarContent<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;text/calendar;method=CANCEL&#34;</span><span style="color:#f92672">);</span>
+</code></pre></div><ul>
+<li>Using ICal4J Library ( Ref to Next section for more detail on ICal4J)</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#75715e">// Create a TimeZone
+</span><span style="color:#75715e"></span>TimeZoneRegistry registry <span style="color:#f92672">=</span> TimeZoneRegistryFactory<span style="color:#f92672">.</span><span style="color:#a6e22e">getInstance</span><span style="color:#f92672">().</span><span style="color:#a6e22e">createRegistry</span><span style="color:#f92672">();</span>
+TimeZone timezone <span style="color:#f92672">=</span> registry<span style="color:#f92672">.</span><span style="color:#a6e22e">getTimeZone</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;America/Mexico_City&#34;</span><span style="color:#f92672">);</span>
+java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span> startDate <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GregorianCalendar<span style="color:#f92672">();</span>
+startDate<span style="color:#f92672">.</span><span style="color:#a6e22e">setTimeZone</span><span style="color:#f92672">(</span>timezone<span style="color:#f92672">);</span>
+startDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">MONTH</span><span style="color:#f92672">,</span> java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">JANUARY</span><span style="color:#f92672">);</span>
+startDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">DAY_OF_MONTH</span><span style="color:#f92672">,</span> 18<span style="color:#f92672">);</span>
+startDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">YEAR</span><span style="color:#f92672">,</span> 2012<span style="color:#f92672">);</span>
+startDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">HOUR_OF_DAY</span><span style="color:#f92672">,</span> 9<span style="color:#f92672">);</span>
+startDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">MINUTE</span><span style="color:#f92672">,</span> 0<span style="color:#f92672">);</span>
+startDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">SECOND</span><span style="color:#f92672">,</span> 0<span style="color:#f92672">);</span>
+<span style="color:#75715e">// End Date is on: April 1, 2008, 13:00
+</span><span style="color:#75715e"></span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span> endDate <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GregorianCalendar<span style="color:#f92672">();</span>
+endDate<span style="color:#f92672">.</span><span style="color:#a6e22e">setTimeZone</span><span style="color:#f92672">(</span>timezone<span style="color:#f92672">);</span>
+endDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">MONTH</span><span style="color:#f92672">,</span> java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">JANUARY</span><span style="color:#f92672">);</span>
+endDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">DAY_OF_MONTH</span><span style="color:#f92672">,</span> 18<span style="color:#f92672">);</span>
+endDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">YEAR</span><span style="color:#f92672">,</span> 2012<span style="color:#f92672">);</span>
+endDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">HOUR_OF_DAY</span><span style="color:#f92672">,</span> 13<span style="color:#f92672">);</span>
+endDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">MINUTE</span><span style="color:#f92672">,</span> 0<span style="color:#f92672">);</span>	
+endDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">SECOND</span><span style="color:#f92672">,</span> 0<span style="color:#f92672">);</span>
+<span style="color:#75715e">// Create the event
+</span><span style="color:#75715e"></span>String eventName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Progress Meeting&#34;</span><span style="color:#f92672">;</span>
+DateTime start <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> DateTime<span style="color:#f92672">(</span>startDate<span style="color:#f92672">.</span><span style="color:#a6e22e">getTime</span><span style="color:#f92672">());</span>
+DateTime end <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> DateTime<span style="color:#f92672">(</span>endDate<span style="color:#f92672">.</span><span style="color:#a6e22e">getTime</span><span style="color:#f92672">());</span>
+VEvent meeting <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> VEvent<span style="color:#f92672">(</span>start<span style="color:#f92672">,</span> end<span style="color:#f92672">,</span> eventName<span style="color:#f92672">);</span>
+<span style="color:#75715e">// add attendees..
+</span><span style="color:#75715e"></span>Attendee dev1 <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Attendee<span style="color:#f92672">(</span>URI<span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;mailto:dev1@mycompany.com&#34;</span><span style="color:#f92672">));</span>
+dev1<span style="color:#f92672">.</span><span style="color:#a6e22e">getParameters</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>Role<span style="color:#f92672">.</span><span style="color:#a6e22e">REQ_PARTICIPANT</span><span style="color:#f92672">);</span>
+dev1<span style="color:#f92672">.</span><span style="color:#a6e22e">getParameters</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Cn<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Developer 1&#34;</span><span style="color:#f92672">));</span>
+meeting<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>dev1<span style="color:#f92672">);</span>
+Attendee dev2 <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Attendee<span style="color:#f92672">(</span>URI<span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;mailto:dev2@mycompany.com&#34;</span><span style="color:#f92672">));</span>
+dev2<span style="color:#f92672">.</span><span style="color:#a6e22e">getParameters</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>Role<span style="color:#f92672">.</span><span style="color:#a6e22e">OPT_PARTICIPANT</span><span style="color:#f92672">);</span>
+dev2<span style="color:#f92672">.</span><span style="color:#a6e22e">getParameters</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Cn<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Developer 2&#34;</span><span style="color:#f92672">));</span>
+meeting<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>dev2<span style="color:#f92672">);</span>
+VAlarm reminder <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> VAlarm<span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Dur<span style="color:#f92672">(</span>0<span style="color:#f92672">,</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">,</span> 0<span style="color:#f92672">,</span> 0<span style="color:#f92672">));</span>
+<span style="color:#75715e">// repeat reminder four (4) more times every fifteen (15) minutes..
+</span><span style="color:#75715e"></span>reminder<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Repeat<span style="color:#f92672">(</span>4<span style="color:#f92672">));</span>
+reminder<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Duration<span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Dur<span style="color:#f92672">(</span>0<span style="color:#f92672">,</span> 0<span style="color:#f92672">,</span> 15<span style="color:#f92672">,</span> 0<span style="color:#f92672">)));</span>
+<span style="color:#75715e">// display a message..
+</span><span style="color:#75715e"></span>reminder<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>Action<span style="color:#f92672">.</span><span style="color:#a6e22e">DISPLAY</span><span style="color:#f92672">);</span>
+reminder<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Description<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Progress Meeting&#34;</span><span style="color:#f92672">));</span>
+reminder<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Trigger<span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Dur<span style="color:#f92672">(</span>0<span style="color:#f92672">,</span> 0<span style="color:#f92672">,</span> 15<span style="color:#f92672">,</span> 0<span style="color:#f92672">)));</span>
+Transp transp <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Transp<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;OPAQUE&#34;</span><span style="color:#f92672">);</span>
+meeting<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>transp<span style="color:#f92672">);</span>
+Location loc <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Location<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Gurgaon&#34;</span><span style="color:#f92672">);</span>
+meeting<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>loc<span style="color:#f92672">);</span>
+meeting<span style="color:#f92672">.</span><span style="color:#a6e22e">getAlarms</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>reminder<span style="color:#f92672">);</span>
+<span style="color:#75715e">// Create a calendar
+</span><span style="color:#75715e"></span>net<span style="color:#f92672">.</span><span style="color:#a6e22e">fortuna</span><span style="color:#f92672">.</span><span style="color:#a6e22e">ical4j</span><span style="color:#f92672">.</span><span style="color:#a6e22e">model</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span> icsCalendar <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> net<span style="color:#f92672">.</span><span style="color:#a6e22e">fortuna</span><span style="color:#f92672">.</span><span style="color:#a6e22e">ical4j</span><span style="color:#f92672">.</span><span style="color:#a6e22e">model</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">();</span>
+icsCalendar<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> ProdId<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;-//Events Calendar//iCal4j 1.0//EN&#34;</span><span style="color:#f92672">));</span>
+icsCalendar<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Method<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;REQUEST&#34;</span><span style="color:#f92672">));</span>
+icsCalendar<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Sequence<span style="color:#f92672">(</span>0<span style="color:#f92672">));</span>
+icsCalendar<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Priority<span style="color:#f92672">(</span>5<span style="color:#f92672">));</span>
+icsCalendar<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Status<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;CONFIRMED&#34;</span><span style="color:#f92672">));</span>
+icsCalendar<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Uid<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;324&#34;</span><span style="color:#f92672">));</span>
+<span style="color:#75715e">// Add the event and print
+</span><span style="color:#75715e"></span>icsCalendar<span style="color:#f92672">.</span><span style="color:#a6e22e">getComponents</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>meeting<span style="color:#f92672">);</span>
+String calendarContent <span style="color:#f92672">=</span> icsCalendar<span style="color:#f92672">.</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">();</span>
+calendarPart<span style="color:#f92672">.</span><span style="color:#a6e22e">addHeader</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Content-Class&#34;</span><span style="color:#f92672">,</span><span style="color:#e6db74">&#34;urn:content-classes:calendarmessage&#34;</span><span style="color:#f92672">);</span>
+calendarPart<span style="color:#f92672">.</span><span style="color:#a6e22e">setContent</span><span style="color:#f92672">(</span>calendarContent<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;text/calendar;method=CANCEL&#34;</span><span style="color:#f92672">);</span>
+</code></pre></div></li>
+<li>
+<p>Put above multipart content in message</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#75715e">// Put the multipart in message
+</span><span style="color:#75715e"></span>msg<span style="color:#f92672">.</span><span style="color:#a6e22e">setContent</span><span style="color:#f92672">(</span>multipart<span style="color:#f92672">);</span>
+</code></pre></div></li>
+<li>
+<p>And finally send above Mime message as email</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">Transport transport <span style="color:#f92672">=</span> session<span style="color:#f92672">.</span><span style="color:#a6e22e">getTransport</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;smtp&#34;</span><span style="color:#f92672">);</span>
+transport<span style="color:#f92672">.</span><span style="color:#a6e22e">connect</span><span style="color:#f92672">();</span>
+transport<span style="color:#f92672">.</span><span style="color:#a6e22e">sendMessage</span><span style="color:#f92672">(</span>msg<span style="color:#f92672">,</span> msg<span style="color:#f92672">.</span><span style="color:#a6e22e">getAllRecipients</span><span style="color:#f92672">());</span>
+transport<span style="color:#f92672">.</span><span style="color:#a6e22e">close</span><span style="color:#f92672">();</span>
+</code></pre></div></li>
+</ul>
+<p>Follow the references for more detail on creating email session and using java Mail API.</p>
+<h4 id="more-on-ical4j-library">More on ICal4J library</h4>
+<p>iCal4j is used for modifying existing iCalendar data or creating new iCalendar data from scratch.</p>
+<ul>
+<li>
+<p>Parsing an iCalendar file - Support for parsing and building an iCalendar object model is provided by the <code>CalendarParser</code> and <code>ContentHandler</code> interfaces. You can provide your own implementations of either of these, or just use the default implementations as provided by the <code>CalendarBuilder</code> class</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">FileInputStream fin <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> FileInputStream<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;mycalendar.ics&#34;</span><span style="color:#f92672">);</span>
+CalendarBuilder builder <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> CalendarBuilder<span style="color:#f92672">();</span>
+Calendar calendar <span style="color:#f92672">=</span> builder<span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">(</span>fin<span style="color:#f92672">);</span>
+</code></pre></div></li>
+<li>
+<p>Creating a new Calendar -  Creating a new calendar is quite straight-forward, in that all you need to remember is that a Calendar contains a list of Properties and Components. A calendar must contain certain standard properties and at least one component to be valid. You can verify that a calendar is valid via the method <code>Calendar.validate()</code>. All <code>iCal4j</code> objects also override<code> Object.toString()</code>, so you can verify the resulting calendar data via this mechanism.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">Calendar calendar <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Calendar<span style="color:#f92672">();</span>
+calendar<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> ProdId<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;-//Ben Fortuna//iCal4j 1.0//EN&#34;</span><span style="color:#f92672">));</span>
+calendar<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>Version<span style="color:#f92672">.</span><span style="color:#a6e22e">VERSION_2_0</span><span style="color:#f92672">);</span>
+calendar<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>CalScale<span style="color:#f92672">.</span><span style="color:#a6e22e">GREGORIAN</span><span style="color:#f92672">);</span>
+<span style="color:#75715e">// Add events, etc..
+</span></code></pre></div><pre><code>  Output
+  BEGIN:VCALENDAR
+  PRODID:-//Ben Fortuna//iCal4j 1.0//EN
+  VERSION:2.0
+  CALSCALE:GREGORIAN
+  END:VCALENDAR
+</code></pre>
+</li>
+<li>
+<p>Creating an Event - One of the more commonly used components is a <code>VEvent</code>. To create a VEvent you can either set the date value and properties manually or you can make use of the convenience constructors to initialise standard values.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span> cal <span style="color:#f92672">=</span> java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">getInstance</span><span style="color:#f92672">();</span>
+cal<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">MONTH</span><span style="color:#f92672">,</span> java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">DECEMBER</span><span style="color:#f92672">);</span>
+cal<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">DAY_OF_MONTH</span><span style="color:#f92672">,</span> 25<span style="color:#f92672">);</span>
+  
+VEvent christmas <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> VEvent<span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Date<span style="color:#f92672">(</span>cal<span style="color:#f92672">.</span><span style="color:#a6e22e">getTime</span><span style="color:#f92672">()),</span> <span style="color:#e6db74">&#34;Christmas Day&#34;</span><span style="color:#f92672">);</span>
+<span style="color:#75715e">// initialise as an all-day event..
+</span><span style="color:#75715e"></span>christmas<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">getProperty</span><span style="color:#f92672">(</span>Property<span style="color:#f92672">.</span><span style="color:#a6e22e">DTSTART</span><span style="color:#f92672">).</span><span style="color:#a6e22e">getParameters</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>Value<span style="color:#f92672">.</span><span style="color:#a6e22e">DATE</span><span style="color:#f92672">);</span>
+</code></pre></div><pre><code>  Output:
+  BEGIN:VEVENT
+  DTSTAMP:20050222T044240Z
+  DTSTART;VALUE=DATE:20051225
+  SUMMARY:Christmas Day
+  END:VEVENT
+</code></pre>
+</li>
+<li>
+<p>Saving an iCalendar File - When saving an <code>iCalendar</code> file <code>iCal4j</code> will automatically validate your calendar object model to ensure it complies with the <code>RFC2445</code> specification. If you would prefer not to validate your calendar data you can disable the validation by calling <code>CalendarOutputter.setValidating(false)</code>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">FileOutputStream fout <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> FileOutputStream<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;mycalendar.ics&#34;</span><span style="color:#f92672">);</span>
+CalendarOutputter outputter <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> CalendarOutputter<span style="color:#f92672">();</span>
+outputter<span style="color:#f92672">.</span><span style="color:#a6e22e">output</span><span style="color:#f92672">(</span>calendar<span style="color:#f92672">,</span> fout<span style="color:#f92672">);</span>
+</code></pre></div></li>
+</ul>
+<h2 id="references">References</h2>
+<ol>
+<li><a href="http://en.wikipedia.org/wiki/ICalendar">http://en.wikipedia.org/wiki/ICalendar</a></li>
+<li><a href="http://en.wikipedia.org/wiki/VCal">http://en.wikipedia.org/wiki/VCal</a></li>
+<li><a href="http://www.imc.org/pdi/vcal-10.txt">http://www.imc.org/pdi/vcal-10.txt</a></li>
+<li><a href="http://java.sun.com/developer/onlineTraining/JavaMail/contents.html">http://java.sun.com/developer/onlineTraining/JavaMail/contents.html</a></li>
+<li><a href="http://wiki.modularity.net.au/ical4j/index.php?title=Main_Page">http://wiki.modularity.net.au/ical4j/index.php?title=Main_Page</a></li>
+</ol>
+
+<h2 class="f5 fw4 dib">
+    <a href="/tags/microsoft"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃microsoft</a>
+</h2>
+
+<h2 class="f5 fw4 dib">
+    <a href="/tags/java"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃java</a>
+</h2>
+
+<h2 class="f5 fw4 dib">
+    <a href="/tags/exchange"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃exchange</a>
+</h2>
+
+<h2 class="f5 fw4 dib">
+    <a href="/tags/integrations"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃integrations</a>
+</h2>
+
+<h2 class="f5 fw4 dib">
+    <a href="/tags/enterprise"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃enterprise</a>
+</h2>
+
+<div class="mt2 instapaper_ignoref">
+          <div class="fb-comments" data-href="https://thinkuldeep.github.io/post/java-calendar-and-invite/" data-numposts="5" data-width=""></div>
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/post/java-font-mapping/">Font configuration in JVM</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://thinkuldeep.github.io/" >
+    &copy;  Kuldeep Singh 2020 
+  </a>
+    <div>
+
+
+<a href="https://www.thoughtworks.com/profiles/kuldeep-singh" target="_blank" class="link-transition instagram link dib z-999 pt3 pt0-l mr1" title="ThougthWorks link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+    <svg  height="36px"  style="enable-background:new 0 0 65 35;" version="1.1" viewBox="0 0 65 30" width="36px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M0 5.93V0h25.132v5.93h-9.06v29h-7v-29zM29.255 0h3.5L38.5 28.2 44.87 0h3.463l6.052 28.188L60.535 0H64l-8 34.92h-3.587l-5.93-28.546L40.16 34.92h-3.587z"
+      style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://www.linkedin.com/in/kuldeep-reck/" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/thinkuldeep" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://gitlab.com/kuldeeps2" target="_blank" class="link-transition gitlab link dib z-999 pt3 pt0-l mr1" title="Gitlab link" rel="noopener" aria-label="follow on Gitlab——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M29.782 199.732L256 493.714 8.074 309.699c-6.856-5.142-9.712-13.996-7.141-21.993l28.849-87.974zm75.405-174.806c-3.142-8.854-15.709-8.854-18.851 0L29.782 199.732h131.961L105.187 24.926zm56.556 174.806L256 493.714l94.257-293.982H161.743zm349.324 87.974l-28.849-87.974L256 493.714l247.926-184.015c6.855-5.142 9.711-13.996 7.141-21.993zm-85.404-262.78c-3.142-8.854-15.709-8.854-18.851 0l-56.555 174.806h131.961L425.663 24.926z"></path></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://twitter.com/thinkuldeep" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://www.instagram.com/thinkuldeep/" target="_blank" class="link-transition instagram link dib z-999 pt3 pt0-l mr1" title="Instagram link" rel="noopener" aria-label="follow on Instagram——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.271,26.578v-0.006c0.502,0,1.005,0.01,1.508-0.002  c0.646-0.017,1.172-0.57,1.172-1.217c0-0.963,0-1.927,0-2.89c0-0.691-0.547-1.24-1.236-1.241c-0.961,0-1.922-0.001-2.883,0  c-0.688,0.001-1.236,0.552-1.236,1.243c-0.001,0.955-0.004,1.91,0.003,2.865c0.001,0.143,0.028,0.291,0.073,0.426  c0.173,0.508,0.639,0.82,1.209,0.823C41.344,26.579,41.808,26.578,42.271,26.578z M33,27.817c-3.384-0.002-6.135,2.721-6.182,6.089  c-0.049,3.46,2.72,6.201,6.04,6.272c3.454,0.074,6.248-2.686,6.321-6.043C39.254,30.675,36.462,27.815,33,27.817z M21.046,31.116  v0.082c0,4.515-0.001,9.03,0,13.545c0,0.649,0.562,1.208,1.212,1.208c7.16,0.001,14.319,0.001,21.479,0  c0.656,0,1.215-0.557,1.215-1.212c0.001-4.509,0-9.02,0-13.528v-0.094h-2.912c0.411,1.313,0.537,2.651,0.376,4.014  c-0.161,1.363-0.601,2.631-1.316,3.803s-1.644,2.145-2.779,2.918c-2.944,2.006-6.821,2.182-9.946,0.428  c-1.579-0.885-2.819-2.12-3.685-3.713c-1.289-2.373-1.495-4.865-0.739-7.451C22.983,31.116,22.021,31.116,21.046,31.116z   M45.205,49.255c0.159-0.026,0.318-0.049,0.475-0.083c1.246-0.265,2.264-1.304,2.508-2.557c0.025-0.137,0.045-0.273,0.067-0.409  V21.794c-0.021-0.133-0.04-0.268-0.065-0.401c-0.268-1.367-1.396-2.428-2.78-2.618c-0.058-0.007-0.113-0.02-0.17-0.03H20.761  c-0.147,0.027-0.296,0.047-0.441,0.08c-1.352,0.308-2.352,1.396-2.545,2.766c-0.008,0.057-0.02,0.114-0.029,0.171V46.24  c0.028,0.154,0.05,0.311,0.085,0.465c0.299,1.322,1.427,2.347,2.77,2.52c0.064,0.008,0.13,0.021,0.195,0.03H45.205z M33,64  C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+
+<a href="https://medium.com/@thinkuldeep" target="_blank" class="link-transition medium link dib z-999 pt3 pt0-l mr1" title="Medium link" rel="noopener" aria-label="follow on Medium——Opens in a new window">
+    <svg  height="32px"  style="enable-background:new 0 0 170 170;" version="1.1" viewBox="0 0 170 170" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M46.5340803,65.2157554 C46.6968378,63.6076572 46.0836,62.018231 44.8828198,60.93592 L32.6512605,46.2010582 L32.6512605,44 L70.6302521,44 L99.9859944,108.380952 L125.794585,44 L162,44 L162,46.2010582 L151.542017,56.2281011 C150.640424,56.9153477 150.193188,58.0448862 150.380019,59.1628454 L150.380019,132.837155 C150.193188,133.955114 150.640424,135.084652 151.542017,135.771899 L161.755369,145.798942 L161.755369,148 L110.38282,148 L110.38282,145.798942 L120.963119,135.527337 C122.002801,134.487948 122.002801,134.182246 122.002801,132.592593 L122.002801,73.0417402 L92.585901,147.755438 L88.6106443,147.755438 L54.3622782,73.0417402 L54.3622782,123.115814 C54.0767278,125.221069 54.7759199,127.3406 56.2581699,128.863022 L70.0186741,145.55438 L70.0186741,147.755438 L31,147.755438 L31,145.55438 L44.7605042,128.863022 C46.2319621,127.338076 46.8903838,125.204485 46.5340803,123.115814 L46.5340803,65.2157554 Z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="/js/search.js"></script>
+
+  </body>
+</html>

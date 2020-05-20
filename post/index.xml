@@ -475,6 +475,27 @@ Here are few logs :</description>
     </item>
     
     <item>
+      <title>Charset configuration in JVM</title>
+      <link>https://thinkuldeep.github.io/post/java-charset-configuration/</link>
+      <pubDate>Thu, 14 Feb 2013 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/java-charset-configuration/</guid>
+      <description>Introduction This article describes how to configure charset for a JVM.
+We faced an issue on a Linux environment, a file containing some Swedish character was not being read correctly by underlying JVM since the default charset of JVM was picked as UTF-8 (which does not support some Swedish character). But on the other hand, in Windows environment, it was working fine since the default charset was picked as Windows-1252 (which does support these characters).</description>
+    </item>
+    
+    <item>
+      <title>Working with Embedded OLE Objects in Java</title>
+      <link>https://thinkuldeep.github.io/post/java-working-with-ole-objects/</link>
+      <pubDate>Sat, 29 Sep 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/java-working-with-ole-objects/</guid>
+      <description>Introduction Document introduction contains a proof of concept for the research done on reading and writing OLE objects in Java. This research has been done using Apache POI. Please go thru the references for information about apache POI.
+This article covers a POC to fetch OLE objects from RIF formatted XML. Not just that, we need to store them in a in some viewable format.
+For a given XML in RIF format, parse it and read the embedded OLE object and represent in some viewable format using Java.</description>
+    </item>
+    
+    <item>
       <title>JavaScript Plugin Framework</title>
       <link>https://thinkuldeep.github.io/post/javascript-plugin-framework/</link>
       <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
@@ -523,6 +544,17 @@ Analysing the problem On production environment, we had limited permissions. We 
       <description>Introduction We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
  How to write a JNI program. jni_md.h not found. Incompatible data types. On widows cygwin1.dll is required when running Java code on the native library. and more.  Actually we were compiling NLP Solver’s native library (IPOPT) on windows 32 bit and on 64bit linux machine.
 Solving the chaos!</description>
+    </item>
+    
+    <item>
+      <title>Managing Calendar and Invites in Java</title>
+      <link>https://thinkuldeep.github.io/post/java-calendar-and-invite/</link>
+      <pubDate>Sun, 22 Jan 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/java-calendar-and-invite/</guid>
+      <description>Introduction Calendars are used to store formation for various events. Calendar viewer displays the month-date view and for each day displays the events/reminders information.
+Invites are the events in the form of email. Once the invite for an event sent to a user via email then that event will be stored in the calendar view and same can be seen in the day information of the calendar view.
+Calendars Calendar data can be stored in files; there are some standard formats for storing calendars iCalendar is a computer file format which allows Internet users to send meeting requests and tasks to other Internet users, via email, or sharing files with an extension of .</description>
     </item>
     
     <item>

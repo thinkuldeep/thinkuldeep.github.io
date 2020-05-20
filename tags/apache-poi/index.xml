@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>apache poi on Kuldeep Singh</title>
+    <link>https://thinkuldeep.github.io/tags/apache-poi/</link>
+    <description>Recent content in apache poi on Kuldeep Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Sep 2012 10:58:08 -0400</lastBuildDate>
+    
+	<atom:link href="https://thinkuldeep.github.io/tags/apache-poi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Working with Embedded OLE Objects in Java</title>
+      <link>https://thinkuldeep.github.io/post/java-working-with-ole-objects/</link>
+      <pubDate>Sat, 29 Sep 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/java-working-with-ole-objects/</guid>
+      <description>Introduction Document introduction contains a proof of concept for the research done on reading and writing OLE objects in Java. This research has been done using Apache POI. Please go thru the references for information about apache POI.
+This article covers a POC to fetch OLE objects from RIF formatted XML. Not just that, we need to store them in a in some viewable format.
+For a given XML in RIF format, parse it and read the embedded OLE object and represent in some viewable format using Java.</description>
+    </item>
+    
+  </channel>
+</rss>

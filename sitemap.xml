@@ -1431,6 +1431,83 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/charset/</loc>
+    <lastmod>2013-02-14T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/java-charset-configuration/</loc>
+    <lastmod>2013-02-14T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/customizations/</loc>
+    <lastmod>2013-02-14T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/jvm/</loc>
+    <lastmod>2013-02-14T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/apache-poi/</loc>
+    <lastmod>2012-09-29T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/embedded/</loc>
+    <lastmod>2012-09-29T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/ibm-doors/</loc>
+    <lastmod>2012-09-29T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/ole/</loc>
+    <lastmod>2012-09-29T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/rif/</loc>
+    <lastmod>2012-09-29T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/java-working-with-ole-objects/</loc>
+    <lastmod>2012-09-29T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/xml/</loc>
+    <lastmod>2012-09-29T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/compilation/</loc>
     <lastmod>2012-05-27T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1508,13 +1585,6 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/jvm/</loc>
-    <lastmod>2012-04-15T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.github.io/tags/mysql/</loc>
     <lastmod>2012-04-15T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1585,14 +1655,28 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/awt/</loc>
-    <lastmod>2012-01-05T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/exchange/</loc>
+    <lastmod>2012-01-22T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/customizations/</loc>
+    <loc>https://thinkuldeep.github.io/tags/integrations/</loc>
+    <lastmod>2012-01-22T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/java-calendar-and-invite/</loc>
+    <lastmod>2012-01-22T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/awt/</loc>
     <lastmod>2012-01-05T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

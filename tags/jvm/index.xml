@@ -6,10 +6,20 @@
     <description>Recent content in jvm on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Apr 2012 10:58:08 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 14 Feb 2013 10:58:08 -0400</lastBuildDate>
     
 	<atom:link href="https://thinkuldeep.github.io/tags/jvm/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Charset configuration in JVM</title>
+      <link>https://thinkuldeep.github.io/post/java-charset-configuration/</link>
+      <pubDate>Thu, 14 Feb 2013 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/java-charset-configuration/</guid>
+      <description>Introduction This article describes how to configure charset for a JVM.
+We faced an issue on a Linux environment, a file containing some Swedish character was not being read correctly by underlying JVM since the default charset of JVM was picked as UTF-8 (which does not support some Swedish character). But on the other hand, in Windows environment, it was working fine since the default charset was picked as Windows-1252 (which does support these characters).</description>
+    </item>
     
     <item>
       <title>Default Timezone in Java and MySQL</title>

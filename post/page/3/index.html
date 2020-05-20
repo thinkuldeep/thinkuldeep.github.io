@@ -296,12 +296,23 @@ if (!doNotTrack) {
     <li class="page-item active"><a class="page-link" href="/post/page/3/">3</a></li>
     
     
-    <li class="page-item disabled">
-    <a  class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/post/page/4/">4</a></li>
+    
+    
+    <li class="page-item">
+    <a href="/post/page/4/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
     </li>
     
     <li class="page-item">
-        <a href="/post/page/3/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="/post/page/4/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
     </li>
     
 </ul>
@@ -625,6 +636,59 @@ Here are few logs :
             <div class="mb3 pa4 mid-gray overflow-hidden">
     
       <div class="f6">
+        February 14, 2013
+      </div>
+    
+    <h1 class="f3 near-black">
+      <a href="https://thinkuldeep.github.io/post/java-charset-configuration/" class="link black dim">
+          
+          <div class="mb3 pa5 bg-top" style="padding: 3rem; background: url('/images/java.jpg');  background-repeat: no-repeat;
+  background-size: 100% 100px;">
+          </div>
+          
+          Charset configuration in JVM
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      Introduction This article describes how to configure charset for a JVM.
+We faced an issue on a Linux environment, a file containing some Swedish character was not being read correctly by underlying JVM since the default charset of JVM was picked as UTF-8 (which does not support some Swedish character). But on the other hand, in Windows environment, it was working fine since the default charset was picked as Windows-1252 (which does support these characters).
+    </div>
+  </div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          
+            <div class="mb3 pa4 mid-gray overflow-hidden">
+    
+      <div class="f6">
+        September 29, 2012
+      </div>
+    
+    <h1 class="f3 near-black">
+      <a href="https://thinkuldeep.github.io/post/java-working-with-ole-objects/" class="link black dim">
+          
+          <div class="mb3 pa5 bg-top" style="padding: 3rem; background: url('/images/java.jpg');  background-repeat: no-repeat;
+  background-size: 100% 100px;">
+          </div>
+          
+          Working with Embedded OLE Objects in Java
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      Introduction Document introduction contains a proof of concept for the research done on reading and writing OLE objects in Java. This research has been done using Apache POI. Please go thru the references for information about apache POI.
+This article covers a POC to fetch OLE objects from RIF formatted XML. Not just that, we need to store them in a in some viewable format.
+For a given XML in RIF format, parse it and read the embedded OLE object and represent in some viewable format using Java.
+    </div>
+  </div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          
+            <div class="mb3 pa4 mid-gray overflow-hidden">
+    
+      <div class="f6">
         May 27, 2012
       </div>
     
@@ -724,60 +788,6 @@ Analysing the problem On production environment, we had limited permissions. We 
 
         </div>
       
-        <div class="relative w-100 w-30-l mb4 bg-white">
-          
-            <div class="mb3 pa4 mid-gray overflow-hidden">
-    
-      <div class="f6">
-        February 20, 2012
-      </div>
-    
-    <h1 class="f3 near-black">
-      <a href="https://thinkuldeep.github.io/post/java-jni-cpp/" class="link black dim">
-          
-          <div class="mb3 pa5 bg-top" style="padding: 3rem; background: url('/images/java.jpg');  background-repeat: no-repeat;
-  background-size: 100% 100px;">
-          </div>
-          
-          Compiling Java Native C/C&#43;&#43; Code
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Introduction We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
- How to write a JNI program. jni_md.h not found. Incompatible data types. On widows cygwin1.dll is required when running Java code on the native library. and more.  Actually we were compiling NLP Solver’s native library (IPOPT) on windows 32 bit and on 64bit linux machine.
-Solving the chaos!
-    </div>
-  </div>
-
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-          
-            <div class="mb3 pa4 mid-gray overflow-hidden">
-    
-      <div class="f6">
-        January 5, 2012
-      </div>
-    
-    <h1 class="f3 near-black">
-      <a href="https://thinkuldeep.github.io/post/java-font-mapping/" class="link black dim">
-          
-          <div class="mb3 pa5 bg-top" style="padding: 3rem; background: url('/images/java.jpg');  background-repeat: no-repeat;
-  background-size: 100% 100px;">
-          </div>
-          
-          Font configuration in JVM
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Introduction Last year we have migrated one of our application from Java 5 to Java 6. The Java 6(OpenJDK) installation was done by client on a fresh system. After installing our application (under JBoss app), we found the fonts on JFreeCharts and on the images generated from AWT were not correct.
-We have solved the issue by configuring the fonts at JVM level. Let understand it better.
-How AWT / JFreeCharts shows the fonts AWT rely on native fonts, it usages default Java fonts (which best fits) if no native fonts mapping found.
-    </div>
-  </div>
-
-        </div>
-      
     </aside>
     
 
@@ -826,12 +836,23 @@ How AWT / JFreeCharts shows the fonts AWT rely on native fonts, it usages defaul
     <li class="page-item active"><a class="page-link" href="/post/page/3/">3</a></li>
     
     
-    <li class="page-item disabled">
-    <a  class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/post/page/4/">4</a></li>
+    
+    
+    <li class="page-item">
+    <a href="/post/page/4/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
     </li>
     
     <li class="page-item">
-        <a href="/post/page/3/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="/post/page/4/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
     </li>
     
 </ul>

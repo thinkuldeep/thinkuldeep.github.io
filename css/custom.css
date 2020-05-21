@@ -40,6 +40,10 @@ a.show-search {
    padding-left: 2rem;
 }
 
+a.hover-green:hover {
+    color: #67eba2;
+}
+
 
 a.show-search svg {
     width: 2rem;

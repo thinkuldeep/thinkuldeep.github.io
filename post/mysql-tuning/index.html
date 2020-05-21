@@ -40,7 +40,7 @@
 <meta itemprop="description" content="Tuning MySQL database, defragmentation and more">
 <meta itemprop="datePublished" content="2012-03-10T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2012-03-10T10:58:08-04:00" />
-<meta itemprop="wordCount" content="768">
+<meta itemprop="wordCount" content="767">
 
 
 
@@ -298,11 +298,10 @@ if (!doNotTrack) {
       
       
         <span class="f6 mv4 dib tracked"> - 4 minutes read</span>
-        <span class="f6 mv4 dib tracked"> - 768 words</span>
+        <span class="f6 mv4 dib tracked"> - 767 words</span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="introduction">Introduction</h2>
-<p>We have faced &lsquo;out of space&rsquo; issue on disk even after clearing old data on database server(MySQL) and temporary data on application. We noticed that 90% of the space was occupied by the database tables which were used to store very large de-normalized statistical data and when we track the database table we noticed there is not much data in the database in the tables but they were still occupying space on disk.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>We have faced &lsquo;out of space&rsquo; issue on disk even after clearing old data on database server(MySQL) and temporary data on application. We noticed that 90% of the space was occupied by the database tables which were used to store very large de-normalized statistical data and when we track the database table we noticed there is not much data in the database in the tables but they were still occupying space on disk.</p>
 <h2 id="knowing-the-problem">Knowing the problem</h2>
 <p>After analysis we came to know that <code>MYISAM</code> tables leave the memory holes when delete some rows from the tables and this lead to fragments and require more memory on disk. Run Following command on MySQL prompt to know fragmented space in the table:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-mysql" data-lang="mysql"><span style="color:#66d9ef">SHOW</span> <span style="color:#66d9ef">TABLE</span> STATUS 

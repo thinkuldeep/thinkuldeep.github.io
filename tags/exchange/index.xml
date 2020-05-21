@@ -17,7 +17,7 @@
       <pubDate>Sun, 22 Jan 2012 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/java-calendar-and-invite/</guid>
-      <description>Introduction Calendars are used to store formation for various events. Calendar viewer displays the month-date view and for each day displays the events/reminders information.
+      <description>Calendars are used to store formation for various events. Calendar viewer displays the month-date view and for each day displays the events/reminders information.
 Invites are the events in the form of email. Once the invite for an event sent to a user via email then that event will be stored in the calendar view and same can be seen in the day information of the calendar view.
 Calendars Calendar data can be stored in files; there are some standard formats for storing calendars iCalendar is a computer file format which allows Internet users to send meeting requests and tasks to other Internet users, via email, or sharing files with an extension of .</description>
     </item>

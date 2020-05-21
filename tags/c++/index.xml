@@ -17,7 +17,7 @@
       <pubDate>Fri, 16 Dec 2016 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/iot-insect-monitoring/</guid>
-      <description>Introduction Insects are the most diverse species of animals found on earth. While every species is required to maintain the balance of nature, excessive accumulation of any one type can have devastating effects on humans and environment.
+      <description>Insects are the most diverse species of animals found on earth. While every species is required to maintain the balance of nature, excessive accumulation of any one type can have devastating effects on humans and environment.
 Insect management relies on the early detection and accuracy of insect population monitoring techniquessensors-12-15801. Integrated data gathering about insect population together with the ecological factors like temperature, humidity, light etc., makes it possible to execute appropriate pest control at the right time in the right place.</description>
     </item>
     
@@ -27,9 +27,9 @@ Insect management relies on the early detection and accuracy of insect populatio
       <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/java-jni-cpp/</guid>
-      <description>Introduction We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
+      <description>We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
  How to write a JNI program. jni_md.h not found. Incompatible data types. On widows cygwin1.dll is required when running Java code on the native library. and more.  Actually we were compiling NLP Solver’s native library (IPOPT) on windows 32 bit and on 64bit linux machine.
-Solving the chaos!</description>
+Solving the chaos! Here are the steps we have followed to solve the above issues:</description>
     </item>
     
   </channel>

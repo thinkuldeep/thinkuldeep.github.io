@@ -1404,20 +1404,20 @@
   
   <url>
     <loc>https://thinkuldeep.github.io/tags/apache-camel/</loc>
-    <lastmod>2013-12-02T10:58:08-04:00</lastmod>
+    <lastmod>2014-02-13T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/apache-camel-http-route/</loc>
+    <lastmod>2014-02-13T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://thinkuldeep.github.io/post/apache-camel-ssh-component/</loc>
-    <lastmod>2013-12-02T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/camel-component/</loc>
     <lastmod>2013-12-02T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1655,6 +1655,41 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/apache-cfx/</loc>
+    <lastmod>2012-01-30T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/apache-service-mix/</loc>
+    <lastmod>2012-01-30T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/esb/</loc>
+    <lastmod>2012-01-30T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/fuseesb/</loc>
+    <lastmod>2012-01-30T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/esb-introduction-part2/</loc>
+    <lastmod>2012-01-30T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/exchange/</loc>
     <lastmod>2012-01-22T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1671,6 +1706,20 @@
   <url>
     <loc>https://thinkuldeep.github.io/post/java-calendar-and-invite/</loc>
     <lastmod>2012-01-22T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/osgi/</loc>
+    <lastmod>2012-01-15T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/esb-introduction-part1/</loc>
+    <lastmod>2012-01-15T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

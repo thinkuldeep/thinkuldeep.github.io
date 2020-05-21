@@ -17,7 +17,7 @@
       <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/javascript-plugin-framework/</guid>
-      <description>Introduction Javascript Plugin Framework is implemented to add extra functionality in the existing Web based application without actually changing the application code. This framework is also helpful when some functionality need to control for different user profiles.
+      <description>Javascript Plugin Framework is implemented to add extra functionality in the existing Web based application without actually changing the application code. This framework is also helpful when some functionality need to control for different user profiles.
 For example, to add one extra button in a menu we can write the plugin directly, by defining what that button is going to do on click, what all events should it handle, in one javascript file rather than making changes in the application code for the same.</description>
     </item>
     

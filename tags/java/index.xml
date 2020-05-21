@@ -72,7 +72,7 @@ User case (Oracle 11g, JBoss 6, JDK 6, Hibernate, Spring 3) : A tree structure i
       <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/java8-hashmap-performance-improvement/</guid>
-      <description>Introduction Hash collision degrades the performance of HashMap significantly. Java 8 has introduced a new strategy to deal with hash collisions, thus improving the performance of HashMaps. Considering this improvement in Java 8 for hash collisions, existing applications can expect performance improvements in case they are using HashMaps having large number of elements by simply upgrading to Java 8.
+      <description>Hash collision degrades the performance of HashMap significantly. Java 8 has introduced a new strategy to deal with hash collisions, thus improving the performance of HashMaps. Considering this improvement in Java 8 for hash collisions, existing applications can expect performance improvements in case they are using HashMaps having large number of elements by simply upgrading to Java 8.
 Earlier, when multiple keys ends up in the same bucket, then values along with their keys are placed in a linked list.</description>
     </item>
     
@@ -82,7 +82,7 @@ Earlier, when multiple keys ends up in the same bucket, then values along with t
       <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/java8-lambda-expression/</guid>
-      <description>Introduction After Java 8, developers can apply functional programming constructs in a pure Object-Oriented programming language through lambda expressions. Using lambda expression sequential and parallel execution can be achieved by passing behavior into methods. In Java world lambdas can be thought of as an anonymous method with a more compact syntax. Here compact means it is not mandatory to specify access modifiers, return type and parameter types while defining the expression.</description>
+      <description>After Java 8, developers can apply functional programming constructs in a pure Object-Oriented programming language through lambda expressions. Using lambda expression sequential and parallel execution can be achieved by passing behavior into methods. In Java world lambdas can be thought of as an anonymous method with a more compact syntax. Here compact means it is not mandatory to specify access modifiers, return type and parameter types while defining the expression.</description>
     </item>
     
     <item>
@@ -91,7 +91,7 @@ Earlier, when multiple keys ends up in the same bucket, then values along with t
       <pubDate>Mon, 08 Dec 2014 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/java8-stream-api/</guid>
-      <description>Introduction Prior to JDK 8, collections can only be managed through iterators with the use of for, foreach or while loops. It means that we instruct a computer to execute the algorithm steps.
+      <description>Prior to JDK 8, collections can only be managed through iterators with the use of for, foreach or while loops. It means that we instruct a computer to execute the algorithm steps.
 int sum(List&amp;lt;Integer&amp;gt; list) { Iterator&amp;lt;Integer&amp;gt; intIterator = list.iterator(); int sum = 0; while (intIterator.hasNext()) { int number = intIterator.next(); if (number &amp;gt; 5) { sum += number; } } return sum; } The above approach has the following tailbacks:</description>
     </item>
     
@@ -107,12 +107,24 @@ Here are some coverages - https://www.nagarro.com/en/news-events/nagarro-has-jav
     </item>
     
     <item>
+      <title>HTTP Router with Apache Camel </title>
+      <link>https://thinkuldeep.github.io/post/apache-camel-http-route/</link>
+      <pubDate>Thu, 13 Feb 2014 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/apache-camel-http-route/</guid>
+      <description>This article explains the http integration using Apache Camel. Create a configurable router to any http URL having place holders.
+ Prerequisite  Windows7, Eclipse Juno Java 1.7    Creating HTTP Router Please follow below steps to generate POC for HTTP routing using apache camel.
+Create Sample Camel Example   Create eclipse project using archetype “camel-archetype-spring”
+mvn archetype:generate DarchetypeGroupId=com.tk.poc.camel -DarchetypeArtifactId=camel-archetype-spring -DarchetypeVersion=2.11.0 -DarchetypeRepository=https://repository.apache.org/content/groups/snapshots-group   Create following Java file</description>
+    </item>
+    
+    <item>
       <title>Apache Camel SSH Component</title>
       <link>https://thinkuldeep.github.io/post/apache-camel-ssh-component/</link>
       <pubDate>Mon, 02 Dec 2013 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/apache-camel-ssh-component/</guid>
-      <description>Introduction This article is about troubleshooting issues we have faced while using apache camel’s SSH routes. It also covers step wise guide to setup apache camel routes.
+      <description>This article is about troubleshooting issues we have faced while using apache camel’s SSH routes. It also covers step wise guide to setup apache camel routes.
 Prerequisites  Windows7 Eclipse Juno Java 1.7  Problem Statement We were getting following issues in the logs when connecting to one of the SSH server using Apache Camel-SSH. This was happening in one of the instance in production environment.
 Here are few logs :</description>
     </item>
@@ -123,7 +135,7 @@ Here are few logs :</description>
       <pubDate>Thu, 14 Feb 2013 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/java-charset-configuration/</guid>
-      <description>Introduction This article describes how to configure charset for a JVM.
+      <description>This article describes how to configure charset for a JVM.
 We faced an issue on a Linux environment, a file containing some Swedish character was not being read correctly by underlying JVM since the default charset of JVM was picked as UTF-8 (which does not support some Swedish character). But on the other hand, in Windows environment, it was working fine since the default charset was picked as Windows-1252 (which does support these characters).</description>
     </item>
     
@@ -133,7 +145,7 @@ We faced an issue on a Linux environment, a file containing some Swedish charact
       <pubDate>Sat, 29 Sep 2012 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/java-working-with-ole-objects/</guid>
-      <description>Introduction Document introduction contains a proof of concept for the research done on reading and writing OLE objects in Java. This research has been done using Apache POI. Please go thru the references for information about apache POI.
+      <description>Document introduction contains a proof of concept for the research done on reading and writing OLE objects in Java. This research has been done using Apache POI. Please go thru the references for information about apache POI.
 This article covers a POC to fetch OLE objects from RIF formatted XML. Not just that, we need to store them in a in some viewable format.
 For a given XML in RIF format, parse it and read the embedded OLE object and represent in some viewable format using Java.</description>
     </item>
@@ -144,7 +156,7 @@ For a given XML in RIF format, parse it and read the embedded OLE object and rep
       <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/jsp-compilation-issues/</guid>
-      <description>Introduction We were getting following error on the production sever (Linux, Jboss). We were in the middle of user acceptance testing with the client, many users were accessing the application to simulate various scenarios in a live session.
+      <description>We were getting following error on the production sever (Linux, Jboss). We were in the middle of user acceptance testing with the client, many users were accessing the application to simulate various scenarios in a live session.
 the application was crashing just after 2-3 minute of start with above error, and no user were able to access the application. We were expected for fix the issue ASAP, as the users were assembled for the web session, all were waiting for the server up.</description>
     </item>
     
@@ -154,7 +166,7 @@ the application was crashing just after 2-3 minute of start with above error, an
       <pubDate>Sun, 15 Apr 2012 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/java-mysql-timezone-configuration/</guid>
-      <description>Introduction On one of our production environments, we had an issue our application related to time, specially modified time and creation time of the entities. It was quite random in nature for some entities.
+      <description>On one of our production environments, we had an issue our application related to time, specially modified time and creation time of the entities. It was quite random in nature for some entities.
 We suspected that there might be issue in the timezone configuration.
 Analysing the problem On production environment, we had limited permissions. We were not allowed to change system timezone. We noticed that Jboss is automatically picking the system timezone “Europe/Berlin” (which was configured from root user) and if we check the timezone for the linux user for which we have access it shows GMT time.</description>
     </item>
@@ -165,9 +177,22 @@ Analysing the problem On production environment, we had limited permissions. We 
       <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/java-jni-cpp/</guid>
-      <description>Introduction We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
+      <description>We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
  How to write a JNI program. jni_md.h not found. Incompatible data types. On widows cygwin1.dll is required when running Java code on the native library. and more.  Actually we were compiling NLP Solver’s native library (IPOPT) on windows 32 bit and on 64bit linux machine.
-Solving the chaos!</description>
+Solving the chaos! Here are the steps we have followed to solve the above issues:</description>
+    </item>
+    
+    <item>
+      <title>Using Apache CFX and Apache Camel in ESB</title>
+      <link>https://thinkuldeep.github.io/post/esb-introduction-part2/</link>
+      <pubDate>Mon, 30 Jan 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/esb-introduction-part2/</guid>
+      <description>In the previous article, we learned about ESB and deployed our first OSGi bundle on FuseESB.
+In this article, we will learn how to build Apache CXF and Apache Camel component and deploy them on FuseESB.
+Lets understand what are these components :
+Apache Camel ™ Powerful open source integration framework based on known Enterprise Integration Patterns with powerful Bean Integration.
+Camel lets you create the Enterprise Integration Patterns to implement routing and mediation rules in either a Java based Domain Specific Language (or Fluent API), via Spring or Blueprint based Xml Configuration files or via the Scala DSL.</description>
     </item>
     
     <item>
@@ -176,9 +201,21 @@ Solving the chaos!</description>
       <pubDate>Sun, 22 Jan 2012 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/java-calendar-and-invite/</guid>
-      <description>Introduction Calendars are used to store formation for various events. Calendar viewer displays the month-date view and for each day displays the events/reminders information.
+      <description>Calendars are used to store formation for various events. Calendar viewer displays the month-date view and for each day displays the events/reminders information.
 Invites are the events in the form of email. Once the invite for an event sent to a user via email then that event will be stored in the calendar view and same can be seen in the day information of the calendar view.
 Calendars Calendar data can be stored in files; there are some standard formats for storing calendars iCalendar is a computer file format which allows Internet users to send meeting requests and tasks to other Internet users, via email, or sharing files with an extension of .</description>
+    </item>
+    
+    <item>
+      <title>Working with Enterprise Service Bus</title>
+      <link>https://thinkuldeep.github.io/post/esb-introduction-part1/</link>
+      <pubDate>Sun, 15 Jan 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/esb-introduction-part1/</guid>
+      <description>This article starts from basic terms of ESB worlds and then provides details of the FuseESB with various examples.
+It contains step by step guide to install FuseESB, and develop and deploy OSGi bundle on FuseESB.
+Lets understand terminologies of the ESB world :
+ESB An Enterprise Service Bus (ESB) is a software architecture model used for designing and implementing the interaction and communication between mutually interacting software applications in Service Oriented Architecture.</description>
     </item>
     
     <item>
@@ -187,7 +224,7 @@ Calendars Calendar data can be stored in files; there are some standard formats 
       <pubDate>Thu, 05 Jan 2012 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/java-font-mapping/</guid>
-      <description>Introduction Last year we have migrated one of our application from Java 5 to Java 6. The Java 6(OpenJDK) installation was done by client on a fresh system. After installing our application (under JBoss app), we found the fonts on JFreeCharts and on the images generated from AWT were not correct.
+      <description>Last year we have migrated one of our application from Java 5 to Java 6. The Java 6(OpenJDK) installation was done by client on a fresh system. After installing our application (under JBoss app), we found the fonts on JFreeCharts and on the images generated from AWT were not correct.
 We have solved the issue by configuring the fonts at JVM level. Let understand it better.
 How AWT / JFreeCharts shows the fonts AWT rely on native fonts, it usages default Java fonts (which best fits) if no native fonts mapping found.</description>
     </item>

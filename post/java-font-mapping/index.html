@@ -40,7 +40,7 @@
 <meta itemprop="description" content="Let Java use native fonts, and make AWT show consistent across OSes, devices">
 <meta itemprop="datePublished" content="2012-01-05T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2012-01-05T10:58:08-04:00" />
-<meta itemprop="wordCount" content="175">
+<meta itemprop="wordCount" content="174">
 
 
 
@@ -298,11 +298,10 @@ if (!doNotTrack) {
       
       
         <span class="f6 mv4 dib tracked"> - 1 minutes read</span>
-        <span class="f6 mv4 dib tracked"> - 175 words</span>
+        <span class="f6 mv4 dib tracked"> - 174 words</span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="introduction">Introduction</h2>
-<p>Last year we have migrated one of our application from Java 5 to Java 6. The Java 6(OpenJDK) installation was done by client on a fresh system. After installing our application (under JBoss app), we found the fonts on JFreeCharts and on the images generated from AWT were not correct.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Last year we have migrated one of our application from Java 5 to Java 6. The Java 6(OpenJDK) installation was done by client on a fresh system. After installing our application (under JBoss app), we found the fonts on JFreeCharts and on the images generated from AWT were not correct.</p>
 <p>We have solved the issue by configuring the fonts at JVM level. Let understand it better.</p>
 <h2 id="how-awt--jfreecharts-shows-the-fonts">How AWT / JFreeCharts shows the fonts</h2>
 <p>AWT rely on native fonts, it usages default Java fonts (which best fits) if no native fonts mapping found. JFree also usage the AWT library to generates chart images.</p>

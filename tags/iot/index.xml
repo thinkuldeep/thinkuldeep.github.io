@@ -36,7 +36,7 @@ A comprehensive IoT ecosystem consists of many different parts such as electroni
       <pubDate>Fri, 16 Dec 2016 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/iot-insect-monitoring/</guid>
-      <description>Introduction Insects are the most diverse species of animals found on earth. While every species is required to maintain the balance of nature, excessive accumulation of any one type can have devastating effects on humans and environment.
+      <description>Insects are the most diverse species of animals found on earth. While every species is required to maintain the balance of nature, excessive accumulation of any one type can have devastating effects on humans and environment.
 Insect management relies on the early detection and accuracy of insect population monitoring techniquessensors-12-15801. Integrated data gathering about insect population together with the ecological factors like temperature, humidity, light etc., makes it possible to execute appropriate pest control at the right time in the right place.</description>
     </item>
     
@@ -55,7 +55,7 @@ Insect management relies on the early detection and accuracy of insect populatio
       <pubDate>Tue, 16 Aug 2016 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/iiot-reference-architecture/</guid>
-      <description>Introduction The industry has been going through an evolution. Industry 4.0 is the fourth industrial revolution where the key will be on digital transformation. Industry 4.0 creates what has been called a &amp;ldquo;smart factory&amp;rdquo;. Within the modular structured smart factories, cyber-physical systems monitor physical processes, create a virtual copy of the physical world and make decentralized decisions. Over the Internet of Things, cyber-physical systems communicate and cooperate with each other and with humans in real time, and via the Internet of Services, both internal and cross-organizational services are offered and used by participants of the value chain.</description>
+      <description>The industry has been going through an evolution. Industry 4.0 is the fourth industrial revolution where the key will be on digital transformation. Industry 4.0 creates what has been called a &amp;ldquo;smart factory&amp;rdquo;. Within the modular structured smart factories, cyber-physical systems monitor physical processes, create a virtual copy of the physical world and make decentralized decisions. Over the Internet of Things, cyber-physical systems communicate and cooperate with each other and with humans in real time, and via the Internet of Services, both internal and cross-organizational services are offered and used by participants of the value chain.</description>
     </item>
     
     <item>
@@ -64,7 +64,7 @@ Insect management relies on the early detection and accuracy of insect populatio
       <pubDate>Thu, 05 May 2016 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/building-smart-bottle-concept/</guid>
-      <description>Introduction The rapid growth of Internet of Things (IoT) and miniature wearable biosensors have generated new opportunities for personalized eHealth and mHealth services. We present a case study of an intelligent cap that can measure the amount of water in the bottle, monitor activity of opening or closing of bottle cap. This paper presents a Proof of Concept implementation for such a connected smart bottle that sends measurements to the IoT Platform.</description>
+      <description>The rapid growth of Internet of Things (IoT) and miniature wearable biosensors have generated new opportunities for personalized eHealth and mHealth services. We present a case study of an intelligent cap that can measure the amount of water in the bottle, monitor activity of opening or closing of bottle cap. This paper presents a Proof of Concept implementation for such a connected smart bottle that sends measurements to the IoT Platform.</description>
     </item>
     
     <item>
@@ -73,7 +73,7 @@ Insect management relies on the early detection and accuracy of insect populatio
       <pubDate>Sun, 17 Apr 2016 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</guid>
-      <description>Introduction On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
+      <description>On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
 Smart Meeting Room is a step forward in automating the availability and booking procedure of a meeting room.</description>
     </item>
     
@@ -83,7 +83,7 @@ Smart Meeting Room is a step forward in automating the availability and booking 
       <pubDate>Sun, 10 Apr 2016 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/exploring-android-things/</guid>
-      <description>Introduction Android Things, an android based embedded operating system, is the new “it” thing in the Internet of Things(IOT) space. Developed by Google under the codename “Brillo, a.k.a. Project Brillo”, it takes the usual Android development stack—Android Studio, the official SDK, and Google Play Services—and applies it to the IOT.
+      <description>Android Things, an android based embedded operating system, is the new “it” thing in the Internet of Things(IOT) space. Developed by Google under the codename “Brillo, a.k.a. Project Brillo”, it takes the usual Android development stack—Android Studio, the official SDK, and Google Play Services—and applies it to the IOT.
 Google formally took the veils off of Brillo at its I/O 2015 conference. It is aimed to be used with low-power and memory constrained IOT devices, allowing the developers to build a smart device using Android APIs and Google Services.</description>
     </item>
     
@@ -103,7 +103,7 @@ There are many industrial applications which connect to sensors and actuators, a
       <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/choosing_iot_platform/</guid>
-      <description>IoT Platform As we understand “IoT Platform” is an essential building block of IoT Ecosystem . A platform essentially decouples the business application from low level details of the technology stack and required services. Thus, it makes more sense to go for an off-the-shelf platform that provide all the relevant features and required flexibility, instead of developing the whole IoT stack from scratch. Selection of an IoT Platform is a key to develop a scalable and robust IoT Solution.</description>
+      <description>As we understand “IoT Platform” is an essential building block of IoT Ecosystem . A platform essentially decouples the business application from low level details of the technology stack and required services. Thus, it makes more sense to go for an off-the-shelf platform that provide all the relevant features and required flexibility, instead of developing the whole IoT stack from scratch. Selection of an IoT Platform is a key to develop a scalable and robust IoT Solution.</description>
     </item>
     
     <item>
@@ -112,7 +112,7 @@ There are many industrial applications which connect to sensors and actuators, a
       <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/sigfox-an-introduction/</guid>
-      <description>Introduction SIGFOX is providing a communication solution dedicated to the Internet of Things
+      <description>SIGFOX is providing a communication solution dedicated to the Internet of Things
 Dedicated to the IOT means:
  Simplicity: No configuration, no pairing, no signaling Autonomy: Very low energy consumption, allowing years of autonomy on battery without maintenance Small messages: No large assets or multimedia, only small messages  It is a LPWA (Low-Power Wide-Area) network, currently operating in 20 countries in Europe, Americas and Asia/Pacific. Communications over the SIGFOX network are bi-directional: uplink from device &amp;amp; downlink to the device.</description>
     </item>
@@ -123,7 +123,7 @@ Dedicated to the IOT means:
       <pubDate>Fri, 22 Aug 2014 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/iot_cloud_platform_comparision/</guid>
-      <description>Introduction The vision of IoT can be seen from two perspectives— ‘Internet’ centric and ‘Thing’ centric. The Internet centric architecture will involve internet services being the main focus while data is contributed by the objects. In the object centric architecture, the smart objects take the center stage.
+      <description>The vision of IoT can be seen from two perspectives— ‘Internet’ centric and ‘Thing’ centric. The Internet centric architecture will involve internet services being the main focus while data is contributed by the objects. In the object centric architecture, the smart objects take the center stage.
 In order to realize the full potential of cloud computing as well as ubiquitous sensing, a combined framework with a cloud at the center seems to be most viable.</description>
     </item>
     

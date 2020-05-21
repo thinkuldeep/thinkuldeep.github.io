@@ -17,7 +17,7 @@
       <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/jsp-compilation-issues/</guid>
-      <description>Introduction We were getting following error on the production sever (Linux, Jboss). We were in the middle of user acceptance testing with the client, many users were accessing the application to simulate various scenarios in a live session.
+      <description>We were getting following error on the production sever (Linux, Jboss). We were in the middle of user acceptance testing with the client, many users were accessing the application to simulate various scenarios in a live session.
 the application was crashing just after 2-3 minute of start with above error, and no user were able to access the application. We were expected for fix the issue ASAP, as the users were assembled for the web session, all were waiting for the server up.</description>
     </item>
     

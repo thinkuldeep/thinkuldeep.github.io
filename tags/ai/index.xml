@@ -17,9 +17,9 @@
       <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/java-jni-cpp/</guid>
-      <description>Introduction We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
+      <description>We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
  How to write a JNI program. jni_md.h not found. Incompatible data types. On widows cygwin1.dll is required when running Java code on the native library. and more.  Actually we were compiling NLP Solver’s native library (IPOPT) on windows 32 bit and on 64bit linux machine.
-Solving the chaos!</description>
+Solving the chaos! Here are the steps we have followed to solve the above issues:</description>
     </item>
     
   </channel>

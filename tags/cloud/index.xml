@@ -46,7 +46,7 @@ A comprehensive IoT ecosystem consists of many different parts such as electroni
       <pubDate>Tue, 16 Aug 2016 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/iiot-reference-architecture/</guid>
-      <description>Introduction The industry has been going through an evolution. Industry 4.0 is the fourth industrial revolution where the key will be on digital transformation. Industry 4.0 creates what has been called a &amp;ldquo;smart factory&amp;rdquo;. Within the modular structured smart factories, cyber-physical systems monitor physical processes, create a virtual copy of the physical world and make decentralized decisions. Over the Internet of Things, cyber-physical systems communicate and cooperate with each other and with humans in real time, and via the Internet of Services, both internal and cross-organizational services are offered and used by participants of the value chain.</description>
+      <description>The industry has been going through an evolution. Industry 4.0 is the fourth industrial revolution where the key will be on digital transformation. Industry 4.0 creates what has been called a &amp;ldquo;smart factory&amp;rdquo;. Within the modular structured smart factories, cyber-physical systems monitor physical processes, create a virtual copy of the physical world and make decentralized decisions. Over the Internet of Things, cyber-physical systems communicate and cooperate with each other and with humans in real time, and via the Internet of Services, both internal and cross-organizational services are offered and used by participants of the value chain.</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@ A comprehensive IoT ecosystem consists of many different parts such as electroni
       <pubDate>Sun, 17 Apr 2016 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</guid>
-      <description>Introduction On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
+      <description>On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
 Smart Meeting Room is a step forward in automating the availability and booking procedure of a meeting room.</description>
     </item>
     
@@ -65,7 +65,7 @@ Smart Meeting Room is a step forward in automating the availability and booking 
       <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/choosing_iot_platform/</guid>
-      <description>IoT Platform As we understand “IoT Platform” is an essential building block of IoT Ecosystem . A platform essentially decouples the business application from low level details of the technology stack and required services. Thus, it makes more sense to go for an off-the-shelf platform that provide all the relevant features and required flexibility, instead of developing the whole IoT stack from scratch. Selection of an IoT Platform is a key to develop a scalable and robust IoT Solution.</description>
+      <description>As we understand “IoT Platform” is an essential building block of IoT Ecosystem . A platform essentially decouples the business application from low level details of the technology stack and required services. Thus, it makes more sense to go for an off-the-shelf platform that provide all the relevant features and required flexibility, instead of developing the whole IoT stack from scratch. Selection of an IoT Platform is a key to develop a scalable and robust IoT Solution.</description>
     </item>
     
     <item>
@@ -74,7 +74,7 @@ Smart Meeting Room is a step forward in automating the availability and booking 
       <pubDate>Fri, 22 Aug 2014 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/iot_cloud_platform_comparision/</guid>
-      <description>Introduction The vision of IoT can be seen from two perspectives— ‘Internet’ centric and ‘Thing’ centric. The Internet centric architecture will involve internet services being the main focus while data is contributed by the objects. In the object centric architecture, the smart objects take the center stage.
+      <description>The vision of IoT can be seen from two perspectives— ‘Internet’ centric and ‘Thing’ centric. The Internet centric architecture will involve internet services being the main focus while data is contributed by the objects. In the object centric architecture, the smart objects take the center stage.
 In order to realize the full potential of cloud computing as well as ubiquitous sensing, a combined framework with a cloud at the center seems to be most viable.</description>
     </item>
     

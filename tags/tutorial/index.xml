@@ -75,7 +75,7 @@ There are not enough resources talking about static code analysis for Unity3D. T
       <pubDate>Mon, 20 Feb 2017 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/exploring-google-glass/</guid>
-      <description>Introduction This article describes the fundamentals of light-weight smart glasses such as Google Glass and Vuzix M100 It also explain the development practices with pros and cons of its usage, limitation and future of these glasses in our lives.
+      <description>This article describes the fundamentals of light-weight smart glasses such as Google Glass and Vuzix M100 It also explain the development practices with pros and cons of its usage, limitation and future of these glasses in our lives.
 Google Glass Enterprise Edition Google Glass enterprise edition is a plain Android based smart glass that you can wear and performs operations just like a smartphone and with the use of a small screen located in the front of your right eye can perform a decent range of tasks.</description>
     </item>
     
@@ -85,7 +85,7 @@ Google Glass Enterprise Edition Google Glass enterprise edition is a plain Andro
       <pubDate>Sun, 10 Apr 2016 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/exploring-android-things/</guid>
-      <description>Introduction Android Things, an android based embedded operating system, is the new “it” thing in the Internet of Things(IOT) space. Developed by Google under the codename “Brillo, a.k.a. Project Brillo”, it takes the usual Android development stack—Android Studio, the official SDK, and Google Play Services—and applies it to the IOT.
+      <description>Android Things, an android based embedded operating system, is the new “it” thing in the Internet of Things(IOT) space. Developed by Google under the codename “Brillo, a.k.a. Project Brillo”, it takes the usual Android development stack—Android Studio, the official SDK, and Google Play Services—and applies it to the IOT.
 Google formally took the veils off of Brillo at its I/O 2015 conference. It is aimed to be used with low-power and memory constrained IOT devices, allowing the developers to build a smart device using Android APIs and Google Services.</description>
     </item>
     
@@ -95,7 +95,7 @@ Google formally took the veils off of Brillo at its I/O 2015 conference. It is a
       <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/java8-lambda-expression/</guid>
-      <description>Introduction After Java 8, developers can apply functional programming constructs in a pure Object-Oriented programming language through lambda expressions. Using lambda expression sequential and parallel execution can be achieved by passing behavior into methods. In Java world lambdas can be thought of as an anonymous method with a more compact syntax. Here compact means it is not mandatory to specify access modifiers, return type and parameter types while defining the expression.</description>
+      <description>After Java 8, developers can apply functional programming constructs in a pure Object-Oriented programming language through lambda expressions. Using lambda expression sequential and parallel execution can be achieved by passing behavior into methods. In Java world lambdas can be thought of as an anonymous method with a more compact syntax. Here compact means it is not mandatory to specify access modifiers, return type and parameter types while defining the expression.</description>
     </item>
     
     <item>
@@ -104,7 +104,7 @@ Google formally took the veils off of Brillo at its I/O 2015 conference. It is a
       <pubDate>Mon, 08 Dec 2014 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/java8-stream-api/</guid>
-      <description>Introduction Prior to JDK 8, collections can only be managed through iterators with the use of for, foreach or while loops. It means that we instruct a computer to execute the algorithm steps.
+      <description>Prior to JDK 8, collections can only be managed through iterators with the use of for, foreach or while loops. It means that we instruct a computer to execute the algorithm steps.
 int sum(List&amp;lt;Integer&amp;gt; list) { Iterator&amp;lt;Integer&amp;gt; intIterator = list.iterator(); int sum = 0; while (intIterator.hasNext()) { int number = intIterator.next(); if (number &amp;gt; 5) { sum += number; } } return sum; } The above approach has the following tailbacks:</description>
     </item>
     
@@ -114,7 +114,7 @@ int sum(List&amp;lt;Integer&amp;gt; list) { Iterator&amp;lt;Integer&amp;gt; intI
       <pubDate>Mon, 02 Dec 2013 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/apache-camel-ssh-component/</guid>
-      <description>Introduction This article is about troubleshooting issues we have faced while using apache camel’s SSH routes. It also covers step wise guide to setup apache camel routes.
+      <description>This article is about troubleshooting issues we have faced while using apache camel’s SSH routes. It also covers step wise guide to setup apache camel routes.
 Prerequisites  Windows7 Eclipse Juno Java 1.7  Problem Statement We were getting following issues in the logs when connecting to one of the SSH server using Apache Camel-SSH. This was happening in one of the instance in production environment.
 Here are few logs :</description>
     </item>

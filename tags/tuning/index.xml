@@ -17,7 +17,7 @@
       <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/jsp-compilation-issues/</guid>
-      <description>Introduction We were getting following error on the production sever (Linux, Jboss). We were in the middle of user acceptance testing with the client, many users were accessing the application to simulate various scenarios in a live session.
+      <description>We were getting following error on the production sever (Linux, Jboss). We were in the middle of user acceptance testing with the client, many users were accessing the application to simulate various scenarios in a live session.
 the application was crashing just after 2-3 minute of start with above error, and no user were able to access the application. We were expected for fix the issue ASAP, as the users were assembled for the web session, all were waiting for the server up.</description>
     </item>
     
@@ -27,7 +27,7 @@ the application was crashing just after 2-3 minute of start with above error, an
       <pubDate>Sat, 10 Mar 2012 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/mysql-tuning/</guid>
-      <description>Introduction We have faced &amp;lsquo;out of space&amp;rsquo; issue on disk even after clearing old data on database server(MySQL) and temporary data on application. We noticed that 90% of the space was occupied by the database tables which were used to store very large de-normalized statistical data and when we track the database table we noticed there is not much data in the database in the tables but they were still occupying space on disk.</description>
+      <description>We have faced &amp;lsquo;out of space&amp;rsquo; issue on disk even after clearing old data on database server(MySQL) and temporary data on application. We noticed that 90% of the space was occupied by the database tables which were used to store very large de-normalized statistical data and when we track the database table we noticed there is not much data in the database in the tables but they were still occupying space on disk.</description>
     </item>
     
   </channel>

@@ -40,7 +40,7 @@
 <meta itemprop="description" content="Configuring default timezone for front end and backend database to avoid any timezone conflicts">
 <meta itemprop="datePublished" content="2012-04-15T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2012-04-15T10:58:08-04:00" />
-<meta itemprop="wordCount" content="583">
+<meta itemprop="wordCount" content="582">
 
 
 
@@ -298,11 +298,10 @@ if (!doNotTrack) {
       
       
         <span class="f6 mv4 dib tracked"> - 3 minutes read</span>
-        <span class="f6 mv4 dib tracked"> - 583 words</span>
+        <span class="f6 mv4 dib tracked"> - 582 words</span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="introduction">Introduction</h2>
-<p>On one of our production environments, we had an issue our application related to time, specially modified time and creation time of the entities. It was quite random in nature for some entities.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>On one of our production environments, we had an issue our application related to time, specially modified time and creation time of the entities. It was quite random in nature for some entities.</p>
 <p>We suspected that there might be issue in the timezone configuration.</p>
 <h2 id="analysing-the-problem">Analysing the problem</h2>
 <p>On production environment, we had limited permissions. We were not allowed to change system timezone. We noticed that Jboss is automatically picking the system timezone <strong>“Europe/Berlin”</strong> (which was configured from root user) and if we check the timezone for the linux user for which we have access it shows <strong>GMT</strong> time. The MySQL database is picking the GMT timezone.</p>
@@ -423,7 +422,15 @@ ARC<span style="color:#f92672">=</span>false
         </li>
 	    
 	     <li  class="mb2">
+          <a href="/post/esb-introduction-part2/">Using Apache CFX and Apache Camel in ESB</a>
+        </li>
+	    
+	     <li  class="mb2">
           <a href="/post/java-calendar-and-invite/">Managing Calendar and Invites in Java</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/esb-introduction-part1/">Working with Enterprise Service Bus</a>
         </li>
 	    
     </ul>

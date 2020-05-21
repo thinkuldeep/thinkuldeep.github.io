@@ -31,24 +31,24 @@
     
 
     <meta property="og:title" content="Charset configuration in JVM" />
-<meta property="og:description" content="Introduction This article describes how to configure charset for a JVM.
+<meta property="og:description" content="This article describes how to configure charset for a JVM.
 We faced an issue on a Linux environment, a file containing some Swedish character was not being read correctly by underlying JVM since the default charset of JVM was picked as UTF-8 (which does not support some Swedish character). But on the other hand, in Windows environment, it was working fine since the default charset was picked as Windows-1252 (which does support these characters)." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://thinkuldeep.github.io/post/java-charset-configuration/" />
 <meta property="article:published_time" content="2013-02-14T10:58:08-04:00" />
 <meta property="article:modified_time" content="2013-02-14T10:58:08-04:00" />
 <meta itemprop="name" content="Charset configuration in JVM">
-<meta itemprop="description" content="Introduction This article describes how to configure charset for a JVM.
+<meta itemprop="description" content="This article describes how to configure charset for a JVM.
 We faced an issue on a Linux environment, a file containing some Swedish character was not being read correctly by underlying JVM since the default charset of JVM was picked as UTF-8 (which does not support some Swedish character). But on the other hand, in Windows environment, it was working fine since the default charset was picked as Windows-1252 (which does support these characters).">
 <meta itemprop="datePublished" content="2013-02-14T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2013-02-14T10:58:08-04:00" />
-<meta itemprop="wordCount" content="166">
+<meta itemprop="wordCount" content="165">
 
 
 
 <meta itemprop="keywords" content="charset,java,jvm,customizations," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Charset configuration in JVM"/>
-<meta name="twitter:description" content="Introduction This article describes how to configure charset for a JVM.
+<meta name="twitter:description" content="This article describes how to configure charset for a JVM.
 We faced an issue on a Linux environment, a file containing some Swedish character was not being read correctly by underlying JVM since the default charset of JVM was picked as UTF-8 (which does not support some Swedish character). But on the other hand, in Windows environment, it was working fine since the default charset was picked as Windows-1252 (which does support these characters)."/>
 
       
@@ -297,11 +297,10 @@ if (!doNotTrack) {
       
       
         <span class="f6 mv4 dib tracked"> - 1 minutes read</span>
-        <span class="f6 mv4 dib tracked"> - 166 words</span>
+        <span class="f6 mv4 dib tracked"> - 165 words</span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="introduction">Introduction</h2>
-<p>This article describes how to configure charset for a JVM.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>This article describes how to configure charset for a JVM.</p>
 <p>We faced an issue on a Linux environment, a file containing some Swedish character was not being read correctly by underlying JVM since the default charset of JVM was picked as <code>UTF-8</code> (which does not support some Swedish character). But on the other hand, in Windows environment, it was working fine since the default charset was picked as <code>Windows-1252</code> (which does support these characters).</p>
 <h2 id="here-are-the-steps-to-solve-the-issue">Here are the steps to solve the issue</h2>
 <p><code>ISO-8859-1</code> is the standard character encodings, generally intended for Western European languages. This charset can be set for JVM in Linux and Windows environments for Western European languages.</p>
@@ -365,7 +364,15 @@ if (!doNotTrack) {
         </li>
 	    
 	     <li  class="mb2">
+          <a href="/post/esb-introduction-part2/">Using Apache CFX and Apache Camel in ESB</a>
+        </li>
+	    
+	     <li  class="mb2">
           <a href="/post/java-calendar-and-invite/">Managing Calendar and Invites in Java</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/esb-introduction-part1/">Working with Enterprise Service Bus</a>
         </li>
 	    
     </ul>

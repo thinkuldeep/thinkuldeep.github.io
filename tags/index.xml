@@ -1308,20 +1308,11 @@
     </item>
     
     <item>
-      <title>apache camel</title>
+      <title>Apache Camel</title>
       <link>https://thinkuldeep.github.io/tags/apache-camel/</link>
-      <pubDate>Mon, 02 Dec 2013 10:58:08 -0400</pubDate>
+      <pubDate>Thu, 13 Feb 2014 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/tags/apache-camel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>camel component</title>
-      <link>https://thinkuldeep.github.io/tags/camel-component/</link>
-      <pubDate>Mon, 02 Dec 2013 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.github.io/tags/camel-component/</guid>
       <description></description>
     </item>
     
@@ -1560,6 +1551,42 @@
     </item>
     
     <item>
+      <title>Apache CFX</title>
+      <link>https://thinkuldeep.github.io/tags/apache-cfx/</link>
+      <pubDate>Mon, 30 Jan 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/apache-cfx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apache Service Mix</title>
+      <link>https://thinkuldeep.github.io/tags/apache-service-mix/</link>
+      <pubDate>Mon, 30 Jan 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/apache-service-mix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ESB</title>
+      <link>https://thinkuldeep.github.io/tags/esb/</link>
+      <pubDate>Mon, 30 Jan 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/esb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FuseESB</title>
+      <link>https://thinkuldeep.github.io/tags/fuseesb/</link>
+      <pubDate>Mon, 30 Jan 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/fuseesb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>exchange</title>
       <link>https://thinkuldeep.github.io/tags/exchange/</link>
       <pubDate>Sun, 22 Jan 2012 10:58:08 -0400</pubDate>
@@ -1574,6 +1601,15 @@
       <pubDate>Sun, 22 Jan 2012 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/tags/integrations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OSGi</title>
+      <link>https://thinkuldeep.github.io/tags/osgi/</link>
+      <pubDate>Sun, 15 Jan 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/osgi/</guid>
       <description></description>
     </item>
     

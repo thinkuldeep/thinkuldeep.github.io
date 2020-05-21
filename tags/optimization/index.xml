@@ -17,7 +17,7 @@
       <pubDate>Sat, 10 Mar 2012 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/mysql-tuning/</guid>
-      <description>Introduction We have faced &amp;lsquo;out of space&amp;rsquo; issue on disk even after clearing old data on database server(MySQL) and temporary data on application. We noticed that 90% of the space was occupied by the database tables which were used to store very large de-normalized statistical data and when we track the database table we noticed there is not much data in the database in the tables but they were still occupying space on disk.</description>
+      <description>We have faced &amp;lsquo;out of space&amp;rsquo; issue on disk even after clearing old data on database server(MySQL) and temporary data on application. We noticed that 90% of the space was occupied by the database tables which were used to store very large de-normalized statistical data and when we track the database table we noticed there is not much data in the database in the tables but they were still occupying space on disk.</description>
     </item>
     
     <item>
@@ -26,9 +26,9 @@
       <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/java-jni-cpp/</guid>
-      <description>Introduction We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
+      <description>We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
  How to write a JNI program. jni_md.h not found. Incompatible data types. On widows cygwin1.dll is required when running Java code on the native library. and more.  Actually we were compiling NLP Solver’s native library (IPOPT) on windows 32 bit and on 64bit linux machine.
-Solving the chaos!</description>
+Solving the chaos! Here are the steps we have followed to solve the above issues:</description>
     </item>
     
   </channel>

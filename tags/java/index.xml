@@ -130,6 +130,16 @@ Here are few logs :</description>
     </item>
     
     <item>
+      <title>Groovy - Getting Started</title>
+      <link>https://thinkuldeep.github.io/post/groovy-getting-started/</link>
+      <pubDate>Mon, 20 May 2013 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/groovy-getting-started/</guid>
+      <description>This article help you start with Groovy, with step by step guide and series of examples. It starts with an overview and then covers in detail examples.
+Groovy Overview Groovy is an Object Oriented Scripting Language which provides Dynamic, Easy-to-use and Integration capabilities to the Java Virtual Machine. It absorbs most of the syntax from Java and it is much powerful in terms of functionalities which is manifested in the form Closures, Dynamic Typing, Builders etc.</description>
+    </item>
+    
+    <item>
       <title>Scala - Getting Started - Part 2</title>
       <link>https://thinkuldeep.github.io/post/scala-getting-started-part2/</link>
       <pubDate>Sat, 18 May 2013 10:58:08 -0400</pubDate>
@@ -147,7 +157,7 @@ Integration with Ant Below example shows how Scala project can be built by the a
       <pubDate>Mon, 06 May 2013 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/scala-getting-started-part1/</guid>
-      <description>This article lets you start with Scala, with step by step guide and series of examples. It starts with an overview and then covers in detail examples. In later articles, I will write about feature comparison with other languages. It article is helpful for people coming from Java background, how it is not the prerequisites.
+      <description>This article help you to start with Scala, with step by step guide and series of examples. It starts with an overview and then covers in detail examples. In later articles, I will write about feature comparison with other languages. It article is helpful for people coming from Java background, how it is not the prerequisites.
 Scala Overview Scala is a general purpose programming language designed to express common programming patterns in a concise, elegant, and type-safe way.</description>
     </item>
     
@@ -191,6 +201,16 @@ the application was crashing just after 2-3 minute of start with above error, an
       <description>On one of our production environments, we had an issue our application related to time, specially modified time and creation time of the entities. It was quite random in nature for some entities.
 We suspected that there might be issue in the timezone configuration.
 Analysing the problem On production environment, we had limited permissions. We were not allowed to change system timezone. We noticed that Jboss is automatically picking the system timezone “Europe/Berlin” (which was configured from root user) and if we check the timezone for the linux user for which we have access it shows GMT time.</description>
+    </item>
+    
+    <item>
+      <title>Rule Engine - Getting Started with Drools</title>
+      <link>https://thinkuldeep.github.io/post/rule-engine-getting-started/</link>
+      <pubDate>Sat, 03 Mar 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/rule-engine-getting-started/</guid>
+      <description>This article let you start with Rule Engine Drools, with step by step guide and series of examples. It starts with an overview and then covers in detail examples.
+Rule Engine Overview The underlying idea of a rule engine is to externalize the business or application logic. A rule engine can be viewed as a sophisticated interpreter of if-then statements. The if-then statements are the rules. A rule is composed of two parts, a condition and an action: When the condition is met, the action is executed.</description>
     </item>
     
     <item>
@@ -238,6 +258,16 @@ Calendars Calendar data can be stored in files; there are some standard formats 
 It contains step by step guide to install FuseESB, and develop and deploy OSGi bundle on FuseESB.
 Lets understand terminologies of the ESB world :
 ESB An Enterprise Service Bus (ESB) is a software architecture model used for designing and implementing the interaction and communication between mutually interacting software applications in Service Oriented Architecture.</description>
+    </item>
+    
+    <item>
+      <title>Mail Merge in Java</title>
+      <link>https://thinkuldeep.github.io/post/java-mail-merge/</link>
+      <pubDate>Tue, 10 Jan 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/java-mail-merge/</guid>
+      <description>MailMerge is a process to create personalized letters and pre-addressed envelopes or mailing labels for mass mailings from a word processing document (Template). A template contains placeholders (Fields) along with the actual content. The placeholders are filled by the data source which is typically a spreadsheet or a database having column for each place holders.
+This article talks about the java approach for generating multiple documents from a single MS Word template.</description>
     </item>
     
     <item>

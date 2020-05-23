@@ -1335,6 +1335,15 @@
     </item>
     
     <item>
+      <title>groovy</title>
+      <link>https://thinkuldeep.github.io/tags/groovy/</link>
+      <pubDate>Mon, 20 May 2013 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/groovy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>lift</title>
       <link>https://thinkuldeep.github.io/tags/lift/</link>
       <pubDate>Sat, 18 May 2013 10:58:08 -0400</pubDate>
@@ -1533,6 +1542,24 @@
     </item>
     
     <item>
+      <title>drools</title>
+      <link>https://thinkuldeep.github.io/tags/drools/</link>
+      <pubDate>Sat, 03 Mar 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/drools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rule-engine</title>
+      <link>https://thinkuldeep.github.io/tags/rule-engine/</link>
+      <pubDate>Sat, 03 Mar 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/rule-engine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>AI</title>
       <link>https://thinkuldeep.github.io/tags/ai/</link>
       <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
@@ -1623,11 +1650,11 @@
     </item>
     
     <item>
-      <title>integrations</title>
-      <link>https://thinkuldeep.github.io/tags/integrations/</link>
+      <title>mail</title>
+      <link>https://thinkuldeep.github.io/tags/mail/</link>
       <pubDate>Sun, 22 Jan 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/tags/integrations/</guid>
+      <guid>https://thinkuldeep.github.io/tags/mail/</guid>
       <description></description>
     </item>
     
@@ -1637,6 +1664,24 @@
       <pubDate>Sun, 15 Jan 2012 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/tags/osgi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aspose</title>
+      <link>https://thinkuldeep.github.io/tags/aspose/</link>
+      <pubDate>Tue, 10 Jan 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/aspose/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>world</title>
+      <link>https://thinkuldeep.github.io/tags/world/</link>
+      <pubDate>Tue, 10 Jan 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/world/</guid>
       <description></description>
     </item>
     

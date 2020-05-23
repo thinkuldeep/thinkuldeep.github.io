@@ -32,5 +32,15 @@ Invites are the events in the form of email. Once the invite for an event sent t
 Calendars Calendar data can be stored in files; there are some standard formats for storing calendars iCalendar is a computer file format which allows Internet users to send meeting requests and tasks to other Internet users, via email, or sharing files with an extension of .</description>
     </item>
     
+    <item>
+      <title>Mail Merge in Java</title>
+      <link>https://thinkuldeep.github.io/post/java-mail-merge/</link>
+      <pubDate>Tue, 10 Jan 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/java-mail-merge/</guid>
+      <description>MailMerge is a process to create personalized letters and pre-addressed envelopes or mailing labels for mass mailings from a word processing document (Template). A template contains placeholders (Fields) along with the actual content. The placeholders are filled by the data source which is typically a spreadsheet or a database having column for each place holders.
+This article talks about the java approach for generating multiple documents from a single MS Word template.</description>
+    </item>
+    
   </channel>
 </rss>

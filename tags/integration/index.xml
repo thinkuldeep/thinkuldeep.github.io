@@ -57,6 +57,17 @@ Camel lets you create the Enterprise Integration Patterns to implement routing a
     </item>
     
     <item>
+      <title>Managing Calendar and Invites in Java</title>
+      <link>https://thinkuldeep.github.io/post/java-calendar-and-invite/</link>
+      <pubDate>Sun, 22 Jan 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/java-calendar-and-invite/</guid>
+      <description>Calendars are used to store formation for various events. Calendar viewer displays the month-date view and for each day displays the events/reminders information.
+Invites are the events in the form of email. Once the invite for an event sent to a user via email then that event will be stored in the calendar view and same can be seen in the day information of the calendar view.
+Calendars Calendar data can be stored in files; there are some standard formats for storing calendars iCalendar is a computer file format which allows Internet users to send meeting requests and tasks to other Internet users, via email, or sharing files with an extension of .</description>
+    </item>
+    
+    <item>
       <title>Working with Enterprise Service Bus</title>
       <link>https://thinkuldeep.github.io/post/esb-introduction-part1/</link>
       <pubDate>Sun, 15 Jan 2012 10:58:08 -0400</pubDate>
@@ -66,6 +77,16 @@ Camel lets you create the Enterprise Integration Patterns to implement routing a
 It contains step by step guide to install FuseESB, and develop and deploy OSGi bundle on FuseESB.
 Lets understand terminologies of the ESB world :
 ESB An Enterprise Service Bus (ESB) is a software architecture model used for designing and implementing the interaction and communication between mutually interacting software applications in Service Oriented Architecture.</description>
+    </item>
+    
+    <item>
+      <title>Mail Merge in Java</title>
+      <link>https://thinkuldeep.github.io/post/java-mail-merge/</link>
+      <pubDate>Tue, 10 Jan 2012 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/java-mail-merge/</guid>
+      <description>MailMerge is a process to create personalized letters and pre-addressed envelopes or mailing labels for mass mailings from a word processing document (Template). A template contains placeholders (Fields) along with the actual content. The placeholders are filled by the data source which is typically a spreadsheet or a database having column for each place holders.
+This article talks about the java approach for generating multiple documents from a single MS Word template.</description>
     </item>
     
   </channel>

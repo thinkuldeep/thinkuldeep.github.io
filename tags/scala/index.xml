@@ -38,7 +38,7 @@ Integration with Ant Below example shows how Scala project can be built by the a
       <pubDate>Mon, 06 May 2013 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/post/scala-getting-started-part1/</guid>
-      <description>This article lets you start with Scala, with step by step guide and series of examples. It starts with an overview and then covers in detail examples. In later articles, I will write about feature comparison with other languages. It article is helpful for people coming from Java background, how it is not the prerequisites.
+      <description>This article help you to start with Scala, with step by step guide and series of examples. It starts with an overview and then covers in detail examples. In later articles, I will write about feature comparison with other languages. It article is helpful for people coming from Java background, how it is not the prerequisites.
 Scala Overview Scala is a general purpose programming language designed to express common programming patterns in a concise, elegant, and type-safe way.</description>
     </item>
     

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>comparision on Kuldeep Singh</title>
-    <link>https://thinkuldeep.github.io/tags/comparision/</link>
-    <description>Recent content in comparision on Kuldeep Singh</description>
+    <title>comparison on Kuldeep Singh</title>
+    <link>https://thinkuldeep.github.io/tags/comparison/</link>
+    <description>Recent content in comparison on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Aug 2015 10:58:08 -0400</lastBuildDate>
     
-	<atom:link href="https://thinkuldeep.github.io/tags/comparision/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thinkuldeep.github.io/tags/comparison/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -28,6 +28,28 @@
       <guid>https://thinkuldeep.github.io/post/iot_cloud_platform_comparision/</guid>
       <description>The vision of IoT can be seen from two perspectives— ‘Internet’ centric and ‘Thing’ centric. The Internet centric architecture will involve internet services being the main focus while data is contributed by the objects. In the object centric architecture, the smart objects take the center stage.
 In order to realize the full potential of cloud computing as well as ubiquitous sensing, a combined framework with a cloud at the center seems to be most viable.</description>
+    </item>
+    
+    <item>
+      <title>Scala - Getting Started - Part 2</title>
+      <link>https://thinkuldeep.github.io/post/scala-getting-started-part2/</link>
+      <pubDate>Sat, 18 May 2013 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/scala-getting-started-part2/</guid>
+      <description>In previous article we learned basics of Scala, in this articles we will learn how to setup build scripts for scala and build applications using scala.
+We will also learn few web development frameworks for Scala and compare them with similar framework in Java.
+Building Scala Applications Below program demonstrates the use of Scala script with Maven, Ant, and logging library – LogBack.
+Integration with Ant Below example shows how Scala project can be built by the ant build.</description>
+    </item>
+    
+    <item>
+      <title>Scala - Getting Started - Part 1</title>
+      <link>https://thinkuldeep.github.io/post/scala-getting-started-part1/</link>
+      <pubDate>Mon, 06 May 2013 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/scala-getting-started-part1/</guid>
+      <description>This article lets you start with Scala, with step by step guide and series of examples. It starts with an overview and then covers in detail examples. In later articles, I will write about feature comparison with other languages. It article is helpful for people coming from Java background, how it is not the prerequisites.
+Scala Overview Scala is a general purpose programming language designed to express common programming patterns in a concise, elegant, and type-safe way.</description>
     </item>
     
   </channel>

@@ -1165,7 +1165,7 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/comparision/</loc>
+    <loc>https://thinkuldeep.github.io/tags/comparison/</loc>
     <lastmod>2015-08-17T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1256,6 +1256,13 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/language/</loc>
+    <lastmod>2015-01-27T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/object-oriented/</loc>
     <lastmod>2015-01-27T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1298,7 +1305,7 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/benchmakring/</loc>
+    <loc>https://thinkuldeep.github.io/tags/benchmarking/</loc>
     <lastmod>2014-12-10T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1426,6 +1433,34 @@
   <url>
     <loc>https://thinkuldeep.github.io/tags/ssh/</loc>
     <lastmod>2013-12-02T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/lift/</loc>
+    <lastmod>2013-05-18T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/play/</loc>
+    <lastmod>2013-05-18T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/scala-getting-started-part2/</loc>
+    <lastmod>2013-05-18T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/scala-getting-started-part1/</loc>
+    <lastmod>2013-05-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

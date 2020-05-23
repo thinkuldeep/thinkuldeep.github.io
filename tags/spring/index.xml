@@ -21,5 +21,17 @@
 User case (Oracle 11g, JBoss 6, JDK 6, Hibernate, Spring 3) : A tree structure in database is getting populated from a deep file system (directory structure) having around 75000 nodes. Each node (directory) contains text files, which get parsed based on business rules and then populate the database ( BRANCHs representing a node, tables referring to branch, tree_nodes).</description>
     </item>
     
+    <item>
+      <title>Scala - Getting Started - Part 2</title>
+      <link>https://thinkuldeep.github.io/post/scala-getting-started-part2/</link>
+      <pubDate>Sat, 18 May 2013 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/scala-getting-started-part2/</guid>
+      <description>In previous article we learned basics of Scala, in this articles we will learn how to setup build scripts for scala and build applications using scala.
+We will also learn few web development frameworks for Scala and compare them with similar framework in Java.
+Building Scala Applications Below program demonstrates the use of Scala script with Maven, Ant, and logging library – LogBack.
+Integration with Ant Below example shows how Scala project can be built by the ant build.</description>
+    </item>
+    
   </channel>
 </rss>

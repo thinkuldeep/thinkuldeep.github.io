@@ -130,6 +130,28 @@ Here are few logs :</description>
     </item>
     
     <item>
+      <title>Scala - Getting Started - Part 2</title>
+      <link>https://thinkuldeep.github.io/post/scala-getting-started-part2/</link>
+      <pubDate>Sat, 18 May 2013 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/scala-getting-started-part2/</guid>
+      <description>In previous article we learned basics of Scala, in this articles we will learn how to setup build scripts for scala and build applications using scala.
+We will also learn few web development frameworks for Scala and compare them with similar framework in Java.
+Building Scala Applications Below program demonstrates the use of Scala script with Maven, Ant, and logging library – LogBack.
+Integration with Ant Below example shows how Scala project can be built by the ant build.</description>
+    </item>
+    
+    <item>
+      <title>Scala - Getting Started - Part 1</title>
+      <link>https://thinkuldeep.github.io/post/scala-getting-started-part1/</link>
+      <pubDate>Mon, 06 May 2013 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/scala-getting-started-part1/</guid>
+      <description>This article lets you start with Scala, with step by step guide and series of examples. It starts with an overview and then covers in detail examples. In later articles, I will write about feature comparison with other languages. It article is helpful for people coming from Java background, how it is not the prerequisites.
+Scala Overview Scala is a general purpose programming language designed to express common programming patterns in a concise, elegant, and type-safe way.</description>
+    </item>
+    
+    <item>
       <title>Charset configuration in JVM</title>
       <link>https://thinkuldeep.github.io/post/java-charset-configuration/</link>
       <pubDate>Thu, 14 Feb 2013 10:58:08 -0400</pubDate>

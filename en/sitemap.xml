@@ -72,6 +72,23 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/change/</loc>
+    <lastmod>2020-05-24T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.github.io/hi/tags/change/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.github.io/tags/change/"
+                />
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/covid19/</loc>
     <lastmod>2020-05-24T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -160,23 +177,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://thinkuldeep.github.io/tags/selfhelp/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/shift/</loc>
-    <lastmod>2020-05-24T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.github.io/hi/tags/shift/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.github.io/tags/shift/"
                 />
   </url>
   
@@ -300,13 +300,16 @@
     <lastmod>2020-05-03T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/change/</loc>
-    <lastmod>2020-05-03T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.github.io/hi/tags/book-review/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.github.io/tags/book-review/"
+                />
   </url>
   
   <url>
@@ -314,6 +317,16 @@
     <lastmod>2020-05-03T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.github.io/hi/post/change_to_become_more_successful_/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.github.io/post/change_to_become_more_successful_/"
+                />
   </url>
   
   <url>
@@ -321,6 +334,16 @@
     <lastmod>2020-05-03T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.github.io/hi/tags/success/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.github.io/tags/success/"
+                />
   </url>
   
   <url>
@@ -328,6 +351,16 @@
     <lastmod>2020-05-03T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.github.io/hi/tags/takeaways/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.github.io/tags/takeaways/"
+                />
   </url>
   
   <url>
@@ -733,6 +766,16 @@
     <lastmod>2019-03-15T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.github.io/hi/post/embibe_purpose_and_balance_in_life/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.github.io/post/embibe_purpose_and_balance_in_life/"
+                />
   </url>
   
   <url>

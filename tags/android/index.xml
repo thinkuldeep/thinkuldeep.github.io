@@ -6,10 +6,20 @@
     <description>Recent content in android on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 May 2020 10:58:08 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2020 10:58:08 -0400</lastBuildDate>
     
 	<atom:link href="https://thinkuldeep.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A new form of WebXR</title>
+      <link>https://thinkuldeep.github.io/post/a-new-form-of-webxr/</link>
+      <pubDate>Wed, 27 May 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/a-new-form-of-webxr/</guid>
+      <description>Accessing native XR features from the device using a web page is another form of WebXR.
+In this article, I want to share an experiment where I tried to control the android device’s native features such as controlling volume and camera torch from a web page. This use case can be really useful in the XR world, where I can control the feature access in the device from cloud services, even the whole look and feel for showing the device controls can be managed from a hosted web page.</description>
+    </item>
     
     <item>
       <title>Run a 2D App in XR Container</title>

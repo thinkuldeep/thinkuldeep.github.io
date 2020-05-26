@@ -72,6 +72,48 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/post/a-new-form-of-webxr/</loc>
+    <lastmod>2020-05-27T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/android/</loc>
+    <lastmod>2020-05-27T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/native/</loc>
+    <lastmod>2020-05-27T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/native-app/</loc>
+    <lastmod>2020-05-27T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/tutorial/</loc>
+    <lastmod>2020-05-27T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/webxr/</loc>
+    <lastmod>2020-05-27T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/change/</loc>
     <lastmod>2020-05-24T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -199,13 +241,6 @@
   
   <url>
     <loc>https://thinkuldeep.github.io/tags/3d/</loc>
-    <lastmod>2020-05-16T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/android/</loc>
     <lastmod>2020-05-16T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -364,13 +399,6 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/tutorial/</loc>
-    <lastmod>2020-04-26T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.github.io/post/user-account-management-in-xr/</loc>
     <lastmod>2020-04-26T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -386,13 +414,6 @@
   
   <url>
     <loc>https://thinkuldeep.github.io/tags/spatial-web/</loc>
-    <lastmod>2020-04-11T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/webxr/</loc>
     <lastmod>2020-04-11T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1896,13 +1917,6 @@
   
   <url>
     <loc>https://thinkuldeep.github.io/tags/jni/</loc>
-    <lastmod>2012-02-20T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/native/</loc>
     <lastmod>2012-02-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

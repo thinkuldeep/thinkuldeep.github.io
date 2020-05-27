@@ -40,7 +40,7 @@
 <meta itemprop="description" content="Accessing native XR features from the device using a web page is another form of WebXR">
 <meta itemprop="datePublished" content="2020-05-27T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2020-05-27T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1066">
+<meta itemprop="wordCount" content="1110">
 
 
 
@@ -298,7 +298,7 @@ if (!doNotTrack) {
       
       
         <span class="f6 mv4 dib tracked"> - 6 minutes read</span>
-        <span class="f6 mv4 dib tracked"> - 1066 words</span>
+        <span class="f6 mv4 dib tracked"> - 1110 words</span>
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Accessing native XR features from the device using a web page is another form of WebXR.</p>
@@ -464,6 +464,17 @@ Here is the Index.html, which has 4 buttons on it to control the android native 
 <p>Also, see the <code>OnLoad</code> method, it looks for the “<code>result</code>” parameter, and it found then it shows the result on load. The webview append a result parameter after intercepting a command.</p>
 <p>The webpage is hosted in the same source code repo — <a href="https://thinkuldeep.github.io/webxr-native/">https://thinkuldeep.github.io/webxr-native/</a></p>
 <p>Try all the buttons and see if they should correctly add the command in the URL.</p>
+<p>If you don’t want to get into the publishing webpage, then you can package the HTML pages in the android assets as well as follows</p>
+<ul>
+<li>put the <code>index.html</code> and css in <code>/src/main/assets</code></li>
+<li>and change URL in Main Activity</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#a6e22e">@Override</span>
+<span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span><span style="color:#a6e22e">@Nullable</span> Bundle savedInstanceState<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>savedInstanceState<span style="color:#f92672">);</span>
+    WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">launchActivity</span><span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;file:///android_asset/index.html&#34;</span><span style="color:#f92672">,</span> <span style="color:#66d9ef">new</span> CommandHandler<span style="color:#f92672">());</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>That&rsquo;s it.</p>
 <h2 id="demo">Demo</h2>
 <p>So now you understand the whole flow, its time for a demo, right. Let&rsquo;s go with it.</p>
 <p><img src="/images/web-xr-new.gif" alt="image"></p>
@@ -474,7 +485,6 @@ Here is the Index.html, which has 4 buttons on it to control the android native 
 <p>Try to address the following things —</p>
 <ul>
 <li>Security implications in this approach?</li>
-<li>How about packaging the HTML page based UI locally</li>
 <li>How to handle the offline scenario</li>
 <li>Reload/Sleep/Cache scenarios.</li>
 <li>Build 3D app on top of webview activity, and build the app for say Oculus device.</li>

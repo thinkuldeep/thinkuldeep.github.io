@@ -275,22 +275,6 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/hi/about/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.github.io/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.github.io/hi/about/"
-                />
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.github.io/hi/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -351,6 +335,22 @@
                 rel="alternate"
                 hreflang="hi"
                 href="https://thinkuldeep.github.io/hi/tags/thevrara/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/hi/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.github.io/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.github.io/hi/about/"
                 />
   </url>
   

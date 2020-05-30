@@ -72,6 +72,65 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/analysis/</loc>
+    <lastmod>2020-06-01T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/ar/</loc>
+    <lastmod>2020-06-01T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/devices/</loc>
+    <lastmod>2020-06-01T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/ge/</loc>
+    <lastmod>2020-06-01T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/general/</loc>
+    <lastmod>2020-06-01T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.github.io/hi/tags/general/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.github.io/tags/general/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/the-growing-list-of-xr-devices/</loc>
+    <lastmod>2020-06-01T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/vr/</loc>
+    <lastmod>2020-06-01T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/post/a-new-form-of-webxr/</loc>
     <lastmod>2020-05-27T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -144,30 +203,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://thinkuldeep.github.io/tags/covid19/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/ge/</loc>
-    <lastmod>2020-05-24T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/general/</loc>
-    <lastmod>2020-05-24T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.github.io/hi/tags/general/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.github.io/tags/general/"
                 />
   </url>
   
@@ -247,13 +282,6 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/ar/</loc>
-    <lastmod>2020-05-16T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.github.io/tags/arcore/</loc>
     <lastmod>2020-05-16T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -297,13 +325,6 @@
   
   <url>
     <loc>https://thinkuldeep.github.io/tags/unity/</loc>
-    <lastmod>2020-05-16T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/vr/</loc>
     <lastmod>2020-05-16T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1365,13 +1386,6 @@
   <url>
     <loc>https://thinkuldeep.github.io/post/the-driving-forces-iot/</loc>
     <lastmod>2016-01-01T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/analysis/</loc>
-    <lastmod>2015-08-17T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>The Growing List of XR Devices</title>
+      <link>https://thinkuldeep.github.io/post/the-growing-list-of-xr-devices/</link>
+      <pubDate>Mon, 01 Jun 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/post/the-growing-list-of-xr-devices/</guid>
+      <description>In my earlier article, I have explained the fundamentals of XR and the type of XR, and the popular devices in those XR types. ARVR is not the only about Head-Mounted Display(HMD) devices. There is an ever-growing list of Google ARCore supported smartphones/tablets and ARKit is being supported in recent Apple phones. But still, when when it comes to AR and VR devices, the first thing that comes in mind is head-mounted display devices (HMD), however, the newer mobile phones/tablets are now coming with AR/VR support with a minimal set of tools attached.</description>
+    </item>
+    
+    <item>
       <title>A new form of WebXR</title>
       <link>https://thinkuldeep.github.io/post/a-new-form-of-webxr/</link>
       <pubDate>Wed, 27 May 2020 10:58:08 -0400</pubDate>

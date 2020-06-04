@@ -72,36 +72,36 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/analysis/</loc>
-    <lastmod>2020-06-01T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.github.io/tags/ar/</loc>
-    <lastmod>2020-06-01T10:58:08-04:00</lastmod>
+    <lastmod>2020-06-07T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/devices/</loc>
-    <lastmod>2020-06-01T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/dsc/</loc>
+    <lastmod>2020-06-07T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/fundamentals/</loc>
+    <lastmod>2020-06-07T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://thinkuldeep.github.io/tags/ge/</loc>
-    <lastmod>2020-06-01T10:58:08-04:00</lastmod>
+    <lastmod>2020-06-07T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://thinkuldeep.github.io/tags/general/</loc>
-    <lastmod>2020-06-01T10:58:08-04:00</lastmod>
+    <lastmod>2020-06-07T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -117,14 +117,56 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/post/the-growing-list-of-xr-devices/</loc>
-    <lastmod>2020-06-01T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/google/</loc>
+    <lastmod>2020-06-07T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/talk/google_dsk_skct_xr_introduction/</loc>
+    <lastmod>2020-06-07T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/introduction/</loc>
+    <lastmod>2020-06-07T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/mr/</loc>
+    <lastmod>2020-06-07T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://thinkuldeep.github.io/tags/vr/</loc>
+    <lastmod>2020-06-07T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/analysis/</loc>
+    <lastmod>2020-06-01T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/devices/</loc>
+    <lastmod>2020-06-01T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/the-growing-list-of-xr-devices/</loc>
     <lastmod>2020-06-01T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -303,13 +345,6 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/mr/</loc>
-    <lastmod>2020-05-16T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.github.io/post/run-a-2d-app-in-xr-container/</loc>
     <lastmod>2020-05-16T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -480,13 +515,6 @@
   
   <url>
     <loc>https://thinkuldeep.github.io/post/extending_reality_with_ar_and_vr-1/</loc>
-    <lastmod>2020-04-05T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/fundamentals/</loc>
     <lastmod>2020-04-05T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -707,13 +735,6 @@
   
   <url>
     <loc>https://thinkuldeep.github.io/tags/devfest/</loc>
-    <lastmod>2019-09-05T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/google/</loc>
     <lastmod>2019-09-05T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1077,13 +1098,6 @@
   
   <url>
     <loc>https://thinkuldeep.github.io/tags/guide/</loc>
-    <lastmod>2017-02-21T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/introduction/</loc>
     <lastmod>2017-02-21T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

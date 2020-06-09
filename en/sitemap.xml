@@ -10,7 +10,14 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/talk/gids_2020_blr_spatialweb/</loc>
+    <loc>https://thinkuldeep.github.io/tags/event/</loc>
+    <lastmod>2020-08-20T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/event/gids_2020_blr_spatialweb/</loc>
     <lastmod>2020-08-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -124,7 +131,7 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/talk/google_dsk_skct_xr_introduction/</loc>
+    <loc>https://thinkuldeep.github.io/event/google_dsk_skct_xr_introduction/</loc>
     <lastmod>2020-06-07T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -608,21 +615,14 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/event/</loc>
+    <loc>https://thinkuldeep.github.io/event/thougthworks_xrday/</loc>
     <lastmod>2020-02-27T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/talk/thougthworks_xrday/</loc>
-    <lastmod>2020-02-27T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/talk/</loc>
+    <loc>https://thinkuldeep.github.io/event/</loc>
     <lastmod>2020-02-02T12:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -699,7 +699,7 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/talk/thougthworks_awayday_2019_slam_aware_apps/</loc>
+    <loc>https://thinkuldeep.github.io/event/thougthworks_awayday_2019_slam_aware_apps/</loc>
     <lastmod>2019-09-19T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -741,7 +741,7 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/talk/google_devfest_2019_think_beyond_keyboard_and_screen/</loc>
+    <loc>https://thinkuldeep.github.io/event/google_devfest_2019_think_beyond_keyboard_and_screen/</loc>
     <lastmod>2019-09-05T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -856,7 +856,7 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/post/sih_2019_an_experience/</loc>
+    <loc>https://thinkuldeep.github.io/event/sih_2019_an_experience/</loc>
     <lastmod>2019-03-07T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1042,16 +1042,6 @@
     <lastmod>2018-08-09T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.github.io/hi/tags/nagarro/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.github.io/tags/nagarro/"
-                />
   </url>
   
   <url>
@@ -1615,7 +1605,7 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/talk/oracle-rapid-modernization-of-java-applications-to-jdk-8/</loc>
+    <loc>https://thinkuldeep.github.io/event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</loc>
     <lastmod>2014-10-01T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -2086,16 +2076,6 @@
     <loc>https://thinkuldeep.github.io/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.github.io/hi/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.github.io/about/"
-                />
   </url>
   
   <url>
@@ -2118,32 +2098,12 @@
     <loc>https://thinkuldeep.github.io/tags/profile/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.github.io/hi/tags/profile/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.github.io/tags/profile/"
-                />
   </url>
   
   <url>
     <loc>https://thinkuldeep.github.io/tags/thevrara/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.github.io/hi/tags/thevrara/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.github.io/tags/thevrara/"
-                />
   </url>
   
 </urlset>

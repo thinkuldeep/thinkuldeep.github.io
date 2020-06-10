@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Spatial Web - Life beyond Keyboard and Screen</title>
+      <title>Speaker - Spatial Web - Life beyond Keyboard and Screen</title>
       <link>https://thinkuldeep.github.io/event/gids_2020_blr_spatialweb/</link>
       <pubDate>Thu, 20 Aug 2020 10:58:08 -0400</pubDate>
       
@@ -23,7 +23,7 @@ Come and talk about the life beyond keyboard and screens, spatial web is taking 
     </item>
     
     <item>
-      <title>Google DSC - How to get started with AR VR?</title>
+      <title>Speaker - Google DSC - How to get started with AR VR?</title>
       <link>https://thinkuldeep.github.io/event/google_dsk_skct_xr_introduction/</link>
       <pubDate>Sun, 07 Jun 2020 10:58:08 -0400</pubDate>
       
@@ -159,7 +159,7 @@ Most organizations protect digital assets with a single sign-on using Multiple F
     </item>
     
     <item>
-      <title>XR Day - ThoughtWorks India</title>
+      <title>Speaker - XR Day - ThoughtWorks India</title>
       <link>https://thinkuldeep.github.io/event/thougthworks_xrday/</link>
       <pubDate>Thu, 27 Feb 2020 10:58:08 -0400</pubDate>
       
@@ -207,7 +207,7 @@ There are not enough resources talking about static code analysis for Unity3D. T
     </item>
     
     <item>
-      <title>AwayDay 2019 - SLAM Aware Applications</title>
+      <title>Speaker - AwayDay 2019 - SLAM Aware Applications</title>
       <link>https://thinkuldeep.github.io/event/thougthworks_awayday_2019_slam_aware_apps/</link>
       <pubDate>Thu, 19 Sep 2019 10:58:08 -0400</pubDate>
       
@@ -227,7 +227,7 @@ I and my colleague Raju Kandaswamy presented this talk in the breakout sessions 
     </item>
     
     <item>
-      <title>Google Devfest 2019 - Think Beyond Keyboard and Screen</title>
+      <title>Speaker - Google Devfest 2019 - Think Beyond Keyboard and Screen</title>
       <link>https://thinkuldeep.github.io/event/google_devfest_2019_think_beyond_keyboard_and_screen/</link>
       <pubDate>Thu, 05 Sep 2019 10:58:08 -0400</pubDate>
       
@@ -268,7 +268,7 @@ It&amp;rsquo;s now more than 6 months of my journey with Thoughtworks, an organi
     </item>
     
     <item>
-      <title>Smart India Hackathon 2019 - An Experience</title>
+      <title>Judge and Mentor -  Smart India Hackathon 2019</title>
       <link>https://thinkuldeep.github.io/event/sih_2019_an_experience/</link>
       <pubDate>Thu, 07 Mar 2019 10:58:08 -0400</pubDate>
       
@@ -351,6 +351,17 @@ It&amp;rsquo;s now more than 6 months of my journey with Thoughtworks, an organi
     </item>
     
     <item>
+      <title>Speaker &amp; Organizer - IOTNCR - Ideation to Production Workshop</title>
+      <link>https://thinkuldeep.github.io/event/iotncr-ideation-to-production/</link>
+      <pubDate>Sat, 29 Apr 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/event/iotncr-ideation-to-production/</guid>
+      <description>Conducted a workshop on IoT with IOTNCR. I have spoken on IoT technology landscape, and many of other speaker given enlightening talks.
+Intro here Nagarro invites IOT enthusiasts to Ideation to Production:An Entrepreneurship Workshop,Apr 29 #IOTNCR #Nagarroiotncr https://t.co/kvQi1CARjG pic.twitter.com/QbY94UId6c
+&amp;mdash; Kuldeep Singh (@kuldeepwilldo) April 27, 2017  The talks is about  IOT fundamentals and building blocks  IOT Nodes IOT Gateway IOT Platforms Visualization (AR &amp;amp; VR) Integrations    Detailed Slides   IOT Landscape  from Kuldeep Singh  Social connect Nice to meet you all @Nagarro #iotncr #Nagarroiotncr @kanchanray @mfuloria pic.</description>
+    </item>
+    
+    <item>
       <title>IOT 101: A primer on Internet of Things</title>
       <link>https://thinkuldeep.github.io/post/iot_simplified/</link>
       <pubDate>Tue, 21 Feb 2017 10:58:08 -0400</pubDate>
@@ -368,6 +379,17 @@ A comprehensive IoT ecosystem consists of many different parts such as electroni
       <guid>https://thinkuldeep.github.io/post/exploring-google-glass/</guid>
       <description>This article describes the fundamentals of light-weight smart glasses such as Google Glass and Vuzix M100 It also explain the development practices with pros and cons of its usage, limitation and future of these glasses in our lives.
 Google Glass Enterprise Edition Google Glass enterprise edition is a plain Android based smart glass that you can wear and performs operations just like a smartphone and with the use of a small screen located in the front of your right eye can perform a decent range of tasks.</description>
+    </item>
+    
+    <item>
+      <title>Panelist &amp; Organizer - Nagarro LSD - Industry 4.0</title>
+      <link>https://thinkuldeep.github.io/event/nagarro-lsd-industory-4-0/</link>
+      <pubDate>Thu, 19 Jan 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/event/nagarro-lsd-industory-4-0/</guid>
+      <description>Organized Nagarro LSD event, on Industry 4.0, demonstrated usecases on connected services concept, and was a panelist for a discussion on
+ Smarter Services - Predictive, Always Connected, Personalized Global experts will debate ways to create smarter services based around predictive maintenance, always connected devices and personalized solutions.
+ Whether we call Industry 4.0 an evolution or a revolution, there is little doubt that it will have a disruptive impact on the manufacturing industry.</description>
     </item>
     
     <item>
@@ -536,14 +558,14 @@ int sum(List&amp;lt;Integer&amp;gt; list) { Iterator&amp;lt;Integer&amp;gt; intI
     </item>
     
     <item>
-      <title>JavaOne - Rapid Modernization of Java Applications to JDK 8</title>
+      <title>Contributor - JavaOne - Rapid Modernization to Java8</title>
       <link>https://thinkuldeep.github.io/event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</link>
       <pubDate>Wed, 01 Oct 2014 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</guid>
       <description>Presented At: G. Venkat, Senior Vice President of Technology &amp;amp; Solutions, at Nagarro and I have spoken at the Oracle OpenWorld / JavaOne conference on Wednesday, October 1, 2014, form 10:00 – 11:00 a.m., Pacific Time, at Ballroom 6 in the Hilton San Francisco at Union Square.
 I have supported Venkat and presented the JMod tool demo with him.
-Here are some coverages - https://www.nagarro.com/en/news-events/nagarro-has-java-8-covered-at-oracle-open-world I have lead the Nagarrro Stall and showcased the JMod demo to 300+ visitors.</description>
+Here are some coverages - https://www.nagarro.com/en/news-events/nagarro-has-java-8-covered-at-oracle-open-world I have lead the Nagarro Stall and showcased the JMod demo to 300+ visitors.</description>
     </item>
     
     <item>

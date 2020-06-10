@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>IOT on Kuldeep Singh</title>
+    <title>iot on Kuldeep Singh</title>
     <link>https://thinkuldeep.github.io/tags/iot/</link>
-    <description>Recent content in IOT on Kuldeep Singh</description>
+    <description>Recent content in iot on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Feb 2017 10:58:08 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 29 Apr 2017 10:58:08 -0400</lastBuildDate>
     
 	<atom:link href="https://thinkuldeep.github.io/tags/iot/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Speaker &amp; Organizer - IOTNCR - Ideation to Production Workshop</title>
+      <link>https://thinkuldeep.github.io/event/iotncr-ideation-to-production/</link>
+      <pubDate>Sat, 29 Apr 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/event/iotncr-ideation-to-production/</guid>
+      <description>Conducted a workshop on IoT with IOTNCR. I have spoken on IoT technology landscape, and many of other speaker given enlightening talks.
+Intro here Nagarro invites IOT enthusiasts to Ideation to Production:An Entrepreneurship Workshop,Apr 29 #IOTNCR #Nagarroiotncr https://t.co/kvQi1CARjG pic.twitter.com/QbY94UId6c
+&amp;mdash; Kuldeep Singh (@kuldeepwilldo) April 27, 2017  The talks is about  IOT fundamentals and building blocks  IOT Nodes IOT Gateway IOT Platforms Visualization (AR &amp;amp; VR) Integrations    Detailed Slides   IOT Landscape  from Kuldeep Singh  Social connect Nice to meet you all @Nagarro #iotncr #Nagarroiotncr @kanchanray @mfuloria pic.</description>
+    </item>
     
     <item>
       <title>IOT 101: A primer on Internet of Things</title>
@@ -19,6 +30,17 @@
       <guid>https://thinkuldeep.github.io/post/iot_simplified/</guid>
       <description>IOT 101 A Primer on Internet of Things  from Kuldeep Singh  The IoT can be described as “Connecting the Things to internet”.
 A comprehensive IoT ecosystem consists of many different parts such as electronic circuitry, sensing and acting capability, embedded systems, edge computing, network protocols, communication networks, cloud computing, big data management and analytics, business rules etcetera. This maze of varied parts can be better classified into 4 broad categories:</description>
+    </item>
+    
+    <item>
+      <title>Panelist &amp; Organizer - Nagarro LSD - Industry 4.0</title>
+      <link>https://thinkuldeep.github.io/event/nagarro-lsd-industory-4-0/</link>
+      <pubDate>Thu, 19 Jan 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/event/nagarro-lsd-industory-4-0/</guid>
+      <description>Organized Nagarro LSD event, on Industry 4.0, demonstrated usecases on connected services concept, and was a panelist for a discussion on
+ Smarter Services - Predictive, Always Connected, Personalized Global experts will debate ways to create smarter services based around predictive maintenance, always connected devices and personalized solutions.
+ Whether we call Industry 4.0 an evolution or a revolution, there is little doubt that it will have a disruptive impact on the manufacturing industry.</description>
     </item>
     
     <item>

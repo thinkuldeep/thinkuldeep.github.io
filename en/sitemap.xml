@@ -17,14 +17,14 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/event/gids_2020_blr_spatialweb/</loc>
+    <loc>https://thinkuldeep.github.io/tags/spatialweb/</loc>
     <lastmod>2020-08-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/spatialweb/</loc>
+    <loc>https://thinkuldeep.github.io/event/gids_2020_blr_spatialweb/</loc>
     <lastmod>2020-08-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -131,13 +131,6 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/event/google_dsk_skct_xr_introduction/</loc>
-    <lastmod>2020-06-07T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.github.io/tags/introduction/</loc>
     <lastmod>2020-06-07T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -146,6 +139,13 @@
   
   <url>
     <loc>https://thinkuldeep.github.io/tags/mr/</loc>
+    <lastmod>2020-06-07T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/event/google_dsk_skct_xr_introduction/</loc>
     <lastmod>2020-06-07T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -699,14 +699,14 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/event/thougthworks_awayday_2019_slam_aware_apps/</loc>
+    <loc>https://thinkuldeep.github.io/tags/slam/</loc>
     <lastmod>2019-09-19T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/slam/</loc>
+    <loc>https://thinkuldeep.github.io/event/thougthworks_awayday_2019_slam_aware_apps/</loc>
     <lastmod>2019-09-19T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -849,14 +849,14 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/sih/</loc>
+    <loc>https://thinkuldeep.github.io/event/sih_2019_an_experience/</loc>
     <lastmod>2019-03-07T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/event/sih_2019_an_experience/</loc>
+    <loc>https://thinkuldeep.github.io/tags/sih/</loc>
     <lastmod>2019-03-07T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1087,14 +1087,28 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/guide/</loc>
-    <lastmod>2017-02-21T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/iot/</loc>
+    <lastmod>2017-04-29T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/iot/</loc>
+    <loc>https://thinkuldeep.github.io/tags/iotncr/</loc>
+    <lastmod>2017-04-29T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/event/iotncr-ideation-to-production/</loc>
+    <lastmod>2017-04-29T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/guide/</loc>
     <lastmod>2017-02-21T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1124,6 +1138,34 @@
   <url>
     <loc>https://thinkuldeep.github.io/tags/vuzix/</loc>
     <lastmod>2017-02-20T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/industry4.0/</loc>
+    <lastmod>2017-01-19T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/lsd/</loc>
+    <lastmod>2017-01-19T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/panel-discussion/</loc>
+    <lastmod>2017-01-19T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/event/nagarro-lsd-industory-4-0/</loc>
+    <lastmod>2017-01-19T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1598,14 +1640,14 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/javaone/</loc>
+    <loc>https://thinkuldeep.github.io/event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</loc>
     <lastmod>2014-10-01T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</loc>
+    <loc>https://thinkuldeep.github.io/tags/javaone/</loc>
     <lastmod>2014-10-01T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

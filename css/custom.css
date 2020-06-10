@@ -11,6 +11,9 @@
     padding-bottom: 2rem;
 }
 
+a[href*="https://freehitcounters.org/"] {
+    color: black;
+}
 
 img[src*="#profile"] {
     width: 40%;

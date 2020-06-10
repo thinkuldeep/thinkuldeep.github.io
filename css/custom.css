@@ -12,7 +12,11 @@
 }
 
 a[href*="https://freehitcounters.org/"] {
-    color: black;
+    color: #f4f4f4;
+}
+
+.visitor-count{
+    text-align: center;
 }
 
 img[src*="#profile"] {

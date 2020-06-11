@@ -24,6 +24,13 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/speaker/</loc>
+    <lastmod>2020-08-20T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/event/gids_2020_blr_spatialweb/</loc>
     <lastmod>2020-08-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -74,6 +81,34 @@
   <url>
     <loc>https://thinkuldeep.github.io/tags/xr/</loc>
     <lastmod>2020-08-20T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/ai/</loc>
+    <lastmod>2020-07-02T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/hackathon/</loc>
+    <lastmod>2020-07-02T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/judge/</loc>
+    <lastmod>2020-07-02T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/event/hackinindia-hackathon-2020/</loc>
+    <lastmod>2020-07-02T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -842,14 +877,14 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/hackathon/</loc>
+    <loc>https://thinkuldeep.github.io/event/sih_2019_an_experience/</loc>
     <lastmod>2019-03-07T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/event/sih_2019_an_experience/</loc>
+    <loc>https://thinkuldeep.github.io/tags/mentor/</loc>
     <lastmod>2019-03-07T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1950,13 +1985,6 @@
   <url>
     <loc>https://thinkuldeep.github.io/tags/rule-engine/</loc>
     <lastmod>2012-03-03T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/ai/</loc>
-    <lastmod>2012-02-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

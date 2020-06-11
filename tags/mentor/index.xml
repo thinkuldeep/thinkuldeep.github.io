@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hackathon on Kuldeep Singh</title>
-    <link>https://thinkuldeep.github.io/tags/hackathon/</link>
-    <description>Recent content in hackathon on Kuldeep Singh</description>
+    <title>mentor on Kuldeep Singh</title>
+    <link>https://thinkuldeep.github.io/tags/mentor/</link>
+    <description>Recent content in mentor on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jul 2020 10:58:08 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 07 Mar 2019 10:58:08 -0400</lastBuildDate>
     
-	<atom:link href="https://thinkuldeep.github.io/tags/hackathon/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thinkuldeep.github.io/tags/mentor/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Judge - HackInIndia - Hackathon</title>
-      <link>https://thinkuldeep.github.io/event/hackinindia-hackathon-2020/</link>
-      <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.github.io/event/hackinindia-hackathon-2020/</guid>
-      <description>See you all at India&amp;rsquo;s National Level hackathon as Judge, on 2nd July, 2020. Organized by https://www.hackinindia.com/
-Register here (Free!) : https://skillenza.com/challenge/scriptfoundation
-How it works </description>
-    </item>
     
     <item>
       <title>Judge and Mentor -  Smart India Hackathon 2019</title>

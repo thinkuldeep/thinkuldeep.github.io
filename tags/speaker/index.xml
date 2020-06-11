@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Events on Kuldeep Singh</title>
-    <link>https://thinkuldeep.github.io/event/</link>
-    <description>Recent content in Events on Kuldeep Singh</description>
+    <title>speaker on Kuldeep Singh</title>
+    <link>https://thinkuldeep.github.io/tags/speaker/</link>
+    <description>Recent content in speaker on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Feb 2020 12:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2020 10:58:08 -0400</lastBuildDate>
     
-	<atom:link href="https://thinkuldeep.github.io/event/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thinkuldeep.github.io/tags/speaker/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,17 +20,6 @@
       <description>Get ready: Great International Developer Summit is re-scheduled from 17-21st Aug, in Bangalore.
 Come and talk about the life beyond keyboard and screens, spatial web is taking over get ready&amp;hellip;
  The talk is about Spatial Web is an umbrella term for the next generation web technologies that will transform every aspect of our life. It will connect the human and machines seamlessly such that the difference between physical and virtual will disappear.</description>
-    </item>
-    
-    <item>
-      <title>Judge - HackInIndia - Hackathon</title>
-      <link>https://thinkuldeep.github.io/event/hackinindia-hackathon-2020/</link>
-      <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.github.io/event/hackinindia-hackathon-2020/</guid>
-      <description>See you all at India&amp;rsquo;s National Level hackathon as Judge, on 2nd July, 2020. Organized by https://www.hackinindia.com/
-Register here (Free!) : https://skillenza.com/challenge/scriptfoundation
-How it works </description>
     </item>
     
     <item>
@@ -76,15 +65,6 @@ The talks is about  How the User interactions evolved with time? Why is it impor
     </item>
     
     <item>
-      <title>Judge and Mentor -  Smart India Hackathon 2019</title>
-      <link>https://thinkuldeep.github.io/event/sih_2019_an_experience/</link>
-      <pubDate>Thu, 07 Mar 2019 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.github.io/event/sih_2019_an_experience/</guid>
-      <description>Recently got a chance to judge and mentor india&amp;rsquo;s young innovators at Smart India Hackathon 2019, world&amp;rsquo;s largest hackathon with 11000 shortlisted participants, hosted by 48 centers across India. It was organized by AICTE and MHRD, Govt of India. I was invited to Judge the event at Panipat Institute of Engineering &amp;amp; Technology, Panipat. I am delighted to contribute in the journey of India&amp;rsquo;s transformation, and see innovative ideas from the new generation.</description>
-    </item>
-    
-    <item>
       <title>Speaker &amp; Organizer - IOTNCR - Ideation to Production Workshop</title>
       <link>https://thinkuldeep.github.io/event/iotncr-ideation-to-production/</link>
       <pubDate>Sat, 29 Apr 2017 10:58:08 -0400</pubDate>
@@ -104,17 +84,6 @@ Intro here Nagarro invites IOT enthusiasts to Ideation to Production:An Entrepre
       <description>Organized Nagarro LSD event, on Industry 4.0, demonstrated usecases on connected services concept, and was a panelist for a discussion on
  Smarter Services - Predictive, Always Connected, Personalized Global experts will debate ways to create smarter services based around predictive maintenance, always connected devices and personalized solutions.
  Whether we call Industry 4.0 an evolution or a revolution, there is little doubt that it will have a disruptive impact on the manufacturing industry.</description>
-    </item>
-    
-    <item>
-      <title>Contributor - JavaOne - Rapid Modernization to Java8</title>
-      <link>https://thinkuldeep.github.io/event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</link>
-      <pubDate>Wed, 01 Oct 2014 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.github.io/event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</guid>
-      <description>Presented At: G. Venkat, Senior Vice President of Technology &amp;amp; Solutions, at Nagarro and I have spoken at the Oracle OpenWorld / JavaOne conference on Wednesday, October 1, 2014, form 10:00 – 11:00 a.m., Pacific Time, at Ballroom 6 in the Hilton San Francisco at Union Square.
-I have supported Venkat and presented the JMod tool demo with him.
-Here are some coverages - https://www.nagarro.com/en/news-events/nagarro-has-java-8-covered-at-oracle-open-world I have lead the Nagarro Stall and showcased the JMod demo to 300+ visitors.</description>
     </item>
     
   </channel>

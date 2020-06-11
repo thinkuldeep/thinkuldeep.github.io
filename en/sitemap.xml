@@ -87,7 +87,28 @@
   
   <url>
     <loc>https://thinkuldeep.github.io/tags/ai/</loc>
-    <lastmod>2020-07-02T10:58:08-04:00</lastmod>
+    <lastmod>2020-07-15T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/panel-discussion/</loc>
+    <lastmod>2020-07-15T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/event/thevrara-ppd-cop-webinar-1/</loc>
+    <lastmod>2020-07-15T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/webinar/</loc>
+    <lastmod>2020-07-15T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1186,13 +1207,6 @@
   
   <url>
     <loc>https://thinkuldeep.github.io/tags/lsd/</loc>
-    <lastmod>2017-01-19T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/panel-discussion/</loc>
     <lastmod>2017-01-19T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

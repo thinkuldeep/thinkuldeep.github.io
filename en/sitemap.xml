@@ -135,6 +135,149 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/post/2020-year-of-change/</loc>
+    <lastmod>2020-06-21T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.github.io/hi/post/2020-year-of-change/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.github.io/post/2020-year-of-change/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/change/</loc>
+    <lastmod>2020-06-21T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.github.io/hi/tags/change/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.github.io/tags/change/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/covid19/</loc>
+    <lastmod>2020-06-21T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.github.io/hi/tags/covid19/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.github.io/tags/covid19/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/ge/</loc>
+    <lastmod>2020-06-21T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/general/</loc>
+    <lastmod>2020-06-21T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.github.io/hi/tags/general/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.github.io/tags/general/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/life/</loc>
+    <lastmod>2020-06-21T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.github.io/hi/tags/life/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.github.io/tags/life/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/motivation/</loc>
+    <lastmod>2020-06-21T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.github.io/hi/tags/motivation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.github.io/tags/motivation/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/motivational/</loc>
+    <lastmod>2020-06-21T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.github.io/hi/tags/motivational/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.github.io/tags/motivational/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/selfhelp/</loc>
+    <lastmod>2020-06-21T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.github.io/hi/tags/selfhelp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.github.io/tags/selfhelp/"
+                />
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/ar/</loc>
     <lastmod>2020-06-07T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -153,30 +296,6 @@
     <lastmod>2020-06-07T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/ge/</loc>
-    <lastmod>2020-06-07T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/general/</loc>
-    <lastmod>2020-06-07T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.github.io/hi/tags/general/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.github.io/tags/general/"
-                />
   </url>
   
   <url>
@@ -264,6 +383,13 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/technology/</loc>
+    <lastmod>2020-05-27T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/tutorial/</loc>
     <lastmod>2020-05-27T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -275,91 +401,6 @@
     <lastmod>2020-05-27T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/change/</loc>
-    <lastmod>2020-05-24T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.github.io/hi/tags/change/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.github.io/tags/change/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/covid19/</loc>
-    <lastmod>2020-05-24T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.github.io/hi/tags/covid19/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.github.io/tags/covid19/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/life/</loc>
-    <lastmod>2020-05-24T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.github.io/hi/tags/life/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.github.io/tags/life/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/motivation/</loc>
-    <lastmod>2020-05-24T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.github.io/hi/tags/motivation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.github.io/tags/motivation/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/selfhelp/</loc>
-    <lastmod>2020-05-24T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.github.io/hi/tags/selfhelp/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.github.io/tags/selfhelp/"
-                />
   </url>
   
   <url>
@@ -598,6 +639,13 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/practice/</loc>
+    <lastmod>2020-04-02T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/work-from-home/</loc>
     <lastmod>2020-04-02T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -714,13 +762,6 @@
   
   <url>
     <loc>https://thinkuldeep.github.io/tags/ide/</loc>
-    <lastmod>2019-10-30T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/practice/</loc>
     <lastmod>2019-10-30T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -861,13 +902,6 @@
   
   <url>
     <loc>https://thinkuldeep.github.io/tags/modernization/</loc>
-    <lastmod>2019-04-10T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/technology/</loc>
     <lastmod>2019-04-10T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

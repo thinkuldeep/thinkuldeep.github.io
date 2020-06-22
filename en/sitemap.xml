@@ -107,6 +107,20 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/vr/</loc>
+    <lastmod>2020-07-15T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/vrara/</loc>
+    <lastmod>2020-07-15T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/webinar/</loc>
     <lastmod>2020-07-15T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -321,13 +335,6 @@
   
   <url>
     <loc>https://thinkuldeep.github.io/event/google_dsk_skct_xr_introduction/</loc>
-    <lastmod>2020-06-07T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/vr/</loc>
     <lastmod>2020-06-07T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

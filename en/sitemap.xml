@@ -149,6 +149,82 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/ar/</loc>
+    <lastmod>2020-06-24T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/change/</loc>
+    <lastmod>2020-06-24T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.github.io/hi/tags/change/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.github.io/tags/change/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/enterprise/</loc>
+    <lastmod>2020-06-24T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/future/</loc>
+    <lastmod>2020-06-24T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/retail/</loc>
+    <lastmod>2020-06-24T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/technology/</loc>
+    <lastmod>2020-06-24T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/post/future-of-shoping/</loc>
+    <lastmod>2020-06-24T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/thoughtworks/</loc>
+    <lastmod>2020-06-24T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.github.io/hi/tags/thoughtworks/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.github.io/tags/thoughtworks/"
+                />
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/post/2020-year-of-change/</loc>
     <lastmod>2020-06-21T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -162,23 +238,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://thinkuldeep.github.io/post/2020-year-of-change/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/change/</loc>
-    <lastmod>2020-06-21T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.github.io/hi/tags/change/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.github.io/tags/change/"
                 />
   </url>
   
@@ -292,13 +351,6 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/ar/</loc>
-    <lastmod>2020-06-07T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.github.io/tags/dsc/</loc>
     <lastmod>2020-06-07T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -390,13 +442,6 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/technology/</loc>
-    <lastmod>2020-05-27T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.github.io/tags/tutorial/</loc>
     <lastmod>2020-05-27T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -443,13 +488,6 @@
   
   <url>
     <loc>https://thinkuldeep.github.io/tags/customization/</loc>
-    <lastmod>2020-05-16T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/enterprise/</loc>
     <lastmod>2020-05-16T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -598,23 +636,6 @@
     <lastmod>2020-04-10T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/thoughtworks/</loc>
-    <lastmod>2020-04-10T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.github.io/hi/tags/thoughtworks/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.github.io/tags/thoughtworks/"
-                />
   </url>
   
   <url>

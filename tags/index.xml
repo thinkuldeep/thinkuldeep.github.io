@@ -111,11 +111,47 @@
     </item>
     
     <item>
+      <title>ar</title>
+      <link>https://thinkuldeep.github.io/tags/ar/</link>
+      <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/ar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>covid19</title>
+      <link>https://thinkuldeep.github.io/tags/covid19/</link>
+      <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/covid19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cv</title>
+      <link>https://thinkuldeep.github.io/tags/cv/</link>
+      <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>hackathon</title>
       <link>https://thinkuldeep.github.io/tags/hackathon/</link>
       <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/tags/hackathon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>innovation</title>
+      <link>https://thinkuldeep.github.io/tags/innovation/</link>
+      <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/innovation/</guid>
       <description></description>
     </item>
     
@@ -129,11 +165,20 @@
     </item>
     
     <item>
-      <title>ar</title>
-      <link>https://thinkuldeep.github.io/tags/ar/</link>
-      <pubDate>Wed, 24 Jun 2020 10:58:08 -0400</pubDate>
+      <title>machine learning</title>
+      <link>https://thinkuldeep.github.io/tags/machine-learning/</link>
+      <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/tags/ar/</guid>
+      <guid>https://thinkuldeep.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ml</title>
+      <link>https://thinkuldeep.github.io/tags/ml/</link>
+      <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.github.io/tags/ml/</guid>
       <description></description>
     </item>
     
@@ -188,15 +233,6 @@
       <pubDate>Wed, 24 Jun 2020 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.github.io/tags/thoughtworks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>covid19</title>
-      <link>https://thinkuldeep.github.io/tags/covid19/</link>
-      <pubDate>Sun, 21 Jun 2020 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.github.io/tags/covid19/</guid>
       <description></description>
     </item>
     

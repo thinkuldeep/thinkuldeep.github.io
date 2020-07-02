@@ -128,7 +128,45 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/ar/</loc>
+    <lastmod>2020-07-02T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/covid19/</loc>
+    <lastmod>2020-07-02T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.github.io/hi/tags/covid19/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.github.io/tags/covid19/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/cv/</loc>
+    <lastmod>2020-07-02T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/hackathon/</loc>
+    <lastmod>2020-07-02T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/innovation/</loc>
     <lastmod>2020-07-02T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -149,8 +187,15 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/ar/</loc>
-    <lastmod>2020-06-24T10:58:08-04:00</lastmod>
+    <loc>https://thinkuldeep.github.io/tags/machine-learning/</loc>
+    <lastmod>2020-07-02T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/ml/</loc>
+    <lastmod>2020-07-02T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -238,23 +283,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://thinkuldeep.github.io/post/2020-year-of-change/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/covid19/</loc>
-    <lastmod>2020-06-21T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.github.io/hi/tags/covid19/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.github.io/tags/covid19/"
                 />
   </url>
   

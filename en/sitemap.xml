@@ -86,6 +86,58 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.github.io/tags/ar/</loc>
+    <lastmod>2020-08-13T10:58:15-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/covid19/</loc>
+    <lastmod>2020-08-13T10:58:15-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.github.io/hi/tags/covid19/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.github.io/tags/covid19/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/techgig/</loc>
+    <lastmod>2020-08-13T10:58:15-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/vr/</loc>
+    <lastmod>2020-08-13T10:58:15-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/tags/webinar/</loc>
+    <lastmod>2020-08-13T10:58:15-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.github.io/event/techgigs-xr-webinar-1/</loc>
+    <lastmod>2020-08-13T10:58:15-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.github.io/tags/ai/</loc>
     <lastmod>2020-07-11T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -107,48 +159,10 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.github.io/tags/vr/</loc>
-    <lastmod>2020-07-11T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.github.io/tags/vrara/</loc>
     <lastmod>2020-07-11T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/webinar/</loc>
-    <lastmod>2020-07-11T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/ar/</loc>
-    <lastmod>2020-07-02T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.github.io/tags/covid19/</loc>
-    <lastmod>2020-07-02T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.github.io/hi/tags/covid19/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.github.io/tags/covid19/"
-                />
   </url>
   
   <url>

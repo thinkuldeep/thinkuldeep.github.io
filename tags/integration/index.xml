@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>integration on Kuldeep Singh</title>
-    <link>https://thinkuldeep.github.io/tags/integration/</link>
+    <link>https://thinkuldeep.com/tags/integration/</link>
     <description>Recent content in integration on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Mar 2020 10:58:08 -0400</lastBuildDate>
     
-	<atom:link href="https://thinkuldeep.github.io/tags/integration/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thinkuldeep.com/tags/integration/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Enterprise XR - Interoperability</title>
-      <link>https://thinkuldeep.github.io/post/enterprise-xr-interoperability/</link>
+      <link>https://thinkuldeep.com/post/enterprise-xr-interoperability/</link>
       <pubDate>Sat, 28 Mar 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/enterprise-xr-interoperability/</guid>
+      <guid>https://thinkuldeep.com/post/enterprise-xr-interoperability/</guid>
       <description>In the previous article, we discussed implementing multi-factor authentication for an andorid application, and in the article we will cover another enterprise aspect, Interoperability.
 Interoperability is key aspect when we build enterprise solutions using XR technologies. The enterprises have digital assets in form of mobile apps, libraries, system APIs, and they can’t just throw away these existing investments, in fact, the XR apps must be implemented in such a way that it is interoperable with them seamlessly.</description>
     </item>
     
     <item>
       <title>Enterprise XR - Multi-Factor Authentication</title>
-      <link>https://thinkuldeep.github.io/post/enterprise-xr-multi-factor-authentication/</link>
+      <link>https://thinkuldeep.com/post/enterprise-xr-multi-factor-authentication/</link>
       <pubDate>Wed, 25 Mar 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/enterprise-xr-multi-factor-authentication/</guid>
+      <guid>https://thinkuldeep.com/post/enterprise-xr-multi-factor-authentication/</guid>
       <description>XR use cases are growing with advancements in the devices, internet and development technologies. There is an ever-growing demand to build enterprise use cases using ARVR technology. Most enterprise use cases eventually require integration with an enterprise ecosystem such as IAM (Identity and Access Management), ERP, CRM, and single sign-on with other systems.
 Most organizations protect digital assets with a single sign-on using Multiple Factor Authentication (MFA). The MFA is generally a web-browser based authentication where the browser redirects to tenant’s authentication page where the user provides their credentials and then the user confirms another factor (PIN, OTP, SMS or mobile notifications), once it succeeds, it gets redirected back to the protected resource.</description>
     </item>
     
     <item>
       <title>HTTP Router with Apache Camel </title>
-      <link>https://thinkuldeep.github.io/post/apache-camel-http-route/</link>
+      <link>https://thinkuldeep.com/post/apache-camel-http-route/</link>
       <pubDate>Thu, 13 Feb 2014 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/apache-camel-http-route/</guid>
+      <guid>https://thinkuldeep.com/post/apache-camel-http-route/</guid>
       <description>This article explains the http integration using Apache Camel. Create a configurable router to any http URL having place holders.
  Prerequisite  Windows7, Eclipse Juno Java 1.7    Creating HTTP Router Please follow below steps to generate POC for HTTP routing using apache camel.
 Create Sample Camel Example   Create eclipse project using archetype “camel-archetype-spring”
@@ -45,10 +45,10 @@ mvn archetype:generate DarchetypeGroupId=com.tk.poc.camel -DarchetypeArtifactId=
     
     <item>
       <title>Using Apache CFX and Apache Camel in ESB</title>
-      <link>https://thinkuldeep.github.io/post/esb-introduction-part2/</link>
+      <link>https://thinkuldeep.com/post/esb-introduction-part2/</link>
       <pubDate>Mon, 30 Jan 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/esb-introduction-part2/</guid>
+      <guid>https://thinkuldeep.com/post/esb-introduction-part2/</guid>
       <description>In the previous article, we learned about ESB and deployed our first OSGi bundle on FuseESB.
 In this article, we will learn how to build Apache CXF and Apache Camel component and deploy them on FuseESB.
 Lets understand what are these components :
@@ -58,10 +58,10 @@ Camel lets you create the Enterprise Integration Patterns to implement routing a
     
     <item>
       <title>Managing Calendar and Invites in Java</title>
-      <link>https://thinkuldeep.github.io/post/java-calendar-and-invite/</link>
+      <link>https://thinkuldeep.com/post/java-calendar-and-invite/</link>
       <pubDate>Sun, 22 Jan 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/java-calendar-and-invite/</guid>
+      <guid>https://thinkuldeep.com/post/java-calendar-and-invite/</guid>
       <description>Calendars are used to store formation for various events. Calendar viewer displays the month-date view and for each day displays the events/reminders information.
 Invites are the events in the form of email. Once the invite for an event sent to a user via email then that event will be stored in the calendar view and same can be seen in the day information of the calendar view.
 Calendars Calendar data can be stored in files; there are some standard formats for storing calendars iCalendar is a computer file format which allows Internet users to send meeting requests and tasks to other Internet users, via email, or sharing files with an extension of .</description>
@@ -69,10 +69,10 @@ Calendars Calendar data can be stored in files; there are some standard formats 
     
     <item>
       <title>Working with Enterprise Service Bus</title>
-      <link>https://thinkuldeep.github.io/post/esb-introduction-part1/</link>
+      <link>https://thinkuldeep.com/post/esb-introduction-part1/</link>
       <pubDate>Sun, 15 Jan 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/esb-introduction-part1/</guid>
+      <guid>https://thinkuldeep.com/post/esb-introduction-part1/</guid>
       <description>This article starts from basic terms of ESB worlds and then provides details of the FuseESB with various examples.
 It contains step by step guide to install FuseESB, and develop and deploy OSGi bundle on FuseESB.
 Lets understand terminologies of the ESB world :
@@ -81,10 +81,10 @@ ESB An Enterprise Service Bus (ESB) is a software architecture model used for de
     
     <item>
       <title>Mail Merge in Java</title>
-      <link>https://thinkuldeep.github.io/post/java-mail-merge/</link>
+      <link>https://thinkuldeep.com/post/java-mail-merge/</link>
       <pubDate>Tue, 10 Jan 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/java-mail-merge/</guid>
+      <guid>https://thinkuldeep.com/post/java-mail-merge/</guid>
       <description>MailMerge is a process to create personalized letters and pre-addressed envelopes or mailing labels for mass mailings from a word processing document (Template). A template contains placeholders (Fields) along with the actual content. The placeholders are filled by the data source which is typically a spreadsheet or a database having column for each place holders.
 This article talks about the java approach for generating multiple documents from a single MS Word template.</description>
     </item>

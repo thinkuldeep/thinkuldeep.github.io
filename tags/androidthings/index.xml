@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>androidthings on Kuldeep Singh</title>
-    <link>https://thinkuldeep.github.io/tags/androidthings/</link>
+    <link>https://thinkuldeep.com/tags/androidthings/</link>
     <description>Recent content in androidthings on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Apr 2016 10:58:08 -0400</lastBuildDate>
     
-	<atom:link href="https://thinkuldeep.github.io/tags/androidthings/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thinkuldeep.com/tags/androidthings/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Exploring AndroidThings IoT</title>
-      <link>https://thinkuldeep.github.io/post/exploring-android-things/</link>
+      <link>https://thinkuldeep.com/post/exploring-android-things/</link>
       <pubDate>Sun, 10 Apr 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/exploring-android-things/</guid>
+      <guid>https://thinkuldeep.com/post/exploring-android-things/</guid>
       <description>Android Things, an android based embedded operating system, is the new “it” thing in the Internet of Things(IOT) space. Developed by Google under the codename “Brillo, a.k.a. Project Brillo”, it takes the usual Android development stack—Android Studio, the official SDK, and Google Play Services—and applies it to the IOT.
 Google formally took the veils off of Brillo at its I/O 2015 conference. It is aimed to be used with low-power and memory constrained IOT devices, allowing the developers to build a smart device using Android APIs and Google Services.</description>
     </item>

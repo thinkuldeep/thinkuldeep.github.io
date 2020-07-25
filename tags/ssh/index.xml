@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ssh on Kuldeep Singh</title>
-    <link>https://thinkuldeep.github.io/tags/ssh/</link>
+    <link>https://thinkuldeep.com/tags/ssh/</link>
     <description>Recent content in ssh on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Dec 2013 10:58:08 -0400</lastBuildDate>
     
-	<atom:link href="https://thinkuldeep.github.io/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thinkuldeep.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Apache Camel SSH Component</title>
-      <link>https://thinkuldeep.github.io/post/apache-camel-ssh-component/</link>
+      <link>https://thinkuldeep.com/post/apache-camel-ssh-component/</link>
       <pubDate>Mon, 02 Dec 2013 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/apache-camel-ssh-component/</guid>
+      <guid>https://thinkuldeep.com/post/apache-camel-ssh-component/</guid>
       <description>This article is about troubleshooting issues we have faced while using apache camel’s SSH routes. It also covers step wise guide to setup apache camel routes.
 Prerequisites  Windows7 Eclipse Juno Java 1.7  Problem Statement We were getting following issues in the logs when connecting to one of the SSH server using Apache Camel-SSH. This was happening in one of the instance in production environment.
 Here are few logs :</description>

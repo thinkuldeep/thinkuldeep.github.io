@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>os on Kuldeep Singh</title>
-    <link>https://thinkuldeep.github.io/tags/os/</link>
+    <link>https://thinkuldeep.com/tags/os/</link>
     <description>Recent content in os on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 May 2020 10:58:08 -0400</lastBuildDate>
     
-	<atom:link href="https://thinkuldeep.github.io/tags/os/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thinkuldeep.com/tags/os/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>OS Customization for XR Device</title>
-      <link>https://thinkuldeep.github.io/post/os-customization-for-xr-devices/</link>
+      <link>https://thinkuldeep.com/post/os-customization-for-xr-devices/</link>
       <pubDate>Sun, 10 May 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/os-customization-for-xr-devices/</guid>
+      <guid>https://thinkuldeep.com/post/os-customization-for-xr-devices/</guid>
       <description>The Operating System of XR (AR VR) devices is mostly customized to the hardware of the device, and not just that the OS level customizations are needed to meet the enterprise needs such as integration with Enterprise MDM (Mobile Device Management) solutions (such as Intune, MobileIron and Airwatch), 3D lock screen, idle-timeout, custom home screen, custom settings, security, as so on.
 Most organizations currently using traditional hardware and software assets such as mobile devices, laptops, and desktops, and the processes and policies for managing these devices are quite stable and straightforward by now.</description>
     </item>
     
     <item>
       <title>Exploring AndroidThings IoT</title>
-      <link>https://thinkuldeep.github.io/post/exploring-android-things/</link>
+      <link>https://thinkuldeep.com/post/exploring-android-things/</link>
       <pubDate>Sun, 10 Apr 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/exploring-android-things/</guid>
+      <guid>https://thinkuldeep.com/post/exploring-android-things/</guid>
       <description>Android Things, an android based embedded operating system, is the new “it” thing in the Internet of Things(IOT) space. Developed by Google under the codename “Brillo, a.k.a. Project Brillo”, it takes the usual Android development stack—Android Studio, the official SDK, and Google Play Services—and applies it to the IOT.
 Google formally took the veils off of Brillo at its I/O 2015 conference. It is aimed to be used with low-power and memory constrained IOT devices, allowing the developers to build a smart device using Android APIs and Google Services.</description>
     </item>
     
     <item>
       <title>Strange JSP Compilation Issue </title>
-      <link>https://thinkuldeep.github.io/post/jsp-compilation-issues/</link>
+      <link>https://thinkuldeep.com/post/jsp-compilation-issues/</link>
       <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/jsp-compilation-issues/</guid>
+      <guid>https://thinkuldeep.com/post/jsp-compilation-issues/</guid>
       <description>We were getting following error on the production sever (Linux, Jboss). We were in the middle of user acceptance testing with the client, many users were accessing the application to simulate various scenarios in a live session.
 the application was crashing just after 2-3 minute of start with above error, and no user were able to access the application. We were expected for fix the issue ASAP, as the users were assembled for the web session, all were waiting for the server up.</description>
     </item>

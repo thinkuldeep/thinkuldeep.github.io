@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>world on Kuldeep Singh</title>
-    <link>https://thinkuldeep.github.io/tags/world/</link>
+    <link>https://thinkuldeep.com/tags/world/</link>
     <description>Recent content in world on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 10 Jan 2012 10:58:08 -0400</lastBuildDate>
     
-	<atom:link href="https://thinkuldeep.github.io/tags/world/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thinkuldeep.com/tags/world/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mail Merge in Java</title>
-      <link>https://thinkuldeep.github.io/post/java-mail-merge/</link>
+      <link>https://thinkuldeep.com/post/java-mail-merge/</link>
       <pubDate>Tue, 10 Jan 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/java-mail-merge/</guid>
+      <guid>https://thinkuldeep.com/post/java-mail-merge/</guid>
       <description>MailMerge is a process to create personalized letters and pre-addressed envelopes or mailing labels for mass mailings from a word processing document (Template). A template contains placeholders (Fields) along with the actual content. The placeholders are filled by the data source which is typically a spreadsheet or a database having column for each place holders.
 This article talks about the java approach for generating multiple documents from a single MS Word template.</description>
     </item>

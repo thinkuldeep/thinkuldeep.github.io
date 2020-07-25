@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>vr on Kuldeep Singh</title>
-    <link>https://thinkuldeep.github.io/tags/vr/</link>
+    <link>https://thinkuldeep.com/tags/vr/</link>
     <description>Recent content in vr on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Aug 2020 10:58:15 -0400</lastBuildDate>
     
-	<atom:link href="https://thinkuldeep.github.io/tags/vr/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thinkuldeep.com/tags/vr/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Webinar - Extended Reality (XR) - Nicety to Necessity</title>
-      <link>https://thinkuldeep.github.io/event/techgigs-xr-webinar-1/</link>
+      <link>https://thinkuldeep.com/event/techgigs-xr-webinar-1/</link>
       <pubDate>Thu, 13 Aug 2020 10:58:15 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/event/techgigs-xr-webinar-1/</guid>
+      <guid>https://thinkuldeep.com/event/techgigs-xr-webinar-1/</guid>
       <description>Techgig is the largest community of developers, also organizes webinars on emerging technologies.
 I will be speaking a webinar on Extended Reality (XR) - Moving from Nicety to Necessity on coming Aug 13, at 3PM IST. Please book your seat and explore new realities.
 Highlights COVID-19 has impacted economies, businesses and human behaviour. The sudden change has forced organizations to embrace digital-first at accelerated speeds. The ensuing chaos has given emerging tech like XR the opportunity to become a need-to-have over a nice-to-have in industries like health, retail, manufacturing and more.</description>
@@ -24,39 +24,39 @@ Highlights COVID-19 has impacted economies, businesses and human behaviour. The 
     
     <item>
       <title>The future of shopping</title>
-      <link>https://thinkuldeep.github.io/post/future-of-shoping/</link>
+      <link>https://thinkuldeep.com/post/future-of-shoping/</link>
       <pubDate>Wed, 24 Jun 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/future-of-shoping/</guid>
+      <guid>https://thinkuldeep.com/post/future-of-shoping/</guid>
       <description>eXtended Reality (XR) that includes AR and VR technologies have been silently disrupting the gaming industry for more than a decade. In the recent past, the tech has gained some traction in the education and training space.
 Today, however, COVID-19 with its mandates of social distancing and less to no physical interactions has accelerated adoption for XR. The tech is virtual, contactless, and delivers outstanding brand experiences - perfect for the new normal that multiple industries like retail will benefit from.</description>
     </item>
     
     <item>
       <title>Speaker - Google DSC - How to get started with AR VR?</title>
-      <link>https://thinkuldeep.github.io/event/google_dsk_skct_xr_introduction/</link>
+      <link>https://thinkuldeep.com/event/google_dsk_skct_xr_introduction/</link>
       <pubDate>Sun, 07 Jun 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/event/google_dsk_skct_xr_introduction/</guid>
+      <guid>https://thinkuldeep.com/event/google_dsk_skct_xr_introduction/</guid>
       <description>Conducted a live session at Google Developer Students Club of Sri Krishna College of Technology, Coimbatore, TN, India
 Intro here  Live session, recording.  The talks is about  What is AR VR? Why to start with AR VR? How to start with AR VR?  Detailed Slides   How to get started with arvr - DSC 2020  from Kuldeep Singh  Feedback  This session was really awesome and I have got lot of new knowledge about ar/vr and it&amp;rsquo;s importance in solving real life problems - Kannan Subramanian</description>
     </item>
     
     <item>
       <title>The Growing List of XR Devices</title>
-      <link>https://thinkuldeep.github.io/post/the-growing-list-of-xr-devices/</link>
+      <link>https://thinkuldeep.com/post/the-growing-list-of-xr-devices/</link>
       <pubDate>Mon, 01 Jun 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/the-growing-list-of-xr-devices/</guid>
+      <guid>https://thinkuldeep.com/post/the-growing-list-of-xr-devices/</guid>
       <description>In my earlier article, I have explained the fundamentals of XR and the type of XR, and the popular devices in those XR types. ARVR is not the only about Head-Mounted Display(HMD) devices. There is an ever-growing list of Google ARCore supported smartphones/tablets and ARKit is being supported in recent Apple phones. But still, when when it comes to AR and VR devices, the first thing that comes in mind is head-mounted display devices (HMD), however, the newer mobile phones/tablets are now coming with AR/VR support with a minimal set of tools attached.</description>
     </item>
     
     <item>
       <title>Run a 2D App in XR Container</title>
-      <link>https://thinkuldeep.github.io/post/run-a-2d-app-in-xr-container/</link>
+      <link>https://thinkuldeep.com/post/run-a-2d-app-in-xr-container/</link>
       <pubDate>Sat, 16 May 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/run-a-2d-app-in-xr-container/</guid>
+      <guid>https://thinkuldeep.com/post/run-a-2d-app-in-xr-container/</guid>
       <description>There are a number of Enterprise XR use cases where we have a need to open the existing 2D apps in the XR devices in a wrapper app, and this article covers a concept, have a look!
 After trying the OS level customization on an XR device, you may like to run your XR apps as a system app. Here is a simple article by Raju K
  Android System Apps development - Android Emulator Setup and guidelines to develop system applications</description>
@@ -64,96 +64,96 @@ After trying the OS level customization on an XR device, you may like to run you
     
     <item>
       <title>User Account Management In XR</title>
-      <link>https://thinkuldeep.github.io/post/user-account-management-in-xr/</link>
+      <link>https://thinkuldeep.com/post/user-account-management-in-xr/</link>
       <pubDate>Sun, 26 Apr 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/user-account-management-in-xr/</guid>
+      <guid>https://thinkuldeep.com/post/user-account-management-in-xr/</guid>
       <description>In the previous article, we described the importance of interoperability in while building Enterprise XR solutions, In the article, we will discuss how to manage user accounts in the XR device, and implement single sign-on across the XR apps. We will use Android’s AccountManger approach to login into active directory and integrated it into Unity. Please read my earlier article on setting up the app in active directory, log in using android webview, considering a web-based company login form should appear for login, and no custom login form is allowed to capture the credentials.</description>
     </item>
     
     <item>
       <title>WebXR - the new Web</title>
-      <link>https://thinkuldeep.github.io/post/webxr-the-new-web/</link>
+      <link>https://thinkuldeep.com/post/webxr-the-new-web/</link>
       <pubDate>Sat, 11 Apr 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/webxr-the-new-web/</guid>
+      <guid>https://thinkuldeep.com/post/webxr-the-new-web/</guid>
       <description>The web has grown from a read-only web (Web 1.0) to interactive web (Web 2.0) and then moved into the semantic web which is more connected and more immersive. 3D content on the web is there for quite some time, the most web-browsers support rendering 3D content natively. The rise for XR technologies and advancements in devices and the internet is leading the demand for Web-based XR. It will be a norm for web-based development.</description>
     </item>
     
     <item>
       <title>eXtending reality with AR and VR - Part 2</title>
-      <link>https://thinkuldeep.github.io/post/extending_reality_with_ar_and_vr-2/</link>
+      <link>https://thinkuldeep.com/post/extending_reality_with_ar_and_vr-2/</link>
       <pubDate>Fri, 10 Apr 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/extending_reality_with_ar_and_vr-2/</guid>
+      <guid>https://thinkuldeep.com/post/extending_reality_with_ar_and_vr-2/</guid>
       <description>In Part I of the article, we summarized our observations of eXtended reality’s foundational blocks - AR, VR and MR. We also discussed the popular and most relevant tools and implementations of the new technology. In Part II of the article, we will be looking at a few accessible and novel implementations of the tech.
 At ThoughtWorks, we have delivered both XR solutions and components of XR SDK (Software Development Kit) on the back of which XR solutions are built.</description>
     </item>
     
     <item>
       <title>eXtending reality with AR and VR - Part 1</title>
-      <link>https://thinkuldeep.github.io/post/extending_reality_with_ar_and_vr-1/</link>
+      <link>https://thinkuldeep.com/post/extending_reality_with_ar_and_vr-1/</link>
       <pubDate>Sun, 05 Apr 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/extending_reality_with_ar_and_vr-1/</guid>
+      <guid>https://thinkuldeep.com/post/extending_reality_with_ar_and_vr-1/</guid>
       <description>The way we interact with technology today is not too far from what was predicted by futuristic, sci-fi pop culture. We are living in a world where sophisticated touch and gesture based interactions are collaborating with state of the art wearables, sensors, Augmented Reality (AR), Virtual Reality (VR) and Mixed Reality (MR). And, this is eXtending user experiences to be extremely immersive.
 Add to this, Gartner’s expectation that 5G and AR/VR implementation will transform not only customer engagement but brands’ entire product management cycles as well.</description>
     </item>
     
     <item>
       <title>XR development from home</title>
-      <link>https://thinkuldeep.github.io/post/xr-development-from-home/</link>
+      <link>https://thinkuldeep.com/post/xr-development-from-home/</link>
       <pubDate>Thu, 02 Apr 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/xr-development-from-home/</guid>
+      <guid>https://thinkuldeep.com/post/xr-development-from-home/</guid>
       <description>Covid19 has challenged the way we eat, the way we commute, the way we socialize, and the way we work. In short, it impacted the way we live. More than a million people got infected and the number is growing exponentially, it has impacted the whole world. We need to find new ways of life and change our focus and priorities to save nature and humanity. Technology can play a great role in coping with it.</description>
     </item>
     
     <item>
       <title>Enterprise XR - Interoperability</title>
-      <link>https://thinkuldeep.github.io/post/enterprise-xr-interoperability/</link>
+      <link>https://thinkuldeep.com/post/enterprise-xr-interoperability/</link>
       <pubDate>Sat, 28 Mar 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/enterprise-xr-interoperability/</guid>
+      <guid>https://thinkuldeep.com/post/enterprise-xr-interoperability/</guid>
       <description>In the previous article, we discussed implementing multi-factor authentication for an andorid application, and in the article we will cover another enterprise aspect, Interoperability.
 Interoperability is key aspect when we build enterprise solutions using XR technologies. The enterprises have digital assets in form of mobile apps, libraries, system APIs, and they can’t just throw away these existing investments, in fact, the XR apps must be implemented in such a way that it is interoperable with them seamlessly.</description>
     </item>
     
     <item>
       <title>Enterprise XR - Multi-Factor Authentication</title>
-      <link>https://thinkuldeep.github.io/post/enterprise-xr-multi-factor-authentication/</link>
+      <link>https://thinkuldeep.com/post/enterprise-xr-multi-factor-authentication/</link>
       <pubDate>Wed, 25 Mar 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/enterprise-xr-multi-factor-authentication/</guid>
+      <guid>https://thinkuldeep.com/post/enterprise-xr-multi-factor-authentication/</guid>
       <description>XR use cases are growing with advancements in the devices, internet and development technologies. There is an ever-growing demand to build enterprise use cases using ARVR technology. Most enterprise use cases eventually require integration with an enterprise ecosystem such as IAM (Identity and Access Management), ERP, CRM, and single sign-on with other systems.
 Most organizations protect digital assets with a single sign-on using Multiple Factor Authentication (MFA). The MFA is generally a web-browser based authentication where the browser redirects to tenant’s authentication page where the user provides their credentials and then the user confirms another factor (PIN, OTP, SMS or mobile notifications), once it succeeds, it gets redirected back to the protected resource.</description>
     </item>
     
     <item>
       <title>Speaker - XR Day - ThoughtWorks India</title>
-      <link>https://thinkuldeep.github.io/event/thougthworks_xrday/</link>
+      <link>https://thinkuldeep.com/event/thougthworks_xrday/</link>
       <pubDate>Thu, 27 Feb 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/event/thougthworks_xrday/</guid>
+      <guid>https://thinkuldeep.com/event/thougthworks_xrday/</guid>
       <description>The XR Day Organized XR Days at ThoughtWorks, India in different cities and conducted awareness sessions and ideation workshop and more..
 The talks are about  How the User interactions evolved with time? Why is it important to think beyond the tradition keyboard and screen? Where is the industry heading? How will it impact us?  Detailed Slides   Think beyond keyboard and screen xr day 2019  from Kuldeep Singh  Event Summary It was well recevied the participats.</description>
     </item>
     
     <item>
       <title>Augmenting the Travel Reality</title>
-      <link>https://thinkuldeep.github.io/post/augmenting_the_travel_reality/</link>
+      <link>https://thinkuldeep.com/post/augmenting_the_travel_reality/</link>
       <pubDate>Tue, 26 Nov 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/augmenting_the_travel_reality/</guid>
+      <guid>https://thinkuldeep.com/post/augmenting_the_travel_reality/</guid>
       <description>Travel and transportation have faced and continue facing disruptions. Many of the traditional ways are no more in the choice. Earlier our parents used to warn us for taking rides with strangers, but now Uber/Ola/Lyft/Didi, etc are the preferred ways. Owning a car may be an absurd idea now. We are now dreaming of Autonomous vehicles, Flying Cars, Hyperloop, and Space travel in the near future. Do read, how the user interactions have been evolved with time in my earlier post.</description>
     </item>
     
     <item>
       <title>Evolution of Technology and User Interactions</title>
-      <link>https://thinkuldeep.github.io/post/evolution_of_technology_and_user_interactions/</link>
+      <link>https://thinkuldeep.com/post/evolution_of_technology_and_user_interactions/</link>
       <pubDate>Mon, 29 Apr 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/evolution_of_technology_and_user_interactions/</guid>
+      <guid>https://thinkuldeep.com/post/evolution_of_technology_and_user_interactions/</guid>
       <description>Technology defines our interactions with the ambiance, and the way we want to interact with the ambiance further defines the technology. The evolution of technology and user interactions tightly depends on each other.
  &amp;ldquo;Walls have ears!&amp;quot;, is very much true today, and not just that, now the walls can see you, feel your presence and talk to you.
  In this post, we will discuss how the user interactions evolved with time and what is next!</description>
@@ -161,10 +161,10 @@ The talks are about  How the User interactions evolved with time? Why is it impo
     
     <item>
       <title>Panelist &amp; Organizer - Nagarro LSD - Industry 4.0</title>
-      <link>https://thinkuldeep.github.io/event/nagarro-lsd-industory-4-0/</link>
+      <link>https://thinkuldeep.com/event/nagarro-lsd-industory-4-0/</link>
       <pubDate>Thu, 19 Jan 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/event/nagarro-lsd-industory-4-0/</guid>
+      <guid>https://thinkuldeep.com/event/nagarro-lsd-industory-4-0/</guid>
       <description>Organized Nagarro LSD event, on Industry 4.0, demonstrated usecases on connected services concept, and was a panelist for a discussion on
  Smarter Services - Predictive, Always Connected, Personalized Global experts will debate ways to create smarter services based around predictive maintenance, always connected devices and personalized solutions.
  Whether we call Industry 4.0 an evolution or a revolution, there is little doubt that it will have a disruptive impact on the manufacturing industry.</description>

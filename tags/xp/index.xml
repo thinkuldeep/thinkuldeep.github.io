@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>xp on Kuldeep Singh</title>
-    <link>https://thinkuldeep.github.io/tags/xp/</link>
+    <link>https://thinkuldeep.com/tags/xp/</link>
     <description>Recent content in xp on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Apr 2020 10:58:08 -0400</lastBuildDate>
     
-	<atom:link href="https://thinkuldeep.github.io/tags/xp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thinkuldeep.com/tags/xp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>XR development from home</title>
-      <link>https://thinkuldeep.github.io/post/xr-development-from-home/</link>
+      <link>https://thinkuldeep.com/post/xr-development-from-home/</link>
       <pubDate>Thu, 02 Apr 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/xr-development-from-home/</guid>
+      <guid>https://thinkuldeep.com/post/xr-development-from-home/</guid>
       <description>Covid19 has challenged the way we eat, the way we commute, the way we socialize, and the way we work. In short, it impacted the way we live. More than a million people got infected and the number is growing exponentially, it has impacted the whole world. We need to find new ways of life and change our focus and priorities to save nature and humanity. Technology can play a great role in coping with it.</description>
     </item>
     
     <item>
       <title>Boost your organisation agility by test-first-pair development</title>
-      <link>https://thinkuldeep.github.io/post/test-first-pair-development/</link>
+      <link>https://thinkuldeep.com/post/test-first-pair-development/</link>
       <pubDate>Sat, 15 Sep 2018 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/test-first-pair-development/</guid>
+      <guid>https://thinkuldeep.com/post/test-first-pair-development/</guid>
       <description>Agile software development methodology is the key selling point for most of the IT organisations, however many of the organisations have gone by the literal meaning of the word &amp;ldquo;Agile&amp;rdquo;. They follow agile practices without really being agile. If we go by Manifesto for Agile Software Development, it focus more on human factor (people, interaction, collaboration) which produces working software as per the need of time, than on processes, tools and strict planning.</description>
     </item>
     

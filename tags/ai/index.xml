@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ai on Kuldeep Singh</title>
-    <link>https://thinkuldeep.github.io/tags/ai/</link>
+    <link>https://thinkuldeep.com/tags/ai/</link>
     <description>Recent content in ai on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 11 Jul 2020 10:58:08 -0400</lastBuildDate>
     
-	<atom:link href="https://thinkuldeep.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thinkuldeep.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Panelist &amp; Organizer - Essentials of XR Product Development</title>
-      <link>https://thinkuldeep.github.io/event/thevrara-ppd-cop-webinar-1/</link>
+      <link>https://thinkuldeep.com/event/thevrara-ppd-cop-webinar-1/</link>
       <pubDate>Sat, 11 Jul 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/event/thevrara-ppd-cop-webinar-1/</guid>
+      <guid>https://thinkuldeep.com/event/thevrara-ppd-cop-webinar-1/</guid>
       <description>The VRAR Association&amp;rsquo;s Product Design and Development (PDD) Community of Practice (COP) bring series of webinars,
 First was planned on 11th July 2020, and supposed to be hosted by Mr. Tejinder Jassal , and with co-speaker/panelist Mr. Aditya Bhatnagar and Mr. Raju Kandasamy
 Highlights  Understanding XR technologies What it takes to build XR products and solutions XR in Education How it is going from &amp;ldquo;nice to have&amp;rdquo; to &amp;ldquo;must have&amp;rdquo; choice in this COVID time?</description>
@@ -24,20 +24,20 @@ Highlights  Understanding XR technologies What it takes to build XR products and
     
     <item>
       <title>Judge - HackInIndia - Hackathon 2020</title>
-      <link>https://thinkuldeep.github.io/event/hackinindia-hackathon-2020/</link>
+      <link>https://thinkuldeep.com/event/hackinindia-hackathon-2020/</link>
       <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/event/hackinindia-hackathon-2020/</guid>
+      <guid>https://thinkuldeep.com/event/hackinindia-hackathon-2020/</guid>
       <description>I got chance to judge the HackInIndia event, India&amp;rsquo;s National Level hackathon organized by Script Foundation on 2nd July, 2020.
 Around 150 teams signed up across multiple tracks (Healthcare, Open Innovation, ARVR, EdTech, RPA and FinTech) supported by couple of talented mentors. I and Raviraj Subramanian got chance to meet only top 20 teams in Jury round, and I was amazed to see their innovative ideas, and demonstrations the young blood of nation bring on the table.</description>
     </item>
     
     <item>
       <title>Compiling Java Native C/C&#43;&#43; Code</title>
-      <link>https://thinkuldeep.github.io/post/java-jni-cpp/</link>
+      <link>https://thinkuldeep.com/post/java-jni-cpp/</link>
       <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/java-jni-cpp/</guid>
+      <guid>https://thinkuldeep.com/post/java-jni-cpp/</guid>
       <description>We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
  How to write a JNI program. jni_md.h not found. Incompatible data types. On widows cygwin1.dll is required when running Java code on the native library. and more.  Actually we were compiling NLP Solver’s native library (IPOPT) on windows 32 bit and on 64bit linux machine.
 Solving the chaos! Here are the steps we have followed to solve the above issues:</description>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>orm on Kuldeep Singh</title>
-    <link>https://thinkuldeep.github.io/tags/orm/</link>
+    <link>https://thinkuldeep.com/tags/orm/</link>
     <description>Recent content in orm on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Jul 2015 10:58:08 -0400</lastBuildDate>
     
-	<atom:link href="https://thinkuldeep.github.io/tags/orm/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thinkuldeep.com/tags/orm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Choose ORM carefully!</title>
-      <link>https://thinkuldeep.github.io/post/choose-orm-carefully/</link>
+      <link>https://thinkuldeep.com/post/choose-orm-carefully/</link>
       <pubDate>Thu, 16 Jul 2015 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/choose-orm-carefully/</guid>
+      <guid>https://thinkuldeep.com/post/choose-orm-carefully/</guid>
       <description>We have recently migrated source code from Hibernate ORM to JDBC (Spring JDBC template) based implementation. Performance has been improved 10 times.
 User case (Oracle 11g, JBoss 6, JDK 6, Hibernate, Spring 3) : A tree structure in database is getting populated from a deep file system (directory structure) having around 75000 nodes. Each node (directory) contains text files, which get parsed based on business rules and then populate the database ( BRANCHs representing a node, tables referring to branch, tree_nodes).</description>
     </item>

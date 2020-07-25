@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>course on Kuldeep Singh</title>
-    <link>https://thinkuldeep.github.io/tags/course/</link>
+    <link>https://thinkuldeep.com/tags/course/</link>
     <description>Recent content in course on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 27 Jan 2015 10:58:08 -0400</lastBuildDate>
     
-	<atom:link href="https://thinkuldeep.github.io/tags/course/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thinkuldeep.com/tags/course/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Object Oriented JavaScript</title>
-      <link>https://thinkuldeep.github.io/post/oojs/</link>
+      <link>https://thinkuldeep.com/post/oojs/</link>
       <pubDate>Tue, 27 Jan 2015 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/oojs/</guid>
+      <guid>https://thinkuldeep.com/post/oojs/</guid>
       <description>JavaScript has been regarded as a functional programing language by most of the developers. This book is targeted for all the JavaScript developers to shift their thinking from the functional to the object oriented programing language.
 The course requires basic knowledge of JavaScript syntax. If you already know some JavaScript, you will find a lot of eye-openers as you go along and learn what more the JavaScript can do for you.</description>
     </item>

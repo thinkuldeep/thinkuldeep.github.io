@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Raspberry PI on Kuldeep Singh</title>
-    <link>https://thinkuldeep.github.io/tags/raspberry-pi/</link>
+    <link>https://thinkuldeep.com/tags/raspberry-pi/</link>
     <description>Recent content in Raspberry PI on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Dec 2016 10:58:08 -0400</lastBuildDate>
     
-	<atom:link href="https://thinkuldeep.github.io/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thinkuldeep.com/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>IoT based insect monitoring concept</title>
-      <link>https://thinkuldeep.github.io/post/iot-insect-monitoring/</link>
+      <link>https://thinkuldeep.com/post/iot-insect-monitoring/</link>
       <pubDate>Fri, 16 Dec 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/iot-insect-monitoring/</guid>
+      <guid>https://thinkuldeep.com/post/iot-insect-monitoring/</guid>
       <description>Insects are the most diverse species of animals found on earth. While every species is required to maintain the balance of nature, excessive accumulation of any one type can have devastating effects on humans and environment.
 Insect management relies on the early detection and accuracy of insect population monitoring techniquessensors-12-15801. Integrated data gathering about insect population together with the ecological factors like temperature, humidity, light etc., makes it possible to execute appropriate pest control at the right time in the right place.</description>
     </item>
     
     <item>
       <title>Building a smart meeting room concept</title>
-      <link>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</link>
+      <link>https://thinkuldeep.com/post/building-smart-meeting-room-concept/</link>
       <pubDate>Sun, 17 Apr 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/building-smart-meeting-room-concept/</guid>
+      <guid>https://thinkuldeep.com/post/building-smart-meeting-room-concept/</guid>
       <description>On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
 Smart Meeting Room is a step forward in automating the availability and booking procedure of a meeting room.</description>
     </item>
     
     <item>
       <title>Exploring AndroidThings IoT</title>
-      <link>https://thinkuldeep.github.io/post/exploring-android-things/</link>
+      <link>https://thinkuldeep.com/post/exploring-android-things/</link>
       <pubDate>Sun, 10 Apr 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/exploring-android-things/</guid>
+      <guid>https://thinkuldeep.com/post/exploring-android-things/</guid>
       <description>Android Things, an android based embedded operating system, is the new “it” thing in the Internet of Things(IOT) space. Developed by Google under the codename “Brillo, a.k.a. Project Brillo”, it takes the usual Android development stack—Android Studio, the official SDK, and Google Play Services—and applies it to the IOT.
 Google formally took the veils off of Brillo at its I/O 2015 conference. It is aimed to be used with low-power and memory constrained IOT devices, allowing the developers to build a smart device using Android APIs and Google Services.</description>
     </item>

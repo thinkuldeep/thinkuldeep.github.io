@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>clean-code on Kuldeep Singh</title>
-    <link>https://thinkuldeep.github.io/tags/clean-code/</link>
+    <link>https://thinkuldeep.com/tags/clean-code/</link>
     <description>Recent content in clean-code on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 14 Jan 2016 10:58:08 -0400</lastBuildDate>
     
-	<atom:link href="https://thinkuldeep.github.io/tags/clean-code/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thinkuldeep.com/tags/clean-code/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Writing maintainable code is like house cleaning</title>
-      <link>https://thinkuldeep.github.io/post/clean-code/</link>
+      <link>https://thinkuldeep.com/post/clean-code/</link>
       <pubDate>Thu, 14 Jan 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/clean-code/</guid>
+      <guid>https://thinkuldeep.com/post/clean-code/</guid>
       <description>Your house will remain clean for longer duration if you follow certain rules strictly such as put things at right place after use, clear any mesh just after doing it, repair/upgrade things on time, daily dusting, vacuum cleaning etc. We may avoid a massive cleanup if we apply a series of small efforts daily.
  Let for the same while writing the code –  Your code will remain maintainable for longer duration if you follow certain rules strictly such as follow the coding standards and guidelines, clean the code just after it, fix/refactor on time, periodic design review and refactoring.</description>
     </item>

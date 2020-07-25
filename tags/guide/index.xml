@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>guide on Kuldeep Singh</title>
-    <link>https://thinkuldeep.github.io/tags/guide/</link>
+    <link>https://thinkuldeep.com/tags/guide/</link>
     <description>Recent content in guide on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 21 Feb 2017 10:58:08 -0400</lastBuildDate>
     
-	<atom:link href="https://thinkuldeep.github.io/tags/guide/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thinkuldeep.com/tags/guide/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>IOT 101: A primer on Internet of Things</title>
-      <link>https://thinkuldeep.github.io/post/iot_simplified/</link>
+      <link>https://thinkuldeep.com/post/iot_simplified/</link>
       <pubDate>Tue, 21 Feb 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/iot_simplified/</guid>
+      <guid>https://thinkuldeep.com/post/iot_simplified/</guid>
       <description>IOT 101 A Primer on Internet of Things  from Kuldeep Singh  The IoT can be described as “Connecting the Things to internet”.
 A comprehensive IoT ecosystem consists of many different parts such as electronic circuitry, sensing and acting capability, embedded systems, edge computing, network protocols, communication networks, cloud computing, big data management and analytics, business rules etcetera. This maze of varied parts can be better classified into 4 broad categories:</description>
     </item>
     
     <item>
       <title>The Driving Forces Behind IoT</title>
-      <link>https://thinkuldeep.github.io/post/the-driving-forces-iot/</link>
+      <link>https://thinkuldeep.com/post/the-driving-forces-iot/</link>
       <pubDate>Fri, 01 Jan 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/the-driving-forces-iot/</guid>
+      <guid>https://thinkuldeep.com/post/the-driving-forces-iot/</guid>
       <description>Everybody in the software industry is talking about IoT in terms of billions of devices, their growth in coming years, changing business models, and adaptation of the IoT in the market. Connecting the things has become so prevalent nowadays, that every software company wants to expand in IoT by building IoT-centric products and services.
 There are many industrial applications which connect to sensors and actuators, and can be controlled remotely. They have been around for a long time.</description>
     </item>
     
     <item>
       <title>SIGFOX - An Introduction</title>
-      <link>https://thinkuldeep.github.io/post/sigfox-an-introduction/</link>
+      <link>https://thinkuldeep.com/post/sigfox-an-introduction/</link>
       <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/sigfox-an-introduction/</guid>
+      <guid>https://thinkuldeep.com/post/sigfox-an-introduction/</guid>
       <description>SIGFOX is providing a communication solution dedicated to the Internet of Things
 Dedicated to the IOT means:
  Simplicity: No configuration, no pairing, no signaling Autonomy: Very low energy consumption, allowing years of autonomy on battery without maintenance Small messages: No large assets or multimedia, only small messages  It is a LPWA (Low-Power Wide-Area) network, currently operating in 20 countries in Europe, Americas and Asia/Pacific. Communications over the SIGFOX network are bi-directional: uplink from device &amp;amp; downlink to the device.</description>

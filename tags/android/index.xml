@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>android on Kuldeep Singh</title>
-    <link>https://thinkuldeep.github.io/tags/android/</link>
+    <link>https://thinkuldeep.com/tags/android/</link>
     <description>Recent content in android on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 May 2020 10:58:08 -0400</lastBuildDate>
     
-	<atom:link href="https://thinkuldeep.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thinkuldeep.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>A new form of WebXR</title>
-      <link>https://thinkuldeep.github.io/post/a-new-form-of-webxr/</link>
+      <link>https://thinkuldeep.com/post/a-new-form-of-webxr/</link>
       <pubDate>Wed, 27 May 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/a-new-form-of-webxr/</guid>
+      <guid>https://thinkuldeep.com/post/a-new-form-of-webxr/</guid>
       <description>Accessing native XR features from the device using a web page is another form of WebXR.
 In this article, I want to share an experiment where I tried to control the android device’s native features such as controlling volume and camera torch from a web page. This use case can be really useful in the XR world, where I can control the feature access in the device from cloud services, even the whole look and feel for showing the device controls can be managed from a hosted web page.</description>
     </item>
     
     <item>
       <title>Run a 2D App in XR Container</title>
-      <link>https://thinkuldeep.github.io/post/run-a-2d-app-in-xr-container/</link>
+      <link>https://thinkuldeep.com/post/run-a-2d-app-in-xr-container/</link>
       <pubDate>Sat, 16 May 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/run-a-2d-app-in-xr-container/</guid>
+      <guid>https://thinkuldeep.com/post/run-a-2d-app-in-xr-container/</guid>
       <description>There are a number of Enterprise XR use cases where we have a need to open the existing 2D apps in the XR devices in a wrapper app, and this article covers a concept, have a look!
 After trying the OS level customization on an XR device, you may like to run your XR apps as a system app. Here is a simple article by Raju K
  Android System Apps development - Android Emulator Setup and guidelines to develop system applications</description>
@@ -34,59 +34,59 @@ After trying the OS level customization on an XR device, you may like to run you
     
     <item>
       <title>OS Customization for XR Device</title>
-      <link>https://thinkuldeep.github.io/post/os-customization-for-xr-devices/</link>
+      <link>https://thinkuldeep.com/post/os-customization-for-xr-devices/</link>
       <pubDate>Sun, 10 May 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/os-customization-for-xr-devices/</guid>
+      <guid>https://thinkuldeep.com/post/os-customization-for-xr-devices/</guid>
       <description>The Operating System of XR (AR VR) devices is mostly customized to the hardware of the device, and not just that the OS level customizations are needed to meet the enterprise needs such as integration with Enterprise MDM (Mobile Device Management) solutions (such as Intune, MobileIron and Airwatch), 3D lock screen, idle-timeout, custom home screen, custom settings, security, as so on.
 Most organizations currently using traditional hardware and software assets such as mobile devices, laptops, and desktops, and the processes and policies for managing these devices are quite stable and straightforward by now.</description>
     </item>
     
     <item>
       <title>User Account Management In XR</title>
-      <link>https://thinkuldeep.github.io/post/user-account-management-in-xr/</link>
+      <link>https://thinkuldeep.com/post/user-account-management-in-xr/</link>
       <pubDate>Sun, 26 Apr 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/user-account-management-in-xr/</guid>
+      <guid>https://thinkuldeep.com/post/user-account-management-in-xr/</guid>
       <description>In the previous article, we described the importance of interoperability in while building Enterprise XR solutions, In the article, we will discuss how to manage user accounts in the XR device, and implement single sign-on across the XR apps. We will use Android’s AccountManger approach to login into active directory and integrated it into Unity. Please read my earlier article on setting up the app in active directory, log in using android webview, considering a web-based company login form should appear for login, and no custom login form is allowed to capture the credentials.</description>
     </item>
     
     <item>
       <title>Enterprise XR - Interoperability</title>
-      <link>https://thinkuldeep.github.io/post/enterprise-xr-interoperability/</link>
+      <link>https://thinkuldeep.com/post/enterprise-xr-interoperability/</link>
       <pubDate>Sat, 28 Mar 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/enterprise-xr-interoperability/</guid>
+      <guid>https://thinkuldeep.com/post/enterprise-xr-interoperability/</guid>
       <description>In the previous article, we discussed implementing multi-factor authentication for an andorid application, and in the article we will cover another enterprise aspect, Interoperability.
 Interoperability is key aspect when we build enterprise solutions using XR technologies. The enterprises have digital assets in form of mobile apps, libraries, system APIs, and they can’t just throw away these existing investments, in fact, the XR apps must be implemented in such a way that it is interoperable with them seamlessly.</description>
     </item>
     
     <item>
       <title>Enterprise XR - Multi-Factor Authentication</title>
-      <link>https://thinkuldeep.github.io/post/enterprise-xr-multi-factor-authentication/</link>
+      <link>https://thinkuldeep.com/post/enterprise-xr-multi-factor-authentication/</link>
       <pubDate>Wed, 25 Mar 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/enterprise-xr-multi-factor-authentication/</guid>
+      <guid>https://thinkuldeep.com/post/enterprise-xr-multi-factor-authentication/</guid>
       <description>XR use cases are growing with advancements in the devices, internet and development technologies. There is an ever-growing demand to build enterprise use cases using ARVR technology. Most enterprise use cases eventually require integration with an enterprise ecosystem such as IAM (Identity and Access Management), ERP, CRM, and single sign-on with other systems.
 Most organizations protect digital assets with a single sign-on using Multiple Factor Authentication (MFA). The MFA is generally a web-browser based authentication where the browser redirects to tenant’s authentication page where the user provides their credentials and then the user confirms another factor (PIN, OTP, SMS or mobile notifications), once it succeeds, it gets redirected back to the protected resource.</description>
     </item>
     
     <item>
       <title>Exploring the Smart Glasses</title>
-      <link>https://thinkuldeep.github.io/post/exploring-google-glass/</link>
+      <link>https://thinkuldeep.com/post/exploring-google-glass/</link>
       <pubDate>Mon, 20 Feb 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/exploring-google-glass/</guid>
+      <guid>https://thinkuldeep.com/post/exploring-google-glass/</guid>
       <description>This article describes the fundamentals of light-weight smart glasses such as Google Glass and Vuzix M100 It also explain the development practices with pros and cons of its usage, limitation and future of these glasses in our lives.
 Google Glass Enterprise Edition Google Glass enterprise edition is a plain Android based smart glass that you can wear and performs operations just like a smartphone and with the use of a small screen located in the front of your right eye can perform a decent range of tasks.</description>
     </item>
     
     <item>
       <title>Exploring AndroidThings IoT</title>
-      <link>https://thinkuldeep.github.io/post/exploring-android-things/</link>
+      <link>https://thinkuldeep.com/post/exploring-android-things/</link>
       <pubDate>Sun, 10 Apr 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/exploring-android-things/</guid>
+      <guid>https://thinkuldeep.com/post/exploring-android-things/</guid>
       <description>Android Things, an android based embedded operating system, is the new “it” thing in the Internet of Things(IOT) space. Developed by Google under the codename “Brillo, a.k.a. Project Brillo”, it takes the usual Android development stack—Android Studio, the official SDK, and Google Play Services—and applies it to the IOT.
 Google formally took the veils off of Brillo at its I/O 2015 conference. It is aimed to be used with low-power and memory constrained IOT devices, allowing the developers to build a smart device using Android APIs and Google Services.</description>
     </item>

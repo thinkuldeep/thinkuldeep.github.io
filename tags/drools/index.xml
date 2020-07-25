@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>drools on Kuldeep Singh</title>
-    <link>https://thinkuldeep.github.io/tags/drools/</link>
+    <link>https://thinkuldeep.com/tags/drools/</link>
     <description>Recent content in drools on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Mar 2012 10:58:08 -0400</lastBuildDate>
     
-	<atom:link href="https://thinkuldeep.github.io/tags/drools/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thinkuldeep.com/tags/drools/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rule Engine - Getting Started with Drools</title>
-      <link>https://thinkuldeep.github.io/post/rule-engine-getting-started/</link>
+      <link>https://thinkuldeep.com/post/rule-engine-getting-started/</link>
       <pubDate>Sat, 03 Mar 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/rule-engine-getting-started/</guid>
+      <guid>https://thinkuldeep.com/post/rule-engine-getting-started/</guid>
       <description>This article let you start with Rule Engine Drools, with step by step guide and series of examples. It starts with an overview and then covers in detail examples.
 Rule Engine Overview The underlying idea of a rule engine is to externalize the business or application logic. A rule engine can be viewed as a sophisticated interpreter of if-then statements. The if-then statements are the rules. A rule is composed of two parts, a condition and an action: When the condition is met, the action is executed.</description>
     </item>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>design on Kuldeep Singh</title>
-    <link>https://thinkuldeep.github.io/tags/design/</link>
+    <link>https://thinkuldeep.com/tags/design/</link>
     <description>Recent content in design on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 05 Nov 2018 10:58:08 -0400</lastBuildDate>
     
-	<atom:link href="https://thinkuldeep.github.io/tags/design/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thinkuldeep.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Software Development as a Design Process</title>
-      <link>https://thinkuldeep.github.io/post/software-development-as-design-process/</link>
+      <link>https://thinkuldeep.com/post/software-development-as-design-process/</link>
       <pubDate>Mon, 05 Nov 2018 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.github.io/post/software-development-as-design-process/</guid>
+      <guid>https://thinkuldeep.com/post/software-development-as-design-process/</guid>
       <description>The book &amp;ldquo;Agile IT Organization Design - For digital transformation and continuous delivery&amp;rdquo; by Sriram Narayan explains software development as a design process. Following statement from the book means a lot.
  &amp;ldquo;Software development is a design process, and the production environment is the factory where product takes place. IT OPS work to keep the factory running..&amp;rdquo;
  It questions the way we traditionally think of operation support, maintenance, production bugs, rework, their costs and budgets and the focus in software development life.</description>

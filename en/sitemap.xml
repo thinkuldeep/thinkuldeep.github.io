@@ -4,42 +4,42 @@
   
   <url>
     <loc>https://thinkuldeep.com/tags/developer-summit/</loc>
-    <lastmod>2020-08-20T10:58:08-04:00</lastmod>
+    <lastmod>2020-09-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://thinkuldeep.com/tags/event/</loc>
-    <lastmod>2020-08-20T10:58:08-04:00</lastmod>
+    <lastmod>2020-09-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://thinkuldeep.com/tags/spatialweb/</loc>
-    <lastmod>2020-08-20T10:58:08-04:00</lastmod>
+    <lastmod>2020-09-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://thinkuldeep.com/tags/speaker/</loc>
-    <lastmod>2020-08-20T10:58:08-04:00</lastmod>
+    <lastmod>2020-09-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://thinkuldeep.com/event/gids_2020_blr_spatialweb/</loc>
-    <lastmod>2020-08-20T10:58:08-04:00</lastmod>
+    <lastmod>2020-09-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://thinkuldeep.com/tags/</loc>
-    <lastmod>2020-08-20T10:58:08-04:00</lastmod>
+    <lastmod>2020-09-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -56,14 +56,14 @@
   
   <url>
     <loc>https://thinkuldeep.com/tags/talk/</loc>
-    <lastmod>2020-08-20T10:58:08-04:00</lastmod>
+    <lastmod>2020-09-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://thinkuldeep.com/</loc>
-    <lastmod>2020-08-20T10:58:08-04:00</lastmod>
+    <lastmod>2020-09-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -80,7 +80,7 @@
   
   <url>
     <loc>https://thinkuldeep.com/tags/xr/</loc>
-    <lastmod>2020-08-20T10:58:08-04:00</lastmod>
+    <lastmod>2020-09-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -138,6 +138,65 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.com/tags/experience/</loc>
+    <lastmod>2020-08-03T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/hackathon/</loc>
+    <lastmod>2020-08-03T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/judge/</loc>
+    <lastmod>2020-08-03T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/event/sih-2020/</loc>
+    <lastmod>2020-08-03T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/mentor/</loc>
+    <lastmod>2020-08-03T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/sih/</loc>
+    <lastmod>2020-08-03T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/takeaways/</loc>
+    <lastmod>2020-08-03T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/tags/takeaways/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/takeaways/"
+                />
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.com/tags/ai/</loc>
     <lastmod>2020-07-11T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -173,21 +232,7 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.com/tags/hackathon/</loc>
-    <lastmod>2020-07-02T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.com/tags/innovation/</loc>
-    <lastmod>2020-07-02T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/judge/</loc>
     <lastmod>2020-07-02T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -629,23 +674,6 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.com/tags/takeaways/</loc>
-    <lastmod>2020-05-03T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/tags/takeaways/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/takeaways/"
-                />
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.com/post/user-account-management-in-xr/</loc>
     <lastmod>2020-04-26T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -964,13 +992,6 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.com/tags/experience/</loc>
-    <lastmod>2019-04-10T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.com/tags/modernization/</loc>
     <lastmod>2019-04-10T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1003,20 +1024,6 @@
   
   <url>
     <loc>https://thinkuldeep.com/event/sih_2019_an_experience/</loc>
-    <lastmod>2019-03-07T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/mentor/</loc>
-    <lastmod>2019-03-07T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/sih/</loc>
     <lastmod>2019-03-07T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

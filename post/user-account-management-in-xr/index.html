@@ -40,7 +40,7 @@
 <meta itemprop="description" content="In the previous article, we described the importance of interoperability in while building Enterprise XR solutions, In the article, we will discuss how to manage user accounts in the XR device, and implement single sign-on across the XR apps. We will use Android’s AccountManger approach to login into active directory and integrated it into Unity. Please read my earlier article on setting up the app in active directory, log in using android webview, considering a web-based company login form should appear for login, and no custom login form is allowed to capture the credentials.">
 <meta itemprop="datePublished" content="2020-04-26T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2020-04-26T10:58:08-04:00" />
-<meta itemprop="wordCount" content="2140">
+<meta itemprop="wordCount" content="2064">
 
 
 
@@ -73,7 +73,7 @@ if (!doNotTrack) {
 
   
   
-  <header class="cover bg-top" style="background-image: url('https://thinkuldeep.com/images/user-account-management-in-xr1.gif');">
+  <header class="cover bg-top" style="background-image: url('https://thinkuldeep.com/images/user-account-xr-1.png');">
     <div class="pb3-m pb6-l bg-black-60" style="background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.1));">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
@@ -293,13 +293,12 @@ if (!doNotTrack) {
 
       
       
-        <span class="f6 mv4 dib tracked"> - 11 minutes read</span>
-        <span class="f6 mv4 dib tracked"> - 2140 words</span>
+        <span class="f6 mv4 dib tracked"> - 10 minutes read</span>
+        <span class="f6 mv4 dib tracked"> - 2064 words</span>
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In the <a href="https://medium.com/xrpractices/enterprise-xr-multi-factor-authentication-part-2-424ae7c09f13">previous article</a>, we described the importance of interoperability in while building Enterprise XR solutions, In the article, we will discuss how to manage user accounts in the XR device, and implement single sign-on across the XR apps. We will use Android’s AccountManger approach to login into active directory and integrated it into Unity.
-Please read my earlier article on setting up the app in active directory, log in using android webview, considering a web-based company login form should appear for login, and no custom login form is allowed to capture the credentials.
-<a href=""><img src="/images/user-account-xr-1.png" alt="Title"></a></p>
+Please read my earlier article on setting up the app in active directory, log in using android webview, considering a web-based company login form should appear for login, and no custom login form is allowed to capture the credentials.</p>
 <h2 id="implement-android-library-with-custom-accountauthenticator">Implement Android Library with custom AccountAuthenticator</h2>
 <p>We will continue from the last section of the previous article, which has WebViewActivity which launch webview for logon.</p>
 <h3 id="webview-login-activity">Webview Login Activity</h3>
@@ -308,34 +307,19 @@ Please read my earlier article on setting up the app in active directory, log in
 <span style="color:#f92672">...</span>
 <span style="color:#66d9ef">private</span> WebView webView<span style="color:#f92672">;</span>
 
-<span style="color:#a6e22e">@Override</span>
-<span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>Bundle savedInstanceState<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-    <span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>savedInstanceState<span style="color:#f92672">);</span>
-    <span style="color:#66d9ef">final</span> String interceptScheme <span style="color:#f92672">=</span>    
-       getIntent<span style="color:#f92672">().</span><span style="color:#a6e22e">getStringExtra</span><span style="color:#f92672">(</span>INTENT_INPUT_INTERCEPT_SCHEME<span style="color:#f92672">);</span>
-    <span style="color:#66d9ef">final</span> String url <span style="color:#f92672">=</span> getIntent<span style="color:#f92672">().</span><span style="color:#a6e22e">getStringExtra</span><span style="color:#f92672">(</span>INTENT_INPUT_URL<span style="color:#f92672">);</span>
-
-    webView <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> WebView<span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">);</span>
-    
-    <span style="color:#f92672">...</span>
-<span style="color:#f92672">}</span>
 <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">launchActivity</span><span style="color:#f92672">(</span>Activity activity<span style="color:#f92672">,</span> String url<span style="color:#f92672">,</span> String redirectURI<span style="color:#f92672">,</span> IResponseCallBack callBack<span style="color:#f92672">){</span>
     Intent intent <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Intent<span style="color:#f92672">(</span>activity<span style="color:#f92672">,</span> WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">);</span>
-    intent<span style="color:#f92672">.</span><span style="color:#a6e22e">putExtra</span><span style="color:#f92672">(</span>WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">INTENT_INPUT_INTERCEPT_SCHEME</span><span style="color:#f92672">,</span> redirectURI<span style="color:#f92672">);</span>
-    intent<span style="color:#f92672">.</span><span style="color:#a6e22e">putExtra</span><span style="color:#f92672">(</span>WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">INTENT_INPUT_URL</span><span style="color:#f92672">,</span> url<span style="color:#f92672">);</span>
-    intent<span style="color:#f92672">.</span><span style="color:#a6e22e">putExtra</span><span style="color:#f92672">(</span>WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">INTENT_RESPONSE_CALLBACK</span><span style="color:#f92672">,</span> <span style="color:#66d9ef">new</span> CustomReceiver<span style="color:#f92672">(</span>callBack<span style="color:#f92672">));</span>
+    intent<span style="color:#f92672">.</span><span style="color:#a6e22e">putExtra</span><span style="color:#f92672">(</span>INTENT_INPUT_INTERCEPT_SCHEME<span style="color:#f92672">,</span> redirectURI<span style="color:#f92672">);</span>
+    intent<span style="color:#f92672">.</span><span style="color:#a6e22e">putExtra</span><span style="color:#f92672">(</span>INTENT_INPUT_URL<span style="color:#f92672">,</span> url<span style="color:#f92672">);</span>
+    intent<span style="color:#f92672">.</span><span style="color:#a6e22e">putExtra</span><span style="color:#f92672">(</span>INTENT_RESPONSE_CALLBACK<span style="color:#f92672">,</span> <span style="color:#66d9ef">new</span> CustomReceiver<span style="color:#f92672">(</span>callBack<span style="color:#f92672">));</span>
     activity<span style="color:#f92672">.</span><span style="color:#a6e22e">startActivity</span><span style="color:#f92672">(</span>intent<span style="color:#f92672">);</span>
   <span style="color:#f92672">}</span>
 <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CustomReceiver</span> <span style="color:#66d9ef">extends</span> ResultReceiver<span style="color:#f92672">{</span>
  <span style="color:#f92672">...</span>
   <span style="color:#a6e22e">@Override</span>
-  <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onReceiveResult</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> resultCode<span style="color:#f92672">,</span> Bundle resultData<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-    <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">INTENT_RESULT_CODE</span> <span style="color:#f92672">==</span> resultCode<span style="color:#f92672">){</span>
-      String code <span style="color:#f92672">=</span> resultData<span style="color:#f92672">.</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">INTENT_RESULT_PARAM_NAME</span><span style="color:#f92672">);</span>
-      callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnSuccess</span><span style="color:#f92672">(</span>code<span style="color:#f92672">);</span>
-    <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
-      callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Not a valid code&#34;</span><span style="color:#f92672">);</span>
-    <span style="color:#f92672">}</span>
+  <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onReceiveResult</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> resultCode<span style="color:#f92672">,</span> Bundle resultData<span style="color:#f92672">)</span> <span style="color:#f92672">{</span> 
+     String code <span style="color:#f92672">=</span> resultData<span style="color:#f92672">.</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>INTENT_RESULT_PARAM_NAME<span style="color:#f92672">);</span>
+     callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnSuccess</span><span style="color:#f92672">(</span>code<span style="color:#f92672">);</span>
   <span style="color:#f92672">}</span>
 <span style="color:#f92672">}</span>
 </code></pre></div><h3 id="create-binding-service-for-custom-account-type">Create binding service for custom Account Type</h3>
@@ -364,7 +348,7 @@ Please read my earlier article on setting up the app in active directory, log in
 </code></pre></div><ul>
 <li>Create a service to bind the custom authenticator</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AccountAuthenticatorService</span> <span style="color:#66d9ef">extends</span> Service <span style="color:#f92672">{</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyAuthenticatorService</span> <span style="color:#66d9ef">extends</span> Service <span style="color:#f92672">{</span>
   <span style="color:#a6e22e">@Override</span>
   <span style="color:#66d9ef">public</span> IBinder <span style="color:#a6e22e">onBind</span><span style="color:#f92672">(</span>Intent intent<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
     AccountAuthenticator authenticator <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> AccountAuthenticator<span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">);</span>
@@ -374,7 +358,7 @@ Please read my earlier article on setting up the app in active directory, log in
 </code></pre></div><ul>
 <li>Add the service in Android Manifest in the application tag</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#f92672">&lt;service</span> <span style="color:#a6e22e">android:name=</span><span style="color:#e6db74">&#34;com.tw.userauthenticator.AccountAuthenticatorService&#34;</span><span style="color:#f92672">&gt;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#f92672">&lt;service</span> <span style="color:#a6e22e">android:name=</span><span style="color:#e6db74">&#34;package.MyAuthenticatorService&#34;</span><span style="color:#f92672">&gt;</span>
     <span style="color:#f92672">&lt;intent-filter&gt;</span>
       <span style="color:#f92672">&lt;action</span> <span style="color:#a6e22e">android:name=</span><span style="color:#e6db74">&#34;android.accounts.AccountAuthenticator&#34;</span> <span style="color:#f92672">/&gt;</span>
     <span style="color:#f92672">&lt;/intent-filter&gt;</span>
@@ -393,17 +377,7 @@ Please read my earlier article on setting up the app in active directory, log in
 </code></pre></div><p>This adds support for account type “com.tw.user”. The app which includes this library will intercept the request for this type.</p>
 <h3 id="manage-accounts-of-custom-type">Manage Accounts of Custom Type</h3>
 <p>Let&rsquo;s add class to manage user accounts.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UserAccountManager</span> <span style="color:#f92672">{</span>
-
-  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String KEY_ACCOUNT_TYPE <span style="color:#f92672">=</span> AccountManager<span style="color:#f92672">.</span><span style="color:#a6e22e">KEY_ACCOUNT_TYPE</span><span style="color:#f92672">;</span>
-  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String KEY_ACCOUNT_NAME <span style="color:#f92672">=</span> AccountManager<span style="color:#f92672">.</span><span style="color:#a6e22e">KEY_ACCOUNT_NAME</span><span style="color:#f92672">;</span>
-  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String KEY_USER_NAME <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;userName&#34;</span><span style="color:#f92672">;</span>
- <span style="color:#f92672">...</span>
-  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String KEY_AUTH_TOKEN <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;authToken&#34;</span><span style="color:#f92672">;</span>
-  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String ACCOUNT_TYPE <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;com.tw.user&#34;</span><span style="color:#f92672">;</span>
- <span style="color:#f92672">...</span>
-<span style="color:#f92672">}</span>
-</code></pre></div><p>Now let&rsquo;s add methods to this class, to manage account</p>
+<p>Now let&rsquo;s add methods to this class, to manage account</p>
 <ul>
 <li><strong>Add User Account</strong> — This method adds an account to android AccountManager. Since we are trying to add an account of type “com.tw.user”, binder service will call our AccountAuthenticator.addAccount. We may do data validation there, however, we are currently returning the same bundle there. After this, it will call AccountManagerCallback which we have provided in the addAccount call below.</li>
 </ul>
@@ -501,7 +475,7 @@ Please read my earlier article on setting up the app in active directory, log in
 <p>On clicking Login button, the following logic opens the WebViewActivity implemented in the Android library and load the provided URL.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> OnLoginClicked()
 {
-  AndroidJavaClass WebViewActivity = <span style="color:#66d9ef">new</span> AndroidJavaClass(<span style="color:#e6db74">&#34;com.tw.userauthenticator.WebViewActivity&#34;</span>);
+  AndroidJavaClass WebViewActivity = <span style="color:#66d9ef">new</span> AndroidJavaClass(<span style="color:#e6db74">&#34;package.WebViewActivity&#34;</span>);
   _statusLabel = <span style="color:#e6db74">&#34;&#34;</span>;
   AndroidJavaObject context = getUnityContext();
   WebViewActivity.CallStatic(<span style="color:#e6db74">&#34;launchActivity&#34;</span>, context, authUri, redirectUri,
@@ -511,7 +485,7 @@ Please read my earlier article on setting up the app in active directory, log in
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">LoginResponseCallback</span> : AndroidJavaProxy
 {
   <span style="color:#66d9ef">private</span> ButtonController _controller;
-  <span style="color:#66d9ef">public</span> LoginResponseCallback(ButtonController controller) : <span style="color:#66d9ef">base</span>(<span style="color:#e6db74">&#34;com.tw.userauthenticator.IResponseCallBack&#34;</span>)
+  <span style="color:#66d9ef">public</span> LoginResponseCallback(ButtonController controller) : <span style="color:#66d9ef">base</span>(<span style="color:#e6db74">&#34;package.IResponseCallBack&#34;</span>)
   {
     _controller = controller;
   }
@@ -580,7 +554,7 @@ IEnumerator getToken(<span style="color:#66d9ef">string</span> code)
 </code></pre></div><p>Once we have all the detail for the account, we call the add account to android accounts using the library APIs.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> AddAccount(TokenUserData userData, TokenResponse tokenResponse)
 {
-  AndroidJavaClass AccountManager = <span style="color:#66d9ef">new</span> AndroidJavaClass(<span style="color:#e6db74">&#34;com.tw.userauthenticator.UserAccountManager&#34;</span>);
+  AndroidJavaClass AccountManager = <span style="color:#66d9ef">new</span> AndroidJavaClass(<span style="color:#e6db74">&#34;pakcage.UserAccountManager&#34;</span>);
 
   UserAccountData accountData = <span style="color:#66d9ef">new</span> UserAccountData();
   accountData.userName = userData.given_name +<span style="color:#e6db74">&#34; &#34;</span> + userData.family_name ;
@@ -596,14 +570,14 @@ IEnumerator getToken(<span style="color:#66d9ef">string</span> code)
 <p>On Get LoggedIn User, call a respective method from the android library.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> OnGetLoggedUserClicked()
 {
-  AndroidJavaClass AccountManager = <span style="color:#66d9ef">new</span> AndroidJavaClass(<span style="color:#e6db74">&#34;com.tw.userauthenticator.UserAccountManager&#34;</span>);
+  AndroidJavaClass AccountManager = <span style="color:#66d9ef">new</span> AndroidJavaClass(<span style="color:#e6db74">&#34;package.UserAccountManager&#34;</span>);
   AccountManager.CallStatic(<span style="color:#e6db74">&#34;getLoggedInUser&#34;</span>, getUnityContext(), <span style="color:#66d9ef">new</span> LoginResponseCallback(<span style="color:#66d9ef">false</span>, <span style="color:#66d9ef">this</span>));
 } 
 </code></pre></div><h3 id="logout--remove-account-to-android-accounts">Logout — Remove Account to Android Accounts</h3>
 <p>On logout, call remove the account.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> OnLogoutClicked()
 {
-    AndroidJavaClass AccountManager = <span style="color:#66d9ef">new</span> AndroidJavaClass(<span style="color:#e6db74">&#34;com.tw.userauthenticator.UserAccountManager&#34;</span>);
+    AndroidJavaClass AccountManager = <span style="color:#66d9ef">new</span> AndroidJavaClass(<span style="color:#e6db74">&#34;poackage.UserAccountManager&#34;</span>);
     AccountManager.CallStatic(<span style="color:#e6db74">&#34;removeAccount&#34;</span>, getUnityContext(),   
    <span style="color:#66d9ef">new</span> LogoutResponseCallback());
 }

@@ -40,7 +40,7 @@
 <meta itemprop="description" content="Interoperability is the key aspect in building enterprise XR solutions">
 <meta itemprop="datePublished" content="2020-03-28T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2020-03-28T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1799">
+<meta itemprop="wordCount" content="1741">
 
 
 
@@ -298,7 +298,7 @@ if (!doNotTrack) {
       
       
         <span class="f6 mv4 dib tracked"> - 9 minutes read</span>
-        <span class="f6 mv4 dib tracked"> - 1799 words</span>
+        <span class="f6 mv4 dib tracked"> - 1741 words</span>
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In the <a href="/post/enterprise-xr-multi-factor-authentication">previous article</a>, we discussed implementing multi-factor authentication for an andorid application, and in the article we will cover another enterprise aspect, Interoperability.</p>
@@ -348,8 +348,7 @@ medium.com</p>
     <span style="color:#f92672">}</span>
 <span style="color:#f92672">}</span>
 </code></pre></div><ul>
-<li>Go to <code>Build &gt; Make Module “userauthenticator”</code>  — It will generate aar file. under <code>build/outputs/aar</code>
-<img src="https://miro.medium.com/max/1388/1*B7Skd8qTyCN_o7baalNQqg.png" alt="output"></li>
+<li>Go to <code>Build &gt; Make Module “userauthenticator”</code>  — It will generate aar file. under <code>build/outputs/aar</code></li>
 </ul>
 <p>This is the library that can be integrated with Unity in C#. The next section describes how it can be used in Unity.</p>
 <h2 id="build-an-xr-app-in-unity">Build an XR app in Unity</h2>
@@ -373,13 +372,7 @@ medium.com</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ButtonController</span> : MonoBehaviour
 {
     <span style="color:#66d9ef">private</span> AndroidJavaObject _userAuthenticator;
-<span style="color:#a6e22e">    [SerializeField]</span> <span style="color:#66d9ef">private</span> InputField inputFieldUserName;
-<span style="color:#a6e22e">    [SerializeField]</span> <span style="color:#66d9ef">private</span> Button loginButton;
-<span style="color:#a6e22e">    [SerializeField]</span> <span style="color:#66d9ef">private</span> Text loginResponse;
-<span style="color:#a6e22e">    [SerializeField]</span> <span style="color:#66d9ef">private</span> Button logoutButton;
-<span style="color:#a6e22e">    [SerializeField]</span> <span style="color:#66d9ef">private</span> Text logoutResponse;
-<span style="color:#a6e22e">    [SerializeField]</span> <span style="color:#66d9ef">private</span> Button getLoggedInUserButton;
-<span style="color:#a6e22e">    [SerializeField]</span> <span style="color:#66d9ef">private</span> Text getLoggerInUserResponse;
+...
     <span style="color:#66d9ef">void</span> Start()
     {
         AndroidJavaClass userAuthenticatorClass = <span style="color:#66d9ef">new</span> AndroidJavaClass(<span style="color:#e6db74">&#34;com.tw.userauthenticator.UserAuthenticator&#34;</span>);
@@ -549,7 +542,6 @@ medium.com</p>
 <li>User Authenticators Login method invokes the web-view activity with an SSO URL, and callback.</li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">login</span><span style="color:#f92672">(</span>IResponseCallBack callBack<span style="color:#f92672">,</span> Context context<span style="color:#f92672">){</span>
-    Log<span style="color:#f92672">.</span><span style="color:#a6e22e">d</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;@@UserAuthenticator&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Login called&#34;</span><span style="color:#f92672">);</span>
    <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>accessToken <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> accessToken<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
        Intent intent <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Intent<span style="color:#f92672">(</span>context<span style="color:#f92672">,</span> WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">);</span>
       intent<span style="color:#f92672">.</span><span style="color:#a6e22e">putExtra</span><span style="color:#f92672">(</span>WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">INTENT_INPUT_INTERCEPT_SCHEME</span><span style="color:#f92672">,</span>  
@@ -575,7 +567,7 @@ medium.com</p>
     <span style="color:#a6e22e">@Override</span>
     <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onReceiveResult</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> resultCode<span style="color:#f92672">,</span> Bundle resultData<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
         <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">INTENT_RESULT_CODE</span> <span style="color:#f92672">==</span> resultCode<span style="color:#f92672">){</span>
-            String code <span style="color:#f92672">=</span> resultData<span style="color:#f92672">.</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">INTENT_RESULT_PARAM_NAME</span><span style="color:#f92672">);</span>
+            String code <span style="color:#f92672">=</span> resultData<span style="color:#f92672">.</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>INTENT_RESULT_PARAM_NAME<span style="color:#f92672">);</span>
             AsyncTask<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">,</span> Void<span style="color:#f92672">,</span> String<span style="color:#f92672">&gt;</span> getToken <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GetTokenAsyncTask<span style="color:#f92672">(</span>callBack<span style="color:#f92672">);</span>
             getToken<span style="color:#f92672">.</span><span style="color:#a6e22e">execute</span><span style="color:#f92672">(</span>code<span style="color:#f92672">);</span>
         <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
@@ -586,7 +578,7 @@ medium.com</p>
 </code></pre></div><ul>
 <li>The <code>access_token</code> is used in getting the user name from the Azure Graph API. This completes the refactoring. The source code is attached at the end.</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">getLoggedInUser</span><span style="color:#f92672">(</span>IResponseCallBack callBack<span style="color:#f92672">){</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">getUser</span><span style="color:#f92672">(</span>IResponseCallBack callBack<span style="color:#f92672">){</span>
     <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>loggedInUserName <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> loggedInUserName<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
         <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>accessToken <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span>accessToken<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
       <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
@@ -615,13 +607,8 @@ medium.com</p>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"> <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> Update()
 {
-    loginResponse.text = labels[login];
-    loginResponse.color = colors[login];
-    logoutResponse.text = labels[logout];
-    logoutResponse.color = colors[logout];
-    getLoggerInUserResponse.text = labels[getuser];
-    getLoggerInUserResponse.color = colors[getuser];
-}
+    <span style="color:#75715e">//set text and color for response lables 
+</span><span style="color:#75715e"></span>}
 <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AuthResponseCallback</span> : AndroidJavaProxy
 {
     <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">int</span> index;
@@ -647,14 +634,9 @@ We need to use a custom Gradle template in Unity, Go to <code>File &gt; Build Se
 <img src="https://miro.medium.com/max/1236/1*CQU5p0zL2bZWR0T9qI4rww.png" alt="CustomGradle template">
 Add the following dependency in the Gradle template. Make sure don’t change <code>**DEPS**</code>
 <img src="https://miro.medium.com/max/1400/1*_5-pm64f2GmOFbBR8Vt4Nw.png" alt="Deps">
-Build/Export the project and run on Android. You have completed the native integration. Here is a demo of integrated SSO in Unity.
-Logs :</li>
+Build/Export the project and run on Android. You have completed the native integration. Here is a demo of integrated SSO in Unity.</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">@@@@TAG: shouldOverrideUrlLoading https://login.microsoftonline.com/c...
-D/@@@@TAG: shouldOverrideUrlLoading xrapp://auth-response/?code=OAQABAAIAAAAm- ...
-D/@@@@TAG: sent response: -&gt; OAQABAAIAAAAm-06blBE1TpVMil8KPQ41w8xt2ZjP8RCWskix73dMwtoNalVsN2KdR5mm4bnq
-D/@@UserAuthenticator: doInBackgroud: access_token=eyJ0eXAiOiJKV1QiLCJub25jZSI6Imo1ZWRrRF9lM0dUU3VBe
-</code></pre></div><p><img src="https://miro.medium.com/max/534/1*wYjYmDMf1mduqnACwJjyqQ.gif" style="height:50%; width:50%"></img></p>
+<p><img src="https://miro.medium.com/max/534/1*wYjYmDMf1mduqnACwJjyqQ.gif" style="height:50%; width:50%"></img></p>
 <p>Source code can be found at following git repo — <a href="https://github.com/thinkuldeep/xr-user-authentication">Android Library</a>, <a href="https://github.com/thinkuldeep/3DUserAuthenticator/tree/part2">Unity App</a></p>
 <h2 id="conclusion">Conclusion</h2>
 <p>This article describes the basics of interoperability between XR apps and android native libraries. In the next article, we will how to share the user context across XR apps.</p>

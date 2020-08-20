@@ -40,7 +40,7 @@
 <meta itemprop="description" content="Multi-Factor Authentication is the key aspect of building enterprise XR solutions">
 <meta itemprop="datePublished" content="2020-03-25T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2020-03-25T10:58:08-04:00" />
-<meta itemprop="wordCount" content="977">
+<meta itemprop="wordCount" content="951">
 
 
 
@@ -298,7 +298,7 @@ if (!doNotTrack) {
       
       
         <span class="f6 mv4 dib tracked"> - 5 minutes read</span>
-        <span class="f6 mv4 dib tracked"> - 977 words</span>
+        <span class="f6 mv4 dib tracked"> - 951 words</span>
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>XR use cases are growing with advancements in the devices, internet and development technologies. There is an ever-growing demand to build enterprise use cases using ARVR technology. Most enterprise use cases eventually require integration with an enterprise ecosystem such as IAM (Identity and Access Management), ERP, CRM, and single sign-on with other systems.</p>
@@ -338,20 +338,16 @@ Understand the MainActivity and Android Manifest file.</p>
     <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>Bundle savedInstanceState<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
         <span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>savedInstanceState<span style="color:#f92672">);</span>
         myWebView <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> WebView<span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">);</span>
-        myWebView<span style="color:#f92672">.</span><span style="color:#a6e22e">setLayoutParams</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> ViewGroup<span style="color:#f92672">.</span><span style="color:#a6e22e">LayoutParams</span><span style="color:#f92672">(</span>ViewGroup<span style="color:#f92672">.</span><span style="color:#a6e22e">LayoutParams</span><span style="color:#f92672">.</span><span style="color:#a6e22e">MATCH_PARENT</span><span style="color:#f92672">,</span> ViewGroup<span style="color:#f92672">.</span><span style="color:#a6e22e">LayoutParams</span><span style="color:#f92672">.</span><span style="color:#a6e22e">FILL_PARENT</span><span style="color:#f92672">));</span>
         WebSettings settings <span style="color:#f92672">=</span> myWebView<span style="color:#f92672">.</span><span style="color:#a6e22e">getSettings</span><span style="color:#f92672">();</span>
         settings<span style="color:#f92672">.</span><span style="color:#a6e22e">setJavaScriptEnabled</span><span style="color:#f92672">(</span><span style="color:#66d9ef">true</span><span style="color:#f92672">);</span>
         settings<span style="color:#f92672">.</span><span style="color:#a6e22e">setDomStorageEnabled</span><span style="color:#f92672">(</span><span style="color:#66d9ef">true</span><span style="color:#f92672">);</span>
-        getWindow<span style="color:#f92672">().</span><span style="color:#a6e22e">requestFeature</span><span style="color:#f92672">(</span>Window<span style="color:#f92672">.</span><span style="color:#a6e22e">FEATURE_NO_TITLE</span><span style="color:#f92672">);</span>
-        getWindow<span style="color:#f92672">().</span><span style="color:#a6e22e">setFlags</span><span style="color:#f92672">(</span>WindowManager<span style="color:#f92672">.</span><span style="color:#a6e22e">LayoutParams</span><span style="color:#f92672">.</span><span style="color:#a6e22e">FLAG_FULLSCREEN</span><span style="color:#f92672">,</span>
-                WindowManager<span style="color:#f92672">.</span><span style="color:#a6e22e">LayoutParams</span><span style="color:#f92672">.</span><span style="color:#a6e22e">FLAG_FULLSCREEN</span><span style="color:#f92672">);</span>
         setContentView<span style="color:#f92672">(</span>myWebView<span style="color:#f92672">);</span>
         myWebView<span style="color:#f92672">.</span><span style="color:#a6e22e">loadUrl</span><span style="color:#f92672">(</span>AD_AUTH_URL<span style="color:#f92672">);</span>
     <span style="color:#f92672">}</span>
 <span style="color:#f92672">}</span>
 </code></pre></div><p>The android-manifest looks like this. Make sure you have the Internet permission</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#f92672">&lt;manifest</span> <span style="color:#a6e22e">xmlns:android=</span><span style="color:#e6db74">&#34;http://schemas.android.com/apk/res/android&#34;</span>
-    <span style="color:#a6e22e">package=</span><span style="color:#e6db74">&#34;com.tw.userauthenticator&#34;</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#a6e22e">package=</span><span style="color:#e6db74">&#34;package.userauthenticator&#34;</span><span style="color:#f92672">&gt;</span>
     <span style="color:#f92672">&lt;uses-permission</span> <span style="color:#a6e22e">android:name=</span><span style="color:#e6db74">&#34;android.permission.INTERNET&#34;</span> <span style="color:#f92672">/&gt;</span>
     <span style="color:#f92672">&lt;application</span>
         <span style="color:#a6e22e">android:allowBackup=</span><span style="color:#e6db74">&#34;true&#34;</span>
@@ -368,9 +364,7 @@ Understand the MainActivity and Android Manifest file.</p>
         <span style="color:#f92672">&lt;/activity&gt;</span>
     <span style="color:#f92672">&lt;/application&gt;</span>
 <span style="color:#f92672">&lt;/manifest&gt;</span>
-</code></pre></div><p>Demo here -
-<img src="https://miro.medium.com/max/1400/1*-87w-LvtwusYRj6pKiu47w.png" alt="Demo"></p>
-<h4 id="intercept-the-redirect-url">Intercept the Redirect URL</h4>
+</code></pre></div><h4 id="intercept-the-redirect-url">Intercept the Redirect URL</h4>
 <p>While configuring AD, we have provided a redirect URL — <code>xrapp://auth-response</code>. Clicking on “Continue” in the last step will redirect to “<code>xrapp://auth-response?code=&lt;value of code&gt;</code>”</p>
 <p>The android app needs to intercept this URL to read <code>code</code> parameter from it. Following code checks for any URL loading and see if any URL starts with <code>xrapp://auth-response</code> and then fetch code from it.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#f92672">...</span>
@@ -380,7 +374,6 @@ myWebView<span style="color:#f92672">.</span><span style="color:#a6e22e">setWebV
         Uri uri <span style="color:#f92672">=</span> Uri<span style="color:#f92672">.</span><span style="color:#a6e22e">parse</span><span style="color:#f92672">(</span>url<span style="color:#f92672">);</span>
         <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>REDIRECT_URL_SCHEME<span style="color:#f92672">.</span><span style="color:#a6e22e">equalsIgnoreCase</span><span style="color:#f92672">(</span>uri<span style="color:#f92672">.</span><span style="color:#a6e22e">getScheme</span><span style="color:#f92672">())</span> <span style="color:#f92672">&amp;&amp;</span> REDIRECT_URL_HOST<span style="color:#f92672">.</span><span style="color:#a6e22e">equalsIgnoreCase</span><span style="color:#f92672">(</span>uri<span style="color:#f92672">.</span><span style="color:#a6e22e">getHost</span><span style="color:#f92672">()))</span> <span style="color:#f92672">{</span>
             String code <span style="color:#f92672">=</span> uri<span style="color:#f92672">.</span><span style="color:#a6e22e">getQueryParameter</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;code&#34;</span><span style="color:#f92672">);</span>
-            Log<span style="color:#f92672">.</span><span style="color:#a6e22e">e</span><span style="color:#f92672">(</span>TAG<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;shouldOverrideUrlLoading: -&gt; &#34;</span> <span style="color:#f92672">+</span> code<span style="color:#f92672">);</span>
             <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">;</span>
         <span style="color:#f92672">}</span>
         view<span style="color:#f92672">.</span><span style="color:#a6e22e">loadUrl</span><span style="color:#f92672">(</span>url<span style="color:#f92672">);</span>
@@ -392,7 +385,6 @@ myWebView<span style="color:#f92672">.</span><span style="color:#a6e22e">setWebV
 <p>In the last step, we read the authorization code, lets now fetch an <code>access-token</code> from AD. Here is the URL to fetch the token for above AD setup <a href="ttps://login.microsoftonline.com/common/oauth2/v2.0/token">https://login.microsoftonline.com/common/oauth2/v2.0/token</a> Ref[2]</p>
 <p>Add an Async Task to fetch a token once the Authentication code is fetched.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#f92672">...</span>
-Log<span style="color:#f92672">.</span><span style="color:#a6e22e">e</span><span style="color:#f92672">(</span>TAG<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;shouldOverrideUrlLoading: -&gt; &#34;</span> <span style="color:#f92672">+</span> code<span style="color:#f92672">);</span>
 AsyncTask<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">,</span> Void<span style="color:#f92672">,</span> String<span style="color:#f92672">&gt;</span> getToken <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GetTokenAsyncTask<span style="color:#f92672">();</span>
 getToken<span style="color:#f92672">.</span><span style="color:#a6e22e">execute</span><span style="color:#f92672">(</span>code<span style="color:#f92672">);</span>
 <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">;</span>
@@ -426,7 +418,6 @@ result <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</spa
     <span style="color:#a6e22e">@Override</span>
     <span style="color:#66d9ef">protected</span> String <span style="color:#a6e22e">doInBackground</span><span style="color:#f92672">(</span>String<span style="color:#f92672">...</span> strings<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
         String access_token <span style="color:#f92672">=</span> strings<span style="color:#f92672">[</span>0<span style="color:#f92672">];</span>
-        Log<span style="color:#f92672">.</span><span style="color:#a6e22e">d</span><span style="color:#f92672">(</span>TAG<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;doInBackgroud: access_token=&#34;</span> <span style="color:#f92672">+</span> access_token<span style="color:#f92672">);</span>
         <span style="color:#66d9ef">return</span> performGetCall<span style="color:#f92672">(</span>GET_PROFILE_URL<span style="color:#f92672">,</span> access_token<span style="color:#f92672">);</span>
     <span style="color:#f92672">}</span>
 <span style="color:#f92672">}</span>

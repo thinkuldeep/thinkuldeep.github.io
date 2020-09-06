@@ -6,64 +6,10 @@
     <description>Recent content in Tags on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Sep 2020 10:58:08 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2020 10:58:08 -0400</lastBuildDate>
     
 	<atom:link href="https://thinkuldeep.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>developer-summit</title>
-      <link>https://thinkuldeep.com/tags/developer-summit/</link>
-      <pubDate>Sun, 20 Sep 2020 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/developer-summit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>event</title>
-      <link>https://thinkuldeep.com/tags/event/</link>
-      <pubDate>Sun, 20 Sep 2020 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/event/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>spatialweb</title>
-      <link>https://thinkuldeep.com/tags/spatialweb/</link>
-      <pubDate>Sun, 20 Sep 2020 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/spatialweb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>speaker</title>
-      <link>https://thinkuldeep.com/tags/speaker/</link>
-      <pubDate>Sun, 20 Sep 2020 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/speaker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>talk</title>
-      <link>https://thinkuldeep.com/tags/talk/</link>
-      <pubDate>Sun, 20 Sep 2020 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/talk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>xr</title>
-      <link>https://thinkuldeep.com/tags/xr/</link>
-      <pubDate>Sun, 20 Sep 2020 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/xr/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>experience</title>
@@ -183,6 +129,24 @@
     </item>
     
     <item>
+      <title>event</title>
+      <link>https://thinkuldeep.com/tags/event/</link>
+      <pubDate>Thu, 13 Aug 2020 10:58:15 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/tags/event/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>speaker</title>
+      <link>https://thinkuldeep.com/tags/speaker/</link>
+      <pubDate>Thu, 13 Aug 2020 10:58:15 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/tags/speaker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>techgig</title>
       <link>https://thinkuldeep.com/tags/techgig/</link>
       <pubDate>Thu, 13 Aug 2020 10:58:15 -0400</pubDate>
@@ -206,6 +170,15 @@
       <pubDate>Thu, 13 Aug 2020 10:58:15 -0400</pubDate>
       
       <guid>https://thinkuldeep.com/tags/webinar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xr</title>
+      <link>https://thinkuldeep.com/tags/xr/</link>
+      <pubDate>Thu, 13 Aug 2020 10:58:15 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/tags/xr/</guid>
       <description></description>
     </item>
     
@@ -413,6 +386,15 @@
       <pubDate>Sun, 07 Jun 2020 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.com/tags/mr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>talk</title>
+      <link>https://thinkuldeep.com/tags/talk/</link>
+      <pubDate>Sun, 07 Jun 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/tags/talk/</guid>
       <description></description>
     </item>
     
@@ -656,6 +638,24 @@
       <pubDate>Wed, 25 Mar 2020 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.com/tags/mfa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>developer-summit</title>
+      <link>https://thinkuldeep.com/tags/developer-summit/</link>
+      <pubDate>Fri, 20 Mar 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/tags/developer-summit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spatialweb</title>
+      <link>https://thinkuldeep.com/tags/spatialweb/</link>
+      <pubDate>Fri, 20 Mar 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/tags/spatialweb/</guid>
       <description></description>
     </item>
     

@@ -3,89 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://thinkuldeep.com/tags/developer-summit/</loc>
-    <lastmod>2020-09-20T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/event/</loc>
-    <lastmod>2020-09-20T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/spatialweb/</loc>
-    <lastmod>2020-09-20T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/speaker/</loc>
-    <lastmod>2020-09-20T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/event/gids_2020_blr_spatialweb/</loc>
-    <lastmod>2020-09-20T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/</loc>
-    <lastmod>2020-09-20T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/talk/</loc>
-    <lastmod>2020-09-20T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/</loc>
-    <lastmod>2020-09-20T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/xr/</loc>
-    <lastmod>2020-09-20T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.com/tags/experience/</loc>
     <lastmod>2020-09-05T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -182,6 +99,23 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.com/tags/</loc>
+    <lastmod>2020-09-05T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/"
+                />
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.com/tags/takeaway/</loc>
     <lastmod>2020-09-05T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -230,6 +164,23 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.com/</loc>
+    <lastmod>2020-09-05T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/"
+                />
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.com/tags/ar/</loc>
     <lastmod>2020-08-13T10:58:15-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -251,6 +202,20 @@
                 hreflang="en"
                 href="https://thinkuldeep.com/tags/covid19/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/event/</loc>
+    <lastmod>2020-08-13T10:58:15-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/speaker/</loc>
+    <lastmod>2020-08-13T10:58:15-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -276,6 +241,13 @@
   
   <url>
     <loc>https://thinkuldeep.com/event/techgigs-xr-webinar-1/</loc>
+    <lastmod>2020-08-13T10:58:15-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/xr/</loc>
     <lastmod>2020-08-13T10:58:15-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -516,6 +488,13 @@
   
   <url>
     <loc>https://thinkuldeep.com/event/google_dsk_skct_xr_introduction/</loc>
+    <lastmod>2020-06-07T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/talk/</loc>
     <lastmod>2020-06-07T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -837,6 +816,27 @@
   <url>
     <loc>https://thinkuldeep.com/tags/mfa/</loc>
     <lastmod>2020-03-25T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/developer-summit/</loc>
+    <lastmod>2020-03-20T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/spatialweb/</loc>
+    <lastmod>2020-03-20T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/event/gids_2020_blr_spatialweb/</loc>
+    <lastmod>2020-03-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

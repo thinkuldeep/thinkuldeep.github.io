@@ -6,21 +6,10 @@
     <description>Recent content in xr on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Sep 2020 10:58:08 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2020 10:58:15 -0400</lastBuildDate>
     
 	<atom:link href="https://thinkuldeep.com/tags/xr/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Speaker - Spatial Web - Life beyond Keyboard and Screen</title>
-      <link>https://thinkuldeep.com/event/gids_2020_blr_spatialweb/</link>
-      <pubDate>Sun, 20 Sep 2020 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/event/gids_2020_blr_spatialweb/</guid>
-      <description>Get ready: Great International Developer Summit is re-scheduled and now virtual summit will be organized.
-Come and talk about the life beyond keyboard and screens, spatial web is taking over get ready&amp;hellip;
-The talk is about Spatial Web is an umbrella term for the next generation web technologies that will transform every aspect of our life. It will connect the human and machines seamlessly such that the difference between physical and virtual will disappear.</description>
-    </item>
     
     <item>
       <title>Webinar - XR - Nicety to Necessity</title>
@@ -182,6 +171,18 @@ Interoperability is key aspect when we build enterprise solutions using XR techn
       <guid>https://thinkuldeep.com/post/enterprise-xr-multi-factor-authentication/</guid>
       <description>XR use cases are growing with advancements in the devices, internet and development technologies. There is an ever-growing demand to build enterprise use cases using ARVR technology. Most enterprise use cases eventually require integration with an enterprise ecosystem such as IAM (Identity and Access Management), ERP, CRM, and single sign-on with other systems.
 Most organizations protect digital assets with a single sign-on using Multiple Factor Authentication (MFA). The MFA is generally a web-browser based authentication where the browser redirects to tenant’s authentication page where the user provides their credentials and then the user confirms another factor (PIN, OTP, SMS or mobile notifications), once it succeeds, it gets redirected back to the protected resource.</description>
+    </item>
+    
+    <item>
+      <title>Speaker - Spatial Web - Life beyond Keyboard and Screen</title>
+      <link>https://thinkuldeep.com/event/gids_2020_blr_spatialweb/</link>
+      <pubDate>Fri, 20 Mar 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/event/gids_2020_blr_spatialweb/</guid>
+      <description>New Date is still to be announced.
+Get ready: Great International Developer Summit is re-scheduled and now virtual summit will be organized.
+Come and talk about the life beyond keyboard and screens, spatial web is taking over get ready&amp;hellip;
+The talk is about Spatial Web is an umbrella term for the next generation web technologies that will transform every aspect of our life. It will connect the human and machines seamlessly such that the difference between physical and virtual will disappear.</description>
     </item>
     
     <item>

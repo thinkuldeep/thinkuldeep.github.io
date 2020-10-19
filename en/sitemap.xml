@@ -418,20 +418,6 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.com/tags/panel-discussion/</loc>
-    <lastmod>2020-07-11T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/event/thevrara-ppd-cop-webinar-1/</loc>
-    <lastmod>2020-07-11T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.com/tags/cv/</loc>
     <lastmod>2020-07-02T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1395,6 +1381,13 @@
   
   <url>
     <loc>https://thinkuldeep.com/tags/lsd/</loc>
+    <lastmod>2017-01-19T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/panel-discussion/</loc>
     <lastmod>2017-01-19T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

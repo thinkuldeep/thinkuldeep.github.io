@@ -133,6 +133,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="hi"
                 href="https://thinkuldeep.com/hi/tags/"
                 />
@@ -147,6 +152,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://thinkuldeep.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com/de/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -269,6 +279,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com/de/post/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="hi"
                 href="https://thinkuldeep.com/hi/post/"
                 />
@@ -283,6 +298,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://thinkuldeep.com/tags/thoughtworks/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com/de/tags/thoughtworks/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -316,6 +336,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://thinkuldeep.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com/de/categories/"
                 />
     <xhtml:link
                 rel="alternate"

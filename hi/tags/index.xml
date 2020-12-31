@@ -6,15 +6,24 @@
     <description>Recent content in Tags on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Jun 2020 10:58:08 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 31 Dec 2020 10:58:08 -0400</lastBuildDate>
     
 	<atom:link href="https://thinkuldeep.com/hi/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>book-review</title>
+      <link>https://thinkuldeep.com/hi/tags/book-review/</link>
+      <pubDate>Thu, 31 Dec 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/hi/tags/book-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>change</title>
       <link>https://thinkuldeep.com/hi/tags/change/</link>
-      <pubDate>Sun, 21 Jun 2020 10:58:08 -0400</pubDate>
+      <pubDate>Thu, 31 Dec 2020 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.com/hi/tags/change/</guid>
       <description></description>
@@ -23,9 +32,54 @@
     <item>
       <title>covid19</title>
       <link>https://thinkuldeep.com/hi/tags/covid19/</link>
-      <pubDate>Sun, 21 Jun 2020 10:58:08 -0400</pubDate>
+      <pubDate>Thu, 31 Dec 2020 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.com/hi/tags/covid19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>motivation</title>
+      <link>https://thinkuldeep.com/hi/tags/motivation/</link>
+      <pubDate>Thu, 31 Dec 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/hi/tags/motivation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>motivational</title>
+      <link>https://thinkuldeep.com/hi/tags/motivational/</link>
+      <pubDate>Thu, 31 Dec 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/hi/tags/motivational/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technology</title>
+      <link>https://thinkuldeep.com/hi/tags/technology/</link>
+      <pubDate>Thu, 31 Dec 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/hi/tags/technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thoughtworks</title>
+      <link>https://thinkuldeep.com/hi/tags/thoughtworks/</link>
+      <pubDate>Thu, 31 Dec 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/hi/tags/thoughtworks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>work from home</title>
+      <link>https://thinkuldeep.com/hi/tags/work-from-home/</link>
+      <pubDate>Thu, 31 Dec 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/hi/tags/work-from-home/</guid>
       <description></description>
     </item>
     
@@ -48,38 +102,11 @@
     </item>
     
     <item>
-      <title>motivation</title>
-      <link>https://thinkuldeep.com/hi/tags/motivation/</link>
-      <pubDate>Sun, 21 Jun 2020 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/hi/tags/motivation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>motivational</title>
-      <link>https://thinkuldeep.com/hi/tags/motivational/</link>
-      <pubDate>Sun, 21 Jun 2020 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/hi/tags/motivational/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>selfhelp</title>
       <link>https://thinkuldeep.com/hi/tags/selfhelp/</link>
       <pubDate>Sun, 21 Jun 2020 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.com/hi/tags/selfhelp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>book-review</title>
-      <link>https://thinkuldeep.com/hi/tags/book-review/</link>
-      <pubDate>Sun, 03 May 2020 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/hi/tags/book-review/</guid>
       <description></description>
     </item>
     
@@ -98,15 +125,6 @@
       <pubDate>Sun, 03 May 2020 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.com/hi/tags/takeaways/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>thoughtworks</title>
-      <link>https://thinkuldeep.com/hi/tags/thoughtworks/</link>
-      <pubDate>Fri, 15 Mar 2019 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/hi/tags/thoughtworks/</guid>
       <description></description>
     </item>
     

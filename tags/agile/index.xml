@@ -6,10 +6,20 @@
     <description>Recent content in agile on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Apr 2020 10:58:08 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 06 Mar 2021 01:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://thinkuldeep.com/tags/agile/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Speaker - AT2020 - Agility in Enterprise XR</title>
+      <link>https://thinkuldeep.com/event/at_2020_agilexr/</link>
+      <pubDate>Sat, 06 Mar 2021 01:00:00 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/event/at_2020_agilexr/</guid>
+      <description>Enterprise XR is gaining good traction, and software development’s best practices like Agile principles really matters due to multitude of tooling and tech stacks used for Enterprise XR solutions
+Enterprises do face multiple challenges with the XR development lifecycle. One of them is the automation of testing XR applications. In response to this gap, ThoughtWorks has developed Arium – an open-source, lightweight, extensible, platform-agnostic framework that helps write automation tests that are built specifically for XR Applications.</description>
+    </item>
     
     <item>
       <title>XR development from home</title>

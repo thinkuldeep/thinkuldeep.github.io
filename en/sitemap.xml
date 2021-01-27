@@ -183,6 +183,41 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.com/tags/dsc/</loc>
+    <lastmod>2021-01-30T01:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/hackathon/</loc>
+    <lastmod>2021-01-30T01:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/event/dotstash_2021_hackathon/</loc>
+    <lastmod>2021-01-30T01:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/nit/</loc>
+    <lastmod>2021-01-30T01:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/students/</loc>
+    <lastmod>2021-01-30T01:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.com/tags/best-practices/</loc>
     <lastmod>2021-01-05T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -631,13 +666,6 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.com/tags/hackathon/</loc>
-    <lastmod>2020-08-03T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.com/tags/judge/</loc>
     <lastmod>2020-08-03T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -753,13 +781,6 @@
                 hreflang="en"
                 href="https://thinkuldeep.com/tags/selfhelp/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/dsc/</loc>
-    <lastmod>2020-06-07T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>

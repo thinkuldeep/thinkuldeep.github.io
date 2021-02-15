@@ -183,14 +183,175 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.com/tags/dsc/</loc>
-    <lastmod>2021-01-30T01:00:00-04:00</lastmod>
+    <loc>https://thinkuldeep.com/tags/ai/</loc>
+    <lastmod>2021-02-25T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://thinkuldeep.com/tags/hackathon/</loc>
+    <lastmod>2021-02-25T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/iot/</loc>
+    <lastmod>2021-02-25T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/judge/</loc>
+    <lastmod>2021-02-25T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/event/nasscom-smcc/</loc>
+    <lastmod>2021-02-25T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/mentor/</loc>
+    <lastmod>2021-02-25T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/nasscom/</loc>
+    <lastmod>2021-02-25T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/book-review/</loc>
+    <lastmod>2021-02-07T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/tags/book-review/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/book-review/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/change/</loc>
+    <lastmod>2021-02-07T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/tags/change/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/change/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/covid19/</loc>
+    <lastmod>2021-02-07T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/tags/covid19/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/covid19/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/motivation/</loc>
+    <lastmod>2021-02-07T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/tags/motivation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/motivation/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/motivational/</loc>
+    <lastmod>2021-02-07T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/tags/motivational/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/motivational/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/post/will-cultivation-2020/</loc>
+    <lastmod>2021-02-07T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/post/will-cultivation-2020/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/post/will-cultivation-2020/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/work-from-home/</loc>
+    <lastmod>2021-02-07T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/tags/work-from-home/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/work-from-home/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/dsc/</loc>
     <lastmod>2021-01-30T01:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -229,23 +390,6 @@
     <lastmod>2021-01-05T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/covid19/</loc>
-    <lastmod>2021-01-05T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/tags/covid19/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/covid19/"
-                />
   </url>
   
   <url>
@@ -297,137 +441,7 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.com/tags/book-review/</loc>
-    <lastmod>2020-12-31T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/tags/book-review/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/book-review/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/change/</loc>
-    <lastmod>2020-12-31T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/tags/change/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/change/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/motivation/</loc>
-    <lastmod>2020-12-31T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/tags/motivation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/motivation/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/motivational/</loc>
-    <lastmod>2020-12-31T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/tags/motivational/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/motivational/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/post/will-cultivation-2020/</loc>
-    <lastmod>2020-12-31T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/post/will-cultivation-2020/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/post/will-cultivation-2020/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/work-from-home/</loc>
-    <lastmod>2020-12-31T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/tags/work-from-home/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/work-from-home/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/ai/</loc>
-    <lastmod>2020-12-05T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/iot/</loc>
-    <lastmod>2020-12-05T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/mentor/</loc>
-    <lastmod>2020-12-05T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.com/event/nasscom-iotcoe/</loc>
-    <lastmod>2020-12-05T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/nasscom/</loc>
     <lastmod>2020-12-05T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -661,13 +675,6 @@
   <url>
     <loc>https://thinkuldeep.com/post/two-thoughtful-years/</loc>
     <lastmod>2020-08-06T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/judge/</loc>
-    <lastmod>2020-08-03T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

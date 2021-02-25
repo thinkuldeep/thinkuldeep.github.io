@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Training autonomous vehicles with XR simulation</title>
+      <link>https://thinkuldeep.com/post/training-autonomous-vehicles-in-xr/</link>
+      <pubDate>Thu, 25 Feb 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/post/training-autonomous-vehicles-in-xr/</guid>
+      <description>Self driving cars are a good example of what artificial intelligence can accomplish today. Such tech-centered advances are built on the back of highly trained Machine Learning (ML) algorithms.
+These algorithms require exhaustive data that help the AI effectively model all possible scenarios. Accessing and pooling all that data needs complex and very expensive real-world hardware setups, aside from the extensive time it takes to gather the necessary training-data in the cloud (to train ML).</description>
+    </item>
+    
+    <item>
       <title>Stories of Will Cultivation from 2020</title>
       <link>https://thinkuldeep.com/post/will-cultivation-2020/</link>
       <pubDate>Sun, 07 Feb 2021 10:58:08 -0400</pubDate>

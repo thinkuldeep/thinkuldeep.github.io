@@ -190,6 +190,20 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.com/tags/autonomous/</loc>
+    <lastmod>2021-02-25T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/enterprise/</loc>
+    <lastmod>2021-02-25T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.com/tags/hackathon/</loc>
     <lastmod>2021-02-25T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -226,6 +240,27 @@
   
   <url>
     <loc>https://thinkuldeep.com/tags/nasscom/</loc>
+    <lastmod>2021-02-25T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/simulation/</loc>
+    <lastmod>2021-02-25T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/post/training-autonomous-vehicles-in-xr/</loc>
+    <lastmod>2021-02-25T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/vehicle/</loc>
     <lastmod>2021-02-25T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -724,13 +759,6 @@
   <url>
     <loc>https://thinkuldeep.com/tags/ml/</loc>
     <lastmod>2020-07-02T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/enterprise/</loc>
-    <lastmod>2020-06-24T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

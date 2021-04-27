@@ -514,7 +514,7 @@ if (!doNotTrack) {
 		file<span style="color:#f92672">.</span><span style="color:#a6e22e">eachLine</span> <span style="color:#f92672">{</span> line <span style="color:#f92672">-&gt;</span> println<span style="color:#f92672">(</span>line<span style="color:#f92672">)</span> <span style="color:#f92672">}</span>
 	<span style="color:#f92672">}</span>
 	<span style="color:#66d9ef">def</span> <span style="color:#66d9ef">static</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span><span style="color:#66d9ef">def</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-		<span style="color:#66d9ef">def</span> filePath <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;D:\\test.txt&#34;</span><span style="color:#f92672">;</span>
+		<span style="color:#66d9ef">def</span> filePath <span style="color:#f92672">=</span> LICENCE<span style="color:#f92672">.</span><span style="color:#a6e22e">txt</span><span style="color:#f92672">;</span>
 		<span style="color:#66d9ef">def</span> content <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;testContent&#34;</span>
 		GroovyFileOperations fileOp <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GroovyFileOperations<span style="color:#f92672">();</span>
 		println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Writing content in the file&#34;</span><span style="color:#f92672">)</span>
@@ -911,7 +911,7 @@ Size of File- 243 Mega Bytes</p>
 <p><strong>Java File Read</strong></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#f92672">package</span> com.tk.groovy.poc<span style="color:#f92672">;</span>
 <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ReadFileJava</span> <span style="color:#f92672">{</span>
-	<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> String FILE_NAME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;D:\\test.txt&#34;</span><span style="color:#f92672">;</span> 
+	<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> String FILE_NAME<span style="color:#f92672">=</span>LICENCE<span style="color:#f92672">.</span><span style="color:#a6e22e">txt</span><span style="color:#f92672">;</span> 
 	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">readFile</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
 		BufferedReader br <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
 		<span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
@@ -1104,11 +1104,11 @@ Code in Groovy (and other similar languages) often may be much shorter or concis
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
+          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
+          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
         </li>
 	    
     </ul>

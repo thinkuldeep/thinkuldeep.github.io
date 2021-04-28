@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Apr 2021 10:58:08 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 01 May 2021 10:58:08 -0400</lastBuildDate>
     
 	<atom:link href="https://thinkuldeep.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,90 @@
     <item>
       <title>ar</title>
       <link>https://thinkuldeep.com/tags/ar/</link>
-      <pubDate>Tue, 27 Apr 2021 10:58:08 -0400</pubDate>
+      <pubDate>Sat, 01 May 2021 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.com/tags/ar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>covid19</title>
+      <link>https://thinkuldeep.com/tags/covid19/</link>
+      <pubDate>Sat, 01 May 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/tags/covid19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>future</title>
+      <link>https://thinkuldeep.com/tags/future/</link>
+      <pubDate>Sat, 01 May 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/tags/future/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>futureofwork</title>
+      <link>https://thinkuldeep.com/tags/futureofwork/</link>
+      <pubDate>Sat, 01 May 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/tags/futureofwork/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learnings</title>
+      <link>https://thinkuldeep.com/tags/learnings/</link>
+      <pubDate>Sat, 01 May 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/tags/learnings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mr</title>
+      <link>https://thinkuldeep.com/tags/mr/</link>
+      <pubDate>Sat, 01 May 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/tags/mr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technology</title>
+      <link>https://thinkuldeep.com/tags/technology/</link>
+      <pubDate>Sat, 01 May 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/tags/technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thoughtworks</title>
+      <link>https://thinkuldeep.com/tags/thoughtworks/</link>
+      <pubDate>Sat, 01 May 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/tags/thoughtworks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vr</title>
+      <link>https://thinkuldeep.com/tags/vr/</link>
+      <pubDate>Sat, 01 May 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/tags/vr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xr</title>
+      <link>https://thinkuldeep.com/tags/xr/</link>
+      <pubDate>Sat, 01 May 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/tags/xr/</guid>
       <description></description>
     </item>
     
@@ -39,24 +120,6 @@
     </item>
     
     <item>
-      <title>mr</title>
-      <link>https://thinkuldeep.com/tags/mr/</link>
-      <pubDate>Tue, 27 Apr 2021 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/mr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>technology</title>
-      <link>https://thinkuldeep.com/tags/technology/</link>
-      <pubDate>Tue, 27 Apr 2021 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/technology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>thinkreality</title>
       <link>https://thinkuldeep.com/tags/thinkreality/</link>
       <pubDate>Tue, 27 Apr 2021 10:58:08 -0400</pubDate>
@@ -66,38 +129,11 @@
     </item>
     
     <item>
-      <title>thoughtworks</title>
-      <link>https://thinkuldeep.com/tags/thoughtworks/</link>
-      <pubDate>Tue, 27 Apr 2021 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/thoughtworks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>usecases</title>
       <link>https://thinkuldeep.com/tags/usecases/</link>
       <pubDate>Tue, 27 Apr 2021 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.com/tags/usecases/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vr</title>
-      <link>https://thinkuldeep.com/tags/vr/</link>
-      <pubDate>Tue, 27 Apr 2021 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/vr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>xr</title>
-      <link>https://thinkuldeep.com/tags/xr/</link>
-      <pubDate>Tue, 27 Apr 2021 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/xr/</guid>
       <description></description>
     </item>
     
@@ -336,15 +372,6 @@
     </item>
     
     <item>
-      <title>covid19</title>
-      <link>https://thinkuldeep.com/tags/covid19/</link>
-      <pubDate>Sun, 07 Feb 2021 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/covid19/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>work from home</title>
       <link>https://thinkuldeep.com/tags/work-from-home/</link>
       <pubDate>Sun, 07 Feb 2021 10:58:08 -0400</pubDate>
@@ -395,15 +422,6 @@
       <pubDate>Tue, 05 Jan 2021 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.com/tags/experience/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>learnings</title>
-      <link>https://thinkuldeep.com/tags/learnings/</link>
-      <pubDate>Tue, 05 Jan 2021 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/learnings/</guid>
       <description></description>
     </item>
     
@@ -584,15 +602,6 @@
       <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.com/tags/ml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>future</title>
-      <link>https://thinkuldeep.com/tags/future/</link>
-      <pubDate>Wed, 24 Jun 2020 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/future/</guid>
       <description></description>
     </item>
     

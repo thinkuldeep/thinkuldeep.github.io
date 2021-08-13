@@ -237,3 +237,11 @@ code, .code {
     padding-left: 2px;
     padding-right: 2px;
 }
+
+
+
+@media screen and (min-width: 60em) {
+    .mt6-l {
+        margin-top: 0rem;
+    }
+}

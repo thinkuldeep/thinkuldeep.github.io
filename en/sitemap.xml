@@ -3,6 +3,178 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://thinkuldeep.com/tags/ar/</loc>
+    <lastmod>2021-10-08T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com/de/tags/ar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/ar/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/event/</loc>
+    <lastmod>2021-10-08T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/fundamentals/</loc>
+    <lastmod>2021-10-08T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com/de/tags/fundamentals/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/fundamentals/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/mr/</loc>
+    <lastmod>2021-10-08T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com/de/tags/mr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/mr/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/speaker/</loc>
+    <lastmod>2021-10-08T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/event/thougthworks-xconf-2021/</loc>
+    <lastmod>2021-10-08T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/</loc>
+    <lastmod>2021-10-08T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/thoughtworks/</loc>
+    <lastmod>2021-10-08T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/tags/thoughtworks/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com/de/tags/thoughtworks/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/thoughtworks/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/vr/</loc>
+    <lastmod>2021-10-08T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com/de/tags/vr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/vr/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/</loc>
+    <lastmod>2021-10-08T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/xr/</loc>
+    <lastmod>2021-10-08T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com/de/tags/xr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/xr/"
+                />
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.com/tags/coaching/</loc>
     <lastmod>2021-09-30T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -79,28 +251,6 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.com/tags/</loc>
-    <lastmod>2021-09-30T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://thinkuldeep.com/de/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.com/tags/takeaway/</loc>
     <lastmod>2021-09-30T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -121,50 +271,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://thinkuldeep.com/tags/takeaways/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/thoughtworks/</loc>
-    <lastmod>2021-09-30T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/tags/thoughtworks/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://thinkuldeep.com/de/tags/thoughtworks/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/thoughtworks/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/</loc>
-    <lastmod>2021-09-30T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://thinkuldeep.com/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/"
                 />
   </url>
   
@@ -290,23 +396,6 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.com/tags/ar/</loc>
-    <lastmod>2021-07-16T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://thinkuldeep.com/de/tags/ar/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/ar/"
-                />
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.com/tags/covid19/</loc>
     <lastmod>2021-07-16T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -338,61 +427,10 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.com/tags/mr/</loc>
-    <lastmod>2021-07-16T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://thinkuldeep.com/de/tags/mr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/mr/"
-                />
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.com/tags/practice/</loc>
     <lastmod>2021-07-16T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/vr/</loc>
-    <lastmod>2021-07-16T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://thinkuldeep.com/de/tags/vr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/vr/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/xr/</loc>
-    <lastmod>2021-07-16T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://thinkuldeep.com/de/tags/xr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/xr/"
-                />
   </url>
   
   <url>
@@ -410,21 +448,7 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.com/tags/event/</loc>
-    <lastmod>2021-05-22T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.com/tags/practices/</loc>
-    <lastmod>2021-05-22T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/speaker/</loc>
     <lastmod>2021-05-22T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -799,23 +823,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://thinkuldeep.com/post/extending_reality_new_norm/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/fundamentals/</loc>
-    <lastmod>2020-10-28T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://thinkuldeep.com/de/tags/fundamentals/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/fundamentals/"
                 />
   </url>
   

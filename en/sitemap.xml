@@ -238,6 +238,41 @@
   </url>
   
   <url>
+    <loc>https://thinkuldeep.com/tags/ai/</loc>
+    <lastmod>2021-10-10T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/hackathon/</loc>
+    <lastmod>2021-10-10T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/iot/</loc>
+    <lastmod>2021-10-10T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/judge/</loc>
+    <lastmod>2021-10-10T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/event/thougthworks-ifest2/</loc>
+    <lastmod>2021-10-10T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://thinkuldeep.com/event/thougthworks-xconf-2021/</loc>
     <lastmod>2021-10-08T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -576,34 +611,6 @@
   <url>
     <loc>https://thinkuldeep.com/tags/usecases/</loc>
     <lastmod>2021-04-27T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/ai/</loc>
-    <lastmod>2021-04-23T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/hackathon/</loc>
-    <lastmod>2021-04-23T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/iot/</loc>
-    <lastmod>2021-04-23T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/judge/</loc>
-    <lastmod>2021-04-23T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

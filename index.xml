@@ -6,10 +6,20 @@
     <description>Recent content in Welcome to Kuldeep&#39;s Space on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Oct 2021 10:58:08 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 29 Nov 2021 10:58:08 -0400</lastBuildDate>
     
 	<atom:link href="https://thinkuldeep.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Try everything in your space - WebXR</title>
+      <link>https://thinkuldeep.com/post/try-everything-in-your-space-webxr/</link>
+      <pubDate>Mon, 29 Nov 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/post/try-everything-in-your-space-webxr/</guid>
+      <description>Today’s websites are designed first for mobile and then for other platforms, and it is getting important to bring mobile XR functionality into the websites. Google’s scene viewer is bringing WebXR for mass adoption. Theoretically any 3D model can be tried in your space, and you can easily built AR experience for your website.
+eCommerce has already transformed into mCommerse, and now taking steps into xCommerse (XR Commerce). 3D Model viewer is very common requirement for across different domains, and it will be the basic requirement of developing for Metaverse as well as for any digital business in future.</description>
+    </item>
     
     <item>
       <title>Speaker - Thoughtworks MasterClass-2021</title>

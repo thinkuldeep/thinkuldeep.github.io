@@ -3,15 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://thinkuldeep.com/tags/android/</loc>
-    <lastmod>2021-11-29T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.com/tags/ar/</loc>
-    <lastmod>2021-11-29T10:58:08-04:00</lastmod>
+    <lastmod>2021-12-19T01:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -24,6 +17,161 @@
                 hreflang="en"
                 href="https://thinkuldeep.com/tags/ar/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/blockchain/</loc>
+    <lastmod>2021-12-19T01:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/event/</loc>
+    <lastmod>2021-12-19T01:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/event/getting_into_metaverse_guest_lecture_nit_hamirpur/</loc>
+    <lastmod>2021-12-19T01:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/lecture/</loc>
+    <lastmod>2021-12-19T01:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/metaverse/</loc>
+    <lastmod>2021-12-19T01:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/nft/</loc>
+    <lastmod>2021-12-19T01:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/nit/</loc>
+    <lastmod>2021-12-19T01:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/speaker/</loc>
+    <lastmod>2021-12-19T01:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/students/</loc>
+    <lastmod>2021-12-19T01:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/</loc>
+    <lastmod>2021-12-19T01:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/vr/</loc>
+    <lastmod>2021-12-19T01:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com/de/tags/vr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/vr/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/webinar/</loc>
+    <lastmod>2021-12-19T01:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/</loc>
+    <lastmod>2021-12-19T01:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/xr/</loc>
+    <lastmod>2021-12-19T01:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com/de/tags/xr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/xr/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://thinkuldeep.com/tags/android/</loc>
+    <lastmod>2021-11-29T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -65,39 +213,10 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.com/tags/metaverse/</loc>
-    <lastmod>2021-11-29T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.com/tags/spatial-web/</loc>
     <lastmod>2021-11-29T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/</loc>
-    <lastmod>2021-11-29T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://thinkuldeep.com/de/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/"
-                />
   </url>
   
   <url>
@@ -139,66 +258,10 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.com/tags/vr/</loc>
-    <lastmod>2021-11-29T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://thinkuldeep.com/de/tags/vr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/vr/"
-                />
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.com/tags/webxr/</loc>
     <lastmod>2021-11-29T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/</loc>
-    <lastmod>2021-11-29T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://thinkuldeep.com/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/xr/</loc>
-    <lastmod>2021-11-29T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://thinkuldeep.com/de/tags/xr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/xr/"
-                />
   </url>
   
   <url>
@@ -210,13 +273,6 @@
   
   <url>
     <loc>https://thinkuldeep.com/tags/digital-twins/</loc>
-    <lastmod>2021-10-20T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/event/</loc>
     <lastmod>2021-10-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -241,13 +297,6 @@
   
   <url>
     <loc>https://thinkuldeep.com/tags/simulation/</loc>
-    <lastmod>2021-10-20T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/speaker/</loc>
     <lastmod>2021-10-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -821,20 +870,6 @@
   </url>
   
   <url>
-    <loc>https://thinkuldeep.com/tags/nit/</loc>
-    <lastmod>2021-01-30T01:00:00-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/students/</loc>
-    <lastmod>2021-01-30T01:00:00-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://thinkuldeep.com/tags/best-practices/</loc>
     <lastmod>2021-01-05T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -943,13 +978,6 @@
                 hreflang="en"
                 href="https://thinkuldeep.com/tags/fundamentals/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/webinar/</loc>
-    <lastmod>2020-10-17T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
@@ -1596,13 +1624,6 @@
   
   <url>
     <loc>https://thinkuldeep.com/tags/architecture/</loc>
-    <lastmod>2019-02-15T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://thinkuldeep.com/tags/blockchain/</loc>
     <lastmod>2019-02-15T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

@@ -6,24 +6,33 @@
     <description>Recent content in Tags on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Feb 2022 01:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 19 Feb 2022 10:58:08 -0400</lastBuildDate>
     
 	<atom:link href="https://thinkuldeep.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>discussion</title>
-      <link>https://thinkuldeep.com/tags/discussion/</link>
-      <pubDate>Tue, 01 Feb 2022 01:00:00 -0400</pubDate>
+      <title>ai</title>
+      <link>https://thinkuldeep.com/tags/ai/</link>
+      <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/discussion/</guid>
+      <guid>https://thinkuldeep.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ar</title>
+      <link>https://thinkuldeep.com/tags/ar/</link>
+      <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/tags/ar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>event</title>
       <link>https://thinkuldeep.com/tags/event/</link>
-      <pubDate>Tue, 01 Feb 2022 01:00:00 -0400</pubDate>
+      <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.com/tags/event/</guid>
       <description></description>
@@ -32,9 +41,63 @@
     <item>
       <title>hackathon</title>
       <link>https://thinkuldeep.com/tags/hackathon/</link>
-      <pubDate>Tue, 01 Feb 2022 01:00:00 -0400</pubDate>
+      <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.com/tags/hackathon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iot</title>
+      <link>https://thinkuldeep.com/tags/iot/</link>
+      <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/tags/iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>judge</title>
+      <link>https://thinkuldeep.com/tags/judge/</link>
+      <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/tags/judge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mentor</title>
+      <link>https://thinkuldeep.com/tags/mentor/</link>
+      <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/tags/mentor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>university</title>
+      <link>https://thinkuldeep.com/tags/university/</link>
+      <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/tags/university/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xr</title>
+      <link>https://thinkuldeep.com/tags/xr/</link>
+      <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/tags/xr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>discussion</title>
+      <link>https://thinkuldeep.com/tags/discussion/</link>
+      <pubDate>Tue, 01 Feb 2022 01:00:00 -0400</pubDate>
+      
+      <guid>https://thinkuldeep.com/tags/discussion/</guid>
       <description></description>
     </item>
     
@@ -48,29 +111,11 @@
     </item>
     
     <item>
-      <title>mentor</title>
-      <link>https://thinkuldeep.com/tags/mentor/</link>
-      <pubDate>Tue, 01 Feb 2022 01:00:00 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/mentor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>students</title>
       <link>https://thinkuldeep.com/tags/students/</link>
       <pubDate>Tue, 01 Feb 2022 01:00:00 -0400</pubDate>
       
       <guid>https://thinkuldeep.com/tags/students/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>university</title>
-      <link>https://thinkuldeep.com/tags/university/</link>
-      <pubDate>Tue, 01 Feb 2022 01:00:00 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/university/</guid>
       <description></description>
     </item>
     
@@ -84,29 +129,11 @@
     </item>
     
     <item>
-      <title>ar</title>
-      <link>https://thinkuldeep.com/tags/ar/</link>
-      <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/ar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>blockchain</title>
       <link>https://thinkuldeep.com/tags/blockchain/</link>
       <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
       
       <guid>https://thinkuldeep.com/tags/blockchain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>judge</title>
-      <link>https://thinkuldeep.com/tags/judge/</link>
-      <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/judge/</guid>
       <description></description>
     </item>
     
@@ -143,15 +170,6 @@
       <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
       
       <guid>https://thinkuldeep.com/tags/vr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>xr</title>
-      <link>https://thinkuldeep.com/tags/xr/</link>
-      <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/xr/</guid>
       <description></description>
     </item>
     
@@ -197,15 +215,6 @@
       <pubDate>Tue, 21 Dec 2021 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.com/tags/google/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>iot</title>
-      <link>https://thinkuldeep.com/tags/iot/</link>
-      <pubDate>Tue, 21 Dec 2021 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/iot/</guid>
       <description></description>
     </item>
     
@@ -386,15 +395,6 @@
       <pubDate>Mon, 11 Oct 2021 10:58:08 -0400</pubDate>
       
       <guid>https://thinkuldeep.com/tags/practice/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ai</title>
-      <link>https://thinkuldeep.com/tags/ai/</link>
-      <pubDate>Sun, 10 Oct 2021 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/ai/</guid>
       <description></description>
     </item>
     

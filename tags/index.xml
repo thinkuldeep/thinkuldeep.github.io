@@ -6,11 +6,20 @@
     <description>Recent content in Tags on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Feb 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Apr 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5G</title>
+      <link>http://localhost:1313/tags/5g/</link>
+      <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/5g/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>ai</title>
       <link>http://localhost:1313/tags/ai/</link>
-      <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
+      <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/ai/</guid>
       <description></description>
@@ -19,9 +28,90 @@
     <item>
       <title>ar</title>
       <link>http://localhost:1313/tags/ar/</link>
-      <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
+      <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/ar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blockchain</title>
+      <link>http://localhost:1313/tags/blockchain/</link>
+      <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/blockchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>evolution</title>
+      <link>http://localhost:1313/tags/evolution/</link>
+      <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/evolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>general</title>
+      <link>http://localhost:1313/tags/general/</link>
+      <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iot</title>
+      <link>http://localhost:1313/tags/iot/</link>
+      <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metaverse</title>
+      <link>http://localhost:1313/tags/metaverse/</link>
+      <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/metaverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nft</title>
+      <link>http://localhost:1313/tags/nft/</link>
+      <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/nft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technology</title>
+      <link>http://localhost:1313/tags/technology/</link>
+      <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vr</title>
+      <link>http://localhost:1313/tags/vr/</link>
+      <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/vr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xr</title>
+      <link>http://localhost:1313/tags/xr/</link>
+      <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/xr/</guid>
       <description></description>
     </item>
     
@@ -40,15 +130,6 @@
       <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/hackathon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>iot</title>
-      <link>http://localhost:1313/tags/iot/</link>
-      <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/iot/</guid>
       <description></description>
     </item>
     
@@ -76,15 +157,6 @@
       <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/university/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>xr</title>
-      <link>http://localhost:1313/tags/xr/</link>
-      <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/xr/</guid>
       <description></description>
     </item>
     
@@ -125,38 +197,11 @@
     </item>
     
     <item>
-      <title>blockchain</title>
-      <link>http://localhost:1313/tags/blockchain/</link>
-      <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/blockchain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>metaverse</title>
-      <link>http://localhost:1313/tags/metaverse/</link>
-      <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/metaverse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>nit</title>
       <link>http://localhost:1313/tags/nit/</link>
       <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/nit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vr</title>
-      <link>http://localhost:1313/tags/vr/</link>
-      <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/vr/</guid>
       <description></description>
     </item>
     
@@ -179,15 +224,6 @@
     </item>
     
     <item>
-      <title>general</title>
-      <link>http://localhost:1313/tags/general/</link>
-      <pubDate>Tue, 21 Dec 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/general/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>google</title>
       <link>http://localhost:1313/tags/google/</link>
       <pubDate>Tue, 21 Dec 2021 10:58:08 -0400</pubDate>
@@ -202,24 +238,6 @@
       <pubDate>Tue, 21 Dec 2021 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/meta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nft</title>
-      <link>http://localhost:1313/tags/nft/</link>
-      <pubDate>Tue, 21 Dec 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/nft/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>technology</title>
-      <link>http://localhost:1313/tags/technology/</link>
-      <pubDate>Tue, 21 Dec 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/technology/</guid>
       <description></description>
     </item>
     
@@ -683,15 +701,6 @@
     </item>
     
     <item>
-      <title>5G</title>
-      <link>http://localhost:1313/tags/5g/</link>
-      <pubDate>Sun, 15 Nov 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/5g/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>interview</title>
       <link>http://localhost:1313/tags/interview/</link>
       <pubDate>Sun, 15 Nov 2020 10:58:08 -0400</pubDate>
@@ -1066,15 +1075,6 @@
       <pubDate>Thu, 05 Sep 2019 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/devfest/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>evolution</title>
-      <link>http://localhost:1313/tags/evolution/</link>
-      <pubDate>Mon, 29 Apr 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/evolution/</guid>
       <description></description>
     </item>
     

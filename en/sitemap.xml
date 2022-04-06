@@ -2,13 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/5g/</loc>
+    <lastmod>2022-04-06T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/ai/</loc>
-    <lastmod>2022-02-19T10:58:08-04:00</lastmod>
+    <lastmod>2022-04-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/ar/</loc>
-    <lastmod>2022-02-19T10:58:08-04:00</lastmod>
+    <lastmod>2022-04-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -22,38 +27,53 @@
                 href="http://localhost:1313/tags/ar/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/event/</loc>
-    <lastmod>2022-02-19T10:58:08-04:00</lastmod>
+    <loc>http://localhost:1313/tags/blockchain/</loc>
+    <lastmod>2022-04-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/hackathon/</loc>
-    <lastmod>2022-02-19T10:58:08-04:00</lastmod>
+    <loc>http://localhost:1313/tags/evolution/</loc>
+    <lastmod>2022-04-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/general/</loc>
+    <lastmod>2022-04-06T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="http://localhost:1313/hi/tags/general/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/general/"
+                />
   </url><url>
     <loc>http://localhost:1313/tags/iot/</loc>
-    <lastmod>2022-02-19T10:58:08-04:00</lastmod>
+    <lastmod>2022-04-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/judge/</loc>
-    <lastmod>2022-02-19T10:58:08-04:00</lastmod>
+    <loc>http://localhost:1313/tags/metaverse/</loc>
+    <lastmod>2022-04-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/event/bmu-hack5/</loc>
-    <lastmod>2022-02-19T10:58:08-04:00</lastmod>
+    <loc>http://localhost:1313/post/metaverse-a-technological-evolution/</loc>
+    <lastmod>2022-04-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/mentor/</loc>
-    <lastmod>2022-02-19T10:58:08-04:00</lastmod>
+    <loc>http://localhost:1313/tags/nft/</loc>
+    <lastmod>2022-04-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2022-02-19T10:58:08-04:00</lastmod>
+    <lastmod>2022-04-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -72,13 +92,38 @@
                 href="http://localhost:1313/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/university/</loc>
-    <lastmod>2022-02-19T10:58:08-04:00</lastmod>
+    <loc>http://localhost:1313/tags/technology/</loc>
+    <lastmod>2022-04-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/tags/technology/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/technology/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/vr/</loc>
+    <lastmod>2022-04-06T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/tags/vr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/vr/"
+                />
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2022-02-19T10:58:08-04:00</lastmod>
+    <lastmod>2022-04-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -98,7 +143,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/tags/xr/</loc>
-    <lastmod>2022-02-19T10:58:08-04:00</lastmod>
+    <lastmod>2022-04-06T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -111,6 +156,36 @@
                 hreflang="en"
                 href="http://localhost:1313/tags/xr/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/tags/event/</loc>
+    <lastmod>2022-02-19T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/hackathon/</loc>
+    <lastmod>2022-02-19T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/judge/</loc>
+    <lastmod>2022-02-19T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/event/bmu-hack5/</loc>
+    <lastmod>2022-02-19T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/mentor/</loc>
+    <lastmod>2022-02-19T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/university/</loc>
+    <lastmod>2022-02-19T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/discussion/</loc>
     <lastmod>2022-02-01T10:58:08-04:00</lastmod>
@@ -137,17 +212,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/blockchain/</loc>
-    <lastmod>2022-01-07T01:00:00-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/event/tech-nexus-2021/</loc>
-    <lastmod>2022-01-07T01:00:00-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/metaverse/</loc>
     <lastmod>2022-01-07T01:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -156,21 +221,6 @@
     <lastmod>2022-01-07T01:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/vr/</loc>
-    <lastmod>2022-01-07T01:00:00-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/tags/vr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/vr/"
-                />
   </url><url>
     <loc>http://localhost:1313/tags/android/</loc>
     <lastmod>2021-12-21T10:58:08-04:00</lastmod>
@@ -181,21 +231,6 @@
     <lastmod>2021-12-21T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/general/</loc>
-    <lastmod>2021-12-21T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="http://localhost:1313/hi/tags/general/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/general/"
-                />
   </url><url>
     <loc>http://localhost:1313/post/getting-into-the-metaverse-part-2/</loc>
     <lastmod>2021-12-21T10:58:08-04:00</lastmod>
@@ -211,26 +246,6 @@
     <lastmod>2021-12-21T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/nft/</loc>
-    <lastmod>2021-12-21T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/technology/</loc>
-    <lastmod>2021-12-21T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/tags/technology/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/technology/"
-                />
   </url><url>
     <loc>http://localhost:1313/post/getting-into-the-metaverse-part-1/</loc>
     <lastmod>2021-12-20T10:58:08-04:00</lastmod>
@@ -704,11 +719,6 @@
   </url><url>
     <loc>http://localhost:1313/event/nasscom-iotcoe/</loc>
     <lastmod>2020-12-05T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/5g/</loc>
-    <lastmod>2020-11-15T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1204,11 +1214,6 @@
   </url><url>
     <loc>http://localhost:1313/event/google_devfest_2019_think_beyond_keyboard_and_screen/</loc>
     <lastmod>2019-09-05T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/evolution/</loc>
-    <lastmod>2019-04-29T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>thinkreality on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/thinkreality/</link>
+    <link>http://localhost:1313/tags/thinkreality/</link>
     <description>Recent content in thinkreality on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Apr 2021 10:58:08 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/thinkreality/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 27 Apr 2021 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/thinkreality/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Making pandemic-proof workplaces a reality with XR</title>
-      <link>https://thinkuldeep.com/post/making-pandemic-proof-workplaces-a-reality-xr/</link>
+      <link>http://localhost:1313/post/making-pandemic-proof-workplaces-a-reality-xr/</link>
       <pubDate>Tue, 27 Apr 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/making-pandemic-proof-workplaces-a-reality-xr/</guid>
+      <guid>http://localhost:1313/post/making-pandemic-proof-workplaces-a-reality-xr/</guid>
       <description>The IMF called the COVID-19 crisis ‘unlike any other,’ where the global growth contraction for 2020 was estimated at -3.5 percent. Image source : Using Lenovo ThinkReality A6 Glass at Workplace
 Here is a quick overview of the biggest challenges that CXOs (and their businesses) have faced over the recent past, to better illustrate how the pandemic is affecting businesses:
  Businesses are grappling with slowing global supply chains Sales and production growth is further impacted with a subsequent dive in opportunities for partnerships and growth The flattened or negative growth market result in less manpower and resources to work with, further affecting productivity  ​The five biggest challenges that CXOs are facing today</description>

@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>smart factory on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/smart-factory/</link>
+    <link>http://localhost:1313/tags/smart-factory/</link>
     <description>Recent content in smart factory on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Aug 2016 10:58:08 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/smart-factory/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 16 Aug 2016 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/smart-factory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Industrial IoT (IIOT) Reference Architecture</title>
-      <link>https://thinkuldeep.com/post/iiot-reference-architecture/</link>
+      <link>http://localhost:1313/post/iiot-reference-architecture/</link>
       <pubDate>Tue, 16 Aug 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/iiot-reference-architecture/</guid>
+      <guid>http://localhost:1313/post/iiot-reference-architecture/</guid>
       <description>The industry has been going through an evolution. Industry 4.0 is the fourth industrial revolution where the key will be on digital transformation. Industry 4.0 creates what has been called a &amp;ldquo;smart factory&amp;rdquo;. Within the modular structured smart factories, cyber-physical systems monitor physical processes, create a virtual copy of the physical world and make decentralized decisions. Over the Internet of Things, cyber-physical systems communicate and cooperate with each other and with humans in real time, and via the Internet of Services, both internal and cross-organizational services are offered and used by participants of the value chain.</description>
     </item>
     

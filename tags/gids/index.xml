@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>gids on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/gids/</link>
+    <link>http://localhost:1313/tags/gids/</link>
     <description>Recent content in gids on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Nov 2020 06:30:00 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/gids/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 05 Nov 2020 06:30:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/gids/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Speaker - GIDS - Extended Machine Learning with XR</title>
-      <link>https://thinkuldeep.com/event/gids_2020_xr4ml/</link>
+      <link>http://localhost:1313/event/gids_2020_xr4ml/</link>
       <pubDate>Thu, 05 Nov 2020 06:30:00 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/gids_2020_xr4ml/</guid>
+      <guid>http://localhost:1313/event/gids_2020_xr4ml/</guid>
       <description>Extended Reality is not only meant for humans, they can very well serve machines by producing Digital twins. Digital twins encapsulate real world elements with all important physics characteristics enabling the researcher to produce large volume of training data needed for reinforment learning and CNN based deep learning algorithms. Extended Reality environments are mature today and are capable of producing photorealistic rendering and physics emulation of real world just by using digital twins.</description>
     </item>
     

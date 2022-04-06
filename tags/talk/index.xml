@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>talk on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/talk/</link>
+    <link>http://localhost:1313/tags/talk/</link>
     <description>Recent content in talk on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Oct 2021 10:58:08 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/talk/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 20 Oct 2021 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/talk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Speaker - Thoughtworks MasterClass-2021</title>
-      <link>https://thinkuldeep.com/event/thougthworks-masterclasses-2021/</link>
+      <link>http://localhost:1313/event/thougthworks-masterclasses-2021/</link>
       <pubDate>Wed, 20 Oct 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/thougthworks-masterclasses-2021/</guid>
+      <guid>http://localhost:1313/event/thougthworks-masterclasses-2021/</guid>
       <description>The MasterClass This October, at Thoughtworks India, we’re celebrating our 20th anniversary! That’s 20 years of excellence in technology!
  All through the month we’re hosting 10 tech talks, delivered by some of our best-and-brightest technologists in India. Each of them will be taking you through different topics, ranging from Distributed Delivery and XR, to Security and Navigating Ambiguity.
 I am sharing stage with Raju Kandaswamy who is a robotics enthusiast and taking us through &amp;ldquo;Using XR in building autonomous vehicles&amp;rdquo;.</description>
@@ -24,10 +20,10 @@ I am sharing stage with Raju Kandaswamy who is a robotics enthusiast and taking 
     
     <item>
       <title>Speaker - XConf-2021 - Thoughtworks India</title>
-      <link>https://thinkuldeep.com/event/thougthworks-xconf-2021/</link>
+      <link>http://localhost:1313/event/thougthworks-xconf-2021/</link>
       <pubDate>Fri, 08 Oct 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/thougthworks-xconf-2021/</guid>
+      <guid>http://localhost:1313/event/thougthworks-xconf-2021/</guid>
       <description>The XConf XConf is Thoughtworks annual technology event created by technologists. It is designed for technologists who care deeply about software and its impact on the world.
 This year, XConf will be a virtual experience available at two different time slots. October 7th and 8th will feature pre-recorded sessions and October 9th will feature live sessions. During the nine exciting talks spread across three days.
  I am exited to sharing the stage with renowned technologists like Neal Ford, Dr.</description>
@@ -35,29 +31,29 @@ This year, XConf will be a virtual experience available at two different time sl
     
     <item>
       <title>Speaker - AT2020 - Agility in Enterprise XR</title>
-      <link>https://thinkuldeep.com/event/at_2020_agilexr/</link>
+      <link>http://localhost:1313/event/at_2020_agilexr/</link>
       <pubDate>Sat, 06 Mar 2021 01:00:00 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/at_2020_agilexr/</guid>
+      <guid>http://localhost:1313/event/at_2020_agilexr/</guid>
       <description>Enterprise XR is gaining good traction, and software development’s best practices like Agile principles really matters due to multitude of tooling and tech stacks used for Enterprise XR solutions
 Enterprises do face multiple challenges with the XR development lifecycle. One of them is the automation of testing XR applications. In response to this gap, ThoughtWorks has developed Arium – an open-source, lightweight, extensible, platform-agnostic framework that helps write automation tests that are built specifically for XR Applications.</description>
     </item>
     
     <item>
       <title>Speaker - GIDS - Extended Machine Learning with XR</title>
-      <link>https://thinkuldeep.com/event/gids_2020_xr4ml/</link>
+      <link>http://localhost:1313/event/gids_2020_xr4ml/</link>
       <pubDate>Thu, 05 Nov 2020 06:30:00 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/gids_2020_xr4ml/</guid>
+      <guid>http://localhost:1313/event/gids_2020_xr4ml/</guid>
       <description>Extended Reality is not only meant for humans, they can very well serve machines by producing Digital twins. Digital twins encapsulate real world elements with all important physics characteristics enabling the researcher to produce large volume of training data needed for reinforment learning and CNN based deep learning algorithms. Extended Reality environments are mature today and are capable of producing photorealistic rendering and physics emulation of real world just by using digital twins.</description>
     </item>
     
     <item>
       <title>Speaker - Google DSC - How to get started with AR VR?</title>
-      <link>https://thinkuldeep.com/event/google_dsk_skct_xr_introduction/</link>
+      <link>http://localhost:1313/event/google_dsk_skct_xr_introduction/</link>
       <pubDate>Sun, 07 Jun 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/google_dsk_skct_xr_introduction/</guid>
+      <guid>http://localhost:1313/event/google_dsk_skct_xr_introduction/</guid>
       <description>Conducted a live session at Google Developer Students Club of Sri Krishna College of Technology, Coimbatore, TN, India
 Intro here LinkedIn
 Live session, recording.  The talks is about  What is AR VR? Why to start with AR VR? How to start with AR VR?  Detailed Slides   How to get started with arvr - DSC 2020  from Kuldeep Singh  Feedback  This session was really awesome and I have got lot of new knowledge about ar/vr and it&amp;rsquo;s importance in solving real life problems - Kannan Subramanian</description>
@@ -65,10 +61,10 @@ Live session, recording.  The talks is about  What is AR VR? Why to start with A
     
     <item>
       <title>Speaker - Spatial Web - Life beyond Keyboard and Screen</title>
-      <link>https://thinkuldeep.com/event/gids_2020_blr_spatialweb/</link>
+      <link>http://localhost:1313/event/gids_2020_blr_spatialweb/</link>
       <pubDate>Fri, 20 Mar 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/gids_2020_blr_spatialweb/</guid>
+      <guid>http://localhost:1313/event/gids_2020_blr_spatialweb/</guid>
       <description>New Date is still to be announced.
 Get ready: Great International Developer Summit is re-scheduled and now virtual summit will be organized.
 Come and talk about the life beyond keyboard and screens, spatial web is taking over get ready&amp;hellip;
@@ -77,10 +73,10 @@ The talk is about Spatial Web is an umbrella term for the next generation web te
     
     <item>
       <title>Speaker - Google Devfest 2019 - Think Beyond Keyboard and Screen</title>
-      <link>https://thinkuldeep.com/event/google_devfest_2019_think_beyond_keyboard_and_screen/</link>
+      <link>http://localhost:1313/event/google_devfest_2019_think_beyond_keyboard_and_screen/</link>
       <pubDate>Thu, 05 Sep 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/google_devfest_2019_think_beyond_keyboard_and_screen/</guid>
+      <guid>http://localhost:1313/event/google_devfest_2019_think_beyond_keyboard_and_screen/</guid>
       <description>Presented At : Google DevFest 2019, by Google Developer&amp;rsquo;s Group, GDG Cloud Delhi .
 The talks is about  How the User interactions evolved with time? Why is it important to think beyond the tradition keyboard and screen? Where is the industry heading? How will it impact us?  Intro here LinkedIn
 We have built office-explorer #DevFest2019 pic.twitter.com/0yRz7Euo8J
@@ -89,10 +85,10 @@ We have built office-explorer #DevFest2019 pic.twitter.com/0yRz7Euo8J
     
     <item>
       <title>Speaker &amp; Organizer - IOTNCR - Ideation to Production Workshop</title>
-      <link>https://thinkuldeep.com/event/iotncr-ideation-to-production/</link>
+      <link>http://localhost:1313/event/iotncr-ideation-to-production/</link>
       <pubDate>Sat, 29 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/iotncr-ideation-to-production/</guid>
+      <guid>http://localhost:1313/event/iotncr-ideation-to-production/</guid>
       <description>Conducted a workshop on IoT with IOTNCR. I have spoken on IoT technology landscape, and many of other speaker given enlightening talks.
 Intro here Nagarro invites IOT enthusiasts to Ideation to Production:An Entrepreneurship Workshop,Apr 29 #IOTNCR #Nagarroiotncr https://t.co/kvQi1CARjG pic.twitter.com/QbY94UId6c
 &amp;mdash; Kuldeep Singh (@kuldeepwilldo) April 27, 2017  The talks is about  IOT fundamentals and building blocks  IOT Nodes IOT Gateway IOT Platforms Visualization (AR &amp;amp; VR) Integrations    Detailed Slides   IOT Landscape  from Kuldeep Singh  Social connect Nice to meet you all @Nagarro #iotncr #Nagarroiotncr @kanchanray @mfuloria pic.</description>
@@ -100,10 +96,10 @@ Intro here Nagarro invites IOT enthusiasts to Ideation to Production:An Entrepre
     
     <item>
       <title>Contributor - JavaOne - Rapid Modernization to Java8</title>
-      <link>https://thinkuldeep.com/event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</link>
+      <link>http://localhost:1313/event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</link>
       <pubDate>Wed, 01 Oct 2014 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</guid>
+      <guid>http://localhost:1313/event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</guid>
       <description>Presented At: G. Venkat, Senior Vice President of Technology &amp;amp; Solutions, at Nagarro and I have spoken at the Oracle OpenWorld / JavaOne conference on Wednesday, October 1, 2014, form 10:00 – 11:00 a.m., Pacific Time, at Ballroom 6 in the Hilton San Francisco at Union Square.
 I have supported Venkat and presented the JMod tool demo with him.
 Here are some coverages - https://www.nagarro.com/en/news-events/nagarro-has-java-8-covered-at-oracle-open-world I have lead the Nagarro Stall and showcased the JMod demo to 300+ visitors.</description>

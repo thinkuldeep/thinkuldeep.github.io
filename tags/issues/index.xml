@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>issues on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/issues/</link>
+    <link>http://localhost:1313/tags/issues/</link>
     <description>Recent content in issues on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 May 2012 10:58:08 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/issues/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 27 May 2012 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/issues/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Strange JSP Compilation Issue </title>
-      <link>https://thinkuldeep.com/post/jsp-compilation-issues/</link>
+      <link>http://localhost:1313/post/jsp-compilation-issues/</link>
       <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/jsp-compilation-issues/</guid>
+      <guid>http://localhost:1313/post/jsp-compilation-issues/</guid>
       <description>We were getting following error on the production sever (Linux, Jboss). We were in the middle of user acceptance testing with the client, many users were accessing the application to simulate various scenarios in a live session.
 the application was crashing just after 2-3 minute of start with above error, and no user were able to access the application. We were expected for fix the issue ASAP, as the users were assembled for the web session, all were waiting for the server up.</description>
     </item>

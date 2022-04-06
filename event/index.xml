@@ -2,31 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Events on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/event/</link>
+    <link>http://localhost:1313/event/</link>
     <description>Recent content in Events on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Feb 2020 12:00:00 -0500</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/event/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 02 Feb 2020 12:00:00 -0500</lastBuildDate><atom:link href="http://localhost:1313/event/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Judge at HackBMU 5.0</title>
-      <link>https://thinkuldeep.com/event/bmu-hack5/</link>
+      <link>http://localhost:1313/event/bmu-hack5/</link>
       <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/bmu-hack5/</guid>
-      <description>BML Munjal University,a Hero group initiative, is organizing a 5th edition Hackathon, named HackBMU 5.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
+      <guid>http://localhost:1313/event/bmu-hack5/</guid>
+      <description>BML Munjal University, a Hero group initiative, is organizing a 5th edition Hackathon, named HackBMU 5.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
 HackBMU seeks to provide a welcoming and supportive environment to all participants to develop their skills, regardless of their background.</description>
     </item>
     
     <item>
-      <title>Your Hackathon Guide at IEEE WIE - BU - The Times Groups </title>
-      <link>https://thinkuldeep.com/event/ieee-bu-wie-discussion/</link>
-      <pubDate>Tue, 01 Feb 2022 01:00:00 -0400</pubDate>
+      <title>Your Hackathon Guide at IEEE WIE - BU - The Times Groups</title>
+      <link>http://localhost:1313/event/ieee-bu-wie-discussion/</link>
+      <pubDate>Tue, 01 Feb 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/ieee-bu-wie-discussion/</guid>
+      <guid>http://localhost:1313/event/ieee-bu-wie-discussion/</guid>
       <description>IEEE WIE (Women In Engineering) at Bennett University - The Times Group, has hosted a panel discussion with students preparing and participating in hackathons.
  I joined the panel of 🌟 Swati Anuj Arya (chief information security officer, Amazon Pay) and 🌟Srishti Gupta (Senior data analyst at Ernst &amp;amp; Young) to share our experience with students.
 Highlights of the event! It was a great discussion, we started with questions on prerequisites of hackathon, and skills required to participate in hackathon, where we talked about being a thinker, solution oriented mindset, authenticity and practicality of the ideas and stay aligned to the problem statements.</description>
@@ -34,28 +30,28 @@ Highlights of the event! It was a great discussion, we started with questions on
     
     <item>
       <title>Judge at Tech-Nexus Hackathon</title>
-      <link>https://thinkuldeep.com/event/tech-nexus-2022/</link>
+      <link>http://localhost:1313/event/tech-nexus-2021/</link>
       <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/tech-nexus-2022/</guid>
+      <guid>http://localhost:1313/event/tech-nexus-2021/</guid>
       <description>National Institute of Technology Hamirpur is organizing Tech-Nexus, an online technical carnival, as an initiative of the Institute Innovation Council, MHRD. The essence of Tech-Nexus is to unite all the technological talents across the nation and give them a platform to express their skills and ideas. This flagship event will help people to showcase their unique projects and trends in the technological field as well as the challenges encountered, and solutions adopted while developing the projects.</description>
     </item>
     
     <item>
       <title>Guest Lecture on &#39;Metaverse&#39; at NIT Hamirpur</title>
-      <link>https://thinkuldeep.com/event/getting_into_metaverse_guest_lecture_nit_hamirpur/</link>
+      <link>http://localhost:1313/event/getting_into_metaverse_guest_lecture_nit_hamirpur/</link>
       <pubDate>Sun, 19 Dec 2021 01:00:00 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/getting_into_metaverse_guest_lecture_nit_hamirpur/</guid>
+      <guid>http://localhost:1313/event/getting_into_metaverse_guest_lecture_nit_hamirpur/</guid>
       <description>National Institute of Technology Hamirpur is organizing Tech-Nexus, an online technical carnival, as an initiative of the Institute Innovation Council, MHRD. The essence of Tech-Nexus is to unite all the technological talents across the nation and give them a platform to express their skills and ideas. This flagship event will help people to showcase their unique projects and trends in the technological field as well as the challenges encountered, and solutions adopted while developing the projects.</description>
     </item>
     
     <item>
       <title>Speaker - Thoughtworks MasterClass-2021</title>
-      <link>https://thinkuldeep.com/event/thougthworks-masterclasses-2021/</link>
+      <link>http://localhost:1313/event/thougthworks-masterclasses-2021/</link>
       <pubDate>Wed, 20 Oct 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/thougthworks-masterclasses-2021/</guid>
+      <guid>http://localhost:1313/event/thougthworks-masterclasses-2021/</guid>
       <description>The MasterClass This October, at Thoughtworks India, we’re celebrating our 20th anniversary! That’s 20 years of excellence in technology!
  All through the month we’re hosting 10 tech talks, delivered by some of our best-and-brightest technologists in India. Each of them will be taking you through different topics, ranging from Distributed Delivery and XR, to Security and Navigating Ambiguity.
 I am sharing stage with Raju Kandaswamy who is a robotics enthusiast and taking us through &amp;ldquo;Using XR in building autonomous vehicles&amp;rdquo;.</description>
@@ -63,10 +59,10 @@ I am sharing stage with Raju Kandaswamy who is a robotics enthusiast and taking 
     
     <item>
       <title>Judge - Thoughtworks iFest 2.0</title>
-      <link>https://thinkuldeep.com/event/thougthworks-ifest2/</link>
+      <link>http://localhost:1313/event/thougthworks-ifest2/</link>
       <pubDate>Sun, 10 Oct 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/thougthworks-ifest2/</guid>
+      <guid>http://localhost:1313/event/thougthworks-ifest2/</guid>
       <description>The iFest This October, at Thoughtworks India, we’re celebrating our 20th anniversary! That’s 20 years of excellence in technology!
 Innovation Lab&amp;rsquo;s at Thoughtworks comes second edition of iFest - a month long hackathon. I got opportunity to participate in iFest as a judge.
 I was amazed to see the verity of idea. All the ideas were great and it was so hard to compare them.
@@ -75,10 +71,10 @@ Ideas were touching were reflecting the Thougthworks culture, use technology to 
     
     <item>
       <title>Speaker - XConf-2021 - Thoughtworks India</title>
-      <link>https://thinkuldeep.com/event/thougthworks-xconf-2021/</link>
+      <link>http://localhost:1313/event/thougthworks-xconf-2021/</link>
       <pubDate>Fri, 08 Oct 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/thougthworks-xconf-2021/</guid>
+      <guid>http://localhost:1313/event/thougthworks-xconf-2021/</guid>
       <description>The XConf XConf is Thoughtworks annual technology event created by technologists. It is designed for technologists who care deeply about software and its impact on the world.
 This year, XConf will be a virtual experience available at two different time slots. October 7th and 8th will feature pre-recorded sessions and October 9th will feature live sessions. During the nine exciting talks spread across three days.
  I am exited to sharing the stage with renowned technologists like Neal Ford, Dr.</description>
@@ -86,50 +82,50 @@ This year, XConf will be a virtual experience available at two different time sl
     
     <item>
       <title>Discussion - Navigating the new normal</title>
-      <link>https://thinkuldeep.com/event/thevrara-navigating-new-normal/</link>
+      <link>http://localhost:1313/event/thevrara-navigating-new-normal/</link>
       <pubDate>Sat, 22 May 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/thevrara-navigating-new-normal/</guid>
+      <guid>http://localhost:1313/event/thevrara-navigating-new-normal/</guid>
       <description>The world is finding the ways to get out of Covid impact, some are on recovery path and some are still bettling it. At ThoughtWorks, we have recently published our insights on navigating the new normal with augmented reality. Members of Communities of Practice of The VRARA come together to discuss the topic and share the opinion on way forward for XR.
 I presented thoughtworks insights to other renowned industry leaders and VRARA members like Pradeep Sharma, Swarup Choudhury and Rajiv Madane, and technology exports like Pradeep Naik and Dhruv.</description>
     </item>
     
     <item>
       <title>Judge at HackBMU 4.0</title>
-      <link>https://thinkuldeep.com/event/bmu-hack4/</link>
+      <link>http://localhost:1313/event/bmu-hack4/</link>
       <pubDate>Fri, 23 Apr 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/bmu-hack4/</guid>
+      <guid>http://localhost:1313/event/bmu-hack4/</guid>
       <description>BML Munjal University,a Hero group initiative, is organizing a 4th edition Hackathon, named HackBMU 4.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
 HackBMU seeks to provide a welcoming and supportive environment to all participants to develop their skills, regardless of their background.</description>
     </item>
     
     <item>
       <title>Speaker - AT2020 - Agility in Enterprise XR</title>
-      <link>https://thinkuldeep.com/event/at_2020_agilexr/</link>
+      <link>http://localhost:1313/event/at_2020_agilexr/</link>
       <pubDate>Sat, 06 Mar 2021 01:00:00 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/at_2020_agilexr/</guid>
+      <guid>http://localhost:1313/event/at_2020_agilexr/</guid>
       <description>Enterprise XR is gaining good traction, and software development’s best practices like Agile principles really matters due to multitude of tooling and tech stacks used for Enterprise XR solutions
 Enterprises do face multiple challenges with the XR development lifecycle. One of them is the automation of testing XR applications. In response to this gap, ThoughtWorks has developed Arium – an open-source, lightweight, extensible, platform-agnostic framework that helps write automation tests that are built specifically for XR Applications.</description>
     </item>
     
     <item>
       <title>Juror - SMCC Startup Challenge by Nasscom</title>
-      <link>https://thinkuldeep.com/event/nasscom-smcc/</link>
+      <link>http://localhost:1313/event/nasscom-smcc/</link>
       <pubDate>Thu, 25 Feb 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/nasscom-smcc/</guid>
+      <guid>http://localhost:1313/event/nasscom-smcc/</guid>
       <description>NASSCOM is the premier trade body and chamber of commerce of the Tech industry in India and comprises over 2800 member companies including both Indian and multinational organisations that have a presence in India. Center of Excellence - IoT and AI is an initiative from NASSCOM and collective effort from different state governments in India,
 NASSCOM CoE is launching first-of-its-kind virtual SMART MANUFACTURING COMPETENCY CENTER (SMCC). The innovation platform which will help in accelerating technology adoption by bringing enterprises, governments, researchers, and innovators together.</description>
     </item>
     
     <item>
       <title>Judge - DotSlash 4.0 - Hackthon by NIT Surat</title>
-      <link>https://thinkuldeep.com/event/dotstash_2021_hackathon/</link>
+      <link>http://localhost:1313/event/dotstash_2021_hackathon/</link>
       <pubDate>Sat, 30 Jan 2021 01:00:00 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/dotstash_2021_hackathon/</guid>
+      <guid>http://localhost:1313/event/dotstash_2021_hackathon/</guid>
       <description>SVNIT Surat has organized a hackathon - DotSlash 4.0, a 30 hours long hackathon. More information here - https://www.hackdotslash.co.in/
 I have participated in this event as a Judge.
 The Event Details - 30-31st Jan 2021  It was really proud feeling to head interesting ideas from the young innovators, use the technology to find solutions during Covid and Post-Covid. Ideas to track and optimize carbon generation even from digitization (emails, internet and more), help specially-abled using technology to communicate, build digital restaurant menu to provide contactless experience, make the online exam cheat-proof, and many more.</description>
@@ -137,39 +133,39 @@ The Event Details - 30-31st Jan 2021  It was really proud feeling to head intere
     
     <item>
       <title>Mentor and Juror - MIC 2020 by Nasscom</title>
-      <link>https://thinkuldeep.com/event/nasscom-iotcoe/</link>
+      <link>http://localhost:1313/event/nasscom-iotcoe/</link>
       <pubDate>Sat, 05 Dec 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/nasscom-iotcoe/</guid>
+      <guid>http://localhost:1313/event/nasscom-iotcoe/</guid>
       <description>NASSCOM is the premier trade body and chamber of commerce of the Tech industry in India and comprises over 2800 member companies including both Indian and multinational organisations that have a presence in India. Center of Excellence - IoT and AI is an initiative from NASSCOM and collective effort from different state governments in India,
 NASSCOM has organized Manufacturing Innovation Challenge 2020 from 12th Oct to 11th Dec, on theme of redefining enterprises and entrepreneurs engagement.</description>
     </item>
     
     <item>
       <title>eXtended Reality for Enterprise - a PODCast by XROM</title>
-      <link>https://thinkuldeep.com/event/xrom-podcast-enterprise-xr/</link>
+      <link>http://localhost:1313/event/xrom-podcast-enterprise-xr/</link>
       <pubDate>Sun, 15 Nov 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/xrom-podcast-enterprise-xr/</guid>
+      <guid>http://localhost:1313/event/xrom-podcast-enterprise-xr/</guid>
       <description>Interesting conversation on eXtended Reality (XR) with Eddie Avil, starting from my background, how I landed up in the XR space and where are we heading…
 XROM PODCast  XROM PODCast is a youtube channel maintained by serial entrepreneur, dreamer &amp;amp; a believer Mr. Eddie Avil. This channel has number of interesting conversations with industry leaders in the emerging technology space. Eddie Avil, also runs a marketplace for AR VR hardware and service, visit here https://www.</description>
     </item>
     
     <item>
       <title>Speaker - GIDS - Extended Machine Learning with XR</title>
-      <link>https://thinkuldeep.com/event/gids_2020_xr4ml/</link>
+      <link>http://localhost:1313/event/gids_2020_xr4ml/</link>
       <pubDate>Thu, 05 Nov 2020 06:30:00 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/gids_2020_xr4ml/</guid>
+      <guid>http://localhost:1313/event/gids_2020_xr4ml/</guid>
       <description>Extended Reality is not only meant for humans, they can very well serve machines by producing Digital twins. Digital twins encapsulate real world elements with all important physics characteristics enabling the researcher to produce large volume of training data needed for reinforment learning and CNN based deep learning algorithms. Extended Reality environments are mature today and are capable of producing photorealistic rendering and physics emulation of real world just by using digital twins.</description>
     </item>
     
     <item>
       <title>Webinar - Essentials of XR Product Design and Development</title>
-      <link>https://thinkuldeep.com/event/thevrara-ppd-cop-webinar/</link>
+      <link>http://localhost:1313/event/thevrara-ppd-cop-webinar/</link>
       <pubDate>Sat, 17 Oct 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/thevrara-ppd-cop-webinar/</guid>
+      <guid>http://localhost:1313/event/thevrara-ppd-cop-webinar/</guid>
       <description>The VRAR Association&amp;rsquo;s Product Design and Development (PDD) Communities of Practice (COP) brings its first webinar on &amp;ldquo;Essentials of XR Product Design and Development&amp;rdquo;.
 I will be sharing the stage with industry leader Mr. Pradeep Khanna, VR AR Association, and XR innovator Mr. Raju Kandaswamy, ThoughtWorks.
 Spread the words  Registration Only Please register at the below link, and save the date Oct 17, 2020, 4:30 PM IST.
@@ -179,10 +175,10 @@ The webinar will be available at https://www.</description>
     
     <item>
       <title>Geeknight - XR - eXtending the Reality</title>
-      <link>https://thinkuldeep.com/event/thougthworks_geeknight_sep_2020_xr/</link>
+      <link>http://localhost:1313/event/thougthworks_geeknight_sep_2020_xr/</link>
       <pubDate>Tue, 29 Sep 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/thougthworks_geeknight_sep_2020_xr/</guid>
+      <guid>http://localhost:1313/event/thougthworks_geeknight_sep_2020_xr/</guid>
       <description>Geek Night is a regular event to promote the sharing of technical knowledge and increase collaboration among the geeks. It is organized by a passionate group of programmers and sponsored by ThoughtWorks.
 Sep month&amp;rsquo;s geek night has covered Extended Reality - An umbrella term covering various technologies like AR,VR and MR. I will be discussing what is XR, its usage and significance today, that is stretching beyond gaming.
 Embracing an Agile approach is essential to any successful XR implementation.</description>
@@ -190,10 +186,10 @@ Embracing an Agile approach is essential to any successful XR implementation.</d
     
     <item>
       <title>Webinar - XR - Nicety to Necessity</title>
-      <link>https://thinkuldeep.com/event/techgigs-xr-webinar-1/</link>
+      <link>http://localhost:1313/event/techgigs-xr-webinar-1/</link>
       <pubDate>Thu, 13 Aug 2020 10:58:15 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/techgigs-xr-webinar-1/</guid>
+      <guid>http://localhost:1313/event/techgigs-xr-webinar-1/</guid>
       <description>Techgig is the largest community of developers, also organizes webinars on emerging technologies.
 I have spoken at a webinar on Extended Reality (XR) - Moving from Nicety to Necessity on coming Aug 13, at 3PM IST.
 Join @thinkuldeep, Head- ARVR Practice, #ThoughtWorksIndia, for a webinar on &amp;quot;why XR is moving from nicety to necessity in the new normal?&amp;quot;
@@ -203,29 +199,29 @@ Registrations are now open: https://t.co/IHcOpLgLXZ@techgigdotcom #ExtendedReali
     
     <item>
       <title>Judge and Mentor -  Smart India Hackathon 2020</title>
-      <link>https://thinkuldeep.com/event/sih-2020/</link>
+      <link>http://localhost:1313/event/sih-2020/</link>
       <pubDate>Mon, 03 Aug 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/sih-2020/</guid>
+      <guid>http://localhost:1313/event/sih-2020/</guid>
       <description>After a wonderful experience of participating as a judge and mentor at Smart India Hackathon 2019, I am delighted to share that I again got a chance to meet and judge India&amp;rsquo;s young winners and innovators at Grand Finale of Smart India Hackathon 2020, world’s biggest open innovation modal, organized by AICTE and MHRD, Govt of India. This time it is no more a hackathon but a hackathon of hackathons — 4 Lacks students, 1500 small hackathons, 40 Nodal centers, around 2000 mentors and 1000 evaluators, 11000 finalists and more…</description>
     </item>
     
     <item>
       <title>Judge - HackInIndia - Hackathon 2020</title>
-      <link>https://thinkuldeep.com/event/hackinindia-hackathon-2020/</link>
+      <link>http://localhost:1313/event/hackinindia-hackathon-2020/</link>
       <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/hackinindia-hackathon-2020/</guid>
+      <guid>http://localhost:1313/event/hackinindia-hackathon-2020/</guid>
       <description>I got chance to judge the HackInIndia event, India&amp;rsquo;s National Level hackathon organized by Script Foundation on 2nd July, 2020.
 Around 150 teams signed up across multiple tracks (Healthcare, Open Innovation, ARVR, EdTech, RPA and FinTech) supported by couple of talented mentors. I and Raviraj Subramanian got chance to meet only top 20 teams in Jury round, and I was amazed to see their innovative ideas, and demonstrations the young blood of nation bring on the table.</description>
     </item>
     
     <item>
       <title>Speaker - Google DSC - How to get started with AR VR?</title>
-      <link>https://thinkuldeep.com/event/google_dsk_skct_xr_introduction/</link>
+      <link>http://localhost:1313/event/google_dsk_skct_xr_introduction/</link>
       <pubDate>Sun, 07 Jun 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/google_dsk_skct_xr_introduction/</guid>
+      <guid>http://localhost:1313/event/google_dsk_skct_xr_introduction/</guid>
       <description>Conducted a live session at Google Developer Students Club of Sri Krishna College of Technology, Coimbatore, TN, India
 Intro here LinkedIn
 Live session, recording.  The talks is about  What is AR VR? Why to start with AR VR? How to start with AR VR?  Detailed Slides   How to get started with arvr - DSC 2020  from Kuldeep Singh  Feedback  This session was really awesome and I have got lot of new knowledge about ar/vr and it&amp;rsquo;s importance in solving real life problems - Kannan Subramanian</description>
@@ -233,10 +229,10 @@ Live session, recording.  The talks is about  What is AR VR? Why to start with A
     
     <item>
       <title>Speaker - Spatial Web - Life beyond Keyboard and Screen</title>
-      <link>https://thinkuldeep.com/event/gids_2020_blr_spatialweb/</link>
+      <link>http://localhost:1313/event/gids_2020_blr_spatialweb/</link>
       <pubDate>Fri, 20 Mar 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/gids_2020_blr_spatialweb/</guid>
+      <guid>http://localhost:1313/event/gids_2020_blr_spatialweb/</guid>
       <description>New Date is still to be announced.
 Get ready: Great International Developer Summit is re-scheduled and now virtual summit will be organized.
 Come and talk about the life beyond keyboard and screens, spatial web is taking over get ready&amp;hellip;
@@ -245,20 +241,20 @@ The talk is about Spatial Web is an umbrella term for the next generation web te
     
     <item>
       <title>Speaker - XR Day - ThoughtWorks India</title>
-      <link>https://thinkuldeep.com/event/thougthworks_xrday/</link>
+      <link>http://localhost:1313/event/thougthworks_xrday/</link>
       <pubDate>Thu, 27 Feb 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/thougthworks_xrday/</guid>
+      <guid>http://localhost:1313/event/thougthworks_xrday/</guid>
       <description>The XR Day Organized XR Days at ThoughtWorks, India in different cities and conducted awareness sessions and ideation workshop and more..
 The talks are about  How the User interactions evolved with time? Why is it important to think beyond the tradition keyboard and screen? Where is the industry heading? How will it impact us?  Detailed Slides   Think beyond keyboard and screen xr day 2019  from Kuldeep Singh  Event Summary It was well recevied the participats.</description>
     </item>
     
     <item>
       <title>Speaker - AwayDay 2019 - SLAM Aware Applications</title>
-      <link>https://thinkuldeep.com/event/thougthworks_awayday_2019_slam_aware_apps/</link>
+      <link>http://localhost:1313/event/thougthworks_awayday_2019_slam_aware_apps/</link>
       <pubDate>Thu, 19 Sep 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/thougthworks_awayday_2019_slam_aware_apps/</guid>
+      <guid>http://localhost:1313/event/thougthworks_awayday_2019_slam_aware_apps/</guid>
       <description>Presented At : Thoutworks&amp;rsquo;s Awayday 2019, where the entire ThoughtWorks India travelled to celebrate togetherness.
 I and my colleague Raju Kandaswamy presented this talk in the breakout sessions in category Seismic Shifts Around 2000 Thoghtworkers get together, and enjoyed fusion of technology showcases, cultural event and more. Glimpse here
  The talk is about  What is SLAM (Simultaneous Localization And Mapping)? The use cases of SLAM? How does it work?</description>
@@ -266,10 +262,10 @@ I and my colleague Raju Kandaswamy presented this talk in the breakout sessions 
     
     <item>
       <title>Speaker - Google Devfest 2019 - Think Beyond Keyboard and Screen</title>
-      <link>https://thinkuldeep.com/event/google_devfest_2019_think_beyond_keyboard_and_screen/</link>
+      <link>http://localhost:1313/event/google_devfest_2019_think_beyond_keyboard_and_screen/</link>
       <pubDate>Thu, 05 Sep 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/google_devfest_2019_think_beyond_keyboard_and_screen/</guid>
+      <guid>http://localhost:1313/event/google_devfest_2019_think_beyond_keyboard_and_screen/</guid>
       <description>Presented At : Google DevFest 2019, by Google Developer&amp;rsquo;s Group, GDG Cloud Delhi .
 The talks is about  How the User interactions evolved with time? Why is it important to think beyond the tradition keyboard and screen? Where is the industry heading? How will it impact us?  Intro here LinkedIn
 We have built office-explorer #DevFest2019 pic.twitter.com/0yRz7Euo8J
@@ -278,19 +274,19 @@ We have built office-explorer #DevFest2019 pic.twitter.com/0yRz7Euo8J
     
     <item>
       <title>Judge and Mentor -  Smart India Hackathon 2019</title>
-      <link>https://thinkuldeep.com/event/sih_2019_an_experience/</link>
+      <link>http://localhost:1313/event/sih_2019_an_experience/</link>
       <pubDate>Thu, 07 Mar 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/sih_2019_an_experience/</guid>
+      <guid>http://localhost:1313/event/sih_2019_an_experience/</guid>
       <description>Recently got a chance to judge and mentor india&amp;rsquo;s young innovators at Smart India Hackathon 2019, world&amp;rsquo;s largest hackathon with 11000 shortlisted participants, hosted by 48 centers across India. It was organized by AICTE and MHRD, Govt of India. I was invited to Judge the event at Panipat Institute of Engineering &amp;amp; Technology, Panipat. I am delighted to contribute in the journey of India&amp;rsquo;s transformation, and see innovative ideas from the new generation.</description>
     </item>
     
     <item>
       <title>Speaker &amp; Organizer - IOTNCR - Ideation to Production Workshop</title>
-      <link>https://thinkuldeep.com/event/iotncr-ideation-to-production/</link>
+      <link>http://localhost:1313/event/iotncr-ideation-to-production/</link>
       <pubDate>Sat, 29 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/iotncr-ideation-to-production/</guid>
+      <guid>http://localhost:1313/event/iotncr-ideation-to-production/</guid>
       <description>Conducted a workshop on IoT with IOTNCR. I have spoken on IoT technology landscape, and many of other speaker given enlightening talks.
 Intro here Nagarro invites IOT enthusiasts to Ideation to Production:An Entrepreneurship Workshop,Apr 29 #IOTNCR #Nagarroiotncr https://t.co/kvQi1CARjG pic.twitter.com/QbY94UId6c
 &amp;mdash; Kuldeep Singh (@kuldeepwilldo) April 27, 2017  The talks is about  IOT fundamentals and building blocks  IOT Nodes IOT Gateway IOT Platforms Visualization (AR &amp;amp; VR) Integrations    Detailed Slides   IOT Landscape  from Kuldeep Singh  Social connect Nice to meet you all @Nagarro #iotncr #Nagarroiotncr @kanchanray @mfuloria pic.</description>
@@ -298,10 +294,10 @@ Intro here Nagarro invites IOT enthusiasts to Ideation to Production:An Entrepre
     
     <item>
       <title>Panelist &amp; Organizer - Nagarro LSD - Industry 4.0</title>
-      <link>https://thinkuldeep.com/event/nagarro-lsd-industory-4-0/</link>
+      <link>http://localhost:1313/event/nagarro-lsd-industory-4-0/</link>
       <pubDate>Thu, 19 Jan 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/nagarro-lsd-industory-4-0/</guid>
+      <guid>http://localhost:1313/event/nagarro-lsd-industory-4-0/</guid>
       <description>Organized Nagarro LSD event, on Industry 4.0, demonstrated usecases on connected services concept, and was a panelist for a discussion on
  Smarter Services - Predictive, Always Connected, Personalized Global experts will debate ways to create smarter services based around predictive maintenance, always connected devices and personalized solutions.
  Whether we call Industry 4.0 an evolution or a revolution, there is little doubt that it will have a disruptive impact on the manufacturing industry.</description>
@@ -309,10 +305,10 @@ Intro here Nagarro invites IOT enthusiasts to Ideation to Production:An Entrepre
     
     <item>
       <title>Contributor - JavaOne - Rapid Modernization to Java8</title>
-      <link>https://thinkuldeep.com/event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</link>
+      <link>http://localhost:1313/event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</link>
       <pubDate>Wed, 01 Oct 2014 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</guid>
+      <guid>http://localhost:1313/event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</guid>
       <description>Presented At: G. Venkat, Senior Vice President of Technology &amp;amp; Solutions, at Nagarro and I have spoken at the Oracle OpenWorld / JavaOne conference on Wednesday, October 1, 2014, form 10:00 – 11:00 a.m., Pacific Time, at Ballroom 6 in the Hilton San Francisco at Union Square.
 I have supported Venkat and presented the JMod tool demo with him.
 Here are some coverages - https://www.nagarro.com/en/news-events/nagarro-has-java-8-covered-at-oracle-open-world I have lead the Nagarro Stall and showcased the JMod demo to 300+ visitors.</description>

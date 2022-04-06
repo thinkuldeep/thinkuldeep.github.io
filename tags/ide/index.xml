@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ide on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/ide/</link>
+    <link>http://localhost:1313/tags/ide/</link>
     <description>Recent content in ide on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Oct 2019 10:58:08 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/ide/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 30 Oct 2019 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/ide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Static Code Analysis for Unity3D — Part 2</title>
-      <link>https://thinkuldeep.com/post/static_code_analysis_unity_2/</link>
+      <link>http://localhost:1313/post/static_code_analysis_unity_2/</link>
       <pubDate>Wed, 30 Oct 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/static_code_analysis_unity_2/</guid>
+      <guid>http://localhost:1313/post/static_code_analysis_unity_2/</guid>
       <description>This article is in continuation of Static Code Analysis for Unity3D — Part 1 where we talked about setting up a local sonar server, sonar scanner and running the analysis for a Unity3D project.
 It this article, we will discuss setting up the Static Code Analysis with SonarCube in IDE — Rider. We are using Rider as the “External Script Editor” in Unity. Configure Rider here in Unity&amp;gt; Preferences &amp;gt; External Tools &amp;gt; External Script Editor.</description>
     </item>

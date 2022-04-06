@@ -1,70 +1,67 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta property="fb:app_id" content="263238410439239" />
     
     <title>Kuldeep Singh  | Enterprise XR - Interoperability</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.69.2" />
+    <meta name="description" content="Interoperability is the key aspect in building enterprise XR solutions">
+    <meta name="generator" content="Hugo 0.96.0" />
     
     
-      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
-    
-
     
     
-      <link href="/dist/css/app.1cb140d8ba31d5b2f1114537dd04802a.css" rel="stylesheet">
+      <meta name="robots" content="noindex, nofollow">
     
 
     
-      <link rel="stylesheet" href="/css/custom.css">
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/css/custom.css">
+  
+
     
 
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="/js/search.js"></script>
+
+    
     
       
 <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
 
-    
 
     
 
+    
+    
     <meta property="og:title" content="Enterprise XR - Interoperability" />
 <meta property="og:description" content="Interoperability is the key aspect in building enterprise XR solutions" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/enterprise-xr-interoperability/" />
+<meta property="og:url" content="http://localhost:1313/post/enterprise-xr-interoperability/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2020-03-28T10:58:08-04:00" />
 <meta property="article:modified_time" content="2020-03-28T10:58:08-04:00" />
+
 <meta itemprop="name" content="Enterprise XR - Interoperability">
-<meta itemprop="description" content="Interoperability is the key aspect in building enterprise XR solutions">
-<meta itemprop="datePublished" content="2020-03-28T10:58:08-04:00" />
+<meta itemprop="description" content="Interoperability is the key aspect in building enterprise XR solutions"><meta itemprop="datePublished" content="2020-03-28T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2020-03-28T10:58:08-04:00" />
 <meta itemprop="wordCount" content="1741">
-
-
-
 <meta itemprop="keywords" content="xr,ar,vr,mr,integration,enterprise,android,unity,tutorial,technology," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Enterprise XR - Interoperability"/>
 <meta name="twitter:description" content="Interoperability is the key aspect in building enterprise XR solutions"/>
 
-      
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
-    
-    <script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   </head>
 
-  <body class="ma0 avenir bg-near-white production">
+  <body class="ma0 avenir bg-near-white">
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=263238410439239&autoLogAppEvents=1"></script>
     
@@ -73,20 +70,20 @@ if (!doNotTrack) {
 
   
   
-  <header class="cover bg-top" style="background-image: url('https://thinkuldeep.com/images/interoperability.jpg');">
+  <header class="cover bg-top" style="background-image: url('http://localhost:1313/images/interoperability.jpg');">
     <div class="pb3-m pb6-l bg-black-60" style="background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.1));">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <div class="flex-l items-center">
-     <a href="https://thinkuldeep.com/" class="f3 fw2 hover-white no-underline white-90 dib">
-        <img src="/images/profile.jpg" class="home-link" />
-     </a>
-      <a class="show-search toggle-search hover-green no-underline white-90" title="Search in my space">
-        <svg xmlns="http://www.w3.org/2000/svg" width="612.056" height="612.057" viewbox="0 0 613 613">
-          <path d="M595.2 513.908L493.775 412.482c26.707-41.727 42.685-91.041 42.685-144.263C536.459 120.085 416.375 0 268.24 0 120.106 0 .021 120.085.021 268.219c0 148.134 120.085 268.22 268.219 268.22 53.222 0 102.537-15.979 144.225-42.686l101.426 101.463c22.454 22.453 58.854 22.453 81.271 0 22.492-22.491 22.492-58.855.038-81.308zm-326.96-54.103c-105.793 0-191.585-85.793-191.585-191.585 0-105.793 85.792-191.585 191.585-191.585s191.585 85.792 191.585 191.585c.001 105.792-85.791 191.585-191.585 191.585z" />
-        </svg>
-        <span class=".">Search</span>
-      </a>
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      <img src="/images/profile.jpg" class="home-link" />
+    </a>
+    <a class="show-search toggle-search hover-green no-underline white-90" title="Search in my space">
+      <svg xmlns="http://www.w3.org/2000/svg" width="612.056" height="612.057" viewbox="0 0 613 613">
+        <path d="M595.2 513.908L493.775 412.482c26.707-41.727 42.685-91.041 42.685-144.263C536.459 120.085 416.375 0 268.24 0 120.106 0 .021 120.085.021 268.219c0 148.134 120.085 268.22 268.219 268.22 53.222 0 102.537-15.979 144.225-42.686l101.426 101.463c22.454 22.453 58.854 22.453 81.271 0 22.492-22.491 22.492-58.855.038-81.308zm-326.96-54.103c-105.793 0-191.585-85.793-191.585-191.585 0-105.793 85.792-191.585 191.585-191.585s191.585 85.792 191.585 191.585c.001 105.792-85.791 191.585-191.585 191.585z" />
+      </svg>
+      <span class=".">Search</span>
+    </a>
     <aside class="search">
    <div class="z-999" style="margin-top: 1.5rem;">
     <a class="show-search toggle-search z-999 close-search" title="Close Search">
@@ -144,90 +141,88 @@ if (!doNotTrack) {
         </ul>
       
       
-
-
-<a href="https://www.thoughtworks.com/profiles/kuldeep-singh" target="_blank" class="link-transition instagram link dib z-999 pt3 pt0-l mr1" title="ThougthWorks link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
-    <svg  height="36px"  style="enable-background:new 0 0 65 35;" version="1.1" viewBox="0 0 65 30" width="36px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<div class="ananke-socials">
+  
+    <a href="https://www.thoughtworks.com/profiles/kuldeep-singh" target="_blank" class="thoughtworks ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="thoughtworks link" rel="noopener" aria-label="follow on thoughtworks——Opens in a new window">
+      
+        <span class="icon"><svg {{ with .size }} height="{{ . }}" {{ end }} style="enable-background:new 0 0 65 35;" version="1.1" viewBox="0 0 65 30" width="{{ .size }}" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <path d="M0 5.93V0h25.132v5.93h-9.06v29h-7v-29zM29.255 0h3.5L38.5 28.2 44.87 0h3.463l6.052 28.188L60.535 0H64l-8 34.92h-3.587l-5.93-28.546L40.16 34.92h-3.587z"
-      style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+      style="fill-rule:evenodd;clip-rule:evenodd;fill:{{ .fill }};"/>
 </svg>
-
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
-</svg>
-</span></a>
-
-
-<a href="https://www.linkedin.com/in/kuldeep-reck/" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
-  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
-</svg>
-
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
 </svg>
 </span></a>
-
-
-<a href="https://github.com/thinkuldeep" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
-  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  
+    <a href="https://www.linkedin.com/in/kuldeep-reck/" target="_blank" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://twitter.com/thinkuldeep" target="_blank" class="twitter ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://www.instagram.com/thinkuldeep/" target="_blank" class="instagram ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Instagram link" rel="noopener" aria-label="follow on Instagram——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.271,26.578v-0.006c0.502,0,1.005,0.01,1.508-0.002  c0.646-0.017,1.172-0.57,1.172-1.217c0-0.963,0-1.927,0-2.89c0-0.691-0.547-1.24-1.236-1.241c-0.961,0-1.922-0.001-2.883,0  c-0.688,0.001-1.236,0.552-1.236,1.243c-0.001,0.955-0.004,1.91,0.003,2.865c0.001,0.143,0.028,0.291,0.073,0.426  c0.173,0.508,0.639,0.82,1.209,0.823C41.344,26.579,41.808,26.578,42.271,26.578z M33,27.817c-3.384-0.002-6.135,2.721-6.182,6.089  c-0.049,3.46,2.72,6.201,6.04,6.272c3.454,0.074,6.248-2.686,6.321-6.043C39.254,30.675,36.462,27.815,33,27.817z M21.046,31.116  v0.082c0,4.515-0.001,9.03,0,13.545c0,0.649,0.562,1.208,1.212,1.208c7.16,0.001,14.319,0.001,21.479,0  c0.656,0,1.215-0.557,1.215-1.212c0.001-4.509,0-9.02,0-13.528v-0.094h-2.912c0.411,1.313,0.537,2.651,0.376,4.014  c-0.161,1.363-0.601,2.631-1.316,3.803s-1.644,2.145-2.779,2.918c-2.944,2.006-6.821,2.182-9.946,0.428  c-1.579-0.885-2.819-2.12-3.685-3.713c-1.289-2.373-1.495-4.865-0.739-7.451C22.983,31.116,22.021,31.116,21.046,31.116z   M45.205,49.255c0.159-0.026,0.318-0.049,0.475-0.083c1.246-0.265,2.264-1.304,2.508-2.557c0.025-0.137,0.045-0.273,0.067-0.409  V21.794c-0.021-0.133-0.04-0.268-0.065-0.401c-0.268-1.367-1.396-2.428-2.78-2.618c-0.058-0.007-0.113-0.02-0.17-0.03H20.761  c-0.147,0.027-0.296,0.047-0.441,0.08c-1.352,0.308-2.352,1.396-2.545,2.766c-0.008,0.057-0.02,0.114-0.029,0.171V46.24  c0.028,0.154,0.05,0.311,0.085,0.465c0.299,1.322,1.427,2.347,2.77,2.52c0.064,0.008,0.13,0.021,0.195,0.03H45.205z M33,64  C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://github.com/thinkuldeep" target="_blank" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" rel="noopener" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
   <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
 </svg>
-
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
 </svg>
 </span></a>
-
-
-<a href="https://gitlab.com/kuldeeps2" target="_blank" class="link-transition gitlab link dib z-999 pt3 pt0-l mr1" title="Gitlab link" rel="noopener" aria-label="follow on Gitlab——Opens in a new window">
-  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M29.782 199.732L256 493.714 8.074 309.699c-6.856-5.142-9.712-13.996-7.141-21.993l28.849-87.974zm75.405-174.806c-3.142-8.854-15.709-8.854-18.851 0L29.782 199.732h131.961L105.187 24.926zm56.556 174.806L256 493.714l94.257-293.982H161.743zm349.324 87.974l-28.849-87.974L256 493.714l247.926-184.015c6.855-5.142 9.711-13.996 7.141-21.993zm-85.404-262.78c-3.142-8.854-15.709-8.854-18.851 0l-56.555 174.806h131.961L425.663 24.926z"></path></svg>
-
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+  
+    <a href="https://www.facebook.com/kuldeep.reck" target="_blank" class="facebook ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Facebook link" rel="noopener" aria-label="follow on Facebook——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
 </svg>
 </span></a>
-
-
-
-
-<a href="https://twitter.com/thinkuldeep" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
-  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
-
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+  
+    <a href="https://thinkuldeep.medium.com/" target="_blank" class="medium ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Medium link" rel="noopener" aria-label="follow on Medium——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 170 170;" version="1.1" viewBox="0 0 170 170"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M46.5340803,65.2157554 C46.6968378,63.6076572 46.0836,62.018231 44.8828198,60.93592 L32.6512605,46.2010582 L32.6512605,44 L70.6302521,44 L99.9859944,108.380952 L125.794585,44 L162,44 L162,46.2010582 L151.542017,56.2281011 C150.640424,56.9153477 150.193188,58.0448862 150.380019,59.1628454 L150.380019,132.837155 C150.193188,133.955114 150.640424,135.084652 151.542017,135.771899 L161.755369,145.798942 L161.755369,148 L110.38282,148 L110.38282,145.798942 L120.963119,135.527337 C122.002801,134.487948 122.002801,134.182246 122.002801,132.592593 L122.002801,73.0417402 L92.585901,147.755438 L88.6106443,147.755438 L54.3622782,73.0417402 L54.3622782,123.115814 C54.0767278,125.221069 54.7759199,127.3406 56.2581699,128.863022 L70.0186741,145.55438 L70.0186741,147.755438 L31,147.755438 L31,145.55438 L44.7605042,128.863022 C46.2319621,127.338076 46.8903838,125.204485 46.5340803,123.115814 L46.5340803,65.2157554 Z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
 </svg>
 </span></a>
-
-
-<a href="https://www.instagram.com/thinkuldeep/" target="_blank" class="link-transition instagram link dib z-999 pt3 pt0-l mr1" title="Instagram link" rel="noopener" aria-label="follow on Instagram——Opens in a new window">
-  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.271,26.578v-0.006c0.502,0,1.005,0.01,1.508-0.002  c0.646-0.017,1.172-0.57,1.172-1.217c0-0.963,0-1.927,0-2.89c0-0.691-0.547-1.24-1.236-1.241c-0.961,0-1.922-0.001-2.883,0  c-0.688,0.001-1.236,0.552-1.236,1.243c-0.001,0.955-0.004,1.91,0.003,2.865c0.001,0.143,0.028,0.291,0.073,0.426  c0.173,0.508,0.639,0.82,1.209,0.823C41.344,26.579,41.808,26.578,42.271,26.578z M33,27.817c-3.384-0.002-6.135,2.721-6.182,6.089  c-0.049,3.46,2.72,6.201,6.04,6.272c3.454,0.074,6.248-2.686,6.321-6.043C39.254,30.675,36.462,27.815,33,27.817z M21.046,31.116  v0.082c0,4.515-0.001,9.03,0,13.545c0,0.649,0.562,1.208,1.212,1.208c7.16,0.001,14.319,0.001,21.479,0  c0.656,0,1.215-0.557,1.215-1.212c0.001-4.509,0-9.02,0-13.528v-0.094h-2.912c0.411,1.313,0.537,2.651,0.376,4.014  c-0.161,1.363-0.601,2.631-1.316,3.803s-1.644,2.145-2.779,2.918c-2.944,2.006-6.821,2.182-9.946,0.428  c-1.579-0.885-2.819-2.12-3.685-3.713c-1.289-2.373-1.495-4.865-0.739-7.451C22.983,31.116,22.021,31.116,21.046,31.116z   M45.205,49.255c0.159-0.026,0.318-0.049,0.475-0.083c1.246-0.265,2.264-1.304,2.508-2.557c0.025-0.137,0.045-0.273,0.067-0.409  V21.794c-0.021-0.133-0.04-0.268-0.065-0.401c-0.268-1.367-1.396-2.428-2.78-2.618c-0.058-0.007-0.113-0.02-0.17-0.03H20.761  c-0.147,0.027-0.296,0.047-0.441,0.08c-1.352,0.308-2.352,1.396-2.545,2.766c-0.008,0.057-0.02,0.114-0.029,0.171V46.24  c0.028,0.154,0.05,0.311,0.085,0.465c0.299,1.322,1.427,2.347,2.77,2.52c0.064,0.008,0.13,0.021,0.195,0.03H45.205z M33,64  C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
-
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
-</svg>
-</span></a>
-
-
-
-
-
-
-
-
-<a href="https://medium.com/@thinkuldeep" target="_blank" class="link-transition medium link dib z-999 pt3 pt0-l mr1" title="Medium link" rel="noopener" aria-label="follow on Medium——Opens in a new window">
-    <svg  height="32px"  style="enable-background:new 0 0 170 170;" version="1.1" viewBox="0 0 170 170" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M46.5340803,65.2157554 C46.6968378,63.6076572 46.0836,62.018231 44.8828198,60.93592 L32.6512605,46.2010582 L32.6512605,44 L70.6302521,44 L99.9859944,108.380952 L125.794585,44 L162,44 L162,46.2010582 L151.542017,56.2281011 C150.640424,56.9153477 150.193188,58.0448862 150.380019,59.1628454 L150.380019,132.837155 C150.193188,133.955114 150.640424,135.084652 151.542017,135.771899 L161.755369,145.798942 L161.755369,148 L110.38282,148 L110.38282,145.798942 L120.963119,135.527337 C122.002801,134.487948 122.002801,134.182246 122.002801,132.592593 L122.002801,73.0417402 L92.585901,147.755438 L88.6106443,147.755438 L54.3622782,73.0417402 L54.3622782,123.115814 C54.0767278,125.221069 54.7759199,127.3406 56.2581699,128.863022 L70.0186741,145.55438 L70.0186741,147.755438 L31,147.755438 L31,145.55438 L44.7605042,128.863022 C46.2319621,127.338076 46.8903838,125.204485 46.5340803,123.115814 L46.5340803,65.2157554 Z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
-</svg>
-
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
-</svg>
-</span></a>
-
-
-
-
+  
+</div>
       <a class="w-5"></a>
       <div>
 
@@ -251,7 +246,6 @@ if (!doNotTrack) {
 
 
 
-
     <main class="" role="main">
       
   
@@ -266,39 +260,54 @@ if (!doNotTrack) {
 
 
 
-  <div id="sharing" class="mt3">
 
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
     
-    <a href="https://www.facebook.com/sharer.php?u=https://thinkuldeep.com/post/enterprise-xr-interoperability/" class="facebook no-underline" aria-label="share on Facebook">
-      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
-
-    </a>
-
-    
-    
-    <a href="https://twitter.com/share?url=https://thinkuldeep.com/post/enterprise-xr-interoperability/&amp;text=Enterprise%20XR%20-%20Interoperability" class="twitter no-underline" aria-label="share on Twitter">
-      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
-
-    </a>
-
-    
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://thinkuldeep.com/post/enterprise-xr-interoperability/&amp;title=Enterprise%20XR%20-%20Interoperability" class="linkedin no-underline" aria-label="share on LinkedIn">
-      <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+      
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/post/enterprise-xr-interoperability/&amp;title=Enterprise%20XR%20-%20Interoperability" class="ananke-social-link linkedin no-underline" aria-label="share on LinkedIn">
+        
+        <span class="icon"> <svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
 </svg>
-
-    </a>
+</span>
+        
+      </a>
+    
+      
+      <a href="https://twitter.com/share?url=http://localhost:1313/post/enterprise-xr-interoperability/&amp;text=Enterprise%20XR%20-%20Interoperability" class="ananke-social-link twitter no-underline" aria-label="share on Twitter">
+        
+        <span class="icon"> <svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+        
+      </a>
+    
+      
+      <a href="https://www.facebook.com/sharer.php?u=http://localhost:1313/post/enterprise-xr-interoperability/" class="ananke-social-link facebook no-underline" aria-label="share on Facebook">
+        
+        <span class="icon"> <svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+        
+      </a>
+    
   </div>
+
 
       <h1 class="f1 athelas mt3 mb1">Enterprise XR - Interoperability</h1>
       
       
+      
       <time class="f6 mv4 dib tracked" datetime="2020-03-28T10:58:08-04:00">March 28, 2020</time>
+      
 
       
       
-        <span class="f6 mv4 dib tracked"> - 9 minutes read</span>
-        <span class="f6 mv4 dib tracked"> - 1741 words</span>
+        <span class="f6 mv4 dib tracked"> - 9 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 1741 words </span>
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In the <a href="/post/enterprise-xr-multi-factor-authentication">previous article</a>, we discussed implementing multi-factor authentication for an andorid application, and in the article we will cover another enterprise aspect, Interoperability.</p>
@@ -322,32 +331,32 @@ medium.com</p>
 <p>Implement a UserAuthenticator with simple authentication logic. Each method is accepting an argument context, but currently, it is not being used so you may ignore it for now.</p>
 </li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UserAuthenticator</span> <span style="color:#f92672">{</span>
-    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> UserAuthenticator instance <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> UserAuthenticator<span style="color:#f92672">();</span>
-    <span style="color:#66d9ef">private</span> String loggedInUserName<span style="color:#f92672">;</span>
-    <span style="color:#66d9ef">private</span> <span style="color:#a6e22e">UserAuthenticator</span><span style="color:#f92672">(){</span> <span style="color:#f92672">}</span>
-    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> UserAuthenticator <span style="color:#a6e22e">getInstance</span><span style="color:#f92672">(){</span>
-        <span style="color:#66d9ef">return</span> instance<span style="color:#f92672">;</span>
-    <span style="color:#f92672">}</span>
-    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">login</span><span style="color:#f92672">(</span>String name<span style="color:#f92672">,</span> Context context<span style="color:#f92672">){</span>
-       <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>loggedInUserName <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> loggedInUserName<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
-           loggedInUserName <span style="color:#f92672">=</span> name<span style="color:#f92672">;</span>
-           <span style="color:#66d9ef">return</span> name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; Logged-In successfully &#34;</span><span style="color:#f92672">;</span>
-       <span style="color:#f92672">}</span>
-       <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;A user is already logged in&#34;</span><span style="color:#f92672">;</span>
-    <span style="color:#f92672">}</span>
-    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">logout</span><span style="color:#f92672">(</span>Context context<span style="color:#f92672">){</span>
-        <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>loggedInUserName <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span>loggedInUserName<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
-            loggedInUserName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">;</span>
-            <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Logged-Out successfully &#34;</span><span style="color:#f92672">;</span>
-        <span style="color:#f92672">}</span>
-        <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;No user is logged in!&#34;</span><span style="color:#f92672">;</span>
-    <span style="color:#f92672">}</span>
-    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">getLoggedInUser</span><span style="color:#f92672">(</span>Context context<span style="color:#f92672">){</span>
-        <span style="color:#66d9ef">return</span> loggedInUserName<span style="color:#f92672">;</span>
-    <span style="color:#f92672">}</span>
-<span style="color:#f92672">}</span>
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UserAuthenticator</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> UserAuthenticator instance <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> UserAuthenticator<span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> String loggedInUserName<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#a6e22e">UserAuthenticator</span><span style="color:#f92672">(){</span> <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> UserAuthenticator <span style="color:#a6e22e">getInstance</span><span style="color:#f92672">(){</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> instance<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">login</span><span style="color:#f92672">(</span>String name<span style="color:#f92672">,</span> Context context<span style="color:#f92672">){</span>
+</span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>loggedInUserName <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> loggedInUserName<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
+</span></span><span style="display:flex;"><span>           loggedInUserName <span style="color:#f92672">=</span> name<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">return</span> name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; Logged-In successfully &#34;</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>       <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;A user is already logged in&#34;</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">logout</span><span style="color:#f92672">(</span>Context context<span style="color:#f92672">){</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>loggedInUserName <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span>loggedInUserName<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
+</span></span><span style="display:flex;"><span>            loggedInUserName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Logged-Out successfully &#34;</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;No user is logged in!&#34;</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">getLoggedInUser</span><span style="color:#f92672">(</span>Context context<span style="color:#f92672">){</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> loggedInUserName<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><ul>
 <li>Go to <code>Build &gt; Make Module “userauthenticator”</code>  — It will generate aar file. under <code>build/outputs/aar</code></li>
 </ul>
 <p>This is the library that can be integrated with Unity in C#. The next section describes how it can be used in Unity.</p>
@@ -369,38 +378,38 @@ medium.com</p>
 </code></pre>
 </li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ButtonController</span> : MonoBehaviour
-{
-    <span style="color:#66d9ef">private</span> AndroidJavaObject _userAuthenticator;
-...
-    <span style="color:#66d9ef">void</span> Start()
-    {
-        AndroidJavaClass userAuthenticatorClass = <span style="color:#66d9ef">new</span> AndroidJavaClass(<span style="color:#e6db74">&#34;com.tw.userauthenticator.UserAuthenticator&#34;</span>);
-        _userAuthenticator = userAuthenticatorClass.CallStatic&lt;AndroidJavaObject&gt;(<span style="color:#e6db74">&#34;getInstance&#34;</span>);
-        loginButton.onClick.AddListener(OnLoginClicked);
-        logoutButton.onClick.AddListener(OnLogoutClicked);
-        getLoggedInUserButton.onClick.AddListener( OnGetLoggedUserClicked);
-    }
-    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> OnLoginClicked()
-    {
-        loginResponse.text = _userAuthenticator.Call&lt;<span style="color:#66d9ef">string</span>&gt;(<span style="color:#e6db74">&#34;login&#34;</span>, inputFieldUserName.text, getUnityContext());
-    }
-    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> OnLogoutClicked()
-    {
-        logoutResponse.text = _userAuthenticator.Call&lt;<span style="color:#66d9ef">string</span>&gt;(<span style="color:#e6db74">&#34;logout&#34;</span>, getUnityContext());
-    }
-    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> OnGetLoggedUserClicked()
-    {
-        getLoggerInUserResponse.text = _userAuthenticator.Call&lt;<span style="color:#66d9ef">string</span>&gt;(<span style="color:#e6db74">&#34;getLoggedInUser&#34;</span>, getUnityContext());
-    }
-    <span style="color:#66d9ef">private</span> AndroidJavaObject getUnityContext()
-    {
-        AndroidJavaClass unityClass = <span style="color:#66d9ef">new</span> AndroidJavaClass(<span style="color:#e6db74">&#34;com.unity3d.player.UnityPlayer&#34;</span>);
-        AndroidJavaObject unityActivity = unityClass.GetStatic&lt;AndroidJavaObject&gt;(<span style="color:#e6db74">&#34;currentActivity&#34;</span>);
-        <span style="color:#66d9ef">return</span> unityActivity;
-    }
-}
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c#" data-lang="c#"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ButtonController</span> : MonoBehaviour
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> AndroidJavaObject <span style="color:#ae81ff">_</span>userAuthenticator;
+</span></span><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> Start()
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        AndroidJavaClass userAuthenticatorClass = <span style="color:#66d9ef">new</span> AndroidJavaClass(<span style="color:#e6db74">&#34;com.tw.userauthenticator.UserAuthenticator&#34;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#ae81ff">_</span>userAuthenticator = userAuthenticatorClass.CallStatic&lt;AndroidJavaObject&gt;(<span style="color:#e6db74">&#34;getInstance&#34;</span>);
+</span></span><span style="display:flex;"><span>        loginButton.onClick.AddListener(OnLoginClicked);
+</span></span><span style="display:flex;"><span>        logoutButton.onClick.AddListener(OnLogoutClicked);
+</span></span><span style="display:flex;"><span>        getLoggedInUserButton.onClick.AddListener( OnGetLoggedUserClicked);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> OnLoginClicked()
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        loginResponse.text = <span style="color:#ae81ff">_</span>userAuthenticator.Call&lt;<span style="color:#66d9ef">string</span>&gt;(<span style="color:#e6db74">&#34;login&#34;</span>, inputFieldUserName.text, getUnityContext());
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> OnLogoutClicked()
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        logoutResponse.text = <span style="color:#ae81ff">_</span>userAuthenticator.Call&lt;<span style="color:#66d9ef">string</span>&gt;(<span style="color:#e6db74">&#34;logout&#34;</span>, getUnityContext());
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> OnGetLoggedUserClicked()
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        getLoggerInUserResponse.text = <span style="color:#ae81ff">_</span>userAuthenticator.Call&lt;<span style="color:#66d9ef">string</span>&gt;(<span style="color:#e6db74">&#34;getLoggedInUser&#34;</span>, getUnityContext());
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> AndroidJavaObject getUnityContext()
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        AndroidJavaClass unityClass = <span style="color:#66d9ef">new</span> AndroidJavaClass(<span style="color:#e6db74">&#34;com.unity3d.player.UnityPlayer&#34;</span>);
+</span></span><span style="display:flex;"><span>        AndroidJavaObject unityActivity = unityClass.GetStatic&lt;AndroidJavaObject&gt;(<span style="color:#e6db74">&#34;currentActivity&#34;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> unityActivity;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
 <li>
 <p>Attached the ButtonController script to an empty game object. Link all the buttons, texts, and input field components.
 <img src="https://miro.medium.com/max/1400/1*chchUCwOi-PRRYgf-64GlA.png" alt="Attach"></p>
@@ -428,70 +437,70 @@ medium.com</p>
 <ul>
 <li>Let’s implement a callback interface in the android library.</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">IResponseCallBack</span> <span style="color:#f92672">{</span>
-    <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">OnSuccess</span><span style="color:#f92672">(</span>String result<span style="color:#f92672">);</span>
-    <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span>String erorrmessage<span style="color:#f92672">);</span>
-<span style="color:#f92672">}</span>
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">IResponseCallBack</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">OnSuccess</span><span style="color:#f92672">(</span>String result<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span>String erorrmessage<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><ul>
 <li>Update the UserAuthenticator implementation to call the OnSuccess and OnFailure Callbacks.</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UserAuthenticator</span> <span style="color:#f92672">{</span>
-<span style="color:#f92672">...</span>
-<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">login</span><span style="color:#f92672">(</span>String name<span style="color:#f92672">,</span> IResponseCallBack callBack<span style="color:#f92672">,</span> Context context<span style="color:#f92672">){</span>
-   <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>loggedInUserName <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> loggedInUserName<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
-       loggedInUserName <span style="color:#f92672">=</span> name<span style="color:#f92672">;</span>
-       callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnSuccess</span> <span style="color:#f92672">(</span>loggedInUserName <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; Logged-In successfully &#34;</span><span style="color:#f92672">);</span>
-   <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
-       callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;A user is already logged in&#34;</span><span style="color:#f92672">);</span>
-   <span style="color:#f92672">}</span>
-<span style="color:#f92672">}</span>
-<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">logout</span><span style="color:#f92672">(</span>IResponseCallBack callBack<span style="color:#f92672">,</span> Context context<span style="color:#f92672">){</span>
-    <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>loggedInUserName <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span>loggedInUserName<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
-        loggedInUserName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">;</span>
-        callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnSuccess</span> <span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Logged-Out successfully &#34;</span><span style="color:#f92672">);</span>
-    <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
-        callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;No user is logged in!&#34;</span><span style="color:#f92672">);</span>
-    <span style="color:#f92672">}</span>
-<span style="color:#f92672">}</span>
-<span style="color:#f92672">...</span>
-<span style="color:#f92672">}</span>
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UserAuthenticator</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">login</span><span style="color:#f92672">(</span>String name<span style="color:#f92672">,</span> IResponseCallBack callBack<span style="color:#f92672">,</span> Context context<span style="color:#f92672">){</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>loggedInUserName <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> loggedInUserName<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
+</span></span><span style="display:flex;"><span>       loggedInUserName <span style="color:#f92672">=</span> name<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>       callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnSuccess</span> <span style="color:#f92672">(</span>loggedInUserName <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; Logged-In successfully &#34;</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>       callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;A user is already logged in&#34;</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">logout</span><span style="color:#f92672">(</span>IResponseCallBack callBack<span style="color:#f92672">,</span> Context context<span style="color:#f92672">){</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>loggedInUserName <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span>loggedInUserName<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
+</span></span><span style="display:flex;"><span>        loggedInUserName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>        callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnSuccess</span> <span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Logged-Out successfully &#34;</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;No user is logged in!&#34;</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><ul>
 <li>Build the Android library again and replace it in Unity project Assets/Plugins/Android</li>
 <li>Update corresponding in <code>ButtonController</code> of Unity. Implement the Java interface using <code>UnityEngine.AndroidJavaProxy</code>.</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">private</span> AuthResponseCallback _loginCallback;
-<span style="color:#66d9ef">private</span> AuthResponseCallback _logoutCallback;
-<span style="color:#66d9ef">void</span> Start()
-{
-   ...
-    _loginCallback = <span style="color:#66d9ef">new</span> AuthResponseCallback(loginResponse);
-    _logoutCallback = <span style="color:#66d9ef">new</span> AuthResponseCallback(logoutResponse);
-}
-
-<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AuthResponseCallback</span> : AndroidJavaProxy
-{
-    <span style="color:#66d9ef">private</span> Text _reponseText;
-    <span style="color:#66d9ef">public</span> AuthResponseCallback(Text _reponseText) : <span style="color:#66d9ef">base</span>(<span style="color:#e6db74">&#34;com.tw.userauthenticator.IResponseCallBack&#34;</span>) { }
-    <span style="color:#66d9ef">void</span> OnSuccess(<span style="color:#66d9ef">string</span> result)
-    {
-        _reponseText.text = result;
-        _reponseText.color = Color.black;
-    }
-    <span style="color:#66d9ef">void</span> OnFailure(<span style="color:#66d9ef">string</span> errorMessage)
-    {
-        _reponseText.text = errorMessage;
-        _reponseText.color = Color.red;
-    }
-}
-<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> OnLoginClicked()
-{ 
-    _userAuthenticator.Call(<span style="color:#e6db74">&#34;login&#34;</span>, _loginCallback, inputFieldUserName.text, getUnityContext());
-}
-<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> OnLogoutClicked()
-{
-   _userAuthenticator.Call(<span style="color:#e6db74">&#34;logout&#34;</span>, _logoutCallback, getUnityContext());
-}
-</code></pre></div><p>here is the demo to show the failure response in red color.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c#" data-lang="c#"><span style="display:flex;"><span><span style="color:#66d9ef">private</span> AuthResponseCallback <span style="color:#ae81ff">_l</span>oginCallback;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> AuthResponseCallback <span style="color:#ae81ff">_l</span>ogoutCallback;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> Start()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>   ...
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_l</span>oginCallback = <span style="color:#66d9ef">new</span> AuthResponseCallback(loginResponse);
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_l</span>ogoutCallback = <span style="color:#66d9ef">new</span> AuthResponseCallback(logoutResponse);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AuthResponseCallback</span> : AndroidJavaProxy
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> Text <span style="color:#ae81ff">_</span>reponseText;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> AuthResponseCallback(Text <span style="color:#ae81ff">_</span>reponseText) : <span style="color:#66d9ef">base</span>(<span style="color:#e6db74">&#34;com.tw.userauthenticator.IResponseCallBack&#34;</span>) { }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> OnSuccess(<span style="color:#66d9ef">string</span> result)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#ae81ff">_</span>reponseText.text = result;
+</span></span><span style="display:flex;"><span>        <span style="color:#ae81ff">_</span>reponseText.color = Color.black;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> OnFailure(<span style="color:#66d9ef">string</span> errorMessage)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#ae81ff">_</span>reponseText.text = errorMessage;
+</span></span><span style="display:flex;"><span>        <span style="color:#ae81ff">_</span>reponseText.color = Color.red;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> OnLoginClicked()
+</span></span><span style="display:flex;"><span>{ 
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_</span>userAuthenticator.Call(<span style="color:#e6db74">&#34;login&#34;</span>, <span style="color:#ae81ff">_l</span>oginCallback, inputFieldUserName.text, getUnityContext());
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> OnLogoutClicked()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>   <span style="color:#ae81ff">_</span>userAuthenticator.Call(<span style="color:#e6db74">&#34;logout&#34;</span>, <span style="color:#ae81ff">_l</span>ogoutCallback, getUnityContext());
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>here is the demo to show the failure response in red color.</p>
 <p>The response callback implementation sets the color in the text fields.</p>
 <p>Code Branch till this point is added here — <a href="https://github.com/thinkuldeep/xr-user-authentication/tree/part2simpleauth">Android Library</a>, <a href="https://github.com/thinkuldeep/3DUserAuthenticator/tree/simpleauth">Unity App</a></p>
 <p><img src="https://miro.medium.com/max/512/1*VWAs6JDWYv18DR8Yi9HldA.gif" style="height:50%; width:50%"></img></p>
@@ -503,97 +512,97 @@ medium.com</p>
 <ul>
 <li>Wrap the WebView invocation in an activity — It takes URL, returnURI as input. It intercepts the returnURI and parse the “code” from it and returns in a ResultReceiver callback.</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">WebViewActivity</span> <span style="color:#66d9ef">extends</span> AppCompatActivity <span style="color:#f92672">{</span>
-    <span style="color:#f92672">...</span>
-    <span style="color:#a6e22e">@Override</span>
-    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>Bundle savedInstanceState<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-        <span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>savedInstanceState<span style="color:#f92672">);</span>
-        <span style="color:#66d9ef">final</span> String interceptScheme <span style="color:#f92672">=</span> getIntent<span style="color:#f92672">().</span><span style="color:#a6e22e">getStringExtra</span><span style="color:#f92672">(</span>INTENT_INPUT_INTERCEPT_SCHEME<span style="color:#f92672">);</span>
-        <span style="color:#66d9ef">final</span> String url <span style="color:#f92672">=</span> getIntent<span style="color:#f92672">().</span><span style="color:#a6e22e">getStringExtra</span><span style="color:#f92672">(</span>INTENT_INPUT_URL<span style="color:#f92672">);</span>
-        webView <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> WebView<span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">);</span>
-        
-        webView<span style="color:#f92672">.</span><span style="color:#a6e22e">setWebViewClient</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> WebViewClient<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-            <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">shouldOverrideUrlLoading</span><span style="color:#f92672">(</span>WebView view<span style="color:#f92672">,</span> String url<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-                Uri uri <span style="color:#f92672">=</span> Uri<span style="color:#f92672">.</span><span style="color:#a6e22e">parse</span><span style="color:#f92672">(</span>url<span style="color:#f92672">);</span>
-                <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>interceptScheme <span style="color:#f92672">!=</span><span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> interceptScheme<span style="color:#f92672">.</span><span style="color:#a6e22e">equalsIgnoreCase</span><span style="color:#f92672">(</span>uri<span style="color:#f92672">.</span><span style="color:#a6e22e">getScheme</span><span style="color:#f92672">()</span> <span style="color:#f92672">+</span><span style="color:#e6db74">&#34;://&#34;</span> <span style="color:#f92672">+</span>uri<span style="color:#f92672">.</span><span style="color:#a6e22e">getHost</span><span style="color:#f92672">()))</span> <span style="color:#f92672">{</span>
-                    String code <span style="color:#f92672">=</span> uri<span style="color:#f92672">.</span><span style="color:#a6e22e">getQueryParameter</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;code&#34;</span><span style="color:#f92672">);</span>
-        
-                    ResultReceiver resultReceiver <span style="color:#f92672">=</span> getIntent<span style="color:#f92672">().</span><span style="color:#a6e22e">getParcelableExtra</span><span style="color:#f92672">(</span>INTENT_RESPONSE_CALLBACK<span style="color:#f92672">);</span>
-                    <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>resultReceiver<span style="color:#f92672">!=</span><span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-                        Bundle bundle <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Bundle<span style="color:#f92672">();</span>
-                        bundle<span style="color:#f92672">.</span><span style="color:#a6e22e">putString</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;code&#34;</span><span style="color:#f92672">,</span> code<span style="color:#f92672">);</span>
-                        resultReceiver<span style="color:#f92672">.</span><span style="color:#a6e22e">send</span><span style="color:#f92672">(</span>INTENT_RESULT_CODE<span style="color:#f92672">,</span> bundle<span style="color:#f92672">);</span>
-                   <span style="color:#f92672">}</span>
-                    finish<span style="color:#f92672">();</span>
-                    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">;</span>
-                <span style="color:#f92672">}</span>
-                view<span style="color:#f92672">.</span><span style="color:#a6e22e">loadUrl</span><span style="color:#f92672">(</span>url<span style="color:#f92672">);</span>
-                <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">;</span>
-            <span style="color:#f92672">}</span>
-        <span style="color:#f92672">});</span>
-        WebSettings settings <span style="color:#f92672">=</span> webView<span style="color:#f92672">.</span><span style="color:#a6e22e">getSettings</span><span style="color:#f92672">();</span>
-        settings<span style="color:#f92672">.</span><span style="color:#a6e22e">setJavaScriptEnabled</span><span style="color:#f92672">(</span><span style="color:#66d9ef">true</span><span style="color:#f92672">);</span>
-        setContentView<span style="color:#f92672">(</span>webView<span style="color:#f92672">);</span>
-        webView<span style="color:#f92672">.</span><span style="color:#a6e22e">loadUrl</span><span style="color:#f92672">(</span>url<span style="color:#f92672">);</span>
-    <span style="color:#f92672">}</span>
-    <span style="color:#f92672">...</span>
-<span style="color:#f92672">}</span>
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">WebViewActivity</span> <span style="color:#66d9ef">extends</span> AppCompatActivity <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>Bundle savedInstanceState<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>savedInstanceState<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">final</span> String interceptScheme <span style="color:#f92672">=</span> getIntent<span style="color:#f92672">().</span><span style="color:#a6e22e">getStringExtra</span><span style="color:#f92672">(</span>INTENT_INPUT_INTERCEPT_SCHEME<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">final</span> String url <span style="color:#f92672">=</span> getIntent<span style="color:#f92672">().</span><span style="color:#a6e22e">getStringExtra</span><span style="color:#f92672">(</span>INTENT_INPUT_URL<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        webView <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> WebView<span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        webView<span style="color:#f92672">.</span><span style="color:#a6e22e">setWebViewClient</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> WebViewClient<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">shouldOverrideUrlLoading</span><span style="color:#f92672">(</span>WebView view<span style="color:#f92672">,</span> String url<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>                Uri uri <span style="color:#f92672">=</span> Uri<span style="color:#f92672">.</span><span style="color:#a6e22e">parse</span><span style="color:#f92672">(</span>url<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>interceptScheme <span style="color:#f92672">!=</span><span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> interceptScheme<span style="color:#f92672">.</span><span style="color:#a6e22e">equalsIgnoreCase</span><span style="color:#f92672">(</span>uri<span style="color:#f92672">.</span><span style="color:#a6e22e">getScheme</span><span style="color:#f92672">()</span> <span style="color:#f92672">+</span><span style="color:#e6db74">&#34;://&#34;</span> <span style="color:#f92672">+</span>uri<span style="color:#f92672">.</span><span style="color:#a6e22e">getHost</span><span style="color:#f92672">()))</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>                    String code <span style="color:#f92672">=</span> uri<span style="color:#f92672">.</span><span style="color:#a6e22e">getQueryParameter</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;code&#34;</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>                    ResultReceiver resultReceiver <span style="color:#f92672">=</span> getIntent<span style="color:#f92672">().</span><span style="color:#a6e22e">getParcelableExtra</span><span style="color:#f92672">(</span>INTENT_RESPONSE_CALLBACK<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>resultReceiver<span style="color:#f92672">!=</span><span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>                        Bundle bundle <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Bundle<span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span>                        bundle<span style="color:#f92672">.</span><span style="color:#a6e22e">putString</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;code&#34;</span><span style="color:#f92672">,</span> code<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>                        resultReceiver<span style="color:#f92672">.</span><span style="color:#a6e22e">send</span><span style="color:#f92672">(</span>INTENT_RESULT_CODE<span style="color:#f92672">,</span> bundle<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>                   <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>                    finish<span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>                view<span style="color:#f92672">.</span><span style="color:#a6e22e">loadUrl</span><span style="color:#f92672">(</span>url<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">});</span>
+</span></span><span style="display:flex;"><span>        WebSettings settings <span style="color:#f92672">=</span> webView<span style="color:#f92672">.</span><span style="color:#a6e22e">getSettings</span><span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span>        settings<span style="color:#f92672">.</span><span style="color:#a6e22e">setJavaScriptEnabled</span><span style="color:#f92672">(</span><span style="color:#66d9ef">true</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        setContentView<span style="color:#f92672">(</span>webView<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        webView<span style="color:#f92672">.</span><span style="color:#a6e22e">loadUrl</span><span style="color:#f92672">(</span>url<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><ul>
 <li>User Authenticators Login method invokes the web-view activity with an SSO URL, and callback.</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">login</span><span style="color:#f92672">(</span>IResponseCallBack callBack<span style="color:#f92672">,</span> Context context<span style="color:#f92672">){</span>
-   <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>accessToken <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> accessToken<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
-       Intent intent <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Intent<span style="color:#f92672">(</span>context<span style="color:#f92672">,</span> WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">);</span>
-      intent<span style="color:#f92672">.</span><span style="color:#a6e22e">putExtra</span><span style="color:#f92672">(</span>WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">INTENT_INPUT_INTERCEPT_SCHEME</span><span style="color:#f92672">,</span>  
-       HttpAuth<span style="color:#f92672">.</span><span style="color:#a6e22e">REDIRECT_URI</span><span style="color:#f92672">);</span>
-       intent<span style="color:#f92672">.</span><span style="color:#a6e22e">putExtra</span><span style="color:#f92672">(</span>WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">INTENT_INPUT_URL</span><span style="color:#f92672">,</span> 
-       HttpAuth<span style="color:#f92672">.</span><span style="color:#a6e22e">AD_AUTH_URL</span><span style="color:#f92672">);</span>
-       intent<span style="color:#f92672">.</span><span style="color:#a6e22e">putExtra</span><span style="color:#f92672">(</span>WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">INTENT_RESPONSE_CALLBACK</span><span style="color:#f92672">,</span> <span style="color:#66d9ef">new</span> 
-       CustomReceiver<span style="color:#f92672">(</span>callBack<span style="color:#f92672">));</span>
-       context<span style="color:#f92672">.</span><span style="color:#a6e22e">startActivity</span><span style="color:#f92672">(</span>intent<span style="color:#f92672">);</span>
-   <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
-       callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;A user is already signed in&#34;</span><span style="color:#f92672">);</span>
-   <span style="color:#f92672">}</span>
-<span style="color:#f92672">}</span>
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">login</span><span style="color:#f92672">(</span>IResponseCallBack callBack<span style="color:#f92672">,</span> Context context<span style="color:#f92672">){</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>accessToken <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> accessToken<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
+</span></span><span style="display:flex;"><span>       Intent intent <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Intent<span style="color:#f92672">(</span>context<span style="color:#f92672">,</span> WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>      intent<span style="color:#f92672">.</span><span style="color:#a6e22e">putExtra</span><span style="color:#f92672">(</span>WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">INTENT_INPUT_INTERCEPT_SCHEME</span><span style="color:#f92672">,</span>  
+</span></span><span style="display:flex;"><span>       HttpAuth<span style="color:#f92672">.</span><span style="color:#a6e22e">REDIRECT_URI</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>       intent<span style="color:#f92672">.</span><span style="color:#a6e22e">putExtra</span><span style="color:#f92672">(</span>WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">INTENT_INPUT_URL</span><span style="color:#f92672">,</span> 
+</span></span><span style="display:flex;"><span>       HttpAuth<span style="color:#f92672">.</span><span style="color:#a6e22e">AD_AUTH_URL</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>       intent<span style="color:#f92672">.</span><span style="color:#a6e22e">putExtra</span><span style="color:#f92672">(</span>WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">INTENT_RESPONSE_CALLBACK</span><span style="color:#f92672">,</span> <span style="color:#66d9ef">new</span> 
+</span></span><span style="display:flex;"><span>       CustomReceiver<span style="color:#f92672">(</span>callBack<span style="color:#f92672">));</span>
+</span></span><span style="display:flex;"><span>       context<span style="color:#f92672">.</span><span style="color:#a6e22e">startActivity</span><span style="color:#f92672">(</span>intent<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>       callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;A user is already signed in&#34;</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><ul>
 <li><code>CustomReceiver.OnReceivedResult</code> gets an access_token using the <code>code</code> returned by the web-view activity. <code>access_token</code> is then saved in the <code>UserAuthenticator</code>.</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CustomReceiver</span> <span style="color:#66d9ef">extends</span> ResultReceiver<span style="color:#f92672">{</span>
-    <span style="color:#66d9ef">private</span>  IResponseCallBack callBack<span style="color:#f92672">;</span>
-    CustomReceiver<span style="color:#f92672">(</span>IResponseCallBack responseCallBack<span style="color:#f92672">){</span>
-        <span style="color:#66d9ef">super</span><span style="color:#f92672">(</span><span style="color:#66d9ef">null</span><span style="color:#f92672">);</span>
-        callBack <span style="color:#f92672">=</span> responseCallBack<span style="color:#f92672">;</span>
-    <span style="color:#f92672">}</span>
-    <span style="color:#a6e22e">@Override</span>
-    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onReceiveResult</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> resultCode<span style="color:#f92672">,</span> Bundle resultData<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-        <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">INTENT_RESULT_CODE</span> <span style="color:#f92672">==</span> resultCode<span style="color:#f92672">){</span>
-            String code <span style="color:#f92672">=</span> resultData<span style="color:#f92672">.</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>INTENT_RESULT_PARAM_NAME<span style="color:#f92672">);</span>
-            AsyncTask<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">,</span> Void<span style="color:#f92672">,</span> String<span style="color:#f92672">&gt;</span> getToken <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GetTokenAsyncTask<span style="color:#f92672">(</span>callBack<span style="color:#f92672">);</span>
-            getToken<span style="color:#f92672">.</span><span style="color:#a6e22e">execute</span><span style="color:#f92672">(</span>code<span style="color:#f92672">);</span>
-        <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
-            callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Not a valid code&#34;</span><span style="color:#f92672">);</span>
-        <span style="color:#f92672">}</span>
-    <span style="color:#f92672">}</span>
-<span style="color:#f92672">}</span>
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CustomReceiver</span> <span style="color:#66d9ef">extends</span> ResultReceiver<span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span>  IResponseCallBack callBack<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>    CustomReceiver<span style="color:#f92672">(</span>IResponseCallBack responseCallBack<span style="color:#f92672">){</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span><span style="color:#f92672">(</span><span style="color:#66d9ef">null</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        callBack <span style="color:#f92672">=</span> responseCallBack<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onReceiveResult</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> resultCode<span style="color:#f92672">,</span> Bundle resultData<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">INTENT_RESULT_CODE</span> <span style="color:#f92672">==</span> resultCode<span style="color:#f92672">){</span>
+</span></span><span style="display:flex;"><span>            String code <span style="color:#f92672">=</span> resultData<span style="color:#f92672">.</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>INTENT_RESULT_PARAM_NAME<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>            AsyncTask<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">,</span> Void<span style="color:#f92672">,</span> String<span style="color:#f92672">&gt;</span> getToken <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GetTokenAsyncTask<span style="color:#f92672">(</span>callBack<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>            getToken<span style="color:#f92672">.</span><span style="color:#a6e22e">execute</span><span style="color:#f92672">(</span>code<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>            callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Not a valid code&#34;</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><ul>
 <li>The <code>access_token</code> is used in getting the user name from the Azure Graph API. This completes the refactoring. The source code is attached at the end.</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">getUser</span><span style="color:#f92672">(</span>IResponseCallBack callBack<span style="color:#f92672">){</span>
-    <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>loggedInUserName <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> loggedInUserName<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
-        <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>accessToken <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span>accessToken<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
-      <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-     <span style="color:#66d9ef">new</span> GetProfileAsyncTask<span style="color:#f92672">(</span>callBack<span style="color:#f92672">).</span><span style="color:#a6e22e">execute</span><span style="color:#f92672">(</span>accessToken<span style="color:#f92672">).</span><span style="color:#a6e22e">get</span><span style="color:#f92672">();</span>
-            <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>Exception e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-                callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Failure:&#34;</span> <span style="color:#f92672">+</span> e<span style="color:#f92672">.</span><span style="color:#a6e22e">getMessage</span><span style="color:#f92672">());</span>
-            <span style="color:#f92672">}</span>
-        <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
-            callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;No active user!&#34;</span><span style="color:#f92672">);</span>
-        <span style="color:#f92672">}</span>
-    <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
-        callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnSuccess</span><span style="color:#f92672">(</span>loggedInUserName<span style="color:#f92672">);</span>
-    <span style="color:#f92672">}</span>
-<span style="color:#f92672">}</span>
-</code></pre></div><p>All the HTTP communications are wrapped in a utility class <code>HttpAuth</code>, this completes the refactoring of the android library. Since we have added a new activity don’t forget to add it in the android manifest.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">getUser</span><span style="color:#f92672">(</span>IResponseCallBack callBack<span style="color:#f92672">){</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>loggedInUserName <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> loggedInUserName<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>accessToken <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span>accessToken<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">new</span> GetProfileAsyncTask<span style="color:#f92672">(</span>callBack<span style="color:#f92672">).</span><span style="color:#a6e22e">execute</span><span style="color:#f92672">(</span>accessToken<span style="color:#f92672">).</span><span style="color:#a6e22e">get</span><span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>Exception e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>                callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Failure:&#34;</span> <span style="color:#f92672">+</span> e<span style="color:#f92672">.</span><span style="color:#a6e22e">getMessage</span><span style="color:#f92672">());</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>            callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;No active user!&#34;</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnSuccess</span><span style="color:#f92672">(</span>loggedInUserName<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>All the HTTP communications are wrapped in a utility class <code>HttpAuth</code>, this completes the refactoring of the android library. Since we have added a new activity don’t forget to add it in the android manifest.</p>
 <h4 id="unity-app-invoking-native-webview-in-android-libary">Unity App Invoking Native WebView in Android Libary</h4>
 <p>This example is now doing SSO with the organization’s active directory (AD), the username and password will be accepted at the organization’s AD page.</p>
 <ul>
@@ -605,30 +614,30 @@ medium.com</p>
 <p>There is no major change in <code>ButtonContoller</code>, expect the signature change for the library APIs. Now android handles the intent in a separate thread, and callback in unity may not access the game object elements as they may be disabled when another activity spawned on. Status of unity element may be checked in the main thread. The callbacks now updating few helper variables and the update method updates the unity elements in main there whenever there is any change in the state.</p>
 </li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"> <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> Update()
-{
-    <span style="color:#75715e">//set text and color for response lables 
-</span><span style="color:#75715e"></span>}
-<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AuthResponseCallback</span> : AndroidJavaProxy
-{
-    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">int</span> index;
-
-    <span style="color:#66d9ef">public</span> AuthResponseCallback(<span style="color:#66d9ef">int</span> index) : <span style="color:#66d9ef">base</span>(<span style="color:#e6db74">&#34;com.tw.userauthenticator.IResponseCallBack&#34;</span>)
-    {
-        <span style="color:#66d9ef">this</span>.index = index;
-    }
-    <span style="color:#66d9ef">void</span> OnSuccess(<span style="color:#66d9ef">string</span> result)
-    {
-        labels[index] = result;
-        colors[index] = Color.black;
-    }
-    <span style="color:#66d9ef">void</span> OnFailure(<span style="color:#66d9ef">string</span> errorMessage)
-    {
-        labels[index] = errorMessage;
-        colors[index] = Color.red;
-    }
-}
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c#" data-lang="c#"><span style="display:flex;"><span> <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> Update()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//set text and color for response lables </span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AuthResponseCallback</span> : AndroidJavaProxy
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">int</span> index;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> AuthResponseCallback(<span style="color:#66d9ef">int</span> index) : <span style="color:#66d9ef">base</span>(<span style="color:#e6db74">&#34;com.tw.userauthenticator.IResponseCallBack&#34;</span>)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.index = index;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> OnSuccess(<span style="color:#66d9ef">string</span> result)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        labels[index] = result;
+</span></span><span style="display:flex;"><span>        colors[index] = Color.black;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> OnFailure(<span style="color:#66d9ef">string</span> errorMessage)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        labels[index] = errorMessage;
+</span></span><span style="display:flex;"><span>        colors[index] = Color.red;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
 <li>Since the Android library now have an Activity, and it requires a dependency <code>“androidx.appcompat:appcompat:1.1.0”</code> in Gradle build.
 We need to use a custom Gradle template in Unity, Go to <code>File &gt; Build Settings &gt; Player Settings &gt; Publishing Settings</code>. Choose <code>Custom Gradle Template</code>. It will generate a template file in Plugins.
 <img src="https://miro.medium.com/max/1236/1*CQU5p0zL2bZWR0T9qI4rww.png" alt="CustomGradle template">
@@ -666,7 +675,7 @@ Build/Export the project and run on Android. You have completed the native integ
       
         <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     
@@ -686,7 +695,7 @@ Build/Export the project and run on Android. You have completed the native integ
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
       
       
-          <div class="fb-comments" data-href="https://thinkuldeep.com/post/enterprise-xr-interoperability/" data-numposts="5" data-width="635"></div>
+          <div class="fb-comments" data-href="http://localhost:1313/post/enterprise-xr-interoperability/" data-numposts="5" data-width="635"></div>
       </div>
     </div>
 
@@ -840,7 +849,7 @@ Build/Export the project and run on Android. You have completed the native integ
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/event/tech-nexus-2022/">Judge at Tech-Nexus Hackathon</a>
+          <a href="/event/tech-nexus-2021/">Judge at Tech-Nexus Hackathon</a>
         </li>
 	    
 	     <li  class="mb2">
@@ -1004,11 +1013,11 @@ Build/Export the project and run on Android. You have completed the native integ
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
+          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
+          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
         </li>
 	    
 	     <li  class="mb2">
@@ -1052,11 +1061,11 @@ Build/Export the project and run on Android. You have completed the native integ
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jsp-compilation-issues/">Strange JSP Compilation Issue </a>
+          <a href="/post/javascript-plugin-framework/">JavaScript Plugin Framework</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/javascript-plugin-framework/">JavaScript Plugin Framework</a>
+          <a href="/post/jsp-compilation-issues/">Strange JSP Compilation Issue </a>
         </li>
 	    
 	     <li  class="mb2">
@@ -1121,104 +1130,94 @@ Build/Export the project and run on Android. You have completed the native integ
 </div>
 <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://thinkuldeep.com/" >
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
     &copy;  Kuldeep Singh 2022 
   </a>
     <div>
-
-
-<a href="https://www.thoughtworks.com/profiles/kuldeep-singh" target="_blank" class="link-transition instagram link dib z-999 pt3 pt0-l mr1" title="ThougthWorks link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
-    <svg  height="36px"  style="enable-background:new 0 0 65 35;" version="1.1" viewBox="0 0 65 30" width="36px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<div class="ananke-socials">
+  
+    <a href="https://www.thoughtworks.com/profiles/kuldeep-singh" target="_blank" class="thoughtworks ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="thoughtworks link" rel="noopener" aria-label="follow on thoughtworks——Opens in a new window">
+      
+        <span class="icon"><svg {{ with .size }} height="{{ . }}" {{ end }} style="enable-background:new 0 0 65 35;" version="1.1" viewBox="0 0 65 30" width="{{ .size }}" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <path d="M0 5.93V0h25.132v5.93h-9.06v29h-7v-29zM29.255 0h3.5L38.5 28.2 44.87 0h3.463l6.052 28.188L60.535 0H64l-8 34.92h-3.587l-5.93-28.546L40.16 34.92h-3.587z"
-      style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+      style="fill-rule:evenodd;clip-rule:evenodd;fill:{{ .fill }};"/>
 </svg>
-
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
-</svg>
-</span></a>
-
-
-<a href="https://www.linkedin.com/in/kuldeep-reck/" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
-  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
-</svg>
-
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
 </svg>
 </span></a>
-
-
-<a href="https://github.com/thinkuldeep" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
-  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  
+    <a href="https://www.linkedin.com/in/kuldeep-reck/" target="_blank" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://twitter.com/thinkuldeep" target="_blank" class="twitter ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://www.instagram.com/thinkuldeep/" target="_blank" class="instagram ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Instagram link" rel="noopener" aria-label="follow on Instagram——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.271,26.578v-0.006c0.502,0,1.005,0.01,1.508-0.002  c0.646-0.017,1.172-0.57,1.172-1.217c0-0.963,0-1.927,0-2.89c0-0.691-0.547-1.24-1.236-1.241c-0.961,0-1.922-0.001-2.883,0  c-0.688,0.001-1.236,0.552-1.236,1.243c-0.001,0.955-0.004,1.91,0.003,2.865c0.001,0.143,0.028,0.291,0.073,0.426  c0.173,0.508,0.639,0.82,1.209,0.823C41.344,26.579,41.808,26.578,42.271,26.578z M33,27.817c-3.384-0.002-6.135,2.721-6.182,6.089  c-0.049,3.46,2.72,6.201,6.04,6.272c3.454,0.074,6.248-2.686,6.321-6.043C39.254,30.675,36.462,27.815,33,27.817z M21.046,31.116  v0.082c0,4.515-0.001,9.03,0,13.545c0,0.649,0.562,1.208,1.212,1.208c7.16,0.001,14.319,0.001,21.479,0  c0.656,0,1.215-0.557,1.215-1.212c0.001-4.509,0-9.02,0-13.528v-0.094h-2.912c0.411,1.313,0.537,2.651,0.376,4.014  c-0.161,1.363-0.601,2.631-1.316,3.803s-1.644,2.145-2.779,2.918c-2.944,2.006-6.821,2.182-9.946,0.428  c-1.579-0.885-2.819-2.12-3.685-3.713c-1.289-2.373-1.495-4.865-0.739-7.451C22.983,31.116,22.021,31.116,21.046,31.116z   M45.205,49.255c0.159-0.026,0.318-0.049,0.475-0.083c1.246-0.265,2.264-1.304,2.508-2.557c0.025-0.137,0.045-0.273,0.067-0.409  V21.794c-0.021-0.133-0.04-0.268-0.065-0.401c-0.268-1.367-1.396-2.428-2.78-2.618c-0.058-0.007-0.113-0.02-0.17-0.03H20.761  c-0.147,0.027-0.296,0.047-0.441,0.08c-1.352,0.308-2.352,1.396-2.545,2.766c-0.008,0.057-0.02,0.114-0.029,0.171V46.24  c0.028,0.154,0.05,0.311,0.085,0.465c0.299,1.322,1.427,2.347,2.77,2.52c0.064,0.008,0.13,0.021,0.195,0.03H45.205z M33,64  C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://github.com/thinkuldeep" target="_blank" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" rel="noopener" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
   <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
 </svg>
-
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
 </svg>
 </span></a>
-
-
-<a href="https://gitlab.com/kuldeeps2" target="_blank" class="link-transition gitlab link dib z-999 pt3 pt0-l mr1" title="Gitlab link" rel="noopener" aria-label="follow on Gitlab——Opens in a new window">
-  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M29.782 199.732L256 493.714 8.074 309.699c-6.856-5.142-9.712-13.996-7.141-21.993l28.849-87.974zm75.405-174.806c-3.142-8.854-15.709-8.854-18.851 0L29.782 199.732h131.961L105.187 24.926zm56.556 174.806L256 493.714l94.257-293.982H161.743zm349.324 87.974l-28.849-87.974L256 493.714l247.926-184.015c6.855-5.142 9.711-13.996 7.141-21.993zm-85.404-262.78c-3.142-8.854-15.709-8.854-18.851 0l-56.555 174.806h131.961L425.663 24.926z"></path></svg>
-
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+  
+    <a href="https://www.facebook.com/kuldeep.reck" target="_blank" class="facebook ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Facebook link" rel="noopener" aria-label="follow on Facebook——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
 </svg>
 </span></a>
-
-
-
-
-<a href="https://twitter.com/thinkuldeep" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
-  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
-
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+  
+    <a href="https://thinkuldeep.medium.com/" target="_blank" class="medium ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Medium link" rel="noopener" aria-label="follow on Medium——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 170 170;" version="1.1" viewBox="0 0 170 170"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M46.5340803,65.2157554 C46.6968378,63.6076572 46.0836,62.018231 44.8828198,60.93592 L32.6512605,46.2010582 L32.6512605,44 L70.6302521,44 L99.9859944,108.380952 L125.794585,44 L162,44 L162,46.2010582 L151.542017,56.2281011 C150.640424,56.9153477 150.193188,58.0448862 150.380019,59.1628454 L150.380019,132.837155 C150.193188,133.955114 150.640424,135.084652 151.542017,135.771899 L161.755369,145.798942 L161.755369,148 L110.38282,148 L110.38282,145.798942 L120.963119,135.527337 C122.002801,134.487948 122.002801,134.182246 122.002801,132.592593 L122.002801,73.0417402 L92.585901,147.755438 L88.6106443,147.755438 L54.3622782,73.0417402 L54.3622782,123.115814 C54.0767278,125.221069 54.7759199,127.3406 56.2581699,128.863022 L70.0186741,145.55438 L70.0186741,147.755438 L31,147.755438 L31,145.55438 L44.7605042,128.863022 C46.2319621,127.338076 46.8903838,125.204485 46.5340803,123.115814 L46.5340803,65.2157554 Z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
 </svg>
 </span></a>
-
-
-<a href="https://www.instagram.com/thinkuldeep/" target="_blank" class="link-transition instagram link dib z-999 pt3 pt0-l mr1" title="Instagram link" rel="noopener" aria-label="follow on Instagram——Opens in a new window">
-  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.271,26.578v-0.006c0.502,0,1.005,0.01,1.508-0.002  c0.646-0.017,1.172-0.57,1.172-1.217c0-0.963,0-1.927,0-2.89c0-0.691-0.547-1.24-1.236-1.241c-0.961,0-1.922-0.001-2.883,0  c-0.688,0.001-1.236,0.552-1.236,1.243c-0.001,0.955-0.004,1.91,0.003,2.865c0.001,0.143,0.028,0.291,0.073,0.426  c0.173,0.508,0.639,0.82,1.209,0.823C41.344,26.579,41.808,26.578,42.271,26.578z M33,27.817c-3.384-0.002-6.135,2.721-6.182,6.089  c-0.049,3.46,2.72,6.201,6.04,6.272c3.454,0.074,6.248-2.686,6.321-6.043C39.254,30.675,36.462,27.815,33,27.817z M21.046,31.116  v0.082c0,4.515-0.001,9.03,0,13.545c0,0.649,0.562,1.208,1.212,1.208c7.16,0.001,14.319,0.001,21.479,0  c0.656,0,1.215-0.557,1.215-1.212c0.001-4.509,0-9.02,0-13.528v-0.094h-2.912c0.411,1.313,0.537,2.651,0.376,4.014  c-0.161,1.363-0.601,2.631-1.316,3.803s-1.644,2.145-2.779,2.918c-2.944,2.006-6.821,2.182-9.946,0.428  c-1.579-0.885-2.819-2.12-3.685-3.713c-1.289-2.373-1.495-4.865-0.739-7.451C22.983,31.116,22.021,31.116,21.046,31.116z   M45.205,49.255c0.159-0.026,0.318-0.049,0.475-0.083c1.246-0.265,2.264-1.304,2.508-2.557c0.025-0.137,0.045-0.273,0.067-0.409  V21.794c-0.021-0.133-0.04-0.268-0.065-0.401c-0.268-1.367-1.396-2.428-2.78-2.618c-0.058-0.007-0.113-0.02-0.17-0.03H20.761  c-0.147,0.027-0.296,0.047-0.441,0.08c-1.352,0.308-2.352,1.396-2.545,2.766c-0.008,0.057-0.02,0.114-0.029,0.171V46.24  c0.028,0.154,0.05,0.311,0.085,0.465c0.299,1.322,1.427,2.347,2.77,2.52c0.064,0.008,0.13,0.021,0.195,0.03H45.205z M33,64  C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
-
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
-</svg>
-</span></a>
-
-
-
-
-
-
-
-
-<a href="https://medium.com/@thinkuldeep" target="_blank" class="link-transition medium link dib z-999 pt3 pt0-l mr1" title="Medium link" rel="noopener" aria-label="follow on Medium——Opens in a new window">
-    <svg  height="32px"  style="enable-background:new 0 0 170 170;" version="1.1" viewBox="0 0 170 170" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M46.5340803,65.2157554 C46.6968378,63.6076572 46.0836,62.018231 44.8828198,60.93592 L32.6512605,46.2010582 L32.6512605,44 L70.6302521,44 L99.9859944,108.380952 L125.794585,44 L162,44 L162,46.2010582 L151.542017,56.2281011 C150.640424,56.9153477 150.193188,58.0448862 150.380019,59.1628454 L150.380019,132.837155 C150.193188,133.955114 150.640424,135.084652 151.542017,135.771899 L161.755369,145.798942 L161.755369,148 L110.38282,148 L110.38282,145.798942 L120.963119,135.527337 C122.002801,134.487948 122.002801,134.182246 122.002801,132.592593 L122.002801,73.0417402 L92.585901,147.755438 L88.6106443,147.755438 L54.3622782,73.0417402 L54.3622782,123.115814 C54.0767278,125.221069 54.7759199,127.3406 56.2581699,128.863022 L70.0186741,145.55438 L70.0186741,147.755438 L31,147.755438 L31,145.55438 L44.7605042,128.863022 C46.2319621,127.338076 46.8903838,125.204485 46.5340803,123.115814 L46.5340803,65.2157554 Z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
-</svg>
-
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
-</svg>
-</span></a>
-
-
-
-</div>
+  
+</div></div>
   </div>
 </footer>
-
-    
-
-  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
-
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script src="https://unpkg.com/lunr/lunr.js"></script>
-<script src="/js/search.js"></script>
 
   </body>
 </html>

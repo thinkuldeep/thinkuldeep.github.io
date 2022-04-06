@@ -2,23 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>evolution on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/evolution/</link>
+    <link>http://localhost:1313/tags/evolution/</link>
     <description>Recent content in evolution on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Apr 2019 10:58:08 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/evolution/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 29 Apr 2019 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/evolution/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Evolution of Technology and User Interactions</title>
-      <link>https://thinkuldeep.com/post/evolution_of_technology_and_user_interactions/</link>
+      <link>http://localhost:1313/post/evolution_of_technology_and_user_interactions/</link>
       <pubDate>Mon, 29 Apr 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/evolution_of_technology_and_user_interactions/</guid>
+      <guid>http://localhost:1313/post/evolution_of_technology_and_user_interactions/</guid>
       <description>Technology defines our interactions with the ambiance, and the way we want to interact with the ambiance further defines the technology. The evolution of technology and user interactions tightly depends on each other.
- &amp;ldquo;Walls have ears!&amp;quot;, is very much true today, and not just that, now the walls can see you, feel your presence and talk to you.
+ &amp;ldquo;Walls have ears!&amp;rdquo;, is very much true today, and not just that, now the walls can see you, feel your presence and talk to you.
  In this post, we will discuss how the user interactions evolved with time and what is next!</description>
     </item>
     

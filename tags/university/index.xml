@@ -2,31 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>university on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/university/</link>
+    <link>http://localhost:1313/tags/university/</link>
     <description>Recent content in university on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Feb 2022 10:58:08 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/university/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 19 Feb 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/university/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Judge at HackBMU 5.0</title>
-      <link>https://thinkuldeep.com/event/bmu-hack5/</link>
+      <link>http://localhost:1313/event/bmu-hack5/</link>
       <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/bmu-hack5/</guid>
-      <description>BML Munjal University,a Hero group initiative, is organizing a 5th edition Hackathon, named HackBMU 5.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
+      <guid>http://localhost:1313/event/bmu-hack5/</guid>
+      <description>BML Munjal University, a Hero group initiative, is organizing a 5th edition Hackathon, named HackBMU 5.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
 HackBMU seeks to provide a welcoming and supportive environment to all participants to develop their skills, regardless of their background.</description>
     </item>
     
     <item>
-      <title>Your Hackathon Guide at IEEE WIE - BU - The Times Groups </title>
-      <link>https://thinkuldeep.com/event/ieee-bu-wie-discussion/</link>
-      <pubDate>Tue, 01 Feb 2022 01:00:00 -0400</pubDate>
+      <title>Your Hackathon Guide at IEEE WIE - BU - The Times Groups</title>
+      <link>http://localhost:1313/event/ieee-bu-wie-discussion/</link>
+      <pubDate>Tue, 01 Feb 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/ieee-bu-wie-discussion/</guid>
+      <guid>http://localhost:1313/event/ieee-bu-wie-discussion/</guid>
       <description>IEEE WIE (Women In Engineering) at Bennett University - The Times Group, has hosted a panel discussion with students preparing and participating in hackathons.
  I joined the panel of 🌟 Swati Anuj Arya (chief information security officer, Amazon Pay) and 🌟Srishti Gupta (Senior data analyst at Ernst &amp;amp; Young) to share our experience with students.
 Highlights of the event! It was a great discussion, we started with questions on prerequisites of hackathon, and skills required to participate in hackathon, where we talked about being a thinker, solution oriented mindset, authenticity and practicality of the ideas and stay aligned to the problem statements.</description>
@@ -34,19 +30,19 @@ Highlights of the event! It was a great discussion, we started with questions on
     
     <item>
       <title>Judge at Tech-Nexus Hackathon</title>
-      <link>https://thinkuldeep.com/event/tech-nexus-2022/</link>
+      <link>http://localhost:1313/event/tech-nexus-2021/</link>
       <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/tech-nexus-2022/</guid>
+      <guid>http://localhost:1313/event/tech-nexus-2021/</guid>
       <description>National Institute of Technology Hamirpur is organizing Tech-Nexus, an online technical carnival, as an initiative of the Institute Innovation Council, MHRD. The essence of Tech-Nexus is to unite all the technological talents across the nation and give them a platform to express their skills and ideas. This flagship event will help people to showcase their unique projects and trends in the technological field as well as the challenges encountered, and solutions adopted while developing the projects.</description>
     </item>
     
     <item>
       <title>Judge at HackBMU 4.0</title>
-      <link>https://thinkuldeep.com/event/bmu-hack4/</link>
+      <link>http://localhost:1313/event/bmu-hack4/</link>
       <pubDate>Fri, 23 Apr 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/bmu-hack4/</guid>
+      <guid>http://localhost:1313/event/bmu-hack4/</guid>
       <description>BML Munjal University,a Hero group initiative, is organizing a 4th edition Hackathon, named HackBMU 4.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
 HackBMU seeks to provide a welcoming and supportive environment to all participants to develop their skills, regardless of their background.</description>
     </item>

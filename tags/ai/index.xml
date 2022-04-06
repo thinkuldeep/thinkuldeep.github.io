@@ -2,31 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ai on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/ai/</link>
+    <link>http://localhost:1313/tags/ai/</link>
     <description>Recent content in ai on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Feb 2022 10:58:08 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 19 Feb 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Judge at HackBMU 5.0</title>
-      <link>https://thinkuldeep.com/event/bmu-hack5/</link>
+      <link>http://localhost:1313/event/bmu-hack5/</link>
       <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/bmu-hack5/</guid>
-      <description>BML Munjal University,a Hero group initiative, is organizing a 5th edition Hackathon, named HackBMU 5.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
+      <guid>http://localhost:1313/event/bmu-hack5/</guid>
+      <description>BML Munjal University, a Hero group initiative, is organizing a 5th edition Hackathon, named HackBMU 5.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
 HackBMU seeks to provide a welcoming and supportive environment to all participants to develop their skills, regardless of their background.</description>
     </item>
     
     <item>
       <title>Judge - Thoughtworks iFest 2.0</title>
-      <link>https://thinkuldeep.com/event/thougthworks-ifest2/</link>
+      <link>http://localhost:1313/event/thougthworks-ifest2/</link>
       <pubDate>Sun, 10 Oct 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/thougthworks-ifest2/</guid>
+      <guid>http://localhost:1313/event/thougthworks-ifest2/</guid>
       <description>The iFest This October, at Thoughtworks India, we’re celebrating our 20th anniversary! That’s 20 years of excellence in technology!
 Innovation Lab&amp;rsquo;s at Thoughtworks comes second edition of iFest - a month long hackathon. I got opportunity to participate in iFest as a judge.
 I was amazed to see the verity of idea. All the ideas were great and it was so hard to compare them.
@@ -35,60 +31,60 @@ Ideas were touching were reflecting the Thougthworks culture, use technology to 
     
     <item>
       <title>Judge at HackBMU 4.0</title>
-      <link>https://thinkuldeep.com/event/bmu-hack4/</link>
+      <link>http://localhost:1313/event/bmu-hack4/</link>
       <pubDate>Fri, 23 Apr 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/bmu-hack4/</guid>
+      <guid>http://localhost:1313/event/bmu-hack4/</guid>
       <description>BML Munjal University,a Hero group initiative, is organizing a 4th edition Hackathon, named HackBMU 4.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
 HackBMU seeks to provide a welcoming and supportive environment to all participants to develop their skills, regardless of their background.</description>
     </item>
     
     <item>
       <title>Juror - SMCC Startup Challenge by Nasscom</title>
-      <link>https://thinkuldeep.com/event/nasscom-smcc/</link>
+      <link>http://localhost:1313/event/nasscom-smcc/</link>
       <pubDate>Thu, 25 Feb 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/nasscom-smcc/</guid>
+      <guid>http://localhost:1313/event/nasscom-smcc/</guid>
       <description>NASSCOM is the premier trade body and chamber of commerce of the Tech industry in India and comprises over 2800 member companies including both Indian and multinational organisations that have a presence in India. Center of Excellence - IoT and AI is an initiative from NASSCOM and collective effort from different state governments in India,
 NASSCOM CoE is launching first-of-its-kind virtual SMART MANUFACTURING COMPETENCY CENTER (SMCC). The innovation platform which will help in accelerating technology adoption by bringing enterprises, governments, researchers, and innovators together.</description>
     </item>
     
     <item>
       <title>Mentor and Juror - MIC 2020 by Nasscom</title>
-      <link>https://thinkuldeep.com/event/nasscom-iotcoe/</link>
+      <link>http://localhost:1313/event/nasscom-iotcoe/</link>
       <pubDate>Sat, 05 Dec 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/nasscom-iotcoe/</guid>
+      <guid>http://localhost:1313/event/nasscom-iotcoe/</guid>
       <description>NASSCOM is the premier trade body and chamber of commerce of the Tech industry in India and comprises over 2800 member companies including both Indian and multinational organisations that have a presence in India. Center of Excellence - IoT and AI is an initiative from NASSCOM and collective effort from different state governments in India,
 NASSCOM has organized Manufacturing Innovation Challenge 2020 from 12th Oct to 11th Dec, on theme of redefining enterprises and entrepreneurs engagement.</description>
     </item>
     
     <item>
       <title>eXtended Reality for Enterprise - a PODCast by XROM</title>
-      <link>https://thinkuldeep.com/event/xrom-podcast-enterprise-xr/</link>
+      <link>http://localhost:1313/event/xrom-podcast-enterprise-xr/</link>
       <pubDate>Sun, 15 Nov 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/xrom-podcast-enterprise-xr/</guid>
+      <guid>http://localhost:1313/event/xrom-podcast-enterprise-xr/</guid>
       <description>Interesting conversation on eXtended Reality (XR) with Eddie Avil, starting from my background, how I landed up in the XR space and where are we heading…
 XROM PODCast  XROM PODCast is a youtube channel maintained by serial entrepreneur, dreamer &amp;amp; a believer Mr. Eddie Avil. This channel has number of interesting conversations with industry leaders in the emerging technology space. Eddie Avil, also runs a marketplace for AR VR hardware and service, visit here https://www.</description>
     </item>
     
     <item>
       <title>Judge - HackInIndia - Hackathon 2020</title>
-      <link>https://thinkuldeep.com/event/hackinindia-hackathon-2020/</link>
+      <link>http://localhost:1313/event/hackinindia-hackathon-2020/</link>
       <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/hackinindia-hackathon-2020/</guid>
+      <guid>http://localhost:1313/event/hackinindia-hackathon-2020/</guid>
       <description>I got chance to judge the HackInIndia event, India&amp;rsquo;s National Level hackathon organized by Script Foundation on 2nd July, 2020.
 Around 150 teams signed up across multiple tracks (Healthcare, Open Innovation, ARVR, EdTech, RPA and FinTech) supported by couple of talented mentors. I and Raviraj Subramanian got chance to meet only top 20 teams in Jury round, and I was amazed to see their innovative ideas, and demonstrations the young blood of nation bring on the table.</description>
     </item>
     
     <item>
       <title>Compiling Java Native C/C&#43;&#43; Code</title>
-      <link>https://thinkuldeep.com/post/java-jni-cpp/</link>
+      <link>http://localhost:1313/post/java-jni-cpp/</link>
       <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/java-jni-cpp/</guid>
+      <guid>http://localhost:1313/post/java-jni-cpp/</guid>
       <description>We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
  How to write a JNI program. jni_md.h not found. Incompatible data types. On widows cygwin1.dll is required when running Java code on the native library. and more.  Actually we were compiling NLP Solver’s native library (IPOPT) on windows 32 bit and on 64bit linux machine.
 Solving the chaos! Here are the steps we have followed to solve the above issues:</description>

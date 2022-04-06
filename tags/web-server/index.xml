@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>web-server on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/web-server/</link>
+    <link>http://localhost:1313/tags/web-server/</link>
     <description>Recent content in web-server on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Oct 2018 10:58:08 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/web-server/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 02 Oct 2018 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/web-server/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Request Tracing Using Nginx and Spring Boot</title>
-      <link>https://thinkuldeep.com/post/request-tracing/</link>
+      <link>http://localhost:1313/post/request-tracing/</link>
       <pubDate>Tue, 02 Oct 2018 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/request-tracing/</guid>
+      <guid>http://localhost:1313/post/request-tracing/</guid>
       <description>Most web applications are hosted behind a load balancer or web-server such as Nginx/HTTPD, which intercepts all the requests and directs dynamic content requests to the application server, such as Tomcat. Correlating requests traversing from the front-end server to the backend servers are general requirements. In this post, we will discuss tracing the request in the simplest way in an Nginx and Spring Boot-based application without using an external heavyweight library like Slueth.</description>
     </item>
     

@@ -2,2289 +2,2285 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Feb 2022 10:58:08 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 19 Feb 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ai</title>
-      <link>https://thinkuldeep.com/tags/ai/</link>
+      <link>http://localhost:1313/tags/ai/</link>
       <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/ai/</guid>
+      <guid>http://localhost:1313/tags/ai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ar</title>
-      <link>https://thinkuldeep.com/tags/ar/</link>
+      <link>http://localhost:1313/tags/ar/</link>
       <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/ar/</guid>
+      <guid>http://localhost:1313/tags/ar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>event</title>
-      <link>https://thinkuldeep.com/tags/event/</link>
+      <link>http://localhost:1313/tags/event/</link>
       <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/event/</guid>
+      <guid>http://localhost:1313/tags/event/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hackathon</title>
-      <link>https://thinkuldeep.com/tags/hackathon/</link>
+      <link>http://localhost:1313/tags/hackathon/</link>
       <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/hackathon/</guid>
+      <guid>http://localhost:1313/tags/hackathon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iot</title>
-      <link>https://thinkuldeep.com/tags/iot/</link>
+      <link>http://localhost:1313/tags/iot/</link>
       <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/iot/</guid>
+      <guid>http://localhost:1313/tags/iot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>judge</title>
-      <link>https://thinkuldeep.com/tags/judge/</link>
+      <link>http://localhost:1313/tags/judge/</link>
       <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/judge/</guid>
+      <guid>http://localhost:1313/tags/judge/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mentor</title>
-      <link>https://thinkuldeep.com/tags/mentor/</link>
+      <link>http://localhost:1313/tags/mentor/</link>
       <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/mentor/</guid>
+      <guid>http://localhost:1313/tags/mentor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>university</title>
-      <link>https://thinkuldeep.com/tags/university/</link>
+      <link>http://localhost:1313/tags/university/</link>
       <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/university/</guid>
+      <guid>http://localhost:1313/tags/university/</guid>
       <description></description>
     </item>
     
     <item>
       <title>xr</title>
-      <link>https://thinkuldeep.com/tags/xr/</link>
+      <link>http://localhost:1313/tags/xr/</link>
       <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/xr/</guid>
+      <guid>http://localhost:1313/tags/xr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>discussion</title>
-      <link>https://thinkuldeep.com/tags/discussion/</link>
-      <pubDate>Tue, 01 Feb 2022 01:00:00 -0400</pubDate>
+      <link>http://localhost:1313/tags/discussion/</link>
+      <pubDate>Tue, 01 Feb 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/discussion/</guid>
+      <guid>http://localhost:1313/tags/discussion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ieee</title>
-      <link>https://thinkuldeep.com/tags/ieee/</link>
-      <pubDate>Tue, 01 Feb 2022 01:00:00 -0400</pubDate>
+      <link>http://localhost:1313/tags/ieee/</link>
+      <pubDate>Tue, 01 Feb 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/ieee/</guid>
+      <guid>http://localhost:1313/tags/ieee/</guid>
       <description></description>
     </item>
     
     <item>
       <title>students</title>
-      <link>https://thinkuldeep.com/tags/students/</link>
-      <pubDate>Tue, 01 Feb 2022 01:00:00 -0400</pubDate>
+      <link>http://localhost:1313/tags/students/</link>
+      <pubDate>Tue, 01 Feb 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/students/</guid>
+      <guid>http://localhost:1313/tags/students/</guid>
       <description></description>
     </item>
     
     <item>
       <title>webinar</title>
-      <link>https://thinkuldeep.com/tags/webinar/</link>
-      <pubDate>Tue, 01 Feb 2022 01:00:00 -0400</pubDate>
+      <link>http://localhost:1313/tags/webinar/</link>
+      <pubDate>Tue, 01 Feb 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/webinar/</guid>
+      <guid>http://localhost:1313/tags/webinar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blockchain</title>
-      <link>https://thinkuldeep.com/tags/blockchain/</link>
+      <link>http://localhost:1313/tags/blockchain/</link>
       <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/blockchain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>meta</title>
-      <link>https://thinkuldeep.com/tags/meta/</link>
-      <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/meta/</guid>
+      <guid>http://localhost:1313/tags/blockchain/</guid>
       <description></description>
     </item>
     
     <item>
       <title>metaverse</title>
-      <link>https://thinkuldeep.com/tags/metaverse/</link>
+      <link>http://localhost:1313/tags/metaverse/</link>
       <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/metaverse/</guid>
+      <guid>http://localhost:1313/tags/metaverse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nit</title>
-      <link>https://thinkuldeep.com/tags/nit/</link>
+      <link>http://localhost:1313/tags/nit/</link>
       <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/nit/</guid>
+      <guid>http://localhost:1313/tags/nit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vr</title>
-      <link>https://thinkuldeep.com/tags/vr/</link>
+      <link>http://localhost:1313/tags/vr/</link>
       <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/vr/</guid>
+      <guid>http://localhost:1313/tags/vr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>android</title>
-      <link>https://thinkuldeep.com/tags/android/</link>
+      <link>http://localhost:1313/tags/android/</link>
       <pubDate>Tue, 21 Dec 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/android/</guid>
+      <guid>http://localhost:1313/tags/android/</guid>
       <description></description>
     </item>
     
     <item>
       <title>facebook</title>
-      <link>https://thinkuldeep.com/tags/facebook/</link>
+      <link>http://localhost:1313/tags/facebook/</link>
       <pubDate>Tue, 21 Dec 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/facebook/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GE</title>
-      <link>https://thinkuldeep.com/tags/ge/</link>
-      <pubDate>Tue, 21 Dec 2021 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/ge/</guid>
+      <guid>http://localhost:1313/tags/facebook/</guid>
       <description></description>
     </item>
     
     <item>
       <title>general</title>
-      <link>https://thinkuldeep.com/tags/general/</link>
+      <link>http://localhost:1313/tags/general/</link>
       <pubDate>Tue, 21 Dec 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/general/</guid>
+      <guid>http://localhost:1313/tags/general/</guid>
       <description></description>
     </item>
     
     <item>
       <title>google</title>
-      <link>https://thinkuldeep.com/tags/google/</link>
+      <link>http://localhost:1313/tags/google/</link>
       <pubDate>Tue, 21 Dec 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/google/</guid>
+      <guid>http://localhost:1313/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meta</title>
+      <link>http://localhost:1313/tags/meta/</link>
+      <pubDate>Tue, 21 Dec 2021 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/meta/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nft</title>
-      <link>https://thinkuldeep.com/tags/nft/</link>
+      <link>http://localhost:1313/tags/nft/</link>
       <pubDate>Tue, 21 Dec 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/nft/</guid>
+      <guid>http://localhost:1313/tags/nft/</guid>
       <description></description>
     </item>
     
     <item>
       <title>technology</title>
-      <link>https://thinkuldeep.com/tags/technology/</link>
+      <link>http://localhost:1313/tags/technology/</link>
       <pubDate>Tue, 21 Dec 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/technology/</guid>
+      <guid>http://localhost:1313/tags/technology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lecture</title>
-      <link>https://thinkuldeep.com/tags/lecture/</link>
+      <link>http://localhost:1313/tags/lecture/</link>
       <pubDate>Sun, 19 Dec 2021 01:00:00 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/lecture/</guid>
+      <guid>http://localhost:1313/tags/lecture/</guid>
       <description></description>
     </item>
     
     <item>
       <title>speaker</title>
-      <link>https://thinkuldeep.com/tags/speaker/</link>
+      <link>http://localhost:1313/tags/speaker/</link>
       <pubDate>Sun, 19 Dec 2021 01:00:00 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/speaker/</guid>
+      <guid>http://localhost:1313/tags/speaker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>immersive-web</title>
-      <link>https://thinkuldeep.com/tags/immersive-web/</link>
+      <link>http://localhost:1313/tags/immersive-web/</link>
       <pubDate>Mon, 29 Nov 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/immersive-web/</guid>
+      <guid>http://localhost:1313/tags/immersive-web/</guid>
       <description></description>
     </item>
     
     <item>
       <title>spatial web</title>
-      <link>https://thinkuldeep.com/tags/spatial-web/</link>
+      <link>http://localhost:1313/tags/spatial-web/</link>
       <pubDate>Mon, 29 Nov 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/spatial-web/</guid>
+      <guid>http://localhost:1313/tags/spatial-web/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tutorial</title>
-      <link>https://thinkuldeep.com/tags/tutorial/</link>
+      <link>http://localhost:1313/tags/tutorial/</link>
       <pubDate>Mon, 29 Nov 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/tutorial/</guid>
+      <guid>http://localhost:1313/tags/tutorial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>unity</title>
-      <link>https://thinkuldeep.com/tags/unity/</link>
+      <link>http://localhost:1313/tags/unity/</link>
       <pubDate>Mon, 29 Nov 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/unity/</guid>
+      <guid>http://localhost:1313/tags/unity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>webxr</title>
-      <link>https://thinkuldeep.com/tags/webxr/</link>
+      <link>http://localhost:1313/tags/webxr/</link>
       <pubDate>Mon, 29 Nov 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/webxr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>digital</title>
-      <link>https://thinkuldeep.com/tags/digital/</link>
-      <pubDate>Wed, 20 Oct 2021 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/digital/</guid>
+      <guid>http://localhost:1313/tags/webxr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>digital-twins</title>
-      <link>https://thinkuldeep.com/tags/digital-twins/</link>
+      <link>http://localhost:1313/tags/digital-twins/</link>
       <pubDate>Wed, 20 Oct 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/digital-twins/</guid>
+      <guid>http://localhost:1313/tags/digital-twins/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mr</title>
-      <link>https://thinkuldeep.com/tags/mr/</link>
+      <link>http://localhost:1313/tags/mr/</link>
       <pubDate>Wed, 20 Oct 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/mr/</guid>
+      <guid>http://localhost:1313/tags/mr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>simulation</title>
-      <link>https://thinkuldeep.com/tags/simulation/</link>
+      <link>http://localhost:1313/tags/simulation/</link>
       <pubDate>Wed, 20 Oct 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/simulation/</guid>
+      <guid>http://localhost:1313/tags/simulation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>talk</title>
-      <link>https://thinkuldeep.com/tags/talk/</link>
+      <link>http://localhost:1313/tags/talk/</link>
       <pubDate>Wed, 20 Oct 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/talk/</guid>
+      <guid>http://localhost:1313/tags/talk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>thoughtworks</title>
-      <link>https://thinkuldeep.com/tags/thoughtworks/</link>
+      <link>http://localhost:1313/tags/thoughtworks/</link>
       <pubDate>Wed, 20 Oct 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/thoughtworks/</guid>
+      <guid>http://localhost:1313/tags/thoughtworks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>benefits</title>
-      <link>https://thinkuldeep.com/tags/benefits/</link>
+      <link>http://localhost:1313/tags/benefits/</link>
       <pubDate>Mon, 11 Oct 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/benefits/</guid>
+      <guid>http://localhost:1313/tags/benefits/</guid>
       <description></description>
     </item>
     
     <item>
       <title>complexity</title>
-      <link>https://thinkuldeep.com/tags/complexity/</link>
+      <link>http://localhost:1313/tags/complexity/</link>
       <pubDate>Mon, 11 Oct 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/complexity/</guid>
+      <guid>http://localhost:1313/tags/complexity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>covid19</title>
-      <link>https://thinkuldeep.com/tags/covid19/</link>
+      <link>http://localhost:1313/tags/covid19/</link>
       <pubDate>Mon, 11 Oct 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/covid19/</guid>
+      <guid>http://localhost:1313/tags/covid19/</guid>
       <description></description>
     </item>
     
     <item>
       <title>enterprise</title>
-      <link>https://thinkuldeep.com/tags/enterprise/</link>
+      <link>http://localhost:1313/tags/enterprise/</link>
       <pubDate>Mon, 11 Oct 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/enterprise/</guid>
+      <guid>http://localhost:1313/tags/enterprise/</guid>
       <description></description>
     </item>
     
     <item>
       <title>practice</title>
-      <link>https://thinkuldeep.com/tags/practice/</link>
+      <link>http://localhost:1313/tags/practice/</link>
       <pubDate>Mon, 11 Oct 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/practice/</guid>
+      <guid>http://localhost:1313/tags/practice/</guid>
       <description></description>
     </item>
     
     <item>
       <title>xconf</title>
-      <link>https://thinkuldeep.com/tags/xconf/</link>
+      <link>http://localhost:1313/tags/xconf/</link>
       <pubDate>Fri, 08 Oct 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/xconf/</guid>
+      <guid>http://localhost:1313/tags/xconf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>coaching</title>
-      <link>https://thinkuldeep.com/tags/coaching/</link>
+      <link>http://localhost:1313/tags/coaching/</link>
       <pubDate>Thu, 30 Sep 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/coaching/</guid>
+      <guid>http://localhost:1313/tags/coaching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>development</title>
-      <link>https://thinkuldeep.com/tags/development/</link>
+      <link>http://localhost:1313/tags/development/</link>
       <pubDate>Thu, 30 Sep 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/development/</guid>
+      <guid>http://localhost:1313/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>leadership</title>
-      <link>https://thinkuldeep.com/tags/leadership/</link>
+      <link>http://localhost:1313/tags/leadership/</link>
       <pubDate>Thu, 30 Sep 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/leadership/</guid>
+      <guid>http://localhost:1313/tags/leadership/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mentoring</title>
-      <link>https://thinkuldeep.com/tags/mentoring/</link>
+      <link>http://localhost:1313/tags/mentoring/</link>
       <pubDate>Thu, 30 Sep 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/mentoring/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>motivation</title>
-      <link>https://thinkuldeep.com/tags/motivation/</link>
-      <pubDate>Thu, 30 Sep 2021 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/motivation/</guid>
+      <guid>http://localhost:1313/tags/mentoring/</guid>
       <description></description>
     </item>
     
     <item>
       <title>motivational</title>
-      <link>https://thinkuldeep.com/tags/motivational/</link>
+      <link>http://localhost:1313/tags/motivational/</link>
       <pubDate>Thu, 30 Sep 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/motivational/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>takeaway</title>
-      <link>https://thinkuldeep.com/tags/takeaway/</link>
-      <pubDate>Thu, 30 Sep 2021 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/takeaway/</guid>
+      <guid>http://localhost:1313/tags/motivational/</guid>
       <description></description>
     </item>
     
     <item>
       <title>takeaways</title>
-      <link>https://thinkuldeep.com/tags/takeaways/</link>
+      <link>http://localhost:1313/tags/takeaways/</link>
       <pubDate>Thu, 30 Sep 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/takeaways/</guid>
+      <guid>http://localhost:1313/tags/takeaways/</guid>
       <description></description>
     </item>
     
     <item>
       <title>workshop</title>
-      <link>https://thinkuldeep.com/tags/workshop/</link>
+      <link>http://localhost:1313/tags/workshop/</link>
       <pubDate>Thu, 30 Sep 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/workshop/</guid>
+      <guid>http://localhost:1313/tags/workshop/</guid>
       <description></description>
     </item>
     
     <item>
       <title>change</title>
-      <link>https://thinkuldeep.com/tags/change/</link>
+      <link>http://localhost:1313/tags/change/</link>
       <pubDate>Tue, 10 Aug 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/change/</guid>
+      <guid>http://localhost:1313/tags/change/</guid>
       <description></description>
     </item>
     
     <item>
       <title>impact</title>
-      <link>https://thinkuldeep.com/tags/impact/</link>
+      <link>http://localhost:1313/tags/impact/</link>
       <pubDate>Tue, 10 Aug 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/impact/</guid>
+      <guid>http://localhost:1313/tags/impact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>life</title>
-      <link>https://thinkuldeep.com/tags/life/</link>
+      <link>http://localhost:1313/tags/life/</link>
       <pubDate>Tue, 10 Aug 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/life/</guid>
+      <guid>http://localhost:1313/tags/life/</guid>
       <description></description>
     </item>
     
     <item>
       <title>reflection</title>
-      <link>https://thinkuldeep.com/tags/reflection/</link>
+      <link>http://localhost:1313/tags/reflection/</link>
       <pubDate>Tue, 10 Aug 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/reflection/</guid>
+      <guid>http://localhost:1313/tags/reflection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>takeaway</title>
+      <link>http://localhost:1313/tags/takeaway/</link>
+      <pubDate>Tue, 10 Aug 2021 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/takeaway/</guid>
       <description></description>
     </item>
     
     <item>
       <title>consulting</title>
-      <link>https://thinkuldeep.com/tags/consulting/</link>
+      <link>http://localhost:1313/tags/consulting/</link>
       <pubDate>Wed, 21 Jul 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/consulting/</guid>
+      <guid>http://localhost:1313/tags/consulting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>story</title>
-      <link>https://thinkuldeep.com/tags/story/</link>
+      <link>http://localhost:1313/tags/story/</link>
       <pubDate>Wed, 21 Jul 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/story/</guid>
+      <guid>http://localhost:1313/tags/story/</guid>
       <description></description>
     </item>
     
     <item>
       <title>storytelling</title>
-      <link>https://thinkuldeep.com/tags/storytelling/</link>
+      <link>http://localhost:1313/tags/storytelling/</link>
       <pubDate>Wed, 21 Jul 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/storytelling/</guid>
+      <guid>http://localhost:1313/tags/storytelling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>storywriting</title>
-      <link>https://thinkuldeep.com/tags/storywriting/</link>
+      <link>http://localhost:1313/tags/storywriting/</link>
       <pubDate>Wed, 21 Jul 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/storywriting/</guid>
+      <guid>http://localhost:1313/tags/storywriting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>practices</title>
-      <link>https://thinkuldeep.com/tags/practices/</link>
+      <link>http://localhost:1313/tags/practices/</link>
       <pubDate>Sat, 22 May 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/practices/</guid>
+      <guid>http://localhost:1313/tags/practices/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vrara</title>
-      <link>https://thinkuldeep.com/tags/vrara/</link>
+      <link>http://localhost:1313/tags/vrara/</link>
       <pubDate>Sat, 22 May 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/vrara/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>future</title>
-      <link>https://thinkuldeep.com/tags/future/</link>
-      <pubDate>Sat, 01 May 2021 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/future/</guid>
+      <guid>http://localhost:1313/tags/vrara/</guid>
       <description></description>
     </item>
     
     <item>
       <title>futureofwork</title>
-      <link>https://thinkuldeep.com/tags/futureofwork/</link>
+      <link>http://localhost:1313/tags/futureofwork/</link>
       <pubDate>Sat, 01 May 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/futureofwork/</guid>
+      <guid>http://localhost:1313/tags/futureofwork/</guid>
       <description></description>
     </item>
     
     <item>
       <title>learnings</title>
-      <link>https://thinkuldeep.com/tags/learnings/</link>
+      <link>http://localhost:1313/tags/learnings/</link>
       <pubDate>Sat, 01 May 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/learnings/</guid>
+      <guid>http://localhost:1313/tags/learnings/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lenovo</title>
-      <link>https://thinkuldeep.com/tags/lenovo/</link>
+      <link>http://localhost:1313/tags/lenovo/</link>
       <pubDate>Tue, 27 Apr 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/lenovo/</guid>
+      <guid>http://localhost:1313/tags/lenovo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>thinkreality</title>
-      <link>https://thinkuldeep.com/tags/thinkreality/</link>
+      <link>http://localhost:1313/tags/thinkreality/</link>
       <pubDate>Tue, 27 Apr 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/thinkreality/</guid>
+      <guid>http://localhost:1313/tags/thinkreality/</guid>
       <description></description>
     </item>
     
     <item>
       <title>usecases</title>
-      <link>https://thinkuldeep.com/tags/usecases/</link>
+      <link>http://localhost:1313/tags/usecases/</link>
       <pubDate>Tue, 27 Apr 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/usecases/</guid>
+      <guid>http://localhost:1313/tags/usecases/</guid>
       <description></description>
     </item>
     
     <item>
       <title>agile</title>
-      <link>https://thinkuldeep.com/tags/agile/</link>
+      <link>http://localhost:1313/tags/agile/</link>
       <pubDate>Sat, 06 Mar 2021 01:00:00 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/agile/</guid>
+      <guid>http://localhost:1313/tags/agile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>agilitytoday</title>
-      <link>https://thinkuldeep.com/tags/agilitytoday/</link>
+      <link>http://localhost:1313/tags/agilitytoday/</link>
       <pubDate>Sat, 06 Mar 2021 01:00:00 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/agilitytoday/</guid>
+      <guid>http://localhost:1313/tags/agilitytoday/</guid>
       <description></description>
     </item>
     
     <item>
       <title>autonomous</title>
-      <link>https://thinkuldeep.com/tags/autonomous/</link>
+      <link>http://localhost:1313/tags/autonomous/</link>
       <pubDate>Thu, 25 Feb 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/autonomous/</guid>
+      <guid>http://localhost:1313/tags/autonomous/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nasscom</title>
-      <link>https://thinkuldeep.com/tags/nasscom/</link>
+      <link>http://localhost:1313/tags/nasscom/</link>
       <pubDate>Thu, 25 Feb 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/nasscom/</guid>
+      <guid>http://localhost:1313/tags/nasscom/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vehicle</title>
-      <link>https://thinkuldeep.com/tags/vehicle/</link>
+      <link>http://localhost:1313/tags/vehicle/</link>
       <pubDate>Thu, 25 Feb 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/vehicle/</guid>
+      <guid>http://localhost:1313/tags/vehicle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>book-review</title>
-      <link>https://thinkuldeep.com/tags/book-review/</link>
+      <link>http://localhost:1313/tags/book-review/</link>
       <pubDate>Sun, 07 Feb 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/book-review/</guid>
+      <guid>http://localhost:1313/tags/book-review/</guid>
       <description></description>
     </item>
     
     <item>
       <title>work from home</title>
-      <link>https://thinkuldeep.com/tags/work-from-home/</link>
+      <link>http://localhost:1313/tags/work-from-home/</link>
       <pubDate>Sun, 07 Feb 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/work-from-home/</guid>
+      <guid>http://localhost:1313/tags/work-from-home/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dsc</title>
-      <link>https://thinkuldeep.com/tags/dsc/</link>
+      <link>http://localhost:1313/tags/dsc/</link>
       <pubDate>Sat, 30 Jan 2021 01:00:00 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/dsc/</guid>
+      <guid>http://localhost:1313/tags/dsc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>best practices</title>
-      <link>https://thinkuldeep.com/tags/best-practices/</link>
+      <link>http://localhost:1313/tags/best-practices/</link>
       <pubDate>Tue, 05 Jan 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/best-practices/</guid>
+      <guid>http://localhost:1313/tags/best-practices/</guid>
       <description></description>
     </item>
     
     <item>
       <title>experience</title>
-      <link>https://thinkuldeep.com/tags/experience/</link>
+      <link>http://localhost:1313/tags/experience/</link>
       <pubDate>Tue, 05 Jan 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/experience/</guid>
+      <guid>http://localhost:1313/tags/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>5G</title>
-      <link>https://thinkuldeep.com/tags/5g/</link>
+      <link>http://localhost:1313/tags/5g/</link>
       <pubDate>Sun, 15 Nov 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/5g/</guid>
+      <guid>http://localhost:1313/tags/5g/</guid>
       <description></description>
     </item>
     
     <item>
       <title>interview</title>
-      <link>https://thinkuldeep.com/tags/interview/</link>
+      <link>http://localhost:1313/tags/interview/</link>
       <pubDate>Sun, 15 Nov 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/interview/</guid>
+      <guid>http://localhost:1313/tags/interview/</guid>
       <description></description>
     </item>
     
     <item>
       <title>xrom</title>
-      <link>https://thinkuldeep.com/tags/xrom/</link>
+      <link>http://localhost:1313/tags/xrom/</link>
       <pubDate>Sun, 15 Nov 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/xrom/</guid>
+      <guid>http://localhost:1313/tags/xrom/</guid>
       <description></description>
     </item>
     
     <item>
       <title>developer-summit</title>
-      <link>https://thinkuldeep.com/tags/developer-summit/</link>
+      <link>http://localhost:1313/tags/developer-summit/</link>
       <pubDate>Thu, 05 Nov 2020 06:30:00 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/developer-summit/</guid>
+      <guid>http://localhost:1313/tags/developer-summit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gids</title>
-      <link>https://thinkuldeep.com/tags/gids/</link>
+      <link>http://localhost:1313/tags/gids/</link>
       <pubDate>Thu, 05 Nov 2020 06:30:00 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/gids/</guid>
+      <guid>http://localhost:1313/tags/gids/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fundamentals</title>
-      <link>https://thinkuldeep.com/tags/fundamentals/</link>
+      <link>http://localhost:1313/tags/fundamentals/</link>
       <pubDate>Wed, 28 Oct 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/fundamentals/</guid>
+      <guid>http://localhost:1313/tags/fundamentals/</guid>
       <description></description>
     </item>
     
     <item>
       <title>geeknight</title>
-      <link>https://thinkuldeep.com/tags/geeknight/</link>
+      <link>http://localhost:1313/tags/geeknight/</link>
       <pubDate>Tue, 29 Sep 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/geeknight/</guid>
+      <guid>http://localhost:1313/tags/geeknight/</guid>
       <description></description>
     </item>
     
     <item>
       <title>techgig</title>
-      <link>https://thinkuldeep.com/tags/techgig/</link>
+      <link>http://localhost:1313/tags/techgig/</link>
       <pubDate>Thu, 13 Aug 2020 10:58:15 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/techgig/</guid>
+      <guid>http://localhost:1313/tags/techgig/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nagarro</title>
-      <link>https://thinkuldeep.com/tags/nagarro/</link>
+      <link>http://localhost:1313/tags/nagarro/</link>
       <pubDate>Thu, 06 Aug 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/nagarro/</guid>
+      <guid>http://localhost:1313/tags/nagarro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sih</title>
-      <link>https://thinkuldeep.com/tags/sih/</link>
+      <link>http://localhost:1313/tags/sih/</link>
       <pubDate>Mon, 03 Aug 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/sih/</guid>
+      <guid>http://localhost:1313/tags/sih/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cv</title>
-      <link>https://thinkuldeep.com/tags/cv/</link>
+      <link>http://localhost:1313/tags/cv/</link>
       <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/cv/</guid>
+      <guid>http://localhost:1313/tags/cv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>innovation</title>
-      <link>https://thinkuldeep.com/tags/innovation/</link>
+      <link>http://localhost:1313/tags/innovation/</link>
       <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/innovation/</guid>
+      <guid>http://localhost:1313/tags/innovation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>machine learning</title>
-      <link>https://thinkuldeep.com/tags/machine-learning/</link>
+      <link>http://localhost:1313/tags/machine-learning/</link>
       <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/machine-learning/</guid>
+      <guid>http://localhost:1313/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ml</title>
-      <link>https://thinkuldeep.com/tags/ml/</link>
+      <link>http://localhost:1313/tags/ml/</link>
       <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/ml/</guid>
+      <guid>http://localhost:1313/tags/ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>future</title>
+      <link>http://localhost:1313/tags/future/</link>
+      <pubDate>Wed, 24 Jun 2020 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/future/</guid>
       <description></description>
     </item>
     
     <item>
       <title>retail</title>
-      <link>https://thinkuldeep.com/tags/retail/</link>
+      <link>http://localhost:1313/tags/retail/</link>
       <pubDate>Wed, 24 Jun 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/retail/</guid>
+      <guid>http://localhost:1313/tags/retail/</guid>
       <description></description>
     </item>
     
     <item>
       <title>selfhelp</title>
-      <link>https://thinkuldeep.com/tags/selfhelp/</link>
+      <link>http://localhost:1313/tags/selfhelp/</link>
       <pubDate>Sun, 21 Jun 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/selfhelp/</guid>
+      <guid>http://localhost:1313/tags/selfhelp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>introduction</title>
-      <link>https://thinkuldeep.com/tags/introduction/</link>
+      <link>http://localhost:1313/tags/introduction/</link>
       <pubDate>Sun, 07 Jun 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/introduction/</guid>
+      <guid>http://localhost:1313/tags/introduction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>analysis</title>
-      <link>https://thinkuldeep.com/tags/analysis/</link>
+      <link>http://localhost:1313/tags/analysis/</link>
       <pubDate>Mon, 01 Jun 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/analysis/</guid>
+      <guid>http://localhost:1313/tags/analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>devices</title>
-      <link>https://thinkuldeep.com/tags/devices/</link>
+      <link>http://localhost:1313/tags/devices/</link>
       <pubDate>Mon, 01 Jun 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/devices/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>native</title>
-      <link>https://thinkuldeep.com/tags/native/</link>
-      <pubDate>Wed, 27 May 2020 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/native/</guid>
+      <guid>http://localhost:1313/tags/devices/</guid>
       <description></description>
     </item>
     
     <item>
       <title>native app</title>
-      <link>https://thinkuldeep.com/tags/native-app/</link>
+      <link>http://localhost:1313/tags/native-app/</link>
       <pubDate>Wed, 27 May 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/native-app/</guid>
+      <guid>http://localhost:1313/tags/native-app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>motivation</title>
+      <link>http://localhost:1313/tags/motivation/</link>
+      <pubDate>Sun, 24 May 2020 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/motivation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>3d</title>
-      <link>https://thinkuldeep.com/tags/3d/</link>
+      <link>http://localhost:1313/tags/3d/</link>
       <pubDate>Sat, 16 May 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/3d/</guid>
+      <guid>http://localhost:1313/tags/3d/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ARCore</title>
-      <link>https://thinkuldeep.com/tags/arcore/</link>
+      <link>http://localhost:1313/tags/arcore/</link>
       <pubDate>Sat, 16 May 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/arcore/</guid>
+      <guid>http://localhost:1313/tags/arcore/</guid>
       <description></description>
     </item>
     
     <item>
       <title>customization</title>
-      <link>https://thinkuldeep.com/tags/customization/</link>
+      <link>http://localhost:1313/tags/customization/</link>
       <pubDate>Sat, 16 May 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/customization/</guid>
+      <guid>http://localhost:1313/tags/customization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>system</title>
-      <link>https://thinkuldeep.com/tags/system/</link>
+      <link>http://localhost:1313/tags/system/</link>
       <pubDate>Sat, 16 May 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/system/</guid>
+      <guid>http://localhost:1313/tags/system/</guid>
       <description></description>
     </item>
     
     <item>
       <title>aosp</title>
-      <link>https://thinkuldeep.com/tags/aosp/</link>
+      <link>http://localhost:1313/tags/aosp/</link>
       <pubDate>Sun, 10 May 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/aosp/</guid>
+      <guid>http://localhost:1313/tags/aosp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>os</title>
-      <link>https://thinkuldeep.com/tags/os/</link>
+      <link>http://localhost:1313/tags/os/</link>
       <pubDate>Sun, 10 May 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/os/</guid>
+      <guid>http://localhost:1313/tags/os/</guid>
       <description></description>
     </item>
     
     <item>
       <title>success</title>
-      <link>https://thinkuldeep.com/tags/success/</link>
+      <link>http://localhost:1313/tags/success/</link>
       <pubDate>Sun, 03 May 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/success/</guid>
+      <guid>http://localhost:1313/tags/success/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pair-programming</title>
-      <link>https://thinkuldeep.com/tags/pair-programming/</link>
+      <link>http://localhost:1313/tags/pair-programming/</link>
       <pubDate>Thu, 02 Apr 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/pair-programming/</guid>
+      <guid>http://localhost:1313/tags/pair-programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>xp</title>
-      <link>https://thinkuldeep.com/tags/xp/</link>
+      <link>http://localhost:1313/tags/xp/</link>
       <pubDate>Thu, 02 Apr 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/xp/</guid>
+      <guid>http://localhost:1313/tags/xp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>integration</title>
-      <link>https://thinkuldeep.com/tags/integration/</link>
+      <link>http://localhost:1313/tags/integration/</link>
       <pubDate>Sat, 28 Mar 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/integration/</guid>
+      <guid>http://localhost:1313/tags/integration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cloud</title>
-      <link>https://thinkuldeep.com/tags/cloud/</link>
+      <link>http://localhost:1313/tags/cloud/</link>
       <pubDate>Wed, 25 Mar 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/cloud/</guid>
+      <guid>http://localhost:1313/tags/cloud/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mfa</title>
-      <link>https://thinkuldeep.com/tags/mfa/</link>
+      <link>http://localhost:1313/tags/mfa/</link>
       <pubDate>Wed, 25 Mar 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/mfa/</guid>
+      <guid>http://localhost:1313/tags/mfa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>spatialweb</title>
-      <link>https://thinkuldeep.com/tags/spatialweb/</link>
+      <link>http://localhost:1313/tags/spatialweb/</link>
       <pubDate>Fri, 20 Mar 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/spatialweb/</guid>
+      <guid>http://localhost:1313/tags/spatialweb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>transportation</title>
-      <link>https://thinkuldeep.com/tags/transportation/</link>
+      <link>http://localhost:1313/tags/transportation/</link>
       <pubDate>Tue, 26 Nov 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/transportation/</guid>
+      <guid>http://localhost:1313/tags/transportation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>travel</title>
-      <link>https://thinkuldeep.com/tags/travel/</link>
+      <link>http://localhost:1313/tags/travel/</link>
       <pubDate>Tue, 26 Nov 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/travel/</guid>
+      <guid>http://localhost:1313/tags/travel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ide</title>
-      <link>https://thinkuldeep.com/tags/ide/</link>
+      <link>http://localhost:1313/tags/ide/</link>
       <pubDate>Wed, 30 Oct 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/ide/</guid>
+      <guid>http://localhost:1313/tags/ide/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sonarqube</title>
-      <link>https://thinkuldeep.com/tags/sonarqube/</link>
+      <link>http://localhost:1313/tags/sonarqube/</link>
       <pubDate>Wed, 30 Oct 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/sonarqube/</guid>
+      <guid>http://localhost:1313/tags/sonarqube/</guid>
       <description></description>
     </item>
     
     <item>
       <title>static code analysis</title>
-      <link>https://thinkuldeep.com/tags/static-code-analysis/</link>
+      <link>http://localhost:1313/tags/static-code-analysis/</link>
       <pubDate>Wed, 30 Oct 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/static-code-analysis/</guid>
+      <guid>http://localhost:1313/tags/static-code-analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>slam</title>
-      <link>https://thinkuldeep.com/tags/slam/</link>
+      <link>http://localhost:1313/tags/slam/</link>
       <pubDate>Thu, 19 Sep 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/slam/</guid>
+      <guid>http://localhost:1313/tags/slam/</guid>
       <description></description>
     </item>
     
     <item>
       <title>inception</title>
-      <link>https://thinkuldeep.com/tags/inception/</link>
+      <link>http://localhost:1313/tags/inception/</link>
       <pubDate>Sun, 15 Sep 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/inception/</guid>
+      <guid>http://localhost:1313/tags/inception/</guid>
       <description></description>
     </item>
     
     <item>
       <title>devfest</title>
-      <link>https://thinkuldeep.com/tags/devfest/</link>
+      <link>http://localhost:1313/tags/devfest/</link>
       <pubDate>Thu, 05 Sep 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/devfest/</guid>
+      <guid>http://localhost:1313/tags/devfest/</guid>
       <description></description>
     </item>
     
     <item>
       <title>evolution</title>
-      <link>https://thinkuldeep.com/tags/evolution/</link>
+      <link>http://localhost:1313/tags/evolution/</link>
       <pubDate>Mon, 29 Apr 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/evolution/</guid>
+      <guid>http://localhost:1313/tags/evolution/</guid>
       <description></description>
     </item>
     
     <item>
       <title>transformation</title>
-      <link>https://thinkuldeep.com/tags/transformation/</link>
+      <link>http://localhost:1313/tags/transformation/</link>
       <pubDate>Mon, 29 Apr 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/transformation/</guid>
+      <guid>http://localhost:1313/tags/transformation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>user-interactions</title>
-      <link>https://thinkuldeep.com/tags/user-interactions/</link>
+      <link>http://localhost:1313/tags/user-interactions/</link>
       <pubDate>Mon, 29 Apr 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/user-interactions/</guid>
+      <guid>http://localhost:1313/tags/user-interactions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ux</title>
-      <link>https://thinkuldeep.com/tags/ux/</link>
+      <link>http://localhost:1313/tags/ux/</link>
       <pubDate>Mon, 29 Apr 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/ux/</guid>
+      <guid>http://localhost:1313/tags/ux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>digital</title>
+      <link>http://localhost:1313/tags/digital/</link>
+      <pubDate>Wed, 10 Apr 2019 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/digital/</guid>
       <description></description>
     </item>
     
     <item>
       <title>modernization</title>
-      <link>https://thinkuldeep.com/tags/modernization/</link>
+      <link>http://localhost:1313/tags/modernization/</link>
       <pubDate>Wed, 10 Apr 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/modernization/</guid>
+      <guid>http://localhost:1313/tags/modernization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>troubleshooting</title>
-      <link>https://thinkuldeep.com/tags/troubleshooting/</link>
+      <link>http://localhost:1313/tags/troubleshooting/</link>
       <pubDate>Wed, 10 Apr 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/troubleshooting/</guid>
+      <guid>http://localhost:1313/tags/troubleshooting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>architecture</title>
-      <link>https://thinkuldeep.com/tags/architecture/</link>
+      <link>http://localhost:1313/tags/architecture/</link>
       <pubDate>Fri, 15 Feb 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/architecture/</guid>
+      <guid>http://localhost:1313/tags/architecture/</guid>
       <description></description>
     </item>
     
     <item>
       <title>java</title>
-      <link>https://thinkuldeep.com/tags/java/</link>
+      <link>http://localhost:1313/tags/java/</link>
       <pubDate>Fri, 15 Feb 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/java/</guid>
+      <guid>http://localhost:1313/tags/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>micro-services</title>
-      <link>https://thinkuldeep.com/tags/micro-services/</link>
+      <link>http://localhost:1313/tags/micro-services/</link>
       <pubDate>Fri, 15 Feb 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/micro-services/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>spring</title>
-      <link>https://thinkuldeep.com/tags/spring/</link>
-      <pubDate>Fri, 15 Feb 2019 10:58:08 -0400</pubDate>
-      
-      <guid>https://thinkuldeep.com/tags/spring/</guid>
+      <guid>http://localhost:1313/tags/micro-services/</guid>
       <description></description>
     </item>
     
     <item>
       <title>spring boot</title>
-      <link>https://thinkuldeep.com/tags/spring-boot/</link>
+      <link>http://localhost:1313/tags/spring-boot/</link>
       <pubDate>Fri, 15 Feb 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/spring-boot/</guid>
+      <guid>http://localhost:1313/tags/spring-boot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>design</title>
-      <link>https://thinkuldeep.com/tags/design/</link>
+      <link>http://localhost:1313/tags/design/</link>
       <pubDate>Mon, 05 Nov 2018 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/design/</guid>
+      <guid>http://localhost:1313/tags/design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>organization</title>
-      <link>https://thinkuldeep.com/tags/organization/</link>
+      <link>http://localhost:1313/tags/organization/</link>
       <pubDate>Mon, 05 Nov 2018 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/organization/</guid>
+      <guid>http://localhost:1313/tags/organization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>process</title>
-      <link>https://thinkuldeep.com/tags/process/</link>
+      <link>http://localhost:1313/tags/process/</link>
       <pubDate>Mon, 05 Nov 2018 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/process/</guid>
+      <guid>http://localhost:1313/tags/process/</guid>
       <description></description>
     </item>
     
     <item>
       <title>software</title>
-      <link>https://thinkuldeep.com/tags/software/</link>
+      <link>http://localhost:1313/tags/software/</link>
       <pubDate>Mon, 05 Nov 2018 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/software/</guid>
+      <guid>http://localhost:1313/tags/software/</guid>
       <description></description>
     </item>
     
     <item>
       <title>request-tracing</title>
-      <link>https://thinkuldeep.com/tags/request-tracing/</link>
+      <link>http://localhost:1313/tags/request-tracing/</link>
       <pubDate>Tue, 02 Oct 2018 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/request-tracing/</guid>
+      <guid>http://localhost:1313/tags/request-tracing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>web-server</title>
-      <link>https://thinkuldeep.com/tags/web-server/</link>
+      <link>http://localhost:1313/tags/web-server/</link>
       <pubDate>Tue, 02 Oct 2018 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/web-server/</guid>
+      <guid>http://localhost:1313/tags/web-server/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tdd</title>
-      <link>https://thinkuldeep.com/tags/tdd/</link>
+      <link>http://localhost:1313/tags/tdd/</link>
       <pubDate>Sat, 15 Sep 2018 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/tdd/</guid>
+      <guid>http://localhost:1313/tags/tdd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>java 10</title>
-      <link>https://thinkuldeep.com/tags/java-10/</link>
+      <link>http://localhost:1313/tags/java-10/</link>
       <pubDate>Wed, 29 Aug 2018 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/java-10/</guid>
+      <guid>http://localhost:1313/tags/java-10/</guid>
       <description></description>
     </item>
     
     <item>
       <title>java 11</title>
-      <link>https://thinkuldeep.com/tags/java-11/</link>
+      <link>http://localhost:1313/tags/java-11/</link>
       <pubDate>Wed, 29 Aug 2018 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/java-11/</guid>
+      <guid>http://localhost:1313/tags/java-11/</guid>
       <description></description>
     </item>
     
     <item>
       <title>java 8</title>
-      <link>https://thinkuldeep.com/tags/java-8/</link>
+      <link>http://localhost:1313/tags/java-8/</link>
       <pubDate>Wed, 29 Aug 2018 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/java-8/</guid>
+      <guid>http://localhost:1313/tags/java-8/</guid>
       <description></description>
     </item>
     
     <item>
       <title>java 9</title>
-      <link>https://thinkuldeep.com/tags/java-9/</link>
+      <link>http://localhost:1313/tags/java-9/</link>
       <pubDate>Wed, 29 Aug 2018 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/java-9/</guid>
+      <guid>http://localhost:1313/tags/java-9/</guid>
       <description></description>
     </item>
     
     <item>
       <title>upgrade</title>
-      <link>https://thinkuldeep.com/tags/upgrade/</link>
+      <link>http://localhost:1313/tags/upgrade/</link>
       <pubDate>Wed, 29 Aug 2018 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/upgrade/</guid>
+      <guid>http://localhost:1313/tags/upgrade/</guid>
       <description></description>
     </item>
     
     <item>
       <title>apache</title>
-      <link>https://thinkuldeep.com/tags/apache/</link>
+      <link>http://localhost:1313/tags/apache/</link>
       <pubDate>Mon, 08 Jan 2018 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/apache/</guid>
+      <guid>http://localhost:1313/tags/apache/</guid>
       <description></description>
     </item>
     
     <item>
       <title>scala</title>
-      <link>https://thinkuldeep.com/tags/scala/</link>
+      <link>http://localhost:1313/tags/scala/</link>
       <pubDate>Mon, 08 Jan 2018 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/scala/</guid>
+      <guid>http://localhost:1313/tags/scala/</guid>
       <description></description>
     </item>
     
     <item>
       <title>spark</title>
-      <link>https://thinkuldeep.com/tags/spark/</link>
+      <link>http://localhost:1313/tags/spark/</link>
       <pubDate>Mon, 08 Jan 2018 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/spark/</guid>
+      <guid>http://localhost:1313/tags/spark/</guid>
       <description></description>
     </item>
     
     <item>
       <title>windows</title>
-      <link>https://thinkuldeep.com/tags/windows/</link>
+      <link>http://localhost:1313/tags/windows/</link>
       <pubDate>Mon, 08 Jan 2018 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/windows/</guid>
+      <guid>http://localhost:1313/tags/windows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iotncr</title>
-      <link>https://thinkuldeep.com/tags/iotncr/</link>
+      <link>http://localhost:1313/tags/iotncr/</link>
       <pubDate>Sat, 29 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/iotncr/</guid>
+      <guid>http://localhost:1313/tags/iotncr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>guide</title>
-      <link>https://thinkuldeep.com/tags/guide/</link>
+      <link>http://localhost:1313/tags/guide/</link>
       <pubDate>Tue, 21 Feb 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/guide/</guid>
+      <guid>http://localhost:1313/tags/guide/</guid>
       <description></description>
     </item>
     
     <item>
       <title>smart-glass</title>
-      <link>https://thinkuldeep.com/tags/smart-glass/</link>
+      <link>http://localhost:1313/tags/smart-glass/</link>
       <pubDate>Mon, 20 Feb 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/smart-glass/</guid>
+      <guid>http://localhost:1313/tags/smart-glass/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vuzix</title>
-      <link>https://thinkuldeep.com/tags/vuzix/</link>
+      <link>http://localhost:1313/tags/vuzix/</link>
       <pubDate>Mon, 20 Feb 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/vuzix/</guid>
+      <guid>http://localhost:1313/tags/vuzix/</guid>
       <description></description>
     </item>
     
     <item>
       <title>industry4.0</title>
-      <link>https://thinkuldeep.com/tags/industry4.0/</link>
+      <link>http://localhost:1313/tags/industry4.0/</link>
       <pubDate>Thu, 19 Jan 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/industry4.0/</guid>
+      <guid>http://localhost:1313/tags/industry4.0/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lsd</title>
-      <link>https://thinkuldeep.com/tags/lsd/</link>
+      <link>http://localhost:1313/tags/lsd/</link>
       <pubDate>Thu, 19 Jan 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/lsd/</guid>
+      <guid>http://localhost:1313/tags/lsd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>panel discussion</title>
-      <link>https://thinkuldeep.com/tags/panel-discussion/</link>
+      <link>http://localhost:1313/tags/panel-discussion/</link>
       <pubDate>Thu, 19 Jan 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/panel-discussion/</guid>
+      <guid>http://localhost:1313/tags/panel-discussion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>disruption</title>
-      <link>https://thinkuldeep.com/tags/disruption/</link>
+      <link>http://localhost:1313/tags/disruption/</link>
       <pubDate>Tue, 03 Jan 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/disruption/</guid>
+      <guid>http://localhost:1313/tags/disruption/</guid>
       <description></description>
     </item>
     
     <item>
       <title>multi-skill</title>
-      <link>https://thinkuldeep.com/tags/multi-skill/</link>
+      <link>http://localhost:1313/tags/multi-skill/</link>
       <pubDate>Tue, 03 Jan 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/multi-skill/</guid>
+      <guid>http://localhost:1313/tags/multi-skill/</guid>
       <description></description>
     </item>
     
     <item>
       <title>c&#43;&#43;</title>
-      <link>https://thinkuldeep.com/tags/c&#43;&#43;/</link>
+      <link>http://localhost:1313/tags/c&#43;&#43;/</link>
       <pubDate>Fri, 16 Dec 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/c&#43;&#43;/</guid>
+      <guid>http://localhost:1313/tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     
     <item>
       <title>concept</title>
-      <link>https://thinkuldeep.com/tags/concept/</link>
+      <link>http://localhost:1313/tags/concept/</link>
       <pubDate>Fri, 16 Dec 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/concept/</guid>
+      <guid>http://localhost:1313/tags/concept/</guid>
       <description></description>
     </item>
     
     <item>
       <title>insect monitoring</title>
-      <link>https://thinkuldeep.com/tags/insect-monitoring/</link>
+      <link>http://localhost:1313/tags/insect-monitoring/</link>
       <pubDate>Fri, 16 Dec 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/insect-monitoring/</guid>
+      <guid>http://localhost:1313/tags/insect-monitoring/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MQTT</title>
-      <link>https://thinkuldeep.com/tags/mqtt/</link>
+      <link>http://localhost:1313/tags/mqtt/</link>
       <pubDate>Fri, 16 Dec 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/mqtt/</guid>
+      <guid>http://localhost:1313/tags/mqtt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>opencv</title>
-      <link>https://thinkuldeep.com/tags/opencv/</link>
+      <link>http://localhost:1313/tags/opencv/</link>
       <pubDate>Fri, 16 Dec 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/opencv/</guid>
+      <guid>http://localhost:1313/tags/opencv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>https://thinkuldeep.com/tags/python/</link>
+      <link>http://localhost:1313/tags/python/</link>
       <pubDate>Fri, 16 Dec 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/python/</guid>
+      <guid>http://localhost:1313/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Raspberry PI</title>
-      <link>https://thinkuldeep.com/tags/raspberry-pi/</link>
+      <link>http://localhost:1313/tags/raspberry-pi/</link>
       <pubDate>Fri, 16 Dec 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/raspberry-pi/</guid>
+      <guid>http://localhost:1313/tags/raspberry-pi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>product</title>
-      <link>https://thinkuldeep.com/tags/product/</link>
+      <link>http://localhost:1313/tags/product/</link>
       <pubDate>Wed, 17 Aug 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/product/</guid>
+      <guid>http://localhost:1313/tags/product/</guid>
       <description></description>
     </item>
     
     <item>
       <title>race</title>
-      <link>https://thinkuldeep.com/tags/race/</link>
+      <link>http://localhost:1313/tags/race/</link>
       <pubDate>Wed, 17 Aug 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/race/</guid>
+      <guid>http://localhost:1313/tags/race/</guid>
       <description></description>
     </item>
     
     <item>
       <title>industrial</title>
-      <link>https://thinkuldeep.com/tags/industrial/</link>
+      <link>http://localhost:1313/tags/industrial/</link>
       <pubDate>Tue, 16 Aug 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/industrial/</guid>
+      <guid>http://localhost:1313/tags/industrial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Industry 4.0</title>
-      <link>https://thinkuldeep.com/tags/industry-4.0/</link>
+      <link>http://localhost:1313/tags/industry-4.0/</link>
       <pubDate>Tue, 16 Aug 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/industry-4.0/</guid>
+      <guid>http://localhost:1313/tags/industry-4.0/</guid>
       <description></description>
     </item>
     
     <item>
       <title>smart factory</title>
-      <link>https://thinkuldeep.com/tags/smart-factory/</link>
+      <link>http://localhost:1313/tags/smart-factory/</link>
       <pubDate>Tue, 16 Aug 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/smart-factory/</guid>
+      <guid>http://localhost:1313/tags/smart-factory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Node MCU</title>
-      <link>https://thinkuldeep.com/tags/node-mcu/</link>
+      <link>http://localhost:1313/tags/node-mcu/</link>
       <pubDate>Thu, 05 May 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/node-mcu/</guid>
+      <guid>http://localhost:1313/tags/node-mcu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>smart bottle</title>
-      <link>https://thinkuldeep.com/tags/smart-bottle/</link>
+      <link>http://localhost:1313/tags/smart-bottle/</link>
       <pubDate>Thu, 05 May 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/smart-bottle/</guid>
+      <guid>http://localhost:1313/tags/smart-bottle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>smart cap</title>
-      <link>https://thinkuldeep.com/tags/smart-cap/</link>
+      <link>http://localhost:1313/tags/smart-cap/</link>
       <pubDate>Thu, 05 May 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/smart-cap/</guid>
+      <guid>http://localhost:1313/tags/smart-cap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>thingspeak</title>
-      <link>https://thinkuldeep.com/tags/thingspeak/</link>
+      <link>http://localhost:1313/tags/thingspeak/</link>
       <pubDate>Thu, 05 May 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/thingspeak/</guid>
+      <guid>http://localhost:1313/tags/thingspeak/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ultrasonic</title>
-      <link>https://thinkuldeep.com/tags/ultrasonic/</link>
+      <link>http://localhost:1313/tags/ultrasonic/</link>
       <pubDate>Thu, 05 May 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/ultrasonic/</guid>
+      <guid>http://localhost:1313/tags/ultrasonic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Arduino</title>
-      <link>https://thinkuldeep.com/tags/arduino/</link>
+      <link>http://localhost:1313/tags/arduino/</link>
       <pubDate>Sun, 17 Apr 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/arduino/</guid>
+      <guid>http://localhost:1313/tags/arduino/</guid>
       <description></description>
     </item>
     
     <item>
       <title>azure</title>
-      <link>https://thinkuldeep.com/tags/azure/</link>
+      <link>http://localhost:1313/tags/azure/</link>
       <pubDate>Sun, 17 Apr 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/azure/</guid>
+      <guid>http://localhost:1313/tags/azure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>BLE</title>
-      <link>https://thinkuldeep.com/tags/ble/</link>
+      <link>http://localhost:1313/tags/ble/</link>
       <pubDate>Sun, 17 Apr 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/ble/</guid>
+      <guid>http://localhost:1313/tags/ble/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Microsoft</title>
-      <link>https://thinkuldeep.com/tags/microsoft/</link>
+      <link>http://localhost:1313/tags/microsoft/</link>
       <pubDate>Sun, 17 Apr 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/microsoft/</guid>
+      <guid>http://localhost:1313/tags/microsoft/</guid>
       <description></description>
     </item>
     
     <item>
       <title>smart meeting room</title>
-      <link>https://thinkuldeep.com/tags/smart-meeting-room/</link>
+      <link>http://localhost:1313/tags/smart-meeting-room/</link>
       <pubDate>Sun, 17 Apr 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/smart-meeting-room/</guid>
+      <guid>http://localhost:1313/tags/smart-meeting-room/</guid>
       <description></description>
     </item>
     
     <item>
       <title>androidthings</title>
-      <link>https://thinkuldeep.com/tags/androidthings/</link>
+      <link>http://localhost:1313/tags/androidthings/</link>
       <pubDate>Sun, 10 Apr 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/androidthings/</guid>
+      <guid>http://localhost:1313/tags/androidthings/</guid>
       <description></description>
     </item>
     
     <item>
       <title>clean-code</title>
-      <link>https://thinkuldeep.com/tags/clean-code/</link>
+      <link>http://localhost:1313/tags/clean-code/</link>
       <pubDate>Thu, 14 Jan 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/clean-code/</guid>
+      <guid>http://localhost:1313/tags/clean-code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>maintainability</title>
-      <link>https://thinkuldeep.com/tags/maintainability/</link>
+      <link>http://localhost:1313/tags/maintainability/</link>
       <pubDate>Thu, 14 Jan 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/maintainability/</guid>
+      <guid>http://localhost:1313/tags/maintainability/</guid>
       <description></description>
     </item>
     
     <item>
       <title>connected things</title>
-      <link>https://thinkuldeep.com/tags/connected-things/</link>
+      <link>http://localhost:1313/tags/connected-things/</link>
       <pubDate>Fri, 01 Jan 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/connected-things/</guid>
+      <guid>http://localhost:1313/tags/connected-things/</guid>
       <description></description>
     </item>
     
     <item>
       <title>forces</title>
-      <link>https://thinkuldeep.com/tags/forces/</link>
+      <link>http://localhost:1313/tags/forces/</link>
       <pubDate>Fri, 01 Jan 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/forces/</guid>
+      <guid>http://localhost:1313/tags/forces/</guid>
       <description></description>
     </item>
     
     <item>
       <title>comparison</title>
-      <link>https://thinkuldeep.com/tags/comparison/</link>
+      <link>http://localhost:1313/tags/comparison/</link>
       <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/comparison/</guid>
+      <guid>http://localhost:1313/tags/comparison/</guid>
       <description></description>
     </item>
     
     <item>
       <title>framework</title>
-      <link>https://thinkuldeep.com/tags/framework/</link>
+      <link>http://localhost:1313/tags/framework/</link>
       <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/framework/</guid>
+      <guid>http://localhost:1313/tags/framework/</guid>
       <description></description>
     </item>
     
     <item>
       <title>platform</title>
-      <link>https://thinkuldeep.com/tags/platform/</link>
+      <link>http://localhost:1313/tags/platform/</link>
       <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/platform/</guid>
+      <guid>http://localhost:1313/tags/platform/</guid>
       <description></description>
     </item>
     
     <item>
       <title>security</title>
-      <link>https://thinkuldeep.com/tags/security/</link>
+      <link>http://localhost:1313/tags/security/</link>
       <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/security/</guid>
+      <guid>http://localhost:1313/tags/security/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sigfox</title>
-      <link>https://thinkuldeep.com/tags/sigfox/</link>
+      <link>http://localhost:1313/tags/sigfox/</link>
       <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/sigfox/</guid>
+      <guid>http://localhost:1313/tags/sigfox/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hibernate</title>
-      <link>https://thinkuldeep.com/tags/hibernate/</link>
+      <link>http://localhost:1313/tags/hibernate/</link>
       <pubDate>Thu, 16 Jul 2015 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/hibernate/</guid>
+      <guid>http://localhost:1313/tags/hibernate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>orm</title>
-      <link>https://thinkuldeep.com/tags/orm/</link>
+      <link>http://localhost:1313/tags/orm/</link>
       <pubDate>Thu, 16 Jul 2015 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/orm/</guid>
+      <guid>http://localhost:1313/tags/orm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spring</title>
+      <link>http://localhost:1313/tags/spring/</link>
+      <pubDate>Thu, 16 Jul 2015 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/spring/</guid>
       <description></description>
     </item>
     
     <item>
       <title>course</title>
-      <link>https://thinkuldeep.com/tags/course/</link>
+      <link>http://localhost:1313/tags/course/</link>
       <pubDate>Tue, 27 Jan 2015 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/course/</guid>
+      <guid>http://localhost:1313/tags/course/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JavaScript</title>
-      <link>https://thinkuldeep.com/tags/javascript/</link>
+      <link>http://localhost:1313/tags/javascript/</link>
       <pubDate>Tue, 27 Jan 2015 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/javascript/</guid>
+      <guid>http://localhost:1313/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>js</title>
-      <link>https://thinkuldeep.com/tags/js/</link>
+      <link>http://localhost:1313/tags/js/</link>
       <pubDate>Tue, 27 Jan 2015 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/js/</guid>
+      <guid>http://localhost:1313/tags/js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>language</title>
-      <link>https://thinkuldeep.com/tags/language/</link>
+      <link>http://localhost:1313/tags/language/</link>
       <pubDate>Tue, 27 Jan 2015 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/language/</guid>
+      <guid>http://localhost:1313/tags/language/</guid>
       <description></description>
     </item>
     
     <item>
       <title>object oriented</title>
-      <link>https://thinkuldeep.com/tags/object-oriented/</link>
+      <link>http://localhost:1313/tags/object-oriented/</link>
       <pubDate>Tue, 27 Jan 2015 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/object-oriented/</guid>
+      <guid>http://localhost:1313/tags/object-oriented/</guid>
       <description></description>
     </item>
     
     <item>
       <title>oops</title>
-      <link>https://thinkuldeep.com/tags/oops/</link>
+      <link>http://localhost:1313/tags/oops/</link>
       <pubDate>Tue, 27 Jan 2015 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/oops/</guid>
+      <guid>http://localhost:1313/tags/oops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>effectiveness</title>
-      <link>https://thinkuldeep.com/tags/effectiveness/</link>
+      <link>http://localhost:1313/tags/effectiveness/</link>
       <pubDate>Wed, 14 Jan 2015 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/effectiveness/</guid>
+      <guid>http://localhost:1313/tags/effectiveness/</guid>
       <description></description>
     </item>
     
     <item>
       <title>efficiency</title>
-      <link>https://thinkuldeep.com/tags/efficiency/</link>
+      <link>http://localhost:1313/tags/efficiency/</link>
       <pubDate>Wed, 14 Jan 2015 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/efficiency/</guid>
+      <guid>http://localhost:1313/tags/efficiency/</guid>
       <description></description>
     </item>
     
     <item>
       <title>benchmarking</title>
-      <link>https://thinkuldeep.com/tags/benchmarking/</link>
+      <link>http://localhost:1313/tags/benchmarking/</link>
       <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/benchmarking/</guid>
+      <guid>http://localhost:1313/tags/benchmarking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hashmap</title>
-      <link>https://thinkuldeep.com/tags/hashmap/</link>
+      <link>http://localhost:1313/tags/hashmap/</link>
       <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/hashmap/</guid>
+      <guid>http://localhost:1313/tags/hashmap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lambda-expression</title>
-      <link>https://thinkuldeep.com/tags/lambda-expression/</link>
+      <link>http://localhost:1313/tags/lambda-expression/</link>
       <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/lambda-expression/</guid>
+      <guid>http://localhost:1313/tags/lambda-expression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>performance</title>
-      <link>https://thinkuldeep.com/tags/performance/</link>
+      <link>http://localhost:1313/tags/performance/</link>
       <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/performance/</guid>
+      <guid>http://localhost:1313/tags/performance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>whatsnew</title>
-      <link>https://thinkuldeep.com/tags/whatsnew/</link>
+      <link>http://localhost:1313/tags/whatsnew/</link>
       <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/whatsnew/</guid>
+      <guid>http://localhost:1313/tags/whatsnew/</guid>
       <description></description>
     </item>
     
     <item>
       <title>stream-api</title>
-      <link>https://thinkuldeep.com/tags/stream-api/</link>
+      <link>http://localhost:1313/tags/stream-api/</link>
       <pubDate>Mon, 08 Dec 2014 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/stream-api/</guid>
+      <guid>http://localhost:1313/tags/stream-api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>javaone</title>
-      <link>https://thinkuldeep.com/tags/javaone/</link>
+      <link>http://localhost:1313/tags/javaone/</link>
       <pubDate>Wed, 01 Oct 2014 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/javaone/</guid>
+      <guid>http://localhost:1313/tags/javaone/</guid>
       <description></description>
     </item>
     
     <item>
       <title>oracle</title>
-      <link>https://thinkuldeep.com/tags/oracle/</link>
+      <link>http://localhost:1313/tags/oracle/</link>
       <pubDate>Wed, 01 Oct 2014 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/oracle/</guid>
+      <guid>http://localhost:1313/tags/oracle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bosch</title>
-      <link>https://thinkuldeep.com/tags/bosch/</link>
+      <link>http://localhost:1313/tags/bosch/</link>
       <pubDate>Fri, 22 Aug 2014 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/bosch/</guid>
+      <guid>http://localhost:1313/tags/bosch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GE</title>
+      <link>http://localhost:1313/tags/ge/</link>
+      <pubDate>Fri, 22 Aug 2014 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/ge/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IBM</title>
-      <link>https://thinkuldeep.com/tags/ibm/</link>
+      <link>http://localhost:1313/tags/ibm/</link>
       <pubDate>Fri, 22 Aug 2014 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/ibm/</guid>
+      <guid>http://localhost:1313/tags/ibm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Apache Camel</title>
-      <link>https://thinkuldeep.com/tags/apache-camel/</link>
+      <link>http://localhost:1313/tags/apache-camel/</link>
       <pubDate>Thu, 13 Feb 2014 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/apache-camel/</guid>
+      <guid>http://localhost:1313/tags/apache-camel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ssh</title>
-      <link>https://thinkuldeep.com/tags/ssh/</link>
+      <link>http://localhost:1313/tags/ssh/</link>
       <pubDate>Mon, 02 Dec 2013 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/ssh/</guid>
+      <guid>http://localhost:1313/tags/ssh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>groovy</title>
-      <link>https://thinkuldeep.com/tags/groovy/</link>
+      <link>http://localhost:1313/tags/groovy/</link>
       <pubDate>Mon, 20 May 2013 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/groovy/</guid>
+      <guid>http://localhost:1313/tags/groovy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lift</title>
-      <link>https://thinkuldeep.com/tags/lift/</link>
+      <link>http://localhost:1313/tags/lift/</link>
       <pubDate>Sat, 18 May 2013 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/lift/</guid>
+      <guid>http://localhost:1313/tags/lift/</guid>
       <description></description>
     </item>
     
     <item>
       <title>play</title>
-      <link>https://thinkuldeep.com/tags/play/</link>
+      <link>http://localhost:1313/tags/play/</link>
       <pubDate>Sat, 18 May 2013 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/play/</guid>
+      <guid>http://localhost:1313/tags/play/</guid>
       <description></description>
     </item>
     
     <item>
       <title>charset</title>
-      <link>https://thinkuldeep.com/tags/charset/</link>
+      <link>http://localhost:1313/tags/charset/</link>
       <pubDate>Thu, 14 Feb 2013 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/charset/</guid>
+      <guid>http://localhost:1313/tags/charset/</guid>
       <description></description>
     </item>
     
     <item>
       <title>customizations</title>
-      <link>https://thinkuldeep.com/tags/customizations/</link>
+      <link>http://localhost:1313/tags/customizations/</link>
       <pubDate>Thu, 14 Feb 2013 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/customizations/</guid>
+      <guid>http://localhost:1313/tags/customizations/</guid>
       <description></description>
     </item>
     
     <item>
       <title>jvm</title>
-      <link>https://thinkuldeep.com/tags/jvm/</link>
+      <link>http://localhost:1313/tags/jvm/</link>
       <pubDate>Thu, 14 Feb 2013 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/jvm/</guid>
+      <guid>http://localhost:1313/tags/jvm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>apache poi</title>
-      <link>https://thinkuldeep.com/tags/apache-poi/</link>
+      <link>http://localhost:1313/tags/apache-poi/</link>
       <pubDate>Sat, 29 Sep 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/apache-poi/</guid>
+      <guid>http://localhost:1313/tags/apache-poi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>embedded</title>
-      <link>https://thinkuldeep.com/tags/embedded/</link>
+      <link>http://localhost:1313/tags/embedded/</link>
       <pubDate>Sat, 29 Sep 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/embedded/</guid>
+      <guid>http://localhost:1313/tags/embedded/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IBM DOORS</title>
-      <link>https://thinkuldeep.com/tags/ibm-doors/</link>
+      <link>http://localhost:1313/tags/ibm-doors/</link>
       <pubDate>Sat, 29 Sep 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/ibm-doors/</guid>
+      <guid>http://localhost:1313/tags/ibm-doors/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ole</title>
-      <link>https://thinkuldeep.com/tags/ole/</link>
+      <link>http://localhost:1313/tags/ole/</link>
       <pubDate>Sat, 29 Sep 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/ole/</guid>
+      <guid>http://localhost:1313/tags/ole/</guid>
       <description></description>
     </item>
     
     <item>
       <title>RIF</title>
-      <link>https://thinkuldeep.com/tags/rif/</link>
+      <link>http://localhost:1313/tags/rif/</link>
       <pubDate>Sat, 29 Sep 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/rif/</guid>
+      <guid>http://localhost:1313/tags/rif/</guid>
       <description></description>
     </item>
     
     <item>
       <title>XML</title>
-      <link>https://thinkuldeep.com/tags/xml/</link>
+      <link>http://localhost:1313/tags/xml/</link>
       <pubDate>Sat, 29 Sep 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/xml/</guid>
+      <guid>http://localhost:1313/tags/xml/</guid>
       <description></description>
     </item>
     
     <item>
       <title>compilation</title>
-      <link>https://thinkuldeep.com/tags/compilation/</link>
+      <link>http://localhost:1313/tags/compilation/</link>
       <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/compilation/</guid>
+      <guid>http://localhost:1313/tags/compilation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>configuration</title>
-      <link>https://thinkuldeep.com/tags/configuration/</link>
+      <link>http://localhost:1313/tags/configuration/</link>
       <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/configuration/</guid>
+      <guid>http://localhost:1313/tags/configuration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>extendability</title>
-      <link>https://thinkuldeep.com/tags/extendability/</link>
+      <link>http://localhost:1313/tags/extendability/</link>
       <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/extendability/</guid>
+      <guid>http://localhost:1313/tags/extendability/</guid>
       <description></description>
     </item>
     
     <item>
       <title>issues</title>
-      <link>https://thinkuldeep.com/tags/issues/</link>
+      <link>http://localhost:1313/tags/issues/</link>
       <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/issues/</guid>
+      <guid>http://localhost:1313/tags/issues/</guid>
       <description></description>
     </item>
     
     <item>
       <title>jsp</title>
-      <link>https://thinkuldeep.com/tags/jsp/</link>
+      <link>http://localhost:1313/tags/jsp/</link>
       <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/jsp/</guid>
+      <guid>http://localhost:1313/tags/jsp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>plugin</title>
-      <link>https://thinkuldeep.com/tags/plugin/</link>
+      <link>http://localhost:1313/tags/plugin/</link>
       <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/plugin/</guid>
+      <guid>http://localhost:1313/tags/plugin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tuning</title>
-      <link>https://thinkuldeep.com/tags/tuning/</link>
+      <link>http://localhost:1313/tags/tuning/</link>
       <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/tuning/</guid>
+      <guid>http://localhost:1313/tags/tuning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>database</title>
-      <link>https://thinkuldeep.com/tags/database/</link>
+      <link>http://localhost:1313/tags/database/</link>
       <pubDate>Sun, 15 Apr 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/database/</guid>
+      <guid>http://localhost:1313/tags/database/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mysql</title>
-      <link>https://thinkuldeep.com/tags/mysql/</link>
+      <link>http://localhost:1313/tags/mysql/</link>
       <pubDate>Sun, 15 Apr 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/mysql/</guid>
+      <guid>http://localhost:1313/tags/mysql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>timezone</title>
-      <link>https://thinkuldeep.com/tags/timezone/</link>
+      <link>http://localhost:1313/tags/timezone/</link>
       <pubDate>Sun, 15 Apr 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/timezone/</guid>
+      <guid>http://localhost:1313/tags/timezone/</guid>
       <description></description>
     </item>
     
     <item>
       <title>optimization</title>
-      <link>https://thinkuldeep.com/tags/optimization/</link>
+      <link>http://localhost:1313/tags/optimization/</link>
       <pubDate>Sat, 10 Mar 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/optimization/</guid>
+      <guid>http://localhost:1313/tags/optimization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>drools</title>
-      <link>https://thinkuldeep.com/tags/drools/</link>
+      <link>http://localhost:1313/tags/drools/</link>
       <pubDate>Sat, 03 Mar 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/drools/</guid>
+      <guid>http://localhost:1313/tags/drools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rule-engine</title>
-      <link>https://thinkuldeep.com/tags/rule-engine/</link>
+      <link>http://localhost:1313/tags/rule-engine/</link>
       <pubDate>Sat, 03 Mar 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/rule-engine/</guid>
+      <guid>http://localhost:1313/tags/rule-engine/</guid>
       <description></description>
     </item>
     
     <item>
       <title>data engineering</title>
-      <link>https://thinkuldeep.com/tags/data-engineering/</link>
+      <link>http://localhost:1313/tags/data-engineering/</link>
       <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/data-engineering/</guid>
+      <guid>http://localhost:1313/tags/data-engineering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JNI</title>
-      <link>https://thinkuldeep.com/tags/jni/</link>
+      <link>http://localhost:1313/tags/jni/</link>
       <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/jni/</guid>
+      <guid>http://localhost:1313/tags/jni/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>native</title>
+      <link>http://localhost:1313/tags/native/</link>
+      <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/native/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NLP Solver</title>
-      <link>https://thinkuldeep.com/tags/nlp-solver/</link>
+      <link>http://localhost:1313/tags/nlp-solver/</link>
       <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/nlp-solver/</guid>
+      <guid>http://localhost:1313/tags/nlp-solver/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Apache CFX</title>
-      <link>https://thinkuldeep.com/tags/apache-cfx/</link>
+      <link>http://localhost:1313/tags/apache-cfx/</link>
       <pubDate>Mon, 30 Jan 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/apache-cfx/</guid>
+      <guid>http://localhost:1313/tags/apache-cfx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Apache Service Mix</title>
-      <link>https://thinkuldeep.com/tags/apache-service-mix/</link>
+      <link>http://localhost:1313/tags/apache-service-mix/</link>
       <pubDate>Mon, 30 Jan 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/apache-service-mix/</guid>
+      <guid>http://localhost:1313/tags/apache-service-mix/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ESB</title>
-      <link>https://thinkuldeep.com/tags/esb/</link>
+      <link>http://localhost:1313/tags/esb/</link>
       <pubDate>Mon, 30 Jan 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/esb/</guid>
+      <guid>http://localhost:1313/tags/esb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FuseESB</title>
-      <link>https://thinkuldeep.com/tags/fuseesb/</link>
+      <link>http://localhost:1313/tags/fuseesb/</link>
       <pubDate>Mon, 30 Jan 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/fuseesb/</guid>
+      <guid>http://localhost:1313/tags/fuseesb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>exchange</title>
-      <link>https://thinkuldeep.com/tags/exchange/</link>
+      <link>http://localhost:1313/tags/exchange/</link>
       <pubDate>Sun, 22 Jan 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/exchange/</guid>
+      <guid>http://localhost:1313/tags/exchange/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mail</title>
-      <link>https://thinkuldeep.com/tags/mail/</link>
+      <link>http://localhost:1313/tags/mail/</link>
       <pubDate>Sun, 22 Jan 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/mail/</guid>
+      <guid>http://localhost:1313/tags/mail/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OSGi</title>
-      <link>https://thinkuldeep.com/tags/osgi/</link>
+      <link>http://localhost:1313/tags/osgi/</link>
       <pubDate>Sun, 15 Jan 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/osgi/</guid>
+      <guid>http://localhost:1313/tags/osgi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Aspose</title>
-      <link>https://thinkuldeep.com/tags/aspose/</link>
+      <link>http://localhost:1313/tags/aspose/</link>
       <pubDate>Tue, 10 Jan 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/aspose/</guid>
+      <guid>http://localhost:1313/tags/aspose/</guid>
       <description></description>
     </item>
     
     <item>
       <title>world</title>
-      <link>https://thinkuldeep.com/tags/world/</link>
+      <link>http://localhost:1313/tags/world/</link>
       <pubDate>Tue, 10 Jan 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/world/</guid>
+      <guid>http://localhost:1313/tags/world/</guid>
       <description></description>
     </item>
     
     <item>
       <title>awt</title>
-      <link>https://thinkuldeep.com/tags/awt/</link>
+      <link>http://localhost:1313/tags/awt/</link>
       <pubDate>Thu, 05 Jan 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/awt/</guid>
+      <guid>http://localhost:1313/tags/awt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fonts</title>
-      <link>https://thinkuldeep.com/tags/fonts/</link>
+      <link>http://localhost:1313/tags/fonts/</link>
       <pubDate>Thu, 05 Jan 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/fonts/</guid>
+      <guid>http://localhost:1313/tags/fonts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>jfreechart</title>
-      <link>https://thinkuldeep.com/tags/jfreechart/</link>
+      <link>http://localhost:1313/tags/jfreechart/</link>
       <pubDate>Thu, 05 Jan 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/jfreechart/</guid>
+      <guid>http://localhost:1313/tags/jfreechart/</guid>
       <description></description>
     </item>
     
     <item>
       <title>profile</title>
-      <link>https://thinkuldeep.com/tags/profile/</link>
+      <link>http://localhost:1313/tags/profile/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/profile/</guid>
+      <guid>http://localhost:1313/tags/profile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>thevrara</title>
-      <link>https://thinkuldeep.com/tags/thevrara/</link>
+      <link>http://localhost:1313/tags/thevrara/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://thinkuldeep.com/tags/thevrara/</guid>
+      <guid>http://localhost:1313/tags/thevrara/</guid>
       <description></description>
     </item>
     

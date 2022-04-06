@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>practice on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/practice/</link>
+    <link>http://localhost:1313/tags/practice/</link>
     <description>Recent content in practice on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Oct 2021 10:58:08 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/practice/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 11 Oct 2021 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/practice/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Managing enterprise complexity with XR</title>
-      <link>https://thinkuldeep.com/post/managing-enterprise-complexity-xr/</link>
+      <link>http://localhost:1313/post/managing-enterprise-complexity-xr/</link>
       <pubDate>Mon, 11 Oct 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/managing-enterprise-complexity-xr/</guid>
+      <guid>http://localhost:1313/post/managing-enterprise-complexity-xr/</guid>
       <description>Modern enterprises must manage multiple layers of complexity across thousands of assets, workflows, and processes — and there’s near-zero tolerance for issues that interrupt operations, damage profitability, or put workers’ safety at risk.
 These layers of enterprise complexity create significant challenges in four key areas:
  Design and development are often slow and expensive An inability to demo and customize complex products can make them difficult to sell Users need continuously updated training to operate products effectively and safely A shortage of on-the-spot expertise endangers employee safety and increases downtime risk and cost  However, many enterprises are beginning to use extended reality (XR) technologies to overcome these challenges.</description>
@@ -24,10 +20,10 @@ These layers of enterprise complexity create significant challenges in four key 
     
     <item>
       <title>Enterprise XR to Ethical XR</title>
-      <link>https://thinkuldeep.com/post/enterprise-to-ethical-xr/</link>
+      <link>http://localhost:1313/post/enterprise-to-ethical-xr/</link>
       <pubDate>Fri, 16 Jul 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/enterprise-to-ethical-xr/</guid>
+      <guid>http://localhost:1313/post/enterprise-to-ethical-xr/</guid>
       <description>eXtended Reality or XR is an umbrella term for scenarios where AR, VR, and MR devices interact with peripheral devices such as ambient sensors, actuators, 3D printers and internet enabled smart-devices such as home appliances, industrial connected machines, connected vehicles and more. Find here more details
 At Thoughtworks, we have been talking about Rise of XR for enterprises, and evolving human interactions thru our lens of looking glasses.
  Evolving interactions - Consumers aren’t just demanding availability and accessibility — they expect interactions to be seamless, and richer.</description>
@@ -35,58 +31,58 @@ At Thoughtworks, we have been talking about Rise of XR for enterprises, and evol
     
     <item>
       <title>XR development from home</title>
-      <link>https://thinkuldeep.com/post/xr-development-from-home/</link>
+      <link>http://localhost:1313/post/xr-development-from-home/</link>
       <pubDate>Thu, 02 Apr 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/xr-development-from-home/</guid>
+      <guid>http://localhost:1313/post/xr-development-from-home/</guid>
       <description>Covid19 has challenged the way we eat, the way we commute, the way we socialize, and the way we work. In short, it impacted the way we live. More than a million people got infected and the number is growing exponentially, it has impacted the whole world. We need to find new ways of life and change our focus and priorities to save nature and humanity. Technology can play a great role in coping with it.</description>
     </item>
     
     <item>
       <title>Static Code Analysis for Unity3D — Part 2</title>
-      <link>https://thinkuldeep.com/post/static_code_analysis_unity_2/</link>
+      <link>http://localhost:1313/post/static_code_analysis_unity_2/</link>
       <pubDate>Wed, 30 Oct 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/static_code_analysis_unity_2/</guid>
+      <guid>http://localhost:1313/post/static_code_analysis_unity_2/</guid>
       <description>This article is in continuation of Static Code Analysis for Unity3D — Part 1 where we talked about setting up a local sonar server, sonar scanner and running the analysis for a Unity3D project.
 It this article, we will discuss setting up the Static Code Analysis with SonarCube in IDE — Rider. We are using Rider as the “External Script Editor” in Unity. Configure Rider here in Unity&amp;gt; Preferences &amp;gt; External Tools &amp;gt; External Script Editor.</description>
     </item>
     
     <item>
       <title>Static Code Analysis for Unity3D — Part 1</title>
-      <link>https://thinkuldeep.com/post/static_code_analysis_unity_1/</link>
+      <link>http://localhost:1313/post/static_code_analysis_unity_1/</link>
       <pubDate>Tue, 29 Oct 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/static_code_analysis_unity_1/</guid>
+      <guid>http://localhost:1313/post/static_code_analysis_unity_1/</guid>
       <description>Static code analysis is a standard practice in software development. There are code scanner tools, which scans the code to find vulnerabilities. There are some nice tools for visualizing and managing code quality. One of the most used tool is SonarQube, supports 25+ languages and flexible configurations of the rules.
 There are not enough resources talking about static code analysis for Unity3D. This post covers steps to configure SonarQube and use it for scanning Unity projects.</description>
     </item>
     
     <item>
       <title>Boost your organisation agility by test-first-pair development</title>
-      <link>https://thinkuldeep.com/post/test-first-pair-development/</link>
+      <link>http://localhost:1313/post/test-first-pair-development/</link>
       <pubDate>Sat, 15 Sep 2018 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/test-first-pair-development/</guid>
+      <guid>http://localhost:1313/post/test-first-pair-development/</guid>
       <description>Agile software development methodology is the key selling point for most of the IT organisations, however many of the organisations have gone by the literal meaning of the word &amp;ldquo;Agile&amp;rdquo;. They follow agile practices without really being agile. If we go by Manifesto for Agile Software Development, it focus more on human factor (people, interaction, collaboration) which produces working software as per the need of time, than on processes, tools and strict planning.</description>
     </item>
     
     <item>
       <title>Writing maintainable code is like house cleaning</title>
-      <link>https://thinkuldeep.com/post/clean-code/</link>
+      <link>http://localhost:1313/post/clean-code/</link>
       <pubDate>Thu, 14 Jan 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/clean-code/</guid>
+      <guid>http://localhost:1313/post/clean-code/</guid>
       <description>Your house will remain clean for longer duration if you follow certain rules strictly such as put things at right place after use, clear any mesh just after doing it, repair/upgrade things on time, daily dusting, vacuum cleaning etc. We may avoid a massive cleanup if we apply a series of small efforts daily.
  Let for the same while writing the code –  Your code will remain maintainable for longer duration if you follow certain rules strictly such as follow the coding standards and guidelines, clean the code just after it, fix/refactor on time, periodic design review and refactoring.</description>
     </item>
     
     <item>
       <title>Object Oriented JavaScript</title>
-      <link>https://thinkuldeep.com/post/oojs/</link>
+      <link>http://localhost:1313/post/oojs/</link>
       <pubDate>Tue, 27 Jan 2015 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/oojs/</guid>
+      <guid>http://localhost:1313/post/oojs/</guid>
       <description>JavaScript has been regarded as a functional programing language by most of the developers. This book is targeted for all the JavaScript developers to shift their thinking from the functional to the object oriented programing language.
 The course requires basic knowledge of JavaScript syntax. If you already know some JavaScript, you will find a lot of eye-openers as you go along and learn what more the JavaScript can do for you.</description>
     </item>

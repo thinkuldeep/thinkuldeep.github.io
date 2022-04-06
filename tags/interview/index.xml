@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>interview on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/interview/</link>
+    <link>http://localhost:1313/tags/interview/</link>
     <description>Recent content in interview on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Nov 2020 10:58:08 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/interview/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 15 Nov 2020 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/interview/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>eXtended Reality for Enterprise - a PODCast by XROM</title>
-      <link>https://thinkuldeep.com/event/xrom-podcast-enterprise-xr/</link>
+      <link>http://localhost:1313/event/xrom-podcast-enterprise-xr/</link>
       <pubDate>Sun, 15 Nov 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/xrom-podcast-enterprise-xr/</guid>
+      <guid>http://localhost:1313/event/xrom-podcast-enterprise-xr/</guid>
       <description>Interesting conversation on eXtended Reality (XR) with Eddie Avil, starting from my background, how I landed up in the XR space and where are we heading…
 XROM PODCast  XROM PODCast is a youtube channel maintained by serial entrepreneur, dreamer &amp;amp; a believer Mr. Eddie Avil. This channel has number of interesting conversations with industry leaders in the emerging technology space. Eddie Avil, also runs a marketplace for AR VR hardware and service, visit here https://www.</description>
     </item>

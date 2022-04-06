@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mr on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/mr/</link>
+    <link>http://localhost:1313/tags/mr/</link>
     <description>Recent content in mr on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Oct 2021 10:58:08 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/mr/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 20 Oct 2021 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/mr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Speaker - Thoughtworks MasterClass-2021</title>
-      <link>https://thinkuldeep.com/event/thougthworks-masterclasses-2021/</link>
+      <link>http://localhost:1313/event/thougthworks-masterclasses-2021/</link>
       <pubDate>Wed, 20 Oct 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/thougthworks-masterclasses-2021/</guid>
+      <guid>http://localhost:1313/event/thougthworks-masterclasses-2021/</guid>
       <description>The MasterClass This October, at Thoughtworks India, we’re celebrating our 20th anniversary! That’s 20 years of excellence in technology!
  All through the month we’re hosting 10 tech talks, delivered by some of our best-and-brightest technologists in India. Each of them will be taking you through different topics, ranging from Distributed Delivery and XR, to Security and Navigating Ambiguity.
 I am sharing stage with Raju Kandaswamy who is a robotics enthusiast and taking us through &amp;ldquo;Using XR in building autonomous vehicles&amp;rdquo;.</description>
@@ -24,10 +20,10 @@ I am sharing stage with Raju Kandaswamy who is a robotics enthusiast and taking 
     
     <item>
       <title>Managing enterprise complexity with XR</title>
-      <link>https://thinkuldeep.com/post/managing-enterprise-complexity-xr/</link>
+      <link>http://localhost:1313/post/managing-enterprise-complexity-xr/</link>
       <pubDate>Mon, 11 Oct 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/managing-enterprise-complexity-xr/</guid>
+      <guid>http://localhost:1313/post/managing-enterprise-complexity-xr/</guid>
       <description>Modern enterprises must manage multiple layers of complexity across thousands of assets, workflows, and processes — and there’s near-zero tolerance for issues that interrupt operations, damage profitability, or put workers’ safety at risk.
 These layers of enterprise complexity create significant challenges in four key areas:
  Design and development are often slow and expensive An inability to demo and customize complex products can make them difficult to sell Users need continuously updated training to operate products effectively and safely A shortage of on-the-spot expertise endangers employee safety and increases downtime risk and cost  However, many enterprises are beginning to use extended reality (XR) technologies to overcome these challenges.</description>
@@ -35,10 +31,10 @@ These layers of enterprise complexity create significant challenges in four key 
     
     <item>
       <title>Judge - Thoughtworks iFest 2.0</title>
-      <link>https://thinkuldeep.com/event/thougthworks-ifest2/</link>
+      <link>http://localhost:1313/event/thougthworks-ifest2/</link>
       <pubDate>Sun, 10 Oct 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/thougthworks-ifest2/</guid>
+      <guid>http://localhost:1313/event/thougthworks-ifest2/</guid>
       <description>The iFest This October, at Thoughtworks India, we’re celebrating our 20th anniversary! That’s 20 years of excellence in technology!
 Innovation Lab&amp;rsquo;s at Thoughtworks comes second edition of iFest - a month long hackathon. I got opportunity to participate in iFest as a judge.
 I was amazed to see the verity of idea. All the ideas were great and it was so hard to compare them.
@@ -47,10 +43,10 @@ Ideas were touching were reflecting the Thougthworks culture, use technology to 
     
     <item>
       <title>Speaker - XConf-2021 - Thoughtworks India</title>
-      <link>https://thinkuldeep.com/event/thougthworks-xconf-2021/</link>
+      <link>http://localhost:1313/event/thougthworks-xconf-2021/</link>
       <pubDate>Fri, 08 Oct 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/thougthworks-xconf-2021/</guid>
+      <guid>http://localhost:1313/event/thougthworks-xconf-2021/</guid>
       <description>The XConf XConf is Thoughtworks annual technology event created by technologists. It is designed for technologists who care deeply about software and its impact on the world.
 This year, XConf will be a virtual experience available at two different time slots. October 7th and 8th will feature pre-recorded sessions and October 9th will feature live sessions. During the nine exciting talks spread across three days.
  I am exited to sharing the stage with renowned technologists like Neal Ford, Dr.</description>
@@ -58,10 +54,10 @@ This year, XConf will be a virtual experience available at two different time sl
     
     <item>
       <title>Enterprise XR to Ethical XR</title>
-      <link>https://thinkuldeep.com/post/enterprise-to-ethical-xr/</link>
+      <link>http://localhost:1313/post/enterprise-to-ethical-xr/</link>
       <pubDate>Fri, 16 Jul 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/enterprise-to-ethical-xr/</guid>
+      <guid>http://localhost:1313/post/enterprise-to-ethical-xr/</guid>
       <description>eXtended Reality or XR is an umbrella term for scenarios where AR, VR, and MR devices interact with peripheral devices such as ambient sensors, actuators, 3D printers and internet enabled smart-devices such as home appliances, industrial connected machines, connected vehicles and more. Find here more details
 At Thoughtworks, we have been talking about Rise of XR for enterprises, and evolving human interactions thru our lens of looking glasses.
  Evolving interactions - Consumers aren’t just demanding availability and accessibility — they expect interactions to be seamless, and richer.</description>
@@ -69,20 +65,20 @@ At Thoughtworks, we have been talking about Rise of XR for enterprises, and evol
     
     <item>
       <title>Navigating the new normal with augmented reality</title>
-      <link>https://thinkuldeep.com/post/navigating-new-normal-xr/</link>
+      <link>http://localhost:1313/post/navigating-new-normal-xr/</link>
       <pubDate>Sat, 01 May 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/navigating-new-normal-xr/</guid>
+      <guid>http://localhost:1313/post/navigating-new-normal-xr/</guid>
       <description>This article is originally published at Thoughtworks Insights, co-authored with Aileen Pistorius, Julie Woods-Moss and Anna Bäckström.
 Time was when virtual and augmented reality was regarded as simply gaming technology — the preserve of fun, consumer applications with little serious consideration for the enterprise. But that’s in the past, in the post-COVID world, remote working will be ubiquitous — forcing enterprise leaders to find innovative ways to improve collaboration. This, it transpires, is the sweet spot for what’s termed enterprise XR (extended reality) — a group of related technologies that enable us to blend the physical and digital worlds.</description>
     </item>
     
     <item>
       <title>Making pandemic-proof workplaces a reality with XR</title>
-      <link>https://thinkuldeep.com/post/making-pandemic-proof-workplaces-a-reality-xr/</link>
+      <link>http://localhost:1313/post/making-pandemic-proof-workplaces-a-reality-xr/</link>
       <pubDate>Tue, 27 Apr 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/making-pandemic-proof-workplaces-a-reality-xr/</guid>
+      <guid>http://localhost:1313/post/making-pandemic-proof-workplaces-a-reality-xr/</guid>
       <description>The IMF called the COVID-19 crisis ‘unlike any other,’ where the global growth contraction for 2020 was estimated at -3.5 percent. Image source : Using Lenovo ThinkReality A6 Glass at Workplace
 Here is a quick overview of the biggest challenges that CXOs (and their businesses) have faced over the recent past, to better illustrate how the pandemic is affecting businesses:
  Businesses are grappling with slowing global supply chains Sales and production growth is further impacted with a subsequent dive in opportunities for partnerships and growth The flattened or negative growth market result in less manpower and resources to work with, further affecting productivity  ​The five biggest challenges that CXOs are facing today</description>
@@ -90,19 +86,19 @@ Here is a quick overview of the biggest challenges that CXOs (and their business
     
     <item>
       <title>Best Practices for Building Spatial Solutions</title>
-      <link>https://thinkuldeep.com/post/xr-best-practices/</link>
+      <link>http://localhost:1313/post/xr-best-practices/</link>
       <pubDate>Tue, 05 Jan 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/xr-best-practices/</guid>
+      <guid>http://localhost:1313/post/xr-best-practices/</guid>
       <description>Covid19 is forcing us into a ‘new normal’, A new normal that makes most of us work from home, and that leads to spending long hours on Zoom, or other video conferencing platforms. Meetings, inceptions, discovery workshops, conferences, and webinars are happening in the same monotonous ways. We are stuck with a screen in almost the same pose and posture. Some might use their mobile phone or tablet but that limits us to a small screen.</description>
     </item>
     
     <item>
       <title>eXtended Reality - the new norm?</title>
-      <link>https://thinkuldeep.com/post/extending_reality_new_norm/</link>
+      <link>http://localhost:1313/post/extending_reality_new_norm/</link>
       <pubDate>Wed, 28 Oct 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/extending_reality_new_norm/</guid>
+      <guid>http://localhost:1313/post/extending_reality_new_norm/</guid>
       <description>This article is originally published at TechTag.de, you may find the German version here too.
 The interaction between humans and technology is evolving radically. We need to develop our thinking and skills beyond the keyboard and screen. But what does this new technological reality look like? Here it is worth taking a closer look at the different forms of extended reality and how they can change our everyday lives.
 The way we interact with technology today isn&amp;rsquo;t too far from what was predicted by futuristic sci-fi pop culture.</description>
@@ -110,20 +106,20 @@ The way we interact with technology today isn&amp;rsquo;t too far from what was 
     
     <item>
       <title>XR enabled me to renovate my home!</title>
-      <link>https://thinkuldeep.com/post/xr-enabled-home-renovation/</link>
+      <link>http://localhost:1313/post/xr-enabled-home-renovation/</link>
       <pubDate>Wed, 30 Sep 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/xr-enabled-home-renovation/</guid>
+      <guid>http://localhost:1313/post/xr-enabled-home-renovation/</guid>
       <description>Covid19 is still unmeasurable, and we are more or less getting adjusted to this new normal. We are eagerly waiting to say goodbye to this year 2020 and welcome the coming year of hope, 2021. Read more here to know why I call this year 2020, as the year of change.
 In April this year, I explained XR development from home, and that was still near shore to office, I was less than an hour away from the office.</description>
     </item>
     
     <item>
       <title>Geeknight - XR - eXtending the Reality</title>
-      <link>https://thinkuldeep.com/event/thougthworks_geeknight_sep_2020_xr/</link>
+      <link>http://localhost:1313/event/thougthworks_geeknight_sep_2020_xr/</link>
       <pubDate>Tue, 29 Sep 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/thougthworks_geeknight_sep_2020_xr/</guid>
+      <guid>http://localhost:1313/event/thougthworks_geeknight_sep_2020_xr/</guid>
       <description>Geek Night is a regular event to promote the sharing of technical knowledge and increase collaboration among the geeks. It is organized by a passionate group of programmers and sponsored by ThoughtWorks.
 Sep month&amp;rsquo;s geek night has covered Extended Reality - An umbrella term covering various technologies like AR,VR and MR. I will be discussing what is XR, its usage and significance today, that is stretching beyond gaming.
 Embracing an Agile approach is essential to any successful XR implementation.</description>
@@ -131,10 +127,10 @@ Embracing an Agile approach is essential to any successful XR implementation.</d
     
     <item>
       <title>Speaker - Google DSC - How to get started with AR VR?</title>
-      <link>https://thinkuldeep.com/event/google_dsk_skct_xr_introduction/</link>
+      <link>http://localhost:1313/event/google_dsk_skct_xr_introduction/</link>
       <pubDate>Sun, 07 Jun 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/google_dsk_skct_xr_introduction/</guid>
+      <guid>http://localhost:1313/event/google_dsk_skct_xr_introduction/</guid>
       <description>Conducted a live session at Google Developer Students Club of Sri Krishna College of Technology, Coimbatore, TN, India
 Intro here LinkedIn
 Live session, recording.  The talks is about  What is AR VR? Why to start with AR VR? How to start with AR VR?  Detailed Slides   How to get started with arvr - DSC 2020  from Kuldeep Singh  Feedback  This session was really awesome and I have got lot of new knowledge about ar/vr and it&amp;rsquo;s importance in solving real life problems - Kannan Subramanian</description>
@@ -142,10 +138,10 @@ Live session, recording.  The talks is about  What is AR VR? Why to start with A
     
     <item>
       <title>Run a 2D App in XR Container</title>
-      <link>https://thinkuldeep.com/post/run-a-2d-app-in-xr-container/</link>
+      <link>http://localhost:1313/post/run-a-2d-app-in-xr-container/</link>
       <pubDate>Sat, 16 May 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/run-a-2d-app-in-xr-container/</guid>
+      <guid>http://localhost:1313/post/run-a-2d-app-in-xr-container/</guid>
       <description>There are a number of Enterprise XR use cases where we have a need to open the existing 2D apps in the XR devices in a wrapper app, and this article covers a concept, have a look!
 After trying the OS level customization on an XR device, you may like to run your XR apps as a system app. Here is a simple article by Raju K
  Android System Apps development - Android Emulator Setup and guidelines to develop system applications</description>
@@ -153,89 +149,89 @@ After trying the OS level customization on an XR device, you may like to run you
     
     <item>
       <title>User Account Management In XR</title>
-      <link>https://thinkuldeep.com/post/user-account-management-in-xr/</link>
+      <link>http://localhost:1313/post/user-account-management-in-xr/</link>
       <pubDate>Sun, 26 Apr 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/user-account-management-in-xr/</guid>
+      <guid>http://localhost:1313/post/user-account-management-in-xr/</guid>
       <description>In the previous article, we described the importance of interoperability in while building Enterprise XR solutions, In the article, we will discuss how to manage user accounts in the XR device, and implement single sign-on across the XR apps. We will use Android’s AccountManger approach to login into active directory and integrated it into Unity. Please read my earlier article on setting up the app in active directory, log in using android webview, considering a web-based company login form should appear for login, and no custom login form is allowed to capture the credentials.</description>
     </item>
     
     <item>
       <title>eXtending reality with AR and VR - Part 2</title>
-      <link>https://thinkuldeep.com/post/extending_reality_with_ar_and_vr-2/</link>
+      <link>http://localhost:1313/post/extending_reality_with_ar_and_vr-2/</link>
       <pubDate>Fri, 10 Apr 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/extending_reality_with_ar_and_vr-2/</guid>
+      <guid>http://localhost:1313/post/extending_reality_with_ar_and_vr-2/</guid>
       <description>In Part I of the article, we summarized our observations of eXtended reality’s foundational blocks - AR, VR and MR. We also discussed the popular and most relevant tools and implementations of the new technology. In Part II of the article, we will be looking at a few accessible and novel implementations of the tech.
 At ThoughtWorks, we have delivered both XR solutions and components of XR SDK (Software Development Kit) on the back of which XR solutions are built.</description>
     </item>
     
     <item>
       <title>eXtending reality with AR and VR - Part 1</title>
-      <link>https://thinkuldeep.com/post/extending_reality_with_ar_and_vr-1/</link>
+      <link>http://localhost:1313/post/extending_reality_with_ar_and_vr-1/</link>
       <pubDate>Sun, 05 Apr 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/extending_reality_with_ar_and_vr-1/</guid>
+      <guid>http://localhost:1313/post/extending_reality_with_ar_and_vr-1/</guid>
       <description>The way we interact with technology today is not too far from what was predicted by futuristic, sci-fi pop culture. We are living in a world where sophisticated touch and gesture based interactions are collaborating with state of the art wearables, sensors, Augmented Reality (AR), Virtual Reality (VR) and Mixed Reality (MR). And, this is eXtending user experiences to be extremely immersive.
 Add to this, Gartner’s expectation that 5G and AR/VR implementation will transform not only customer engagement but brands’ entire product management cycles as well.</description>
     </item>
     
     <item>
       <title>XR development from home</title>
-      <link>https://thinkuldeep.com/post/xr-development-from-home/</link>
+      <link>http://localhost:1313/post/xr-development-from-home/</link>
       <pubDate>Thu, 02 Apr 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/xr-development-from-home/</guid>
+      <guid>http://localhost:1313/post/xr-development-from-home/</guid>
       <description>Covid19 has challenged the way we eat, the way we commute, the way we socialize, and the way we work. In short, it impacted the way we live. More than a million people got infected and the number is growing exponentially, it has impacted the whole world. We need to find new ways of life and change our focus and priorities to save nature and humanity. Technology can play a great role in coping with it.</description>
     </item>
     
     <item>
       <title>Enterprise XR - Interoperability</title>
-      <link>https://thinkuldeep.com/post/enterprise-xr-interoperability/</link>
+      <link>http://localhost:1313/post/enterprise-xr-interoperability/</link>
       <pubDate>Sat, 28 Mar 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/enterprise-xr-interoperability/</guid>
+      <guid>http://localhost:1313/post/enterprise-xr-interoperability/</guid>
       <description>In the previous article, we discussed implementing multi-factor authentication for an andorid application, and in the article we will cover another enterprise aspect, Interoperability.
 Interoperability is key aspect when we build enterprise solutions using XR technologies. The enterprises have digital assets in form of mobile apps, libraries, system APIs, and they can’t just throw away these existing investments, in fact, the XR apps must be implemented in such a way that it is interoperable with them seamlessly.</description>
     </item>
     
     <item>
       <title>Enterprise XR - Multi-Factor Authentication</title>
-      <link>https://thinkuldeep.com/post/enterprise-xr-multi-factor-authentication/</link>
+      <link>http://localhost:1313/post/enterprise-xr-multi-factor-authentication/</link>
       <pubDate>Wed, 25 Mar 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/enterprise-xr-multi-factor-authentication/</guid>
+      <guid>http://localhost:1313/post/enterprise-xr-multi-factor-authentication/</guid>
       <description>XR use cases are growing with advancements in the devices, internet and development technologies. There is an ever-growing demand to build enterprise use cases using ARVR technology. Most enterprise use cases eventually require integration with an enterprise ecosystem such as IAM (Identity and Access Management), ERP, CRM, and single sign-on with other systems.
 Most organizations protect digital assets with a single sign-on using Multiple Factor Authentication (MFA). The MFA is generally a web-browser based authentication where the browser redirects to tenant’s authentication page where the user provides their credentials and then the user confirms another factor (PIN, OTP, SMS or mobile notifications), once it succeeds, it gets redirected back to the protected resource.</description>
     </item>
     
     <item>
       <title>Speaker - XR Day - ThoughtWorks India</title>
-      <link>https://thinkuldeep.com/event/thougthworks_xrday/</link>
+      <link>http://localhost:1313/event/thougthworks_xrday/</link>
       <pubDate>Thu, 27 Feb 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/thougthworks_xrday/</guid>
+      <guid>http://localhost:1313/event/thougthworks_xrday/</guid>
       <description>The XR Day Organized XR Days at ThoughtWorks, India in different cities and conducted awareness sessions and ideation workshop and more..
 The talks are about  How the User interactions evolved with time? Why is it important to think beyond the tradition keyboard and screen? Where is the industry heading? How will it impact us?  Detailed Slides   Think beyond keyboard and screen xr day 2019  from Kuldeep Singh  Event Summary It was well recevied the participats.</description>
     </item>
     
     <item>
       <title>Augmenting the Travel Reality</title>
-      <link>https://thinkuldeep.com/post/augmenting_the_travel_reality/</link>
+      <link>http://localhost:1313/post/augmenting_the_travel_reality/</link>
       <pubDate>Tue, 26 Nov 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/augmenting_the_travel_reality/</guid>
+      <guid>http://localhost:1313/post/augmenting_the_travel_reality/</guid>
       <description>Travel and transportation have faced and continue facing disruptions. Many of the traditional ways are no more in the choice. Earlier our parents used to warn us for taking rides with strangers, but now Uber/Ola/Lyft/Didi, etc are the preferred ways. Owning a car may be an absurd idea now. We are now dreaming of Autonomous vehicles, Flying Cars, Hyperloop, and Space travel in the near future. Do read, how the user interactions have been evolved with time in my earlier post.</description>
     </item>
     
     <item>
       <title>Evolution of Technology and User Interactions</title>
-      <link>https://thinkuldeep.com/post/evolution_of_technology_and_user_interactions/</link>
+      <link>http://localhost:1313/post/evolution_of_technology_and_user_interactions/</link>
       <pubDate>Mon, 29 Apr 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/evolution_of_technology_and_user_interactions/</guid>
+      <guid>http://localhost:1313/post/evolution_of_technology_and_user_interactions/</guid>
       <description>Technology defines our interactions with the ambiance, and the way we want to interact with the ambiance further defines the technology. The evolution of technology and user interactions tightly depends on each other.
- &amp;ldquo;Walls have ears!&amp;quot;, is very much true today, and not just that, now the walls can see you, feel your presence and talk to you.
+ &amp;ldquo;Walls have ears!&amp;rdquo;, is very much true today, and not just that, now the walls can see you, feel your presence and talk to you.
  In this post, we will discuss how the user interactions evolved with time and what is next!</description>
     </item>
     

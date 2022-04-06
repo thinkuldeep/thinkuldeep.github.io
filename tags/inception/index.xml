@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>inception on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/inception/</link>
+    <link>http://localhost:1313/tags/inception/</link>
     <description>Recent content in inception on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Sep 2019 10:58:08 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/inception/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 15 Sep 2019 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/inception/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Inception Workshop | Key Takeaways</title>
-      <link>https://thinkuldeep.com/post/inception_workshop_key_takaways/</link>
+      <link>http://localhost:1313/post/inception_workshop_key_takaways/</link>
       <pubDate>Sun, 15 Sep 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/inception_workshop_key_takaways/</guid>
+      <guid>http://localhost:1313/post/inception_workshop_key_takaways/</guid>
       <description>Inception exercise is very common in software development, where we gather the business requirements and define the delivery plan for the MVP(Minimum Viable Product) on a shared understanding. There are a set of tools and practices available to define the MVP requirements and its delivery plan. Famous tools are Lean Value Tree, Business Model Canvas, Plane Map, Elevator Pitch, Futurespective, Empathy Maps, Value Proposition Canvas, User Journey Map, Gamestorming, Process Diagram, MoSCoW, Communication Plan, Project Plan etc.</description>
     </item>
     

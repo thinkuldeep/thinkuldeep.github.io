@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>usecases on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/usecases/</link>
+    <link>http://localhost:1313/tags/usecases/</link>
     <description>Recent content in usecases on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Apr 2021 10:58:08 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/usecases/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 27 Apr 2021 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/usecases/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Making pandemic-proof workplaces a reality with XR</title>
-      <link>https://thinkuldeep.com/post/making-pandemic-proof-workplaces-a-reality-xr/</link>
+      <link>http://localhost:1313/post/making-pandemic-proof-workplaces-a-reality-xr/</link>
       <pubDate>Tue, 27 Apr 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/making-pandemic-proof-workplaces-a-reality-xr/</guid>
+      <guid>http://localhost:1313/post/making-pandemic-proof-workplaces-a-reality-xr/</guid>
       <description>The IMF called the COVID-19 crisis ‘unlike any other,’ where the global growth contraction for 2020 was estimated at -3.5 percent. Image source : Using Lenovo ThinkReality A6 Glass at Workplace
 Here is a quick overview of the biggest challenges that CXOs (and their businesses) have faced over the recent past, to better illustrate how the pandemic is affecting businesses:
  Businesses are grappling with slowing global supply chains Sales and production growth is further impacted with a subsequent dive in opportunities for partnerships and growth The flattened or negative growth market result in less manpower and resources to work with, further affecting productivity  ​The five biggest challenges that CXOs are facing today</description>
@@ -24,20 +20,20 @@ Here is a quick overview of the biggest challenges that CXOs (and their business
     
     <item>
       <title>eXtending reality with AR and VR - Part 2</title>
-      <link>https://thinkuldeep.com/post/extending_reality_with_ar_and_vr-2/</link>
+      <link>http://localhost:1313/post/extending_reality_with_ar_and_vr-2/</link>
       <pubDate>Fri, 10 Apr 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/extending_reality_with_ar_and_vr-2/</guid>
+      <guid>http://localhost:1313/post/extending_reality_with_ar_and_vr-2/</guid>
       <description>In Part I of the article, we summarized our observations of eXtended reality’s foundational blocks - AR, VR and MR. We also discussed the popular and most relevant tools and implementations of the new technology. In Part II of the article, we will be looking at a few accessible and novel implementations of the tech.
 At ThoughtWorks, we have delivered both XR solutions and components of XR SDK (Software Development Kit) on the back of which XR solutions are built.</description>
     </item>
     
     <item>
       <title>Augmenting the Travel Reality</title>
-      <link>https://thinkuldeep.com/post/augmenting_the_travel_reality/</link>
+      <link>http://localhost:1313/post/augmenting_the_travel_reality/</link>
       <pubDate>Tue, 26 Nov 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/augmenting_the_travel_reality/</guid>
+      <guid>http://localhost:1313/post/augmenting_the_travel_reality/</guid>
       <description>Travel and transportation have faced and continue facing disruptions. Many of the traditional ways are no more in the choice. Earlier our parents used to warn us for taking rides with strangers, but now Uber/Ola/Lyft/Didi, etc are the preferred ways. Owning a car may be an absurd idea now. We are now dreaming of Autonomous vehicles, Flying Cars, Hyperloop, and Space travel in the near future. Do read, how the user interactions have been evolved with time in my earlier post.</description>
     </item>
     

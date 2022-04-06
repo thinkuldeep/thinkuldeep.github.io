@@ -2,31 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mentor on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/mentor/</link>
+    <link>http://localhost:1313/tags/mentor/</link>
     <description>Recent content in mentor on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Feb 2022 10:58:08 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/mentor/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 19 Feb 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/mentor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Judge at HackBMU 5.0</title>
-      <link>https://thinkuldeep.com/event/bmu-hack5/</link>
+      <link>http://localhost:1313/event/bmu-hack5/</link>
       <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/bmu-hack5/</guid>
-      <description>BML Munjal University,a Hero group initiative, is organizing a 5th edition Hackathon, named HackBMU 5.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
+      <guid>http://localhost:1313/event/bmu-hack5/</guid>
+      <description>BML Munjal University, a Hero group initiative, is organizing a 5th edition Hackathon, named HackBMU 5.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
 HackBMU seeks to provide a welcoming and supportive environment to all participants to develop their skills, regardless of their background.</description>
     </item>
     
     <item>
-      <title>Your Hackathon Guide at IEEE WIE - BU - The Times Groups </title>
-      <link>https://thinkuldeep.com/event/ieee-bu-wie-discussion/</link>
-      <pubDate>Tue, 01 Feb 2022 01:00:00 -0400</pubDate>
+      <title>Your Hackathon Guide at IEEE WIE - BU - The Times Groups</title>
+      <link>http://localhost:1313/event/ieee-bu-wie-discussion/</link>
+      <pubDate>Tue, 01 Feb 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/ieee-bu-wie-discussion/</guid>
+      <guid>http://localhost:1313/event/ieee-bu-wie-discussion/</guid>
       <description>IEEE WIE (Women In Engineering) at Bennett University - The Times Group, has hosted a panel discussion with students preparing and participating in hackathons.
  I joined the panel of 🌟 Swati Anuj Arya (chief information security officer, Amazon Pay) and 🌟Srishti Gupta (Senior data analyst at Ernst &amp;amp; Young) to share our experience with students.
 Highlights of the event! It was a great discussion, we started with questions on prerequisites of hackathon, and skills required to participate in hackathon, where we talked about being a thinker, solution oriented mindset, authenticity and practicality of the ideas and stay aligned to the problem statements.</description>
@@ -34,58 +30,58 @@ Highlights of the event! It was a great discussion, we started with questions on
     
     <item>
       <title>Judge at HackBMU 4.0</title>
-      <link>https://thinkuldeep.com/event/bmu-hack4/</link>
+      <link>http://localhost:1313/event/bmu-hack4/</link>
       <pubDate>Fri, 23 Apr 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/bmu-hack4/</guid>
+      <guid>http://localhost:1313/event/bmu-hack4/</guid>
       <description>BML Munjal University,a Hero group initiative, is organizing a 4th edition Hackathon, named HackBMU 4.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
 HackBMU seeks to provide a welcoming and supportive environment to all participants to develop their skills, regardless of their background.</description>
     </item>
     
     <item>
       <title>Juror - SMCC Startup Challenge by Nasscom</title>
-      <link>https://thinkuldeep.com/event/nasscom-smcc/</link>
+      <link>http://localhost:1313/event/nasscom-smcc/</link>
       <pubDate>Thu, 25 Feb 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/nasscom-smcc/</guid>
+      <guid>http://localhost:1313/event/nasscom-smcc/</guid>
       <description>NASSCOM is the premier trade body and chamber of commerce of the Tech industry in India and comprises over 2800 member companies including both Indian and multinational organisations that have a presence in India. Center of Excellence - IoT and AI is an initiative from NASSCOM and collective effort from different state governments in India,
 NASSCOM CoE is launching first-of-its-kind virtual SMART MANUFACTURING COMPETENCY CENTER (SMCC). The innovation platform which will help in accelerating technology adoption by bringing enterprises, governments, researchers, and innovators together.</description>
     </item>
     
     <item>
       <title>Mentor and Juror - MIC 2020 by Nasscom</title>
-      <link>https://thinkuldeep.com/event/nasscom-iotcoe/</link>
+      <link>http://localhost:1313/event/nasscom-iotcoe/</link>
       <pubDate>Sat, 05 Dec 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/nasscom-iotcoe/</guid>
+      <guid>http://localhost:1313/event/nasscom-iotcoe/</guid>
       <description>NASSCOM is the premier trade body and chamber of commerce of the Tech industry in India and comprises over 2800 member companies including both Indian and multinational organisations that have a presence in India. Center of Excellence - IoT and AI is an initiative from NASSCOM and collective effort from different state governments in India,
 NASSCOM has organized Manufacturing Innovation Challenge 2020 from 12th Oct to 11th Dec, on theme of redefining enterprises and entrepreneurs engagement.</description>
     </item>
     
     <item>
       <title>The Learning Equation</title>
-      <link>https://thinkuldeep.com/post/the-learning-equation/</link>
+      <link>http://localhost:1313/post/the-learning-equation/</link>
       <pubDate>Sat, 05 Sep 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/the-learning-equation/</guid>
+      <guid>http://localhost:1313/post/the-learning-equation/</guid>
       <description>Today, The world is celebrating teacher’s day. I wish Happy Teacher&amp;rsquo;s day to all of us! We all are teachers and learners as every one of us has something to learn from others and something to teach others. I am thinking of an equation of learning that defines my way of learning and hope it would be helpful for you too.  The learning equation — Learning is proportional to Sharing; Learning ∝ Sharing</description>
     </item>
     
     <item>
       <title>Judge and Mentor -  Smart India Hackathon 2020</title>
-      <link>https://thinkuldeep.com/event/sih-2020/</link>
+      <link>http://localhost:1313/event/sih-2020/</link>
       <pubDate>Mon, 03 Aug 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/sih-2020/</guid>
+      <guid>http://localhost:1313/event/sih-2020/</guid>
       <description>After a wonderful experience of participating as a judge and mentor at Smart India Hackathon 2019, I am delighted to share that I again got a chance to meet and judge India&amp;rsquo;s young winners and innovators at Grand Finale of Smart India Hackathon 2020, world’s biggest open innovation modal, organized by AICTE and MHRD, Govt of India. This time it is no more a hackathon but a hackathon of hackathons — 4 Lacks students, 1500 small hackathons, 40 Nodal centers, around 2000 mentors and 1000 evaluators, 11000 finalists and more…</description>
     </item>
     
     <item>
       <title>Judge and Mentor -  Smart India Hackathon 2019</title>
-      <link>https://thinkuldeep.com/event/sih_2019_an_experience/</link>
+      <link>http://localhost:1313/event/sih_2019_an_experience/</link>
       <pubDate>Thu, 07 Mar 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/sih_2019_an_experience/</guid>
+      <guid>http://localhost:1313/event/sih_2019_an_experience/</guid>
       <description>Recently got a chance to judge and mentor india&amp;rsquo;s young innovators at Smart India Hackathon 2019, world&amp;rsquo;s largest hackathon with 11000 shortlisted participants, hosted by 48 centers across India. It was organized by AICTE and MHRD, Govt of India. I was invited to Judge the event at Panipat Institute of Engineering &amp;amp; Technology, Panipat. I am delighted to contribute in the journey of India&amp;rsquo;s transformation, and see innovative ideas from the new generation.</description>
     </item>
     

@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>vuzix on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/vuzix/</link>
+    <link>http://localhost:1313/tags/vuzix/</link>
     <description>Recent content in vuzix on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Feb 2017 10:58:08 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/vuzix/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 20 Feb 2017 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/vuzix/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exploring the Smart Glasses</title>
-      <link>https://thinkuldeep.com/post/exploring-google-glass/</link>
+      <link>http://localhost:1313/post/exploring-google-glass/</link>
       <pubDate>Mon, 20 Feb 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/exploring-google-glass/</guid>
+      <guid>http://localhost:1313/post/exploring-google-glass/</guid>
       <description>This article describes the fundamentals of light-weight smart glasses such as Google Glass and Vuzix M100 It also explain the development practices with pros and cons of its usage, limitation and future of these glasses in our lives.
 Google Glass Enterprise Edition Google Glass enterprise edition is a plain Android based smart glass that you can wear and performs operations just like a smartphone and with the use of a small screen located in the front of your right eye can perform a decent range of tasks.</description>
     </item>

@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>spatialweb on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/spatialweb/</link>
+    <link>http://localhost:1313/tags/spatialweb/</link>
     <description>Recent content in spatialweb on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Mar 2020 10:58:08 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/spatialweb/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 20 Mar 2020 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/spatialweb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Speaker - Spatial Web - Life beyond Keyboard and Screen</title>
-      <link>https://thinkuldeep.com/event/gids_2020_blr_spatialweb/</link>
+      <link>http://localhost:1313/event/gids_2020_blr_spatialweb/</link>
       <pubDate>Fri, 20 Mar 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/gids_2020_blr_spatialweb/</guid>
+      <guid>http://localhost:1313/event/gids_2020_blr_spatialweb/</guid>
       <description>New Date is still to be announced.
 Get ready: Great International Developer Summit is re-scheduled and now virtual summit will be organized.
 Come and talk about the life beyond keyboard and screens, spatial web is taking over get ready&amp;hellip;

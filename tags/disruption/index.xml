@@ -2,30 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>disruption on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/disruption/</link>
+    <link>http://localhost:1313/tags/disruption/</link>
     <description>Recent content in disruption on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Jan 2017 10:58:08 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/disruption/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 03 Jan 2017 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/disruption/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Another IoT Disruption: A Need of Multi-Skilled Devs</title>
-      <link>https://thinkuldeep.com/post/iot-disruption-multi-skilled-people/</link>
+      <link>http://localhost:1313/post/iot-disruption-multi-skilled-people/</link>
       <pubDate>Tue, 03 Jan 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/iot-disruption-multi-skilled-people/</guid>
+      <guid>http://localhost:1313/post/iot-disruption-multi-skilled-people/</guid>
       <description>Technological evolution causes disruption. It replaces traditional, less optimal, complex, lengthy, and costly technology, people, and processes with economical, innovative, optimal, and simpler alternatives. We have seen disruption by mobile phones, and up next is disruption from IoT, wearables, AR-VR, machine Learning, AI, and other innovations. Software development methodology, tools, and people will also face disruption. I expect that the traditional developer will be replaced by the multi-skilled or full-stack developers.</description>
     </item>
     
     <item>
       <title>5 Steps of the IoT race</title>
-      <link>https://thinkuldeep.com/post/5-steps-of-the-iot-race/</link>
+      <link>http://localhost:1313/post/5-steps-of-the-iot-race/</link>
       <pubDate>Wed, 17 Aug 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/5-steps-of-the-iot-race/</guid>
+      <guid>http://localhost:1313/post/5-steps-of-the-iot-race/</guid>
       <description>The ‘Internet of Things’ (IoT) presents tremendous opportunity in all the industry verticals and business domains. Specifically, the ‘Industrial Internet of Things’(IIoT) promises to increase the value proposition by making self-optimizing business processes. As discussed in the post “The Driving Forces Behind IoT”, there are several challenges to be addressed to realize the full IoT potentials, but following steps will help organization to systemically make their products participate in the IoT journey and stay in the IoT race.</description>
     </item>
     

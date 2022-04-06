@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>data engineering on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/data-engineering/</link>
+    <link>http://localhost:1313/tags/data-engineering/</link>
     <description>Recent content in data engineering on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Feb 2012 10:58:08 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/data-engineering/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 20 Feb 2012 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/data-engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Compiling Java Native C/C&#43;&#43; Code</title>
-      <link>https://thinkuldeep.com/post/java-jni-cpp/</link>
+      <link>http://localhost:1313/post/java-jni-cpp/</link>
       <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/java-jni-cpp/</guid>
+      <guid>http://localhost:1313/post/java-jni-cpp/</guid>
       <description>We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
  How to write a JNI program. jni_md.h not found. Incompatible data types. On widows cygwin1.dll is required when running Java code on the native library. and more.  Actually we were compiling NLP Solver’s native library (IPOPT) on windows 32 bit and on 64bit linux machine.
 Solving the chaos! Here are the steps we have followed to solve the above issues:</description>

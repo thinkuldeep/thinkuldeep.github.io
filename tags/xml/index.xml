@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>XML on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/xml/</link>
+    <link>http://localhost:1313/tags/xml/</link>
     <description>Recent content in XML on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Sep 2012 10:58:08 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/xml/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 29 Sep 2012 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/xml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Working with Embedded OLE Objects in Java</title>
-      <link>https://thinkuldeep.com/post/java-working-with-ole-objects/</link>
+      <link>http://localhost:1313/post/java-working-with-ole-objects/</link>
       <pubDate>Sat, 29 Sep 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/java-working-with-ole-objects/</guid>
+      <guid>http://localhost:1313/post/java-working-with-ole-objects/</guid>
       <description>Document introduction contains a proof of concept for the research done on reading and writing OLE objects in Java. This research has been done using Apache POI. Please go thru the references for information about apache POI.
 This article covers a POC to fetch OLE objects from RIF formatted XML. Not just that, we need to store them in a in some viewable format.
 For a given XML in RIF format, parse it and read the embedded OLE object and represent in some viewable format using Java.</description>
@@ -24,10 +20,10 @@ For a given XML in RIF format, parse it and read the embedded OLE object and rep
     
     <item>
       <title>Using Apache CFX and Apache Camel in ESB</title>
-      <link>https://thinkuldeep.com/post/esb-introduction-part2/</link>
+      <link>http://localhost:1313/post/esb-introduction-part2/</link>
       <pubDate>Mon, 30 Jan 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/esb-introduction-part2/</guid>
+      <guid>http://localhost:1313/post/esb-introduction-part2/</guid>
       <description>In the previous article, we learned about ESB and deployed our first OSGi bundle on FuseESB.
 In this article, we will learn how to build Apache CXF and Apache Camel component and deploy them on FuseESB.
 Lets understand what are these components :
@@ -37,10 +33,10 @@ Camel lets you create the Enterprise Integration Patterns to implement routing a
     
     <item>
       <title>Working with Enterprise Service Bus</title>
-      <link>https://thinkuldeep.com/post/esb-introduction-part1/</link>
+      <link>http://localhost:1313/post/esb-introduction-part1/</link>
       <pubDate>Sun, 15 Jan 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/esb-introduction-part1/</guid>
+      <guid>http://localhost:1313/post/esb-introduction-part1/</guid>
       <description>This article starts from basic terms of ESB worlds and then provides details of the FuseESB with various examples.
 It contains step by step guide to install FuseESB, and develop and deploy OSGi bundle on FuseESB.
 Lets understand terminologies of the ESB world :

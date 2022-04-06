@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>webinar on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/webinar/</link>
+    <link>http://localhost:1313/tags/webinar/</link>
     <description>Recent content in webinar on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Feb 2022 01:00:00 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/webinar/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 01 Feb 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/webinar/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Your Hackathon Guide at IEEE WIE - BU - The Times Groups </title>
-      <link>https://thinkuldeep.com/event/ieee-bu-wie-discussion/</link>
-      <pubDate>Tue, 01 Feb 2022 01:00:00 -0400</pubDate>
+      <title>Your Hackathon Guide at IEEE WIE - BU - The Times Groups</title>
+      <link>http://localhost:1313/event/ieee-bu-wie-discussion/</link>
+      <pubDate>Tue, 01 Feb 2022 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/ieee-bu-wie-discussion/</guid>
+      <guid>http://localhost:1313/event/ieee-bu-wie-discussion/</guid>
       <description>IEEE WIE (Women In Engineering) at Bennett University - The Times Group, has hosted a panel discussion with students preparing and participating in hackathons.
  I joined the panel of 🌟 Swati Anuj Arya (chief information security officer, Amazon Pay) and 🌟Srishti Gupta (Senior data analyst at Ernst &amp;amp; Young) to share our experience with students.
 Highlights of the event! It was a great discussion, we started with questions on prerequisites of hackathon, and skills required to participate in hackathon, where we talked about being a thinker, solution oriented mindset, authenticity and practicality of the ideas and stay aligned to the problem statements.</description>
@@ -24,19 +20,19 @@ Highlights of the event! It was a great discussion, we started with questions on
     
     <item>
       <title>Guest Lecture on &#39;Metaverse&#39; at NIT Hamirpur</title>
-      <link>https://thinkuldeep.com/event/getting_into_metaverse_guest_lecture_nit_hamirpur/</link>
+      <link>http://localhost:1313/event/getting_into_metaverse_guest_lecture_nit_hamirpur/</link>
       <pubDate>Sun, 19 Dec 2021 01:00:00 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/getting_into_metaverse_guest_lecture_nit_hamirpur/</guid>
+      <guid>http://localhost:1313/event/getting_into_metaverse_guest_lecture_nit_hamirpur/</guid>
       <description>National Institute of Technology Hamirpur is organizing Tech-Nexus, an online technical carnival, as an initiative of the Institute Innovation Council, MHRD. The essence of Tech-Nexus is to unite all the technological talents across the nation and give them a platform to express their skills and ideas. This flagship event will help people to showcase their unique projects and trends in the technological field as well as the challenges encountered, and solutions adopted while developing the projects.</description>
     </item>
     
     <item>
       <title>Webinar - Essentials of XR Product Design and Development</title>
-      <link>https://thinkuldeep.com/event/thevrara-ppd-cop-webinar/</link>
+      <link>http://localhost:1313/event/thevrara-ppd-cop-webinar/</link>
       <pubDate>Sat, 17 Oct 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/thevrara-ppd-cop-webinar/</guid>
+      <guid>http://localhost:1313/event/thevrara-ppd-cop-webinar/</guid>
       <description>The VRAR Association&amp;rsquo;s Product Design and Development (PDD) Communities of Practice (COP) brings its first webinar on &amp;ldquo;Essentials of XR Product Design and Development&amp;rdquo;.
 I will be sharing the stage with industry leader Mr. Pradeep Khanna, VR AR Association, and XR innovator Mr. Raju Kandaswamy, ThoughtWorks.
 Spread the words  Registration Only Please register at the below link, and save the date Oct 17, 2020, 4:30 PM IST.
@@ -46,10 +42,10 @@ The webinar will be available at https://www.</description>
     
     <item>
       <title>Geeknight - XR - eXtending the Reality</title>
-      <link>https://thinkuldeep.com/event/thougthworks_geeknight_sep_2020_xr/</link>
+      <link>http://localhost:1313/event/thougthworks_geeknight_sep_2020_xr/</link>
       <pubDate>Tue, 29 Sep 2020 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/thougthworks_geeknight_sep_2020_xr/</guid>
+      <guid>http://localhost:1313/event/thougthworks_geeknight_sep_2020_xr/</guid>
       <description>Geek Night is a regular event to promote the sharing of technical knowledge and increase collaboration among the geeks. It is organized by a passionate group of programmers and sponsored by ThoughtWorks.
 Sep month&amp;rsquo;s geek night has covered Extended Reality - An umbrella term covering various technologies like AR,VR and MR. I will be discussing what is XR, its usage and significance today, that is stretching beyond gaming.
 Embracing an Agile approach is essential to any successful XR implementation.</description>
@@ -57,10 +53,10 @@ Embracing an Agile approach is essential to any successful XR implementation.</d
     
     <item>
       <title>Webinar - XR - Nicety to Necessity</title>
-      <link>https://thinkuldeep.com/event/techgigs-xr-webinar-1/</link>
+      <link>http://localhost:1313/event/techgigs-xr-webinar-1/</link>
       <pubDate>Thu, 13 Aug 2020 10:58:15 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/techgigs-xr-webinar-1/</guid>
+      <guid>http://localhost:1313/event/techgigs-xr-webinar-1/</guid>
       <description>Techgig is the largest community of developers, also organizes webinars on emerging technologies.
 I have spoken at a webinar on Extended Reality (XR) - Moving from Nicety to Necessity on coming Aug 13, at 3PM IST.
 Join @thinkuldeep, Head- ARVR Practice, #ThoughtWorksIndia, for a webinar on &amp;quot;why XR is moving from nicety to necessity in the new normal?&amp;quot;

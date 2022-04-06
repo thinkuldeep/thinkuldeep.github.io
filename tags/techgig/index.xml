@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>techgig on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/techgig/</link>
+    <link>http://localhost:1313/tags/techgig/</link>
     <description>Recent content in techgig on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Aug 2020 10:58:15 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/techgig/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 13 Aug 2020 10:58:15 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/techgig/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Webinar - XR - Nicety to Necessity</title>
-      <link>https://thinkuldeep.com/event/techgigs-xr-webinar-1/</link>
+      <link>http://localhost:1313/event/techgigs-xr-webinar-1/</link>
       <pubDate>Thu, 13 Aug 2020 10:58:15 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/event/techgigs-xr-webinar-1/</guid>
+      <guid>http://localhost:1313/event/techgigs-xr-webinar-1/</guid>
       <description>Techgig is the largest community of developers, also organizes webinars on emerging technologies.
 I have spoken at a webinar on Extended Reality (XR) - Moving from Nicety to Necessity on coming Aug 13, at 3PM IST.
 Join @thinkuldeep, Head- ARVR Practice, #ThoughtWorksIndia, for a webinar on &amp;quot;why XR is moving from nicety to necessity in the new normal?&amp;quot;

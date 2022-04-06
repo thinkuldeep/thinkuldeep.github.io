@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>timezone on Kuldeep Singh</title>
-    <link>https://thinkuldeep.com/tags/timezone/</link>
+    <link>http://localhost:1313/tags/timezone/</link>
     <description>Recent content in timezone on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Apr 2012 10:58:08 -0400</lastBuildDate>
-    
-	<atom:link href="https://thinkuldeep.com/tags/timezone/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 15 Apr 2012 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/timezone/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Default Timezone in Java and MySQL</title>
-      <link>https://thinkuldeep.com/post/java-mysql-timezone-configuration/</link>
+      <link>http://localhost:1313/post/java-mysql-timezone-configuration/</link>
       <pubDate>Sun, 15 Apr 2012 10:58:08 -0400</pubDate>
       
-      <guid>https://thinkuldeep.com/post/java-mysql-timezone-configuration/</guid>
+      <guid>http://localhost:1313/post/java-mysql-timezone-configuration/</guid>
       <description>On one of our production environments, we had an issue our application related to time, specially modified time and creation time of the entities. It was quite random in nature for some entities.
 We suspected that there might be issue in the timezone configuration.
 Analysing the problem On production environment, we had limited permissions. We were not allowed to change system timezone. We noticed that Jboss is automatically picking the system timezone “Europe/Berlin” (which was configured from root user) and if we check the timezone for the linux user for which we have access it shows GMT time.</description>

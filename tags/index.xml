@@ -6,31 +6,130 @@
     <description>Recent content in Tags on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Apr 2022 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 May 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ar</title>
-      <link>http://localhost:1313/tags/ar/</link>
-      <pubDate>Fri, 22 Apr 2022 01:00:00 -0400</pubDate>
+      <title>award</title>
+      <link>http://localhost:1313/tags/award/</link>
+      <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/ar/</guid>
+      <guid>http://localhost:1313/tags/award/</guid>
       <description></description>
     </item>
     
     <item>
       <title>event</title>
       <link>http://localhost:1313/tags/event/</link>
-      <pubDate>Fri, 22 Apr 2022 01:00:00 -0400</pubDate>
+      <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/event/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>hackathon</title>
+      <link>http://localhost:1313/tags/hackathon/</link>
+      <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/hackathon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>india</title>
+      <link>http://localhost:1313/tags/india/</link>
+      <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/india/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>judge</title>
+      <link>http://localhost:1313/tags/judge/</link>
+      <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/judge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>lecture</title>
       <link>http://localhost:1313/tags/lecture/</link>
-      <pubDate>Fri, 22 Apr 2022 01:00:00 -0400</pubDate>
+      <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/lecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mentor</title>
+      <link>http://localhost:1313/tags/mentor/</link>
+      <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/mentor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nasscom</title>
+      <link>http://localhost:1313/tags/nasscom/</link>
+      <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/nasscom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>speaker</title>
+      <link>http://localhost:1313/tags/speaker/</link>
+      <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/speaker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>students</title>
+      <link>http://localhost:1313/tags/students/</link>
+      <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/students/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>university</title>
+      <link>http://localhost:1313/tags/university/</link>
+      <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/university/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>webinar</title>
+      <link>http://localhost:1313/tags/webinar/</link>
+      <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/webinar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xr</title>
+      <link>http://localhost:1313/tags/xr/</link>
+      <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/xr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ar</title>
+      <link>http://localhost:1313/tags/ar/</link>
+      <pubDate>Fri, 22 Apr 2022 01:00:00 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/ar/</guid>
       <description></description>
     </item>
     
@@ -53,24 +152,6 @@
     </item>
     
     <item>
-      <title>speaker</title>
-      <link>http://localhost:1313/tags/speaker/</link>
-      <pubDate>Fri, 22 Apr 2022 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/speaker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>students</title>
-      <link>http://localhost:1313/tags/students/</link>
-      <pubDate>Fri, 22 Apr 2022 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/students/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>vit</title>
       <link>http://localhost:1313/tags/vit/</link>
       <pubDate>Fri, 22 Apr 2022 01:00:00 -0400</pubDate>
@@ -85,24 +166,6 @@
       <pubDate>Fri, 22 Apr 2022 01:00:00 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/vr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>webinar</title>
-      <link>http://localhost:1313/tags/webinar/</link>
-      <pubDate>Fri, 22 Apr 2022 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/webinar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>xr</title>
-      <link>http://localhost:1313/tags/xr/</link>
-      <pubDate>Fri, 22 Apr 2022 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/xr/</guid>
       <description></description>
     </item>
     
@@ -175,42 +238,6 @@
       <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/technology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hackathon</title>
-      <link>http://localhost:1313/tags/hackathon/</link>
-      <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/hackathon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>judge</title>
-      <link>http://localhost:1313/tags/judge/</link>
-      <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/judge/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mentor</title>
-      <link>http://localhost:1313/tags/mentor/</link>
-      <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/mentor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>university</title>
-      <link>http://localhost:1313/tags/university/</link>
-      <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/university/</guid>
       <description></description>
     </item>
     
@@ -652,15 +679,6 @@
       <pubDate>Thu, 25 Feb 2021 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/autonomous/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nasscom</title>
-      <link>http://localhost:1313/tags/nasscom/</link>
-      <pubDate>Thu, 25 Feb 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/nasscom/</guid>
       <description></description>
     </item>
     

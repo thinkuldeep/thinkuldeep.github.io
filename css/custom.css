@@ -245,3 +245,9 @@ code, .code {
         margin-top: 0rem;
     }
 }
+
+.highlighter {
+    float: right;
+    z-index: 1000;
+    margin: 10px;
+}

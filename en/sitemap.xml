@@ -22,6 +22,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/event/indian-achievers-awards-2022/</loc>
+    <lastmod>2022-05-04T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/judge/</loc>
     <lastmod>2022-05-04T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -101,11 +106,6 @@
                 hreflang="en"
                 href="http://localhost:1313/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/event/won-indian-achievers-awards-2022/</loc>
-    <lastmod>2022-05-04T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/xr/</loc>
     <lastmod>2022-05-04T10:58:08-04:00</lastmod>

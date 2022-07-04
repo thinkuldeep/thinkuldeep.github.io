@@ -6,13 +6,121 @@
     <description>Recent content in Tags on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Jun 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Jun 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ai</title>
+      <link>http://localhost:1313/tags/ai/</link>
+      <pubDate>Sun, 19 Jun 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/ai/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>ar</title>
       <link>http://localhost:1313/tags/ar/</link>
-      <pubDate>Sat, 11 Jun 2022 10:58:08 -0400</pubDate>
+      <pubDate>Sun, 19 Jun 2022 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/ar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ashoka</title>
+      <link>http://localhost:1313/tags/ashoka/</link>
+      <pubDate>Sun, 19 Jun 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/ashoka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cv</title>
+      <link>http://localhost:1313/tags/cv/</link>
+      <pubDate>Sun, 19 Jun 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>event</title>
+      <link>http://localhost:1313/tags/event/</link>
+      <pubDate>Sun, 19 Jun 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/event/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hackathon</title>
+      <link>http://localhost:1313/tags/hackathon/</link>
+      <pubDate>Sun, 19 Jun 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/hackathon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>innovation</title>
+      <link>http://localhost:1313/tags/innovation/</link>
+      <pubDate>Sun, 19 Jun 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/innovation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>judge</title>
+      <link>http://localhost:1313/tags/judge/</link>
+      <pubDate>Sun, 19 Jun 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/judge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>http://localhost:1313/tags/machine-learning/</link>
+      <pubDate>Sun, 19 Jun 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ml</title>
+      <link>http://localhost:1313/tags/ml/</link>
+      <pubDate>Sun, 19 Jun 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sustainability</title>
+      <link>http://localhost:1313/tags/sustainability/</link>
+      <pubDate>Sun, 19 Jun 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/sustainability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>university</title>
+      <link>http://localhost:1313/tags/university/</link>
+      <pubDate>Sun, 19 Jun 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/university/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xr</title>
+      <link>http://localhost:1313/tags/xr/</link>
+      <pubDate>Sun, 19 Jun 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/xr/</guid>
       <description></description>
     </item>
     
@@ -22,15 +130,6 @@
       <pubDate>Sat, 11 Jun 2022 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/blockchain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>event</title>
-      <link>http://localhost:1313/tags/event/</link>
-      <pubDate>Sat, 11 Jun 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/event/</guid>
       <description></description>
     </item>
     
@@ -98,15 +197,6 @@
     </item>
     
     <item>
-      <title>xr</title>
-      <link>http://localhost:1313/tags/xr/</link>
-      <pubDate>Sat, 11 Jun 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/xr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>green software</title>
       <link>http://localhost:1313/tags/green-software/</link>
       <pubDate>Fri, 10 Jun 2022 10:58:08 -0400</pubDate>
@@ -121,15 +211,6 @@
       <pubDate>Fri, 10 Jun 2022 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/mr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sustainability</title>
-      <link>http://localhost:1313/tags/sustainability/</link>
-      <pubDate>Fri, 10 Jun 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/sustainability/</guid>
       <description></description>
     </item>
     
@@ -161,29 +242,11 @@
     </item>
     
     <item>
-      <title>hackathon</title>
-      <link>http://localhost:1313/tags/hackathon/</link>
-      <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/hackathon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>india</title>
       <link>http://localhost:1313/tags/india/</link>
       <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/india/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>judge</title>
-      <link>http://localhost:1313/tags/judge/</link>
-      <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/judge/</guid>
       <description></description>
     </item>
     
@@ -202,15 +265,6 @@
       <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/nasscom/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>university</title>
-      <link>http://localhost:1313/tags/university/</link>
-      <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/university/</guid>
       <description></description>
     </item>
     
@@ -238,15 +292,6 @@
       <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/5g/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ai</title>
-      <link>http://localhost:1313/tags/ai/</link>
-      <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/ai/</guid>
       <description></description>
     </item>
     
@@ -832,42 +877,6 @@
       <pubDate>Mon, 03 Aug 2020 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/sih/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cv</title>
-      <link>http://localhost:1313/tags/cv/</link>
-      <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>innovation</title>
-      <link>http://localhost:1313/tags/innovation/</link>
-      <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/innovation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>machine learning</title>
-      <link>http://localhost:1313/tags/machine-learning/</link>
-      <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ml</title>
-      <link>http://localhost:1313/tags/ml/</link>
-      <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/ml/</guid>
       <description></description>
     </item>
     

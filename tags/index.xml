@@ -6,13 +6,85 @@
     <description>Recent content in Tags on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jul 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Jul 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ar</title>
       <link>http://localhost:1313/tags/ar/</link>
-      <pubDate>Fri, 01 Jul 2022 10:58:08 -0400</pubDate>
+      <pubDate>Fri, 29 Jul 2022 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/ar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>event</title>
+      <link>http://localhost:1313/tags/event/</link>
+      <pubDate>Fri, 29 Jul 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/event/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mr</title>
+      <link>http://localhost:1313/tags/mr/</link>
+      <pubDate>Fri, 29 Jul 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/mr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>speaker</title>
+      <link>http://localhost:1313/tags/speaker/</link>
+      <pubDate>Fri, 29 Jul 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/speaker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>talk</title>
+      <link>http://localhost:1313/tags/talk/</link>
+      <pubDate>Fri, 29 Jul 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thoughtworks</title>
+      <link>http://localhost:1313/tags/thoughtworks/</link>
+      <pubDate>Fri, 29 Jul 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/thoughtworks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vr</title>
+      <link>http://localhost:1313/tags/vr/</link>
+      <pubDate>Fri, 29 Jul 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/vr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xconf</title>
+      <link>http://localhost:1313/tags/xconf/</link>
+      <pubDate>Fri, 29 Jul 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/xconf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xr</title>
+      <link>http://localhost:1313/tags/xr/</link>
+      <pubDate>Fri, 29 Jul 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/xr/</guid>
       <description></description>
     </item>
     
@@ -40,15 +112,6 @@
       <pubDate>Fri, 01 Jul 2022 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/book-review/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>event</title>
-      <link>http://localhost:1313/tags/event/</link>
-      <pubDate>Fri, 01 Jul 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/event/</guid>
       <description></description>
     </item>
     
@@ -85,24 +148,6 @@
       <pubDate>Fri, 01 Jul 2022 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/nft/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vr</title>
-      <link>http://localhost:1313/tags/vr/</link>
-      <pubDate>Fri, 01 Jul 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/vr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>xr</title>
-      <link>http://localhost:1313/tags/xr/</link>
-      <pubDate>Fri, 01 Jul 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/xr/</guid>
       <description></description>
     </item>
     
@@ -206,15 +251,6 @@
     </item>
     
     <item>
-      <title>speaker</title>
-      <link>http://localhost:1313/tags/speaker/</link>
-      <pubDate>Sat, 11 Jun 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/speaker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>students</title>
       <link>http://localhost:1313/tags/students/</link>
       <pubDate>Sat, 11 Jun 2022 10:58:08 -0400</pubDate>
@@ -238,33 +274,6 @@
       <pubDate>Fri, 10 Jun 2022 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/green-software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mr</title>
-      <link>http://localhost:1313/tags/mr/</link>
-      <pubDate>Fri, 10 Jun 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/mr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>talk</title>
-      <link>http://localhost:1313/tags/talk/</link>
-      <pubDate>Fri, 10 Jun 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/talk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>thoughtworks</title>
-      <link>http://localhost:1313/tags/thoughtworks/</link>
-      <pubDate>Fri, 10 Jun 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/thoughtworks/</guid>
       <description></description>
     </item>
     
@@ -526,15 +535,6 @@
       <pubDate>Mon, 11 Oct 2021 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/practice/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>xconf</title>
-      <link>http://localhost:1313/tags/xconf/</link>
-      <pubDate>Fri, 08 Oct 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/xconf/</guid>
       <description></description>
     </item>
     

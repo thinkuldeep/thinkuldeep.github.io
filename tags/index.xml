@@ -89,6 +89,42 @@
     </item>
     
     <item>
+      <title>design</title>
+      <link>http://localhost:1313/tags/design/</link>
+      <pubDate>Fri, 22 Jul 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>leader</title>
+      <link>http://localhost:1313/tags/leader/</link>
+      <pubDate>Fri, 22 Jul 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/leader/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>roundtable</title>
+      <link>http://localhost:1313/tags/roundtable/</link>
+      <pubDate>Fri, 22 Jul 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/roundtable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vamrr</title>
+      <link>http://localhost:1313/tags/vamrr/</link>
+      <pubDate>Fri, 22 Jul 2022 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/vamrr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>blockchain</title>
       <link>http://localhost:1313/tags/blockchain/</link>
       <pubDate>Fri, 01 Jul 2022 10:58:08 -0400</pubDate>
@@ -1246,15 +1282,6 @@
       <pubDate>Fri, 15 Feb 2019 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/spring-boot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>design</title>
-      <link>http://localhost:1313/tags/design/</link>
-      <pubDate>Mon, 05 Nov 2018 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/design/</guid>
       <description></description>
     </item>
     

@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/tags/ar/</loc>
-    <lastmod>2022-07-29T10:58:08-04:00</lastmod>
+    <lastmod>2022-08-10T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -17,13 +17,23 @@
                 href="http://localhost:1313/tags/ar/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/event/</loc>
-    <lastmod>2022-07-29T10:58:08-04:00</lastmod>
+    <loc>http://localhost:1313/tags/enterprise/</loc>
+    <lastmod>2022-08-10T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/post/extending-reality-of-museum-wtih-xr/</loc>
+    <lastmod>2022-08-10T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/lenovo/</loc>
+    <lastmod>2022-08-10T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/mr/</loc>
-    <lastmod>2022-07-29T10:58:08-04:00</lastmod>
+    <lastmod>2022-08-10T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -37,18 +47,13 @@
                 href="http://localhost:1313/tags/mr/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/speaker/</loc>
-    <lastmod>2022-07-29T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/event/thougthworks-xconf-2022/</loc>
-    <lastmod>2022-07-29T10:58:08-04:00</lastmod>
+    <loc>http://localhost:1313/tags/museum/</loc>
+    <lastmod>2022-08-10T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2022-07-29T10:58:08-04:00</lastmod>
+    <lastmod>2022-08-10T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -67,13 +72,23 @@
                 href="http://localhost:1313/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/talk/</loc>
-    <lastmod>2022-07-29T10:58:08-04:00</lastmod>
+    <loc>http://localhost:1313/tags/technology/</loc>
+    <lastmod>2022-08-10T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/tags/technology/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/technology/"
+                />
   </url><url>
     <loc>http://localhost:1313/tags/thoughtworks/</loc>
-    <lastmod>2022-07-29T10:58:08-04:00</lastmod>
+    <lastmod>2022-08-10T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -92,8 +107,13 @@
                 href="http://localhost:1313/tags/thoughtworks/"
                 />
   </url><url>
+    <loc>http://localhost:1313/tags/usecases/</loc>
+    <lastmod>2022-08-10T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/tags/vr/</loc>
-    <lastmod>2022-07-29T10:58:08-04:00</lastmod>
+    <lastmod>2022-08-10T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -108,7 +128,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2022-07-29T10:58:08-04:00</lastmod>
+    <lastmod>2022-08-10T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -127,13 +147,8 @@
                 href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/xconf/</loc>
-    <lastmod>2022-07-29T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/tags/xr/</loc>
-    <lastmod>2022-07-29T10:58:08-04:00</lastmod>
+    <lastmod>2022-08-10T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -146,6 +161,31 @@
                 hreflang="en"
                 href="http://localhost:1313/tags/xr/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/tags/event/</loc>
+    <lastmod>2022-07-29T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/speaker/</loc>
+    <lastmod>2022-07-29T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/event/thougthworks-xconf-2022/</loc>
+    <lastmod>2022-07-29T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/talk/</loc>
+    <lastmod>2022-07-29T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/xconf/</loc>
+    <lastmod>2022-07-29T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/design/</loc>
     <lastmod>2022-07-22T10:58:08-04:00</lastmod>
@@ -377,21 +417,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/technology/</loc>
-    <lastmod>2022-04-06T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/tags/technology/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/technology/"
-                />
-  </url><url>
     <loc>http://localhost:1313/event/bmu-hack5/</loc>
     <lastmod>2022-02-19T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -526,11 +551,6 @@
                 hreflang="en"
                 href="http://localhost:1313/tags/covid19/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/tags/enterprise/</loc>
-    <lastmod>2021-10-11T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/post/managing-enterprise-complexity-xr/</loc>
     <lastmod>2021-10-11T10:58:08-04:00</lastmod>
@@ -722,22 +742,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/lenovo/</loc>
-    <lastmod>2021-04-27T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/post/making-pandemic-proof-workplaces-a-reality-xr/</loc>
     <lastmod>2021-04-27T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/thinkreality/</loc>
-    <lastmod>2021-04-27T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/usecases/</loc>
     <lastmod>2021-04-27T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

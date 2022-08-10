@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta property="fb:app_id" content="263238410439239" />
+    
+    <title>Kuldeep Singh  | eXtending the Reality of Museum with XR</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Use cases of XR in Museum Industry">
+    <meta name="generator" content="Hugo 0.96.0" />
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/css/custom.css">
+  
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="/js/search.js"></script>
+
+    
+    
+      
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+
+    
+
+    
+    
+    <meta property="og:title" content="eXtending the Reality of Museum with XR" />
+<meta property="og:description" content="Use cases of XR in Museum Industry" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/extending-reality-of-museum-wtih-xr/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-08-10T10:58:08-04:00" />
+<meta property="article:modified_time" content="2022-08-10T10:58:08-04:00" />
+
+<meta itemprop="name" content="eXtending the Reality of Museum with XR">
+<meta itemprop="description" content="Use cases of XR in Museum Industry"><meta itemprop="datePublished" content="2022-08-10T10:58:08-04:00" />
+<meta itemprop="dateModified" content="2022-08-10T10:58:08-04:00" />
+<meta itemprop="wordCount" content="1960">
+<meta itemprop="keywords" content="xr,ar,vr,mr,usecases,thoughtworks,Enterprise,technology,museum,lenovo," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="eXtending the Reality of Museum with XR"/>
+<meta name="twitter:description" content="Use cases of XR in Museum Industry"/>
+
+	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=263238410439239&autoLogAppEvents=1"></script>
+    
+   
+  
+
+  <header class="cover bg-top" style="background-image: url('/images/museumxr1.png');">
+    <div class="pb3-m pb6-l bg-black-60" style="background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.1));">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <div class="flex-l items-center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      <img src="/images/profile.jpg" class="home-link" />
+    </a>
+    <a class="show-search toggle-search hover-green no-underline white-90" title="Search in my space">
+      <svg xmlns="http://www.w3.org/2000/svg" width="612.056" height="612.057" viewbox="0 0 613 613">
+        <path d="M595.2 513.908L493.775 412.482c26.707-41.727 42.685-91.041 42.685-144.263C536.459 120.085 416.375 0 268.24 0 120.106 0 .021 120.085.021 268.219c0 148.134 120.085 268.22 268.219 268.22 53.222 0 102.537-15.979 144.225-42.686l101.426 101.463c22.454 22.453 58.854 22.453 81.271 0 22.492-22.491 22.492-58.855.038-81.308zm-326.96-54.103c-105.793 0-191.585-85.793-191.585-191.585 0-105.793 85.792-191.585 191.585-191.585s191.585 85.792 191.585 191.585c.001 105.792-85.791 191.585-191.585 191.585z" />
+      </svg>
+      <span class=".">Search</span>
+    </a>
+    <aside class="search">
+   <div class="z-999" style="margin-top: 1.5rem;">
+    <a class="show-search toggle-search z-999 close-search" title="Close Search">
+        <svg height="512" width="512" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M443.6 387.1L312.4 255.4l131.5-130c5.4-5.4 5.4-14.2 0-19.6l-37.4-37.6c-2.6-2.6-6.1-4-9.8-4-3.7 0-7.2 1.5-9.8 4L256 197.8 124.9 68.3c-2.6-2.6-6.1-4-9.8-4-3.7 0-7.2 1.5-9.8 4L68 105.9c-5.4 5.4-5.4 14.2 0 19.6l131.5 130L68.4 387.1c-2.6 2.6-4.1 6.1-4.1 9.8 0 3.7 1.4 7.2 4.1 9.8l37.4 37.6c2.7 2.7 6.2 4.1 9.8 4.1 3.5 0 7.1-1.3 9.8-4.1L256 313.1l130.7 131.1c2.7 2.7 6.2 4.1 9.8 4.1 3.5 0 7.1-1.3 9.8-4.1l37.4-37.6c2.6-2.6 4.1-6.1 4.1-9.8-.1-3.6-1.6-7.1-4.2-9.7z"/></svg>
+    </a>
+   </div>
+    <div class="search-wrapper" style="z-index: 20">
+        <form class="search" method="get">
+            <input type="search" placeholder="search..." disabled="disabled" />
+        </form>
+    </div>
+    <ul class="search-results">
+        <li>
+        </li>
+    </ul>
+</aside>
+
+    </div>
+    <div class="flex-l items-center z-999">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-green no-underline white-90" href="/about/" title="☞ About page">
+              ☞ About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-green no-underline white-90" href="/post/" title="☞ Articles page">
+              ☞ Articles
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-green no-underline white-90" href="/event/" title="☞ Events page">
+              ☞ Events
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-green no-underline white-90" href="/tags/" title="☞ Tags page">
+              ☞ Tags
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-green no-underline white-90" href="/search/" title=" page">
+              
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+    <a href="https://www.thoughtworks.com/profiles/kuldeep-singh" target="_blank" class="thoughtworks ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="thoughtworks link" rel="noopener" aria-label="follow on thoughtworks——Opens in a new window">
+      
+        <span class="icon"><svg {{ with .size }} height="{{ . }}" {{ end }} style="enable-background:new 0 0 65 35;" version="1.1" viewBox="0 0 65 30" width="{{ .size }}" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M0 5.93V0h25.132v5.93h-9.06v29h-7v-29zM29.255 0h3.5L38.5 28.2 44.87 0h3.463l6.052 28.188L60.535 0H64l-8 34.92h-3.587l-5.93-28.546L40.16 34.92h-3.587z"
+      style="fill-rule:evenodd;clip-rule:evenodd;fill:{{ .fill }};"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://www.linkedin.com/in/kuldeep-reck/" target="_blank" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://twitter.com/thinkuldeep" target="_blank" class="twitter ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://www.instagram.com/thinkuldeep/" target="_blank" class="instagram ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Instagram link" rel="noopener" aria-label="follow on Instagram——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.271,26.578v-0.006c0.502,0,1.005,0.01,1.508-0.002  c0.646-0.017,1.172-0.57,1.172-1.217c0-0.963,0-1.927,0-2.89c0-0.691-0.547-1.24-1.236-1.241c-0.961,0-1.922-0.001-2.883,0  c-0.688,0.001-1.236,0.552-1.236,1.243c-0.001,0.955-0.004,1.91,0.003,2.865c0.001,0.143,0.028,0.291,0.073,0.426  c0.173,0.508,0.639,0.82,1.209,0.823C41.344,26.579,41.808,26.578,42.271,26.578z M33,27.817c-3.384-0.002-6.135,2.721-6.182,6.089  c-0.049,3.46,2.72,6.201,6.04,6.272c3.454,0.074,6.248-2.686,6.321-6.043C39.254,30.675,36.462,27.815,33,27.817z M21.046,31.116  v0.082c0,4.515-0.001,9.03,0,13.545c0,0.649,0.562,1.208,1.212,1.208c7.16,0.001,14.319,0.001,21.479,0  c0.656,0,1.215-0.557,1.215-1.212c0.001-4.509,0-9.02,0-13.528v-0.094h-2.912c0.411,1.313,0.537,2.651,0.376,4.014  c-0.161,1.363-0.601,2.631-1.316,3.803s-1.644,2.145-2.779,2.918c-2.944,2.006-6.821,2.182-9.946,0.428  c-1.579-0.885-2.819-2.12-3.685-3.713c-1.289-2.373-1.495-4.865-0.739-7.451C22.983,31.116,22.021,31.116,21.046,31.116z   M45.205,49.255c0.159-0.026,0.318-0.049,0.475-0.083c1.246-0.265,2.264-1.304,2.508-2.557c0.025-0.137,0.045-0.273,0.067-0.409  V21.794c-0.021-0.133-0.04-0.268-0.065-0.401c-0.268-1.367-1.396-2.428-2.78-2.618c-0.058-0.007-0.113-0.02-0.17-0.03H20.761  c-0.147,0.027-0.296,0.047-0.441,0.08c-1.352,0.308-2.352,1.396-2.545,2.766c-0.008,0.057-0.02,0.114-0.029,0.171V46.24  c0.028,0.154,0.05,0.311,0.085,0.465c0.299,1.322,1.427,2.347,2.77,2.52c0.064,0.008,0.13,0.021,0.195,0.03H45.205z M33,64  C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://github.com/thinkuldeep" target="_blank" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" rel="noopener" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://www.facebook.com/kuldeep.reck" target="_blank" class="facebook ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Facebook link" rel="noopener" aria-label="follow on Facebook——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://thinkuldeep.medium.com/" target="_blank" class="medium ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Medium link" rel="noopener" aria-label="follow on Medium——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 170 170;" version="1.1" viewBox="0 0 170 170"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M46.5340803,65.2157554 C46.6968378,63.6076572 46.0836,62.018231 44.8828198,60.93592 L32.6512605,46.2010582 L32.6512605,44 L70.6302521,44 L99.9859944,108.380952 L125.794585,44 L162,44 L162,46.2010582 L151.542017,56.2281011 C150.640424,56.9153477 150.193188,58.0448862 150.380019,59.1628454 L150.380019,132.837155 C150.193188,133.955114 150.640424,135.084652 151.542017,135.771899 L161.755369,145.798942 L161.755369,148 L110.38282,148 L110.38282,145.798942 L120.963119,135.527337 C122.002801,134.487948 122.002801,134.182246 122.002801,132.592593 L122.002801,73.0417402 L92.585901,147.755438 L88.6106443,147.755438 L54.3622782,73.0417402 L54.3622782,123.115814 C54.0767278,125.221069 54.7759199,127.3406 56.2581699,128.863022 L70.0186741,145.55438 L70.0186741,147.755438 L31,147.755438 L31,145.55438 L44.7605042,128.863022 C46.2319621,127.338076 46.8903838,125.204485 46.5340803,123.115814 L46.5340803,65.2157554 Z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+      <a class="w-5"></a>
+      <div>
+
+      </div>
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">eXtending the Reality of Museum with XR</h1>
+          
+            <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Use cases of XR in Museum Industry
+            </h2>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        ARTICLES
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+      
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://thinkuldeep.com/post/extending-reality-of-museum-wtih-xr/&amp;title=eXtending%20the%20Reality%20of%20Museum%20with%20XR" class="ananke-social-link linkedin no-underline" aria-label="share on LinkedIn">
+        
+        <span class="icon"> <svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+        
+      </a>
+    
+      
+      <a href="https://twitter.com/share?url=http://thinkuldeep.com/post/extending-reality-of-museum-wtih-xr/&amp;text=eXtending%20the%20Reality%20of%20Museum%20with%20XR" class="ananke-social-link twitter no-underline" aria-label="share on Twitter">
+        
+        <span class="icon"> <svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+        
+      </a>
+    
+      
+      <a href="https://www.facebook.com/sharer.php?u=http://thinkuldeep.com/post/extending-reality-of-museum-wtih-xr/" class="ananke-social-link facebook no-underline" aria-label="share on Facebook">
+        
+        <span class="icon"> <svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+        
+      </a>
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">eXtending the Reality of Museum with XR</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2022-08-10T10:58:08-04:00">August 10, 2022</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 10 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 1960 words </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><em><strong>eXtended Reality (XR/AR/VR) technology is changing the reality of almost every industry today by enhancing user experiences. XR adoption in the museum industry is also quite natural, let&rsquo;s understand how it is shaping up the Museums of Future.</strong></em></p>
+<p><img src="/images/museumxr1.png" alt="Image"></p>
+<p>Museum is a place that displays artifacts from history, culture, science, art and more. As per <a href="https://en.wikipedia.org/wiki/International_Council_of_Museums">International Council of Museums</a> (ICOM), there are around 55000 museums worldwide designed with different themes serving different types of artifacts. The museums are all about providing user experience where visitors immerse in the environment provided. Over the years, physical design and layout of the museum including colors, interior/exterior, arrangement of artifacts, audio/visuals guides, tips are playing key roles in improving the user experience.</p>
+<p>Museum visitors typically want to cover more in a short time, and keeping all types of visitors engaged is tedious, <a href="https://www.nytimes.com/2015/03/19/arts/artsspecial/museums-turn-to-technology-to-boost-attendance-by-millennials.html">especially the younger</a> ones who are well equipped today’s gadgets, and for them traditional brochures and signage methods may not work well. So museums are finding ways of evolving user experience with technological advancements, earlier paper based brochures, navigation maps, tips are now converting into smart touch based displays, websites, or even to the sensor based touch-less interactions. Mobile apps or smart devices are replacing the traditional audio taps. Now, navigating through the museum is getting driven by technology, and this pandemic has induced the need to go virtual. Museum industry is exploring ARVR based technology to provide new ways of interactions and enhance the existing experiences to be ready for future, where the task from the metaversal museum will be quite different, it would demand not only digital (virtual) replicas of the museum itself but also the whole experience need to evolve.</p>
+<p>Let’s understand different use cases for the museum industry that can be extended with XR technology as follows.</p>
+<h2 id="extended-navigation--the-museum-explorer">Extended Navigation — The Museum Explorer</h2>
+<p>Museums are generally spread in multiple floors, buildings and have large space and an easily accessible navigation path for indoor and outdoor has been a key experience driver. A Museum&rsquo;s experience has to be a journey, starting from a visitor entering the premise, park vehicle, booking, and entering the museum, visiting different artifacts, till a visitor leaves from the premise.</p>
+<p>Traditionally museums provide paper based info brochures, maps, navigational signages, point of attractions, and audio guides in different languages with markers. These ways are not easy to follow for specially abled, or people with non-supported language, these are hard to maintain too</p>
+<p>There has been some effort already in building indoor maps from <a href="https://www.google.com/maps/about/partners/indoormaps/">Google</a> similar to standard google map, and now there are number AR applications are being built for Indoor navigation, example is shown below in Fig#1 from OfficeExplorer App from <a href="www.thoughtworks.com">ThoughtWorks</a>.
+In such case, visitor can use an AR application in a smartphone/tablet or smart glass like ThinkReality A3, and follow the path shown in the phone overlaid on the environments, or they can follow some digital character that appears in the app.</p>
+<p><img src="/images/OfficeExplorer.gif" alt="Fig1AR enabled Office Explorer app in use at the ThoughtWorks office">
+Fig#1 Indoor navigation using AR</p>
+<p>The digital character can well talk to the visitor and guide them on the path to the area of interest, or take them to the point of attraction. A visitor may also choose the language of their choice. So instead of maintaining fixed audio taps, devices and paper manuals, museums can now maintain navigational paths digitally, not just that the path can be designed and controlled as per the need, crowd dynamically. They can monitor who is following what path, how much time people spend differently, what area is less explored, and can think of improving the point attraction, so it gets better.</p>
+<p><img src="/images/museumxr2.png" alt="Fig#2">
+Fig#2 Administrator defines the routes for specially-abled visitors</p>
+<p>Visitors may be shown different navigation paths with time/waiting time, point of attractions etc, and they can choose what suits them best. There can be a dedicated navigation path configured for specially abled, or people who need special attention. Visitors can pre-download the app, and may pre-book the navigations, so they get personalized experience, and enjoy the experience</p>
+<h2 id="extended-artifacts--tell-me-more">Extended Artifacts — Tell Me More</h2>
+<p>The purpose of a museum is to display a set of artifacts from history, science, art, culture or so. Information about these artifacts are typically available in form of brochures, printed boards near the artifacts. Some museums also adapted audio devices/visual displays near the artifacts that can tell information about the artifacts.</p>
+<p><img src="/images/museumxr3.png" alt="Fig#3">
+Fig#3 — Scanning a QR code tagged artifact</p>
+<p>In recent times, artifacts getting digitally tagged with QRCode/BarCode, RFID etc. Visitors are using these tag reader phone apps/devices to scan the tags and get the relevant information about the artifacts, this is a less flexible way to manage artifacts information than the traditional paper based crude ways. Fig#4 shows digital information overlaid near the artifact it scanned in Fig#3</p>
+<p><img src="/images/museumxr4.png" alt="Fig#4">
+Fig#4 Show the tagged information on the artifact</p>
+<p>With advancements in computer vision and cloud technology, artifacts can now be tagged and persistent as Anchors (e.g <a href="https://codelabs.developers.google.com/codelabs/arcore-cloud-anchors">Google Cloud Anchor</a>) with respect to the environment. The XR applications can have image and object detection capability that allow showing augmented information directly on the physical objects. For example, Fig 5 shows information about the book (such as booking rating, views, number of pages in the book, reviews etc.) just by looking at this book. This is a snapshot from TellMeMore app built by Thoughtworks</p>
+<p><img src="https://miro.medium.com/max/800/0*bMDLLsNBAJRG45LF.png" alt="book">
+Fig#5 — Show augmented information on a book just by looking at it from the AR App.</p>
+<p>The AR app shown in Fig#5 is pre-trained for this book image, similarly all the physical artifacts in a museum can be scanned and an AR app can be pre-trained for that. We can augment any information such as Audio, Video, Image, Text or Document, Website etc at any position relative to the artifact.</p>
+<p>This type of application improves visitor experience by bringing contextual information at ease as per their preference. In addition to that, it would allow faster editing/configuring the museum and onboarding new artifacts. We can well measure the telemetry data around usage of content, and see which artifacts are accessed well, what kind of information visitors are interested in, and update the content based on that. It would also save on resources consumed for managing these artifacts, we can divert the effort where it needs attention most.</p>
+<h2 id="extended-visitor-engagement---look-around">Extended Visitor Engagement - Look Around</h2>
+<p>Keeping the visitor engaged is one of the important tasks while designing the museum experience. Traditional ways are getting out dated, and engaging the modern crowd would need modern solutions. Current generation is well versed with smart gadgets, and actively connected on social media.</p>
+<p>XR can well help in improving visitor engagement by gamifying the experience. For example introducing games like treasure hunts and pokemon go where visitors can signup and compete in groups. At Thoughtworks, we have built an app named LookARound, that allows users to scan some QR Codes configured at last space, and visitors attempt to collect goodies appearing randomly around the area of attraction.</p>
+<p><img src="https://miro.medium.com/max/1400/0*rch28KmHwkbTA8li.png" alt="Image">
+Fig#6 — LookARround app concept for visitor engagement</p>
+<p>This type of app helps in designing large spaces like museums for better customer engagement, in the search of goodies people will explore the places which we want them to visit. Since visitors also come in a group this could be a great app for experience enhancements.</p>
+<p>Other ways of improving engagement is to let users provide reviews, feedback, rating on the artifacts directly by looking at artifacts from the XR apps, and other visitors can also see the reviews and ratings, they can also publish these on their social media channels.</p>
+<p>There could be experience booths for visitor engagements for having advanced experience like time travel described in the next section. There could be other value added services for taking to food joints, offers, advertisements etc.</p>
+<p><img src="/images/museumxr7.jpeg" alt="Fig#7">
+Fig#7 people experiencing XR at a booth</p>
+<h2 id="extended-immersive-experience--time-travel">Extended Immersive Experience — Time Travel</h2>
+<p>We have talked about user experience enhancement in previous sections, and here we will talk about taking that experience to the next level with XR. Visitors look at the artifact wearing a smart glass, it would change the whole environment related to that artifact, it would be like the visitor has traveled in that time, and would see people wearing dresses of that era, see buildings, design of that time. An example of this shown below.</p>
+<p>Fig 8 — Time travel to history in XR</p>
+<p>This can be further enhanced by multi user collaboration, where a group can join in and be part of the same session. Visitor may choose and try clothings from history and take selfie in those clothes, ornaments, and share these with others</p>
+<p>Another example could be, looking at dinosaurs at a museum would take us to the dinosaur era, and the whole environment would change to a jungle and we see dinosaurs roaming around with sounds and animations.</p>
+<p>Similarly, if we are in a car museum, and looking at a car, then it can allow visitors to experience the car as follows.
+<img src="/images/CarConfiguratorGif.gif" alt="Image">
+Fig#9 XR visualisation of a Car</p>
+<h2 id="zero-museum---open-museum">Zero Museum - Open Museum</h2>
+<p>Zero museum is a concept coming out with a museum without any physical artifacts, we still have a physical museum but with empty space. Artifacts are shown all virtual, either projected in 3D or shown via smart headsets or AR/VR enabled phone/tablets.</p>
+<p>This is a very interesting concept, and the same space can be used for different types of museum, and even at a time multiple visitors can see the same place differently.</p>
+<p>Another concept of museum is coming to think of the museum as a city scale experience, like turning all parks or open space of the city into museums or art galleries, where people can search such places and go there to experience it . In fact people may also contribute in submitting the content.</p>
+<p><img src="/images/museumxr8.png" alt="Fig#7"></p>
+<h2 id="virtual-museum">Virtual Museum</h2>
+<p>Last but not the least, Virtual Museum, where the whole museum experience can be replicated virtually. There are multiple ways of doing that. Visitors can experience it directly on a web browser, and access the museum as a 360 degree tour, example <a href="https://vila360.com.br/tour/mrciusp/">here</a>.</p>
+<p>or users can try experiencing a museum in virtual reality headsets. They can walk inside a museum using a controller in the device or walk naturally as today’s device may well track the user&rsquo;s movement.</p>
+<p>This experience is not just experiencing the museum artifacts but also it can also replicate people who are visiting the virtual museums at that time, their avatars can come, and interact with you. It is called metaversal museum experience, and nowadays even <a href="https://www.seattlenftmuseum.com/">NFT museum</a> are also getting hyped, which aim to bring artists and the creator community together, and drive the creator economy.</p>
+<p>Museums can build VR training and education materials that they will run with schools, and audiences in a studio setup in the premise as additional services.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>I have documented the ways to extend the museum experience using XR technology, where users get the enhanced experience using XR enabled phone/tablet or XR smart glasses/headsets. All <a href="/post/extending_reality_with_ar_and_vr-1/">different types of AR/VR/MR</a> use cases are possible for museums. XR can cater both the audiences who want to physically visit the museum and those who want to experience it remotely. It can provide a touch less/contact less, and safe experience for physical visitors, and for immersive virtual museum experience for the ones who don’t want to come for physical visit or they can’t come due certain medical conditions. Metaverse will also bring new ways of experiencing the museum.</p>
+<p>XR brings flexibility to change the museum as per the visitors&rsquo; needs, and can provide a very personalized experience. Visitors would see a different theme/style of the museum on every visit, or in future, we will be able to configure museums as per my need.</p>
+<p>Happy visiting! Happy learning!</p>
+<p>This article is originally published on <a href="https://medium.com/xrpractices/extending-the-reality-of-museum-eb953a2f35c9">XR Practices Publication</a></p>
+
+<a href="/tags/xr"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃xr</a>
+
+<a href="/tags/ar"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃ar</a>
+
+<a href="/tags/vr"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃vr</a>
+
+<a href="/tags/mr"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃mr</a>
+
+<a href="/tags/usecases"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃usecases</a>
+
+<a href="/tags/thoughtworks"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃thoughtworks</a>
+
+<a href="/tags/enterprise"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃Enterprise</a>
+
+<a href="/tags/technology"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃technology</a>
+
+<a href="/tags/museum"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃museum</a>
+
+<a href="/tags/lenovo"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃lenovo</a>
+
+<div class="mt2 instapaper_ignoref">
+      
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "thinkuldeep" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+      
+          <div class="fb-comments" data-href="https://thinkuldeep.com//post/extending-reality-of-museum-wtih-xr/" data-numposts="5" data-width="635"></div>
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/post/making-pandemic-proof-workplaces-a-reality-xr/">Making pandemic-proof workplaces a reality with XR</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/extending_reality_with_ar_and_vr-2/">eXtending reality with AR and VR - Part 2</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/navigating-new-normal-xr/">Navigating the new normal with augmented reality</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/xr-best-practices/">Best Practices for Building Spatial Solutions</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/extending_reality_new_norm/">eXtended Reality - the new norm?</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/xr-enabled-home-renovation/">XR enabled me to renovate my home!</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/extending_reality_with_ar_and_vr-1/">eXtending reality with AR and VR - Part 1</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/augmenting_the_travel_reality/">Augmenting the Travel Reality</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/thougthworks-xconf-2022/">Speaker - XConf-2022 - Thoughtworks India</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/leadership-roundtable-vamrr/">The VAMRR ITeS Leaders Round Table</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/green-software-foundation-global-summit-2022/">Speaker - XR and Sustainability - GSF Global Summit</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/thougthworks-masterclasses-2021/">Speaker - Thoughtworks MasterClass-2021</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/managing-enterprise-complexity-xr/">Managing enterprise complexity with XR</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/thougthworks-ifest2/">Judge - Thoughtworks iFest 2.0</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/thougthworks-xconf-2021/">Speaker - XConf-2021 - Thoughtworks India</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/enterprise-to-ethical-xr/">Enterprise XR to Ethical XR</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/thougthworks_geeknight_sep_2020_xr/">Geeknight - XR - eXtending the Reality</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/future-of-shoping/">The future of shopping</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/run-a-2d-app-in-xr-container/">Run a 2D App in XR Container</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/user-account-management-in-xr/">User Account Management In XR</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/xr-development-from-home/">XR development from home</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/enterprise-xr-interoperability/">Enterprise XR - Interoperability</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/enterprise-xr-multi-factor-authentication/">Enterprise XR - Multi-Factor Authentication</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/thougthworks_xrday/">Speaker - XR Day - ThoughtWorks India</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/evolution_of_technology_and_user_interactions/">Evolution of Technology and User Interactions</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/metaverse-a-technological-evolution/">Metaverse — a technological evolution</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/getting-into-the-metaverse-part-2/">Getting into the Metaverse — Part 2</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/getting-into-the-metaverse-part-1/">Getting into the Metaverse — Part 1</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/try-everything-in-your-space-webxr/">Try everything in your space - WebXR</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/thevrara-navigating-new-normal/">Discussion - Navigating the new normal</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/at_2020_agilexr/">Speaker - AT2020 - Agility in Enterprise XR</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/training-autonomous-vehicles-in-xr/">Training autonomous vehicles with XR simulation</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/xrom-podcast-enterprise-xr/">eXtended Reality for Enterprise - a PODCast by XROM</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/google_dsk_skct_xr_introduction/">Speaker - Google DSC - How to get started with AR VR?</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/webxr-the-new-web/">WebXR - the new Web</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/metaverse-glossary-book/">Book Launch | Metaverse Glossary - Your gateway to the future</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/metaverse-workshop-vit-ap-university/">Metaverse Workshop - VIT-AP University</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/the_parallax_view_1_vit/">Guest Lecture at VIT Vellore</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/tech-nexus-2021/">Judge at Tech-Nexus Hackathon</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/getting_into_metaverse_guest_lecture_nit_hamirpur/">Guest Lecture on &#39;Metaverse&#39; at NIT Hamirpur</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/techgigs-xr-webinar-1/">Webinar - XR - Nicety to Necessity</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/the-growing-list-of-xr-devices/">The Growing List of XR Devices</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/exploring-google-glass/">Exploring the Smart Glasses</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/ashoka-university-hackathon-2022/">Judge - Ashoka University Hackathon 2022</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/bmu-hack5/">Judge at HackBMU 5.0</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/bmu-hack4/">Judge at HackBMU 4.0</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/nasscom-smcc/">Juror - SMCC Startup Challenge by Nasscom</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/nasscom-iotcoe/">Mentor and Juror - MIC 2020 by Nasscom</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/gids_2020_xr4ml/">Speaker - GIDS - Extended Machine Learning with XR</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/thevrara-ppd-cop-webinar/">Webinar - Essentials of XR Product Design and Development</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/hackinindia-hackathon-2020/">Judge - HackInIndia - Hackathon 2020</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/a-new-form-of-webxr/">A new form of WebXR</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/os-customization-for-xr-devices/">OS Customization for XR Device</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/static_code_analysis_unity_2/">Static Code Analysis for Unity3D — Part 2</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/static_code_analysis_unity_1/">Static Code Analysis for Unity3D — Part 1</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/thougthworks_awayday_2019_slam_aware_apps/">Speaker - AwayDay 2019 - SLAM Aware Applications</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/inception_workshop_key_takaways/">Inception Workshop | Key Takeaways</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/nagarro-lsd-industory-4-0/">Panelist &amp; Organizer - Nagarro LSD - Industry 4.0</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/indian-achievers-awards-2022/">Indian Achievers&#39; Award 2022</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/leadership-development-takeaways/">Leadership - A result of conscious and continuous effort!</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/my-impactful-change-stories/">My impactful change stories</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/coaching-workshop-key-takaways/">Coaching is not what you think!</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/will-cultivation-2020/">Stories of Will Cultivation from 2020</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/the-learning-equation/">The Learning Equation</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/two-thoughtful-years/">Two Thoughtful Years!</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/gids_2020_blr_spatialweb/">Speaker - Spatial Web - Life beyond Keyboard and Screen</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/google_devfest_2019_think_beyond_keyboard_and_screen/">Speaker - Google Devfest 2019 - Think Beyond Keyboard and Screen</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/can_it_modernization_lead_to_revenue_loss/">Can IT modernization lead to revenue loss?</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/embibe_purpose_and_balance_in_life/">Embibe purpose and balance in life</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/learnings-from-blockchain-based-development/">Lessons Learned From Blockchain-Based Development</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/software-development-as-design-process/">Software Development as a Design Process</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/request-tracing/">Request Tracing Using Nginx and Spring Boot</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/test-first-pair-development/">Boost your organisation agility by test-first-pair development</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/before_java11/">A Quick Catch up Before Java 11</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/accept_the_change/">Accept the change!</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/lessons_from_microservices_development/">5 Hard Lessons From Microservices Development</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/apache_spark_on_windows/">Apache Spark on Windows</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/iot_simplified/">IOT 101: A primer on Internet of Things</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/iot-disruption-multi-skilled-people/">Another IoT Disruption: A Need of Multi-Skilled Devs</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/iot-insect-monitoring/">IoT based insect monitoring concept</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/5-steps-of-the-iot-race/">5 Steps of the IoT race</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/iiot-reference-architecture/">Industrial IoT (IIOT) Reference Architecture</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/building-smart-bottle-concept/">Smart bottle IOT concept</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/building-smart-meeting-room-concept/">Building a smart meeting room concept</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/exploring-android-things/">Exploring AndroidThings IoT</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/clean-code/">Writing maintainable code is like house cleaning</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/the-driving-forces-iot/">The Driving Forces Behind IoT</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/choose-orm-carefully/">Choose ORM carefully!</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/oojs/">Object Oriented JavaScript</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/software-effectiveness-vs-efficiency/">Software Effectiveness vs Software Efficiency</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/java8-stream-api/">Introduction to Java Stream API</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/iot_cloud_platform_comparision/">IOT Cloud Platforms -  A Comparative Study</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/apache-camel-http-route/">HTTP Router with Apache Camel </a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/apache-camel-ssh-component/">Apache Camel SSH Component</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/groovy-getting-started/">Groovy - Getting Started</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/scala-getting-started-part2/">Scala - Getting Started - Part 2</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/scala-getting-started-part1/">Scala - Getting Started - Part 1</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/java-charset-configuration/">Charset configuration in JVM</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/java-working-with-ole-objects/">Working with Embedded OLE Objects in Java</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/jsp-compilation-issues/">Strange JSP Compilation Issue </a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/javascript-plugin-framework/">JavaScript Plugin Framework</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/java-mysql-timezone-configuration/">Default Timezone in Java and MySQL</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/mysql-tuning/">MySQL Tuning</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/rule-engine-getting-started/">Rule Engine - Getting Started with Drools</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/java-jni-cpp/">Compiling Java Native C/C&#43;&#43; Code</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/esb-introduction-part2/">Using Apache CFX and Apache Camel in ESB</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/java-calendar-and-invite/">Managing Calendar and Invites in Java</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/esb-introduction-part1/">Working with Enterprise Service Bus</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/java-mail-merge/">Mail Merge in Java</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/java-font-mapping/">Font configuration in JVM</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event/ieee-bu-wie-discussion/">Your Hackathon Guide at IEEE WIE - BU - The Times Groups</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <div class="visitor-count w-100 pa3 bottom-0">
+  <a href="https://freehitcounters.org/">https://freehitcounters.org</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=c994610e7d5e83d5d55b0fae4bd1a41e001a3012'></script>
+  <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/701448/t/5"></script>
+</div>
+<footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/" >
+    &copy;  Kuldeep Singh 2022 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+    <a href="https://www.thoughtworks.com/profiles/kuldeep-singh" target="_blank" class="thoughtworks ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="thoughtworks link" rel="noopener" aria-label="follow on thoughtworks——Opens in a new window">
+      
+        <span class="icon"><svg {{ with .size }} height="{{ . }}" {{ end }} style="enable-background:new 0 0 65 35;" version="1.1" viewBox="0 0 65 30" width="{{ .size }}" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M0 5.93V0h25.132v5.93h-9.06v29h-7v-29zM29.255 0h3.5L38.5 28.2 44.87 0h3.463l6.052 28.188L60.535 0H64l-8 34.92h-3.587l-5.93-28.546L40.16 34.92h-3.587z"
+      style="fill-rule:evenodd;clip-rule:evenodd;fill:{{ .fill }};"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://www.linkedin.com/in/kuldeep-reck/" target="_blank" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://twitter.com/thinkuldeep" target="_blank" class="twitter ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://www.instagram.com/thinkuldeep/" target="_blank" class="instagram ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Instagram link" rel="noopener" aria-label="follow on Instagram——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.271,26.578v-0.006c0.502,0,1.005,0.01,1.508-0.002  c0.646-0.017,1.172-0.57,1.172-1.217c0-0.963,0-1.927,0-2.89c0-0.691-0.547-1.24-1.236-1.241c-0.961,0-1.922-0.001-2.883,0  c-0.688,0.001-1.236,0.552-1.236,1.243c-0.001,0.955-0.004,1.91,0.003,2.865c0.001,0.143,0.028,0.291,0.073,0.426  c0.173,0.508,0.639,0.82,1.209,0.823C41.344,26.579,41.808,26.578,42.271,26.578z M33,27.817c-3.384-0.002-6.135,2.721-6.182,6.089  c-0.049,3.46,2.72,6.201,6.04,6.272c3.454,0.074,6.248-2.686,6.321-6.043C39.254,30.675,36.462,27.815,33,27.817z M21.046,31.116  v0.082c0,4.515-0.001,9.03,0,13.545c0,0.649,0.562,1.208,1.212,1.208c7.16,0.001,14.319,0.001,21.479,0  c0.656,0,1.215-0.557,1.215-1.212c0.001-4.509,0-9.02,0-13.528v-0.094h-2.912c0.411,1.313,0.537,2.651,0.376,4.014  c-0.161,1.363-0.601,2.631-1.316,3.803s-1.644,2.145-2.779,2.918c-2.944,2.006-6.821,2.182-9.946,0.428  c-1.579-0.885-2.819-2.12-3.685-3.713c-1.289-2.373-1.495-4.865-0.739-7.451C22.983,31.116,22.021,31.116,21.046,31.116z   M45.205,49.255c0.159-0.026,0.318-0.049,0.475-0.083c1.246-0.265,2.264-1.304,2.508-2.557c0.025-0.137,0.045-0.273,0.067-0.409  V21.794c-0.021-0.133-0.04-0.268-0.065-0.401c-0.268-1.367-1.396-2.428-2.78-2.618c-0.058-0.007-0.113-0.02-0.17-0.03H20.761  c-0.147,0.027-0.296,0.047-0.441,0.08c-1.352,0.308-2.352,1.396-2.545,2.766c-0.008,0.057-0.02,0.114-0.029,0.171V46.24  c0.028,0.154,0.05,0.311,0.085,0.465c0.299,1.322,1.427,2.347,2.77,2.52c0.064,0.008,0.13,0.021,0.195,0.03H45.205z M33,64  C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://github.com/thinkuldeep" target="_blank" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" rel="noopener" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://www.facebook.com/kuldeep.reck" target="_blank" class="facebook ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Facebook link" rel="noopener" aria-label="follow on Facebook——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    <a href="https://thinkuldeep.medium.com/" target="_blank" class="medium ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Medium link" rel="noopener" aria-label="follow on Medium——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 170 170;" version="1.1" viewBox="0 0 170 170"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M46.5340803,65.2157554 C46.6968378,63.6076572 46.0836,62.018231 44.8828198,60.93592 L32.6512605,46.2010582 L32.6512605,44 L70.6302521,44 L99.9859944,108.380952 L125.794585,44 L162,44 L162,46.2010582 L151.542017,56.2281011 C150.640424,56.9153477 150.193188,58.0448862 150.380019,59.1628454 L150.380019,132.837155 C150.193188,133.955114 150.640424,135.084652 151.542017,135.771899 L161.755369,145.798942 L161.755369,148 L110.38282,148 L110.38282,145.798942 L120.963119,135.527337 C122.002801,134.487948 122.002801,134.182246 122.002801,132.592593 L122.002801,73.0417402 L92.585901,147.755438 L88.6106443,147.755438 L54.3622782,73.0417402 L54.3622782,123.115814 C54.0767278,125.221069 54.7759199,127.3406 56.2581699,128.863022 L70.0186741,145.55438 L70.0186741,147.755438 L31,147.755438 L31,145.55438 L44.7605042,128.863022 C46.2319621,127.338076 46.8903838,125.204485 46.5340803,123.115814 L46.5340803,65.2157554 Z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div></div>
+  </div>
+</footer>
+
+  </body>
+</html>

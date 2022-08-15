@@ -2,6 +2,96 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/event/</loc>
+    <lastmod>2022-08-12T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/experience/</loc>
+    <lastmod>2022-08-12T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/hackathon/</loc>
+    <lastmod>2022-08-12T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/judge/</loc>
+    <lastmod>2022-08-12T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/event/sih-2022/</loc>
+    <lastmod>2022-08-12T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/mentor/</loc>
+    <lastmod>2022-08-12T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/sih/</loc>
+    <lastmod>2022-08-12T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2022-08-12T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="http://localhost:1313/hi/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/takeaways/</loc>
+    <lastmod>2022-08-12T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="http://localhost:1313/hi/tags/takeaways/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/takeaways/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2022-08-12T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="http://localhost:1313/hi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/"
+                />
+  </url><url>
     <loc>http://localhost:1313/tags/ar/</loc>
     <lastmod>2022-08-10T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -51,26 +141,6 @@
     <lastmod>2022-08-10T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2022-08-10T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="http://localhost:1313/hi/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/"
-                />
   </url><url>
     <loc>http://localhost:1313/tags/technology/</loc>
     <lastmod>2022-08-10T10:58:08-04:00</lastmod>
@@ -127,26 +197,6 @@
                 href="http://localhost:1313/tags/vr/"
                 />
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2022-08-10T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="http://localhost:1313/hi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/"
-                />
-  </url><url>
     <loc>http://localhost:1313/tags/xr/</loc>
     <lastmod>2022-08-10T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -161,11 +211,6 @@
                 hreflang="en"
                 href="http://localhost:1313/tags/xr/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/tags/event/</loc>
-    <lastmod>2022-07-29T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/speaker/</loc>
     <lastmod>2022-07-29T10:58:08-04:00</lastmod>
@@ -277,17 +322,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/hackathon/</loc>
-    <lastmod>2022-06-19T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/tags/innovation/</loc>
-    <lastmod>2022-06-19T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/judge/</loc>
     <lastmod>2022-06-19T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -358,11 +393,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/event/indian-achievers-awards-2022/</loc>
-    <lastmod>2022-05-04T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/mentor/</loc>
     <lastmod>2022-05-04T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -612,21 +642,6 @@
                 href="http://localhost:1313/tags/motivational/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/takeaways/</loc>
-    <lastmod>2021-09-30T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="http://localhost:1313/hi/tags/takeaways/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/takeaways/"
-                />
-  </url><url>
     <loc>http://localhost:1313/tags/workshop/</loc>
     <lastmod>2021-09-30T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -847,11 +862,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/experience/</loc>
-    <lastmod>2021-01-05T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/event/nasscom-iotcoe/</loc>
     <lastmod>2020-12-05T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -963,11 +973,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/event/sih-2020/</loc>
-    <lastmod>2020-08-03T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/sih/</loc>
     <lastmod>2020-08-03T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

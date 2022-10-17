@@ -1,209 +1,209 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://localhost:1313/de/tags/ar/</loc>
-    <lastmod>2020-10-28T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>http://localhost:1313/de/tags/ar/</loc>
+        <lastmod>2020-10-28T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/ar/"
-                />
-    <xhtml:link
+                href="https://thinkuldeep.com//tags/ar/"
+        />
+        <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/tags/ar/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/post/extending_reality_new_norm/</loc>
-    <lastmod>2020-10-28T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
+                href="https://thinkuldeep.com//de/tags/ar/"
+        />
+    </url><url>
+        <loc>http://localhost:1313/de/post/extending_reality_new_norm/</loc>
+        <lastmod>2020-10-28T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/post/extending_reality_new_norm/"
-                />
-    <xhtml:link
+                href="https://thinkuldeep.com//post/extending_reality_new_norm/"
+        />
+        <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/post/extending_reality_new_norm/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/tags/fundamentals/</loc>
-    <lastmod>2020-10-28T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
+                href="https://thinkuldeep.com//de/post/extending_reality_new_norm/"
+        />
+    </url><url>
+        <loc>http://localhost:1313/de/tags/fundamentals/</loc>
+        <lastmod>2020-10-28T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/fundamentals/"
-                />
-    <xhtml:link
+                href="https://thinkuldeep.com//tags/fundamentals/"
+        />
+        <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/tags/fundamentals/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/</loc>
-    <lastmod>2020-10-28T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
+                href="https://thinkuldeep.com//de/tags/fundamentals/"
+        />
+    </url><url>
+        <loc>http://localhost:1313/de/</loc>
+        <lastmod>2020-10-28T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
-                />
-    <xhtml:link
+                href="https://thinkuldeep.com//"
+        />
+        <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:1313/hi/"
-                />
-    <xhtml:link
+                href="https://thinkuldeep.com//hi/"
+        />
+        <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/tags/mr/</loc>
-    <lastmod>2020-10-28T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
+                href="https://thinkuldeep.com//de/"
+        />
+    </url><url>
+        <loc>http://localhost:1313/de/tags/mr/</loc>
+        <lastmod>2020-10-28T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/mr/"
-                />
-    <xhtml:link
+                href="https://thinkuldeep.com//tags/mr/"
+        />
+        <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/tags/mr/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/post/</loc>
-    <lastmod>2020-10-28T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
+                href="https://thinkuldeep.com//de/tags/mr/"
+        />
+    </url><url>
+        <loc>http://localhost:1313/de/post/</loc>
+        <lastmod>2020-10-28T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/post/"
-                />
-    <xhtml:link
+                href="https://thinkuldeep.com//post/"
+        />
+        <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:1313/hi/post/"
-                />
-    <xhtml:link
+                href="https://thinkuldeep.com//hi/post/"
+        />
+        <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/post/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/tags/</loc>
-    <lastmod>2020-10-28T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
+                href="https://thinkuldeep.com//de/post/"
+        />
+    </url><url>
+        <loc>http://localhost:1313/de/tags/</loc>
+        <lastmod>2020-10-28T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
-                />
-    <xhtml:link
+                href="https://thinkuldeep.com//tags/"
+        />
+        <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:1313/hi/tags/"
-                />
-    <xhtml:link
+                href="https://thinkuldeep.com//hi/tags/"
+        />
+        <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/tags/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/tags/technology/</loc>
-    <lastmod>2020-10-28T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
+                href="https://thinkuldeep.com//de/tags/"
+        />
+    </url><url>
+        <loc>http://localhost:1313/de/tags/technology/</loc>
+        <lastmod>2020-10-28T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/technology/"
-                />
-    <xhtml:link
+                href="https://thinkuldeep.com//tags/technology/"
+        />
+        <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/tags/technology/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/tags/thoughtworks/</loc>
-    <lastmod>2020-10-28T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
+                href="https://thinkuldeep.com//de/tags/technology/"
+        />
+    </url><url>
+        <loc>http://localhost:1313/de/tags/thoughtworks/</loc>
+        <lastmod>2020-10-28T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/thoughtworks/"
-                />
-    <xhtml:link
+                href="https://thinkuldeep.com//tags/thoughtworks/"
+        />
+        <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:1313/hi/tags/thoughtworks/"
-                />
-    <xhtml:link
+                href="https://thinkuldeep.com//hi/tags/thoughtworks/"
+        />
+        <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/tags/thoughtworks/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/tags/vr/</loc>
-    <lastmod>2020-10-28T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
+                href="https://thinkuldeep.com//de/tags/thoughtworks/"
+        />
+    </url><url>
+        <loc>http://localhost:1313/de/tags/vr/</loc>
+        <lastmod>2020-10-28T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/vr/"
-                />
-    <xhtml:link
+                href="https://thinkuldeep.com//tags/vr/"
+        />
+        <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/tags/vr/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/tags/xr/</loc>
-    <lastmod>2020-10-28T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
+                href="https://thinkuldeep.com//de/tags/vr/"
+        />
+    </url><url>
+        <loc>http://localhost:1313/de/tags/xr/</loc>
+        <lastmod>2020-10-28T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/xr/"
-                />
-    <xhtml:link
+                href="https://thinkuldeep.com//tags/xr/"
+        />
+        <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/tags/xr/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/categories/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
+                href="https://thinkuldeep.com//de/tags/xr/"
+        />
+    </url><url>
+        <loc>http://localhost:1313/de/categories/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
-                />
-    <xhtml:link
+                href="https://thinkuldeep.com//categories/"
+        />
+        <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="http://localhost:1313/hi/categories/"
-                />
-    <xhtml:link
+                href="https://thinkuldeep.com//hi/categories/"
+        />
+        <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/de/categories/"
-                />
-  </url>
+                href="https://thinkuldeep.com//de/categories/"
+        />
+    </url>
 </urlset>

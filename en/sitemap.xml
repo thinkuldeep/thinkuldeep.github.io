@@ -307,6 +307,11 @@
                 href="https://thinkuldeep.com//tags/work-from-home/"
         />
     </url><url>
+        <loc>http://localhost:1313/post/xr-in-practice-engineering-challenges-extending-reality/</loc>
+        <lastmod>2022-09-22T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
         <loc>http://localhost:1313/tags/hackathon/</loc>
         <lastmod>2022-08-12T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
@@ -1258,6 +1263,11 @@
         <priority>0.5</priority>
     </url><url>
         <loc>http://localhost:1313/post/extending_reality_with_ar_and_vr-1/</loc>
+        <lastmod>2020-04-05T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>http://localhost:1313/tags/podcast/</loc>
         <lastmod>2020-04-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>

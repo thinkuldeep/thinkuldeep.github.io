@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>consultant on Kuldeep Singh</title>
+    <link>http://localhost:1313/tags/consultant/</link>
+    <description>Recent content in consultant on Kuldeep Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jan 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/consultant/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guest Lecture : Forward Looking Reflection at DesignersX</title>
+      <link>http://localhost:1313/post/forward-looking-reflection/</link>
+      <pubDate>Sun, 01 Jan 2023 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/forward-looking-reflection/</guid>
+      <description>Every end is a beginning, if there is no end, then there is no beginning, just like the year 2023 can only start after the end of year 2022. So this is the right time to reflect and plan for a better beginning. A “forward looking reflection” was my topic of a guest lecture at DesignersX at their year end event. We discussed challenges of software development, and how the industry is trying to solve them.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,14 +6,24 @@
     <description>Recent content in technology on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Jan 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Guest Lecture : Forward Looking Reflection at DesignersX</title>
+      <title>AI-Assisted Content Generation Pipeline for XR</title>
+      <link>http://localhost:1313/post/ai-generated-xr-content/</link>
+      <pubDate>Tue, 24 Jan 2023 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/ai-generated-xr-content/</guid>
+      <description>Recently, I and Raju Kandaswamy talked at Thoughtworks XConf on how AI will play its role in content generation. We are already seeing ChatGPT, as the next revolution in textual content generation space. Let&amp;rsquo;s understand what is the need of such content generation revolution of XR space.
+With games like Second Life and the impending mainstreaming of the Metaverse, more and more individuals are embracing a virtual reality that, in some ways, mirrors our own real world and, in other ways, lets us live in our imagination or apply them on the real word.</description>
+    </item>
+    
+    <item>
+      <title>Guest Lecture on &#39;Forward Looking Reflection&#39; at DesignersX</title>
       <link>http://localhost:1313/post/forward-looking-reflection/</link>
       <pubDate>Sun, 01 Jan 2023 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/post/forward-looking-reflection/</guid>
-      <description>Every end is a beginning, if there is no end, then there is no beginning, just like the year 2023 can only start after the end of year 2022. So this is the right time to reflect and plan for a better beginning. A “forward looking reflection” was my topic of a guest lecture at DesignersX at their year end event. We discussed challenges of software development, and how the industry is trying to solve them.</description>
+      <description>Every end is a beginning, if there is no end, then there is no beginning, just like the year 2023 can only start after the end of year 2022. So this is the right time to reflect and plan for a better beginning. A “Forward Looking Reflection” was my topic of a guest lecture at DesignersX at their year end event. We discussed challenges of software development, and how the industry is trying to solve them.</description>
     </item>
     
     <item>

@@ -218,6 +218,16 @@ HackBMU seeks to provide a welcoming and supportive environment to all participa
     </item>
     
     <item>
+      <title>Speaker - Agility Today Fest 2023 - Generative AI and XR</title>
+      <link>http://localhost:1313/event/agiletoday_2023_ael/</link>
+      <pubDate>Sat, 06 Mar 2021 01:00:00 -0400</pubDate>
+      
+      <guid>http://localhost:1313/event/agiletoday_2023_ael/</guid>
+      <description>Enterprise XR is gaining good traction, and software development’s best practices like Agile principles really matters due to multitude of tooling and tech stacks used for Enterprise XR solutions
+Enterprises do face multiple challenges with the XR development lifecycle. One of them is the automation of testing XR applications. In response to this gap, ThoughtWorks has developed Arium – an open-source, lightweight, extensible, platform-agnostic framework that helps write automation tests that are built specifically for XR Applications.</description>
+    </item>
+    
+    <item>
       <title>Speaker - AT2020 - Agility in Enterprise XR</title>
       <link>http://localhost:1313/event/at_2020_agilexr/</link>
       <pubDate>Sat, 06 Mar 2021 01:00:00 -0400</pubDate>

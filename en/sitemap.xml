@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
+        <loc>http://localhost:1313/event/agiletoday_2023_ael/</loc>
+        <lastmod>2023-03-25T01:00:00-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
         <loc>http://localhost:1313/tags/ai/</loc>
         <lastmod>2023-02-25T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>

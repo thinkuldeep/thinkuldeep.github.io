@@ -6,7 +6,27 @@
     <description>Recent content in vr on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Jan 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/vr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Mar 2023 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/vr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Speaker - Agility Today Fest 2023 - Generative AI and XR</title>
+      <link>http://localhost:1313/event/agiletoday_2023_ael/</link>
+      <pubDate>Sat, 25 Mar 2023 01:00:00 -0400</pubDate>
+      
+      <guid>http://localhost:1313/event/agiletoday_2023_ael/</guid>
+      <description>Agility Today is a 2 days annual UnConference, to meet Agility needs of industry, gathered over past few years via meetups, Conferences and Webinar. This UnConference intends to give you best of Agile Psyche (Mindset Culture and Practice) and Geekery (Engineering, Tools and DevOps). This year in Agility Today Fest 2023 there are couple of programs.
+I am speaking to at Agile Engineering Lab (Technical Agility &amp;amp; Engineering Excellence), on topic of Scaling content generation for XR using AI.</description>
+    </item>
+    
+    <item>
+      <title>Takeaways from Lenovo Techworld India Edition</title>
+      <link>http://localhost:1313/event/lenovo-techworld-india-2023/</link>
+      <pubDate>Thu, 16 Mar 2023 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/event/lenovo-techworld-india-2023/</guid>
+      <description>Lenovo, the global technology leader, hosted the India edition of its flagship event, Tech World , on March 16th, 2023. Industry leaders come together and peep into the future of smarter technology, that is empowering a changing world through innovative products, solutions, and witness technological solutions.
+I get a chance to join the event, and meet and listen to the industry leaders, experience lenovo’s innovative product line, and see breakthroughs in india shaping up.</description>
+    </item>
+    
     <item>
       <title>Speaker at Meta-MeitY XR Startup Hub, IIT Delhi</title>
       <link>http://localhost:1313/event/meta-meity-xr-startsup-hub-2022/</link>
@@ -258,16 +278,6 @@ Time was when virtual and augmented reality was regarded as simply gaming techno
       <description>The IMF called the COVID-19 crisis ‘unlike any other,’ where the global growth contraction for 2020 was estimated at -3.5 percent. Image source : Using Lenovo ThinkReality A6 Glass at Workplace
 Here is a quick overview of the biggest challenges that CXOs (and their businesses) have faced over the recent past, to better illustrate how the pandemic is affecting businesses:
  Businesses are grappling with slowing global supply chains Sales and production growth is further impacted with a subsequent dive in opportunities for partnerships and growth The flattened or negative growth market result in less manpower and resources to work with, further affecting productivity  ​The five biggest challenges that CXOs are facing today</description>
-    </item>
-    
-    <item>
-      <title>Speaker - Agility Today Fest 2023 - Generative AI and XR</title>
-      <link>http://localhost:1313/event/agiletoday_2023_ael/</link>
-      <pubDate>Sat, 06 Mar 2021 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/agiletoday_2023_ael/</guid>
-      <description>Enterprise XR is gaining good traction, and software development’s best practices like Agile principles really matters due to multitude of tooling and tech stacks used for Enterprise XR solutions
-Enterprises do face multiple challenges with the XR development lifecycle. One of them is the automation of testing XR applications. In response to this gap, ThoughtWorks has developed Arium – an open-source, lightweight, extensible, platform-agnostic framework that helps write automation tests that are built specifically for XR Applications.</description>
     </item>
     
     <item>

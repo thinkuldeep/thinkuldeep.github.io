@@ -6,7 +6,16 @@
     <description>Recent content in mr on Kuldeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Mar 2023 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/mr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Apr 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/mr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploring the Potential of XR Technology for Virtual Decoration</title>
+      <link>http://localhost:1313/post/xr-virtual-decoration/</link>
+      <pubDate>Wed, 19 Apr 2023 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/post/xr-virtual-decoration/</guid>
+      <description>In recent years, XR technology has revolutionized the way we decorate our physical environments. By utilizing AI and computer vision, XR can scan and track real-world surroundings, recognizing and remembering images and objects to enable the addition of virtual content. This technology can store and recall virtual decorations, making them visible every time someone enters the environment. While image matching is not a new concept, XR platforms like Vuforia have already implemented various mobile XR examples.</description>
+    </item>
+    
     <item>
       <title>Speaker - Agility Today Fest 2023 - Generative AI and XR</title>
       <link>http://localhost:1313/event/agiletoday_2023_ael/</link>

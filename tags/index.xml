@@ -125,11 +125,56 @@
     </item>
     
     <item>
+      <title>chatbot</title>
+      <link>http://localhost:1313/tags/chatbot/</link>
+      <pubDate>Tue, 18 Apr 2023 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/chatbot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>event</title>
       <link>http://localhost:1313/tags/event/</link>
-      <pubDate>Sat, 15 Apr 2023 10:58:08 -0400</pubDate>
+      <pubDate>Tue, 18 Apr 2023 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/event/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>generative AI</title>
+      <link>http://localhost:1313/tags/generative-ai/</link>
+      <pubDate>Tue, 18 Apr 2023 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/generative-ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hackathon</title>
+      <link>http://localhost:1313/tags/hackathon/</link>
+      <pubDate>Tue, 18 Apr 2023 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/hackathon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iot</title>
+      <link>http://localhost:1313/tags/iot/</link>
+      <pubDate>Tue, 18 Apr 2023 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>judge</title>
+      <link>http://localhost:1313/tags/judge/</link>
+      <pubDate>Tue, 18 Apr 2023 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/judge/</guid>
       <description></description>
     </item>
     
@@ -395,29 +440,11 @@
     </item>
     
     <item>
-      <title>hackathon</title>
-      <link>http://localhost:1313/tags/hackathon/</link>
-      <pubDate>Sat, 25 Feb 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/hackathon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>innovation</title>
       <link>http://localhost:1313/tags/innovation/</link>
       <pubDate>Sat, 25 Feb 2023 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/innovation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>judge</title>
-      <link>http://localhost:1313/tags/judge/</link>
-      <pubDate>Sat, 25 Feb 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/judge/</guid>
       <description></description>
     </item>
     
@@ -769,15 +796,6 @@
       <pubDate>Fri, 01 Jul 2022 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/glossary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>iot</title>
-      <link>http://localhost:1313/tags/iot/</link>
-      <pubDate>Fri, 01 Jul 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/iot/</guid>
       <description></description>
     </item>
     

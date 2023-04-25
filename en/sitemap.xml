@@ -177,12 +177,42 @@
                 href="https://thinkuldeep.com//tags/xr/"
         />
     </url><url>
-        <loc>http://localhost:1313/event/gta_lets_fork_together/</loc>
-        <lastmod>2023-04-15T10:58:08-04:00</lastmod>
+        <loc>http://localhost:1313/tags/chatbot/</loc>
+        <lastmod>2023-04-18T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
         <loc>http://localhost:1313/tags/event/</loc>
+        <lastmod>2023-04-18T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>http://localhost:1313/tags/generative-ai/</loc>
+        <lastmod>2023-04-18T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>http://localhost:1313/tags/hackathon/</loc>
+        <lastmod>2023-04-18T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>http://localhost:1313/tags/iot/</loc>
+        <lastmod>2023-04-18T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>http://localhost:1313/tags/judge/</loc>
+        <lastmod>2023-04-18T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>http://localhost:1313/event/thougthworks-twinnofest3/</loc>
+        <lastmod>2023-04-18T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>http://localhost:1313/event/gta_lets_fork_together/</loc>
         <lastmod>2023-04-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -437,17 +467,7 @@
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/hackathon/</loc>
-        <lastmod>2023-02-25T10:58:08-04:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url><url>
         <loc>http://localhost:1313/tags/innovation/</loc>
-        <lastmod>2023-02-25T10:58:08-04:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>http://localhost:1313/tags/judge/</loc>
         <lastmod>2023-02-25T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -788,11 +808,6 @@
         />
     </url><url>
         <loc>http://localhost:1313/tags/glossary/</loc>
-        <lastmod>2022-07-01T10:58:08-04:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>http://localhost:1313/tags/iot/</loc>
         <lastmod>2022-07-01T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>

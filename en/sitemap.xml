@@ -2,19 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>http://localhost:1313/tags/ar/</loc>
+        <loc>http://localhost:1313/tags/ai/</loc>
+        <lastmod>2023-05-05T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>http://localhost:1313/tags/change/</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
         <xhtml:link
                 rel="alternate"
-                hreflang="de"
-                href="https://thinkuldeep.com//de/tags/ar/"
+                hreflang="hi"
+                href="https://thinkuldeep.com//hi/tags/change/"
         />
         <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://thinkuldeep.com//tags/ar/"
+                href="https://thinkuldeep.com//tags/change/"
         />
     </url><url>
         <loc>http://localhost:1313/tags/chatgpt/</loc>
@@ -23,6 +28,11 @@
         <priority>0.5</priority>
     </url><url>
         <loc>http://localhost:1313/tags/event/</loc>
+        <lastmod>2023-05-05T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>http://localhost:1313/tags/generative-ai/</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -37,32 +47,22 @@
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
+        <loc>http://localhost:1313/tags/habit/</loc>
+        <lastmod>2023-05-05T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>http://localhost:1313/tags/iot/</loc>
+        <lastmod>2023-05-05T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
         <loc>http://localhost:1313/tags/meetup/</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
         <loc>http://localhost:1313/tags/metaverse/</loc>
-        <lastmod>2023-05-05T10:58:08-04:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>http://localhost:1313/tags/mr/</loc>
-        <lastmod>2023-05-05T10:58:08-04:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://thinkuldeep.com//de/tags/mr/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//tags/mr/"
-        />
-    </url><url>
-        <loc>http://localhost:1313/tags/speaker/</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -92,10 +92,20 @@
                 href="https://thinkuldeep.com//tags/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/talk/</loc>
+        <loc>http://localhost:1313/tags/takeaways/</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com//hi/tags/takeaways/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com//tags/takeaways/"
+        />
     </url><url>
         <loc>http://localhost:1313/tags/thoughtworks/</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
@@ -115,21 +125,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://thinkuldeep.com//tags/thoughtworks/"
-        />
-    </url><url>
-        <loc>http://localhost:1313/tags/vr/</loc>
-        <lastmod>2023-05-05T10:58:08-04:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://thinkuldeep.com//de/tags/vr/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//tags/vr/"
         />
     </url><url>
         <loc>http://localhost:1313/</loc>
@@ -167,10 +162,20 @@
                 href="https://thinkuldeep.com//tags/xr/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/ai/</loc>
+        <loc>http://localhost:1313/tags/ar/</loc>
         <lastmod>2023-04-19T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com//de/tags/ar/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com//tags/ar/"
+        />
     </url><url>
         <loc>http://localhost:1313/tags/decoration/</loc>
         <lastmod>2023-04-19T10:58:08-04:00</lastmod>
@@ -191,6 +196,21 @@
         <lastmod>2023-04-19T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
+    </url><url>
+        <loc>http://localhost:1313/tags/mr/</loc>
+        <lastmod>2023-04-19T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com//de/tags/mr/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com//tags/mr/"
+        />
     </url><url>
         <loc>http://localhost:1313/tags/qualcomm/</loc>
         <lastmod>2023-04-19T10:58:08-04:00</lastmod>
@@ -217,22 +237,27 @@
                 href="https://thinkuldeep.com//tags/technology/"
         />
     </url><url>
+        <loc>http://localhost:1313/tags/vr/</loc>
+        <lastmod>2023-04-19T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com//de/tags/vr/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com//tags/vr/"
+        />
+    </url><url>
         <loc>http://localhost:1313/tags/chatbot/</loc>
         <lastmod>2023-04-18T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/generative-ai/</loc>
-        <lastmod>2023-04-18T10:58:08-04:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url><url>
         <loc>http://localhost:1313/tags/hackathon/</loc>
-        <lastmod>2023-04-18T10:58:08-04:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>http://localhost:1313/tags/iot/</loc>
         <lastmod>2023-04-18T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -272,6 +297,11 @@
                 href="https://thinkuldeep.com//tags/learnings/"
         />
     </url><url>
+        <loc>http://localhost:1313/tags/speaker/</loc>
+        <lastmod>2023-04-15T10:58:08-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
         <loc>http://localhost:1313/tags/startup/</loc>
         <lastmod>2023-04-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
@@ -282,20 +312,10 @@
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/takeaways/</loc>
+        <loc>http://localhost:1313/tags/talk/</loc>
         <lastmod>2023-04-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com//hi/tags/takeaways/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//tags/takeaways/"
-        />
     </url><url>
         <loc>http://localhost:1313/tags/university/</loc>
         <lastmod>2023-04-15T10:58:08-04:00</lastmod>
@@ -306,21 +326,6 @@
         <lastmod>2023-04-09T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
-    </url><url>
-        <loc>http://localhost:1313/tags/change/</loc>
-        <lastmod>2023-04-09T10:58:08-04:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com//hi/tags/change/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//tags/change/"
-        />
     </url><url>
         <loc>http://localhost:1313/tags/covid19/</loc>
         <lastmod>2023-04-09T10:58:08-04:00</lastmod>
@@ -351,11 +356,6 @@
                 hreflang="en"
                 href="https://thinkuldeep.com//tags/general/"
         />
-    </url><url>
-        <loc>http://localhost:1313/tags/habit/</loc>
-        <lastmod>2023-04-09T10:58:08-04:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
     </url><url>
         <loc>http://localhost:1313/post/habitmatters/</loc>
         <lastmod>2023-04-09T10:58:08-04:00</lastmod>

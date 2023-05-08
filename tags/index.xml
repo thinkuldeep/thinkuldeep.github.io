@@ -8,11 +8,29 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 05 May 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ar</title>
-      <link>http://localhost:1313/tags/ar/</link>
+      <title>ai</title>
+      <link>http://localhost:1313/tags/ai/</link>
       <pubDate>Fri, 05 May 2023 10:58:08 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/ar/</guid>
+      <guid>http://localhost:1313/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>change</title>
+      <link>http://localhost:1313/tags/change/</link>
+      <pubDate>Fri, 05 May 2023 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/change/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chatgpt</title>
+      <link>http://localhost:1313/tags/chatgpt/</link>
+      <pubDate>Fri, 05 May 2023 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/chatgpt/</guid>
       <description></description>
     </item>
     
@@ -26,11 +44,47 @@
     </item>
     
     <item>
+      <title>generative ai</title>
+      <link>http://localhost:1313/tags/generative-ai/</link>
+      <pubDate>Fri, 05 May 2023 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/generative-ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>green software</title>
       <link>http://localhost:1313/tags/green-software/</link>
       <pubDate>Fri, 05 May 2023 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/green-software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>habit</title>
+      <link>http://localhost:1313/tags/habit/</link>
+      <pubDate>Fri, 05 May 2023 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/habit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iot</title>
+      <link>http://localhost:1313/tags/iot/</link>
+      <pubDate>Fri, 05 May 2023 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meetup</title>
+      <link>http://localhost:1313/tags/meetup/</link>
+      <pubDate>Fri, 05 May 2023 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/meetup/</guid>
       <description></description>
     </item>
     
@@ -44,24 +98,6 @@
     </item>
     
     <item>
-      <title>mr</title>
-      <link>http://localhost:1313/tags/mr/</link>
-      <pubDate>Fri, 05 May 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/mr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>speaker</title>
-      <link>http://localhost:1313/tags/speaker/</link>
-      <pubDate>Fri, 05 May 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/speaker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>sustainability</title>
       <link>http://localhost:1313/tags/sustainability/</link>
       <pubDate>Fri, 05 May 2023 10:58:08 -0400</pubDate>
@@ -71,11 +107,11 @@
     </item>
     
     <item>
-      <title>talk</title>
-      <link>http://localhost:1313/tags/talk/</link>
+      <title>takeaways</title>
+      <link>http://localhost:1313/tags/takeaways/</link>
       <pubDate>Fri, 05 May 2023 10:58:08 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/talk/</guid>
+      <guid>http://localhost:1313/tags/takeaways/</guid>
       <description></description>
     </item>
     
@@ -89,15 +125,6 @@
     </item>
     
     <item>
-      <title>vr</title>
-      <link>http://localhost:1313/tags/vr/</link>
-      <pubDate>Fri, 05 May 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/vr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>xr</title>
       <link>http://localhost:1313/tags/xr/</link>
       <pubDate>Fri, 05 May 2023 10:58:08 -0400</pubDate>
@@ -107,11 +134,11 @@
     </item>
     
     <item>
-      <title>ai</title>
-      <link>http://localhost:1313/tags/ai/</link>
+      <title>ar</title>
+      <link>http://localhost:1313/tags/ar/</link>
       <pubDate>Wed, 19 Apr 2023 10:58:08 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/ai/</guid>
+      <guid>http://localhost:1313/tags/ar/</guid>
       <description></description>
     </item>
     
@@ -143,6 +170,15 @@
     </item>
     
     <item>
+      <title>mr</title>
+      <link>http://localhost:1313/tags/mr/</link>
+      <pubDate>Wed, 19 Apr 2023 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/mr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>qualcomm</title>
       <link>http://localhost:1313/tags/qualcomm/</link>
       <pubDate>Wed, 19 Apr 2023 10:58:08 -0400</pubDate>
@@ -170,6 +206,15 @@
     </item>
     
     <item>
+      <title>vr</title>
+      <link>http://localhost:1313/tags/vr/</link>
+      <pubDate>Wed, 19 Apr 2023 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/vr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>chatbot</title>
       <link>http://localhost:1313/tags/chatbot/</link>
       <pubDate>Tue, 18 Apr 2023 10:58:08 -0400</pubDate>
@@ -179,29 +224,11 @@
     </item>
     
     <item>
-      <title>generative AI</title>
-      <link>http://localhost:1313/tags/generative-ai/</link>
-      <pubDate>Tue, 18 Apr 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/generative-ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>hackathon</title>
       <link>http://localhost:1313/tags/hackathon/</link>
       <pubDate>Tue, 18 Apr 2023 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/hackathon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>iot</title>
-      <link>http://localhost:1313/tags/iot/</link>
-      <pubDate>Tue, 18 Apr 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/iot/</guid>
       <description></description>
     </item>
     
@@ -233,6 +260,15 @@
     </item>
     
     <item>
+      <title>speaker</title>
+      <link>http://localhost:1313/tags/speaker/</link>
+      <pubDate>Sat, 15 Apr 2023 10:58:08 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/speaker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>startup</title>
       <link>http://localhost:1313/tags/startup/</link>
       <pubDate>Sat, 15 Apr 2023 10:58:08 -0400</pubDate>
@@ -251,11 +287,11 @@
     </item>
     
     <item>
-      <title>takeaways</title>
-      <link>http://localhost:1313/tags/takeaways/</link>
+      <title>talk</title>
+      <link>http://localhost:1313/tags/talk/</link>
       <pubDate>Sat, 15 Apr 2023 10:58:08 -0400</pubDate>
       
-      <guid>http://localhost:1313/tags/takeaways/</guid>
+      <guid>http://localhost:1313/tags/talk/</guid>
       <description></description>
     </item>
     
@@ -278,15 +314,6 @@
     </item>
     
     <item>
-      <title>change</title>
-      <link>http://localhost:1313/tags/change/</link>
-      <pubDate>Sun, 09 Apr 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/change/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>covid19</title>
       <link>http://localhost:1313/tags/covid19/</link>
       <pubDate>Sun, 09 Apr 2023 10:58:08 -0400</pubDate>
@@ -301,15 +328,6 @@
       <pubDate>Sun, 09 Apr 2023 10:58:08 -0400</pubDate>
       
       <guid>http://localhost:1313/tags/general/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>habit</title>
-      <link>http://localhost:1313/tags/habit/</link>
-      <pubDate>Sun, 09 Apr 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/tags/habit/</guid>
       <description></description>
     </item>
     

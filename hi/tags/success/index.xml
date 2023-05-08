@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>success on Kuldeep Singh</title>
-    <link>http://localhost:1313/hi/tags/success/</link>
-    <description>Recent content in success on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 03 May 2020 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/hi/tags/success/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>अधिक सफल बनने के लिए बदलें!</title>
-      <link>http://localhost:1313/hi/post/change_to_become_more_successful_/</link>
-      <pubDate>Sun, 03 May 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/hi/post/change_to_become_more_successful_/</guid>
-      <description>परिवर्तन एकमात्र स्थिरांक है, इसके लिए मानव जाति से निरंतर प्रयास की आवश्यकता होती है जो उस परिवर्तन को समझे जो सफलता की और लेके जाता है, और हमें और भी अधिक सफल बनाता है। अपने पहले लेख में, मैंने सफलता के मंत्र के बारे में बात की , और आवश्यकता पड़ने पर परिवर्तन को स्वीकार करने के बारे में भी लिखा । कभी-कभी जिस तरह से हम अपनी सफलता का अनुभव करते हैं वह अधिक सफल बनने के लिए अवरोधक बन जाता है। हम सफल होने के रास्ते पर जाने-अनजाने में कुछ आदतें जमा कर लेते हैं, और ज्यादातर हम कभी भी महसूस नहीं करते हैं कि वे आदतें हमारे आगे बढ़ने के रास्ते को अवरुद्ध करना शुरू कर देती हैं।</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>success on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//hi/tags/success/</link>
+        <description>Recent content in success on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sun, 03 May 2020 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/hi/tags/success/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>अधिक सफल बनने के लिए बदलें!</title>
+            <link>https://thinkuldeep.com//hi/post/change_to_become_more_successful_/</link>
+            <pubDate>Sun, 03 May 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/post/change_to_become_more_successful_/</guid>
+            <description>परिवर्तन एकमात्र स्थिरांक है, इसके लिए मानव जाति से निरंतर प्रयास की आवश्यकता होती है जो उस परिवर्तन को समझे जो सफलता की और लेके जाता है, और हमें और भी अधिक सफल बनाता है। अपने पहले लेख में, मैंने सफलता के मंत्र के बारे में बात की , और आवश्यकता पड़ने पर परिवर्तन को स्वीकार करने के बारे में भी लिखा । कभी-कभी जिस तरह से हम अपनी सफलता का अनुभव करते हैं वह अधिक सफल बनने के लिए अवरोधक बन जाता है। हम सफल होने के रास्ते पर जाने-अनजाने में कुछ आदतें जमा कर लेते हैं, और ज्यादातर हम कभी भी महसूस नहीं करते हैं कि वे आदतें हमारे आगे बढ़ने के रास्ते को अवरुद्ध करना शुरू कर देती हैं।</description>
+        </item>
+        
+    </channel>
 </rss>

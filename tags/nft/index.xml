@@ -1,77 +1,79 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>nft on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/nft/</link>
-    <description>Recent content in nft on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 22 Oct 2022 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/nft/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Guest Lecture on &#39;SpatialWeb and Web3.0&#39; at NIT Calicut</title>
-      <link>http://localhost:1313/event/guest_lecture_nit_calicut/</link>
-      <pubDate>Sat, 22 Oct 2022 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/guest_lecture_nit_calicut/</guid>
-      <description>National Institute of Technology Calicut is organizing Tathva, Asia&amp;rsquo;s largest student-run Tech Startup Expo. Tathva is a techno-management fest of NIT Calicut is one of south India&amp;rsquo;s biggest scholastic endeavours. Since its inception in 2000, this annual symposium has known only growth and has flourished into one of the few promising enterprises the nation has witnessed. Pushing the barriers year after year, Tathva aims at providing a plethora of platforms to the intrigued technical heads that arrive at this fiesta with an array of events and workshops, to sharpen their skills and widen their knowledge quotient.</description>
-    </item>
-    
-    <item>
-      <title>Book Launch | Metaverse Glossary - Your gateway to the future</title>
-      <link>http://localhost:1313/event/metaverse-glossary-book/</link>
-      <pubDate>Fri, 01 Jul 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/metaverse-glossary-book/</guid>
-      <description>The Metaverse Metaverse is the most talked, understood and misunderstood topic these days, and every other industry today is trying to define it in their own way to suit their narrative. It would end up creating many sub-metaverses, with different sets of features and, would lead to confusions, and conflict of interests. Acceptable definition of Metaverse will evolve with time. At this stage, I treat the metaverse as a result of technological evolutions in the key areas such as ARVR, AI, Cloud, Blockchain, 5G/6G and hardware.</description>
-    </item>
-    
-    <item>
-      <title>Metaverse Workshop - VIT-AP University</title>
-      <link>http://localhost:1313/event/metaverse-workshop-vit-ap-university/</link>
-      <pubDate>Sat, 11 Jun 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/metaverse-workshop-vit-ap-university/</guid>
-      <description>School of Computer Science and Engineering (SCOPE) of VIT-AP University is organizing a 1-day National Workshop on “Exploring the Blockchain in Metaverse” on June 11, 2022, from 11 am to 5 pm.
+    <channel>
+        <title>nft on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/nft/</link>
+        <description>Recent content in nft on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sat, 22 Oct 2022 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/nft/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Guest Lecture on &#39;SpatialWeb and Web3.0&#39; at NIT Calicut</title>
+            <link>https://thinkuldeep.com//event/guest_lecture_nit_calicut/</link>
+            <pubDate>Sat, 22 Oct 2022 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/guest_lecture_nit_calicut/</guid>
+            <description>National Institute of Technology Calicut is organizing Tathva, Asia&amp;rsquo;s largest student-run Tech Startup Expo. Tathva is a techno-management fest of NIT Calicut is one of south India&amp;rsquo;s biggest scholastic endeavours. Since its inception in 2000, this annual symposium has known only growth and has flourished into one of the few promising enterprises the nation has witnessed. Pushing the barriers year after year, Tathva aims at providing a plethora of platforms to the intrigued technical heads that arrive at this fiesta with an array of events and workshops, to sharpen their skills and widen their knowledge quotient.</description>
+        </item>
+        
+        <item>
+            <title>Book Launch | Metaverse Glossary - Your gateway to the future</title>
+            <link>https://thinkuldeep.com//event/metaverse-glossary-book/</link>
+            <pubDate>Fri, 01 Jul 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/metaverse-glossary-book/</guid>
+            <description>The Metaverse Metaverse is the most talked, understood and misunderstood topic these days, and every other industry today is trying to define it in their own way to suit their narrative. It would end up creating many sub-metaverses, with different sets of features and, would lead to confusions, and conflict of interests. Acceptable definition of Metaverse will evolve with time. At this stage, I treat the metaverse as a result of technological evolutions in the key areas such as ARVR, AI, Cloud, Blockchain, 5G/6G and hardware.</description>
+        </item>
+        
+        <item>
+            <title>Metaverse Workshop - VIT-AP University</title>
+            <link>https://thinkuldeep.com//event/metaverse-workshop-vit-ap-university/</link>
+            <pubDate>Sat, 11 Jun 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/metaverse-workshop-vit-ap-university/</guid>
+            <description>School of Computer Science and Engineering (SCOPE) of VIT-AP University is organizing a 1-day National Workshop on “Exploring the Blockchain in Metaverse” on June 11, 2022, from 11 am to 5 pm.
  The program is intended for students, faculty of technical institutes, professionals from Industry, R&amp;amp;D organizations, and research scholars.
 I will be speaking at the workshop on &amp;ldquo;Gearing up for Metaverse&amp;rdquo;, Will touch upon metaverse step by step.</description>
-    </item>
-    
-    <item>
-      <title>Metaverse — a technological evolution</title>
-      <link>http://localhost:1313/post/metaverse-a-technological-evolution/</link>
-      <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/metaverse-a-technological-evolution/</guid>
-      <description>Metaverse is the most talked, understood and misunderstood topic these days. In most of my sessions people ask what is the technology stack for Metaverse? what should I learn to stay relevant? etc.. I will try to cover it in this article. In my earlier article I tried to define the Metaverse, and my friend Vinodh Arumugam also attempted the same here. It is defined so loosely that every other industry today is trying to define it in their own way to suits their narrative.</description>
-    </item>
-    
-    <item>
-      <title>Getting into the Metaverse — Part 2</title>
-      <link>http://localhost:1313/post/getting-into-the-metaverse-part-2/</link>
-      <pubDate>Tue, 21 Dec 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/getting-into-the-metaverse-part-2/</guid>
-      <description>Metaverse is the next Internet, that’s what we summarized it in the previous article. We discussed it’s characteristics and building blocks. In this article we will discuss some prominent use cases of the metaverse. We understand the metaverse as a trillion dollar opportunity in the next few years. It is growing at real fast speed, but without effective rules and regulations, without effective standards and practices, and we will also touch upon this concerning part of metaverse.</description>
-    </item>
-    
-    <item>
-      <title>Getting into the Metaverse — Part 1</title>
-      <link>http://localhost:1313/post/getting-into-the-metaverse-part-1/</link>
-      <pubDate>Mon, 20 Dec 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/getting-into-the-metaverse-part-1/</guid>
-      <description>Metaverse is the most enquired word after Facebook renamed itself to “Meta” to align to their metaversal vision. However, the term “metaverse” was coined 3 decade ago by Neal Stephenson, in his 1992 science-fiction novel “Snow Crash,” which envisions a virtual reality-based successor to the internet. In the novel, people use digital avatars of themselves to explore the online world, often as a way of escaping a dystopian reality.
+        </item>
+        
+        <item>
+            <title>Metaverse — a technological evolution</title>
+            <link>https://thinkuldeep.com//post/metaverse-a-technological-evolution/</link>
+            <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/metaverse-a-technological-evolution/</guid>
+            <description>Metaverse is the most talked, understood and misunderstood topic these days. In most of my sessions people ask what is the technology stack for Metaverse? what should I learn to stay relevant? etc.. I will try to cover it in this article. In my earlier article I tried to define the Metaverse, and my friend Vinodh Arumugam also attempted the same here. It is defined so loosely that every other industry today is trying to define it in their own way to suits their narrative.</description>
+        </item>
+        
+        <item>
+            <title>Getting into the Metaverse — Part 2</title>
+            <link>https://thinkuldeep.com//post/getting-into-the-metaverse-part-2/</link>
+            <pubDate>Tue, 21 Dec 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/getting-into-the-metaverse-part-2/</guid>
+            <description>Metaverse is the next Internet, that’s what we summarized it in the previous article. We discussed it’s characteristics and building blocks. In this article we will discuss some prominent use cases of the metaverse. We understand the metaverse as a trillion dollar opportunity in the next few years. It is growing at real fast speed, but without effective rules and regulations, without effective standards and practices, and we will also touch upon this concerning part of metaverse.</description>
+        </item>
+        
+        <item>
+            <title>Getting into the Metaverse — Part 1</title>
+            <link>https://thinkuldeep.com//post/getting-into-the-metaverse-part-1/</link>
+            <pubDate>Mon, 20 Dec 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/getting-into-the-metaverse-part-1/</guid>
+            <description>Metaverse is the most enquired word after Facebook renamed itself to “Meta” to align to their metaversal vision. However, the term “metaverse” was coined 3 decade ago by Neal Stephenson, in his 1992 science-fiction novel “Snow Crash,” which envisions a virtual reality-based successor to the internet. In the novel, people use digital avatars of themselves to explore the online world, often as a way of escaping a dystopian reality.
 Today, Metaverse is being considered as a $800 billion path with double digit growth in next 5 years, where industry is trying to get most out of it by co-creating with communities, and focusing on it’s cost-effective universal acceptance.</description>
-    </item>
-    
-    <item>
-      <title>Guest Lecture on &#39;Metaverse&#39; at NIT Hamirpur</title>
-      <link>http://localhost:1313/event/getting_into_metaverse_guest_lecture_nit_hamirpur/</link>
-      <pubDate>Sun, 19 Dec 2021 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/getting_into_metaverse_guest_lecture_nit_hamirpur/</guid>
-      <description>National Institute of Technology Hamirpur is organizing Tech-Nexus, an online technical carnival, as an initiative of the Institute Innovation Council, MHRD. The essence of Tech-Nexus is to unite all the technological talents across the nation and give them a platform to express their skills and ideas. This flagship event will help people to showcase their unique projects and trends in the technological field as well as the challenges encountered, and solutions adopted while developing the projects.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+        <item>
+            <title>Guest Lecture on &#39;Metaverse&#39; at NIT Hamirpur</title>
+            <link>https://thinkuldeep.com//event/getting_into_metaverse_guest_lecture_nit_hamirpur/</link>
+            <pubDate>Sun, 19 Dec 2021 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/getting_into_metaverse_guest_lecture_nit_hamirpur/</guid>
+            <description>National Institute of Technology Hamirpur is organizing Tech-Nexus, an online technical carnival, as an initiative of the Institute Innovation Council, MHRD. The essence of Tech-Nexus is to unite all the technological talents across the nation and give them a platform to express their skills and ideas. This flagship event will help people to showcase their unique projects and trends in the technological field as well as the challenges encountered, and solutions adopted while developing the projects.</description>
+        </item>
+        
+    </channel>
 </rss>

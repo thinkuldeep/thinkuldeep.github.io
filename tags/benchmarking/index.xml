@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>benchmarking on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/benchmarking/</link>
-    <description>Recent content in benchmarking on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 10 Dec 2014 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/benchmarking/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>HashMap Performance Improvement in Java 8</title>
-      <link>http://localhost:1313/post/java8-hashmap-performance-improvement/</link>
-      <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/java8-hashmap-performance-improvement/</guid>
-      <description>Hash collision degrades the performance of HashMap significantly. Java 8 has introduced a new strategy to deal with hash collisions, thus improving the performance of HashMaps. Considering this improvement in Java 8 for hash collisions, existing applications can expect performance improvements in case they are using HashMaps having large number of elements by simply upgrading to Java 8.
+    <channel>
+        <title>benchmarking on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/benchmarking/</link>
+        <description>Recent content in benchmarking on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Wed, 10 Dec 2014 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/benchmarking/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>HashMap Performance Improvement in Java 8</title>
+            <link>https://thinkuldeep.com//post/java8-hashmap-performance-improvement/</link>
+            <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/java8-hashmap-performance-improvement/</guid>
+            <description>Hash collision degrades the performance of HashMap significantly. Java 8 has introduced a new strategy to deal with hash collisions, thus improving the performance of HashMaps. Considering this improvement in Java 8 for hash collisions, existing applications can expect performance improvements in case they are using HashMaps having large number of elements by simply upgrading to Java 8.
 Earlier, when multiple keys ends up in the same bucket, then values along with their keys are placed in a linked list.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

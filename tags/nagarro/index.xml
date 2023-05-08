@@ -1,122 +1,124 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>nagarro on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/nagarro/</link>
-    <description>Recent content in nagarro on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 06 Aug 2020 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/nagarro/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Two Thoughtful Years!</title>
-      <link>http://localhost:1313/post/two-thoughtful-years/</link>
-      <pubDate>Thu, 06 Aug 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/two-thoughtful-years/</guid>
-      <description>It’s now two years since I accepted a challenging change to leave the previous organization after 13 long years, and join ThoughtWorks. Any change requires sacrifices and dedication before it becomes a positive change, but the journey becomes easy when we believe in the change and accept it. A change introduces us to a new environment and enables new thoughts, and new energy. The two years journey at ThoughtWorks is no different.</description>
-    </item>
-    
-    <item>
-      <title>Accept the change!</title>
-      <link>http://localhost:1313/post/accept_the_change/</link>
-      <pubDate>Thu, 09 Aug 2018 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/accept_the_change/</guid>
-      <description>The change is inevitable and constant; it is a part of our life. Sooner or later, we have to accept the change. 13 years ago, I joined a small IT organisation of around 100 people, as a developer. I have grown with the organisation; a 40 times growth journey. I really thank the organisation for giving me opportunity, and transforming me, what I am today. Now, the time has come to accept a change, and start a new journey.</description>
-    </item>
-    
-    <item>
-      <title>Speaker &amp; Organizer - IOTNCR - Ideation to Production Workshop</title>
-      <link>http://localhost:1313/event/iotncr-ideation-to-production/</link>
-      <pubDate>Sat, 29 Apr 2017 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/iotncr-ideation-to-production/</guid>
-      <description>Conducted a workshop on IoT with IOTNCR. I have spoken on IoT technology landscape, and many of other speaker given enlightening talks.
+    <channel>
+        <title>nagarro on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/nagarro/</link>
+        <description>Recent content in nagarro on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Thu, 06 Aug 2020 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/nagarro/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Two Thoughtful Years!</title>
+            <link>https://thinkuldeep.com//post/two-thoughtful-years/</link>
+            <pubDate>Thu, 06 Aug 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/two-thoughtful-years/</guid>
+            <description>It’s now two years since I accepted a challenging change to leave the previous organization after 13 long years, and join ThoughtWorks. Any change requires sacrifices and dedication before it becomes a positive change, but the journey becomes easy when we believe in the change and accept it. A change introduces us to a new environment and enables new thoughts, and new energy. The two years journey at ThoughtWorks is no different.</description>
+        </item>
+        
+        <item>
+            <title>Accept the change!</title>
+            <link>https://thinkuldeep.com//post/accept_the_change/</link>
+            <pubDate>Thu, 09 Aug 2018 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/accept_the_change/</guid>
+            <description>The change is inevitable and constant; it is a part of our life. Sooner or later, we have to accept the change. 13 years ago, I joined a small IT organisation of around 100 people, as a developer. I have grown with the organisation; a 40 times growth journey. I really thank the organisation for giving me opportunity, and transforming me, what I am today. Now, the time has come to accept a change, and start a new journey.</description>
+        </item>
+        
+        <item>
+            <title>Speaker &amp; Organizer - IOTNCR - Ideation to Production Workshop</title>
+            <link>https://thinkuldeep.com//event/iotncr-ideation-to-production/</link>
+            <pubDate>Sat, 29 Apr 2017 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/iotncr-ideation-to-production/</guid>
+            <description>Conducted a workshop on IoT with IOTNCR. I have spoken on IoT technology landscape, and many of other speaker given enlightening talks.
 Intro here Nagarro invites IOT enthusiasts to Ideation to Production:An Entrepreneurship Workshop,Apr 29 #IOTNCR #Nagarroiotncr https://t.co/kvQi1CARjG pic.twitter.com/QbY94UId6c
 &amp;mdash; Kuldeep Singh (@kuldeepwilldo) April 27, 2017  The talks is about  IOT fundamentals and building blocks  IOT Nodes IOT Gateway IOT Platforms Visualization (AR &amp;amp; VR) Integrations    Detailed Slides   IOT Landscape  from Kuldeep Singh  Social connect Nice to meet you all @Nagarro #iotncr #Nagarroiotncr @kanchanray @mfuloria pic.</description>
-    </item>
-    
-    <item>
-      <title>IOT 101: A primer on Internet of Things</title>
-      <link>http://localhost:1313/post/iot_simplified/</link>
-      <pubDate>Tue, 21 Feb 2017 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/iot_simplified/</guid>
-      <description>IOT 101 A Primer on Internet of Things  from Kuldeep Singh  The IoT can be described as “Connecting the Things to internet”.
+        </item>
+        
+        <item>
+            <title>IOT 101: A primer on Internet of Things</title>
+            <link>https://thinkuldeep.com//post/iot_simplified/</link>
+            <pubDate>Tue, 21 Feb 2017 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot_simplified/</guid>
+            <description>IOT 101 A Primer on Internet of Things  from Kuldeep Singh  The IoT can be described as “Connecting the Things to internet”.
 A comprehensive IoT ecosystem consists of many different parts such as electronic circuitry, sensing and acting capability, embedded systems, edge computing, network protocols, communication networks, cloud computing, big data management and analytics, business rules etcetera. This maze of varied parts can be better classified into 4 broad categories:</description>
-    </item>
-    
-    <item>
-      <title>Panelist &amp; Organizer - Nagarro LSD - Industry 4.0</title>
-      <link>http://localhost:1313/event/nagarro-lsd-industory-4-0/</link>
-      <pubDate>Thu, 19 Jan 2017 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/nagarro-lsd-industory-4-0/</guid>
-      <description>Organized Nagarro LSD event, on Industry 4.0, demonstrated usecases on connected services concept, and was a panelist for a discussion on
+        </item>
+        
+        <item>
+            <title>Panelist &amp; Organizer - Nagarro LSD - Industry 4.0</title>
+            <link>https://thinkuldeep.com//event/nagarro-lsd-industory-4-0/</link>
+            <pubDate>Thu, 19 Jan 2017 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/nagarro-lsd-industory-4-0/</guid>
+            <description>Organized Nagarro LSD event, on Industry 4.0, demonstrated usecases on connected services concept, and was a panelist for a discussion on
  Smarter Services - Predictive, Always Connected, Personalized Global experts will debate ways to create smarter services based around predictive maintenance, always connected devices and personalized solutions.
  Whether we call Industry 4.0 an evolution or a revolution, there is little doubt that it will have a disruptive impact on the manufacturing industry.</description>
-    </item>
-    
-    <item>
-      <title>IoT based insect monitoring concept</title>
-      <link>http://localhost:1313/post/iot-insect-monitoring/</link>
-      <pubDate>Fri, 16 Dec 2016 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/iot-insect-monitoring/</guid>
-      <description>Insects are the most diverse species of animals found on earth. While every species is required to maintain the balance of nature, excessive accumulation of any one type can have devastating effects on humans and environment.
+        </item>
+        
+        <item>
+            <title>IoT based insect monitoring concept</title>
+            <link>https://thinkuldeep.com//post/iot-insect-monitoring/</link>
+            <pubDate>Fri, 16 Dec 2016 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-insect-monitoring/</guid>
+            <description>Insects are the most diverse species of animals found on earth. While every species is required to maintain the balance of nature, excessive accumulation of any one type can have devastating effects on humans and environment.
 Insect management relies on the early detection and accuracy of insect population monitoring techniquessensors-12-15801. Integrated data gathering about insect population together with the ecological factors like temperature, humidity, light etc., makes it possible to execute appropriate pest control at the right time in the right place.</description>
-    </item>
-    
-    <item>
-      <title>Smart bottle IOT concept</title>
-      <link>http://localhost:1313/post/building-smart-bottle-concept/</link>
-      <pubDate>Thu, 05 May 2016 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/building-smart-bottle-concept/</guid>
-      <description>The rapid growth of Internet of Things (IoT) and miniature wearable biosensors have generated new opportunities for personalized eHealth and mHealth services. We present a case study of an intelligent cap that can measure the amount of water in the bottle, monitor activity of opening or closing of bottle cap. This paper presents a Proof of Concept implementation for such a connected smart bottle that sends measurements to the IoT Platform.</description>
-    </item>
-    
-    <item>
-      <title>Exploring AndroidThings IoT</title>
-      <link>http://localhost:1313/post/exploring-android-things/</link>
-      <pubDate>Sun, 10 Apr 2016 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/exploring-android-things/</guid>
-      <description>Android Things, an android based embedded operating system, is the new “it” thing in the Internet of Things(IOT) space. Developed by Google under the codename “Brillo, a.k.a. Project Brillo”, it takes the usual Android development stack—Android Studio, the official SDK, and Google Play Services—and applies it to the IOT.
+        </item>
+        
+        <item>
+            <title>Smart bottle IOT concept</title>
+            <link>https://thinkuldeep.com//post/building-smart-bottle-concept/</link>
+            <pubDate>Thu, 05 May 2016 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/building-smart-bottle-concept/</guid>
+            <description>The rapid growth of Internet of Things (IoT) and miniature wearable biosensors have generated new opportunities for personalized eHealth and mHealth services. We present a case study of an intelligent cap that can measure the amount of water in the bottle, monitor activity of opening or closing of bottle cap. This paper presents a Proof of Concept implementation for such a connected smart bottle that sends measurements to the IoT Platform.</description>
+        </item>
+        
+        <item>
+            <title>Exploring AndroidThings IoT</title>
+            <link>https://thinkuldeep.com//post/exploring-android-things/</link>
+            <pubDate>Sun, 10 Apr 2016 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/exploring-android-things/</guid>
+            <description>Android Things, an android based embedded operating system, is the new “it” thing in the Internet of Things(IOT) space. Developed by Google under the codename “Brillo, a.k.a. Project Brillo”, it takes the usual Android development stack—Android Studio, the official SDK, and Google Play Services—and applies it to the IOT.
 Google formally took the veils off of Brillo at its I/O 2015 conference. It is aimed to be used with low-power and memory constrained IOT devices, allowing the developers to build a smart device using Android APIs and Google Services.</description>
-    </item>
-    
-    <item>
-      <title>SIGFOX - An Introduction</title>
-      <link>http://localhost:1313/post/sigfox-an-introduction/</link>
-      <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/sigfox-an-introduction/</guid>
-      <description>SIGFOX is providing a communication solution dedicated to the Internet of Things
+        </item>
+        
+        <item>
+            <title>SIGFOX - An Introduction</title>
+            <link>https://thinkuldeep.com//post/sigfox-an-introduction/</link>
+            <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/sigfox-an-introduction/</guid>
+            <description>SIGFOX is providing a communication solution dedicated to the Internet of Things
 Dedicated to the IOT means:
  Simplicity: No configuration, no pairing, no signaling Autonomy: Very low energy consumption, allowing years of autonomy on battery without maintenance Small messages: No large assets or multimedia, only small messages  It is a LPWA (Low-Power Wide-Area) network, currently operating in 20 countries in Europe, Americas and Asia/Pacific. Communications over the SIGFOX network are bi-directional: uplink from device &amp;amp; downlink to the device.</description>
-    </item>
-    
-    <item>
-      <title>Contributor - JavaOne - Rapid Modernization to Java8</title>
-      <link>http://localhost:1313/event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</link>
-      <pubDate>Wed, 01 Oct 2014 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</guid>
-      <description>Presented At: G. Venkat, Senior Vice President of Technology &amp;amp; Solutions, at Nagarro and I have spoken at the Oracle OpenWorld / JavaOne conference on Wednesday, October 1, 2014, form 10:00 – 11:00 a.m., Pacific Time, at Ballroom 6 in the Hilton San Francisco at Union Square.
+        </item>
+        
+        <item>
+            <title>Contributor - JavaOne - Rapid Modernization to Java8</title>
+            <link>https://thinkuldeep.com//event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</link>
+            <pubDate>Wed, 01 Oct 2014 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</guid>
+            <description>Presented At: G. Venkat, Senior Vice President of Technology &amp;amp; Solutions, at Nagarro and I have spoken at the Oracle OpenWorld / JavaOne conference on Wednesday, October 1, 2014, form 10:00 – 11:00 a.m., Pacific Time, at Ballroom 6 in the Hilton San Francisco at Union Square.
 I have supported Venkat and presented the JMod tool demo with him.
 Here are some coverages - https://www.nagarro.com/en/news-events/nagarro-has-java-8-covered-at-oracle-open-world I have lead the Nagarro Stall and showcased the JMod demo to 300+ visitors.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/about/</guid>
-      <description>Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.
+        </item>
+        
+        <item>
+            <title>About</title>
+            <link>https://thinkuldeep.com//about/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/</guid>
+            <description>Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.
 Kuldeep has developed innovative solutions that impact effectiveness and efficiency across domains, right from manufacturing to aviation, commodity trading and more. Kuldeep also invests time into evangelizing concepts like connected worker, installation assistant, remote expert, indoor positioning and digital twin, using smart glasses, IoT, blockchain and ARVR technologies within the CXO circles.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

@@ -1,54 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>practices on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/practices/</link>
-    <description>Recent content in practices on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 22 May 2021 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/practices/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Discussion - Navigating the new normal</title>
-      <link>http://localhost:1313/event/thevrara-navigating-new-normal/</link>
-      <pubDate>Sat, 22 May 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/thevrara-navigating-new-normal/</guid>
-      <description>The world is finding the ways to get out of Covid impact, some are on recovery path and some are still bettling it. At ThoughtWorks, we have recently published our insights on navigating the new normal with augmented reality. Members of Communities of Practice of The VRARA come together to discuss the topic and share the opinion on way forward for XR.
+    <channel>
+        <title>practices on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/practices/</link>
+        <description>Recent content in practices on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sat, 22 May 2021 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/practices/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Discussion - Navigating the new normal</title>
+            <link>https://thinkuldeep.com//event/thevrara-navigating-new-normal/</link>
+            <pubDate>Sat, 22 May 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/thevrara-navigating-new-normal/</guid>
+            <description>The world is finding the ways to get out of Covid impact, some are on recovery path and some are still bettling it. At ThoughtWorks, we have recently published our insights on navigating the new normal with augmented reality. Members of Communities of Practice of The VRARA come together to discuss the topic and share the opinion on way forward for XR.
 I presented thoughtworks insights to other renowned industry leaders and VRARA members like Pradeep Sharma, Swarup Choudhury and Rajiv Madane, and technology exports like Pradeep Naik and Dhruv.</description>
-    </item>
-    
-    <item>
-      <title>Speaker - AT2020 - Agility in Enterprise XR</title>
-      <link>http://localhost:1313/event/at_2020_agilexr/</link>
-      <pubDate>Sat, 06 Mar 2021 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/at_2020_agilexr/</guid>
-      <description>Enterprise XR is gaining good traction, and software development’s best practices like Agile principles really matters due to multitude of tooling and tech stacks used for Enterprise XR solutions
+        </item>
+        
+        <item>
+            <title>Speaker - AT2020 - Agility in Enterprise XR</title>
+            <link>https://thinkuldeep.com//event/at_2020_agilexr/</link>
+            <pubDate>Sat, 06 Mar 2021 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/at_2020_agilexr/</guid>
+            <description>Enterprise XR is gaining good traction, and software development’s best practices like Agile principles really matters due to multitude of tooling and tech stacks used for Enterprise XR solutions
 Enterprises do face multiple challenges with the XR development lifecycle. One of them is the automation of testing XR applications. In response to this gap, ThoughtWorks has developed Arium – an open-source, lightweight, extensible, platform-agnostic framework that helps write automation tests that are built specifically for XR Applications.</description>
-    </item>
-    
-    <item>
-      <title>eXtended Reality for Enterprise - a PODCast by XROM</title>
-      <link>http://localhost:1313/event/xrom-podcast-enterprise-xr/</link>
-      <pubDate>Sun, 15 Nov 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/xrom-podcast-enterprise-xr/</guid>
-      <description>Interesting conversation on eXtended Reality (XR) with Eddie Avil, starting from my background, how I landed up in the XR space and where are we heading…
+        </item>
+        
+        <item>
+            <title>eXtended Reality for Enterprise - a PODCast by XROM</title>
+            <link>https://thinkuldeep.com//event/xrom-podcast-enterprise-xr/</link>
+            <pubDate>Sun, 15 Nov 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/xrom-podcast-enterprise-xr/</guid>
+            <description>Interesting conversation on eXtended Reality (XR) with Eddie Avil, starting from my background, how I landed up in the XR space and where are we heading…
 XROM PODCast  XROM PODCast is a youtube channel maintained by serial entrepreneur, dreamer &amp;amp; a believer Mr. Eddie Avil. This channel has number of interesting conversations with industry leaders in the emerging technology space. Eddie Avil, also runs a marketplace for AR VR hardware and service, visit here https://www.</description>
-    </item>
-    
-    <item>
-      <title>Webinar - Essentials of XR Product Design and Development</title>
-      <link>http://localhost:1313/event/thevrara-ppd-cop-webinar/</link>
-      <pubDate>Sat, 17 Oct 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/thevrara-ppd-cop-webinar/</guid>
-      <description>The VRAR Association&amp;rsquo;s Product Design and Development (PDD) Communities of Practice (COP) brings its first webinar on &amp;ldquo;Essentials of XR Product Design and Development&amp;rdquo;.
+        </item>
+        
+        <item>
+            <title>Webinar - Essentials of XR Product Design and Development</title>
+            <link>https://thinkuldeep.com//event/thevrara-ppd-cop-webinar/</link>
+            <pubDate>Sat, 17 Oct 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/thevrara-ppd-cop-webinar/</guid>
+            <description>The VRAR Association&amp;rsquo;s Product Design and Development (PDD) Communities of Practice (COP) brings its first webinar on &amp;ldquo;Essentials of XR Product Design and Development&amp;rdquo;.
 I will be sharing the stage with industry leader Mr. Pradeep Khanna, VR AR Association, and XR innovator Mr. Raju Kandaswamy, ThoughtWorks.
 Spread the words  Registration Only Please register at the below link, and save the date Oct 17, 2020, 4:30 PM IST.
 https://www.brighttalk.com/webcast/14711/445904
 The webinar will be available at https://www.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

@@ -1,32 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>spatialweb on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/spatialweb/</link>
-    <description>Recent content in spatialweb on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 22 Oct 2022 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/spatialweb/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Guest Lecture on &#39;SpatialWeb and Web3.0&#39; at NIT Calicut</title>
-      <link>http://localhost:1313/event/guest_lecture_nit_calicut/</link>
-      <pubDate>Sat, 22 Oct 2022 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/guest_lecture_nit_calicut/</guid>
-      <description>National Institute of Technology Calicut is organizing Tathva, Asia&amp;rsquo;s largest student-run Tech Startup Expo. Tathva is a techno-management fest of NIT Calicut is one of south India&amp;rsquo;s biggest scholastic endeavours. Since its inception in 2000, this annual symposium has known only growth and has flourished into one of the few promising enterprises the nation has witnessed. Pushing the barriers year after year, Tathva aims at providing a plethora of platforms to the intrigued technical heads that arrive at this fiesta with an array of events and workshops, to sharpen their skills and widen their knowledge quotient.</description>
-    </item>
-    
-    <item>
-      <title>Speaker - Spatial Web - Life beyond Keyboard and Screen</title>
-      <link>http://localhost:1313/event/gids_2020_blr_spatialweb/</link>
-      <pubDate>Fri, 20 Mar 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/gids_2020_blr_spatialweb/</guid>
-      <description>New Date is still to be announced.
+    <channel>
+        <title>spatialweb on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/spatialweb/</link>
+        <description>Recent content in spatialweb on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sat, 22 Oct 2022 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/spatialweb/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Guest Lecture on &#39;SpatialWeb and Web3.0&#39; at NIT Calicut</title>
+            <link>https://thinkuldeep.com//event/guest_lecture_nit_calicut/</link>
+            <pubDate>Sat, 22 Oct 2022 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/guest_lecture_nit_calicut/</guid>
+            <description>National Institute of Technology Calicut is organizing Tathva, Asia&amp;rsquo;s largest student-run Tech Startup Expo. Tathva is a techno-management fest of NIT Calicut is one of south India&amp;rsquo;s biggest scholastic endeavours. Since its inception in 2000, this annual symposium has known only growth and has flourished into one of the few promising enterprises the nation has witnessed. Pushing the barriers year after year, Tathva aims at providing a plethora of platforms to the intrigued technical heads that arrive at this fiesta with an array of events and workshops, to sharpen their skills and widen their knowledge quotient.</description>
+        </item>
+        
+        <item>
+            <title>Speaker - Spatial Web - Life beyond Keyboard and Screen</title>
+            <link>https://thinkuldeep.com//event/gids_2020_blr_spatialweb/</link>
+            <pubDate>Fri, 20 Mar 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/gids_2020_blr_spatialweb/</guid>
+            <description>New Date is still to be announced.
 Get ready: Great International Developer Summit is re-scheduled and now virtual summit will be organized.
 Come and talk about the life beyond keyboard and screens, spatial web is taking over get ready&amp;hellip;
 The talk is about Spatial Web is an umbrella term for the next generation web technologies that will transform every aspect of our life. It will connect the human and machines seamlessly such that the difference between physical and virtual will disappear.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

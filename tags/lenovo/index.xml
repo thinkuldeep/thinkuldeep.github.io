@@ -1,51 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>lenovo on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/lenovo/</link>
-    <description>Recent content in lenovo on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 19 Apr 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/lenovo/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Exploring the Potential of XR Technology for Virtual Decoration</title>
-      <link>http://localhost:1313/post/xr-virtual-decoration/</link>
-      <pubDate>Wed, 19 Apr 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/xr-virtual-decoration/</guid>
-      <description>In recent years, XR technology has revolutionized the way we decorate our physical environments. By utilizing AI and computer vision, XR can scan and track real-world surroundings, recognizing and remembering images and objects to enable the addition of virtual content. This technology can store and recall virtual decorations, making them visible every time someone enters the environment. While image matching is not a new concept, XR platforms like Vuforia have already implemented various mobile XR examples.</description>
-    </item>
-    
-    <item>
-      <title>Takeaways from Lenovo Techworld India Edition</title>
-      <link>http://localhost:1313/event/lenovo-techworld-india-2023/</link>
-      <pubDate>Thu, 16 Mar 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/lenovo-techworld-india-2023/</guid>
-      <description>Lenovo, the global technology leader, hosted the India edition of its flagship event, Tech World , on March 16th, 2023. Industry leaders come together and peep into the future of smarter technology, that is empowering a changing world through innovative products, solutions, and witness technological solutions.
+    <channel>
+        <title>lenovo on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/lenovo/</link>
+        <description>Recent content in lenovo on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Wed, 19 Apr 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/lenovo/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Exploring the Potential of XR Technology for Virtual Decoration</title>
+            <link>https://thinkuldeep.com//post/xr-virtual-decoration/</link>
+            <pubDate>Wed, 19 Apr 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/xr-virtual-decoration/</guid>
+            <description>In recent years, XR technology has revolutionized the way we decorate our physical environments. By utilizing AI and computer vision, XR can scan and track real-world surroundings, recognizing and remembering images and objects to enable the addition of virtual content. This technology can store and recall virtual decorations, making them visible every time someone enters the environment. While image matching is not a new concept, XR platforms like Vuforia have already implemented various mobile XR examples.</description>
+        </item>
+        
+        <item>
+            <title>Takeaways from Lenovo Techworld India Edition</title>
+            <link>https://thinkuldeep.com//event/lenovo-techworld-india-2023/</link>
+            <pubDate>Thu, 16 Mar 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/lenovo-techworld-india-2023/</guid>
+            <description>Lenovo, the global technology leader, hosted the India edition of its flagship event, Tech World , on March 16th, 2023. Industry leaders come together and peep into the future of smarter technology, that is empowering a changing world through innovative products, solutions, and witness technological solutions.
 I get a chance to join the event, and meet and listen to the industry leaders, experience lenovo’s innovative product line, and see breakthroughs in india shaping up.</description>
-    </item>
-    
-    <item>
-      <title>eXtending the Reality of Museum with XR</title>
-      <link>http://localhost:1313/post/extending-reality-of-museum-wtih-xr/</link>
-      <pubDate>Wed, 10 Aug 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/extending-reality-of-museum-wtih-xr/</guid>
-      <description>eXtended Reality (XR/AR/VR) technology is changing the reality of almost every industry today by enhancing user experiences. XR adoption in the museum industry is also quite natural, let&amp;rsquo;s understand how it is shaping up the Museums of Future.
+        </item>
+        
+        <item>
+            <title>eXtending the Reality of Museum with XR</title>
+            <link>https://thinkuldeep.com//post/extending-reality-of-museum-wtih-xr/</link>
+            <pubDate>Wed, 10 Aug 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/extending-reality-of-museum-wtih-xr/</guid>
+            <description>eXtended Reality (XR/AR/VR) technology is changing the reality of almost every industry today by enhancing user experiences. XR adoption in the museum industry is also quite natural, let&amp;rsquo;s understand how it is shaping up the Museums of Future.
 Museum is a place that displays artifacts from history, culture, science, art and more. As per International Council of Museums (ICOM), there are around 55000 museums worldwide designed with different themes serving different types of artifacts.</description>
-    </item>
-    
-    <item>
-      <title>Making pandemic-proof workplaces a reality with XR</title>
-      <link>http://localhost:1313/post/making-pandemic-proof-workplaces-a-reality-xr/</link>
-      <pubDate>Tue, 27 Apr 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/making-pandemic-proof-workplaces-a-reality-xr/</guid>
-      <description>The IMF called the COVID-19 crisis ‘unlike any other,’ where the global growth contraction for 2020 was estimated at -3.5 percent. Image source : Using Lenovo ThinkReality A6 Glass at Workplace
+        </item>
+        
+        <item>
+            <title>Making pandemic-proof workplaces a reality with XR</title>
+            <link>https://thinkuldeep.com//post/making-pandemic-proof-workplaces-a-reality-xr/</link>
+            <pubDate>Tue, 27 Apr 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/making-pandemic-proof-workplaces-a-reality-xr/</guid>
+            <description>The IMF called the COVID-19 crisis ‘unlike any other,’ where the global growth contraction for 2020 was estimated at -3.5 percent. Image source : Using Lenovo ThinkReality A6 Glass at Workplace
 Here is a quick overview of the biggest challenges that CXOs (and their businesses) have faced over the recent past, to better illustrate how the pandemic is affecting businesses:
  Businesses are grappling with slowing global supply chains Sales and production growth is further impacted with a subsequent dive in opportunities for partnerships and growth The flattened or negative growth market result in less manpower and resources to work with, further affecting productivity  ​The five biggest challenges that CXOs are facing today</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

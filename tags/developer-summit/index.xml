@@ -1,32 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>developer-summit on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/developer-summit/</link>
-    <description>Recent content in developer-summit on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 05 Nov 2020 06:30:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/developer-summit/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Speaker - GIDS - Extended Machine Learning with XR</title>
-      <link>http://localhost:1313/event/gids_2020_xr4ml/</link>
-      <pubDate>Thu, 05 Nov 2020 06:30:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/gids_2020_xr4ml/</guid>
-      <description>Extended Reality is not only meant for humans, they can very well serve machines by producing Digital twins. Digital twins encapsulate real world elements with all important physics characteristics enabling the researcher to produce large volume of training data needed for reinforment learning and CNN based deep learning algorithms. Extended Reality environments are mature today and are capable of producing photorealistic rendering and physics emulation of real world just by using digital twins.</description>
-    </item>
-    
-    <item>
-      <title>Speaker - Spatial Web - Life beyond Keyboard and Screen</title>
-      <link>http://localhost:1313/event/gids_2020_blr_spatialweb/</link>
-      <pubDate>Fri, 20 Mar 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/gids_2020_blr_spatialweb/</guid>
-      <description>New Date is still to be announced.
+    <channel>
+        <title>developer-summit on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/developer-summit/</link>
+        <description>Recent content in developer-summit on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Thu, 05 Nov 2020 06:30:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/developer-summit/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Speaker - GIDS - Extended Machine Learning with XR</title>
+            <link>https://thinkuldeep.com//event/gids_2020_xr4ml/</link>
+            <pubDate>Thu, 05 Nov 2020 06:30:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/gids_2020_xr4ml/</guid>
+            <description>Extended Reality is not only meant for humans, they can very well serve machines by producing Digital twins. Digital twins encapsulate real world elements with all important physics characteristics enabling the researcher to produce large volume of training data needed for reinforment learning and CNN based deep learning algorithms. Extended Reality environments are mature today and are capable of producing photorealistic rendering and physics emulation of real world just by using digital twins.</description>
+        </item>
+        
+        <item>
+            <title>Speaker - Spatial Web - Life beyond Keyboard and Screen</title>
+            <link>https://thinkuldeep.com//event/gids_2020_blr_spatialweb/</link>
+            <pubDate>Fri, 20 Mar 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/gids_2020_blr_spatialweb/</guid>
+            <description>New Date is still to be announced.
 Get ready: Great International Developer Summit is re-scheduled and now virtual summit will be organized.
 Come and talk about the life beyond keyboard and screens, spatial web is taking over get ready&amp;hellip;
 The talk is about Spatial Web is an umbrella term for the next generation web technologies that will transform every aspect of our life. It will connect the human and machines seamlessly such that the difference between physical and virtual will disappear.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

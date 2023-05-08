@@ -1,38 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>sih on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/sih/</link>
-    <description>Recent content in sih on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 12 Aug 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/sih/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Judging the Smart India Hackathon Juniors 2022</title>
-      <link>http://localhost:1313/event/sih-2022/</link>
-      <pubDate>Fri, 12 Aug 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/sih-2022/</guid>
-      <description>After a wonderful experience of participating as a judge and mentor at Smart India Hackathon 2019 and 2020, I am delighted to share that I got a chance to meet and judge India&amp;rsquo;s young winners and innovators at Grand Finale of Smart India Hackathon Juniors 2022, Smart India Hackathon 2022 is a nationwide initiative to provide students a platform to solve some of the pressing problems we face in our daily lives, and thus inculcate a culture of product innovation and a mindset of problem solving.</description>
-    </item>
-    
-    <item>
-      <title>Judge and Mentor -  Smart India Hackathon 2020</title>
-      <link>http://localhost:1313/event/sih-2020/</link>
-      <pubDate>Mon, 03 Aug 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/sih-2020/</guid>
-      <description>After a wonderful experience of participating as a judge and mentor at Smart India Hackathon 2019, I am delighted to share that I again got a chance to meet and judge India&amp;rsquo;s young winners and innovators at Grand Finale of Smart India Hackathon 2020, world’s biggest open innovation modal, organized by AICTE and MHRD, Govt of India. This time it is no more a hackathon but a hackathon of hackathons — 4 Lacks students, 1500 small hackathons, 40 Nodal centers, around 2000 mentors and 1000 evaluators, 11000 finalists and more…</description>
-    </item>
-    
-    <item>
-      <title>Judge and Mentor -  Smart India Hackathon 2019</title>
-      <link>http://localhost:1313/event/sih_2019_an_experience/</link>
-      <pubDate>Thu, 07 Mar 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/sih_2019_an_experience/</guid>
-      <description>Recently got a chance to judge and mentor india&amp;rsquo;s young innovators at Smart India Hackathon 2019, world&amp;rsquo;s largest hackathon with 11000 shortlisted participants, hosted by 48 centers across India. It was organized by AICTE and MHRD, Govt of India. I was invited to Judge the event at Panipat Institute of Engineering &amp;amp; Technology, Panipat. I am delighted to contribute in the journey of India&amp;rsquo;s transformation, and see innovative ideas from the new generation.</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>sih on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/sih/</link>
+        <description>Recent content in sih on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Fri, 12 Aug 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/sih/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Judging the Smart India Hackathon Juniors 2022</title>
+            <link>https://thinkuldeep.com//event/sih-2022/</link>
+            <pubDate>Fri, 12 Aug 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/sih-2022/</guid>
+            <description>After a wonderful experience of participating as a judge and mentor at Smart India Hackathon 2019 and 2020, I am delighted to share that I got a chance to meet and judge India&amp;rsquo;s young winners and innovators at Grand Finale of Smart India Hackathon Juniors 2022, Smart India Hackathon 2022 is a nationwide initiative to provide students a platform to solve some of the pressing problems we face in our daily lives, and thus inculcate a culture of product innovation and a mindset of problem solving.</description>
+        </item>
+        
+        <item>
+            <title>Judge and Mentor -  Smart India Hackathon 2020</title>
+            <link>https://thinkuldeep.com//event/sih-2020/</link>
+            <pubDate>Mon, 03 Aug 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/sih-2020/</guid>
+            <description>After a wonderful experience of participating as a judge and mentor at Smart India Hackathon 2019, I am delighted to share that I again got a chance to meet and judge India&amp;rsquo;s young winners and innovators at Grand Finale of Smart India Hackathon 2020, world’s biggest open innovation modal, organized by AICTE and MHRD, Govt of India. This time it is no more a hackathon but a hackathon of hackathons — 4 Lacks students, 1500 small hackathons, 40 Nodal centers, around 2000 mentors and 1000 evaluators, 11000 finalists and more…</description>
+        </item>
+        
+        <item>
+            <title>Judge and Mentor -  Smart India Hackathon 2019</title>
+            <link>https://thinkuldeep.com//event/sih_2019_an_experience/</link>
+            <pubDate>Thu, 07 Mar 2019 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/sih_2019_an_experience/</guid>
+            <description>Recently got a chance to judge and mentor india&amp;rsquo;s young innovators at Smart India Hackathon 2019, world&amp;rsquo;s largest hackathon with 11000 shortlisted participants, hosted by 48 centers across India. It was organized by AICTE and MHRD, Govt of India. I was invited to Judge the event at Panipat Institute of Engineering &amp;amp; Technology, Panipat. I am delighted to contribute in the journey of India&amp;rsquo;s transformation, and see innovative ideas from the new generation.</description>
+        </item>
+        
+    </channel>
 </rss>

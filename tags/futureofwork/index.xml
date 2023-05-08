@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>futureofwork on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/futureofwork/</link>
-    <description>Recent content in futureofwork on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 01 May 2021 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/futureofwork/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Navigating the new normal with augmented reality</title>
-      <link>http://localhost:1313/post/navigating-new-normal-xr/</link>
-      <pubDate>Sat, 01 May 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/navigating-new-normal-xr/</guid>
-      <description>This article is originally published at Thoughtworks Insights, co-authored with Aileen Pistorius, Julie Woods-Moss and Anna Bäckström.
+    <channel>
+        <title>futureofwork on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/futureofwork/</link>
+        <description>Recent content in futureofwork on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sat, 01 May 2021 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/futureofwork/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Navigating the new normal with augmented reality</title>
+            <link>https://thinkuldeep.com//post/navigating-new-normal-xr/</link>
+            <pubDate>Sat, 01 May 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/navigating-new-normal-xr/</guid>
+            <description>This article is originally published at Thoughtworks Insights, co-authored with Aileen Pistorius, Julie Woods-Moss and Anna Bäckström.
 Time was when virtual and augmented reality was regarded as simply gaming technology — the preserve of fun, consumer applications with little serious consideration for the enterprise. But that’s in the past, in the post-COVID world, remote working will be ubiquitous — forcing enterprise leaders to find innovative ways to improve collaboration. This, it transpires, is the sweet spot for what’s termed enterprise XR (extended reality) — a group of related technologies that enable us to blend the physical and digital worlds.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

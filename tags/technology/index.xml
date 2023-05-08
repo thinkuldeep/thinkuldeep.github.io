@@ -1,780 +1,782 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>technology on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/technology/</link>
-    <description>Recent content in technology on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 19 Apr 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Exploring the Potential of XR Technology for Virtual Decoration</title>
-      <link>http://localhost:1313/post/xr-virtual-decoration/</link>
-      <pubDate>Wed, 19 Apr 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/xr-virtual-decoration/</guid>
-      <description>In recent years, XR technology has revolutionized the way we decorate our physical environments. By utilizing AI and computer vision, XR can scan and track real-world surroundings, recognizing and remembering images and objects to enable the addition of virtual content. This technology can store and recall virtual decorations, making them visible every time someone enters the environment. While image matching is not a new concept, XR platforms like Vuforia have already implemented various mobile XR examples.</description>
-    </item>
-    
-    <item>
-      <title>Speaker - Agility Today Fest 2023 - Generative AI and XR</title>
-      <link>http://localhost:1313/event/agiletoday_2023_ael/</link>
-      <pubDate>Sat, 25 Mar 2023 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/agiletoday_2023_ael/</guid>
-      <description>Agility Today is a 2 days annual UnConference, to meet Agility needs of industry, gathered over past few years via meetups, Conferences and Webinar. This UnConference intends to give you best of Agile Psyche (Mindset Culture and Practice) and Geekery (Engineering, Tools and DevOps). This year in Agility Today Fest 2023 there are couple of programs.
+    <channel>
+        <title>technology on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/technology/</link>
+        <description>Recent content in technology on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Wed, 19 Apr 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Exploring the Potential of XR Technology for Virtual Decoration</title>
+            <link>https://thinkuldeep.com//post/xr-virtual-decoration/</link>
+            <pubDate>Wed, 19 Apr 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/xr-virtual-decoration/</guid>
+            <description>In recent years, XR technology has revolutionized the way we decorate our physical environments. By utilizing AI and computer vision, XR can scan and track real-world surroundings, recognizing and remembering images and objects to enable the addition of virtual content. This technology can store and recall virtual decorations, making them visible every time someone enters the environment. While image matching is not a new concept, XR platforms like Vuforia have already implemented various mobile XR examples.</description>
+        </item>
+        
+        <item>
+            <title>Speaker - Agility Today Fest 2023 - Generative AI and XR</title>
+            <link>https://thinkuldeep.com//event/agiletoday_2023_ael/</link>
+            <pubDate>Sat, 25 Mar 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/agiletoday_2023_ael/</guid>
+            <description>Agility Today is a 2 days annual UnConference, to meet Agility needs of industry, gathered over past few years via meetups, Conferences and Webinar. This UnConference intends to give you best of Agile Psyche (Mindset Culture and Practice) and Geekery (Engineering, Tools and DevOps). This year in Agility Today Fest 2023 there are couple of programs.
 I am speaking to at Agile Engineering Lab (Technical Agility &amp;amp; Engineering Excellence), on topic of Scaling content generation for XR using AI.</description>
-    </item>
-    
-    <item>
-      <title>AI-Assisted Content Generation Pipeline for XR</title>
-      <link>http://localhost:1313/post/ai-generated-xr-content/</link>
-      <pubDate>Tue, 24 Jan 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/ai-generated-xr-content/</guid>
-      <description>Recently, I and Raju Kandaswamy talked at Thoughtworks XConf on how AI will play its role in content generation. We are already seeing ChatGPT, as the next revolution in textual content generation space. Let&amp;rsquo;s understand what is the need of such content generation revolution of XR space.
+        </item>
+        
+        <item>
+            <title>AI-Assisted Content Generation Pipeline for XR</title>
+            <link>https://thinkuldeep.com//post/ai-generated-xr-content/</link>
+            <pubDate>Tue, 24 Jan 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/ai-generated-xr-content/</guid>
+            <description>Recently, I and Raju Kandaswamy talked at Thoughtworks XConf on how AI will play its role in content generation. We are already seeing ChatGPT, as the next revolution in textual content generation space. Let&amp;rsquo;s understand what is the need of such content generation revolution of XR space.
 With games like Second Life and the impending mainstreaming of the Metaverse, more and more individuals are embracing a virtual reality that, in some ways, mirrors our own real world and, in other ways, lets us live in our imagination or apply them on the real word.</description>
-    </item>
-    
-    <item>
-      <title>Guest Lecture on &#39;Forward Looking Reflection&#39; at DesignersX</title>
-      <link>http://localhost:1313/post/forward-looking-reflection/</link>
-      <pubDate>Sat, 31 Dec 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/forward-looking-reflection/</guid>
-      <description>Every end is a beginning, if there is no end, then there is no beginning, just like the year 2023 can only start after the end of year 2022. So this is the right time to reflect and plan for a better beginning. A “Forward Looking Reflection” was my topic of a guest lecture at DesignersX at their year end event. We discussed challenges of software development, and how the industry is trying to solve them.</description>
-    </item>
-    
-    <item>
-      <title>Corporate lessons from a Home Makeover</title>
-      <link>http://localhost:1313/post/corporate-lessons-from-a-home-makeover/</link>
-      <pubDate>Thu, 17 Nov 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/corporate-lessons-from-a-home-makeover/</guid>
-      <description>Recently I shared an article on my life lessons from my father’s work life, and mentioned that I dedicated a new home to my father’s work life, also promised that I will share some corporate lessons learned from making-over this new home. I can well relate my takeaways to the corporate experiences such as vendor selection, negotiation, solutioning, estimation, prioritization, agility and being a trusted partner and many more..
+        </item>
+        
+        <item>
+            <title>Guest Lecture on &#39;Forward Looking Reflection&#39; at DesignersX</title>
+            <link>https://thinkuldeep.com//post/forward-looking-reflection/</link>
+            <pubDate>Sat, 31 Dec 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/forward-looking-reflection/</guid>
+            <description>Every end is a beginning, if there is no end, then there is no beginning, just like the year 2023 can only start after the end of year 2022. So this is the right time to reflect and plan for a better beginning. A “Forward Looking Reflection” was my topic of a guest lecture at DesignersX at their year end event. We discussed challenges of software development, and how the industry is trying to solve them.</description>
+        </item>
+        
+        <item>
+            <title>Corporate lessons from a Home Makeover</title>
+            <link>https://thinkuldeep.com//post/corporate-lessons-from-a-home-makeover/</link>
+            <pubDate>Thu, 17 Nov 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/corporate-lessons-from-a-home-makeover/</guid>
+            <description>Recently I shared an article on my life lessons from my father’s work life, and mentioned that I dedicated a new home to my father’s work life, also promised that I will share some corporate lessons learned from making-over this new home. I can well relate my takeaways to the corporate experiences such as vendor selection, negotiation, solutioning, estimation, prioritization, agility and being a trusted partner and many more..
  As I keep saying “we learn every day in all situations of life, good or bad”</description>
-    </item>
-    
-    <item>
-      <title>Podcast : XR in practice: the engineering challenges of extending reality</title>
-      <link>http://localhost:1313/post/xr-in-practice-engineering-challenges-extending-reality/</link>
-      <pubDate>Thu, 22 Sep 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/xr-in-practice-engineering-challenges-extending-reality/</guid>
-      <description>Brief summary Extended Reality technology — XR — has had a lot of hype in recent years thanks to the concept of the metaverse. But bold visions of the future can obscure the reality of what engineers and organizations are doing today.
+        </item>
+        
+        <item>
+            <title>Podcast : XR in practice: the engineering challenges of extending reality</title>
+            <link>https://thinkuldeep.com//post/xr-in-practice-engineering-challenges-extending-reality/</link>
+            <pubDate>Thu, 22 Sep 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/xr-in-practice-engineering-challenges-extending-reality/</guid>
+            <description>Brief summary Extended Reality technology — XR — has had a lot of hype in recent years thanks to the concept of the metaverse. But bold visions of the future can obscure the reality of what engineers and organizations are doing today.
 In this episode of the Technology Podcast, the host Scott Shaw and Birgitta Boeckeler are joined by Cam Jackson and Kuldeep Singh to discuss the XR work Thoughtworks has been doing with clients.</description>
-    </item>
-    
-    <item>
-      <title>eXtending the Reality of Museum with XR</title>
-      <link>http://localhost:1313/post/extending-reality-of-museum-wtih-xr/</link>
-      <pubDate>Wed, 10 Aug 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/extending-reality-of-museum-wtih-xr/</guid>
-      <description>eXtended Reality (XR/AR/VR) technology is changing the reality of almost every industry today by enhancing user experiences. XR adoption in the museum industry is also quite natural, let&amp;rsquo;s understand how it is shaping up the Museums of Future.
+        </item>
+        
+        <item>
+            <title>eXtending the Reality of Museum with XR</title>
+            <link>https://thinkuldeep.com//post/extending-reality-of-museum-wtih-xr/</link>
+            <pubDate>Wed, 10 Aug 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/extending-reality-of-museum-wtih-xr/</guid>
+            <description>eXtended Reality (XR/AR/VR) technology is changing the reality of almost every industry today by enhancing user experiences. XR adoption in the museum industry is also quite natural, let&amp;rsquo;s understand how it is shaping up the Museums of Future.
 Museum is a place that displays artifacts from history, culture, science, art and more. As per International Council of Museums (ICOM), there are around 55000 museums worldwide designed with different themes serving different types of artifacts.</description>
-    </item>
-    
-    <item>
-      <title>Metaverse — a technological evolution</title>
-      <link>http://localhost:1313/post/metaverse-a-technological-evolution/</link>
-      <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/metaverse-a-technological-evolution/</guid>
-      <description>Metaverse is the most talked, understood and misunderstood topic these days. In most of my sessions people ask what is the technology stack for Metaverse? what should I learn to stay relevant? etc.. I will try to cover it in this article. In my earlier article I tried to define the Metaverse, and my friend Vinodh Arumugam also attempted the same here. It is defined so loosely that every other industry today is trying to define it in their own way to suits their narrative.</description>
-    </item>
-    
-    <item>
-      <title>Getting into the Metaverse — Part 2</title>
-      <link>http://localhost:1313/post/getting-into-the-metaverse-part-2/</link>
-      <pubDate>Tue, 21 Dec 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/getting-into-the-metaverse-part-2/</guid>
-      <description>Metaverse is the next Internet, that’s what we summarized it in the previous article. We discussed it’s characteristics and building blocks. In this article we will discuss some prominent use cases of the metaverse. We understand the metaverse as a trillion dollar opportunity in the next few years. It is growing at real fast speed, but without effective rules and regulations, without effective standards and practices, and we will also touch upon this concerning part of metaverse.</description>
-    </item>
-    
-    <item>
-      <title>Getting into the Metaverse — Part 1</title>
-      <link>http://localhost:1313/post/getting-into-the-metaverse-part-1/</link>
-      <pubDate>Mon, 20 Dec 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/getting-into-the-metaverse-part-1/</guid>
-      <description>Metaverse is the most enquired word after Facebook renamed itself to “Meta” to align to their metaversal vision. However, the term “metaverse” was coined 3 decade ago by Neal Stephenson, in his 1992 science-fiction novel “Snow Crash,” which envisions a virtual reality-based successor to the internet. In the novel, people use digital avatars of themselves to explore the online world, often as a way of escaping a dystopian reality.
+        </item>
+        
+        <item>
+            <title>Metaverse — a technological evolution</title>
+            <link>https://thinkuldeep.com//post/metaverse-a-technological-evolution/</link>
+            <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/metaverse-a-technological-evolution/</guid>
+            <description>Metaverse is the most talked, understood and misunderstood topic these days. In most of my sessions people ask what is the technology stack for Metaverse? what should I learn to stay relevant? etc.. I will try to cover it in this article. In my earlier article I tried to define the Metaverse, and my friend Vinodh Arumugam also attempted the same here. It is defined so loosely that every other industry today is trying to define it in their own way to suits their narrative.</description>
+        </item>
+        
+        <item>
+            <title>Getting into the Metaverse — Part 2</title>
+            <link>https://thinkuldeep.com//post/getting-into-the-metaverse-part-2/</link>
+            <pubDate>Tue, 21 Dec 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/getting-into-the-metaverse-part-2/</guid>
+            <description>Metaverse is the next Internet, that’s what we summarized it in the previous article. We discussed it’s characteristics and building blocks. In this article we will discuss some prominent use cases of the metaverse. We understand the metaverse as a trillion dollar opportunity in the next few years. It is growing at real fast speed, but without effective rules and regulations, without effective standards and practices, and we will also touch upon this concerning part of metaverse.</description>
+        </item>
+        
+        <item>
+            <title>Getting into the Metaverse — Part 1</title>
+            <link>https://thinkuldeep.com//post/getting-into-the-metaverse-part-1/</link>
+            <pubDate>Mon, 20 Dec 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/getting-into-the-metaverse-part-1/</guid>
+            <description>Metaverse is the most enquired word after Facebook renamed itself to “Meta” to align to their metaversal vision. However, the term “metaverse” was coined 3 decade ago by Neal Stephenson, in his 1992 science-fiction novel “Snow Crash,” which envisions a virtual reality-based successor to the internet. In the novel, people use digital avatars of themselves to explore the online world, often as a way of escaping a dystopian reality.
 Today, Metaverse is being considered as a $800 billion path with double digit growth in next 5 years, where industry is trying to get most out of it by co-creating with communities, and focusing on it’s cost-effective universal acceptance.</description>
-    </item>
-    
-    <item>
-      <title>Try everything in your space - WebXR</title>
-      <link>http://localhost:1313/post/try-everything-in-your-space-webxr/</link>
-      <pubDate>Mon, 29 Nov 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/try-everything-in-your-space-webxr/</guid>
-      <description>Today’s websites are designed first for mobile and then for other platforms, and it is getting important to bring mobile XR functionality into the websites. Google’s scene viewer is bringing WebXR for mass adoption. Theoretically any 3D model can be tried in your space, and you can easily built AR experience for your website.
+        </item>
+        
+        <item>
+            <title>Try everything in your space - WebXR</title>
+            <link>https://thinkuldeep.com//post/try-everything-in-your-space-webxr/</link>
+            <pubDate>Mon, 29 Nov 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/try-everything-in-your-space-webxr/</guid>
+            <description>Today’s websites are designed first for mobile and then for other platforms, and it is getting important to bring mobile XR functionality into the websites. Google’s scene viewer is bringing WebXR for mass adoption. Theoretically any 3D model can be tried in your space, and you can easily built AR experience for your website.
 eCommerce has already transformed into mCommerse, and now taking steps into xCommerse (XR Commerce). 3D Model viewer is very common requirement for across different domains, and it will be the basic requirement of developing for Metaverse as well as for any digital business in future.</description>
-    </item>
-    
-    <item>
-      <title>Navigating the new normal with augmented reality</title>
-      <link>http://localhost:1313/post/navigating-new-normal-xr/</link>
-      <pubDate>Sat, 01 May 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/navigating-new-normal-xr/</guid>
-      <description>This article is originally published at Thoughtworks Insights, co-authored with Aileen Pistorius, Julie Woods-Moss and Anna Bäckström.
+        </item>
+        
+        <item>
+            <title>Navigating the new normal with augmented reality</title>
+            <link>https://thinkuldeep.com//post/navigating-new-normal-xr/</link>
+            <pubDate>Sat, 01 May 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/navigating-new-normal-xr/</guid>
+            <description>This article is originally published at Thoughtworks Insights, co-authored with Aileen Pistorius, Julie Woods-Moss and Anna Bäckström.
 Time was when virtual and augmented reality was regarded as simply gaming technology — the preserve of fun, consumer applications with little serious consideration for the enterprise. But that’s in the past, in the post-COVID world, remote working will be ubiquitous — forcing enterprise leaders to find innovative ways to improve collaboration. This, it transpires, is the sweet spot for what’s termed enterprise XR (extended reality) — a group of related technologies that enable us to blend the physical and digital worlds.</description>
-    </item>
-    
-    <item>
-      <title>Making pandemic-proof workplaces a reality with XR</title>
-      <link>http://localhost:1313/post/making-pandemic-proof-workplaces-a-reality-xr/</link>
-      <pubDate>Tue, 27 Apr 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/making-pandemic-proof-workplaces-a-reality-xr/</guid>
-      <description>The IMF called the COVID-19 crisis ‘unlike any other,’ where the global growth contraction for 2020 was estimated at -3.5 percent. Image source : Using Lenovo ThinkReality A6 Glass at Workplace
+        </item>
+        
+        <item>
+            <title>Making pandemic-proof workplaces a reality with XR</title>
+            <link>https://thinkuldeep.com//post/making-pandemic-proof-workplaces-a-reality-xr/</link>
+            <pubDate>Tue, 27 Apr 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/making-pandemic-proof-workplaces-a-reality-xr/</guid>
+            <description>The IMF called the COVID-19 crisis ‘unlike any other,’ where the global growth contraction for 2020 was estimated at -3.5 percent. Image source : Using Lenovo ThinkReality A6 Glass at Workplace
 Here is a quick overview of the biggest challenges that CXOs (and their businesses) have faced over the recent past, to better illustrate how the pandemic is affecting businesses:
  Businesses are grappling with slowing global supply chains Sales and production growth is further impacted with a subsequent dive in opportunities for partnerships and growth The flattened or negative growth market result in less manpower and resources to work with, further affecting productivity  ​The five biggest challenges that CXOs are facing today</description>
-    </item>
-    
-    <item>
-      <title>Best Practices for Building Spatial Solutions</title>
-      <link>http://localhost:1313/post/xr-best-practices/</link>
-      <pubDate>Tue, 05 Jan 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/xr-best-practices/</guid>
-      <description>Covid19 is forcing us into a ‘new normal’, A new normal that makes most of us work from home, and that leads to spending long hours on Zoom, or other video conferencing platforms. Meetings, inceptions, discovery workshops, conferences, and webinars are happening in the same monotonous ways. We are stuck with a screen in almost the same pose and posture. Some might use their mobile phone or tablet but that limits us to a small screen.</description>
-    </item>
-    
-    <item>
-      <title>eXtended Reality - the new norm?</title>
-      <link>http://localhost:1313/post/extending_reality_new_norm/</link>
-      <pubDate>Wed, 28 Oct 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/extending_reality_new_norm/</guid>
-      <description>This article is originally published at TechTag.de, you may find the German version here too.
+        </item>
+        
+        <item>
+            <title>Best Practices for Building Spatial Solutions</title>
+            <link>https://thinkuldeep.com//post/xr-best-practices/</link>
+            <pubDate>Tue, 05 Jan 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/xr-best-practices/</guid>
+            <description>Covid19 is forcing us into a ‘new normal’, A new normal that makes most of us work from home, and that leads to spending long hours on Zoom, or other video conferencing platforms. Meetings, inceptions, discovery workshops, conferences, and webinars are happening in the same monotonous ways. We are stuck with a screen in almost the same pose and posture. Some might use their mobile phone or tablet but that limits us to a small screen.</description>
+        </item>
+        
+        <item>
+            <title>eXtended Reality - the new norm?</title>
+            <link>https://thinkuldeep.com//post/extending_reality_new_norm/</link>
+            <pubDate>Wed, 28 Oct 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/extending_reality_new_norm/</guid>
+            <description>This article is originally published at TechTag.de, you may find the German version here too.
 The interaction between humans and technology is evolving radically. We need to develop our thinking and skills beyond the keyboard and screen. But what does this new technological reality look like? Here it is worth taking a closer look at the different forms of extended reality and how they can change our everyday lives.
 The way we interact with technology today isn&amp;rsquo;t too far from what was predicted by futuristic sci-fi pop culture.</description>
-    </item>
-    
-    <item>
-      <title>XR enabled me to renovate my home!</title>
-      <link>http://localhost:1313/post/xr-enabled-home-renovation/</link>
-      <pubDate>Wed, 30 Sep 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/xr-enabled-home-renovation/</guid>
-      <description>Covid19 is still unmeasurable, and we are more or less getting adjusted to this new normal. We are eagerly waiting to say goodbye to this year 2020 and welcome the coming year of hope, 2021. Read more here to know why I call this year 2020, as the year of change.
+        </item>
+        
+        <item>
+            <title>XR enabled me to renovate my home!</title>
+            <link>https://thinkuldeep.com//post/xr-enabled-home-renovation/</link>
+            <pubDate>Wed, 30 Sep 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/xr-enabled-home-renovation/</guid>
+            <description>Covid19 is still unmeasurable, and we are more or less getting adjusted to this new normal. We are eagerly waiting to say goodbye to this year 2020 and welcome the coming year of hope, 2021. Read more here to know why I call this year 2020, as the year of change.
 In April this year, I explained XR development from home, and that was still near shore to office, I was less than an hour away from the office.</description>
-    </item>
-    
-    <item>
-      <title>The future of shopping</title>
-      <link>http://localhost:1313/post/future-of-shoping/</link>
-      <pubDate>Wed, 24 Jun 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/future-of-shoping/</guid>
-      <description>eXtended Reality (XR) that includes AR and VR technologies have been silently disrupting the gaming industry for more than a decade. In the recent past, the tech has gained some traction in the education and training space.
+        </item>
+        
+        <item>
+            <title>The future of shopping</title>
+            <link>https://thinkuldeep.com//post/future-of-shoping/</link>
+            <pubDate>Wed, 24 Jun 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/future-of-shoping/</guid>
+            <description>eXtended Reality (XR) that includes AR and VR technologies have been silently disrupting the gaming industry for more than a decade. In the recent past, the tech has gained some traction in the education and training space.
 Today, however, COVID-19 with its mandates of social distancing and less to no physical interactions has accelerated adoption for XR. The tech is virtual, contactless, and delivers outstanding brand experiences - perfect for the new normal that multiple industries like retail will benefit from.</description>
-    </item>
-    
-    <item>
-      <title>A new form of WebXR</title>
-      <link>http://localhost:1313/post/a-new-form-of-webxr/</link>
-      <pubDate>Wed, 27 May 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/a-new-form-of-webxr/</guid>
-      <description>Accessing native XR features from the device using a web page is another form of WebXR.
+        </item>
+        
+        <item>
+            <title>A new form of WebXR</title>
+            <link>https://thinkuldeep.com//post/a-new-form-of-webxr/</link>
+            <pubDate>Wed, 27 May 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/a-new-form-of-webxr/</guid>
+            <description>Accessing native XR features from the device using a web page is another form of WebXR.
 In this article, I want to share an experiment where I tried to control the android device’s native features such as controlling volume and camera torch from a web page. This use case can be really useful in the XR world, where I can control the feature access in the device from cloud services, even the whole look and feel for showing the device controls can be managed from a hosted web page.</description>
-    </item>
-    
-    <item>
-      <title>Run a 2D App in XR Container</title>
-      <link>http://localhost:1313/post/run-a-2d-app-in-xr-container/</link>
-      <pubDate>Sat, 16 May 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/run-a-2d-app-in-xr-container/</guid>
-      <description>There are a number of Enterprise XR use cases where we have a need to open the existing 2D apps in the XR devices in a wrapper app, and this article covers a concept, have a look!
+        </item>
+        
+        <item>
+            <title>Run a 2D App in XR Container</title>
+            <link>https://thinkuldeep.com//post/run-a-2d-app-in-xr-container/</link>
+            <pubDate>Sat, 16 May 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/run-a-2d-app-in-xr-container/</guid>
+            <description>There are a number of Enterprise XR use cases where we have a need to open the existing 2D apps in the XR devices in a wrapper app, and this article covers a concept, have a look!
 After trying the OS level customization on an XR device, you may like to run your XR apps as a system app. Here is a simple article by Raju K
  Android System Apps development - Android Emulator Setup and guidelines to develop system applications</description>
-    </item>
-    
-    <item>
-      <title>OS Customization for XR Device</title>
-      <link>http://localhost:1313/post/os-customization-for-xr-devices/</link>
-      <pubDate>Sun, 10 May 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/os-customization-for-xr-devices/</guid>
-      <description>The Operating System of XR (AR VR) devices is mostly customized to the hardware of the device, and not just that the OS level customizations are needed to meet the enterprise needs such as integration with Enterprise MDM (Mobile Device Management) solutions (such as Intune, MobileIron and Airwatch), 3D lock screen, idle-timeout, custom home screen, custom settings, security, as so on.
+        </item>
+        
+        <item>
+            <title>OS Customization for XR Device</title>
+            <link>https://thinkuldeep.com//post/os-customization-for-xr-devices/</link>
+            <pubDate>Sun, 10 May 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/os-customization-for-xr-devices/</guid>
+            <description>The Operating System of XR (AR VR) devices is mostly customized to the hardware of the device, and not just that the OS level customizations are needed to meet the enterprise needs such as integration with Enterprise MDM (Mobile Device Management) solutions (such as Intune, MobileIron and Airwatch), 3D lock screen, idle-timeout, custom home screen, custom settings, security, as so on.
 Most organizations currently using traditional hardware and software assets such as mobile devices, laptops, and desktops, and the processes and policies for managing these devices are quite stable and straightforward by now.</description>
-    </item>
-    
-    <item>
-      <title>User Account Management In XR</title>
-      <link>http://localhost:1313/post/user-account-management-in-xr/</link>
-      <pubDate>Sun, 26 Apr 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/user-account-management-in-xr/</guid>
-      <description>In the previous article, we described the importance of interoperability in while building Enterprise XR solutions, In the article, we will discuss how to manage user accounts in the XR device, and implement single sign-on across the XR apps. We will use Android’s AccountManger approach to login into active directory and integrated it into Unity. Please read my earlier article on setting up the app in active directory, log in using android webview, considering a web-based company login form should appear for login, and no custom login form is allowed to capture the credentials.</description>
-    </item>
-    
-    <item>
-      <title>WebXR - the new Web</title>
-      <link>http://localhost:1313/post/webxr-the-new-web/</link>
-      <pubDate>Sat, 11 Apr 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/webxr-the-new-web/</guid>
-      <description>The web has grown from a read-only web (Web 1.0) to interactive web (Web 2.0) and then moved into the semantic web which is more connected and more immersive. 3D content on the web is there for quite some time, the most web-browsers support rendering 3D content natively. The rise for XR technologies and advancements in devices and the internet is leading the demand for Web-based XR. It will be a norm for web-based development.</description>
-    </item>
-    
-    <item>
-      <title>eXtending reality with AR and VR - Part 2</title>
-      <link>http://localhost:1313/post/extending_reality_with_ar_and_vr-2/</link>
-      <pubDate>Fri, 10 Apr 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/extending_reality_with_ar_and_vr-2/</guid>
-      <description>In Part I of the article, we summarized our observations of eXtended reality’s foundational blocks - AR, VR and MR. We also discussed the popular and most relevant tools and implementations of the new technology. In Part II of the article, we will be looking at a few accessible and novel implementations of the tech.
+        </item>
+        
+        <item>
+            <title>User Account Management In XR</title>
+            <link>https://thinkuldeep.com//post/user-account-management-in-xr/</link>
+            <pubDate>Sun, 26 Apr 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/user-account-management-in-xr/</guid>
+            <description>In the previous article, we described the importance of interoperability in while building Enterprise XR solutions, In the article, we will discuss how to manage user accounts in the XR device, and implement single sign-on across the XR apps. We will use Android’s AccountManger approach to login into active directory and integrated it into Unity. Please read my earlier article on setting up the app in active directory, log in using android webview, considering a web-based company login form should appear for login, and no custom login form is allowed to capture the credentials.</description>
+        </item>
+        
+        <item>
+            <title>WebXR - the new Web</title>
+            <link>https://thinkuldeep.com//post/webxr-the-new-web/</link>
+            <pubDate>Sat, 11 Apr 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/webxr-the-new-web/</guid>
+            <description>The web has grown from a read-only web (Web 1.0) to interactive web (Web 2.0) and then moved into the semantic web which is more connected and more immersive. 3D content on the web is there for quite some time, the most web-browsers support rendering 3D content natively. The rise for XR technologies and advancements in devices and the internet is leading the demand for Web-based XR. It will be a norm for web-based development.</description>
+        </item>
+        
+        <item>
+            <title>eXtending reality with AR and VR - Part 2</title>
+            <link>https://thinkuldeep.com//post/extending_reality_with_ar_and_vr-2/</link>
+            <pubDate>Fri, 10 Apr 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/extending_reality_with_ar_and_vr-2/</guid>
+            <description>In Part I of the article, we summarized our observations of eXtended reality’s foundational blocks - AR, VR and MR. We also discussed the popular and most relevant tools and implementations of the new technology. In Part II of the article, we will be looking at a few accessible and novel implementations of the tech.
 At ThoughtWorks, we have delivered both XR solutions and components of XR SDK (Software Development Kit) on the back of which XR solutions are built.</description>
-    </item>
-    
-    <item>
-      <title>eXtending reality with AR and VR - Part 1</title>
-      <link>http://localhost:1313/post/extending_reality_with_ar_and_vr-1/</link>
-      <pubDate>Sun, 05 Apr 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/extending_reality_with_ar_and_vr-1/</guid>
-      <description>The way we interact with technology today is not too far from what was predicted by futuristic, sci-fi pop culture. We are living in a world where sophisticated touch and gesture based interactions are collaborating with state of the art wearables, sensors, Augmented Reality (AR), Virtual Reality (VR) and Mixed Reality (MR). And, this is eXtending user experiences to be extremely immersive.
+        </item>
+        
+        <item>
+            <title>eXtending reality with AR and VR - Part 1</title>
+            <link>https://thinkuldeep.com//post/extending_reality_with_ar_and_vr-1/</link>
+            <pubDate>Sun, 05 Apr 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/extending_reality_with_ar_and_vr-1/</guid>
+            <description>The way we interact with technology today is not too far from what was predicted by futuristic, sci-fi pop culture. We are living in a world where sophisticated touch and gesture based interactions are collaborating with state of the art wearables, sensors, Augmented Reality (AR), Virtual Reality (VR) and Mixed Reality (MR). And, this is eXtending user experiences to be extremely immersive.
 Add to this, Gartner’s expectation that 5G and AR/VR implementation will transform not only customer engagement but brands’ entire product management cycles as well.</description>
-    </item>
-    
-    <item>
-      <title>Enterprise XR - Interoperability</title>
-      <link>http://localhost:1313/post/enterprise-xr-interoperability/</link>
-      <pubDate>Sat, 28 Mar 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/enterprise-xr-interoperability/</guid>
-      <description>In the previous article, we discussed implementing multi-factor authentication for an andorid application, and in the article we will cover another enterprise aspect, Interoperability.
+        </item>
+        
+        <item>
+            <title>Enterprise XR - Interoperability</title>
+            <link>https://thinkuldeep.com//post/enterprise-xr-interoperability/</link>
+            <pubDate>Sat, 28 Mar 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/enterprise-xr-interoperability/</guid>
+            <description>In the previous article, we discussed implementing multi-factor authentication for an andorid application, and in the article we will cover another enterprise aspect, Interoperability.
 Interoperability is key aspect when we build enterprise solutions using XR technologies. The enterprises have digital assets in form of mobile apps, libraries, system APIs, and they can’t just throw away these existing investments, in fact, the XR apps must be implemented in such a way that it is interoperable with them seamlessly.</description>
-    </item>
-    
-    <item>
-      <title>Enterprise XR - Multi-Factor Authentication</title>
-      <link>http://localhost:1313/post/enterprise-xr-multi-factor-authentication/</link>
-      <pubDate>Wed, 25 Mar 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/enterprise-xr-multi-factor-authentication/</guid>
-      <description>XR use cases are growing with advancements in the devices, internet and development technologies. There is an ever-growing demand to build enterprise use cases using ARVR technology. Most enterprise use cases eventually require integration with an enterprise ecosystem such as IAM (Identity and Access Management), ERP, CRM, and single sign-on with other systems.
+        </item>
+        
+        <item>
+            <title>Enterprise XR - Multi-Factor Authentication</title>
+            <link>https://thinkuldeep.com//post/enterprise-xr-multi-factor-authentication/</link>
+            <pubDate>Wed, 25 Mar 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/enterprise-xr-multi-factor-authentication/</guid>
+            <description>XR use cases are growing with advancements in the devices, internet and development technologies. There is an ever-growing demand to build enterprise use cases using ARVR technology. Most enterprise use cases eventually require integration with an enterprise ecosystem such as IAM (Identity and Access Management), ERP, CRM, and single sign-on with other systems.
 Most organizations protect digital assets with a single sign-on using Multiple Factor Authentication (MFA). The MFA is generally a web-browser based authentication where the browser redirects to tenant’s authentication page where the user provides their credentials and then the user confirms another factor (PIN, OTP, SMS or mobile notifications), once it succeeds, it gets redirected back to the protected resource.</description>
-    </item>
-    
-    <item>
-      <title>Augmenting the Travel Reality</title>
-      <link>http://localhost:1313/post/augmenting_the_travel_reality/</link>
-      <pubDate>Tue, 26 Nov 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/augmenting_the_travel_reality/</guid>
-      <description>Travel and transportation have faced and continue facing disruptions. Many of the traditional ways are no more in the choice. Earlier our parents used to warn us for taking rides with strangers, but now Uber/Ola/Lyft/Didi, etc are the preferred ways. Owning a car may be an absurd idea now. We are now dreaming of Autonomous vehicles, Flying Cars, Hyperloop, and Space travel in the near future. Do read, how the user interactions have been evolved with time in my earlier post.</description>
-    </item>
-    
-    <item>
-      <title>Static Code Analysis for Unity3D — Part 2</title>
-      <link>http://localhost:1313/post/static_code_analysis_unity_2/</link>
-      <pubDate>Wed, 30 Oct 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/static_code_analysis_unity_2/</guid>
-      <description>This article is in continuation of Static Code Analysis for Unity3D — Part 1 where we talked about setting up a local sonar server, sonar scanner and running the analysis for a Unity3D project.
+        </item>
+        
+        <item>
+            <title>Augmenting the Travel Reality</title>
+            <link>https://thinkuldeep.com//post/augmenting_the_travel_reality/</link>
+            <pubDate>Tue, 26 Nov 2019 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/augmenting_the_travel_reality/</guid>
+            <description>Travel and transportation have faced and continue facing disruptions. Many of the traditional ways are no more in the choice. Earlier our parents used to warn us for taking rides with strangers, but now Uber/Ola/Lyft/Didi, etc are the preferred ways. Owning a car may be an absurd idea now. We are now dreaming of Autonomous vehicles, Flying Cars, Hyperloop, and Space travel in the near future. Do read, how the user interactions have been evolved with time in my earlier post.</description>
+        </item>
+        
+        <item>
+            <title>Static Code Analysis for Unity3D — Part 2</title>
+            <link>https://thinkuldeep.com//post/static_code_analysis_unity_2/</link>
+            <pubDate>Wed, 30 Oct 2019 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/static_code_analysis_unity_2/</guid>
+            <description>This article is in continuation of Static Code Analysis for Unity3D — Part 1 where we talked about setting up a local sonar server, sonar scanner and running the analysis for a Unity3D project.
 It this article, we will discuss setting up the Static Code Analysis with SonarCube in IDE — Rider. We are using Rider as the “External Script Editor” in Unity. Configure Rider here in Unity&amp;gt; Preferences &amp;gt; External Tools &amp;gt; External Script Editor.</description>
-    </item>
-    
-    <item>
-      <title>Static Code Analysis for Unity3D — Part 1</title>
-      <link>http://localhost:1313/post/static_code_analysis_unity_1/</link>
-      <pubDate>Tue, 29 Oct 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/static_code_analysis_unity_1/</guid>
-      <description>Static code analysis is a standard practice in software development. There are code scanner tools, which scans the code to find vulnerabilities. There are some nice tools for visualizing and managing code quality. One of the most used tool is SonarQube, supports 25+ languages and flexible configurations of the rules.
+        </item>
+        
+        <item>
+            <title>Static Code Analysis for Unity3D — Part 1</title>
+            <link>https://thinkuldeep.com//post/static_code_analysis_unity_1/</link>
+            <pubDate>Tue, 29 Oct 2019 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/static_code_analysis_unity_1/</guid>
+            <description>Static code analysis is a standard practice in software development. There are code scanner tools, which scans the code to find vulnerabilities. There are some nice tools for visualizing and managing code quality. One of the most used tool is SonarQube, supports 25+ languages and flexible configurations of the rules.
 There are not enough resources talking about static code analysis for Unity3D. This post covers steps to configure SonarQube and use it for scanning Unity projects.</description>
-    </item>
-    
-    <item>
-      <title>Inception Workshop | Key Takeaways</title>
-      <link>http://localhost:1313/post/inception_workshop_key_takaways/</link>
-      <pubDate>Sun, 15 Sep 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/inception_workshop_key_takaways/</guid>
-      <description>Inception exercise is very common in software development, where we gather the business requirements and define the delivery plan for the MVP(Minimum Viable Product) on a shared understanding. There are a set of tools and practices available to define the MVP requirements and its delivery plan. Famous tools are Lean Value Tree, Business Model Canvas, Plane Map, Elevator Pitch, Futurespective, Empathy Maps, Value Proposition Canvas, User Journey Map, Gamestorming, Process Diagram, MoSCoW, Communication Plan, Project Plan etc.</description>
-    </item>
-    
-    <item>
-      <title>Evolution of Technology and User Interactions</title>
-      <link>http://localhost:1313/post/evolution_of_technology_and_user_interactions/</link>
-      <pubDate>Mon, 29 Apr 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/evolution_of_technology_and_user_interactions/</guid>
-      <description>Technology defines our interactions with the ambiance, and the way we want to interact with the ambiance further defines the technology. The evolution of technology and user interactions tightly depends on each other.
+        </item>
+        
+        <item>
+            <title>Inception Workshop | Key Takeaways</title>
+            <link>https://thinkuldeep.com//post/inception_workshop_key_takaways/</link>
+            <pubDate>Sun, 15 Sep 2019 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/inception_workshop_key_takaways/</guid>
+            <description>Inception exercise is very common in software development, where we gather the business requirements and define the delivery plan for the MVP(Minimum Viable Product) on a shared understanding. There are a set of tools and practices available to define the MVP requirements and its delivery plan. Famous tools are Lean Value Tree, Business Model Canvas, Plane Map, Elevator Pitch, Futurespective, Empathy Maps, Value Proposition Canvas, User Journey Map, Gamestorming, Process Diagram, MoSCoW, Communication Plan, Project Plan etc.</description>
+        </item>
+        
+        <item>
+            <title>Evolution of Technology and User Interactions</title>
+            <link>https://thinkuldeep.com//post/evolution_of_technology_and_user_interactions/</link>
+            <pubDate>Mon, 29 Apr 2019 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/evolution_of_technology_and_user_interactions/</guid>
+            <description>Technology defines our interactions with the ambiance, and the way we want to interact with the ambiance further defines the technology. The evolution of technology and user interactions tightly depends on each other.
  &amp;ldquo;Walls have ears!&amp;rdquo;, is very much true today, and not just that, now the walls can see you, feel your presence and talk to you.
  In this post, we will discuss how the user interactions evolved with time and what is next!</description>
-    </item>
-    
-    <item>
-      <title>Can IT modernization lead to revenue loss?</title>
-      <link>http://localhost:1313/post/can_it_modernization_lead_to_revenue_loss/</link>
-      <pubDate>Wed, 10 Apr 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/can_it_modernization_lead_to_revenue_loss/</guid>
-      <description>IT Modernization is one of the key factors of today&amp;rsquo;s digital transformation. Most of the enterprises trying to define digital transformation strategy. IT organizations trying to redesign the organizations to meet the changing business need, and uplift the technology and people. Non-IT organizations are also trying to setup digital department to take care of companies digital assets and modernize them. However, IT modernization does not always result in a profit, it may lead to revenue loss if it does not fit to the organization design.</description>
-    </item>
-    
-    <item>
-      <title>Lessons Learned From Blockchain-Based Development</title>
-      <link>http://localhost:1313/post/learnings-from-blockchain-based-development/</link>
-      <pubDate>Fri, 15 Feb 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/learnings-from-blockchain-based-development/</guid>
-      <description>Blockchain or DLT (Distributed Ledger Technology) is getting good traction in the IT world these days. Earlier, this technology was being mostly explored by banks and other finance-related institutions, such as Bitcoin and Ethereum. Now, it is getting explored for other use cases for building distributed applications. Blockchain technology comes with a decentralized and immutable data structure that maintains a connected block of information. Each block is connected using a hash of the previous block, and every new block on the chain is validated (mined) before adding and replicating it.</description>
-    </item>
-    
-    <item>
-      <title>Software Development as a Design Process</title>
-      <link>http://localhost:1313/post/software-development-as-design-process/</link>
-      <pubDate>Mon, 05 Nov 2018 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/software-development-as-design-process/</guid>
-      <description>The book &amp;ldquo;Agile IT Organization Design - For digital transformation and continuous delivery&amp;rdquo; by Sriram Narayan explains software development as a design process. Following statement from the book means a lot.
+        </item>
+        
+        <item>
+            <title>Can IT modernization lead to revenue loss?</title>
+            <link>https://thinkuldeep.com//post/can_it_modernization_lead_to_revenue_loss/</link>
+            <pubDate>Wed, 10 Apr 2019 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/can_it_modernization_lead_to_revenue_loss/</guid>
+            <description>IT Modernization is one of the key factors of today&amp;rsquo;s digital transformation. Most of the enterprises trying to define digital transformation strategy. IT organizations trying to redesign the organizations to meet the changing business need, and uplift the technology and people. Non-IT organizations are also trying to setup digital department to take care of companies digital assets and modernize them. However, IT modernization does not always result in a profit, it may lead to revenue loss if it does not fit to the organization design.</description>
+        </item>
+        
+        <item>
+            <title>Lessons Learned From Blockchain-Based Development</title>
+            <link>https://thinkuldeep.com//post/learnings-from-blockchain-based-development/</link>
+            <pubDate>Fri, 15 Feb 2019 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/learnings-from-blockchain-based-development/</guid>
+            <description>Blockchain or DLT (Distributed Ledger Technology) is getting good traction in the IT world these days. Earlier, this technology was being mostly explored by banks and other finance-related institutions, such as Bitcoin and Ethereum. Now, it is getting explored for other use cases for building distributed applications. Blockchain technology comes with a decentralized and immutable data structure that maintains a connected block of information. Each block is connected using a hash of the previous block, and every new block on the chain is validated (mined) before adding and replicating it.</description>
+        </item>
+        
+        <item>
+            <title>Software Development as a Design Process</title>
+            <link>https://thinkuldeep.com//post/software-development-as-design-process/</link>
+            <pubDate>Mon, 05 Nov 2018 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/software-development-as-design-process/</guid>
+            <description>The book &amp;ldquo;Agile IT Organization Design - For digital transformation and continuous delivery&amp;rdquo; by Sriram Narayan explains software development as a design process. Following statement from the book means a lot.
  &amp;ldquo;Software development is a design process, and the production environment is the factory where product takes place. IT OPS work to keep the factory running..&amp;rdquo;
  It questions the way we traditionally think of operation support, maintenance, production bugs, rework, their costs and budgets and the focus in software development life.</description>
-    </item>
-    
-    <item>
-      <title>Request Tracing Using Nginx and Spring Boot</title>
-      <link>http://localhost:1313/post/request-tracing/</link>
-      <pubDate>Tue, 02 Oct 2018 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/request-tracing/</guid>
-      <description>Most web applications are hosted behind a load balancer or web-server such as Nginx/HTTPD, which intercepts all the requests and directs dynamic content requests to the application server, such as Tomcat. Correlating requests traversing from the front-end server to the backend servers are general requirements. In this post, we will discuss tracing the request in the simplest way in an Nginx and Spring Boot-based application without using an external heavyweight library like Slueth.</description>
-    </item>
-    
-    <item>
-      <title>A Quick Catch up Before Java 11</title>
-      <link>http://localhost:1313/post/before_java11/</link>
-      <pubDate>Wed, 29 Aug 2018 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/before_java11/</guid>
-      <description>Java 11&amp;rsquo;s release candidate is already here, and the industry is still roaming around Java 8. Every six months, we will see a new release. It is good that Java is evolving at a fast speed to catch up the challengers, but at the same time, it is also scary to catch its speed, even the Java ecosystem (build tools, IDE, etc.) is not catching up that fast. It feels like we are losing track.</description>
-    </item>
-    
-    <item>
-      <title>5 Hard Lessons From Microservices Development</title>
-      <link>http://localhost:1313/post/lessons_from_microservices_development/</link>
-      <pubDate>Mon, 23 Jul 2018 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/lessons_from_microservices_development/</guid>
-      <description>Microservices-based development is happening all around the industry; more than 70% are trying development of microservice-based software. Microservices simplify integration of the businesses, processes, technology, and people by breaking down the big-bang monolith problem to a smaller set that can be handled independently. However, it also comes with the problem of managing relations between these smaller sets. We used to manage fewer independent units, so there was less operation and planning effort.</description>
-    </item>
-    
-    <item>
-      <title>Apache Spark on Windows</title>
-      <link>http://localhost:1313/post/apache_spark_on_windows/</link>
-      <pubDate>Mon, 08 Jan 2018 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/apache_spark_on_windows/</guid>
-      <description>This article is for the Java developer who wants to learn Apache Spark but don&amp;rsquo;t know much of Linux, Python, Scala, R, and Hadoop. Around 50% of developers are using Microsoft Windows environment for development, and they don&amp;rsquo;t need to change their development environment to learn Spark. This is the first article of a series, &amp;ldquo;Apache Spark on Windows&amp;rdquo;, which covers a step-by-step guide to start the Apache Spark application on Windows environment with challenges faced and thier resolutions.</description>
-    </item>
-    
-    <item>
-      <title>IOT 101: A primer on Internet of Things</title>
-      <link>http://localhost:1313/post/iot_simplified/</link>
-      <pubDate>Tue, 21 Feb 2017 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/iot_simplified/</guid>
-      <description>IOT 101 A Primer on Internet of Things  from Kuldeep Singh  The IoT can be described as “Connecting the Things to internet”.
+        </item>
+        
+        <item>
+            <title>Request Tracing Using Nginx and Spring Boot</title>
+            <link>https://thinkuldeep.com//post/request-tracing/</link>
+            <pubDate>Tue, 02 Oct 2018 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/request-tracing/</guid>
+            <description>Most web applications are hosted behind a load balancer or web-server such as Nginx/HTTPD, which intercepts all the requests and directs dynamic content requests to the application server, such as Tomcat. Correlating requests traversing from the front-end server to the backend servers are general requirements. In this post, we will discuss tracing the request in the simplest way in an Nginx and Spring Boot-based application without using an external heavyweight library like Slueth.</description>
+        </item>
+        
+        <item>
+            <title>A Quick Catch up Before Java 11</title>
+            <link>https://thinkuldeep.com//post/before_java11/</link>
+            <pubDate>Wed, 29 Aug 2018 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/before_java11/</guid>
+            <description>Java 11&amp;rsquo;s release candidate is already here, and the industry is still roaming around Java 8. Every six months, we will see a new release. It is good that Java is evolving at a fast speed to catch up the challengers, but at the same time, it is also scary to catch its speed, even the Java ecosystem (build tools, IDE, etc.) is not catching up that fast. It feels like we are losing track.</description>
+        </item>
+        
+        <item>
+            <title>5 Hard Lessons From Microservices Development</title>
+            <link>https://thinkuldeep.com//post/lessons_from_microservices_development/</link>
+            <pubDate>Mon, 23 Jul 2018 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/lessons_from_microservices_development/</guid>
+            <description>Microservices-based development is happening all around the industry; more than 70% are trying development of microservice-based software. Microservices simplify integration of the businesses, processes, technology, and people by breaking down the big-bang monolith problem to a smaller set that can be handled independently. However, it also comes with the problem of managing relations between these smaller sets. We used to manage fewer independent units, so there was less operation and planning effort.</description>
+        </item>
+        
+        <item>
+            <title>Apache Spark on Windows</title>
+            <link>https://thinkuldeep.com//post/apache_spark_on_windows/</link>
+            <pubDate>Mon, 08 Jan 2018 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/apache_spark_on_windows/</guid>
+            <description>This article is for the Java developer who wants to learn Apache Spark but don&amp;rsquo;t know much of Linux, Python, Scala, R, and Hadoop. Around 50% of developers are using Microsoft Windows environment for development, and they don&amp;rsquo;t need to change their development environment to learn Spark. This is the first article of a series, &amp;ldquo;Apache Spark on Windows&amp;rdquo;, which covers a step-by-step guide to start the Apache Spark application on Windows environment with challenges faced and thier resolutions.</description>
+        </item>
+        
+        <item>
+            <title>IOT 101: A primer on Internet of Things</title>
+            <link>https://thinkuldeep.com//post/iot_simplified/</link>
+            <pubDate>Tue, 21 Feb 2017 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot_simplified/</guid>
+            <description>IOT 101 A Primer on Internet of Things  from Kuldeep Singh  The IoT can be described as “Connecting the Things to internet”.
 A comprehensive IoT ecosystem consists of many different parts such as electronic circuitry, sensing and acting capability, embedded systems, edge computing, network protocols, communication networks, cloud computing, big data management and analytics, business rules etcetera. This maze of varied parts can be better classified into 4 broad categories:</description>
-    </item>
-    
-    <item>
-      <title>Exploring the Smart Glasses</title>
-      <link>http://localhost:1313/post/exploring-google-glass/</link>
-      <pubDate>Mon, 20 Feb 2017 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/exploring-google-glass/</guid>
-      <description>This article describes the fundamentals of light-weight smart glasses such as Google Glass and Vuzix M100 It also explain the development practices with pros and cons of its usage, limitation and future of these glasses in our lives.
+        </item>
+        
+        <item>
+            <title>Exploring the Smart Glasses</title>
+            <link>https://thinkuldeep.com//post/exploring-google-glass/</link>
+            <pubDate>Mon, 20 Feb 2017 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/exploring-google-glass/</guid>
+            <description>This article describes the fundamentals of light-weight smart glasses such as Google Glass and Vuzix M100 It also explain the development practices with pros and cons of its usage, limitation and future of these glasses in our lives.
 Google Glass Enterprise Edition Google Glass enterprise edition is a plain Android based smart glass that you can wear and performs operations just like a smartphone and with the use of a small screen located in the front of your right eye can perform a decent range of tasks.</description>
-    </item>
-    
-    <item>
-      <title>Another IoT Disruption: A Need of Multi-Skilled Devs</title>
-      <link>http://localhost:1313/post/iot-disruption-multi-skilled-people/</link>
-      <pubDate>Tue, 03 Jan 2017 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/iot-disruption-multi-skilled-people/</guid>
-      <description>Technological evolution causes disruption. It replaces traditional, less optimal, complex, lengthy, and costly technology, people, and processes with economical, innovative, optimal, and simpler alternatives. We have seen disruption by mobile phones, and up next is disruption from IoT, wearables, AR-VR, machine Learning, AI, and other innovations. Software development methodology, tools, and people will also face disruption. I expect that the traditional developer will be replaced by the multi-skilled or full-stack developers.</description>
-    </item>
-    
-    <item>
-      <title>IoT based insect monitoring concept</title>
-      <link>http://localhost:1313/post/iot-insect-monitoring/</link>
-      <pubDate>Fri, 16 Dec 2016 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/iot-insect-monitoring/</guid>
-      <description>Insects are the most diverse species of animals found on earth. While every species is required to maintain the balance of nature, excessive accumulation of any one type can have devastating effects on humans and environment.
+        </item>
+        
+        <item>
+            <title>Another IoT Disruption: A Need of Multi-Skilled Devs</title>
+            <link>https://thinkuldeep.com//post/iot-disruption-multi-skilled-people/</link>
+            <pubDate>Tue, 03 Jan 2017 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-disruption-multi-skilled-people/</guid>
+            <description>Technological evolution causes disruption. It replaces traditional, less optimal, complex, lengthy, and costly technology, people, and processes with economical, innovative, optimal, and simpler alternatives. We have seen disruption by mobile phones, and up next is disruption from IoT, wearables, AR-VR, machine Learning, AI, and other innovations. Software development methodology, tools, and people will also face disruption. I expect that the traditional developer will be replaced by the multi-skilled or full-stack developers.</description>
+        </item>
+        
+        <item>
+            <title>IoT based insect monitoring concept</title>
+            <link>https://thinkuldeep.com//post/iot-insect-monitoring/</link>
+            <pubDate>Fri, 16 Dec 2016 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-insect-monitoring/</guid>
+            <description>Insects are the most diverse species of animals found on earth. While every species is required to maintain the balance of nature, excessive accumulation of any one type can have devastating effects on humans and environment.
 Insect management relies on the early detection and accuracy of insect population monitoring techniquessensors-12-15801. Integrated data gathering about insect population together with the ecological factors like temperature, humidity, light etc., makes it possible to execute appropriate pest control at the right time in the right place.</description>
-    </item>
-    
-    <item>
-      <title>5 Steps of the IoT race</title>
-      <link>http://localhost:1313/post/5-steps-of-the-iot-race/</link>
-      <pubDate>Wed, 17 Aug 2016 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/5-steps-of-the-iot-race/</guid>
-      <description>The ‘Internet of Things’ (IoT) presents tremendous opportunity in all the industry verticals and business domains. Specifically, the ‘Industrial Internet of Things’(IIoT) promises to increase the value proposition by making self-optimizing business processes. As discussed in the post “The Driving Forces Behind IoT”, there are several challenges to be addressed to realize the full IoT potentials, but following steps will help organization to systemically make their products participate in the IoT journey and stay in the IoT race.</description>
-    </item>
-    
-    <item>
-      <title>Industrial IoT (IIOT) Reference Architecture</title>
-      <link>http://localhost:1313/post/iiot-reference-architecture/</link>
-      <pubDate>Tue, 16 Aug 2016 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/iiot-reference-architecture/</guid>
-      <description>The industry has been going through an evolution. Industry 4.0 is the fourth industrial revolution where the key will be on digital transformation. Industry 4.0 creates what has been called a &amp;ldquo;smart factory&amp;rdquo;. Within the modular structured smart factories, cyber-physical systems monitor physical processes, create a virtual copy of the physical world and make decentralized decisions. Over the Internet of Things, cyber-physical systems communicate and cooperate with each other and with humans in real time, and via the Internet of Services, both internal and cross-organizational services are offered and used by participants of the value chain.</description>
-    </item>
-    
-    <item>
-      <title>Smart bottle IOT concept</title>
-      <link>http://localhost:1313/post/building-smart-bottle-concept/</link>
-      <pubDate>Thu, 05 May 2016 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/building-smart-bottle-concept/</guid>
-      <description>The rapid growth of Internet of Things (IoT) and miniature wearable biosensors have generated new opportunities for personalized eHealth and mHealth services. We present a case study of an intelligent cap that can measure the amount of water in the bottle, monitor activity of opening or closing of bottle cap. This paper presents a Proof of Concept implementation for such a connected smart bottle that sends measurements to the IoT Platform.</description>
-    </item>
-    
-    <item>
-      <title>Building a smart meeting room concept</title>
-      <link>http://localhost:1313/post/building-smart-meeting-room-concept/</link>
-      <pubDate>Sun, 17 Apr 2016 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/building-smart-meeting-room-concept/</guid>
-      <description>On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
+        </item>
+        
+        <item>
+            <title>5 Steps of the IoT race</title>
+            <link>https://thinkuldeep.com//post/5-steps-of-the-iot-race/</link>
+            <pubDate>Wed, 17 Aug 2016 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/5-steps-of-the-iot-race/</guid>
+            <description>The ‘Internet of Things’ (IoT) presents tremendous opportunity in all the industry verticals and business domains. Specifically, the ‘Industrial Internet of Things’(IIoT) promises to increase the value proposition by making self-optimizing business processes. As discussed in the post “The Driving Forces Behind IoT”, there are several challenges to be addressed to realize the full IoT potentials, but following steps will help organization to systemically make their products participate in the IoT journey and stay in the IoT race.</description>
+        </item>
+        
+        <item>
+            <title>Industrial IoT (IIOT) Reference Architecture</title>
+            <link>https://thinkuldeep.com//post/iiot-reference-architecture/</link>
+            <pubDate>Tue, 16 Aug 2016 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iiot-reference-architecture/</guid>
+            <description>The industry has been going through an evolution. Industry 4.0 is the fourth industrial revolution where the key will be on digital transformation. Industry 4.0 creates what has been called a &amp;ldquo;smart factory&amp;rdquo;. Within the modular structured smart factories, cyber-physical systems monitor physical processes, create a virtual copy of the physical world and make decentralized decisions. Over the Internet of Things, cyber-physical systems communicate and cooperate with each other and with humans in real time, and via the Internet of Services, both internal and cross-organizational services are offered and used by participants of the value chain.</description>
+        </item>
+        
+        <item>
+            <title>Smart bottle IOT concept</title>
+            <link>https://thinkuldeep.com//post/building-smart-bottle-concept/</link>
+            <pubDate>Thu, 05 May 2016 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/building-smart-bottle-concept/</guid>
+            <description>The rapid growth of Internet of Things (IoT) and miniature wearable biosensors have generated new opportunities for personalized eHealth and mHealth services. We present a case study of an intelligent cap that can measure the amount of water in the bottle, monitor activity of opening or closing of bottle cap. This paper presents a Proof of Concept implementation for such a connected smart bottle that sends measurements to the IoT Platform.</description>
+        </item>
+        
+        <item>
+            <title>Building a smart meeting room concept</title>
+            <link>https://thinkuldeep.com//post/building-smart-meeting-room-concept/</link>
+            <pubDate>Sun, 17 Apr 2016 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/building-smart-meeting-room-concept/</guid>
+            <description>On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
 Smart Meeting Room is a step forward in automating the availability and booking procedure of a meeting room.</description>
-    </item>
-    
-    <item>
-      <title>Exploring AndroidThings IoT</title>
-      <link>http://localhost:1313/post/exploring-android-things/</link>
-      <pubDate>Sun, 10 Apr 2016 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/exploring-android-things/</guid>
-      <description>Android Things, an android based embedded operating system, is the new “it” thing in the Internet of Things(IOT) space. Developed by Google under the codename “Brillo, a.k.a. Project Brillo”, it takes the usual Android development stack—Android Studio, the official SDK, and Google Play Services—and applies it to the IOT.
+        </item>
+        
+        <item>
+            <title>Exploring AndroidThings IoT</title>
+            <link>https://thinkuldeep.com//post/exploring-android-things/</link>
+            <pubDate>Sun, 10 Apr 2016 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/exploring-android-things/</guid>
+            <description>Android Things, an android based embedded operating system, is the new “it” thing in the Internet of Things(IOT) space. Developed by Google under the codename “Brillo, a.k.a. Project Brillo”, it takes the usual Android development stack—Android Studio, the official SDK, and Google Play Services—and applies it to the IOT.
 Google formally took the veils off of Brillo at its I/O 2015 conference. It is aimed to be used with low-power and memory constrained IOT devices, allowing the developers to build a smart device using Android APIs and Google Services.</description>
-    </item>
-    
-    <item>
-      <title>Writing maintainable code is like house cleaning</title>
-      <link>http://localhost:1313/post/clean-code/</link>
-      <pubDate>Thu, 14 Jan 2016 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/clean-code/</guid>
-      <description>Your house will remain clean for longer duration if you follow certain rules strictly such as put things at right place after use, clear any mesh just after doing it, repair/upgrade things on time, daily dusting, vacuum cleaning etc. We may avoid a massive cleanup if we apply a series of small efforts daily.
+        </item>
+        
+        <item>
+            <title>Writing maintainable code is like house cleaning</title>
+            <link>https://thinkuldeep.com//post/clean-code/</link>
+            <pubDate>Thu, 14 Jan 2016 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/clean-code/</guid>
+            <description>Your house will remain clean for longer duration if you follow certain rules strictly such as put things at right place after use, clear any mesh just after doing it, repair/upgrade things on time, daily dusting, vacuum cleaning etc. We may avoid a massive cleanup if we apply a series of small efforts daily.
  Let for the same while writing the code –  Your code will remain maintainable for longer duration if you follow certain rules strictly such as follow the coding standards and guidelines, clean the code just after it, fix/refactor on time, periodic design review and refactoring.</description>
-    </item>
-    
-    <item>
-      <title>The Driving Forces Behind IoT</title>
-      <link>http://localhost:1313/post/the-driving-forces-iot/</link>
-      <pubDate>Fri, 01 Jan 2016 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/the-driving-forces-iot/</guid>
-      <description>Everybody in the software industry is talking about IoT in terms of billions of devices, their growth in coming years, changing business models, and adaptation of the IoT in the market. Connecting the things has become so prevalent nowadays, that every software company wants to expand in IoT by building IoT-centric products and services.
+        </item>
+        
+        <item>
+            <title>The Driving Forces Behind IoT</title>
+            <link>https://thinkuldeep.com//post/the-driving-forces-iot/</link>
+            <pubDate>Fri, 01 Jan 2016 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/the-driving-forces-iot/</guid>
+            <description>Everybody in the software industry is talking about IoT in terms of billions of devices, their growth in coming years, changing business models, and adaptation of the IoT in the market. Connecting the things has become so prevalent nowadays, that every software company wants to expand in IoT by building IoT-centric products and services.
 There are many industrial applications which connect to sensors and actuators, and can be controlled remotely. They have been around for a long time.</description>
-    </item>
-    
-    <item>
-      <title>Framework for choosing an IoT Platform</title>
-      <link>http://localhost:1313/post/choosing_iot_platform/</link>
-      <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/choosing_iot_platform/</guid>
-      <description>As we understand “IoT Platform” is an essential building block of IoT Ecosystem . A platform essentially decouples the business application from low level details of the technology stack and required services. Thus, it makes more sense to go for an off-the-shelf platform that provide all the relevant features and required flexibility, instead of developing the whole IoT stack from scratch. Selection of an IoT Platform is a key to develop a scalable and robust IoT Solution.</description>
-    </item>
-    
-    <item>
-      <title>SIGFOX - An Introduction</title>
-      <link>http://localhost:1313/post/sigfox-an-introduction/</link>
-      <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/sigfox-an-introduction/</guid>
-      <description>SIGFOX is providing a communication solution dedicated to the Internet of Things
+        </item>
+        
+        <item>
+            <title>Framework for choosing an IoT Platform</title>
+            <link>https://thinkuldeep.com//post/choosing_iot_platform/</link>
+            <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/choosing_iot_platform/</guid>
+            <description>As we understand “IoT Platform” is an essential building block of IoT Ecosystem . A platform essentially decouples the business application from low level details of the technology stack and required services. Thus, it makes more sense to go for an off-the-shelf platform that provide all the relevant features and required flexibility, instead of developing the whole IoT stack from scratch. Selection of an IoT Platform is a key to develop a scalable and robust IoT Solution.</description>
+        </item>
+        
+        <item>
+            <title>SIGFOX - An Introduction</title>
+            <link>https://thinkuldeep.com//post/sigfox-an-introduction/</link>
+            <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/sigfox-an-introduction/</guid>
+            <description>SIGFOX is providing a communication solution dedicated to the Internet of Things
 Dedicated to the IOT means:
  Simplicity: No configuration, no pairing, no signaling Autonomy: Very low energy consumption, allowing years of autonomy on battery without maintenance Small messages: No large assets or multimedia, only small messages  It is a LPWA (Low-Power Wide-Area) network, currently operating in 20 countries in Europe, Americas and Asia/Pacific. Communications over the SIGFOX network are bi-directional: uplink from device &amp;amp; downlink to the device.</description>
-    </item>
-    
-    <item>
-      <title>Choose ORM carefully!</title>
-      <link>http://localhost:1313/post/choose-orm-carefully/</link>
-      <pubDate>Thu, 16 Jul 2015 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/choose-orm-carefully/</guid>
-      <description>We have recently migrated source code from Hibernate ORM to JDBC (Spring JDBC template) based implementation. Performance has been improved 10 times.
+        </item>
+        
+        <item>
+            <title>Choose ORM carefully!</title>
+            <link>https://thinkuldeep.com//post/choose-orm-carefully/</link>
+            <pubDate>Thu, 16 Jul 2015 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/choose-orm-carefully/</guid>
+            <description>We have recently migrated source code from Hibernate ORM to JDBC (Spring JDBC template) based implementation. Performance has been improved 10 times.
 User case (Oracle 11g, JBoss 6, JDK 6, Hibernate, Spring 3) : A tree structure in database is getting populated from a deep file system (directory structure) having around 75000 nodes. Each node (directory) contains text files, which get parsed based on business rules and then populate the database ( BRANCHs representing a node, tables referring to branch, tree_nodes).</description>
-    </item>
-    
-    <item>
-      <title>Object Oriented JavaScript</title>
-      <link>http://localhost:1313/post/oojs/</link>
-      <pubDate>Tue, 27 Jan 2015 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/oojs/</guid>
-      <description>JavaScript has been regarded as a functional programing language by most of the developers. This book is targeted for all the JavaScript developers to shift their thinking from the functional to the object oriented programing language.
+        </item>
+        
+        <item>
+            <title>Object Oriented JavaScript</title>
+            <link>https://thinkuldeep.com//post/oojs/</link>
+            <pubDate>Tue, 27 Jan 2015 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/oojs/</guid>
+            <description>JavaScript has been regarded as a functional programing language by most of the developers. This book is targeted for all the JavaScript developers to shift their thinking from the functional to the object oriented programing language.
 The course requires basic knowledge of JavaScript syntax. If you already know some JavaScript, you will find a lot of eye-openers as you go along and learn what more the JavaScript can do for you.</description>
-    </item>
-    
-    <item>
-      <title>Software Effectiveness vs Software Efficiency</title>
-      <link>http://localhost:1313/post/software-effectiveness-vs-efficiency/</link>
-      <pubDate>Wed, 14 Jan 2015 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/software-effectiveness-vs-efficiency/</guid>
-      <description>I define software effectiveness as, doing the objective effectively, I mean correctly. Efficiency can be defined as, using the resources optimally where resources could be memory, CPU, time, files, connections, databases etc.
+        </item>
+        
+        <item>
+            <title>Software Effectiveness vs Software Efficiency</title>
+            <link>https://thinkuldeep.com//post/software-effectiveness-vs-efficiency/</link>
+            <pubDate>Wed, 14 Jan 2015 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/software-effectiveness-vs-efficiency/</guid>
+            <description>I define software effectiveness as, doing the objective effectively, I mean correctly. Efficiency can be defined as, using the resources optimally where resources could be memory, CPU, time, files, connections, databases etc.
 From my experience, in most (should I call many) of the software projects, efficiency/performance is not much accentuated during the system design and in earlier phases(requirement and estimation) as compared to the emphasis given late in the game, coding and testing and mostly in maintenance.</description>
-    </item>
-    
-    <item>
-      <title>HashMap Performance Improvement in Java 8</title>
-      <link>http://localhost:1313/post/java8-hashmap-performance-improvement/</link>
-      <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/java8-hashmap-performance-improvement/</guid>
-      <description>Hash collision degrades the performance of HashMap significantly. Java 8 has introduced a new strategy to deal with hash collisions, thus improving the performance of HashMaps. Considering this improvement in Java 8 for hash collisions, existing applications can expect performance improvements in case they are using HashMaps having large number of elements by simply upgrading to Java 8.
+        </item>
+        
+        <item>
+            <title>HashMap Performance Improvement in Java 8</title>
+            <link>https://thinkuldeep.com//post/java8-hashmap-performance-improvement/</link>
+            <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/java8-hashmap-performance-improvement/</guid>
+            <description>Hash collision degrades the performance of HashMap significantly. Java 8 has introduced a new strategy to deal with hash collisions, thus improving the performance of HashMaps. Considering this improvement in Java 8 for hash collisions, existing applications can expect performance improvements in case they are using HashMaps having large number of elements by simply upgrading to Java 8.
 Earlier, when multiple keys ends up in the same bucket, then values along with their keys are placed in a linked list.</description>
-    </item>
-    
-    <item>
-      <title>Introduction to Java Lambda Expression</title>
-      <link>http://localhost:1313/post/java8-lambda-expression/</link>
-      <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/java8-lambda-expression/</guid>
-      <description>After Java 8, developers can apply functional programming constructs in a pure Object-Oriented programming language through lambda expressions. Using lambda expression sequential and parallel execution can be achieved by passing behavior into methods. In Java world lambdas can be thought of as an anonymous method with a more compact syntax. Here compact means it is not mandatory to specify access modifiers, return type and parameter types while defining the expression.</description>
-    </item>
-    
-    <item>
-      <title>Introduction to Java Stream API</title>
-      <link>http://localhost:1313/post/java8-stream-api/</link>
-      <pubDate>Mon, 08 Dec 2014 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/java8-stream-api/</guid>
-      <description>Prior to JDK 8, collections can only be managed through iterators with the use of for, foreach or while loops. It means that we instruct a computer to execute the algorithm steps.
+        </item>
+        
+        <item>
+            <title>Introduction to Java Lambda Expression</title>
+            <link>https://thinkuldeep.com//post/java8-lambda-expression/</link>
+            <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/java8-lambda-expression/</guid>
+            <description>After Java 8, developers can apply functional programming constructs in a pure Object-Oriented programming language through lambda expressions. Using lambda expression sequential and parallel execution can be achieved by passing behavior into methods. In Java world lambdas can be thought of as an anonymous method with a more compact syntax. Here compact means it is not mandatory to specify access modifiers, return type and parameter types while defining the expression.</description>
+        </item>
+        
+        <item>
+            <title>Introduction to Java Stream API</title>
+            <link>https://thinkuldeep.com//post/java8-stream-api/</link>
+            <pubDate>Mon, 08 Dec 2014 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/java8-stream-api/</guid>
+            <description>Prior to JDK 8, collections can only be managed through iterators with the use of for, foreach or while loops. It means that we instruct a computer to execute the algorithm steps.
 int sum(List&amp;lt;Integer&amp;gt; list) {  Iterator&amp;lt;Integer&amp;gt; intIterator = list.iterator();  int sum = 0;  while (intIterator.hasNext()) {  int number = intIterator.next();  if (number &amp;gt; 5) {  sum += number;  }  }  return sum; } The above approach has the following tailbacks:</description>
-    </item>
-    
-    <item>
-      <title>IOT Cloud Platforms -  A Comparative Study</title>
-      <link>http://localhost:1313/post/iot_cloud_platform_comparision/</link>
-      <pubDate>Fri, 22 Aug 2014 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/iot_cloud_platform_comparision/</guid>
-      <description>The vision of IoT can be seen from two perspectives— ‘Internet’ centric and ‘Thing’ centric. The Internet centric architecture will involve internet services being the main focus while data is contributed by the objects. In the object centric architecture, the smart objects take the center stage.
+        </item>
+        
+        <item>
+            <title>IOT Cloud Platforms -  A Comparative Study</title>
+            <link>https://thinkuldeep.com//post/iot_cloud_platform_comparision/</link>
+            <pubDate>Fri, 22 Aug 2014 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot_cloud_platform_comparision/</guid>
+            <description>The vision of IoT can be seen from two perspectives— ‘Internet’ centric and ‘Thing’ centric. The Internet centric architecture will involve internet services being the main focus while data is contributed by the objects. In the object centric architecture, the smart objects take the center stage.
 In order to realize the full potential of cloud computing as well as ubiquitous sensing, a combined framework with a cloud at the center seems to be most viable.</description>
-    </item>
-    
-    <item>
-      <title>HTTP Router with Apache Camel </title>
-      <link>http://localhost:1313/post/apache-camel-http-route/</link>
-      <pubDate>Thu, 13 Feb 2014 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/apache-camel-http-route/</guid>
-      <description>This article explains the http integration using Apache Camel. Create a configurable router to any http URL having place holders.
+        </item>
+        
+        <item>
+            <title>HTTP Router with Apache Camel </title>
+            <link>https://thinkuldeep.com//post/apache-camel-http-route/</link>
+            <pubDate>Thu, 13 Feb 2014 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/apache-camel-http-route/</guid>
+            <description>This article explains the http integration using Apache Camel. Create a configurable router to any http URL having place holders.
  Prerequisite  Windows7, Eclipse Juno Java 1.7    Creating HTTP Router Please follow below steps to generate POC for HTTP routing using apache camel.
 Create Sample Camel Example   Create eclipse project using archetype “camel-archetype-spring”
 mvn archetype:generate DarchetypeGroupId=com.tk.poc.camel -DarchetypeArtifactId=camel-archetype-spring -DarchetypeVersion=2.11.0 -DarchetypeRepository=https://repository.apache.org/content/groups/snapshots-group   Create following Java file</description>
-    </item>
-    
-    <item>
-      <title>Apache Camel SSH Component</title>
-      <link>http://localhost:1313/post/apache-camel-ssh-component/</link>
-      <pubDate>Mon, 02 Dec 2013 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/apache-camel-ssh-component/</guid>
-      <description>This article is about troubleshooting issues we have faced while using apache camel’s SSH routes. It also covers step wise guide to setup apache camel routes.
+        </item>
+        
+        <item>
+            <title>Apache Camel SSH Component</title>
+            <link>https://thinkuldeep.com//post/apache-camel-ssh-component/</link>
+            <pubDate>Mon, 02 Dec 2013 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/apache-camel-ssh-component/</guid>
+            <description>This article is about troubleshooting issues we have faced while using apache camel’s SSH routes. It also covers step wise guide to setup apache camel routes.
 Prerequisites  Windows7 Eclipse Juno Java 1.7  Problem Statement We were getting following issues in the logs when connecting to one of the SSH server using Apache Camel-SSH. This was happening in one of the instance in production environment.
 Here are few logs :</description>
-    </item>
-    
-    <item>
-      <title>Groovy - Getting Started</title>
-      <link>http://localhost:1313/post/groovy-getting-started/</link>
-      <pubDate>Mon, 20 May 2013 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/groovy-getting-started/</guid>
-      <description>This article help you start with Groovy, with step by step guide and series of examples. It starts with an overview and then covers in detail examples.
+        </item>
+        
+        <item>
+            <title>Groovy - Getting Started</title>
+            <link>https://thinkuldeep.com//post/groovy-getting-started/</link>
+            <pubDate>Mon, 20 May 2013 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/groovy-getting-started/</guid>
+            <description>This article help you start with Groovy, with step by step guide and series of examples. It starts with an overview and then covers in detail examples.
 Groovy Overview Groovy is an Object Oriented Scripting Language which provides Dynamic, Easy-to-use and Integration capabilities to the Java Virtual Machine. It absorbs most of the syntax from Java and it is much powerful in terms of functionalities which is manifested in the form Closures, Dynamic Typing, Builders etc.</description>
-    </item>
-    
-    <item>
-      <title>Scala - Getting Started - Part 2</title>
-      <link>http://localhost:1313/post/scala-getting-started-part2/</link>
-      <pubDate>Sat, 18 May 2013 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/scala-getting-started-part2/</guid>
-      <description>In previous article we learned basics of Scala, in this articles we will learn how to setup build scripts for scala and build applications using scala.
+        </item>
+        
+        <item>
+            <title>Scala - Getting Started - Part 2</title>
+            <link>https://thinkuldeep.com//post/scala-getting-started-part2/</link>
+            <pubDate>Sat, 18 May 2013 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/scala-getting-started-part2/</guid>
+            <description>In previous article we learned basics of Scala, in this articles we will learn how to setup build scripts for scala and build applications using scala.
 We will also learn few web development frameworks for Scala and compare them with similar framework in Java.
 Building Scala Applications Below program demonstrates the use of Scala script with Maven, Ant, and logging library – LogBack.
 Integration with Ant Below example shows how Scala project can be built by the ant build.</description>
-    </item>
-    
-    <item>
-      <title>Scala - Getting Started - Part 1</title>
-      <link>http://localhost:1313/post/scala-getting-started-part1/</link>
-      <pubDate>Mon, 06 May 2013 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/scala-getting-started-part1/</guid>
-      <description>This article help you to start with Scala, with step by step guide and series of examples. It starts with an overview and then covers in detail examples. In later articles, I will write about feature comparison with other languages. It article is helpful for people coming from Java background, how it is not the prerequisites.
+        </item>
+        
+        <item>
+            <title>Scala - Getting Started - Part 1</title>
+            <link>https://thinkuldeep.com//post/scala-getting-started-part1/</link>
+            <pubDate>Mon, 06 May 2013 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/scala-getting-started-part1/</guid>
+            <description>This article help you to start with Scala, with step by step guide and series of examples. It starts with an overview and then covers in detail examples. In later articles, I will write about feature comparison with other languages. It article is helpful for people coming from Java background, how it is not the prerequisites.
 Scala Overview Scala is a general purpose programming language designed to express common programming patterns in a concise, elegant, and type-safe way.</description>
-    </item>
-    
-    <item>
-      <title>Charset configuration in JVM</title>
-      <link>http://localhost:1313/post/java-charset-configuration/</link>
-      <pubDate>Thu, 14 Feb 2013 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/java-charset-configuration/</guid>
-      <description>This article describes how to configure charset for a JVM.
+        </item>
+        
+        <item>
+            <title>Charset configuration in JVM</title>
+            <link>https://thinkuldeep.com//post/java-charset-configuration/</link>
+            <pubDate>Thu, 14 Feb 2013 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/java-charset-configuration/</guid>
+            <description>This article describes how to configure charset for a JVM.
 We faced an issue on a Linux environment, a file containing some Swedish character was not being read correctly by underlying JVM since the default charset of JVM was picked as UTF-8 (which does not support some Swedish character). But on the other hand, in Windows environment, it was working fine since the default charset was picked as Windows-1252 (which does support these characters).</description>
-    </item>
-    
-    <item>
-      <title>Working with Embedded OLE Objects in Java</title>
-      <link>http://localhost:1313/post/java-working-with-ole-objects/</link>
-      <pubDate>Sat, 29 Sep 2012 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/java-working-with-ole-objects/</guid>
-      <description>Document introduction contains a proof of concept for the research done on reading and writing OLE objects in Java. This research has been done using Apache POI. Please go thru the references for information about apache POI.
+        </item>
+        
+        <item>
+            <title>Working with Embedded OLE Objects in Java</title>
+            <link>https://thinkuldeep.com//post/java-working-with-ole-objects/</link>
+            <pubDate>Sat, 29 Sep 2012 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/java-working-with-ole-objects/</guid>
+            <description>Document introduction contains a proof of concept for the research done on reading and writing OLE objects in Java. This research has been done using Apache POI. Please go thru the references for information about apache POI.
 This article covers a POC to fetch OLE objects from RIF formatted XML. Not just that, we need to store them in a in some viewable format.
 For a given XML in RIF format, parse it and read the embedded OLE object and represent in some viewable format using Java.</description>
-    </item>
-    
-    <item>
-      <title>JavaScript Plugin Framework</title>
-      <link>http://localhost:1313/post/javascript-plugin-framework/</link>
-      <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/javascript-plugin-framework/</guid>
-      <description>Javascript Plugin Framework is implemented to add extra functionality in the existing Web based application without actually changing the application code. This framework is also helpful when some functionality need to control for different user profiles.
+        </item>
+        
+        <item>
+            <title>JavaScript Plugin Framework</title>
+            <link>https://thinkuldeep.com//post/javascript-plugin-framework/</link>
+            <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/javascript-plugin-framework/</guid>
+            <description>Javascript Plugin Framework is implemented to add extra functionality in the existing Web based application without actually changing the application code. This framework is also helpful when some functionality need to control for different user profiles.
 For example, to add one extra button in a menu we can write the plugin directly, by defining what that button is going to do on click, what all events should it handle, in one javascript file rather than making changes in the application code for the same.</description>
-    </item>
-    
-    <item>
-      <title>Strange JSP Compilation Issue </title>
-      <link>http://localhost:1313/post/jsp-compilation-issues/</link>
-      <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/jsp-compilation-issues/</guid>
-      <description>We were getting following error on the production sever (Linux, Jboss). We were in the middle of user acceptance testing with the client, many users were accessing the application to simulate various scenarios in a live session.
+        </item>
+        
+        <item>
+            <title>Strange JSP Compilation Issue </title>
+            <link>https://thinkuldeep.com//post/jsp-compilation-issues/</link>
+            <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/jsp-compilation-issues/</guid>
+            <description>We were getting following error on the production sever (Linux, Jboss). We were in the middle of user acceptance testing with the client, many users were accessing the application to simulate various scenarios in a live session.
 the application was crashing just after 2-3 minute of start with above error, and no user were able to access the application. We were expected for fix the issue ASAP, as the users were assembled for the web session, all were waiting for the server up.</description>
-    </item>
-    
-    <item>
-      <title>Default Timezone in Java and MySQL</title>
-      <link>http://localhost:1313/post/java-mysql-timezone-configuration/</link>
-      <pubDate>Sun, 15 Apr 2012 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/java-mysql-timezone-configuration/</guid>
-      <description>On one of our production environments, we had an issue our application related to time, specially modified time and creation time of the entities. It was quite random in nature for some entities.
+        </item>
+        
+        <item>
+            <title>Default Timezone in Java and MySQL</title>
+            <link>https://thinkuldeep.com//post/java-mysql-timezone-configuration/</link>
+            <pubDate>Sun, 15 Apr 2012 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/java-mysql-timezone-configuration/</guid>
+            <description>On one of our production environments, we had an issue our application related to time, specially modified time and creation time of the entities. It was quite random in nature for some entities.
 We suspected that there might be issue in the timezone configuration.
 Analysing the problem On production environment, we had limited permissions. We were not allowed to change system timezone. We noticed that Jboss is automatically picking the system timezone “Europe/Berlin” (which was configured from root user) and if we check the timezone for the linux user for which we have access it shows GMT time.</description>
-    </item>
-    
-    <item>
-      <title>MySQL Tuning</title>
-      <link>http://localhost:1313/post/mysql-tuning/</link>
-      <pubDate>Sat, 10 Mar 2012 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/mysql-tuning/</guid>
-      <description>We have faced &amp;lsquo;out of space&amp;rsquo; issue on disk even after clearing old data on database server(MySQL) and temporary data on application. We noticed that 90% of the space was occupied by the database tables which were used to store very large de-normalized statistical data and when we track the database table we noticed there is not much data in the database in the tables but they were still occupying space on disk.</description>
-    </item>
-    
-    <item>
-      <title>Rule Engine - Getting Started with Drools</title>
-      <link>http://localhost:1313/post/rule-engine-getting-started/</link>
-      <pubDate>Sat, 03 Mar 2012 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/rule-engine-getting-started/</guid>
-      <description>This article let you start with Rule Engine Drools, with step by step guide and series of examples. It starts with an overview and then covers in detail examples.
+        </item>
+        
+        <item>
+            <title>MySQL Tuning</title>
+            <link>https://thinkuldeep.com//post/mysql-tuning/</link>
+            <pubDate>Sat, 10 Mar 2012 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/mysql-tuning/</guid>
+            <description>We have faced &amp;lsquo;out of space&amp;rsquo; issue on disk even after clearing old data on database server(MySQL) and temporary data on application. We noticed that 90% of the space was occupied by the database tables which were used to store very large de-normalized statistical data and when we track the database table we noticed there is not much data in the database in the tables but they were still occupying space on disk.</description>
+        </item>
+        
+        <item>
+            <title>Rule Engine - Getting Started with Drools</title>
+            <link>https://thinkuldeep.com//post/rule-engine-getting-started/</link>
+            <pubDate>Sat, 03 Mar 2012 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/rule-engine-getting-started/</guid>
+            <description>This article let you start with Rule Engine Drools, with step by step guide and series of examples. It starts with an overview and then covers in detail examples.
 Rule Engine Overview The underlying idea of a rule engine is to externalize the business or application logic. A rule engine can be viewed as a sophisticated interpreter of if-then statements. The if-then statements are the rules. A rule is composed of two parts, a condition and an action: When the condition is met, the action is executed.</description>
-    </item>
-    
-    <item>
-      <title>Compiling Java Native C/C&#43;&#43; Code</title>
-      <link>http://localhost:1313/post/java-jni-cpp/</link>
-      <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/java-jni-cpp/</guid>
-      <description>We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
+        </item>
+        
+        <item>
+            <title>Compiling Java Native C/C&#43;&#43; Code</title>
+            <link>https://thinkuldeep.com//post/java-jni-cpp/</link>
+            <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/java-jni-cpp/</guid>
+            <description>We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
  How to write a JNI program. jni_md.h not found. Incompatible data types. On widows cygwin1.dll is required when running Java code on the native library. and more.  Actually we were compiling NLP Solver’s native library (IPOPT) on windows 32 bit and on 64bit linux machine.
 Solving the chaos! Here are the steps we have followed to solve the above issues:</description>
-    </item>
-    
-    <item>
-      <title>Using Apache CFX and Apache Camel in ESB</title>
-      <link>http://localhost:1313/post/esb-introduction-part2/</link>
-      <pubDate>Mon, 30 Jan 2012 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/esb-introduction-part2/</guid>
-      <description>In the previous article, we learned about ESB and deployed our first OSGi bundle on FuseESB.
+        </item>
+        
+        <item>
+            <title>Using Apache CFX and Apache Camel in ESB</title>
+            <link>https://thinkuldeep.com//post/esb-introduction-part2/</link>
+            <pubDate>Mon, 30 Jan 2012 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/esb-introduction-part2/</guid>
+            <description>In the previous article, we learned about ESB and deployed our first OSGi bundle on FuseESB.
 In this article, we will learn how to build Apache CXF and Apache Camel component and deploy them on FuseESB.
 Lets understand what are these components :
 Apache Camel ™ Powerful open source integration framework based on known Enterprise Integration Patterns with powerful Bean Integration.
 Camel lets you create the Enterprise Integration Patterns to implement routing and mediation rules in either a Java based Domain Specific Language (or Fluent API), via Spring or Blueprint based Xml Configuration files or via the Scala DSL.</description>
-    </item>
-    
-    <item>
-      <title>Managing Calendar and Invites in Java</title>
-      <link>http://localhost:1313/post/java-calendar-and-invite/</link>
-      <pubDate>Sun, 22 Jan 2012 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/java-calendar-and-invite/</guid>
-      <description>Calendars are used to store formation for various events. Calendar viewer displays the month-date view and for each day displays the events/reminders information.
+        </item>
+        
+        <item>
+            <title>Managing Calendar and Invites in Java</title>
+            <link>https://thinkuldeep.com//post/java-calendar-and-invite/</link>
+            <pubDate>Sun, 22 Jan 2012 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/java-calendar-and-invite/</guid>
+            <description>Calendars are used to store formation for various events. Calendar viewer displays the month-date view and for each day displays the events/reminders information.
 Invites are the events in the form of email. Once the invite for an event sent to a user via email then that event will be stored in the calendar view and same can be seen in the day information of the calendar view.
 Calendars Calendar data can be stored in files; there are some standard formats for storing calendars iCalendar is a computer file format which allows Internet users to send meeting requests and tasks to other Internet users, via email, or sharing files with an extension of .</description>
-    </item>
-    
-    <item>
-      <title>Working with Enterprise Service Bus</title>
-      <link>http://localhost:1313/post/esb-introduction-part1/</link>
-      <pubDate>Sun, 15 Jan 2012 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/esb-introduction-part1/</guid>
-      <description>This article starts from basic terms of ESB worlds and then provides details of the FuseESB with various examples.
+        </item>
+        
+        <item>
+            <title>Working with Enterprise Service Bus</title>
+            <link>https://thinkuldeep.com//post/esb-introduction-part1/</link>
+            <pubDate>Sun, 15 Jan 2012 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/esb-introduction-part1/</guid>
+            <description>This article starts from basic terms of ESB worlds and then provides details of the FuseESB with various examples.
 It contains step by step guide to install FuseESB, and develop and deploy OSGi bundle on FuseESB.
 Lets understand terminologies of the ESB world :
 ESB An Enterprise Service Bus (ESB) is a software architecture model used for designing and implementing the interaction and communication between mutually interacting software applications in Service Oriented Architecture.</description>
-    </item>
-    
-    <item>
-      <title>Mail Merge in Java</title>
-      <link>http://localhost:1313/post/java-mail-merge/</link>
-      <pubDate>Tue, 10 Jan 2012 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/java-mail-merge/</guid>
-      <description>MailMerge is a process to create personalized letters and pre-addressed envelopes or mailing labels for mass mailings from a word processing document (Template). A template contains placeholders (Fields) along with the actual content. The placeholders are filled by the data source which is typically a spreadsheet or a database having column for each place holders.
+        </item>
+        
+        <item>
+            <title>Mail Merge in Java</title>
+            <link>https://thinkuldeep.com//post/java-mail-merge/</link>
+            <pubDate>Tue, 10 Jan 2012 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/java-mail-merge/</guid>
+            <description>MailMerge is a process to create personalized letters and pre-addressed envelopes or mailing labels for mass mailings from a word processing document (Template). A template contains placeholders (Fields) along with the actual content. The placeholders are filled by the data source which is typically a spreadsheet or a database having column for each place holders.
 This article talks about the java approach for generating multiple documents from a single MS Word template.</description>
-    </item>
-    
-    <item>
-      <title>Font configuration in JVM</title>
-      <link>http://localhost:1313/post/java-font-mapping/</link>
-      <pubDate>Thu, 05 Jan 2012 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/java-font-mapping/</guid>
-      <description>Last year we have migrated one of our application from Java 5 to Java 6. The Java 6(OpenJDK) installation was done by client on a fresh system. After installing our application (under JBoss app), we found the fonts on JFreeCharts and on the images generated from AWT were not correct.
+        </item>
+        
+        <item>
+            <title>Font configuration in JVM</title>
+            <link>https://thinkuldeep.com//post/java-font-mapping/</link>
+            <pubDate>Thu, 05 Jan 2012 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/java-font-mapping/</guid>
+            <description>Last year we have migrated one of our application from Java 5 to Java 6. The Java 6(OpenJDK) installation was done by client on a fresh system. After installing our application (under JBoss app), we found the fonts on JFreeCharts and on the images generated from AWT were not correct.
 We have solved the issue by configuring the fonts at JVM level. Let understand it better.
 How AWT / JFreeCharts shows the fonts AWT rely on native fonts, it usages default Java fonts (which best fits) if no native fonts mapping found.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/about/</guid>
-      <description>Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.
+        </item>
+        
+        <item>
+            <title>About</title>
+            <link>https://thinkuldeep.com//about/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/</guid>
+            <description>Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.
 Kuldeep has developed innovative solutions that impact effectiveness and efficiency across domains, right from manufacturing to aviation, commodity trading and more. Kuldeep also invests time into evangelizing concepts like connected worker, installation assistant, remote expert, indoor positioning and digital twin, using smart glasses, IoT, blockchain and ARVR technologies within the CXO circles.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

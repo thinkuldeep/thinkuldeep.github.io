@@ -1,97 +1,99 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>university on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/university/</link>
-    <description>Recent content in university on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 15 Apr 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/university/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Community Events are the Energy Boosters!</title>
-      <link>http://localhost:1313/event/gta_lets_fork_together/</link>
-      <pubDate>Sat, 15 Apr 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/gta_lets_fork_together/</guid>
-      <description>Recently, I had the opportunity to contribute to an event called &amp;ldquo;GTA Ghaziabad - Let’s Fork Together&amp;rdquo;. The event was hosted by a community of working professionals and undergraduate engineers from nearby colleges in NCR, and took place at my home office, Thoughtworks Gurgaon. Participating in this event provided me with another energy boost, and in this article, I would like to share my experience and give you a glimpse of what the event was all about!</description>
-    </item>
-    
-    <item>
-      <title>Judge at MOZOHACK 4.0 by the Mozilla Students Club</title>
-      <link>http://localhost:1313/event/judge-mozohack4-srmkzilla-2023/</link>
-      <pubDate>Sat, 25 Feb 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/judge-mozohack4-srmkzilla-2023/</guid>
-      <description>MOZOHACK is a 24-hour hackathon organized by SRMKZILLA. SRMKZILLA is a Mozilla campus club of SRM Institute of Science and Technology, Chennai(India). It is inspired by the Mozilla Learning Network, provides students an open platform to analyze and enhance their technical and non-technical skills, such as working on open-source projects, developing websites, technical fests, and workshops. The club is conducting the seventh edition of its annual flagship event – MOZOFEST&#39;23 – where they celebrate student community through technical and non-technical events.</description>
-    </item>
-    
-    <item>
-      <title>Speaker at Meta-MeitY XR Startup Hub, IIT Delhi</title>
-      <link>http://localhost:1313/event/meta-meity-xr-startsup-hub-2022/</link>
-      <pubDate>Tue, 31 Jan 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/meta-meity-xr-startsup-hub-2022/</guid>
-      <description>Extending Reality is providing experience to user where the boundaries of real and fake blur, and use believe in the new reality presented to them. In the recent years, the tech has evolved to enable extending the reality by XR (AR/VR) faster, and much more evolution still to happen. I was invited at Meta and Meity&amp;rsquo;s Startup Hub program as an industry expert. Here I reflect on the day I spend with the few of the top startup of india, who want to solve some of the key challenges using XR and related technology.</description>
-    </item>
-    
-    <item>
-      <title>Judge - Ashoka University Hackathon 2022</title>
-      <link>http://localhost:1313/event/ashoka-university-hackathon-2022/</link>
-      <pubDate>Sun, 19 Jun 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/ashoka-university-hackathon-2022/</guid>
-      <description>RedBrick Hacks is flagship summer hackathon of Ashoka University, open to students from Delhi NCR. You will have the opportunity to learn, collaborate, and build meaningful projects alongside mentors from various disciplines. For 24 hours on the weekend of June 18, you will have access to free workshops, plenary lectures, prizes worth over ₹8L, games, and more!
+    <channel>
+        <title>university on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/university/</link>
+        <description>Recent content in university on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sat, 15 Apr 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/university/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Community Events are the Energy Boosters!</title>
+            <link>https://thinkuldeep.com//event/gta_lets_fork_together/</link>
+            <pubDate>Sat, 15 Apr 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/gta_lets_fork_together/</guid>
+            <description>Recently, I had the opportunity to contribute to an event called &amp;ldquo;GTA Ghaziabad - Let’s Fork Together&amp;rdquo;. The event was hosted by a community of working professionals and undergraduate engineers from nearby colleges in NCR, and took place at my home office, Thoughtworks Gurgaon. Participating in this event provided me with another energy boost, and in this article, I would like to share my experience and give you a glimpse of what the event was all about!</description>
+        </item>
+        
+        <item>
+            <title>Judge at MOZOHACK 4.0 by the Mozilla Students Club</title>
+            <link>https://thinkuldeep.com//event/judge-mozohack4-srmkzilla-2023/</link>
+            <pubDate>Sat, 25 Feb 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/judge-mozohack4-srmkzilla-2023/</guid>
+            <description>MOZOHACK is a 24-hour hackathon organized by SRMKZILLA. SRMKZILLA is a Mozilla campus club of SRM Institute of Science and Technology, Chennai(India). It is inspired by the Mozilla Learning Network, provides students an open platform to analyze and enhance their technical and non-technical skills, such as working on open-source projects, developing websites, technical fests, and workshops. The club is conducting the seventh edition of its annual flagship event – MOZOFEST&#39;23 – where they celebrate student community through technical and non-technical events.</description>
+        </item>
+        
+        <item>
+            <title>Speaker at Meta-MeitY XR Startup Hub, IIT Delhi</title>
+            <link>https://thinkuldeep.com//event/meta-meity-xr-startsup-hub-2022/</link>
+            <pubDate>Tue, 31 Jan 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/meta-meity-xr-startsup-hub-2022/</guid>
+            <description>Extending Reality is providing experience to user where the boundaries of real and fake blur, and use believe in the new reality presented to them. In the recent years, the tech has evolved to enable extending the reality by XR (AR/VR) faster, and much more evolution still to happen. I was invited at Meta and Meity&amp;rsquo;s Startup Hub program as an industry expert. Here I reflect on the day I spend with the few of the top startup of india, who want to solve some of the key challenges using XR and related technology.</description>
+        </item>
+        
+        <item>
+            <title>Judge - Ashoka University Hackathon 2022</title>
+            <link>https://thinkuldeep.com//event/ashoka-university-hackathon-2022/</link>
+            <pubDate>Sun, 19 Jun 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/ashoka-university-hackathon-2022/</guid>
+            <description>RedBrick Hacks is flagship summer hackathon of Ashoka University, open to students from Delhi NCR. You will have the opportunity to learn, collaborate, and build meaningful projects alongside mentors from various disciplines. For 24 hours on the weekend of June 18, you will have access to free workshops, plenary lectures, prizes worth over ₹8L, games, and more!
 The theme of the event was &amp;ldquo;Tech for Social Good&amp;rdquo; with three main tracks: Health &amp;amp; Wellness, Sustainable Growth, and Security &amp;amp; Privacy.</description>
-    </item>
-    
-    <item>
-      <title>Indian Achievers&#39; Award 2022</title>
-      <link>http://localhost:1313/event/indian-achievers-awards-2022/</link>
-      <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/indian-achievers-awards-2022/</guid>
-      <description>Indian Achievers&amp;rsquo; Forum Indian Achievers&amp;rsquo; Awards is India’s Most Coveted Award For Outstanding Achievements, organized by Indian Achievers&amp;rsquo; Forum. It draws attention on the theme “how the successful Achievers can help the social development in and around the country.” It provides examples of social entrepreneurs, successful models of the society and business community partnership. It promotes achievements that inspire businesses and communities, and recognizes the outstanding professional achievers&amp;rsquo; and their contribution in nation building.</description>
-    </item>
-    
-    <item>
-      <title>Judge at HackBMU 5.0</title>
-      <link>http://localhost:1313/event/bmu-hack5/</link>
-      <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/bmu-hack5/</guid>
-      <description>BML Munjal University, a Hero group initiative, is organizing a 5th edition Hackathon, named HackBMU 5.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
+        </item>
+        
+        <item>
+            <title>Indian Achievers&#39; Award 2022</title>
+            <link>https://thinkuldeep.com//event/indian-achievers-awards-2022/</link>
+            <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/indian-achievers-awards-2022/</guid>
+            <description>Indian Achievers&amp;rsquo; Forum Indian Achievers&amp;rsquo; Awards is India’s Most Coveted Award For Outstanding Achievements, organized by Indian Achievers&amp;rsquo; Forum. It draws attention on the theme “how the successful Achievers can help the social development in and around the country.” It provides examples of social entrepreneurs, successful models of the society and business community partnership. It promotes achievements that inspire businesses and communities, and recognizes the outstanding professional achievers&amp;rsquo; and their contribution in nation building.</description>
+        </item>
+        
+        <item>
+            <title>Judge at HackBMU 5.0</title>
+            <link>https://thinkuldeep.com//event/bmu-hack5/</link>
+            <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/bmu-hack5/</guid>
+            <description>BML Munjal University, a Hero group initiative, is organizing a 5th edition Hackathon, named HackBMU 5.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
 HackBMU seeks to provide a welcoming and supportive environment to all participants to develop their skills, regardless of their background.</description>
-    </item>
-    
-    <item>
-      <title>Your Hackathon Guide at IEEE WIE - BU - The Times Groups</title>
-      <link>http://localhost:1313/event/ieee-bu-wie-discussion/</link>
-      <pubDate>Tue, 01 Feb 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/ieee-bu-wie-discussion/</guid>
-      <description>IEEE WIE (Women In Engineering) at Bennett University - The Times Group, has hosted a panel discussion with students preparing and participating in hackathons.
+        </item>
+        
+        <item>
+            <title>Your Hackathon Guide at IEEE WIE - BU - The Times Groups</title>
+            <link>https://thinkuldeep.com//event/ieee-bu-wie-discussion/</link>
+            <pubDate>Tue, 01 Feb 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/ieee-bu-wie-discussion/</guid>
+            <description>IEEE WIE (Women In Engineering) at Bennett University - The Times Group, has hosted a panel discussion with students preparing and participating in hackathons.
  I joined the panel of 🌟 Swati Anuj Arya (chief information security officer, Amazon Pay) and 🌟Srishti Gupta (Senior data analyst at Ernst &amp;amp; Young) to share our experience with students.
 Highlights of the event! It was a great discussion, we started with questions on prerequisites of hackathon, and skills required to participate in hackathon, where we talked about being a thinker, solution oriented mindset, authenticity and practicality of the ideas and stay aligned to the problem statements.</description>
-    </item>
-    
-    <item>
-      <title>Judge at Tech-Nexus Hackathon</title>
-      <link>http://localhost:1313/event/tech-nexus-2021/</link>
-      <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/tech-nexus-2021/</guid>
-      <description>National Institute of Technology Hamirpur is organizing Tech-Nexus, an online technical carnival, as an initiative of the Institute Innovation Council, MHRD. The essence of Tech-Nexus is to unite all the technological talents across the nation and give them a platform to express their skills and ideas. This flagship event will help people to showcase their unique projects and trends in the technological field as well as the challenges encountered, and solutions adopted while developing the projects.</description>
-    </item>
-    
-    <item>
-      <title>Judge at HackBMU 4.0</title>
-      <link>http://localhost:1313/event/bmu-hack4/</link>
-      <pubDate>Fri, 23 Apr 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/bmu-hack4/</guid>
-      <description>BML Munjal University,a Hero group initiative, is organizing a 4th edition Hackathon, named HackBMU 4.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
+        </item>
+        
+        <item>
+            <title>Judge at Tech-Nexus Hackathon</title>
+            <link>https://thinkuldeep.com//event/tech-nexus-2021/</link>
+            <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/tech-nexus-2021/</guid>
+            <description>National Institute of Technology Hamirpur is organizing Tech-Nexus, an online technical carnival, as an initiative of the Institute Innovation Council, MHRD. The essence of Tech-Nexus is to unite all the technological talents across the nation and give them a platform to express their skills and ideas. This flagship event will help people to showcase their unique projects and trends in the technological field as well as the challenges encountered, and solutions adopted while developing the projects.</description>
+        </item>
+        
+        <item>
+            <title>Judge at HackBMU 4.0</title>
+            <link>https://thinkuldeep.com//event/bmu-hack4/</link>
+            <pubDate>Fri, 23 Apr 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/bmu-hack4/</guid>
+            <description>BML Munjal University,a Hero group initiative, is organizing a 4th edition Hackathon, named HackBMU 4.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
 HackBMU seeks to provide a welcoming and supportive environment to all participants to develop their skills, regardless of their background.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

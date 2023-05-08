@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>multi-skill on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/multi-skill/</link>
-    <description>Recent content in multi-skill on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 03 Jan 2017 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/multi-skill/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Another IoT Disruption: A Need of Multi-Skilled Devs</title>
-      <link>http://localhost:1313/post/iot-disruption-multi-skilled-people/</link>
-      <pubDate>Tue, 03 Jan 2017 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/iot-disruption-multi-skilled-people/</guid>
-      <description>Technological evolution causes disruption. It replaces traditional, less optimal, complex, lengthy, and costly technology, people, and processes with economical, innovative, optimal, and simpler alternatives. We have seen disruption by mobile phones, and up next is disruption from IoT, wearables, AR-VR, machine Learning, AI, and other innovations. Software development methodology, tools, and people will also face disruption. I expect that the traditional developer will be replaced by the multi-skilled or full-stack developers.</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>multi-skill on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/multi-skill/</link>
+        <description>Recent content in multi-skill on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Tue, 03 Jan 2017 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/multi-skill/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Another IoT Disruption: A Need of Multi-Skilled Devs</title>
+            <link>https://thinkuldeep.com//post/iot-disruption-multi-skilled-people/</link>
+            <pubDate>Tue, 03 Jan 2017 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-disruption-multi-skilled-people/</guid>
+            <description>Technological evolution causes disruption. It replaces traditional, less optimal, complex, lengthy, and costly technology, people, and processes with economical, innovative, optimal, and simpler alternatives. We have seen disruption by mobile phones, and up next is disruption from IoT, wearables, AR-VR, machine Learning, AI, and other innovations. Software development methodology, tools, and people will also face disruption. I expect that the traditional developer will be replaced by the multi-skilled or full-stack developers.</description>
+        </item>
+        
+    </channel>
 </rss>

@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>habit on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/habit/</link>
-    <description>Recent content in habit on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 05 May 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/habit/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Greening Up: Key takeaways from Green Software Foundation Meetup</title>
-      <link>http://localhost:1313/event/green-software-foundation-meetup-2023/</link>
-      <pubDate>Fri, 05 May 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/green-software-foundation-meetup-2023/</guid>
-      <description>As technology continues to advance, electronics are getting smaller and wires are disappearing. Even electric poles, once a familiar sight on road trips, are being phased out. With the internet now ubiquitous, physical storage devices are disappearing too, and we rely more on cloud-based solutions that seem to happen over the air.
+    <channel>
+        <title>habit on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/habit/</link>
+        <description>Recent content in habit on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Fri, 05 May 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/habit/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Greening Up: Key takeaways from Green Software Foundation Meetup</title>
+            <link>https://thinkuldeep.com//event/green-software-foundation-meetup-2023/</link>
+            <pubDate>Fri, 05 May 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/green-software-foundation-meetup-2023/</guid>
+            <description>As technology continues to advance, electronics are getting smaller and wires are disappearing. Even electric poles, once a familiar sight on road trips, are being phased out. With the internet now ubiquitous, physical storage devices are disappearing too, and we rely more on cloud-based solutions that seem to happen over the air.
  ‘It&amp;rsquo;s no wonder we look up when we think of clouds ☁️, but should actually look down to the earth in the mines!</description>
-    </item>
-    
-    <item>
-      <title>Habit Matters - The change is a side effect</title>
-      <link>http://localhost:1313/post/habitmatters/</link>
-      <pubDate>Sun, 09 Apr 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/habitmatters/</guid>
-      <description>“Change is the only constant, it doesn&amp;rsquo;t matter whether we like it or not, it takes place”- shared and reflected in my change stories.
+        </item>
+        
+        <item>
+            <title>Habit Matters - The change is a side effect</title>
+            <link>https://thinkuldeep.com//post/habitmatters/</link>
+            <pubDate>Sun, 09 Apr 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/habitmatters/</guid>
+            <description>“Change is the only constant, it doesn&amp;rsquo;t matter whether we like it or not, it takes place”- shared and reflected in my change stories.
  Over the years, I have been following my theory of change Accept-Observe-Absorb. It helped me to traverse through the change year 2020, and understand the role of “Will” and how to cultivate it. I shared how just one change “working from my native home” brought so many other changes in lifestyle and behavior.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

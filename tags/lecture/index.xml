@@ -1,60 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>lecture on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/lecture/</link>
-    <description>Recent content in lecture on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 22 Oct 2022 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/lecture/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Guest Lecture on &#39;SpatialWeb and Web3.0&#39; at NIT Calicut</title>
-      <link>http://localhost:1313/event/guest_lecture_nit_calicut/</link>
-      <pubDate>Sat, 22 Oct 2022 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/guest_lecture_nit_calicut/</guid>
-      <description>National Institute of Technology Calicut is organizing Tathva, Asia&amp;rsquo;s largest student-run Tech Startup Expo. Tathva is a techno-management fest of NIT Calicut is one of south India&amp;rsquo;s biggest scholastic endeavours. Since its inception in 2000, this annual symposium has known only growth and has flourished into one of the few promising enterprises the nation has witnessed. Pushing the barriers year after year, Tathva aims at providing a plethora of platforms to the intrigued technical heads that arrive at this fiesta with an array of events and workshops, to sharpen their skills and widen their knowledge quotient.</description>
-    </item>
-    
-    <item>
-      <title>Metaverse Workshop - VIT-AP University</title>
-      <link>http://localhost:1313/event/metaverse-workshop-vit-ap-university/</link>
-      <pubDate>Sat, 11 Jun 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/metaverse-workshop-vit-ap-university/</guid>
-      <description>School of Computer Science and Engineering (SCOPE) of VIT-AP University is organizing a 1-day National Workshop on “Exploring the Blockchain in Metaverse” on June 11, 2022, from 11 am to 5 pm.
+    <channel>
+        <title>lecture on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/lecture/</link>
+        <description>Recent content in lecture on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sat, 22 Oct 2022 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/lecture/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Guest Lecture on &#39;SpatialWeb and Web3.0&#39; at NIT Calicut</title>
+            <link>https://thinkuldeep.com//event/guest_lecture_nit_calicut/</link>
+            <pubDate>Sat, 22 Oct 2022 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/guest_lecture_nit_calicut/</guid>
+            <description>National Institute of Technology Calicut is organizing Tathva, Asia&amp;rsquo;s largest student-run Tech Startup Expo. Tathva is a techno-management fest of NIT Calicut is one of south India&amp;rsquo;s biggest scholastic endeavours. Since its inception in 2000, this annual symposium has known only growth and has flourished into one of the few promising enterprises the nation has witnessed. Pushing the barriers year after year, Tathva aims at providing a plethora of platforms to the intrigued technical heads that arrive at this fiesta with an array of events and workshops, to sharpen their skills and widen their knowledge quotient.</description>
+        </item>
+        
+        <item>
+            <title>Metaverse Workshop - VIT-AP University</title>
+            <link>https://thinkuldeep.com//event/metaverse-workshop-vit-ap-university/</link>
+            <pubDate>Sat, 11 Jun 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/metaverse-workshop-vit-ap-university/</guid>
+            <description>School of Computer Science and Engineering (SCOPE) of VIT-AP University is organizing a 1-day National Workshop on “Exploring the Blockchain in Metaverse” on June 11, 2022, from 11 am to 5 pm.
  The program is intended for students, faculty of technical institutes, professionals from Industry, R&amp;amp;D organizations, and research scholars.
 I will be speaking at the workshop on &amp;ldquo;Gearing up for Metaverse&amp;rdquo;, Will touch upon metaverse step by step.</description>
-    </item>
-    
-    <item>
-      <title>Indian Achievers&#39; Award 2022</title>
-      <link>http://localhost:1313/event/indian-achievers-awards-2022/</link>
-      <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/indian-achievers-awards-2022/</guid>
-      <description>Indian Achievers&amp;rsquo; Forum Indian Achievers&amp;rsquo; Awards is India’s Most Coveted Award For Outstanding Achievements, organized by Indian Achievers&amp;rsquo; Forum. It draws attention on the theme “how the successful Achievers can help the social development in and around the country.” It provides examples of social entrepreneurs, successful models of the society and business community partnership. It promotes achievements that inspire businesses and communities, and recognizes the outstanding professional achievers&amp;rsquo; and their contribution in nation building.</description>
-    </item>
-    
-    <item>
-      <title>Guest Lecture at VIT Vellore</title>
-      <link>http://localhost:1313/event/the_parallax_view_1_vit/</link>
-      <pubDate>Fri, 22 Apr 2022 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/the_parallax_view_1_vit/</guid>
-      <description>Metaverse has become the newest macro-goal for tech industries to invest in and to see the world in a new perspective with the help of AR and VR technologies.🌟
+        </item>
+        
+        <item>
+            <title>Indian Achievers&#39; Award 2022</title>
+            <link>https://thinkuldeep.com//event/indian-achievers-awards-2022/</link>
+            <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/indian-achievers-awards-2022/</guid>
+            <description>Indian Achievers&amp;rsquo; Forum Indian Achievers&amp;rsquo; Awards is India’s Most Coveted Award For Outstanding Achievements, organized by Indian Achievers&amp;rsquo; Forum. It draws attention on the theme “how the successful Achievers can help the social development in and around the country.” It provides examples of social entrepreneurs, successful models of the society and business community partnership. It promotes achievements that inspire businesses and communities, and recognizes the outstanding professional achievers&amp;rsquo; and their contribution in nation building.</description>
+        </item>
+        
+        <item>
+            <title>Guest Lecture at VIT Vellore</title>
+            <link>https://thinkuldeep.com//event/the_parallax_view_1_vit/</link>
+            <pubDate>Fri, 22 Apr 2022 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/the_parallax_view_1_vit/</guid>
+            <description>Metaverse has become the newest macro-goal for tech industries to invest in and to see the world in a new perspective with the help of AR and VR technologies.🌟
 A student club at VIT Vellore named Mozilla Firefox Club invited me for a guest lecture in The Parallax View Episode 1 :Bring the world to wherever you are
  🔮✨Join us on 22nd April, 6PM to clarify all your doubts regarding AR and VR and opportunities it offers you !</description>
-    </item>
-    
-    <item>
-      <title>Guest Lecture on &#39;Metaverse&#39; at NIT Hamirpur</title>
-      <link>http://localhost:1313/event/getting_into_metaverse_guest_lecture_nit_hamirpur/</link>
-      <pubDate>Sun, 19 Dec 2021 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/getting_into_metaverse_guest_lecture_nit_hamirpur/</guid>
-      <description>National Institute of Technology Hamirpur is organizing Tech-Nexus, an online technical carnival, as an initiative of the Institute Innovation Council, MHRD. The essence of Tech-Nexus is to unite all the technological talents across the nation and give them a platform to express their skills and ideas. This flagship event will help people to showcase their unique projects and trends in the technological field as well as the challenges encountered, and solutions adopted while developing the projects.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+        <item>
+            <title>Guest Lecture on &#39;Metaverse&#39; at NIT Hamirpur</title>
+            <link>https://thinkuldeep.com//event/getting_into_metaverse_guest_lecture_nit_hamirpur/</link>
+            <pubDate>Sun, 19 Dec 2021 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/getting_into_metaverse_guest_lecture_nit_hamirpur/</guid>
+            <description>National Institute of Technology Hamirpur is organizing Tech-Nexus, an online technical carnival, as an initiative of the Institute Innovation Council, MHRD. The essence of Tech-Nexus is to unite all the technological talents across the nation and give them a platform to express their skills and ideas. This flagship event will help people to showcase their unique projects and trends in the technological field as well as the challenges encountered, and solutions adopted while developing the projects.</description>
+        </item>
+        
+    </channel>
 </rss>

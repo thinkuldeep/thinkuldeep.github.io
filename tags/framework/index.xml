@@ -1,40 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>framework on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/framework/</link>
-    <description>Recent content in framework on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 17 Aug 2015 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/framework/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Framework for choosing an IoT Platform</title>
-      <link>http://localhost:1313/post/choosing_iot_platform/</link>
-      <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/choosing_iot_platform/</guid>
-      <description>As we understand “IoT Platform” is an essential building block of IoT Ecosystem . A platform essentially decouples the business application from low level details of the technology stack and required services. Thus, it makes more sense to go for an off-the-shelf platform that provide all the relevant features and required flexibility, instead of developing the whole IoT stack from scratch. Selection of an IoT Platform is a key to develop a scalable and robust IoT Solution.</description>
-    </item>
-    
-    <item>
-      <title>IOT Cloud Platforms -  A Comparative Study</title>
-      <link>http://localhost:1313/post/iot_cloud_platform_comparision/</link>
-      <pubDate>Fri, 22 Aug 2014 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/iot_cloud_platform_comparision/</guid>
-      <description>The vision of IoT can be seen from two perspectives— ‘Internet’ centric and ‘Thing’ centric. The Internet centric architecture will involve internet services being the main focus while data is contributed by the objects. In the object centric architecture, the smart objects take the center stage.
+    <channel>
+        <title>framework on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/framework/</link>
+        <description>Recent content in framework on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Mon, 17 Aug 2015 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/framework/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Framework for choosing an IoT Platform</title>
+            <link>https://thinkuldeep.com//post/choosing_iot_platform/</link>
+            <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/choosing_iot_platform/</guid>
+            <description>As we understand “IoT Platform” is an essential building block of IoT Ecosystem . A platform essentially decouples the business application from low level details of the technology stack and required services. Thus, it makes more sense to go for an off-the-shelf platform that provide all the relevant features and required flexibility, instead of developing the whole IoT stack from scratch. Selection of an IoT Platform is a key to develop a scalable and robust IoT Solution.</description>
+        </item>
+        
+        <item>
+            <title>IOT Cloud Platforms -  A Comparative Study</title>
+            <link>https://thinkuldeep.com//post/iot_cloud_platform_comparision/</link>
+            <pubDate>Fri, 22 Aug 2014 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot_cloud_platform_comparision/</guid>
+            <description>The vision of IoT can be seen from two perspectives— ‘Internet’ centric and ‘Thing’ centric. The Internet centric architecture will involve internet services being the main focus while data is contributed by the objects. In the object centric architecture, the smart objects take the center stage.
 In order to realize the full potential of cloud computing as well as ubiquitous sensing, a combined framework with a cloud at the center seems to be most viable.</description>
-    </item>
-    
-    <item>
-      <title>JavaScript Plugin Framework</title>
-      <link>http://localhost:1313/post/javascript-plugin-framework/</link>
-      <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/javascript-plugin-framework/</guid>
-      <description>Javascript Plugin Framework is implemented to add extra functionality in the existing Web based application without actually changing the application code. This framework is also helpful when some functionality need to control for different user profiles.
+        </item>
+        
+        <item>
+            <title>JavaScript Plugin Framework</title>
+            <link>https://thinkuldeep.com//post/javascript-plugin-framework/</link>
+            <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/javascript-plugin-framework/</guid>
+            <description>Javascript Plugin Framework is implemented to add extra functionality in the existing Web based application without actually changing the application code. This framework is also helpful when some functionality need to control for different user profiles.
 For example, to add one extra button in a menu we can write the plugin directly, by defining what that button is going to do on click, what all events should it handle, in one javascript file rather than making changes in the application code for the same.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

@@ -1,118 +1,120 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>students on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/students/</link>
-    <description>Recent content in students on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 15 Apr 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/students/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Community Events are the Energy Boosters!</title>
-      <link>http://localhost:1313/event/gta_lets_fork_together/</link>
-      <pubDate>Sat, 15 Apr 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/gta_lets_fork_together/</guid>
-      <description>Recently, I had the opportunity to contribute to an event called &amp;ldquo;GTA Ghaziabad - Let’s Fork Together&amp;rdquo;. The event was hosted by a community of working professionals and undergraduate engineers from nearby colleges in NCR, and took place at my home office, Thoughtworks Gurgaon. Participating in this event provided me with another energy boost, and in this article, I would like to share my experience and give you a glimpse of what the event was all about!</description>
-    </item>
-    
-    <item>
-      <title>Judge at MOZOHACK 4.0 by the Mozilla Students Club</title>
-      <link>http://localhost:1313/event/judge-mozohack4-srmkzilla-2023/</link>
-      <pubDate>Sat, 25 Feb 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/judge-mozohack4-srmkzilla-2023/</guid>
-      <description>MOZOHACK is a 24-hour hackathon organized by SRMKZILLA. SRMKZILLA is a Mozilla campus club of SRM Institute of Science and Technology, Chennai(India). It is inspired by the Mozilla Learning Network, provides students an open platform to analyze and enhance their technical and non-technical skills, such as working on open-source projects, developing websites, technical fests, and workshops. The club is conducting the seventh edition of its annual flagship event – MOZOFEST&#39;23 – where they celebrate student community through technical and non-technical events.</description>
-    </item>
-    
-    <item>
-      <title>Speaker at Meta-MeitY XR Startup Hub, IIT Delhi</title>
-      <link>http://localhost:1313/event/meta-meity-xr-startsup-hub-2022/</link>
-      <pubDate>Tue, 31 Jan 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/meta-meity-xr-startsup-hub-2022/</guid>
-      <description>Extending Reality is providing experience to user where the boundaries of real and fake blur, and use believe in the new reality presented to them. In the recent years, the tech has evolved to enable extending the reality by XR (AR/VR) faster, and much more evolution still to happen. I was invited at Meta and Meity&amp;rsquo;s Startup Hub program as an industry expert. Here I reflect on the day I spend with the few of the top startup of india, who want to solve some of the key challenges using XR and related technology.</description>
-    </item>
-    
-    <item>
-      <title>Guest Lecture on &#39;SpatialWeb and Web3.0&#39; at NIT Calicut</title>
-      <link>http://localhost:1313/event/guest_lecture_nit_calicut/</link>
-      <pubDate>Sat, 22 Oct 2022 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/guest_lecture_nit_calicut/</guid>
-      <description>National Institute of Technology Calicut is organizing Tathva, Asia&amp;rsquo;s largest student-run Tech Startup Expo. Tathva is a techno-management fest of NIT Calicut is one of south India&amp;rsquo;s biggest scholastic endeavours. Since its inception in 2000, this annual symposium has known only growth and has flourished into one of the few promising enterprises the nation has witnessed. Pushing the barriers year after year, Tathva aims at providing a plethora of platforms to the intrigued technical heads that arrive at this fiesta with an array of events and workshops, to sharpen their skills and widen their knowledge quotient.</description>
-    </item>
-    
-    <item>
-      <title>Metaverse Workshop - VIT-AP University</title>
-      <link>http://localhost:1313/event/metaverse-workshop-vit-ap-university/</link>
-      <pubDate>Sat, 11 Jun 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/metaverse-workshop-vit-ap-university/</guid>
-      <description>School of Computer Science and Engineering (SCOPE) of VIT-AP University is organizing a 1-day National Workshop on “Exploring the Blockchain in Metaverse” on June 11, 2022, from 11 am to 5 pm.
+    <channel>
+        <title>students on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/students/</link>
+        <description>Recent content in students on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sat, 15 Apr 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/students/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Community Events are the Energy Boosters!</title>
+            <link>https://thinkuldeep.com//event/gta_lets_fork_together/</link>
+            <pubDate>Sat, 15 Apr 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/gta_lets_fork_together/</guid>
+            <description>Recently, I had the opportunity to contribute to an event called &amp;ldquo;GTA Ghaziabad - Let’s Fork Together&amp;rdquo;. The event was hosted by a community of working professionals and undergraduate engineers from nearby colleges in NCR, and took place at my home office, Thoughtworks Gurgaon. Participating in this event provided me with another energy boost, and in this article, I would like to share my experience and give you a glimpse of what the event was all about!</description>
+        </item>
+        
+        <item>
+            <title>Judge at MOZOHACK 4.0 by the Mozilla Students Club</title>
+            <link>https://thinkuldeep.com//event/judge-mozohack4-srmkzilla-2023/</link>
+            <pubDate>Sat, 25 Feb 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/judge-mozohack4-srmkzilla-2023/</guid>
+            <description>MOZOHACK is a 24-hour hackathon organized by SRMKZILLA. SRMKZILLA is a Mozilla campus club of SRM Institute of Science and Technology, Chennai(India). It is inspired by the Mozilla Learning Network, provides students an open platform to analyze and enhance their technical and non-technical skills, such as working on open-source projects, developing websites, technical fests, and workshops. The club is conducting the seventh edition of its annual flagship event – MOZOFEST&#39;23 – where they celebrate student community through technical and non-technical events.</description>
+        </item>
+        
+        <item>
+            <title>Speaker at Meta-MeitY XR Startup Hub, IIT Delhi</title>
+            <link>https://thinkuldeep.com//event/meta-meity-xr-startsup-hub-2022/</link>
+            <pubDate>Tue, 31 Jan 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/meta-meity-xr-startsup-hub-2022/</guid>
+            <description>Extending Reality is providing experience to user where the boundaries of real and fake blur, and use believe in the new reality presented to them. In the recent years, the tech has evolved to enable extending the reality by XR (AR/VR) faster, and much more evolution still to happen. I was invited at Meta and Meity&amp;rsquo;s Startup Hub program as an industry expert. Here I reflect on the day I spend with the few of the top startup of india, who want to solve some of the key challenges using XR and related technology.</description>
+        </item>
+        
+        <item>
+            <title>Guest Lecture on &#39;SpatialWeb and Web3.0&#39; at NIT Calicut</title>
+            <link>https://thinkuldeep.com//event/guest_lecture_nit_calicut/</link>
+            <pubDate>Sat, 22 Oct 2022 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/guest_lecture_nit_calicut/</guid>
+            <description>National Institute of Technology Calicut is organizing Tathva, Asia&amp;rsquo;s largest student-run Tech Startup Expo. Tathva is a techno-management fest of NIT Calicut is one of south India&amp;rsquo;s biggest scholastic endeavours. Since its inception in 2000, this annual symposium has known only growth and has flourished into one of the few promising enterprises the nation has witnessed. Pushing the barriers year after year, Tathva aims at providing a plethora of platforms to the intrigued technical heads that arrive at this fiesta with an array of events and workshops, to sharpen their skills and widen their knowledge quotient.</description>
+        </item>
+        
+        <item>
+            <title>Metaverse Workshop - VIT-AP University</title>
+            <link>https://thinkuldeep.com//event/metaverse-workshop-vit-ap-university/</link>
+            <pubDate>Sat, 11 Jun 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/metaverse-workshop-vit-ap-university/</guid>
+            <description>School of Computer Science and Engineering (SCOPE) of VIT-AP University is organizing a 1-day National Workshop on “Exploring the Blockchain in Metaverse” on June 11, 2022, from 11 am to 5 pm.
  The program is intended for students, faculty of technical institutes, professionals from Industry, R&amp;amp;D organizations, and research scholars.
 I will be speaking at the workshop on &amp;ldquo;Gearing up for Metaverse&amp;rdquo;, Will touch upon metaverse step by step.</description>
-    </item>
-    
-    <item>
-      <title>Indian Achievers&#39; Award 2022</title>
-      <link>http://localhost:1313/event/indian-achievers-awards-2022/</link>
-      <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/indian-achievers-awards-2022/</guid>
-      <description>Indian Achievers&amp;rsquo; Forum Indian Achievers&amp;rsquo; Awards is India’s Most Coveted Award For Outstanding Achievements, organized by Indian Achievers&amp;rsquo; Forum. It draws attention on the theme “how the successful Achievers can help the social development in and around the country.” It provides examples of social entrepreneurs, successful models of the society and business community partnership. It promotes achievements that inspire businesses and communities, and recognizes the outstanding professional achievers&amp;rsquo; and their contribution in nation building.</description>
-    </item>
-    
-    <item>
-      <title>Guest Lecture at VIT Vellore</title>
-      <link>http://localhost:1313/event/the_parallax_view_1_vit/</link>
-      <pubDate>Fri, 22 Apr 2022 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/the_parallax_view_1_vit/</guid>
-      <description>Metaverse has become the newest macro-goal for tech industries to invest in and to see the world in a new perspective with the help of AR and VR technologies.🌟
+        </item>
+        
+        <item>
+            <title>Indian Achievers&#39; Award 2022</title>
+            <link>https://thinkuldeep.com//event/indian-achievers-awards-2022/</link>
+            <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/indian-achievers-awards-2022/</guid>
+            <description>Indian Achievers&amp;rsquo; Forum Indian Achievers&amp;rsquo; Awards is India’s Most Coveted Award For Outstanding Achievements, organized by Indian Achievers&amp;rsquo; Forum. It draws attention on the theme “how the successful Achievers can help the social development in and around the country.” It provides examples of social entrepreneurs, successful models of the society and business community partnership. It promotes achievements that inspire businesses and communities, and recognizes the outstanding professional achievers&amp;rsquo; and their contribution in nation building.</description>
+        </item>
+        
+        <item>
+            <title>Guest Lecture at VIT Vellore</title>
+            <link>https://thinkuldeep.com//event/the_parallax_view_1_vit/</link>
+            <pubDate>Fri, 22 Apr 2022 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/the_parallax_view_1_vit/</guid>
+            <description>Metaverse has become the newest macro-goal for tech industries to invest in and to see the world in a new perspective with the help of AR and VR technologies.🌟
 A student club at VIT Vellore named Mozilla Firefox Club invited me for a guest lecture in The Parallax View Episode 1 :Bring the world to wherever you are
  🔮✨Join us on 22nd April, 6PM to clarify all your doubts regarding AR and VR and opportunities it offers you !</description>
-    </item>
-    
-    <item>
-      <title>Your Hackathon Guide at IEEE WIE - BU - The Times Groups</title>
-      <link>http://localhost:1313/event/ieee-bu-wie-discussion/</link>
-      <pubDate>Tue, 01 Feb 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/ieee-bu-wie-discussion/</guid>
-      <description>IEEE WIE (Women In Engineering) at Bennett University - The Times Group, has hosted a panel discussion with students preparing and participating in hackathons.
+        </item>
+        
+        <item>
+            <title>Your Hackathon Guide at IEEE WIE - BU - The Times Groups</title>
+            <link>https://thinkuldeep.com//event/ieee-bu-wie-discussion/</link>
+            <pubDate>Tue, 01 Feb 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/ieee-bu-wie-discussion/</guid>
+            <description>IEEE WIE (Women In Engineering) at Bennett University - The Times Group, has hosted a panel discussion with students preparing and participating in hackathons.
  I joined the panel of 🌟 Swati Anuj Arya (chief information security officer, Amazon Pay) and 🌟Srishti Gupta (Senior data analyst at Ernst &amp;amp; Young) to share our experience with students.
 Highlights of the event! It was a great discussion, we started with questions on prerequisites of hackathon, and skills required to participate in hackathon, where we talked about being a thinker, solution oriented mindset, authenticity and practicality of the ideas and stay aligned to the problem statements.</description>
-    </item>
-    
-    <item>
-      <title>Judge at Tech-Nexus Hackathon</title>
-      <link>http://localhost:1313/event/tech-nexus-2021/</link>
-      <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/tech-nexus-2021/</guid>
-      <description>National Institute of Technology Hamirpur is organizing Tech-Nexus, an online technical carnival, as an initiative of the Institute Innovation Council, MHRD. The essence of Tech-Nexus is to unite all the technological talents across the nation and give them a platform to express their skills and ideas. This flagship event will help people to showcase their unique projects and trends in the technological field as well as the challenges encountered, and solutions adopted while developing the projects.</description>
-    </item>
-    
-    <item>
-      <title>Guest Lecture on &#39;Metaverse&#39; at NIT Hamirpur</title>
-      <link>http://localhost:1313/event/getting_into_metaverse_guest_lecture_nit_hamirpur/</link>
-      <pubDate>Sun, 19 Dec 2021 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/getting_into_metaverse_guest_lecture_nit_hamirpur/</guid>
-      <description>National Institute of Technology Hamirpur is organizing Tech-Nexus, an online technical carnival, as an initiative of the Institute Innovation Council, MHRD. The essence of Tech-Nexus is to unite all the technological talents across the nation and give them a platform to express their skills and ideas. This flagship event will help people to showcase their unique projects and trends in the technological field as well as the challenges encountered, and solutions adopted while developing the projects.</description>
-    </item>
-    
-    <item>
-      <title>Judge - DotSlash 4.0 - Hackthon by NIT Surat</title>
-      <link>http://localhost:1313/event/dotstash_2021_hackathon/</link>
-      <pubDate>Sat, 30 Jan 2021 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/dotstash_2021_hackathon/</guid>
-      <description>SVNIT Surat has organized a hackathon - DotSlash 4.0, a 30 hours long hackathon. More information here - https://www.hackdotslash.co.in/
+        </item>
+        
+        <item>
+            <title>Judge at Tech-Nexus Hackathon</title>
+            <link>https://thinkuldeep.com//event/tech-nexus-2021/</link>
+            <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/tech-nexus-2021/</guid>
+            <description>National Institute of Technology Hamirpur is organizing Tech-Nexus, an online technical carnival, as an initiative of the Institute Innovation Council, MHRD. The essence of Tech-Nexus is to unite all the technological talents across the nation and give them a platform to express their skills and ideas. This flagship event will help people to showcase their unique projects and trends in the technological field as well as the challenges encountered, and solutions adopted while developing the projects.</description>
+        </item>
+        
+        <item>
+            <title>Guest Lecture on &#39;Metaverse&#39; at NIT Hamirpur</title>
+            <link>https://thinkuldeep.com//event/getting_into_metaverse_guest_lecture_nit_hamirpur/</link>
+            <pubDate>Sun, 19 Dec 2021 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/getting_into_metaverse_guest_lecture_nit_hamirpur/</guid>
+            <description>National Institute of Technology Hamirpur is organizing Tech-Nexus, an online technical carnival, as an initiative of the Institute Innovation Council, MHRD. The essence of Tech-Nexus is to unite all the technological talents across the nation and give them a platform to express their skills and ideas. This flagship event will help people to showcase their unique projects and trends in the technological field as well as the challenges encountered, and solutions adopted while developing the projects.</description>
+        </item>
+        
+        <item>
+            <title>Judge - DotSlash 4.0 - Hackthon by NIT Surat</title>
+            <link>https://thinkuldeep.com//event/dotstash_2021_hackathon/</link>
+            <pubDate>Sat, 30 Jan 2021 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/dotstash_2021_hackathon/</guid>
+            <description>SVNIT Surat has organized a hackathon - DotSlash 4.0, a 30 hours long hackathon. More information here - https://www.hackdotslash.co.in/
 I have participated in this event as a Judge.
 The Event Details - 30-31st Jan 2021  It was really proud feeling to head interesting ideas from the young innovators, use the technology to find solutions during Covid and Post-Covid. Ideas to track and optimize carbon generation even from digitization (emails, internet and more), help specially-abled using technology to communicate, build digital restaurant menu to provide contactless experience, make the online exam cheat-proof, and many more.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

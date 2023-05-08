@@ -1,105 +1,107 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>learnings on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/learnings/</link>
-    <description>Recent content in learnings on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 15 Apr 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/learnings/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Community Events are the Energy Boosters!</title>
-      <link>http://localhost:1313/event/gta_lets_fork_together/</link>
-      <pubDate>Sat, 15 Apr 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/gta_lets_fork_together/</guid>
-      <description>Recently, I had the opportunity to contribute to an event called &amp;ldquo;GTA Ghaziabad - Let’s Fork Together&amp;rdquo;. The event was hosted by a community of working professionals and undergraduate engineers from nearby colleges in NCR, and took place at my home office, Thoughtworks Gurgaon. Participating in this event provided me with another energy boost, and in this article, I would like to share my experience and give you a glimpse of what the event was all about!</description>
-    </item>
-    
-    <item>
-      <title>Takeaways from Lenovo Techworld India Edition</title>
-      <link>http://localhost:1313/event/lenovo-techworld-india-2023/</link>
-      <pubDate>Thu, 16 Mar 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/lenovo-techworld-india-2023/</guid>
-      <description>Lenovo, the global technology leader, hosted the India edition of its flagship event, Tech World , on March 16th, 2023. Industry leaders come together and peep into the future of smarter technology, that is empowering a changing world through innovative products, solutions, and witness technological solutions.
+    <channel>
+        <title>learnings on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/learnings/</link>
+        <description>Recent content in learnings on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sat, 15 Apr 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/learnings/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Community Events are the Energy Boosters!</title>
+            <link>https://thinkuldeep.com//event/gta_lets_fork_together/</link>
+            <pubDate>Sat, 15 Apr 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/gta_lets_fork_together/</guid>
+            <description>Recently, I had the opportunity to contribute to an event called &amp;ldquo;GTA Ghaziabad - Let’s Fork Together&amp;rdquo;. The event was hosted by a community of working professionals and undergraduate engineers from nearby colleges in NCR, and took place at my home office, Thoughtworks Gurgaon. Participating in this event provided me with another energy boost, and in this article, I would like to share my experience and give you a glimpse of what the event was all about!</description>
+        </item>
+        
+        <item>
+            <title>Takeaways from Lenovo Techworld India Edition</title>
+            <link>https://thinkuldeep.com//event/lenovo-techworld-india-2023/</link>
+            <pubDate>Thu, 16 Mar 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/lenovo-techworld-india-2023/</guid>
+            <description>Lenovo, the global technology leader, hosted the India edition of its flagship event, Tech World , on March 16th, 2023. Industry leaders come together and peep into the future of smarter technology, that is empowering a changing world through innovative products, solutions, and witness technological solutions.
 I get a chance to join the event, and meet and listen to the industry leaders, experience lenovo’s innovative product line, and see breakthroughs in india shaping up.</description>
-    </item>
-    
-    <item>
-      <title>Speaker at Meta-MeitY XR Startup Hub, IIT Delhi</title>
-      <link>http://localhost:1313/event/meta-meity-xr-startsup-hub-2022/</link>
-      <pubDate>Tue, 31 Jan 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/meta-meity-xr-startsup-hub-2022/</guid>
-      <description>Extending Reality is providing experience to user where the boundaries of real and fake blur, and use believe in the new reality presented to them. In the recent years, the tech has evolved to enable extending the reality by XR (AR/VR) faster, and much more evolution still to happen. I was invited at Meta and Meity&amp;rsquo;s Startup Hub program as an industry expert. Here I reflect on the day I spend with the few of the top startup of india, who want to solve some of the key challenges using XR and related technology.</description>
-    </item>
-    
-    <item>
-      <title>Corporate lessons from a Home Makeover</title>
-      <link>http://localhost:1313/post/corporate-lessons-from-a-home-makeover/</link>
-      <pubDate>Thu, 17 Nov 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/corporate-lessons-from-a-home-makeover/</guid>
-      <description>Recently I shared an article on my life lessons from my father’s work life, and mentioned that I dedicated a new home to my father’s work life, also promised that I will share some corporate lessons learned from making-over this new home. I can well relate my takeaways to the corporate experiences such as vendor selection, negotiation, solutioning, estimation, prioritization, agility and being a trusted partner and many more..
+        </item>
+        
+        <item>
+            <title>Speaker at Meta-MeitY XR Startup Hub, IIT Delhi</title>
+            <link>https://thinkuldeep.com//event/meta-meity-xr-startsup-hub-2022/</link>
+            <pubDate>Tue, 31 Jan 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/meta-meity-xr-startsup-hub-2022/</guid>
+            <description>Extending Reality is providing experience to user where the boundaries of real and fake blur, and use believe in the new reality presented to them. In the recent years, the tech has evolved to enable extending the reality by XR (AR/VR) faster, and much more evolution still to happen. I was invited at Meta and Meity&amp;rsquo;s Startup Hub program as an industry expert. Here I reflect on the day I spend with the few of the top startup of india, who want to solve some of the key challenges using XR and related technology.</description>
+        </item>
+        
+        <item>
+            <title>Corporate lessons from a Home Makeover</title>
+            <link>https://thinkuldeep.com//post/corporate-lessons-from-a-home-makeover/</link>
+            <pubDate>Thu, 17 Nov 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/corporate-lessons-from-a-home-makeover/</guid>
+            <description>Recently I shared an article on my life lessons from my father’s work life, and mentioned that I dedicated a new home to my father’s work life, also promised that I will share some corporate lessons learned from making-over this new home. I can well relate my takeaways to the corporate experiences such as vendor selection, negotiation, solutioning, estimation, prioritization, agility and being a trusted partner and many more..
  As I keep saying “we learn every day in all situations of life, good or bad”</description>
-    </item>
-    
-    <item>
-      <title>Lessons of Life - Father’s Retirement</title>
-      <link>http://localhost:1313/post/lessons-of-life-father-retirement/</link>
-      <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/lessons-of-life-father-retirement/</guid>
-      <description>I started thinkuldeep.com keeping in mind that we learn every day in all situations of life, good or bad. Our learning matures by sharing, we explore more of us by giving it away to others.
+        </item>
+        
+        <item>
+            <title>Lessons of Life - Father’s Retirement</title>
+            <link>https://thinkuldeep.com//post/lessons-of-life-father-retirement/</link>
+            <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/lessons-of-life-father-retirement/</guid>
+            <description>I started thinkuldeep.com keeping in mind that we learn every day in all situations of life, good or bad. Our learning matures by sharing, we explore more of us by giving it away to others.
  Recently my father turned 60, and has retired from government services. 60 years full of life is a quite big experience, where around 38 years he spent in serving the same Govt of Rajasthan.</description>
-    </item>
-    
-    <item>
-      <title>Navigating the new normal with augmented reality</title>
-      <link>http://localhost:1313/post/navigating-new-normal-xr/</link>
-      <pubDate>Sat, 01 May 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/navigating-new-normal-xr/</guid>
-      <description>This article is originally published at Thoughtworks Insights, co-authored with Aileen Pistorius, Julie Woods-Moss and Anna Bäckström.
+        </item>
+        
+        <item>
+            <title>Navigating the new normal with augmented reality</title>
+            <link>https://thinkuldeep.com//post/navigating-new-normal-xr/</link>
+            <pubDate>Sat, 01 May 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/navigating-new-normal-xr/</guid>
+            <description>This article is originally published at Thoughtworks Insights, co-authored with Aileen Pistorius, Julie Woods-Moss and Anna Bäckström.
 Time was when virtual and augmented reality was regarded as simply gaming technology — the preserve of fun, consumer applications with little serious consideration for the enterprise. But that’s in the past, in the post-COVID world, remote working will be ubiquitous — forcing enterprise leaders to find innovative ways to improve collaboration. This, it transpires, is the sweet spot for what’s termed enterprise XR (extended reality) — a group of related technologies that enable us to blend the physical and digital worlds.</description>
-    </item>
-    
-    <item>
-      <title>Best Practices for Building Spatial Solutions</title>
-      <link>http://localhost:1313/post/xr-best-practices/</link>
-      <pubDate>Tue, 05 Jan 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/xr-best-practices/</guid>
-      <description>Covid19 is forcing us into a ‘new normal’, A new normal that makes most of us work from home, and that leads to spending long hours on Zoom, or other video conferencing platforms. Meetings, inceptions, discovery workshops, conferences, and webinars are happening in the same monotonous ways. We are stuck with a screen in almost the same pose and posture. Some might use their mobile phone or tablet but that limits us to a small screen.</description>
-    </item>
-    
-    <item>
-      <title>The Learning Equation</title>
-      <link>http://localhost:1313/post/the-learning-equation/</link>
-      <pubDate>Sat, 05 Sep 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/the-learning-equation/</guid>
-      <description>Today, The world is celebrating teacher’s day. I wish Happy Teacher&amp;rsquo;s day to all of us! We all are teachers and learners as every one of us has something to learn from others and something to teach others. I am thinking of an equation of learning that defines my way of learning and hope it would be helpful for you too.  The learning equation — Learning is proportional to Sharing; Learning ∝ Sharing</description>
-    </item>
-    
-    <item>
-      <title>Lessons Learned From Blockchain-Based Development</title>
-      <link>http://localhost:1313/post/learnings-from-blockchain-based-development/</link>
-      <pubDate>Fri, 15 Feb 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/learnings-from-blockchain-based-development/</guid>
-      <description>Blockchain or DLT (Distributed Ledger Technology) is getting good traction in the IT world these days. Earlier, this technology was being mostly explored by banks and other finance-related institutions, such as Bitcoin and Ethereum. Now, it is getting explored for other use cases for building distributed applications. Blockchain technology comes with a decentralized and immutable data structure that maintains a connected block of information. Each block is connected using a hash of the previous block, and every new block on the chain is validated (mined) before adding and replicating it.</description>
-    </item>
-    
-    <item>
-      <title>5 Hard Lessons From Microservices Development</title>
-      <link>http://localhost:1313/post/lessons_from_microservices_development/</link>
-      <pubDate>Mon, 23 Jul 2018 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/lessons_from_microservices_development/</guid>
-      <description>Microservices-based development is happening all around the industry; more than 70% are trying development of microservice-based software. Microservices simplify integration of the businesses, processes, technology, and people by breaking down the big-bang monolith problem to a smaller set that can be handled independently. However, it also comes with the problem of managing relations between these smaller sets. We used to manage fewer independent units, so there was less operation and planning effort.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+        <item>
+            <title>Best Practices for Building Spatial Solutions</title>
+            <link>https://thinkuldeep.com//post/xr-best-practices/</link>
+            <pubDate>Tue, 05 Jan 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/xr-best-practices/</guid>
+            <description>Covid19 is forcing us into a ‘new normal’, A new normal that makes most of us work from home, and that leads to spending long hours on Zoom, or other video conferencing platforms. Meetings, inceptions, discovery workshops, conferences, and webinars are happening in the same monotonous ways. We are stuck with a screen in almost the same pose and posture. Some might use their mobile phone or tablet but that limits us to a small screen.</description>
+        </item>
+        
+        <item>
+            <title>The Learning Equation</title>
+            <link>https://thinkuldeep.com//post/the-learning-equation/</link>
+            <pubDate>Sat, 05 Sep 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/the-learning-equation/</guid>
+            <description>Today, The world is celebrating teacher’s day. I wish Happy Teacher&amp;rsquo;s day to all of us! We all are teachers and learners as every one of us has something to learn from others and something to teach others. I am thinking of an equation of learning that defines my way of learning and hope it would be helpful for you too.  The learning equation — Learning is proportional to Sharing; Learning ∝ Sharing</description>
+        </item>
+        
+        <item>
+            <title>Lessons Learned From Blockchain-Based Development</title>
+            <link>https://thinkuldeep.com//post/learnings-from-blockchain-based-development/</link>
+            <pubDate>Fri, 15 Feb 2019 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/learnings-from-blockchain-based-development/</guid>
+            <description>Blockchain or DLT (Distributed Ledger Technology) is getting good traction in the IT world these days. Earlier, this technology was being mostly explored by banks and other finance-related institutions, such as Bitcoin and Ethereum. Now, it is getting explored for other use cases for building distributed applications. Blockchain technology comes with a decentralized and immutable data structure that maintains a connected block of information. Each block is connected using a hash of the previous block, and every new block on the chain is validated (mined) before adding and replicating it.</description>
+        </item>
+        
+        <item>
+            <title>5 Hard Lessons From Microservices Development</title>
+            <link>https://thinkuldeep.com//post/lessons_from_microservices_development/</link>
+            <pubDate>Mon, 23 Jul 2018 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/lessons_from_microservices_development/</guid>
+            <description>Microservices-based development is happening all around the industry; more than 70% are trying development of microservice-based software. Microservices simplify integration of the businesses, processes, technology, and people by breaking down the big-bang monolith problem to a smaller set that can be handled independently. However, it also comes with the problem of managing relations between these smaller sets. We used to manage fewer independent units, so there was less operation and planning effort.</description>
+        </item>
+        
+    </channel>
 </rss>

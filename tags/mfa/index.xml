@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>mfa on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/mfa/</link>
-    <description>Recent content in mfa on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 25 Mar 2020 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/mfa/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Enterprise XR - Multi-Factor Authentication</title>
-      <link>http://localhost:1313/post/enterprise-xr-multi-factor-authentication/</link>
-      <pubDate>Wed, 25 Mar 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/enterprise-xr-multi-factor-authentication/</guid>
-      <description>XR use cases are growing with advancements in the devices, internet and development technologies. There is an ever-growing demand to build enterprise use cases using ARVR technology. Most enterprise use cases eventually require integration with an enterprise ecosystem such as IAM (Identity and Access Management), ERP, CRM, and single sign-on with other systems.
+    <channel>
+        <title>mfa on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/mfa/</link>
+        <description>Recent content in mfa on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Wed, 25 Mar 2020 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/mfa/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Enterprise XR - Multi-Factor Authentication</title>
+            <link>https://thinkuldeep.com//post/enterprise-xr-multi-factor-authentication/</link>
+            <pubDate>Wed, 25 Mar 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/enterprise-xr-multi-factor-authentication/</guid>
+            <description>XR use cases are growing with advancements in the devices, internet and development technologies. There is an ever-growing demand to build enterprise use cases using ARVR technology. Most enterprise use cases eventually require integration with an enterprise ecosystem such as IAM (Identity and Access Management), ERP, CRM, and single sign-on with other systems.
 Most organizations protect digital assets with a single sign-on using Multiple Factor Authentication (MFA). The MFA is generally a web-browser based authentication where the browser redirects to tenant’s authentication page where the user provides their credentials and then the user confirms another factor (PIN, OTP, SMS or mobile notifications), once it succeeds, it gets redirected back to the protected resource.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

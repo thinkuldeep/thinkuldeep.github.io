@@ -1,32 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>c&#43;&#43; on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/c&#43;&#43;/</link>
-    <description>Recent content in c&#43;&#43; on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 16 Dec 2016 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/c++/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>IoT based insect monitoring concept</title>
-      <link>http://localhost:1313/post/iot-insect-monitoring/</link>
-      <pubDate>Fri, 16 Dec 2016 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/iot-insect-monitoring/</guid>
-      <description>Insects are the most diverse species of animals found on earth. While every species is required to maintain the balance of nature, excessive accumulation of any one type can have devastating effects on humans and environment.
+    <channel>
+        <title>c&#43;&#43; on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/c&#43;&#43;/</link>
+        <description>Recent content in c&#43;&#43; on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Fri, 16 Dec 2016 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>IoT based insect monitoring concept</title>
+            <link>https://thinkuldeep.com//post/iot-insect-monitoring/</link>
+            <pubDate>Fri, 16 Dec 2016 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-insect-monitoring/</guid>
+            <description>Insects are the most diverse species of animals found on earth. While every species is required to maintain the balance of nature, excessive accumulation of any one type can have devastating effects on humans and environment.
 Insect management relies on the early detection and accuracy of insect population monitoring techniquessensors-12-15801. Integrated data gathering about insect population together with the ecological factors like temperature, humidity, light etc., makes it possible to execute appropriate pest control at the right time in the right place.</description>
-    </item>
-    
-    <item>
-      <title>Compiling Java Native C/C&#43;&#43; Code</title>
-      <link>http://localhost:1313/post/java-jni-cpp/</link>
-      <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/java-jni-cpp/</guid>
-      <description>We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
+        </item>
+        
+        <item>
+            <title>Compiling Java Native C/C&#43;&#43; Code</title>
+            <link>https://thinkuldeep.com//post/java-jni-cpp/</link>
+            <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/java-jni-cpp/</guid>
+            <description>We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
  How to write a JNI program. jni_md.h not found. Incompatible data types. On widows cygwin1.dll is required when running Java code on the native library. and more.  Actually we were compiling NLP Solver’s native library (IPOPT) on windows 32 bit and on 64bit linux machine.
 Solving the chaos! Here are the steps we have followed to solve the above issues:</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

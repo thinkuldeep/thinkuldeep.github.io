@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>leadership on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/leadership/</link>
-    <description>Recent content in leadership on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 09 Apr 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Habit Matters - The change is a side effect</title>
-      <link>http://localhost:1313/post/habitmatters/</link>
-      <pubDate>Sun, 09 Apr 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/habitmatters/</guid>
-      <description>“Change is the only constant, it doesn&amp;rsquo;t matter whether we like it or not, it takes place”- shared and reflected in my change stories.
+    <channel>
+        <title>leadership on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/leadership/</link>
+        <description>Recent content in leadership on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sun, 09 Apr 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Habit Matters - The change is a side effect</title>
+            <link>https://thinkuldeep.com//post/habitmatters/</link>
+            <pubDate>Sun, 09 Apr 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/habitmatters/</guid>
+            <description>“Change is the only constant, it doesn&amp;rsquo;t matter whether we like it or not, it takes place”- shared and reflected in my change stories.
  Over the years, I have been following my theory of change Accept-Observe-Absorb. It helped me to traverse through the change year 2020, and understand the role of “Will” and how to cultivate it. I shared how just one change “working from my native home” brought so many other changes in lifestyle and behavior.</description>
-    </item>
-    
-    <item>
-      <title>Leadership - A result of conscious and continuous effort!</title>
-      <link>http://localhost:1313/post/leadership-development-takeaways/</link>
-      <pubDate>Thu, 30 Sep 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/leadership-development-takeaways/</guid>
-      <description>Sep 2020, a year ago, I was excited for getting nominated for an year long Global Leadership Development Program at Thoughtworks. At the same time was little confused on what we are going to do in this program for that long. I must say it was so well executed, despite the challenges of Covid#19, where we all(participants, speakers, coaches and other enablers) are globally distributed working from their home. Expectations were set, virtual meetings were set with options to attend at per individual comfort.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+        <item>
+            <title>Leadership - A result of conscious and continuous effort!</title>
+            <link>https://thinkuldeep.com//post/leadership-development-takeaways/</link>
+            <pubDate>Thu, 30 Sep 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/leadership-development-takeaways/</guid>
+            <description>Sep 2020, a year ago, I was excited for getting nominated for an year long Global Leadership Development Program at Thoughtworks. At the same time was little confused on what we are going to do in this program for that long. I must say it was so well executed, despite the challenges of Covid#19, where we all(participants, speakers, coaches and other enablers) are globally distributed working from their home. Expectations were set, virtual meetings were set with options to attend at per individual comfort.</description>
+        </item>
+        
+    </channel>
 </rss>

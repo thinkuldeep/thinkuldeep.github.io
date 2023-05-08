@@ -1,78 +1,80 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>agile on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/agile/</link>
-    <description>Recent content in agile on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 25 Mar 2023 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/agile/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Speaker - Agility Today Fest 2023 - Generative AI and XR</title>
-      <link>http://localhost:1313/event/agiletoday_2023_ael/</link>
-      <pubDate>Sat, 25 Mar 2023 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/agiletoday_2023_ael/</guid>
-      <description>Agility Today is a 2 days annual UnConference, to meet Agility needs of industry, gathered over past few years via meetups, Conferences and Webinar. This UnConference intends to give you best of Agile Psyche (Mindset Culture and Practice) and Geekery (Engineering, Tools and DevOps). This year in Agility Today Fest 2023 there are couple of programs.
+    <channel>
+        <title>agile on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/agile/</link>
+        <description>Recent content in agile on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sat, 25 Mar 2023 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Speaker - Agility Today Fest 2023 - Generative AI and XR</title>
+            <link>https://thinkuldeep.com//event/agiletoday_2023_ael/</link>
+            <pubDate>Sat, 25 Mar 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/agiletoday_2023_ael/</guid>
+            <description>Agility Today is a 2 days annual UnConference, to meet Agility needs of industry, gathered over past few years via meetups, Conferences and Webinar. This UnConference intends to give you best of Agile Psyche (Mindset Culture and Practice) and Geekery (Engineering, Tools and DevOps). This year in Agility Today Fest 2023 there are couple of programs.
 I am speaking to at Agile Engineering Lab (Technical Agility &amp;amp; Engineering Excellence), on topic of Scaling content generation for XR using AI.</description>
-    </item>
-    
-    <item>
-      <title>Guest Lecture on &#39;Forward Looking Reflection&#39; at DesignersX</title>
-      <link>http://localhost:1313/post/forward-looking-reflection/</link>
-      <pubDate>Sat, 31 Dec 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/forward-looking-reflection/</guid>
-      <description>Every end is a beginning, if there is no end, then there is no beginning, just like the year 2023 can only start after the end of year 2022. So this is the right time to reflect and plan for a better beginning. A “Forward Looking Reflection” was my topic of a guest lecture at DesignersX at their year end event. We discussed challenges of software development, and how the industry is trying to solve them.</description>
-    </item>
-    
-    <item>
-      <title>Speaker - AT2020 - Agility in Enterprise XR</title>
-      <link>http://localhost:1313/event/at_2020_agilexr/</link>
-      <pubDate>Sat, 06 Mar 2021 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/at_2020_agilexr/</guid>
-      <description>Enterprise XR is gaining good traction, and software development’s best practices like Agile principles really matters due to multitude of tooling and tech stacks used for Enterprise XR solutions
+        </item>
+        
+        <item>
+            <title>Guest Lecture on &#39;Forward Looking Reflection&#39; at DesignersX</title>
+            <link>https://thinkuldeep.com//post/forward-looking-reflection/</link>
+            <pubDate>Sat, 31 Dec 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/forward-looking-reflection/</guid>
+            <description>Every end is a beginning, if there is no end, then there is no beginning, just like the year 2023 can only start after the end of year 2022. So this is the right time to reflect and plan for a better beginning. A “Forward Looking Reflection” was my topic of a guest lecture at DesignersX at their year end event. We discussed challenges of software development, and how the industry is trying to solve them.</description>
+        </item>
+        
+        <item>
+            <title>Speaker - AT2020 - Agility in Enterprise XR</title>
+            <link>https://thinkuldeep.com//event/at_2020_agilexr/</link>
+            <pubDate>Sat, 06 Mar 2021 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/at_2020_agilexr/</guid>
+            <description>Enterprise XR is gaining good traction, and software development’s best practices like Agile principles really matters due to multitude of tooling and tech stacks used for Enterprise XR solutions
 Enterprises do face multiple challenges with the XR development lifecycle. One of them is the automation of testing XR applications. In response to this gap, ThoughtWorks has developed Arium – an open-source, lightweight, extensible, platform-agnostic framework that helps write automation tests that are built specifically for XR Applications.</description>
-    </item>
-    
-    <item>
-      <title>XR development from home</title>
-      <link>http://localhost:1313/post/xr-development-from-home/</link>
-      <pubDate>Thu, 02 Apr 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/xr-development-from-home/</guid>
-      <description>Covid19 has challenged the way we eat, the way we commute, the way we socialize, and the way we work. In short, it impacted the way we live. More than a million people got infected and the number is growing exponentially, it has impacted the whole world. We need to find new ways of life and change our focus and priorities to save nature and humanity. Technology can play a great role in coping with it.</description>
-    </item>
-    
-    <item>
-      <title>Can IT modernization lead to revenue loss?</title>
-      <link>http://localhost:1313/post/can_it_modernization_lead_to_revenue_loss/</link>
-      <pubDate>Wed, 10 Apr 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/can_it_modernization_lead_to_revenue_loss/</guid>
-      <description>IT Modernization is one of the key factors of today&amp;rsquo;s digital transformation. Most of the enterprises trying to define digital transformation strategy. IT organizations trying to redesign the organizations to meet the changing business need, and uplift the technology and people. Non-IT organizations are also trying to setup digital department to take care of companies digital assets and modernize them. However, IT modernization does not always result in a profit, it may lead to revenue loss if it does not fit to the organization design.</description>
-    </item>
-    
-    <item>
-      <title>Software Development as a Design Process</title>
-      <link>http://localhost:1313/post/software-development-as-design-process/</link>
-      <pubDate>Mon, 05 Nov 2018 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/software-development-as-design-process/</guid>
-      <description>The book &amp;ldquo;Agile IT Organization Design - For digital transformation and continuous delivery&amp;rdquo; by Sriram Narayan explains software development as a design process. Following statement from the book means a lot.
+        </item>
+        
+        <item>
+            <title>XR development from home</title>
+            <link>https://thinkuldeep.com//post/xr-development-from-home/</link>
+            <pubDate>Thu, 02 Apr 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/xr-development-from-home/</guid>
+            <description>Covid19 has challenged the way we eat, the way we commute, the way we socialize, and the way we work. In short, it impacted the way we live. More than a million people got infected and the number is growing exponentially, it has impacted the whole world. We need to find new ways of life and change our focus and priorities to save nature and humanity. Technology can play a great role in coping with it.</description>
+        </item>
+        
+        <item>
+            <title>Can IT modernization lead to revenue loss?</title>
+            <link>https://thinkuldeep.com//post/can_it_modernization_lead_to_revenue_loss/</link>
+            <pubDate>Wed, 10 Apr 2019 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/can_it_modernization_lead_to_revenue_loss/</guid>
+            <description>IT Modernization is one of the key factors of today&amp;rsquo;s digital transformation. Most of the enterprises trying to define digital transformation strategy. IT organizations trying to redesign the organizations to meet the changing business need, and uplift the technology and people. Non-IT organizations are also trying to setup digital department to take care of companies digital assets and modernize them. However, IT modernization does not always result in a profit, it may lead to revenue loss if it does not fit to the organization design.</description>
+        </item>
+        
+        <item>
+            <title>Software Development as a Design Process</title>
+            <link>https://thinkuldeep.com//post/software-development-as-design-process/</link>
+            <pubDate>Mon, 05 Nov 2018 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/software-development-as-design-process/</guid>
+            <description>The book &amp;ldquo;Agile IT Organization Design - For digital transformation and continuous delivery&amp;rdquo; by Sriram Narayan explains software development as a design process. Following statement from the book means a lot.
  &amp;ldquo;Software development is a design process, and the production environment is the factory where product takes place. IT OPS work to keep the factory running..&amp;rdquo;
  It questions the way we traditionally think of operation support, maintenance, production bugs, rework, their costs and budgets and the focus in software development life.</description>
-    </item>
-    
-    <item>
-      <title>Boost your organisation agility by test-first-pair development</title>
-      <link>http://localhost:1313/post/test-first-pair-development/</link>
-      <pubDate>Sat, 15 Sep 2018 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/test-first-pair-development/</guid>
-      <description>Agile software development methodology is the key selling point for most of the IT organisations, however many of the organisations have gone by the literal meaning of the word &amp;ldquo;Agile&amp;rdquo;. They follow agile practices without really being agile. If we go by Manifesto for Agile Software Development, it focus more on human factor (people, interaction, collaboration) which produces working software as per the need of time, than on processes, tools and strict planning.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+        <item>
+            <title>Boost your organisation agility by test-first-pair development</title>
+            <link>https://thinkuldeep.com//post/test-first-pair-development/</link>
+            <pubDate>Sat, 15 Sep 2018 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/test-first-pair-development/</guid>
+            <description>Agile software development methodology is the key selling point for most of the IT organisations, however many of the organisations have gone by the literal meaning of the word &amp;ldquo;Agile&amp;rdquo;. They follow agile practices without really being agile. If we go by Manifesto for Agile Software Development, it focus more on human factor (people, interaction, collaboration) which produces working software as per the need of time, than on processes, tools and strict planning.</description>
+        </item>
+        
+    </channel>
 </rss>

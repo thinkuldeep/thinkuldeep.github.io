@@ -1,49 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>nit on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/nit/</link>
-    <description>Recent content in nit on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 22 Oct 2022 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/nit/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Guest Lecture on &#39;SpatialWeb and Web3.0&#39; at NIT Calicut</title>
-      <link>http://localhost:1313/event/guest_lecture_nit_calicut/</link>
-      <pubDate>Sat, 22 Oct 2022 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/guest_lecture_nit_calicut/</guid>
-      <description>National Institute of Technology Calicut is organizing Tathva, Asia&amp;rsquo;s largest student-run Tech Startup Expo. Tathva is a techno-management fest of NIT Calicut is one of south India&amp;rsquo;s biggest scholastic endeavours. Since its inception in 2000, this annual symposium has known only growth and has flourished into one of the few promising enterprises the nation has witnessed. Pushing the barriers year after year, Tathva aims at providing a plethora of platforms to the intrigued technical heads that arrive at this fiesta with an array of events and workshops, to sharpen their skills and widen their knowledge quotient.</description>
-    </item>
-    
-    <item>
-      <title>Judge at Tech-Nexus Hackathon</title>
-      <link>http://localhost:1313/event/tech-nexus-2021/</link>
-      <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/tech-nexus-2021/</guid>
-      <description>National Institute of Technology Hamirpur is organizing Tech-Nexus, an online technical carnival, as an initiative of the Institute Innovation Council, MHRD. The essence of Tech-Nexus is to unite all the technological talents across the nation and give them a platform to express their skills and ideas. This flagship event will help people to showcase their unique projects and trends in the technological field as well as the challenges encountered, and solutions adopted while developing the projects.</description>
-    </item>
-    
-    <item>
-      <title>Guest Lecture on &#39;Metaverse&#39; at NIT Hamirpur</title>
-      <link>http://localhost:1313/event/getting_into_metaverse_guest_lecture_nit_hamirpur/</link>
-      <pubDate>Sun, 19 Dec 2021 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/getting_into_metaverse_guest_lecture_nit_hamirpur/</guid>
-      <description>National Institute of Technology Hamirpur is organizing Tech-Nexus, an online technical carnival, as an initiative of the Institute Innovation Council, MHRD. The essence of Tech-Nexus is to unite all the technological talents across the nation and give them a platform to express their skills and ideas. This flagship event will help people to showcase their unique projects and trends in the technological field as well as the challenges encountered, and solutions adopted while developing the projects.</description>
-    </item>
-    
-    <item>
-      <title>Judge - DotSlash 4.0 - Hackthon by NIT Surat</title>
-      <link>http://localhost:1313/event/dotstash_2021_hackathon/</link>
-      <pubDate>Sat, 30 Jan 2021 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/dotstash_2021_hackathon/</guid>
-      <description>SVNIT Surat has organized a hackathon - DotSlash 4.0, a 30 hours long hackathon. More information here - https://www.hackdotslash.co.in/
+    <channel>
+        <title>nit on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/nit/</link>
+        <description>Recent content in nit on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sat, 22 Oct 2022 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/nit/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Guest Lecture on &#39;SpatialWeb and Web3.0&#39; at NIT Calicut</title>
+            <link>https://thinkuldeep.com//event/guest_lecture_nit_calicut/</link>
+            <pubDate>Sat, 22 Oct 2022 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/guest_lecture_nit_calicut/</guid>
+            <description>National Institute of Technology Calicut is organizing Tathva, Asia&amp;rsquo;s largest student-run Tech Startup Expo. Tathva is a techno-management fest of NIT Calicut is one of south India&amp;rsquo;s biggest scholastic endeavours. Since its inception in 2000, this annual symposium has known only growth and has flourished into one of the few promising enterprises the nation has witnessed. Pushing the barriers year after year, Tathva aims at providing a plethora of platforms to the intrigued technical heads that arrive at this fiesta with an array of events and workshops, to sharpen their skills and widen their knowledge quotient.</description>
+        </item>
+        
+        <item>
+            <title>Judge at Tech-Nexus Hackathon</title>
+            <link>https://thinkuldeep.com//event/tech-nexus-2021/</link>
+            <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/tech-nexus-2021/</guid>
+            <description>National Institute of Technology Hamirpur is organizing Tech-Nexus, an online technical carnival, as an initiative of the Institute Innovation Council, MHRD. The essence of Tech-Nexus is to unite all the technological talents across the nation and give them a platform to express their skills and ideas. This flagship event will help people to showcase their unique projects and trends in the technological field as well as the challenges encountered, and solutions adopted while developing the projects.</description>
+        </item>
+        
+        <item>
+            <title>Guest Lecture on &#39;Metaverse&#39; at NIT Hamirpur</title>
+            <link>https://thinkuldeep.com//event/getting_into_metaverse_guest_lecture_nit_hamirpur/</link>
+            <pubDate>Sun, 19 Dec 2021 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/getting_into_metaverse_guest_lecture_nit_hamirpur/</guid>
+            <description>National Institute of Technology Hamirpur is organizing Tech-Nexus, an online technical carnival, as an initiative of the Institute Innovation Council, MHRD. The essence of Tech-Nexus is to unite all the technological talents across the nation and give them a platform to express their skills and ideas. This flagship event will help people to showcase their unique projects and trends in the technological field as well as the challenges encountered, and solutions adopted while developing the projects.</description>
+        </item>
+        
+        <item>
+            <title>Judge - DotSlash 4.0 - Hackthon by NIT Surat</title>
+            <link>https://thinkuldeep.com//event/dotstash_2021_hackathon/</link>
+            <pubDate>Sat, 30 Jan 2021 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/dotstash_2021_hackathon/</guid>
+            <description>SVNIT Surat has organized a hackathon - DotSlash 4.0, a 30 hours long hackathon. More information here - https://www.hackdotslash.co.in/
 I have participated in this event as a Judge.
 The Event Details - 30-31st Jan 2021  It was really proud feeling to head interesting ideas from the young innovators, use the technology to find solutions during Covid and Post-Covid. Ideas to track and optimize carbon generation even from digitization (emails, internet and more), help specially-abled using technology to communicate, build digital restaurant menu to provide contactless experience, make the online exam cheat-proof, and many more.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

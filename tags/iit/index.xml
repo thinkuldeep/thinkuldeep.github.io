@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>iit on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/iit/</link>
-    <description>Recent content in iit on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 31 Jan 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/iit/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Speaker at Meta-MeitY XR Startup Hub, IIT Delhi</title>
-      <link>http://localhost:1313/event/meta-meity-xr-startsup-hub-2022/</link>
-      <pubDate>Tue, 31 Jan 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/meta-meity-xr-startsup-hub-2022/</guid>
-      <description>Extending Reality is providing experience to user where the boundaries of real and fake blur, and use believe in the new reality presented to them. In the recent years, the tech has evolved to enable extending the reality by XR (AR/VR) faster, and much more evolution still to happen. I was invited at Meta and Meity&amp;rsquo;s Startup Hub program as an industry expert. Here I reflect on the day I spend with the few of the top startup of india, who want to solve some of the key challenges using XR and related technology.</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>iit on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/iit/</link>
+        <description>Recent content in iit on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Tue, 31 Jan 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/iit/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Speaker at Meta-MeitY XR Startup Hub, IIT Delhi</title>
+            <link>https://thinkuldeep.com//event/meta-meity-xr-startsup-hub-2022/</link>
+            <pubDate>Tue, 31 Jan 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/meta-meity-xr-startsup-hub-2022/</guid>
+            <description>Extending Reality is providing experience to user where the boundaries of real and fake blur, and use believe in the new reality presented to them. In the recent years, the tech has evolved to enable extending the reality by XR (AR/VR) faster, and much more evolution still to happen. I was invited at Meta and Meity&amp;rsquo;s Startup Hub program as an industry expert. Here I reflect on the day I spend with the few of the top startup of india, who want to solve some of the key challenges using XR and related technology.</description>
+        </item>
+        
+    </channel>
 </rss>

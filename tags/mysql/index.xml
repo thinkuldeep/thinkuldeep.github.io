@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>mysql on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/mysql/</link>
-    <description>Recent content in mysql on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 15 Apr 2012 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Default Timezone in Java and MySQL</title>
-      <link>http://localhost:1313/post/java-mysql-timezone-configuration/</link>
-      <pubDate>Sun, 15 Apr 2012 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/java-mysql-timezone-configuration/</guid>
-      <description>On one of our production environments, we had an issue our application related to time, specially modified time and creation time of the entities. It was quite random in nature for some entities.
+    <channel>
+        <title>mysql on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/mysql/</link>
+        <description>Recent content in mysql on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sun, 15 Apr 2012 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Default Timezone in Java and MySQL</title>
+            <link>https://thinkuldeep.com//post/java-mysql-timezone-configuration/</link>
+            <pubDate>Sun, 15 Apr 2012 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/java-mysql-timezone-configuration/</guid>
+            <description>On one of our production environments, we had an issue our application related to time, specially modified time and creation time of the entities. It was quite random in nature for some entities.
 We suspected that there might be issue in the timezone configuration.
 Analysing the problem On production environment, we had limited permissions. We were not allowed to change system timezone. We noticed that Jboss is automatically picking the system timezone “Europe/Berlin” (which was configured from root user) and if we check the timezone for the linux user for which we have access it shows GMT time.</description>
-    </item>
-    
-    <item>
-      <title>MySQL Tuning</title>
-      <link>http://localhost:1313/post/mysql-tuning/</link>
-      <pubDate>Sat, 10 Mar 2012 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/mysql-tuning/</guid>
-      <description>We have faced &amp;lsquo;out of space&amp;rsquo; issue on disk even after clearing old data on database server(MySQL) and temporary data on application. We noticed that 90% of the space was occupied by the database tables which were used to store very large de-normalized statistical data and when we track the database table we noticed there is not much data in the database in the tables but they were still occupying space on disk.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+        <item>
+            <title>MySQL Tuning</title>
+            <link>https://thinkuldeep.com//post/mysql-tuning/</link>
+            <pubDate>Sat, 10 Mar 2012 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/mysql-tuning/</guid>
+            <description>We have faced &amp;lsquo;out of space&amp;rsquo; issue on disk even after clearing old data on database server(MySQL) and temporary data on application. We noticed that 90% of the space was occupied by the database tables which were used to store very large de-normalized statistical data and when we track the database table we noticed there is not much data in the database in the tables but they were still occupying space on disk.</description>
+        </item>
+        
+    </channel>
 </rss>

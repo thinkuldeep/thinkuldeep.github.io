@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>dsc on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/dsc/</link>
-    <description>Recent content in dsc on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 30 Jan 2021 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/dsc/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Judge - DotSlash 4.0 - Hackthon by NIT Surat</title>
-      <link>http://localhost:1313/event/dotstash_2021_hackathon/</link>
-      <pubDate>Sat, 30 Jan 2021 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/dotstash_2021_hackathon/</guid>
-      <description>SVNIT Surat has organized a hackathon - DotSlash 4.0, a 30 hours long hackathon. More information here - https://www.hackdotslash.co.in/
+    <channel>
+        <title>dsc on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/dsc/</link>
+        <description>Recent content in dsc on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sat, 30 Jan 2021 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/dsc/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Judge - DotSlash 4.0 - Hackthon by NIT Surat</title>
+            <link>https://thinkuldeep.com//event/dotstash_2021_hackathon/</link>
+            <pubDate>Sat, 30 Jan 2021 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/dotstash_2021_hackathon/</guid>
+            <description>SVNIT Surat has organized a hackathon - DotSlash 4.0, a 30 hours long hackathon. More information here - https://www.hackdotslash.co.in/
 I have participated in this event as a Judge.
 The Event Details - 30-31st Jan 2021  It was really proud feeling to head interesting ideas from the young innovators, use the technology to find solutions during Covid and Post-Covid. Ideas to track and optimize carbon generation even from digitization (emails, internet and more), help specially-abled using technology to communicate, build digital restaurant menu to provide contactless experience, make the online exam cheat-proof, and many more.</description>
-    </item>
-    
-    <item>
-      <title>Speaker - Google DSC - How to get started with AR VR?</title>
-      <link>http://localhost:1313/event/google_dsk_skct_xr_introduction/</link>
-      <pubDate>Sun, 07 Jun 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/google_dsk_skct_xr_introduction/</guid>
-      <description>Conducted a live session at Google Developer Students Club of Sri Krishna College of Technology, Coimbatore, TN, India
+        </item>
+        
+        <item>
+            <title>Speaker - Google DSC - How to get started with AR VR?</title>
+            <link>https://thinkuldeep.com//event/google_dsk_skct_xr_introduction/</link>
+            <pubDate>Sun, 07 Jun 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/google_dsk_skct_xr_introduction/</guid>
+            <description>Conducted a live session at Google Developer Students Club of Sri Krishna College of Technology, Coimbatore, TN, India
 Intro here LinkedIn
 Live session, recording.  The talks is about  What is AR VR? Why to start with AR VR? How to start with AR VR?  Detailed Slides   How to get started with arvr - DSC 2020  from Kuldeep Singh  Feedback  This session was really awesome and I have got lot of new knowledge about ar/vr and it&amp;rsquo;s importance in solving real life problems - Kannan Subramanian</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

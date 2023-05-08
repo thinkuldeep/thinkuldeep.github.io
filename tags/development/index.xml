@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>development on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/development/</link>
-    <description>Recent content in development on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 31 Dec 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/development/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Guest Lecture on &#39;Forward Looking Reflection&#39; at DesignersX</title>
-      <link>http://localhost:1313/post/forward-looking-reflection/</link>
-      <pubDate>Sat, 31 Dec 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/forward-looking-reflection/</guid>
-      <description>Every end is a beginning, if there is no end, then there is no beginning, just like the year 2023 can only start after the end of year 2022. So this is the right time to reflect and plan for a better beginning. A “Forward Looking Reflection” was my topic of a guest lecture at DesignersX at their year end event. We discussed challenges of software development, and how the industry is trying to solve them.</description>
-    </item>
-    
-    <item>
-      <title>Leadership - A result of conscious and continuous effort!</title>
-      <link>http://localhost:1313/post/leadership-development-takeaways/</link>
-      <pubDate>Thu, 30 Sep 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/leadership-development-takeaways/</guid>
-      <description>Sep 2020, a year ago, I was excited for getting nominated for an year long Global Leadership Development Program at Thoughtworks. At the same time was little confused on what we are going to do in this program for that long. I must say it was so well executed, despite the challenges of Covid#19, where we all(participants, speakers, coaches and other enablers) are globally distributed working from their home. Expectations were set, virtual meetings were set with options to attend at per individual comfort.</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>development on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/development/</link>
+        <description>Recent content in development on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sat, 31 Dec 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/development/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Guest Lecture on &#39;Forward Looking Reflection&#39; at DesignersX</title>
+            <link>https://thinkuldeep.com//post/forward-looking-reflection/</link>
+            <pubDate>Sat, 31 Dec 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/forward-looking-reflection/</guid>
+            <description>Every end is a beginning, if there is no end, then there is no beginning, just like the year 2023 can only start after the end of year 2022. So this is the right time to reflect and plan for a better beginning. A “Forward Looking Reflection” was my topic of a guest lecture at DesignersX at their year end event. We discussed challenges of software development, and how the industry is trying to solve them.</description>
+        </item>
+        
+        <item>
+            <title>Leadership - A result of conscious and continuous effort!</title>
+            <link>https://thinkuldeep.com//post/leadership-development-takeaways/</link>
+            <pubDate>Thu, 30 Sep 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/leadership-development-takeaways/</guid>
+            <description>Sep 2020, a year ago, I was excited for getting nominated for an year long Global Leadership Development Program at Thoughtworks. At the same time was little confused on what we are going to do in this program for that long. I must say it was so well executed, despite the challenges of Covid#19, where we all(participants, speakers, coaches and other enablers) are globally distributed working from their home. Expectations were set, virtual meetings were set with options to attend at per individual comfort.</description>
+        </item>
+        
+    </channel>
 </rss>

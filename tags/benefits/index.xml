@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>benefits on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/benefits/</link>
-    <description>Recent content in benefits on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 11 Oct 2021 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/benefits/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Managing enterprise complexity with XR</title>
-      <link>http://localhost:1313/post/managing-enterprise-complexity-xr/</link>
-      <pubDate>Mon, 11 Oct 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/managing-enterprise-complexity-xr/</guid>
-      <description>Modern enterprises must manage multiple layers of complexity across thousands of assets, workflows, and processes — and there’s near-zero tolerance for issues that interrupt operations, damage profitability, or put workers’ safety at risk.
+    <channel>
+        <title>benefits on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/benefits/</link>
+        <description>Recent content in benefits on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Mon, 11 Oct 2021 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/benefits/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Managing enterprise complexity with XR</title>
+            <link>https://thinkuldeep.com//post/managing-enterprise-complexity-xr/</link>
+            <pubDate>Mon, 11 Oct 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/managing-enterprise-complexity-xr/</guid>
+            <description>Modern enterprises must manage multiple layers of complexity across thousands of assets, workflows, and processes — and there’s near-zero tolerance for issues that interrupt operations, damage profitability, or put workers’ safety at risk.
 These layers of enterprise complexity create significant challenges in four key areas:
  Design and development are often slow and expensive An inability to demo and customize complex products can make them difficult to sell Users need continuously updated training to operate products effectively and safely A shortage of on-the-spot expertise endangers employee safety and increases downtime risk and cost  However, many enterprises are beginning to use extended reality (XR) technologies to overcome these challenges.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

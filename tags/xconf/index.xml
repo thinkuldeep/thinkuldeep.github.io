@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>xconf on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/xconf/</link>
-    <description>Recent content in xconf on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 29 Jul 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/xconf/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Speaker - XConf-2022 - Thoughtworks India</title>
-      <link>http://localhost:1313/event/thougthworks-xconf-2022/</link>
-      <pubDate>Fri, 29 Jul 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/thougthworks-xconf-2022/</guid>
-      <description>The XConf XConf is Thoughtworks annual technology event created by technologists. It is designed for technologists who care deeply about software and its impact on the world.
+    <channel>
+        <title>xconf on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/xconf/</link>
+        <description>Recent content in xconf on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Fri, 29 Jul 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/xconf/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Speaker - XConf-2022 - Thoughtworks India</title>
+            <link>https://thinkuldeep.com//event/thougthworks-xconf-2022/</link>
+            <pubDate>Fri, 29 Jul 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/thougthworks-xconf-2022/</guid>
+            <description>The XConf XConf is Thoughtworks annual technology event created by technologists. It is designed for technologists who care deeply about software and its impact on the world.
 Last year XConf was virtual but this year, we are resuming to a physical one, so come meet us face to face in Bangalore at ITC Gardenia on Friday, July 29.
   &amp;nbsp; I am exited to share the stage with renowned technologists like Supriyo Ghosh, Chief Architect, Open Network for Digital Commerce (ONDC) India, our Head of Technology Bharani Subramaniam and Vanya Seth along with other techies from three streams Emerging Tech, Digital Transformation and Data.</description>
-    </item>
-    
-    <item>
-      <title>Speaker - XConf-2021 - Thoughtworks India</title>
-      <link>http://localhost:1313/event/thougthworks-xconf-2021/</link>
-      <pubDate>Fri, 08 Oct 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/thougthworks-xconf-2021/</guid>
-      <description>The XConf XConf is Thoughtworks annual technology event created by technologists. It is designed for technologists who care deeply about software and its impact on the world.
+        </item>
+        
+        <item>
+            <title>Speaker - XConf-2021 - Thoughtworks India</title>
+            <link>https://thinkuldeep.com//event/thougthworks-xconf-2021/</link>
+            <pubDate>Fri, 08 Oct 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/thougthworks-xconf-2021/</guid>
+            <description>The XConf XConf is Thoughtworks annual technology event created by technologists. It is designed for technologists who care deeply about software and its impact on the world.
 This year, XConf will be a virtual experience available at two different time slots. October 7th and 8th will feature pre-recorded sessions and October 9th will feature live sessions. During the nine exciting talks spread across three days.
  I am exited to sharing the stage with renowned technologists like Neal Ford, Dr.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

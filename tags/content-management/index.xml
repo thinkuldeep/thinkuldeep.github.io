@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>content management on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/content-management/</link>
-    <description>Recent content in content management on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 25 Mar 2023 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/content-management/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Speaker - Agility Today Fest 2023 - Generative AI and XR</title>
-      <link>http://localhost:1313/event/agiletoday_2023_ael/</link>
-      <pubDate>Sat, 25 Mar 2023 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/agiletoday_2023_ael/</guid>
-      <description>Agility Today is a 2 days annual UnConference, to meet Agility needs of industry, gathered over past few years via meetups, Conferences and Webinar. This UnConference intends to give you best of Agile Psyche (Mindset Culture and Practice) and Geekery (Engineering, Tools and DevOps). This year in Agility Today Fest 2023 there are couple of programs.
+    <channel>
+        <title>content management on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/content-management/</link>
+        <description>Recent content in content management on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sat, 25 Mar 2023 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/content-management/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Speaker - Agility Today Fest 2023 - Generative AI and XR</title>
+            <link>https://thinkuldeep.com//event/agiletoday_2023_ael/</link>
+            <pubDate>Sat, 25 Mar 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/agiletoday_2023_ael/</guid>
+            <description>Agility Today is a 2 days annual UnConference, to meet Agility needs of industry, gathered over past few years via meetups, Conferences and Webinar. This UnConference intends to give you best of Agile Psyche (Mindset Culture and Practice) and Geekery (Engineering, Tools and DevOps). This year in Agility Today Fest 2023 there are couple of programs.
 I am speaking to at Agile Engineering Lab (Technical Agility &amp;amp; Engineering Excellence), on topic of Scaling content generation for XR using AI.</description>
-    </item>
-    
-    <item>
-      <title>AI-Assisted Content Generation Pipeline for XR</title>
-      <link>http://localhost:1313/post/ai-generated-xr-content/</link>
-      <pubDate>Tue, 24 Jan 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/ai-generated-xr-content/</guid>
-      <description>Recently, I and Raju Kandaswamy talked at Thoughtworks XConf on how AI will play its role in content generation. We are already seeing ChatGPT, as the next revolution in textual content generation space. Let&amp;rsquo;s understand what is the need of such content generation revolution of XR space.
+        </item>
+        
+        <item>
+            <title>AI-Assisted Content Generation Pipeline for XR</title>
+            <link>https://thinkuldeep.com//post/ai-generated-xr-content/</link>
+            <pubDate>Tue, 24 Jan 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/ai-generated-xr-content/</guid>
+            <description>Recently, I and Raju Kandaswamy talked at Thoughtworks XConf on how AI will play its role in content generation. We are already seeing ChatGPT, as the next revolution in textual content generation space. Let&amp;rsquo;s understand what is the need of such content generation revolution of XR space.
 With games like Second Life and the impending mainstreaming of the Metaverse, more and more individuals are embracing a virtual reality that, in some ways, mirrors our own real world and, in other ways, lets us live in our imagination or apply them on the real word.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

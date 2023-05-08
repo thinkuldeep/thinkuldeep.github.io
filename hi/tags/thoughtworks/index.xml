@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>thoughtworks on Kuldeep Singh</title>
-    <link>http://localhost:1313/hi/tags/thoughtworks/</link>
-    <description>Recent content in thoughtworks on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 07 Feb 2021 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/hi/tags/thoughtworks/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>२०२० में इच्छा शक्ति बढ़ाने के कुछ अनुभव</title>
-      <link>http://localhost:1313/hi/post/will-cultivation-2020/</link>
-      <pubDate>Sun, 07 Feb 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/hi/post/will-cultivation-2020/</guid>
-      <description>वर्ष 2020 परिवर्तन का वर्ष था, यह कुछ लोगों के लिए दर्दनाक हो सकता है, लेकिन साथ ही इसने हमें जीवन में सबक भी सिखाया है। मैंने इसके बारे में पहले भी लिखा है कि हमें इसे स्वीकार करना होगा, और यह साल याद किया जाएगा हमारे पूरे जीवन में और उसके बाद भी, चाहे हम कुछ भी करें, पर इसका प्रभाव पड़ेगा। इसलिए यह महत्वपूर्ण है कि हम वर्तमान को पूरी तरह से जीएं। यहाँ पढ़े -</description>
-    </item>
-    
-    <item>
-      <title>जीवन में उद्देश्य और संतुलन कायम रखें</title>
-      <link>http://localhost:1313/hi/post/embibe_purpose_and_balance_in_life/</link>
-      <pubDate>Fri, 15 Mar 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/hi/post/embibe_purpose_and_balance_in_life/</guid>
-      <description>मैंने अभी-अभी गौड़ गोपाल दास की एक पुस्तक &amp;ldquo;Life&amp;rsquo;s Amazing Secrets&amp;rdquo; समाप्त की है । यह पुस्तक जीवन में संतुलन और उद्देश्य के विषय को अच्छी तरह से शामिल करती है। पुस्तक से कुछ अवधारणाएँ को मैं अपने वर्तमान कंपनी संस्कृति से भी रिलेटेड कर सकता हूँ, जैसे जैसे की कल्टीवेशन एंड कोलैबोरेशन।
+    <channel>
+        <title>thoughtworks on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//hi/tags/thoughtworks/</link>
+        <description>Recent content in thoughtworks on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sun, 07 Feb 2021 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/hi/tags/thoughtworks/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>२०२० में इच्छा शक्ति बढ़ाने के कुछ अनुभव</title>
+            <link>https://thinkuldeep.com//hi/post/will-cultivation-2020/</link>
+            <pubDate>Sun, 07 Feb 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/post/will-cultivation-2020/</guid>
+            <description>वर्ष 2020 परिवर्तन का वर्ष था, यह कुछ लोगों के लिए दर्दनाक हो सकता है, लेकिन साथ ही इसने हमें जीवन में सबक भी सिखाया है। मैंने इसके बारे में पहले भी लिखा है कि हमें इसे स्वीकार करना होगा, और यह साल याद किया जाएगा हमारे पूरे जीवन में और उसके बाद भी, चाहे हम कुछ भी करें, पर इसका प्रभाव पड़ेगा। इसलिए यह महत्वपूर्ण है कि हम वर्तमान को पूरी तरह से जीएं। यहाँ पढ़े -</description>
+        </item>
+        
+        <item>
+            <title>जीवन में उद्देश्य और संतुलन कायम रखें</title>
+            <link>https://thinkuldeep.com//hi/post/embibe_purpose_and_balance_in_life/</link>
+            <pubDate>Fri, 15 Mar 2019 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/post/embibe_purpose_and_balance_in_life/</guid>
+            <description>मैंने अभी-अभी गौड़ गोपाल दास की एक पुस्तक &amp;ldquo;Life&amp;rsquo;s Amazing Secrets&amp;rdquo; समाप्त की है । यह पुस्तक जीवन में संतुलन और उद्देश्य के विषय को अच्छी तरह से शामिल करती है। पुस्तक से कुछ अवधारणाएँ को मैं अपने वर्तमान कंपनी संस्कृति से भी रिलेटेड कर सकता हूँ, जैसे जैसे की कल्टीवेशन एंड कोलैबोरेशन।
 मुझे मेरी नयी कंपनी ThoughtWorks ज्वाइन किये 6 महीने से अधिक हो गए है, एक संगठन जो 25 साल से अधिक समय पहले एक सामाजिक प्रयोग के रूप में शुरू हुआ था, और जीवन में 3 स्तंभों को संतुलित करने में विश्वास करता है; स्थिरता, उत्कृष्टता और उद्देश्य। यह संगठन को एक जीवित इकाई के रूप में बनाता है, और जहां कहीं भी जीवन है, उसे परिवर्तनों और चुनौतियों का सामना करना पड़ता है, यह हम पर है कि हम कैसे बदलते हैं और बदलने की कला को उत्कृष्टता देते हैं।</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

@@ -1,32 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>customizations on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/customizations/</link>
-    <description>Recent content in customizations on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 14 Feb 2013 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/customizations/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Charset configuration in JVM</title>
-      <link>http://localhost:1313/post/java-charset-configuration/</link>
-      <pubDate>Thu, 14 Feb 2013 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/java-charset-configuration/</guid>
-      <description>This article describes how to configure charset for a JVM.
+    <channel>
+        <title>customizations on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/customizations/</link>
+        <description>Recent content in customizations on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Thu, 14 Feb 2013 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/customizations/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Charset configuration in JVM</title>
+            <link>https://thinkuldeep.com//post/java-charset-configuration/</link>
+            <pubDate>Thu, 14 Feb 2013 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/java-charset-configuration/</guid>
+            <description>This article describes how to configure charset for a JVM.
 We faced an issue on a Linux environment, a file containing some Swedish character was not being read correctly by underlying JVM since the default charset of JVM was picked as UTF-8 (which does not support some Swedish character). But on the other hand, in Windows environment, it was working fine since the default charset was picked as Windows-1252 (which does support these characters).</description>
-    </item>
-    
-    <item>
-      <title>Font configuration in JVM</title>
-      <link>http://localhost:1313/post/java-font-mapping/</link>
-      <pubDate>Thu, 05 Jan 2012 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/java-font-mapping/</guid>
-      <description>Last year we have migrated one of our application from Java 5 to Java 6. The Java 6(OpenJDK) installation was done by client on a fresh system. After installing our application (under JBoss app), we found the fonts on JFreeCharts and on the images generated from AWT were not correct.
+        </item>
+        
+        <item>
+            <title>Font configuration in JVM</title>
+            <link>https://thinkuldeep.com//post/java-font-mapping/</link>
+            <pubDate>Thu, 05 Jan 2012 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/java-font-mapping/</guid>
+            <description>Last year we have migrated one of our application from Java 5 to Java 6. The Java 6(OpenJDK) installation was done by client on a fresh system. After installing our application (under JBoss app), we found the fonts on JFreeCharts and on the images generated from AWT were not correct.
 We have solved the issue by configuring the fonts at JVM level. Let understand it better.
 How AWT / JFreeCharts shows the fonts AWT rely on native fonts, it usages default Java fonts (which best fits) if no native fonts mapping found.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

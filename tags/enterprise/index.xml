@@ -1,219 +1,221 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>enterprise on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/enterprise/</link>
-    <description>Recent content in enterprise on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 10 Aug 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/enterprise/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>eXtending the Reality of Museum with XR</title>
-      <link>http://localhost:1313/post/extending-reality-of-museum-wtih-xr/</link>
-      <pubDate>Wed, 10 Aug 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/extending-reality-of-museum-wtih-xr/</guid>
-      <description>eXtended Reality (XR/AR/VR) technology is changing the reality of almost every industry today by enhancing user experiences. XR adoption in the museum industry is also quite natural, let&amp;rsquo;s understand how it is shaping up the Museums of Future.
+    <channel>
+        <title>enterprise on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/enterprise/</link>
+        <description>Recent content in enterprise on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Wed, 10 Aug 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/enterprise/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>eXtending the Reality of Museum with XR</title>
+            <link>https://thinkuldeep.com//post/extending-reality-of-museum-wtih-xr/</link>
+            <pubDate>Wed, 10 Aug 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/extending-reality-of-museum-wtih-xr/</guid>
+            <description>eXtended Reality (XR/AR/VR) technology is changing the reality of almost every industry today by enhancing user experiences. XR adoption in the museum industry is also quite natural, let&amp;rsquo;s understand how it is shaping up the Museums of Future.
 Museum is a place that displays artifacts from history, culture, science, art and more. As per International Council of Museums (ICOM), there are around 55000 museums worldwide designed with different themes serving different types of artifacts.</description>
-    </item>
-    
-    <item>
-      <title>Managing enterprise complexity with XR</title>
-      <link>http://localhost:1313/post/managing-enterprise-complexity-xr/</link>
-      <pubDate>Mon, 11 Oct 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/managing-enterprise-complexity-xr/</guid>
-      <description>Modern enterprises must manage multiple layers of complexity across thousands of assets, workflows, and processes — and there’s near-zero tolerance for issues that interrupt operations, damage profitability, or put workers’ safety at risk.
+        </item>
+        
+        <item>
+            <title>Managing enterprise complexity with XR</title>
+            <link>https://thinkuldeep.com//post/managing-enterprise-complexity-xr/</link>
+            <pubDate>Mon, 11 Oct 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/managing-enterprise-complexity-xr/</guid>
+            <description>Modern enterprises must manage multiple layers of complexity across thousands of assets, workflows, and processes — and there’s near-zero tolerance for issues that interrupt operations, damage profitability, or put workers’ safety at risk.
 These layers of enterprise complexity create significant challenges in four key areas:
  Design and development are often slow and expensive An inability to demo and customize complex products can make them difficult to sell Users need continuously updated training to operate products effectively and safely A shortage of on-the-spot expertise endangers employee safety and increases downtime risk and cost  However, many enterprises are beginning to use extended reality (XR) technologies to overcome these challenges.</description>
-    </item>
-    
-    <item>
-      <title>Enterprise XR to Ethical XR</title>
-      <link>http://localhost:1313/post/enterprise-to-ethical-xr/</link>
-      <pubDate>Fri, 16 Jul 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/enterprise-to-ethical-xr/</guid>
-      <description>eXtended Reality or XR is an umbrella term for scenarios where AR, VR, and MR devices interact with peripheral devices such as ambient sensors, actuators, 3D printers and internet enabled smart-devices such as home appliances, industrial connected machines, connected vehicles and more. Find here more details
+        </item>
+        
+        <item>
+            <title>Enterprise XR to Ethical XR</title>
+            <link>https://thinkuldeep.com//post/enterprise-to-ethical-xr/</link>
+            <pubDate>Fri, 16 Jul 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/enterprise-to-ethical-xr/</guid>
+            <description>eXtended Reality or XR is an umbrella term for scenarios where AR, VR, and MR devices interact with peripheral devices such as ambient sensors, actuators, 3D printers and internet enabled smart-devices such as home appliances, industrial connected machines, connected vehicles and more. Find here more details
 At Thoughtworks, we have been talking about Rise of XR for enterprises, and evolving human interactions thru our lens of looking glasses.
  Evolving interactions - Consumers aren’t just demanding availability and accessibility — they expect interactions to be seamless, and richer.</description>
-    </item>
-    
-    <item>
-      <title>Making pandemic-proof workplaces a reality with XR</title>
-      <link>http://localhost:1313/post/making-pandemic-proof-workplaces-a-reality-xr/</link>
-      <pubDate>Tue, 27 Apr 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/making-pandemic-proof-workplaces-a-reality-xr/</guid>
-      <description>The IMF called the COVID-19 crisis ‘unlike any other,’ where the global growth contraction for 2020 was estimated at -3.5 percent. Image source : Using Lenovo ThinkReality A6 Glass at Workplace
+        </item>
+        
+        <item>
+            <title>Making pandemic-proof workplaces a reality with XR</title>
+            <link>https://thinkuldeep.com//post/making-pandemic-proof-workplaces-a-reality-xr/</link>
+            <pubDate>Tue, 27 Apr 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/making-pandemic-proof-workplaces-a-reality-xr/</guid>
+            <description>The IMF called the COVID-19 crisis ‘unlike any other,’ where the global growth contraction for 2020 was estimated at -3.5 percent. Image source : Using Lenovo ThinkReality A6 Glass at Workplace
 Here is a quick overview of the biggest challenges that CXOs (and their businesses) have faced over the recent past, to better illustrate how the pandemic is affecting businesses:
  Businesses are grappling with slowing global supply chains Sales and production growth is further impacted with a subsequent dive in opportunities for partnerships and growth The flattened or negative growth market result in less manpower and resources to work with, further affecting productivity  ​The five biggest challenges that CXOs are facing today</description>
-    </item>
-    
-    <item>
-      <title>Training autonomous vehicles with XR simulation</title>
-      <link>http://localhost:1313/post/training-autonomous-vehicles-in-xr/</link>
-      <pubDate>Thu, 25 Feb 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/training-autonomous-vehicles-in-xr/</guid>
-      <description>Self driving cars are a good example of what artificial intelligence can accomplish today. Such tech-centered advances are built on the back of highly trained Machine Learning (ML) algorithms.
+        </item>
+        
+        <item>
+            <title>Training autonomous vehicles with XR simulation</title>
+            <link>https://thinkuldeep.com//post/training-autonomous-vehicles-in-xr/</link>
+            <pubDate>Thu, 25 Feb 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/training-autonomous-vehicles-in-xr/</guid>
+            <description>Self driving cars are a good example of what artificial intelligence can accomplish today. Such tech-centered advances are built on the back of highly trained Machine Learning (ML) algorithms.
 These algorithms require exhaustive data that help the AI effectively model all possible scenarios. Accessing and pooling all that data needs complex and very expensive real-world hardware setups, aside from the extensive time it takes to gather the necessary training-data in the cloud (to train ML).</description>
-    </item>
-    
-    <item>
-      <title>The future of shopping</title>
-      <link>http://localhost:1313/post/future-of-shoping/</link>
-      <pubDate>Wed, 24 Jun 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/future-of-shoping/</guid>
-      <description>eXtended Reality (XR) that includes AR and VR technologies have been silently disrupting the gaming industry for more than a decade. In the recent past, the tech has gained some traction in the education and training space.
+        </item>
+        
+        <item>
+            <title>The future of shopping</title>
+            <link>https://thinkuldeep.com//post/future-of-shoping/</link>
+            <pubDate>Wed, 24 Jun 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/future-of-shoping/</guid>
+            <description>eXtended Reality (XR) that includes AR and VR technologies have been silently disrupting the gaming industry for more than a decade. In the recent past, the tech has gained some traction in the education and training space.
 Today, however, COVID-19 with its mandates of social distancing and less to no physical interactions has accelerated adoption for XR. The tech is virtual, contactless, and delivers outstanding brand experiences - perfect for the new normal that multiple industries like retail will benefit from.</description>
-    </item>
-    
-    <item>
-      <title>Run a 2D App in XR Container</title>
-      <link>http://localhost:1313/post/run-a-2d-app-in-xr-container/</link>
-      <pubDate>Sat, 16 May 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/run-a-2d-app-in-xr-container/</guid>
-      <description>There are a number of Enterprise XR use cases where we have a need to open the existing 2D apps in the XR devices in a wrapper app, and this article covers a concept, have a look!
+        </item>
+        
+        <item>
+            <title>Run a 2D App in XR Container</title>
+            <link>https://thinkuldeep.com//post/run-a-2d-app-in-xr-container/</link>
+            <pubDate>Sat, 16 May 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/run-a-2d-app-in-xr-container/</guid>
+            <description>There are a number of Enterprise XR use cases where we have a need to open the existing 2D apps in the XR devices in a wrapper app, and this article covers a concept, have a look!
 After trying the OS level customization on an XR device, you may like to run your XR apps as a system app. Here is a simple article by Raju K
  Android System Apps development - Android Emulator Setup and guidelines to develop system applications</description>
-    </item>
-    
-    <item>
-      <title>OS Customization for XR Device</title>
-      <link>http://localhost:1313/post/os-customization-for-xr-devices/</link>
-      <pubDate>Sun, 10 May 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/os-customization-for-xr-devices/</guid>
-      <description>The Operating System of XR (AR VR) devices is mostly customized to the hardware of the device, and not just that the OS level customizations are needed to meet the enterprise needs such as integration with Enterprise MDM (Mobile Device Management) solutions (such as Intune, MobileIron and Airwatch), 3D lock screen, idle-timeout, custom home screen, custom settings, security, as so on.
+        </item>
+        
+        <item>
+            <title>OS Customization for XR Device</title>
+            <link>https://thinkuldeep.com//post/os-customization-for-xr-devices/</link>
+            <pubDate>Sun, 10 May 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/os-customization-for-xr-devices/</guid>
+            <description>The Operating System of XR (AR VR) devices is mostly customized to the hardware of the device, and not just that the OS level customizations are needed to meet the enterprise needs such as integration with Enterprise MDM (Mobile Device Management) solutions (such as Intune, MobileIron and Airwatch), 3D lock screen, idle-timeout, custom home screen, custom settings, security, as so on.
 Most organizations currently using traditional hardware and software assets such as mobile devices, laptops, and desktops, and the processes and policies for managing these devices are quite stable and straightforward by now.</description>
-    </item>
-    
-    <item>
-      <title>User Account Management In XR</title>
-      <link>http://localhost:1313/post/user-account-management-in-xr/</link>
-      <pubDate>Sun, 26 Apr 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/user-account-management-in-xr/</guid>
-      <description>In the previous article, we described the importance of interoperability in while building Enterprise XR solutions, In the article, we will discuss how to manage user accounts in the XR device, and implement single sign-on across the XR apps. We will use Android’s AccountManger approach to login into active directory and integrated it into Unity. Please read my earlier article on setting up the app in active directory, log in using android webview, considering a web-based company login form should appear for login, and no custom login form is allowed to capture the credentials.</description>
-    </item>
-    
-    <item>
-      <title>Enterprise XR - Interoperability</title>
-      <link>http://localhost:1313/post/enterprise-xr-interoperability/</link>
-      <pubDate>Sat, 28 Mar 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/enterprise-xr-interoperability/</guid>
-      <description>In the previous article, we discussed implementing multi-factor authentication for an andorid application, and in the article we will cover another enterprise aspect, Interoperability.
+        </item>
+        
+        <item>
+            <title>User Account Management In XR</title>
+            <link>https://thinkuldeep.com//post/user-account-management-in-xr/</link>
+            <pubDate>Sun, 26 Apr 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/user-account-management-in-xr/</guid>
+            <description>In the previous article, we described the importance of interoperability in while building Enterprise XR solutions, In the article, we will discuss how to manage user accounts in the XR device, and implement single sign-on across the XR apps. We will use Android’s AccountManger approach to login into active directory and integrated it into Unity. Please read my earlier article on setting up the app in active directory, log in using android webview, considering a web-based company login form should appear for login, and no custom login form is allowed to capture the credentials.</description>
+        </item>
+        
+        <item>
+            <title>Enterprise XR - Interoperability</title>
+            <link>https://thinkuldeep.com//post/enterprise-xr-interoperability/</link>
+            <pubDate>Sat, 28 Mar 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/enterprise-xr-interoperability/</guid>
+            <description>In the previous article, we discussed implementing multi-factor authentication for an andorid application, and in the article we will cover another enterprise aspect, Interoperability.
 Interoperability is key aspect when we build enterprise solutions using XR technologies. The enterprises have digital assets in form of mobile apps, libraries, system APIs, and they can’t just throw away these existing investments, in fact, the XR apps must be implemented in such a way that it is interoperable with them seamlessly.</description>
-    </item>
-    
-    <item>
-      <title>Enterprise XR - Multi-Factor Authentication</title>
-      <link>http://localhost:1313/post/enterprise-xr-multi-factor-authentication/</link>
-      <pubDate>Wed, 25 Mar 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/enterprise-xr-multi-factor-authentication/</guid>
-      <description>XR use cases are growing with advancements in the devices, internet and development technologies. There is an ever-growing demand to build enterprise use cases using ARVR technology. Most enterprise use cases eventually require integration with an enterprise ecosystem such as IAM (Identity and Access Management), ERP, CRM, and single sign-on with other systems.
+        </item>
+        
+        <item>
+            <title>Enterprise XR - Multi-Factor Authentication</title>
+            <link>https://thinkuldeep.com//post/enterprise-xr-multi-factor-authentication/</link>
+            <pubDate>Wed, 25 Mar 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/enterprise-xr-multi-factor-authentication/</guid>
+            <description>XR use cases are growing with advancements in the devices, internet and development technologies. There is an ever-growing demand to build enterprise use cases using ARVR technology. Most enterprise use cases eventually require integration with an enterprise ecosystem such as IAM (Identity and Access Management), ERP, CRM, and single sign-on with other systems.
 Most organizations protect digital assets with a single sign-on using Multiple Factor Authentication (MFA). The MFA is generally a web-browser based authentication where the browser redirects to tenant’s authentication page where the user provides their credentials and then the user confirms another factor (PIN, OTP, SMS or mobile notifications), once it succeeds, it gets redirected back to the protected resource.</description>
-    </item>
-    
-    <item>
-      <title>Augmenting the Travel Reality</title>
-      <link>http://localhost:1313/post/augmenting_the_travel_reality/</link>
-      <pubDate>Tue, 26 Nov 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/augmenting_the_travel_reality/</guid>
-      <description>Travel and transportation have faced and continue facing disruptions. Many of the traditional ways are no more in the choice. Earlier our parents used to warn us for taking rides with strangers, but now Uber/Ola/Lyft/Didi, etc are the preferred ways. Owning a car may be an absurd idea now. We are now dreaming of Autonomous vehicles, Flying Cars, Hyperloop, and Space travel in the near future. Do read, how the user interactions have been evolved with time in my earlier post.</description>
-    </item>
-    
-    <item>
-      <title>Exploring the Smart Glasses</title>
-      <link>http://localhost:1313/post/exploring-google-glass/</link>
-      <pubDate>Mon, 20 Feb 2017 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/exploring-google-glass/</guid>
-      <description>This article describes the fundamentals of light-weight smart glasses such as Google Glass and Vuzix M100 It also explain the development practices with pros and cons of its usage, limitation and future of these glasses in our lives.
+        </item>
+        
+        <item>
+            <title>Augmenting the Travel Reality</title>
+            <link>https://thinkuldeep.com//post/augmenting_the_travel_reality/</link>
+            <pubDate>Tue, 26 Nov 2019 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/augmenting_the_travel_reality/</guid>
+            <description>Travel and transportation have faced and continue facing disruptions. Many of the traditional ways are no more in the choice. Earlier our parents used to warn us for taking rides with strangers, but now Uber/Ola/Lyft/Didi, etc are the preferred ways. Owning a car may be an absurd idea now. We are now dreaming of Autonomous vehicles, Flying Cars, Hyperloop, and Space travel in the near future. Do read, how the user interactions have been evolved with time in my earlier post.</description>
+        </item>
+        
+        <item>
+            <title>Exploring the Smart Glasses</title>
+            <link>https://thinkuldeep.com//post/exploring-google-glass/</link>
+            <pubDate>Mon, 20 Feb 2017 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/exploring-google-glass/</guid>
+            <description>This article describes the fundamentals of light-weight smart glasses such as Google Glass and Vuzix M100 It also explain the development practices with pros and cons of its usage, limitation and future of these glasses in our lives.
 Google Glass Enterprise Edition Google Glass enterprise edition is a plain Android based smart glass that you can wear and performs operations just like a smartphone and with the use of a small screen located in the front of your right eye can perform a decent range of tasks.</description>
-    </item>
-    
-    <item>
-      <title>Industrial IoT (IIOT) Reference Architecture</title>
-      <link>http://localhost:1313/post/iiot-reference-architecture/</link>
-      <pubDate>Tue, 16 Aug 2016 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/iiot-reference-architecture/</guid>
-      <description>The industry has been going through an evolution. Industry 4.0 is the fourth industrial revolution where the key will be on digital transformation. Industry 4.0 creates what has been called a &amp;ldquo;smart factory&amp;rdquo;. Within the modular structured smart factories, cyber-physical systems monitor physical processes, create a virtual copy of the physical world and make decentralized decisions. Over the Internet of Things, cyber-physical systems communicate and cooperate with each other and with humans in real time, and via the Internet of Services, both internal and cross-organizational services are offered and used by participants of the value chain.</description>
-    </item>
-    
-    <item>
-      <title>Smart bottle IOT concept</title>
-      <link>http://localhost:1313/post/building-smart-bottle-concept/</link>
-      <pubDate>Thu, 05 May 2016 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/building-smart-bottle-concept/</guid>
-      <description>The rapid growth of Internet of Things (IoT) and miniature wearable biosensors have generated new opportunities for personalized eHealth and mHealth services. We present a case study of an intelligent cap that can measure the amount of water in the bottle, monitor activity of opening or closing of bottle cap. This paper presents a Proof of Concept implementation for such a connected smart bottle that sends measurements to the IoT Platform.</description>
-    </item>
-    
-    <item>
-      <title>Building a smart meeting room concept</title>
-      <link>http://localhost:1313/post/building-smart-meeting-room-concept/</link>
-      <pubDate>Sun, 17 Apr 2016 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/building-smart-meeting-room-concept/</guid>
-      <description>On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
+        </item>
+        
+        <item>
+            <title>Industrial IoT (IIOT) Reference Architecture</title>
+            <link>https://thinkuldeep.com//post/iiot-reference-architecture/</link>
+            <pubDate>Tue, 16 Aug 2016 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iiot-reference-architecture/</guid>
+            <description>The industry has been going through an evolution. Industry 4.0 is the fourth industrial revolution where the key will be on digital transformation. Industry 4.0 creates what has been called a &amp;ldquo;smart factory&amp;rdquo;. Within the modular structured smart factories, cyber-physical systems monitor physical processes, create a virtual copy of the physical world and make decentralized decisions. Over the Internet of Things, cyber-physical systems communicate and cooperate with each other and with humans in real time, and via the Internet of Services, both internal and cross-organizational services are offered and used by participants of the value chain.</description>
+        </item>
+        
+        <item>
+            <title>Smart bottle IOT concept</title>
+            <link>https://thinkuldeep.com//post/building-smart-bottle-concept/</link>
+            <pubDate>Thu, 05 May 2016 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/building-smart-bottle-concept/</guid>
+            <description>The rapid growth of Internet of Things (IoT) and miniature wearable biosensors have generated new opportunities for personalized eHealth and mHealth services. We present a case study of an intelligent cap that can measure the amount of water in the bottle, monitor activity of opening or closing of bottle cap. This paper presents a Proof of Concept implementation for such a connected smart bottle that sends measurements to the IoT Platform.</description>
+        </item>
+        
+        <item>
+            <title>Building a smart meeting room concept</title>
+            <link>https://thinkuldeep.com//post/building-smart-meeting-room-concept/</link>
+            <pubDate>Sun, 17 Apr 2016 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/building-smart-meeting-room-concept/</guid>
+            <description>On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
 Smart Meeting Room is a step forward in automating the availability and booking procedure of a meeting room.</description>
-    </item>
-    
-    <item>
-      <title>HTTP Router with Apache Camel </title>
-      <link>http://localhost:1313/post/apache-camel-http-route/</link>
-      <pubDate>Thu, 13 Feb 2014 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/apache-camel-http-route/</guid>
-      <description>This article explains the http integration using Apache Camel. Create a configurable router to any http URL having place holders.
+        </item>
+        
+        <item>
+            <title>HTTP Router with Apache Camel </title>
+            <link>https://thinkuldeep.com//post/apache-camel-http-route/</link>
+            <pubDate>Thu, 13 Feb 2014 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/apache-camel-http-route/</guid>
+            <description>This article explains the http integration using Apache Camel. Create a configurable router to any http URL having place holders.
  Prerequisite  Windows7, Eclipse Juno Java 1.7    Creating HTTP Router Please follow below steps to generate POC for HTTP routing using apache camel.
 Create Sample Camel Example   Create eclipse project using archetype “camel-archetype-spring”
 mvn archetype:generate DarchetypeGroupId=com.tk.poc.camel -DarchetypeArtifactId=camel-archetype-spring -DarchetypeVersion=2.11.0 -DarchetypeRepository=https://repository.apache.org/content/groups/snapshots-group   Create following Java file</description>
-    </item>
-    
-    <item>
-      <title>Using Apache CFX and Apache Camel in ESB</title>
-      <link>http://localhost:1313/post/esb-introduction-part2/</link>
-      <pubDate>Mon, 30 Jan 2012 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/esb-introduction-part2/</guid>
-      <description>In the previous article, we learned about ESB and deployed our first OSGi bundle on FuseESB.
+        </item>
+        
+        <item>
+            <title>Using Apache CFX and Apache Camel in ESB</title>
+            <link>https://thinkuldeep.com//post/esb-introduction-part2/</link>
+            <pubDate>Mon, 30 Jan 2012 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/esb-introduction-part2/</guid>
+            <description>In the previous article, we learned about ESB and deployed our first OSGi bundle on FuseESB.
 In this article, we will learn how to build Apache CXF and Apache Camel component and deploy them on FuseESB.
 Lets understand what are these components :
 Apache Camel ™ Powerful open source integration framework based on known Enterprise Integration Patterns with powerful Bean Integration.
 Camel lets you create the Enterprise Integration Patterns to implement routing and mediation rules in either a Java based Domain Specific Language (or Fluent API), via Spring or Blueprint based Xml Configuration files or via the Scala DSL.</description>
-    </item>
-    
-    <item>
-      <title>Managing Calendar and Invites in Java</title>
-      <link>http://localhost:1313/post/java-calendar-and-invite/</link>
-      <pubDate>Sun, 22 Jan 2012 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/java-calendar-and-invite/</guid>
-      <description>Calendars are used to store formation for various events. Calendar viewer displays the month-date view and for each day displays the events/reminders information.
+        </item>
+        
+        <item>
+            <title>Managing Calendar and Invites in Java</title>
+            <link>https://thinkuldeep.com//post/java-calendar-and-invite/</link>
+            <pubDate>Sun, 22 Jan 2012 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/java-calendar-and-invite/</guid>
+            <description>Calendars are used to store formation for various events. Calendar viewer displays the month-date view and for each day displays the events/reminders information.
 Invites are the events in the form of email. Once the invite for an event sent to a user via email then that event will be stored in the calendar view and same can be seen in the day information of the calendar view.
 Calendars Calendar data can be stored in files; there are some standard formats for storing calendars iCalendar is a computer file format which allows Internet users to send meeting requests and tasks to other Internet users, via email, or sharing files with an extension of .</description>
-    </item>
-    
-    <item>
-      <title>Working with Enterprise Service Bus</title>
-      <link>http://localhost:1313/post/esb-introduction-part1/</link>
-      <pubDate>Sun, 15 Jan 2012 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/esb-introduction-part1/</guid>
-      <description>This article starts from basic terms of ESB worlds and then provides details of the FuseESB with various examples.
+        </item>
+        
+        <item>
+            <title>Working with Enterprise Service Bus</title>
+            <link>https://thinkuldeep.com//post/esb-introduction-part1/</link>
+            <pubDate>Sun, 15 Jan 2012 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/esb-introduction-part1/</guid>
+            <description>This article starts from basic terms of ESB worlds and then provides details of the FuseESB with various examples.
 It contains step by step guide to install FuseESB, and develop and deploy OSGi bundle on FuseESB.
 Lets understand terminologies of the ESB world :
 ESB An Enterprise Service Bus (ESB) is a software architecture model used for designing and implementing the interaction and communication between mutually interacting software applications in Service Oriented Architecture.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

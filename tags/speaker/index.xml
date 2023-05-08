@@ -1,285 +1,287 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>speaker on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/speaker/</link>
-    <description>Recent content in speaker on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 15 Apr 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/speaker/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Community Events are the Energy Boosters!</title>
-      <link>http://localhost:1313/event/gta_lets_fork_together/</link>
-      <pubDate>Sat, 15 Apr 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/gta_lets_fork_together/</guid>
-      <description>Recently, I had the opportunity to contribute to an event called &amp;ldquo;GTA Ghaziabad - Let’s Fork Together&amp;rdquo;. The event was hosted by a community of working professionals and undergraduate engineers from nearby colleges in NCR, and took place at my home office, Thoughtworks Gurgaon. Participating in this event provided me with another energy boost, and in this article, I would like to share my experience and give you a glimpse of what the event was all about!</description>
-    </item>
-    
-    <item>
-      <title>Speaker - Agility Today Fest 2023 - Generative AI and XR</title>
-      <link>http://localhost:1313/event/agiletoday_2023_ael/</link>
-      <pubDate>Sat, 25 Mar 2023 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/agiletoday_2023_ael/</guid>
-      <description>Agility Today is a 2 days annual UnConference, to meet Agility needs of industry, gathered over past few years via meetups, Conferences and Webinar. This UnConference intends to give you best of Agile Psyche (Mindset Culture and Practice) and Geekery (Engineering, Tools and DevOps). This year in Agility Today Fest 2023 there are couple of programs.
+    <channel>
+        <title>speaker on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/speaker/</link>
+        <description>Recent content in speaker on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sat, 15 Apr 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/speaker/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Community Events are the Energy Boosters!</title>
+            <link>https://thinkuldeep.com//event/gta_lets_fork_together/</link>
+            <pubDate>Sat, 15 Apr 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/gta_lets_fork_together/</guid>
+            <description>Recently, I had the opportunity to contribute to an event called &amp;ldquo;GTA Ghaziabad - Let’s Fork Together&amp;rdquo;. The event was hosted by a community of working professionals and undergraduate engineers from nearby colleges in NCR, and took place at my home office, Thoughtworks Gurgaon. Participating in this event provided me with another energy boost, and in this article, I would like to share my experience and give you a glimpse of what the event was all about!</description>
+        </item>
+        
+        <item>
+            <title>Speaker - Agility Today Fest 2023 - Generative AI and XR</title>
+            <link>https://thinkuldeep.com//event/agiletoday_2023_ael/</link>
+            <pubDate>Sat, 25 Mar 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/agiletoday_2023_ael/</guid>
+            <description>Agility Today is a 2 days annual UnConference, to meet Agility needs of industry, gathered over past few years via meetups, Conferences and Webinar. This UnConference intends to give you best of Agile Psyche (Mindset Culture and Practice) and Geekery (Engineering, Tools and DevOps). This year in Agility Today Fest 2023 there are couple of programs.
 I am speaking to at Agile Engineering Lab (Technical Agility &amp;amp; Engineering Excellence), on topic of Scaling content generation for XR using AI.</description>
-    </item>
-    
-    <item>
-      <title>Speaker at Meta-MeitY XR Startup Hub, IIT Delhi</title>
-      <link>http://localhost:1313/event/meta-meity-xr-startsup-hub-2022/</link>
-      <pubDate>Tue, 31 Jan 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/meta-meity-xr-startsup-hub-2022/</guid>
-      <description>Extending Reality is providing experience to user where the boundaries of real and fake blur, and use believe in the new reality presented to them. In the recent years, the tech has evolved to enable extending the reality by XR (AR/VR) faster, and much more evolution still to happen. I was invited at Meta and Meity&amp;rsquo;s Startup Hub program as an industry expert. Here I reflect on the day I spend with the few of the top startup of india, who want to solve some of the key challenges using XR and related technology.</description>
-    </item>
-    
-    <item>
-      <title>Guest Lecture on &#39;SpatialWeb and Web3.0&#39; at NIT Calicut</title>
-      <link>http://localhost:1313/event/guest_lecture_nit_calicut/</link>
-      <pubDate>Sat, 22 Oct 2022 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/guest_lecture_nit_calicut/</guid>
-      <description>National Institute of Technology Calicut is organizing Tathva, Asia&amp;rsquo;s largest student-run Tech Startup Expo. Tathva is a techno-management fest of NIT Calicut is one of south India&amp;rsquo;s biggest scholastic endeavours. Since its inception in 2000, this annual symposium has known only growth and has flourished into one of the few promising enterprises the nation has witnessed. Pushing the barriers year after year, Tathva aims at providing a plethora of platforms to the intrigued technical heads that arrive at this fiesta with an array of events and workshops, to sharpen their skills and widen their knowledge quotient.</description>
-    </item>
-    
-    <item>
-      <title>Speaker - XConf-2022 - Thoughtworks India</title>
-      <link>http://localhost:1313/event/thougthworks-xconf-2022/</link>
-      <pubDate>Fri, 29 Jul 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/thougthworks-xconf-2022/</guid>
-      <description>The XConf XConf is Thoughtworks annual technology event created by technologists. It is designed for technologists who care deeply about software and its impact on the world.
+        </item>
+        
+        <item>
+            <title>Speaker at Meta-MeitY XR Startup Hub, IIT Delhi</title>
+            <link>https://thinkuldeep.com//event/meta-meity-xr-startsup-hub-2022/</link>
+            <pubDate>Tue, 31 Jan 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/meta-meity-xr-startsup-hub-2022/</guid>
+            <description>Extending Reality is providing experience to user where the boundaries of real and fake blur, and use believe in the new reality presented to them. In the recent years, the tech has evolved to enable extending the reality by XR (AR/VR) faster, and much more evolution still to happen. I was invited at Meta and Meity&amp;rsquo;s Startup Hub program as an industry expert. Here I reflect on the day I spend with the few of the top startup of india, who want to solve some of the key challenges using XR and related technology.</description>
+        </item>
+        
+        <item>
+            <title>Guest Lecture on &#39;SpatialWeb and Web3.0&#39; at NIT Calicut</title>
+            <link>https://thinkuldeep.com//event/guest_lecture_nit_calicut/</link>
+            <pubDate>Sat, 22 Oct 2022 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/guest_lecture_nit_calicut/</guid>
+            <description>National Institute of Technology Calicut is organizing Tathva, Asia&amp;rsquo;s largest student-run Tech Startup Expo. Tathva is a techno-management fest of NIT Calicut is one of south India&amp;rsquo;s biggest scholastic endeavours. Since its inception in 2000, this annual symposium has known only growth and has flourished into one of the few promising enterprises the nation has witnessed. Pushing the barriers year after year, Tathva aims at providing a plethora of platforms to the intrigued technical heads that arrive at this fiesta with an array of events and workshops, to sharpen their skills and widen their knowledge quotient.</description>
+        </item>
+        
+        <item>
+            <title>Speaker - XConf-2022 - Thoughtworks India</title>
+            <link>https://thinkuldeep.com//event/thougthworks-xconf-2022/</link>
+            <pubDate>Fri, 29 Jul 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/thougthworks-xconf-2022/</guid>
+            <description>The XConf XConf is Thoughtworks annual technology event created by technologists. It is designed for technologists who care deeply about software and its impact on the world.
 Last year XConf was virtual but this year, we are resuming to a physical one, so come meet us face to face in Bangalore at ITC Gardenia on Friday, July 29.
   &amp;nbsp; I am exited to share the stage with renowned technologists like Supriyo Ghosh, Chief Architect, Open Network for Digital Commerce (ONDC) India, our Head of Technology Bharani Subramaniam and Vanya Seth along with other techies from three streams Emerging Tech, Digital Transformation and Data.</description>
-    </item>
-    
-    <item>
-      <title>The VAMRR ITeS Leaders Round Table</title>
-      <link>http://localhost:1313/event/leadership-roundtable-vamrr/</link>
-      <pubDate>Fri, 22 Jul 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/leadership-roundtable-vamrr/</guid>
-      <description>The VAMRR ITeS Leaders Round Table The thoughtleadership roundtable is an exclusive event hosted by VAMRR Technologies Pvt Ltd, where they invite an elite gathering of 20 ITeS leaders focused on the areas of Design Visualization, Digital Twin and Hybrid Workspaces.
+        </item>
+        
+        <item>
+            <title>The VAMRR ITeS Leaders Round Table</title>
+            <link>https://thinkuldeep.com//event/leadership-roundtable-vamrr/</link>
+            <pubDate>Fri, 22 Jul 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/leadership-roundtable-vamrr/</guid>
+            <description>The VAMRR ITeS Leaders Round Table The thoughtleadership roundtable is an exclusive event hosted by VAMRR Technologies Pvt Ltd, where they invite an elite gathering of 20 ITeS leaders focused on the areas of Design Visualization, Digital Twin and Hybrid Workspaces.
 This one is the 98th Conference/Round Table by VAMRR Technologies, and focus this roundtable would be on developments across Advanced Visualization, Remote Design Collaboration, Hybrid Workspaces, 3D Workflows, Data Integrated Digital Twins, Web3 and Metaverse are all converging.</description>
-    </item>
-    
-    <item>
-      <title>Metaverse Workshop - VIT-AP University</title>
-      <link>http://localhost:1313/event/metaverse-workshop-vit-ap-university/</link>
-      <pubDate>Sat, 11 Jun 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/metaverse-workshop-vit-ap-university/</guid>
-      <description>School of Computer Science and Engineering (SCOPE) of VIT-AP University is organizing a 1-day National Workshop on “Exploring the Blockchain in Metaverse” on June 11, 2022, from 11 am to 5 pm.
+        </item>
+        
+        <item>
+            <title>Metaverse Workshop - VIT-AP University</title>
+            <link>https://thinkuldeep.com//event/metaverse-workshop-vit-ap-university/</link>
+            <pubDate>Sat, 11 Jun 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/metaverse-workshop-vit-ap-university/</guid>
+            <description>School of Computer Science and Engineering (SCOPE) of VIT-AP University is organizing a 1-day National Workshop on “Exploring the Blockchain in Metaverse” on June 11, 2022, from 11 am to 5 pm.
  The program is intended for students, faculty of technical institutes, professionals from Industry, R&amp;amp;D organizations, and research scholars.
 I will be speaking at the workshop on &amp;ldquo;Gearing up for Metaverse&amp;rdquo;, Will touch upon metaverse step by step.</description>
-    </item>
-    
-    <item>
-      <title>Speaker - XR and Sustainability - GSF Global Summit</title>
-      <link>http://localhost:1313/event/green-software-foundation-global-summit-2022/</link>
-      <pubDate>Fri, 10 Jun 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/green-software-foundation-global-summit-2022/</guid>
-      <description>Green Software Foundation Green Software Foundation (GSF) is building a trusted ecosystem of people, standards, tooling and best practices for Green Software. GSF works with vision to change the culture of building software across the tech industry, so sustainability becomes a core priority to software teams, just as important as performance, security, cost and accessibility. Read more here.
+        </item>
+        
+        <item>
+            <title>Speaker - XR and Sustainability - GSF Global Summit</title>
+            <link>https://thinkuldeep.com//event/green-software-foundation-global-summit-2022/</link>
+            <pubDate>Fri, 10 Jun 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/green-software-foundation-global-summit-2022/</guid>
+            <description>Green Software Foundation Green Software Foundation (GSF) is building a trusted ecosystem of people, standards, tooling and best practices for Green Software. GSF works with vision to change the culture of building software across the tech industry, so sustainability becomes a core priority to software teams, just as important as performance, security, cost and accessibility. Read more here.
 GSF Global Summit 2022 The Green Software Foundation Global Summit 2022 is a series of free events organized by Green Software Foundation members all around the globe that are passionate about sustainable software development, maintenance.</description>
-    </item>
-    
-    <item>
-      <title>Indian Achievers&#39; Award 2022</title>
-      <link>http://localhost:1313/event/indian-achievers-awards-2022/</link>
-      <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/indian-achievers-awards-2022/</guid>
-      <description>Indian Achievers&amp;rsquo; Forum Indian Achievers&amp;rsquo; Awards is India’s Most Coveted Award For Outstanding Achievements, organized by Indian Achievers&amp;rsquo; Forum. It draws attention on the theme “how the successful Achievers can help the social development in and around the country.” It provides examples of social entrepreneurs, successful models of the society and business community partnership. It promotes achievements that inspire businesses and communities, and recognizes the outstanding professional achievers&amp;rsquo; and their contribution in nation building.</description>
-    </item>
-    
-    <item>
-      <title>Guest Lecture at VIT Vellore</title>
-      <link>http://localhost:1313/event/the_parallax_view_1_vit/</link>
-      <pubDate>Fri, 22 Apr 2022 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/the_parallax_view_1_vit/</guid>
-      <description>Metaverse has become the newest macro-goal for tech industries to invest in and to see the world in a new perspective with the help of AR and VR technologies.🌟
+        </item>
+        
+        <item>
+            <title>Indian Achievers&#39; Award 2022</title>
+            <link>https://thinkuldeep.com//event/indian-achievers-awards-2022/</link>
+            <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/indian-achievers-awards-2022/</guid>
+            <description>Indian Achievers&amp;rsquo; Forum Indian Achievers&amp;rsquo; Awards is India’s Most Coveted Award For Outstanding Achievements, organized by Indian Achievers&amp;rsquo; Forum. It draws attention on the theme “how the successful Achievers can help the social development in and around the country.” It provides examples of social entrepreneurs, successful models of the society and business community partnership. It promotes achievements that inspire businesses and communities, and recognizes the outstanding professional achievers&amp;rsquo; and their contribution in nation building.</description>
+        </item>
+        
+        <item>
+            <title>Guest Lecture at VIT Vellore</title>
+            <link>https://thinkuldeep.com//event/the_parallax_view_1_vit/</link>
+            <pubDate>Fri, 22 Apr 2022 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/the_parallax_view_1_vit/</guid>
+            <description>Metaverse has become the newest macro-goal for tech industries to invest in and to see the world in a new perspective with the help of AR and VR technologies.🌟
 A student club at VIT Vellore named Mozilla Firefox Club invited me for a guest lecture in The Parallax View Episode 1 :Bring the world to wherever you are
  🔮✨Join us on 22nd April, 6PM to clarify all your doubts regarding AR and VR and opportunities it offers you !</description>
-    </item>
-    
-    <item>
-      <title>Guest Lecture on &#39;Metaverse&#39; at NIT Hamirpur</title>
-      <link>http://localhost:1313/event/getting_into_metaverse_guest_lecture_nit_hamirpur/</link>
-      <pubDate>Sun, 19 Dec 2021 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/getting_into_metaverse_guest_lecture_nit_hamirpur/</guid>
-      <description>National Institute of Technology Hamirpur is organizing Tech-Nexus, an online technical carnival, as an initiative of the Institute Innovation Council, MHRD. The essence of Tech-Nexus is to unite all the technological talents across the nation and give them a platform to express their skills and ideas. This flagship event will help people to showcase their unique projects and trends in the technological field as well as the challenges encountered, and solutions adopted while developing the projects.</description>
-    </item>
-    
-    <item>
-      <title>Speaker - Thoughtworks MasterClass-2021</title>
-      <link>http://localhost:1313/event/thougthworks-masterclasses-2021/</link>
-      <pubDate>Wed, 20 Oct 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/thougthworks-masterclasses-2021/</guid>
-      <description>The MasterClass This October, at Thoughtworks India, we’re celebrating our 20th anniversary! That’s 20 years of excellence in technology!
+        </item>
+        
+        <item>
+            <title>Guest Lecture on &#39;Metaverse&#39; at NIT Hamirpur</title>
+            <link>https://thinkuldeep.com//event/getting_into_metaverse_guest_lecture_nit_hamirpur/</link>
+            <pubDate>Sun, 19 Dec 2021 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/getting_into_metaverse_guest_lecture_nit_hamirpur/</guid>
+            <description>National Institute of Technology Hamirpur is organizing Tech-Nexus, an online technical carnival, as an initiative of the Institute Innovation Council, MHRD. The essence of Tech-Nexus is to unite all the technological talents across the nation and give them a platform to express their skills and ideas. This flagship event will help people to showcase their unique projects and trends in the technological field as well as the challenges encountered, and solutions adopted while developing the projects.</description>
+        </item>
+        
+        <item>
+            <title>Speaker - Thoughtworks MasterClass-2021</title>
+            <link>https://thinkuldeep.com//event/thougthworks-masterclasses-2021/</link>
+            <pubDate>Wed, 20 Oct 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/thougthworks-masterclasses-2021/</guid>
+            <description>The MasterClass This October, at Thoughtworks India, we’re celebrating our 20th anniversary! That’s 20 years of excellence in technology!
  All through the month we’re hosting 10 tech talks, delivered by some of our best-and-brightest technologists in India. Each of them will be taking you through different topics, ranging from Distributed Delivery and XR, to Security and Navigating Ambiguity.
 I am sharing stage with Raju Kandaswamy who is a robotics enthusiast and taking us through &amp;ldquo;Using XR in building autonomous vehicles&amp;rdquo;.</description>
-    </item>
-    
-    <item>
-      <title>Speaker - XConf-2021 - Thoughtworks India</title>
-      <link>http://localhost:1313/event/thougthworks-xconf-2021/</link>
-      <pubDate>Fri, 08 Oct 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/thougthworks-xconf-2021/</guid>
-      <description>The XConf XConf is Thoughtworks annual technology event created by technologists. It is designed for technologists who care deeply about software and its impact on the world.
+        </item>
+        
+        <item>
+            <title>Speaker - XConf-2021 - Thoughtworks India</title>
+            <link>https://thinkuldeep.com//event/thougthworks-xconf-2021/</link>
+            <pubDate>Fri, 08 Oct 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/thougthworks-xconf-2021/</guid>
+            <description>The XConf XConf is Thoughtworks annual technology event created by technologists. It is designed for technologists who care deeply about software and its impact on the world.
 This year, XConf will be a virtual experience available at two different time slots. October 7th and 8th will feature pre-recorded sessions and October 9th will feature live sessions. During the nine exciting talks spread across three days.
  I am exited to sharing the stage with renowned technologists like Neal Ford, Dr.</description>
-    </item>
-    
-    <item>
-      <title>Discussion - Navigating the new normal</title>
-      <link>http://localhost:1313/event/thevrara-navigating-new-normal/</link>
-      <pubDate>Sat, 22 May 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/thevrara-navigating-new-normal/</guid>
-      <description>The world is finding the ways to get out of Covid impact, some are on recovery path and some are still bettling it. At ThoughtWorks, we have recently published our insights on navigating the new normal with augmented reality. Members of Communities of Practice of The VRARA come together to discuss the topic and share the opinion on way forward for XR.
+        </item>
+        
+        <item>
+            <title>Discussion - Navigating the new normal</title>
+            <link>https://thinkuldeep.com//event/thevrara-navigating-new-normal/</link>
+            <pubDate>Sat, 22 May 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/thevrara-navigating-new-normal/</guid>
+            <description>The world is finding the ways to get out of Covid impact, some are on recovery path and some are still bettling it. At ThoughtWorks, we have recently published our insights on navigating the new normal with augmented reality. Members of Communities of Practice of The VRARA come together to discuss the topic and share the opinion on way forward for XR.
 I presented thoughtworks insights to other renowned industry leaders and VRARA members like Pradeep Sharma, Swarup Choudhury and Rajiv Madane, and technology exports like Pradeep Naik and Dhruv.</description>
-    </item>
-    
-    <item>
-      <title>Speaker - AT2020 - Agility in Enterprise XR</title>
-      <link>http://localhost:1313/event/at_2020_agilexr/</link>
-      <pubDate>Sat, 06 Mar 2021 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/at_2020_agilexr/</guid>
-      <description>Enterprise XR is gaining good traction, and software development’s best practices like Agile principles really matters due to multitude of tooling and tech stacks used for Enterprise XR solutions
+        </item>
+        
+        <item>
+            <title>Speaker - AT2020 - Agility in Enterprise XR</title>
+            <link>https://thinkuldeep.com//event/at_2020_agilexr/</link>
+            <pubDate>Sat, 06 Mar 2021 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/at_2020_agilexr/</guid>
+            <description>Enterprise XR is gaining good traction, and software development’s best practices like Agile principles really matters due to multitude of tooling and tech stacks used for Enterprise XR solutions
 Enterprises do face multiple challenges with the XR development lifecycle. One of them is the automation of testing XR applications. In response to this gap, ThoughtWorks has developed Arium – an open-source, lightweight, extensible, platform-agnostic framework that helps write automation tests that are built specifically for XR Applications.</description>
-    </item>
-    
-    <item>
-      <title>Speaker - GIDS - Extended Machine Learning with XR</title>
-      <link>http://localhost:1313/event/gids_2020_xr4ml/</link>
-      <pubDate>Thu, 05 Nov 2020 06:30:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/gids_2020_xr4ml/</guid>
-      <description>Extended Reality is not only meant for humans, they can very well serve machines by producing Digital twins. Digital twins encapsulate real world elements with all important physics characteristics enabling the researcher to produce large volume of training data needed for reinforment learning and CNN based deep learning algorithms. Extended Reality environments are mature today and are capable of producing photorealistic rendering and physics emulation of real world just by using digital twins.</description>
-    </item>
-    
-    <item>
-      <title>Webinar - Essentials of XR Product Design and Development</title>
-      <link>http://localhost:1313/event/thevrara-ppd-cop-webinar/</link>
-      <pubDate>Sat, 17 Oct 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/thevrara-ppd-cop-webinar/</guid>
-      <description>The VRAR Association&amp;rsquo;s Product Design and Development (PDD) Communities of Practice (COP) brings its first webinar on &amp;ldquo;Essentials of XR Product Design and Development&amp;rdquo;.
+        </item>
+        
+        <item>
+            <title>Speaker - GIDS - Extended Machine Learning with XR</title>
+            <link>https://thinkuldeep.com//event/gids_2020_xr4ml/</link>
+            <pubDate>Thu, 05 Nov 2020 06:30:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/gids_2020_xr4ml/</guid>
+            <description>Extended Reality is not only meant for humans, they can very well serve machines by producing Digital twins. Digital twins encapsulate real world elements with all important physics characteristics enabling the researcher to produce large volume of training data needed for reinforment learning and CNN based deep learning algorithms. Extended Reality environments are mature today and are capable of producing photorealistic rendering and physics emulation of real world just by using digital twins.</description>
+        </item>
+        
+        <item>
+            <title>Webinar - Essentials of XR Product Design and Development</title>
+            <link>https://thinkuldeep.com//event/thevrara-ppd-cop-webinar/</link>
+            <pubDate>Sat, 17 Oct 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/thevrara-ppd-cop-webinar/</guid>
+            <description>The VRAR Association&amp;rsquo;s Product Design and Development (PDD) Communities of Practice (COP) brings its first webinar on &amp;ldquo;Essentials of XR Product Design and Development&amp;rdquo;.
 I will be sharing the stage with industry leader Mr. Pradeep Khanna, VR AR Association, and XR innovator Mr. Raju Kandaswamy, ThoughtWorks.
 Spread the words  Registration Only Please register at the below link, and save the date Oct 17, 2020, 4:30 PM IST.
 https://www.brighttalk.com/webcast/14711/445904
 The webinar will be available at https://www.</description>
-    </item>
-    
-    <item>
-      <title>Geeknight - XR - eXtending the Reality</title>
-      <link>http://localhost:1313/event/thougthworks_geeknight_sep_2020_xr/</link>
-      <pubDate>Tue, 29 Sep 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/thougthworks_geeknight_sep_2020_xr/</guid>
-      <description>Geek Night is a regular event to promote the sharing of technical knowledge and increase collaboration among the geeks. It is organized by a passionate group of programmers and sponsored by ThoughtWorks.
+        </item>
+        
+        <item>
+            <title>Geeknight - XR - eXtending the Reality</title>
+            <link>https://thinkuldeep.com//event/thougthworks_geeknight_sep_2020_xr/</link>
+            <pubDate>Tue, 29 Sep 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/thougthworks_geeknight_sep_2020_xr/</guid>
+            <description>Geek Night is a regular event to promote the sharing of technical knowledge and increase collaboration among the geeks. It is organized by a passionate group of programmers and sponsored by ThoughtWorks.
 Sep month&amp;rsquo;s geek night has covered Extended Reality - An umbrella term covering various technologies like AR,VR and MR. I will be discussing what is XR, its usage and significance today, that is stretching beyond gaming.
 Embracing an Agile approach is essential to any successful XR implementation.</description>
-    </item>
-    
-    <item>
-      <title>Webinar - XR - Nicety to Necessity</title>
-      <link>http://localhost:1313/event/techgigs-xr-webinar-1/</link>
-      <pubDate>Thu, 13 Aug 2020 10:58:15 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/techgigs-xr-webinar-1/</guid>
-      <description>Techgig is the largest community of developers, also organizes webinars on emerging technologies.
+        </item>
+        
+        <item>
+            <title>Webinar - XR - Nicety to Necessity</title>
+            <link>https://thinkuldeep.com//event/techgigs-xr-webinar-1/</link>
+            <pubDate>Thu, 13 Aug 2020 10:58:15 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/techgigs-xr-webinar-1/</guid>
+            <description>Techgig is the largest community of developers, also organizes webinars on emerging technologies.
 I have spoken at a webinar on Extended Reality (XR) - Moving from Nicety to Necessity on coming Aug 13, at 3PM IST.
 Join @thinkuldeep, Head- ARVR Practice, #ThoughtWorksIndia, for a webinar on &amp;quot;why XR is moving from nicety to necessity in the new normal?&amp;quot;
 Registrations are now open: https://t.co/IHcOpLgLXZ@techgigdotcom #ExtendedReality #ThoughtWorks pic.twitter.com/MCf7EcWSjV
 &amp;mdash; ThoughtWorks India (@thoughtworksIN) August 11, 2020  Highlights COVID-19 has impacted economies, businesses and human behaviour.</description>
-    </item>
-    
-    <item>
-      <title>Speaker - Google DSC - How to get started with AR VR?</title>
-      <link>http://localhost:1313/event/google_dsk_skct_xr_introduction/</link>
-      <pubDate>Sun, 07 Jun 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/google_dsk_skct_xr_introduction/</guid>
-      <description>Conducted a live session at Google Developer Students Club of Sri Krishna College of Technology, Coimbatore, TN, India
+        </item>
+        
+        <item>
+            <title>Speaker - Google DSC - How to get started with AR VR?</title>
+            <link>https://thinkuldeep.com//event/google_dsk_skct_xr_introduction/</link>
+            <pubDate>Sun, 07 Jun 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/google_dsk_skct_xr_introduction/</guid>
+            <description>Conducted a live session at Google Developer Students Club of Sri Krishna College of Technology, Coimbatore, TN, India
 Intro here LinkedIn
 Live session, recording.  The talks is about  What is AR VR? Why to start with AR VR? How to start with AR VR?  Detailed Slides   How to get started with arvr - DSC 2020  from Kuldeep Singh  Feedback  This session was really awesome and I have got lot of new knowledge about ar/vr and it&amp;rsquo;s importance in solving real life problems - Kannan Subramanian</description>
-    </item>
-    
-    <item>
-      <title>Speaker - Spatial Web - Life beyond Keyboard and Screen</title>
-      <link>http://localhost:1313/event/gids_2020_blr_spatialweb/</link>
-      <pubDate>Fri, 20 Mar 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/gids_2020_blr_spatialweb/</guid>
-      <description>New Date is still to be announced.
+        </item>
+        
+        <item>
+            <title>Speaker - Spatial Web - Life beyond Keyboard and Screen</title>
+            <link>https://thinkuldeep.com//event/gids_2020_blr_spatialweb/</link>
+            <pubDate>Fri, 20 Mar 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/gids_2020_blr_spatialweb/</guid>
+            <description>New Date is still to be announced.
 Get ready: Great International Developer Summit is re-scheduled and now virtual summit will be organized.
 Come and talk about the life beyond keyboard and screens, spatial web is taking over get ready&amp;hellip;
 The talk is about Spatial Web is an umbrella term for the next generation web technologies that will transform every aspect of our life. It will connect the human and machines seamlessly such that the difference between physical and virtual will disappear.</description>
-    </item>
-    
-    <item>
-      <title>Speaker - XR Day - ThoughtWorks India</title>
-      <link>http://localhost:1313/event/thougthworks_xrday/</link>
-      <pubDate>Thu, 27 Feb 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/thougthworks_xrday/</guid>
-      <description>The XR Day Organized XR Days at ThoughtWorks, India in different cities and conducted awareness sessions and ideation workshop and more..
+        </item>
+        
+        <item>
+            <title>Speaker - XR Day - ThoughtWorks India</title>
+            <link>https://thinkuldeep.com//event/thougthworks_xrday/</link>
+            <pubDate>Thu, 27 Feb 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/thougthworks_xrday/</guid>
+            <description>The XR Day Organized XR Days at ThoughtWorks, India in different cities and conducted awareness sessions and ideation workshop and more..
 The talks are about  How the User interactions evolved with time? Why is it important to think beyond the tradition keyboard and screen? Where is the industry heading? How will it impact us?  Detailed Slides   Think beyond keyboard and screen xr day 2019  from Kuldeep Singh  Event Summary It was well recevied the participats.</description>
-    </item>
-    
-    <item>
-      <title>Speaker - AwayDay 2019 - SLAM Aware Applications</title>
-      <link>http://localhost:1313/event/thougthworks_awayday_2019_slam_aware_apps/</link>
-      <pubDate>Thu, 19 Sep 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/thougthworks_awayday_2019_slam_aware_apps/</guid>
-      <description>Presented At : Thoutworks&amp;rsquo;s Awayday 2019, where the entire ThoughtWorks India travelled to celebrate togetherness.
+        </item>
+        
+        <item>
+            <title>Speaker - AwayDay 2019 - SLAM Aware Applications</title>
+            <link>https://thinkuldeep.com//event/thougthworks_awayday_2019_slam_aware_apps/</link>
+            <pubDate>Thu, 19 Sep 2019 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/thougthworks_awayday_2019_slam_aware_apps/</guid>
+            <description>Presented At : Thoutworks&amp;rsquo;s Awayday 2019, where the entire ThoughtWorks India travelled to celebrate togetherness.
 I and my colleague Raju Kandaswamy presented this talk in the breakout sessions in category Seismic Shifts Around 2000 Thoghtworkers get together, and enjoyed fusion of technology showcases, cultural event and more. Glimpse here
  The talk is about  What is SLAM (Simultaneous Localization And Mapping)? The use cases of SLAM? How does it work?</description>
-    </item>
-    
-    <item>
-      <title>Speaker - Google Devfest 2019 - Think Beyond Keyboard and Screen</title>
-      <link>http://localhost:1313/event/google_devfest_2019_think_beyond_keyboard_and_screen/</link>
-      <pubDate>Thu, 05 Sep 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/google_devfest_2019_think_beyond_keyboard_and_screen/</guid>
-      <description>Presented At : Google DevFest 2019, by Google Developer&amp;rsquo;s Group, GDG Cloud Delhi .
+        </item>
+        
+        <item>
+            <title>Speaker - Google Devfest 2019 - Think Beyond Keyboard and Screen</title>
+            <link>https://thinkuldeep.com//event/google_devfest_2019_think_beyond_keyboard_and_screen/</link>
+            <pubDate>Thu, 05 Sep 2019 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/google_devfest_2019_think_beyond_keyboard_and_screen/</guid>
+            <description>Presented At : Google DevFest 2019, by Google Developer&amp;rsquo;s Group, GDG Cloud Delhi .
 The talks is about  How the User interactions evolved with time? Why is it important to think beyond the tradition keyboard and screen? Where is the industry heading? How will it impact us?  Intro here LinkedIn
 We have built office-explorer #DevFest2019 pic.twitter.com/0yRz7Euo8J
 &amp;mdash; Kuldeep Singh (@thinkuldeep) September 10, 2019  Detailed Slides   Think beyond keyboard and screen - dev fest 2019  from Kuldeep Singh  Feedback It was well recevied the participats.</description>
-    </item>
-    
-    <item>
-      <title>Speaker &amp; Organizer - IOTNCR - Ideation to Production Workshop</title>
-      <link>http://localhost:1313/event/iotncr-ideation-to-production/</link>
-      <pubDate>Sat, 29 Apr 2017 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/iotncr-ideation-to-production/</guid>
-      <description>Conducted a workshop on IoT with IOTNCR. I have spoken on IoT technology landscape, and many of other speaker given enlightening talks.
+        </item>
+        
+        <item>
+            <title>Speaker &amp; Organizer - IOTNCR - Ideation to Production Workshop</title>
+            <link>https://thinkuldeep.com//event/iotncr-ideation-to-production/</link>
+            <pubDate>Sat, 29 Apr 2017 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/iotncr-ideation-to-production/</guid>
+            <description>Conducted a workshop on IoT with IOTNCR. I have spoken on IoT technology landscape, and many of other speaker given enlightening talks.
 Intro here Nagarro invites IOT enthusiasts to Ideation to Production:An Entrepreneurship Workshop,Apr 29 #IOTNCR #Nagarroiotncr https://t.co/kvQi1CARjG pic.twitter.com/QbY94UId6c
 &amp;mdash; Kuldeep Singh (@kuldeepwilldo) April 27, 2017  The talks is about  IOT fundamentals and building blocks  IOT Nodes IOT Gateway IOT Platforms Visualization (AR &amp;amp; VR) Integrations    Detailed Slides   IOT Landscape  from Kuldeep Singh  Social connect Nice to meet you all @Nagarro #iotncr #Nagarroiotncr @kanchanray @mfuloria pic.</description>
-    </item>
-    
-    <item>
-      <title>Panelist &amp; Organizer - Nagarro LSD - Industry 4.0</title>
-      <link>http://localhost:1313/event/nagarro-lsd-industory-4-0/</link>
-      <pubDate>Thu, 19 Jan 2017 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/nagarro-lsd-industory-4-0/</guid>
-      <description>Organized Nagarro LSD event, on Industry 4.0, demonstrated usecases on connected services concept, and was a panelist for a discussion on
+        </item>
+        
+        <item>
+            <title>Panelist &amp; Organizer - Nagarro LSD - Industry 4.0</title>
+            <link>https://thinkuldeep.com//event/nagarro-lsd-industory-4-0/</link>
+            <pubDate>Thu, 19 Jan 2017 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/nagarro-lsd-industory-4-0/</guid>
+            <description>Organized Nagarro LSD event, on Industry 4.0, demonstrated usecases on connected services concept, and was a panelist for a discussion on
  Smarter Services - Predictive, Always Connected, Personalized Global experts will debate ways to create smarter services based around predictive maintenance, always connected devices and personalized solutions.
  Whether we call Industry 4.0 an evolution or a revolution, there is little doubt that it will have a disruptive impact on the manufacturing industry.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

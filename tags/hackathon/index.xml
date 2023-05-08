@@ -1,169 +1,171 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>hackathon on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/hackathon/</link>
-    <description>Recent content in hackathon on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 18 Apr 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/hackathon/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Thoughtworks TWinnoFest 3.0</title>
-      <link>http://localhost:1313/event/thougthworks-twinnofest3/</link>
-      <pubDate>Tue, 18 Apr 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/thougthworks-twinnofest3/</guid>
-      <description>The TWiinoFest 3.0 The third edition of innovation fest, named at TWinnoFest, a month-long hackathon, was recently held by Innovation Labs at Thoughtworks. This year&amp;rsquo;s event was conducted remotely, with participants spread across different cities. I was fortunate enough to be invited to judge the finale of the event.
+    <channel>
+        <title>hackathon on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/hackathon/</link>
+        <description>Recent content in hackathon on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Tue, 18 Apr 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/hackathon/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Thoughtworks TWinnoFest 3.0</title>
+            <link>https://thinkuldeep.com//event/thougthworks-twinnofest3/</link>
+            <pubDate>Tue, 18 Apr 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/thougthworks-twinnofest3/</guid>
+            <description>The TWiinoFest 3.0 The third edition of innovation fest, named at TWinnoFest, a month-long hackathon, was recently held by Innovation Labs at Thoughtworks. This year&amp;rsquo;s event was conducted remotely, with participants spread across different cities. I was fortunate enough to be invited to judge the finale of the event.
 The sheer variety and quality of ideas presented was truly astounding. It was incredibly difficult to compare them, as each one was unique and innovative in its own way.</description>
-    </item>
-    
-    <item>
-      <title>Judge at MOZOHACK 4.0 by the Mozilla Students Club</title>
-      <link>http://localhost:1313/event/judge-mozohack4-srmkzilla-2023/</link>
-      <pubDate>Sat, 25 Feb 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/judge-mozohack4-srmkzilla-2023/</guid>
-      <description>MOZOHACK is a 24-hour hackathon organized by SRMKZILLA. SRMKZILLA is a Mozilla campus club of SRM Institute of Science and Technology, Chennai(India). It is inspired by the Mozilla Learning Network, provides students an open platform to analyze and enhance their technical and non-technical skills, such as working on open-source projects, developing websites, technical fests, and workshops. The club is conducting the seventh edition of its annual flagship event – MOZOFEST&#39;23 – where they celebrate student community through technical and non-technical events.</description>
-    </item>
-    
-    <item>
-      <title>Judging the Smart India Hackathon Juniors 2022</title>
-      <link>http://localhost:1313/event/sih-2022/</link>
-      <pubDate>Fri, 12 Aug 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/sih-2022/</guid>
-      <description>After a wonderful experience of participating as a judge and mentor at Smart India Hackathon 2019 and 2020, I am delighted to share that I got a chance to meet and judge India&amp;rsquo;s young winners and innovators at Grand Finale of Smart India Hackathon Juniors 2022, Smart India Hackathon 2022 is a nationwide initiative to provide students a platform to solve some of the pressing problems we face in our daily lives, and thus inculcate a culture of product innovation and a mindset of problem solving.</description>
-    </item>
-    
-    <item>
-      <title>Judge - Ashoka University Hackathon 2022</title>
-      <link>http://localhost:1313/event/ashoka-university-hackathon-2022/</link>
-      <pubDate>Sun, 19 Jun 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/ashoka-university-hackathon-2022/</guid>
-      <description>RedBrick Hacks is flagship summer hackathon of Ashoka University, open to students from Delhi NCR. You will have the opportunity to learn, collaborate, and build meaningful projects alongside mentors from various disciplines. For 24 hours on the weekend of June 18, you will have access to free workshops, plenary lectures, prizes worth over ₹8L, games, and more!
+        </item>
+        
+        <item>
+            <title>Judge at MOZOHACK 4.0 by the Mozilla Students Club</title>
+            <link>https://thinkuldeep.com//event/judge-mozohack4-srmkzilla-2023/</link>
+            <pubDate>Sat, 25 Feb 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/judge-mozohack4-srmkzilla-2023/</guid>
+            <description>MOZOHACK is a 24-hour hackathon organized by SRMKZILLA. SRMKZILLA is a Mozilla campus club of SRM Institute of Science and Technology, Chennai(India). It is inspired by the Mozilla Learning Network, provides students an open platform to analyze and enhance their technical and non-technical skills, such as working on open-source projects, developing websites, technical fests, and workshops. The club is conducting the seventh edition of its annual flagship event – MOZOFEST&#39;23 – where they celebrate student community through technical and non-technical events.</description>
+        </item>
+        
+        <item>
+            <title>Judging the Smart India Hackathon Juniors 2022</title>
+            <link>https://thinkuldeep.com//event/sih-2022/</link>
+            <pubDate>Fri, 12 Aug 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/sih-2022/</guid>
+            <description>After a wonderful experience of participating as a judge and mentor at Smart India Hackathon 2019 and 2020, I am delighted to share that I got a chance to meet and judge India&amp;rsquo;s young winners and innovators at Grand Finale of Smart India Hackathon Juniors 2022, Smart India Hackathon 2022 is a nationwide initiative to provide students a platform to solve some of the pressing problems we face in our daily lives, and thus inculcate a culture of product innovation and a mindset of problem solving.</description>
+        </item>
+        
+        <item>
+            <title>Judge - Ashoka University Hackathon 2022</title>
+            <link>https://thinkuldeep.com//event/ashoka-university-hackathon-2022/</link>
+            <pubDate>Sun, 19 Jun 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/ashoka-university-hackathon-2022/</guid>
+            <description>RedBrick Hacks is flagship summer hackathon of Ashoka University, open to students from Delhi NCR. You will have the opportunity to learn, collaborate, and build meaningful projects alongside mentors from various disciplines. For 24 hours on the weekend of June 18, you will have access to free workshops, plenary lectures, prizes worth over ₹8L, games, and more!
 The theme of the event was &amp;ldquo;Tech for Social Good&amp;rdquo; with three main tracks: Health &amp;amp; Wellness, Sustainable Growth, and Security &amp;amp; Privacy.</description>
-    </item>
-    
-    <item>
-      <title>Indian Achievers&#39; Award 2022</title>
-      <link>http://localhost:1313/event/indian-achievers-awards-2022/</link>
-      <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/indian-achievers-awards-2022/</guid>
-      <description>Indian Achievers&amp;rsquo; Forum Indian Achievers&amp;rsquo; Awards is India’s Most Coveted Award For Outstanding Achievements, organized by Indian Achievers&amp;rsquo; Forum. It draws attention on the theme “how the successful Achievers can help the social development in and around the country.” It provides examples of social entrepreneurs, successful models of the society and business community partnership. It promotes achievements that inspire businesses and communities, and recognizes the outstanding professional achievers&amp;rsquo; and their contribution in nation building.</description>
-    </item>
-    
-    <item>
-      <title>Judge at HackBMU 5.0</title>
-      <link>http://localhost:1313/event/bmu-hack5/</link>
-      <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/bmu-hack5/</guid>
-      <description>BML Munjal University, a Hero group initiative, is organizing a 5th edition Hackathon, named HackBMU 5.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
+        </item>
+        
+        <item>
+            <title>Indian Achievers&#39; Award 2022</title>
+            <link>https://thinkuldeep.com//event/indian-achievers-awards-2022/</link>
+            <pubDate>Wed, 04 May 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/indian-achievers-awards-2022/</guid>
+            <description>Indian Achievers&amp;rsquo; Forum Indian Achievers&amp;rsquo; Awards is India’s Most Coveted Award For Outstanding Achievements, organized by Indian Achievers&amp;rsquo; Forum. It draws attention on the theme “how the successful Achievers can help the social development in and around the country.” It provides examples of social entrepreneurs, successful models of the society and business community partnership. It promotes achievements that inspire businesses and communities, and recognizes the outstanding professional achievers&amp;rsquo; and their contribution in nation building.</description>
+        </item>
+        
+        <item>
+            <title>Judge at HackBMU 5.0</title>
+            <link>https://thinkuldeep.com//event/bmu-hack5/</link>
+            <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/bmu-hack5/</guid>
+            <description>BML Munjal University, a Hero group initiative, is organizing a 5th edition Hackathon, named HackBMU 5.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
 HackBMU seeks to provide a welcoming and supportive environment to all participants to develop their skills, regardless of their background.</description>
-    </item>
-    
-    <item>
-      <title>Your Hackathon Guide at IEEE WIE - BU - The Times Groups</title>
-      <link>http://localhost:1313/event/ieee-bu-wie-discussion/</link>
-      <pubDate>Tue, 01 Feb 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/ieee-bu-wie-discussion/</guid>
-      <description>IEEE WIE (Women In Engineering) at Bennett University - The Times Group, has hosted a panel discussion with students preparing and participating in hackathons.
+        </item>
+        
+        <item>
+            <title>Your Hackathon Guide at IEEE WIE - BU - The Times Groups</title>
+            <link>https://thinkuldeep.com//event/ieee-bu-wie-discussion/</link>
+            <pubDate>Tue, 01 Feb 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/ieee-bu-wie-discussion/</guid>
+            <description>IEEE WIE (Women In Engineering) at Bennett University - The Times Group, has hosted a panel discussion with students preparing and participating in hackathons.
  I joined the panel of 🌟 Swati Anuj Arya (chief information security officer, Amazon Pay) and 🌟Srishti Gupta (Senior data analyst at Ernst &amp;amp; Young) to share our experience with students.
 Highlights of the event! It was a great discussion, we started with questions on prerequisites of hackathon, and skills required to participate in hackathon, where we talked about being a thinker, solution oriented mindset, authenticity and practicality of the ideas and stay aligned to the problem statements.</description>
-    </item>
-    
-    <item>
-      <title>Judge at Tech-Nexus Hackathon</title>
-      <link>http://localhost:1313/event/tech-nexus-2021/</link>
-      <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/tech-nexus-2021/</guid>
-      <description>National Institute of Technology Hamirpur is organizing Tech-Nexus, an online technical carnival, as an initiative of the Institute Innovation Council, MHRD. The essence of Tech-Nexus is to unite all the technological talents across the nation and give them a platform to express their skills and ideas. This flagship event will help people to showcase their unique projects and trends in the technological field as well as the challenges encountered, and solutions adopted while developing the projects.</description>
-    </item>
-    
-    <item>
-      <title>Judge - Thoughtworks iFest 2.0</title>
-      <link>http://localhost:1313/event/thougthworks-ifest2/</link>
-      <pubDate>Sun, 10 Oct 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/thougthworks-ifest2/</guid>
-      <description>The iFest This October, at Thoughtworks India, we’re celebrating our 20th anniversary! That’s 20 years of excellence in technology!
+        </item>
+        
+        <item>
+            <title>Judge at Tech-Nexus Hackathon</title>
+            <link>https://thinkuldeep.com//event/tech-nexus-2021/</link>
+            <pubDate>Fri, 07 Jan 2022 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/tech-nexus-2021/</guid>
+            <description>National Institute of Technology Hamirpur is organizing Tech-Nexus, an online technical carnival, as an initiative of the Institute Innovation Council, MHRD. The essence of Tech-Nexus is to unite all the technological talents across the nation and give them a platform to express their skills and ideas. This flagship event will help people to showcase their unique projects and trends in the technological field as well as the challenges encountered, and solutions adopted while developing the projects.</description>
+        </item>
+        
+        <item>
+            <title>Judge - Thoughtworks iFest 2.0</title>
+            <link>https://thinkuldeep.com//event/thougthworks-ifest2/</link>
+            <pubDate>Sun, 10 Oct 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/thougthworks-ifest2/</guid>
+            <description>The iFest This October, at Thoughtworks India, we’re celebrating our 20th anniversary! That’s 20 years of excellence in technology!
 Innovation Lab&amp;rsquo;s at Thoughtworks comes second edition of iFest - a month long hackathon. I got opportunity to participate in iFest as a judge.
 I was amazed to see the verity of idea. All the ideas were great and it was so hard to compare them.
 Ideas were touching were reflecting the Thougthworks culture, use technology to solve challenges society is facing.</description>
-    </item>
-    
-    <item>
-      <title>Judge at HackBMU 4.0</title>
-      <link>http://localhost:1313/event/bmu-hack4/</link>
-      <pubDate>Fri, 23 Apr 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/bmu-hack4/</guid>
-      <description>BML Munjal University,a Hero group initiative, is organizing a 4th edition Hackathon, named HackBMU 4.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
+        </item>
+        
+        <item>
+            <title>Judge at HackBMU 4.0</title>
+            <link>https://thinkuldeep.com//event/bmu-hack4/</link>
+            <pubDate>Fri, 23 Apr 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/bmu-hack4/</guid>
+            <description>BML Munjal University,a Hero group initiative, is organizing a 4th edition Hackathon, named HackBMU 4.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
 HackBMU seeks to provide a welcoming and supportive environment to all participants to develop their skills, regardless of their background.</description>
-    </item>
-    
-    <item>
-      <title>Juror - SMCC Startup Challenge by Nasscom</title>
-      <link>http://localhost:1313/event/nasscom-smcc/</link>
-      <pubDate>Thu, 25 Feb 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/nasscom-smcc/</guid>
-      <description>NASSCOM is the premier trade body and chamber of commerce of the Tech industry in India and comprises over 2800 member companies including both Indian and multinational organisations that have a presence in India. Center of Excellence - IoT and AI is an initiative from NASSCOM and collective effort from different state governments in India,
+        </item>
+        
+        <item>
+            <title>Juror - SMCC Startup Challenge by Nasscom</title>
+            <link>https://thinkuldeep.com//event/nasscom-smcc/</link>
+            <pubDate>Thu, 25 Feb 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/nasscom-smcc/</guid>
+            <description>NASSCOM is the premier trade body and chamber of commerce of the Tech industry in India and comprises over 2800 member companies including both Indian and multinational organisations that have a presence in India. Center of Excellence - IoT and AI is an initiative from NASSCOM and collective effort from different state governments in India,
 NASSCOM CoE is launching first-of-its-kind virtual SMART MANUFACTURING COMPETENCY CENTER (SMCC). The innovation platform which will help in accelerating technology adoption by bringing enterprises, governments, researchers, and innovators together.</description>
-    </item>
-    
-    <item>
-      <title>Judge - DotSlash 4.0 - Hackthon by NIT Surat</title>
-      <link>http://localhost:1313/event/dotstash_2021_hackathon/</link>
-      <pubDate>Sat, 30 Jan 2021 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/dotstash_2021_hackathon/</guid>
-      <description>SVNIT Surat has organized a hackathon - DotSlash 4.0, a 30 hours long hackathon. More information here - https://www.hackdotslash.co.in/
+        </item>
+        
+        <item>
+            <title>Judge - DotSlash 4.0 - Hackthon by NIT Surat</title>
+            <link>https://thinkuldeep.com//event/dotstash_2021_hackathon/</link>
+            <pubDate>Sat, 30 Jan 2021 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/dotstash_2021_hackathon/</guid>
+            <description>SVNIT Surat has organized a hackathon - DotSlash 4.0, a 30 hours long hackathon. More information here - https://www.hackdotslash.co.in/
 I have participated in this event as a Judge.
 The Event Details - 30-31st Jan 2021  It was really proud feeling to head interesting ideas from the young innovators, use the technology to find solutions during Covid and Post-Covid. Ideas to track and optimize carbon generation even from digitization (emails, internet and more), help specially-abled using technology to communicate, build digital restaurant menu to provide contactless experience, make the online exam cheat-proof, and many more.</description>
-    </item>
-    
-    <item>
-      <title>Mentor and Juror - MIC 2020 by Nasscom</title>
-      <link>http://localhost:1313/event/nasscom-iotcoe/</link>
-      <pubDate>Sat, 05 Dec 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/nasscom-iotcoe/</guid>
-      <description>NASSCOM is the premier trade body and chamber of commerce of the Tech industry in India and comprises over 2800 member companies including both Indian and multinational organisations that have a presence in India. Center of Excellence - IoT and AI is an initiative from NASSCOM and collective effort from different state governments in India,
+        </item>
+        
+        <item>
+            <title>Mentor and Juror - MIC 2020 by Nasscom</title>
+            <link>https://thinkuldeep.com//event/nasscom-iotcoe/</link>
+            <pubDate>Sat, 05 Dec 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/nasscom-iotcoe/</guid>
+            <description>NASSCOM is the premier trade body and chamber of commerce of the Tech industry in India and comprises over 2800 member companies including both Indian and multinational organisations that have a presence in India. Center of Excellence - IoT and AI is an initiative from NASSCOM and collective effort from different state governments in India,
 NASSCOM has organized Manufacturing Innovation Challenge 2020 from 12th Oct to 11th Dec, on theme of redefining enterprises and entrepreneurs engagement.</description>
-    </item>
-    
-    <item>
-      <title>Judge and Mentor -  Smart India Hackathon 2020</title>
-      <link>http://localhost:1313/event/sih-2020/</link>
-      <pubDate>Mon, 03 Aug 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/sih-2020/</guid>
-      <description>After a wonderful experience of participating as a judge and mentor at Smart India Hackathon 2019, I am delighted to share that I again got a chance to meet and judge India&amp;rsquo;s young winners and innovators at Grand Finale of Smart India Hackathon 2020, world’s biggest open innovation modal, organized by AICTE and MHRD, Govt of India. This time it is no more a hackathon but a hackathon of hackathons — 4 Lacks students, 1500 small hackathons, 40 Nodal centers, around 2000 mentors and 1000 evaluators, 11000 finalists and more…</description>
-    </item>
-    
-    <item>
-      <title>Judge - HackInIndia - Hackathon 2020</title>
-      <link>http://localhost:1313/event/hackinindia-hackathon-2020/</link>
-      <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/hackinindia-hackathon-2020/</guid>
-      <description>I got chance to judge the HackInIndia event, India&amp;rsquo;s National Level hackathon organized by Script Foundation on 2nd July, 2020.
+        </item>
+        
+        <item>
+            <title>Judge and Mentor -  Smart India Hackathon 2020</title>
+            <link>https://thinkuldeep.com//event/sih-2020/</link>
+            <pubDate>Mon, 03 Aug 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/sih-2020/</guid>
+            <description>After a wonderful experience of participating as a judge and mentor at Smart India Hackathon 2019, I am delighted to share that I again got a chance to meet and judge India&amp;rsquo;s young winners and innovators at Grand Finale of Smart India Hackathon 2020, world’s biggest open innovation modal, organized by AICTE and MHRD, Govt of India. This time it is no more a hackathon but a hackathon of hackathons — 4 Lacks students, 1500 small hackathons, 40 Nodal centers, around 2000 mentors and 1000 evaluators, 11000 finalists and more…</description>
+        </item>
+        
+        <item>
+            <title>Judge - HackInIndia - Hackathon 2020</title>
+            <link>https://thinkuldeep.com//event/hackinindia-hackathon-2020/</link>
+            <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/hackinindia-hackathon-2020/</guid>
+            <description>I got chance to judge the HackInIndia event, India&amp;rsquo;s National Level hackathon organized by Script Foundation on 2nd July, 2020.
 Around 150 teams signed up across multiple tracks (Healthcare, Open Innovation, ARVR, EdTech, RPA and FinTech) supported by couple of talented mentors. I and Raviraj Subramanian got chance to meet only top 20 teams in Jury round, and I was amazed to see their innovative ideas, and demonstrations the young blood of nation bring on the table.</description>
-    </item>
-    
-    <item>
-      <title>Judge and Mentor -  Smart India Hackathon 2019</title>
-      <link>http://localhost:1313/event/sih_2019_an_experience/</link>
-      <pubDate>Thu, 07 Mar 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/sih_2019_an_experience/</guid>
-      <description>Recently got a chance to judge and mentor india&amp;rsquo;s young innovators at Smart India Hackathon 2019, world&amp;rsquo;s largest hackathon with 11000 shortlisted participants, hosted by 48 centers across India. It was organized by AICTE and MHRD, Govt of India. I was invited to Judge the event at Panipat Institute of Engineering &amp;amp; Technology, Panipat. I am delighted to contribute in the journey of India&amp;rsquo;s transformation, and see innovative ideas from the new generation.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+        <item>
+            <title>Judge and Mentor -  Smart India Hackathon 2019</title>
+            <link>https://thinkuldeep.com//event/sih_2019_an_experience/</link>
+            <pubDate>Thu, 07 Mar 2019 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/sih_2019_an_experience/</guid>
+            <description>Recently got a chance to judge and mentor india&amp;rsquo;s young innovators at Smart India Hackathon 2019, world&amp;rsquo;s largest hackathon with 11000 shortlisted participants, hosted by 48 centers across India. It was organized by AICTE and MHRD, Govt of India. I was invited to Judge the event at Panipat Institute of Engineering &amp;amp; Technology, Panipat. I am delighted to contribute in the journey of India&amp;rsquo;s transformation, and see innovative ideas from the new generation.</description>
+        </item>
+        
+    </channel>
 </rss>

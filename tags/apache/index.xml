@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>apache on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/apache/</link>
-    <description>Recent content in apache on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 08 Jan 2018 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/apache/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Apache Spark on Windows</title>
-      <link>http://localhost:1313/post/apache_spark_on_windows/</link>
-      <pubDate>Mon, 08 Jan 2018 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/apache_spark_on_windows/</guid>
-      <description>This article is for the Java developer who wants to learn Apache Spark but don&amp;rsquo;t know much of Linux, Python, Scala, R, and Hadoop. Around 50% of developers are using Microsoft Windows environment for development, and they don&amp;rsquo;t need to change their development environment to learn Spark. This is the first article of a series, &amp;ldquo;Apache Spark on Windows&amp;rdquo;, which covers a step-by-step guide to start the Apache Spark application on Windows environment with challenges faced and thier resolutions.</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>apache on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/apache/</link>
+        <description>Recent content in apache on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Mon, 08 Jan 2018 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/apache/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Apache Spark on Windows</title>
+            <link>https://thinkuldeep.com//post/apache_spark_on_windows/</link>
+            <pubDate>Mon, 08 Jan 2018 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/apache_spark_on_windows/</guid>
+            <description>This article is for the Java developer who wants to learn Apache Spark but don&amp;rsquo;t know much of Linux, Python, Scala, R, and Hadoop. Around 50% of developers are using Microsoft Windows environment for development, and they don&amp;rsquo;t need to change their development environment to learn Spark. This is the first article of a series, &amp;ldquo;Apache Spark on Windows&amp;rdquo;, which covers a step-by-step guide to start the Apache Spark application on Windows environment with challenges faced and thier resolutions.</description>
+        </item>
+        
+    </channel>
 </rss>

@@ -1,60 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>java 8 on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/java-8/</link>
-    <description>Recent content in java 8 on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 29 Aug 2018 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/java-8/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>A Quick Catch up Before Java 11</title>
-      <link>http://localhost:1313/post/before_java11/</link>
-      <pubDate>Wed, 29 Aug 2018 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/before_java11/</guid>
-      <description>Java 11&amp;rsquo;s release candidate is already here, and the industry is still roaming around Java 8. Every six months, we will see a new release. It is good that Java is evolving at a fast speed to catch up the challengers, but at the same time, it is also scary to catch its speed, even the Java ecosystem (build tools, IDE, etc.) is not catching up that fast. It feels like we are losing track.</description>
-    </item>
-    
-    <item>
-      <title>HashMap Performance Improvement in Java 8</title>
-      <link>http://localhost:1313/post/java8-hashmap-performance-improvement/</link>
-      <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/java8-hashmap-performance-improvement/</guid>
-      <description>Hash collision degrades the performance of HashMap significantly. Java 8 has introduced a new strategy to deal with hash collisions, thus improving the performance of HashMaps. Considering this improvement in Java 8 for hash collisions, existing applications can expect performance improvements in case they are using HashMaps having large number of elements by simply upgrading to Java 8.
+    <channel>
+        <title>java 8 on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/java-8/</link>
+        <description>Recent content in java 8 on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Wed, 29 Aug 2018 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/java-8/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>A Quick Catch up Before Java 11</title>
+            <link>https://thinkuldeep.com//post/before_java11/</link>
+            <pubDate>Wed, 29 Aug 2018 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/before_java11/</guid>
+            <description>Java 11&amp;rsquo;s release candidate is already here, and the industry is still roaming around Java 8. Every six months, we will see a new release. It is good that Java is evolving at a fast speed to catch up the challengers, but at the same time, it is also scary to catch its speed, even the Java ecosystem (build tools, IDE, etc.) is not catching up that fast. It feels like we are losing track.</description>
+        </item>
+        
+        <item>
+            <title>HashMap Performance Improvement in Java 8</title>
+            <link>https://thinkuldeep.com//post/java8-hashmap-performance-improvement/</link>
+            <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/java8-hashmap-performance-improvement/</guid>
+            <description>Hash collision degrades the performance of HashMap significantly. Java 8 has introduced a new strategy to deal with hash collisions, thus improving the performance of HashMaps. Considering this improvement in Java 8 for hash collisions, existing applications can expect performance improvements in case they are using HashMaps having large number of elements by simply upgrading to Java 8.
 Earlier, when multiple keys ends up in the same bucket, then values along with their keys are placed in a linked list.</description>
-    </item>
-    
-    <item>
-      <title>Introduction to Java Lambda Expression</title>
-      <link>http://localhost:1313/post/java8-lambda-expression/</link>
-      <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/java8-lambda-expression/</guid>
-      <description>After Java 8, developers can apply functional programming constructs in a pure Object-Oriented programming language through lambda expressions. Using lambda expression sequential and parallel execution can be achieved by passing behavior into methods. In Java world lambdas can be thought of as an anonymous method with a more compact syntax. Here compact means it is not mandatory to specify access modifiers, return type and parameter types while defining the expression.</description>
-    </item>
-    
-    <item>
-      <title>Introduction to Java Stream API</title>
-      <link>http://localhost:1313/post/java8-stream-api/</link>
-      <pubDate>Mon, 08 Dec 2014 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/java8-stream-api/</guid>
-      <description>Prior to JDK 8, collections can only be managed through iterators with the use of for, foreach or while loops. It means that we instruct a computer to execute the algorithm steps.
+        </item>
+        
+        <item>
+            <title>Introduction to Java Lambda Expression</title>
+            <link>https://thinkuldeep.com//post/java8-lambda-expression/</link>
+            <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/java8-lambda-expression/</guid>
+            <description>After Java 8, developers can apply functional programming constructs in a pure Object-Oriented programming language through lambda expressions. Using lambda expression sequential and parallel execution can be achieved by passing behavior into methods. In Java world lambdas can be thought of as an anonymous method with a more compact syntax. Here compact means it is not mandatory to specify access modifiers, return type and parameter types while defining the expression.</description>
+        </item>
+        
+        <item>
+            <title>Introduction to Java Stream API</title>
+            <link>https://thinkuldeep.com//post/java8-stream-api/</link>
+            <pubDate>Mon, 08 Dec 2014 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/java8-stream-api/</guid>
+            <description>Prior to JDK 8, collections can only be managed through iterators with the use of for, foreach or while loops. It means that we instruct a computer to execute the algorithm steps.
 int sum(List&amp;lt;Integer&amp;gt; list) {  Iterator&amp;lt;Integer&amp;gt; intIterator = list.iterator();  int sum = 0;  while (intIterator.hasNext()) {  int number = intIterator.next();  if (number &amp;gt; 5) {  sum += number;  }  }  return sum; } The above approach has the following tailbacks:</description>
-    </item>
-    
-    <item>
-      <title>Contributor - JavaOne - Rapid Modernization to Java8</title>
-      <link>http://localhost:1313/event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</link>
-      <pubDate>Wed, 01 Oct 2014 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</guid>
-      <description>Presented At: G. Venkat, Senior Vice President of Technology &amp;amp; Solutions, at Nagarro and I have spoken at the Oracle OpenWorld / JavaOne conference on Wednesday, October 1, 2014, form 10:00 – 11:00 a.m., Pacific Time, at Ballroom 6 in the Hilton San Francisco at Union Square.
+        </item>
+        
+        <item>
+            <title>Contributor - JavaOne - Rapid Modernization to Java8</title>
+            <link>https://thinkuldeep.com//event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</link>
+            <pubDate>Wed, 01 Oct 2014 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</guid>
+            <description>Presented At: G. Venkat, Senior Vice President of Technology &amp;amp; Solutions, at Nagarro and I have spoken at the Oracle OpenWorld / JavaOne conference on Wednesday, October 1, 2014, form 10:00 – 11:00 a.m., Pacific Time, at Ballroom 6 in the Hilton San Francisco at Union Square.
 I have supported Venkat and presented the JMod tool demo with him.
 Here are some coverages - https://www.nagarro.com/en/news-events/nagarro-has-java-8-covered-at-oracle-open-world I have lead the Nagarro Stall and showcased the JMod demo to 300+ visitors.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

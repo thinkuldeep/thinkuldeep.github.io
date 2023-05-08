@@ -1,41 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>design on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/design/</link>
-    <description>Recent content in design on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 31 Dec 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/design/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Guest Lecture on &#39;Forward Looking Reflection&#39; at DesignersX</title>
-      <link>http://localhost:1313/post/forward-looking-reflection/</link>
-      <pubDate>Sat, 31 Dec 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/forward-looking-reflection/</guid>
-      <description>Every end is a beginning, if there is no end, then there is no beginning, just like the year 2023 can only start after the end of year 2022. So this is the right time to reflect and plan for a better beginning. A “Forward Looking Reflection” was my topic of a guest lecture at DesignersX at their year end event. We discussed challenges of software development, and how the industry is trying to solve them.</description>
-    </item>
-    
-    <item>
-      <title>The VAMRR ITeS Leaders Round Table</title>
-      <link>http://localhost:1313/event/leadership-roundtable-vamrr/</link>
-      <pubDate>Fri, 22 Jul 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/leadership-roundtable-vamrr/</guid>
-      <description>The VAMRR ITeS Leaders Round Table The thoughtleadership roundtable is an exclusive event hosted by VAMRR Technologies Pvt Ltd, where they invite an elite gathering of 20 ITeS leaders focused on the areas of Design Visualization, Digital Twin and Hybrid Workspaces.
+    <channel>
+        <title>design on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/design/</link>
+        <description>Recent content in design on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sat, 31 Dec 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/design/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Guest Lecture on &#39;Forward Looking Reflection&#39; at DesignersX</title>
+            <link>https://thinkuldeep.com//post/forward-looking-reflection/</link>
+            <pubDate>Sat, 31 Dec 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/forward-looking-reflection/</guid>
+            <description>Every end is a beginning, if there is no end, then there is no beginning, just like the year 2023 can only start after the end of year 2022. So this is the right time to reflect and plan for a better beginning. A “Forward Looking Reflection” was my topic of a guest lecture at DesignersX at their year end event. We discussed challenges of software development, and how the industry is trying to solve them.</description>
+        </item>
+        
+        <item>
+            <title>The VAMRR ITeS Leaders Round Table</title>
+            <link>https://thinkuldeep.com//event/leadership-roundtable-vamrr/</link>
+            <pubDate>Fri, 22 Jul 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/leadership-roundtable-vamrr/</guid>
+            <description>The VAMRR ITeS Leaders Round Table The thoughtleadership roundtable is an exclusive event hosted by VAMRR Technologies Pvt Ltd, where they invite an elite gathering of 20 ITeS leaders focused on the areas of Design Visualization, Digital Twin and Hybrid Workspaces.
 This one is the 98th Conference/Round Table by VAMRR Technologies, and focus this roundtable would be on developments across Advanced Visualization, Remote Design Collaboration, Hybrid Workspaces, 3D Workflows, Data Integrated Digital Twins, Web3 and Metaverse are all converging.</description>
-    </item>
-    
-    <item>
-      <title>Software Development as a Design Process</title>
-      <link>http://localhost:1313/post/software-development-as-design-process/</link>
-      <pubDate>Mon, 05 Nov 2018 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/software-development-as-design-process/</guid>
-      <description>The book &amp;ldquo;Agile IT Organization Design - For digital transformation and continuous delivery&amp;rdquo; by Sriram Narayan explains software development as a design process. Following statement from the book means a lot.
+        </item>
+        
+        <item>
+            <title>Software Development as a Design Process</title>
+            <link>https://thinkuldeep.com//post/software-development-as-design-process/</link>
+            <pubDate>Mon, 05 Nov 2018 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/software-development-as-design-process/</guid>
+            <description>The book &amp;ldquo;Agile IT Organization Design - For digital transformation and continuous delivery&amp;rdquo; by Sriram Narayan explains software development as a design process. Following statement from the book means a lot.
  &amp;ldquo;Software development is a design process, and the production environment is the factory where product takes place. IT OPS work to keep the factory running..&amp;rdquo;
  It questions the way we traditionally think of operation support, maintenance, production bugs, rework, their costs and budgets and the focus in software development life.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>digital-twins on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/digital-twins/</link>
-    <description>Recent content in digital-twins on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 20 Oct 2021 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/digital-twins/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Speaker - Thoughtworks MasterClass-2021</title>
-      <link>http://localhost:1313/event/thougthworks-masterclasses-2021/</link>
-      <pubDate>Wed, 20 Oct 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/thougthworks-masterclasses-2021/</guid>
-      <description>The MasterClass This October, at Thoughtworks India, we’re celebrating our 20th anniversary! That’s 20 years of excellence in technology!
+    <channel>
+        <title>digital-twins on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/digital-twins/</link>
+        <description>Recent content in digital-twins on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Wed, 20 Oct 2021 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/digital-twins/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Speaker - Thoughtworks MasterClass-2021</title>
+            <link>https://thinkuldeep.com//event/thougthworks-masterclasses-2021/</link>
+            <pubDate>Wed, 20 Oct 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/thougthworks-masterclasses-2021/</guid>
+            <description>The MasterClass This October, at Thoughtworks India, we’re celebrating our 20th anniversary! That’s 20 years of excellence in technology!
  All through the month we’re hosting 10 tech talks, delivered by some of our best-and-brightest technologists in India. Each of them will be taking you through different topics, ranging from Distributed Delivery and XR, to Security and Navigating Ambiguity.
 I am sharing stage with Raju Kandaswamy who is a robotics enthusiast and taking us through &amp;ldquo;Using XR in building autonomous vehicles&amp;rdquo;.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

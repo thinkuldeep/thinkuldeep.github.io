@@ -1,103 +1,105 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>experience on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/experience/</link>
-    <description>Recent content in experience on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 17 Nov 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/experience/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Corporate lessons from a Home Makeover</title>
-      <link>http://localhost:1313/post/corporate-lessons-from-a-home-makeover/</link>
-      <pubDate>Thu, 17 Nov 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/corporate-lessons-from-a-home-makeover/</guid>
-      <description>Recently I shared an article on my life lessons from my father’s work life, and mentioned that I dedicated a new home to my father’s work life, also promised that I will share some corporate lessons learned from making-over this new home. I can well relate my takeaways to the corporate experiences such as vendor selection, negotiation, solutioning, estimation, prioritization, agility and being a trusted partner and many more..
+    <channel>
+        <title>experience on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/experience/</link>
+        <description>Recent content in experience on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Thu, 17 Nov 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/experience/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Corporate lessons from a Home Makeover</title>
+            <link>https://thinkuldeep.com//post/corporate-lessons-from-a-home-makeover/</link>
+            <pubDate>Thu, 17 Nov 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/corporate-lessons-from-a-home-makeover/</guid>
+            <description>Recently I shared an article on my life lessons from my father’s work life, and mentioned that I dedicated a new home to my father’s work life, also promised that I will share some corporate lessons learned from making-over this new home. I can well relate my takeaways to the corporate experiences such as vendor selection, negotiation, solutioning, estimation, prioritization, agility and being a trusted partner and many more..
  As I keep saying “we learn every day in all situations of life, good or bad”</description>
-    </item>
-    
-    <item>
-      <title>Lessons of Life - Father’s Retirement</title>
-      <link>http://localhost:1313/post/lessons-of-life-father-retirement/</link>
-      <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/lessons-of-life-father-retirement/</guid>
-      <description>I started thinkuldeep.com keeping in mind that we learn every day in all situations of life, good or bad. Our learning matures by sharing, we explore more of us by giving it away to others.
+        </item>
+        
+        <item>
+            <title>Lessons of Life - Father’s Retirement</title>
+            <link>https://thinkuldeep.com//post/lessons-of-life-father-retirement/</link>
+            <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/lessons-of-life-father-retirement/</guid>
+            <description>I started thinkuldeep.com keeping in mind that we learn every day in all situations of life, good or bad. Our learning matures by sharing, we explore more of us by giving it away to others.
  Recently my father turned 60, and has retired from government services. 60 years full of life is a quite big experience, where around 38 years he spent in serving the same Govt of Rajasthan.</description>
-    </item>
-    
-    <item>
-      <title>Judging the Smart India Hackathon Juniors 2022</title>
-      <link>http://localhost:1313/event/sih-2022/</link>
-      <pubDate>Fri, 12 Aug 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/sih-2022/</guid>
-      <description>After a wonderful experience of participating as a judge and mentor at Smart India Hackathon 2019 and 2020, I am delighted to share that I got a chance to meet and judge India&amp;rsquo;s young winners and innovators at Grand Finale of Smart India Hackathon Juniors 2022, Smart India Hackathon 2022 is a nationwide initiative to provide students a platform to solve some of the pressing problems we face in our daily lives, and thus inculcate a culture of product innovation and a mindset of problem solving.</description>
-    </item>
-    
-    <item>
-      <title>Best Practices for Building Spatial Solutions</title>
-      <link>http://localhost:1313/post/xr-best-practices/</link>
-      <pubDate>Tue, 05 Jan 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/xr-best-practices/</guid>
-      <description>Covid19 is forcing us into a ‘new normal’, A new normal that makes most of us work from home, and that leads to spending long hours on Zoom, or other video conferencing platforms. Meetings, inceptions, discovery workshops, conferences, and webinars are happening in the same monotonous ways. We are stuck with a screen in almost the same pose and posture. Some might use their mobile phone or tablet but that limits us to a small screen.</description>
-    </item>
-    
-    <item>
-      <title>The Learning Equation</title>
-      <link>http://localhost:1313/post/the-learning-equation/</link>
-      <pubDate>Sat, 05 Sep 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/the-learning-equation/</guid>
-      <description>Today, The world is celebrating teacher’s day. I wish Happy Teacher&amp;rsquo;s day to all of us! We all are teachers and learners as every one of us has something to learn from others and something to teach others. I am thinking of an equation of learning that defines my way of learning and hope it would be helpful for you too.  The learning equation — Learning is proportional to Sharing; Learning ∝ Sharing</description>
-    </item>
-    
-    <item>
-      <title>Judge and Mentor -  Smart India Hackathon 2020</title>
-      <link>http://localhost:1313/event/sih-2020/</link>
-      <pubDate>Mon, 03 Aug 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/sih-2020/</guid>
-      <description>After a wonderful experience of participating as a judge and mentor at Smart India Hackathon 2019, I am delighted to share that I again got a chance to meet and judge India&amp;rsquo;s young winners and innovators at Grand Finale of Smart India Hackathon 2020, world’s biggest open innovation modal, organized by AICTE and MHRD, Govt of India. This time it is no more a hackathon but a hackathon of hackathons — 4 Lacks students, 1500 small hackathons, 40 Nodal centers, around 2000 mentors and 1000 evaluators, 11000 finalists and more…</description>
-    </item>
-    
-    <item>
-      <title>Can IT modernization lead to revenue loss?</title>
-      <link>http://localhost:1313/post/can_it_modernization_lead_to_revenue_loss/</link>
-      <pubDate>Wed, 10 Apr 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/can_it_modernization_lead_to_revenue_loss/</guid>
-      <description>IT Modernization is one of the key factors of today&amp;rsquo;s digital transformation. Most of the enterprises trying to define digital transformation strategy. IT organizations trying to redesign the organizations to meet the changing business need, and uplift the technology and people. Non-IT organizations are also trying to setup digital department to take care of companies digital assets and modernize them. However, IT modernization does not always result in a profit, it may lead to revenue loss if it does not fit to the organization design.</description>
-    </item>
-    
-    <item>
-      <title>Judge and Mentor -  Smart India Hackathon 2019</title>
-      <link>http://localhost:1313/event/sih_2019_an_experience/</link>
-      <pubDate>Thu, 07 Mar 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/sih_2019_an_experience/</guid>
-      <description>Recently got a chance to judge and mentor india&amp;rsquo;s young innovators at Smart India Hackathon 2019, world&amp;rsquo;s largest hackathon with 11000 shortlisted participants, hosted by 48 centers across India. It was organized by AICTE and MHRD, Govt of India. I was invited to Judge the event at Panipat Institute of Engineering &amp;amp; Technology, Panipat. I am delighted to contribute in the journey of India&amp;rsquo;s transformation, and see innovative ideas from the new generation.</description>
-    </item>
-    
-    <item>
-      <title>Lessons Learned From Blockchain-Based Development</title>
-      <link>http://localhost:1313/post/learnings-from-blockchain-based-development/</link>
-      <pubDate>Fri, 15 Feb 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/learnings-from-blockchain-based-development/</guid>
-      <description>Blockchain or DLT (Distributed Ledger Technology) is getting good traction in the IT world these days. Earlier, this technology was being mostly explored by banks and other finance-related institutions, such as Bitcoin and Ethereum. Now, it is getting explored for other use cases for building distributed applications. Blockchain technology comes with a decentralized and immutable data structure that maintains a connected block of information. Each block is connected using a hash of the previous block, and every new block on the chain is validated (mined) before adding and replicating it.</description>
-    </item>
-    
-    <item>
-      <title>5 Hard Lessons From Microservices Development</title>
-      <link>http://localhost:1313/post/lessons_from_microservices_development/</link>
-      <pubDate>Mon, 23 Jul 2018 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/lessons_from_microservices_development/</guid>
-      <description>Microservices-based development is happening all around the industry; more than 70% are trying development of microservice-based software. Microservices simplify integration of the businesses, processes, technology, and people by breaking down the big-bang monolith problem to a smaller set that can be handled independently. However, it also comes with the problem of managing relations between these smaller sets. We used to manage fewer independent units, so there was less operation and planning effort.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+        <item>
+            <title>Judging the Smart India Hackathon Juniors 2022</title>
+            <link>https://thinkuldeep.com//event/sih-2022/</link>
+            <pubDate>Fri, 12 Aug 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/sih-2022/</guid>
+            <description>After a wonderful experience of participating as a judge and mentor at Smart India Hackathon 2019 and 2020, I am delighted to share that I got a chance to meet and judge India&amp;rsquo;s young winners and innovators at Grand Finale of Smart India Hackathon Juniors 2022, Smart India Hackathon 2022 is a nationwide initiative to provide students a platform to solve some of the pressing problems we face in our daily lives, and thus inculcate a culture of product innovation and a mindset of problem solving.</description>
+        </item>
+        
+        <item>
+            <title>Best Practices for Building Spatial Solutions</title>
+            <link>https://thinkuldeep.com//post/xr-best-practices/</link>
+            <pubDate>Tue, 05 Jan 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/xr-best-practices/</guid>
+            <description>Covid19 is forcing us into a ‘new normal’, A new normal that makes most of us work from home, and that leads to spending long hours on Zoom, or other video conferencing platforms. Meetings, inceptions, discovery workshops, conferences, and webinars are happening in the same monotonous ways. We are stuck with a screen in almost the same pose and posture. Some might use their mobile phone or tablet but that limits us to a small screen.</description>
+        </item>
+        
+        <item>
+            <title>The Learning Equation</title>
+            <link>https://thinkuldeep.com//post/the-learning-equation/</link>
+            <pubDate>Sat, 05 Sep 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/the-learning-equation/</guid>
+            <description>Today, The world is celebrating teacher’s day. I wish Happy Teacher&amp;rsquo;s day to all of us! We all are teachers and learners as every one of us has something to learn from others and something to teach others. I am thinking of an equation of learning that defines my way of learning and hope it would be helpful for you too.  The learning equation — Learning is proportional to Sharing; Learning ∝ Sharing</description>
+        </item>
+        
+        <item>
+            <title>Judge and Mentor -  Smart India Hackathon 2020</title>
+            <link>https://thinkuldeep.com//event/sih-2020/</link>
+            <pubDate>Mon, 03 Aug 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/sih-2020/</guid>
+            <description>After a wonderful experience of participating as a judge and mentor at Smart India Hackathon 2019, I am delighted to share that I again got a chance to meet and judge India&amp;rsquo;s young winners and innovators at Grand Finale of Smart India Hackathon 2020, world’s biggest open innovation modal, organized by AICTE and MHRD, Govt of India. This time it is no more a hackathon but a hackathon of hackathons — 4 Lacks students, 1500 small hackathons, 40 Nodal centers, around 2000 mentors and 1000 evaluators, 11000 finalists and more…</description>
+        </item>
+        
+        <item>
+            <title>Can IT modernization lead to revenue loss?</title>
+            <link>https://thinkuldeep.com//post/can_it_modernization_lead_to_revenue_loss/</link>
+            <pubDate>Wed, 10 Apr 2019 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/can_it_modernization_lead_to_revenue_loss/</guid>
+            <description>IT Modernization is one of the key factors of today&amp;rsquo;s digital transformation. Most of the enterprises trying to define digital transformation strategy. IT organizations trying to redesign the organizations to meet the changing business need, and uplift the technology and people. Non-IT organizations are also trying to setup digital department to take care of companies digital assets and modernize them. However, IT modernization does not always result in a profit, it may lead to revenue loss if it does not fit to the organization design.</description>
+        </item>
+        
+        <item>
+            <title>Judge and Mentor -  Smart India Hackathon 2019</title>
+            <link>https://thinkuldeep.com//event/sih_2019_an_experience/</link>
+            <pubDate>Thu, 07 Mar 2019 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/sih_2019_an_experience/</guid>
+            <description>Recently got a chance to judge and mentor india&amp;rsquo;s young innovators at Smart India Hackathon 2019, world&amp;rsquo;s largest hackathon with 11000 shortlisted participants, hosted by 48 centers across India. It was organized by AICTE and MHRD, Govt of India. I was invited to Judge the event at Panipat Institute of Engineering &amp;amp; Technology, Panipat. I am delighted to contribute in the journey of India&amp;rsquo;s transformation, and see innovative ideas from the new generation.</description>
+        </item>
+        
+        <item>
+            <title>Lessons Learned From Blockchain-Based Development</title>
+            <link>https://thinkuldeep.com//post/learnings-from-blockchain-based-development/</link>
+            <pubDate>Fri, 15 Feb 2019 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/learnings-from-blockchain-based-development/</guid>
+            <description>Blockchain or DLT (Distributed Ledger Technology) is getting good traction in the IT world these days. Earlier, this technology was being mostly explored by banks and other finance-related institutions, such as Bitcoin and Ethereum. Now, it is getting explored for other use cases for building distributed applications. Blockchain technology comes with a decentralized and immutable data structure that maintains a connected block of information. Each block is connected using a hash of the previous block, and every new block on the chain is validated (mined) before adding and replicating it.</description>
+        </item>
+        
+        <item>
+            <title>5 Hard Lessons From Microservices Development</title>
+            <link>https://thinkuldeep.com//post/lessons_from_microservices_development/</link>
+            <pubDate>Mon, 23 Jul 2018 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/lessons_from_microservices_development/</guid>
+            <description>Microservices-based development is happening all around the industry; more than 70% are trying development of microservice-based software. Microservices simplify integration of the businesses, processes, technology, and people by breaking down the big-bang monolith problem to a smaller set that can be handled independently. However, it also comes with the problem of managing relations between these smaller sets. We used to manage fewer independent units, so there was less operation and planning effort.</description>
+        </item>
+        
+    </channel>
 </rss>

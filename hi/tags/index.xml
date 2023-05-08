@@ -1,164 +1,166 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on Kuldeep Singh</title>
-    <link>http://localhost:1313/hi/tags/</link>
-    <description>Recent content in Tags on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 10 Oct 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/hi/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>covid19</title>
-      <link>http://localhost:1313/hi/tags/covid19/</link>
-      <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/hi/tags/covid19/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>experience</title>
-      <link>http://localhost:1313/hi/tags/experience/</link>
-      <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/hi/tags/experience/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>general</title>
-      <link>http://localhost:1313/hi/tags/general/</link>
-      <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/hi/tags/general/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>impact</title>
-      <link>http://localhost:1313/hi/tags/impact/</link>
-      <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/hi/tags/impact/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>learnings</title>
-      <link>http://localhost:1313/hi/tags/learnings/</link>
-      <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/hi/tags/learnings/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>life</title>
-      <link>http://localhost:1313/hi/tags/life/</link>
-      <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/hi/tags/life/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>motivational</title>
-      <link>http://localhost:1313/hi/tags/motivational/</link>
-      <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/hi/tags/motivational/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>reflection</title>
-      <link>http://localhost:1313/hi/tags/reflection/</link>
-      <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/hi/tags/reflection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>takeaway</title>
-      <link>http://localhost:1313/hi/tags/takeaway/</link>
-      <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/hi/tags/takeaway/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>work from home</title>
-      <link>http://localhost:1313/hi/tags/work-from-home/</link>
-      <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/hi/tags/work-from-home/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>book-review</title>
-      <link>http://localhost:1313/hi/tags/book-review/</link>
-      <pubDate>Sun, 07 Feb 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/hi/tags/book-review/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>change</title>
-      <link>http://localhost:1313/hi/tags/change/</link>
-      <pubDate>Sun, 07 Feb 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/hi/tags/change/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>thoughtworks</title>
-      <link>http://localhost:1313/hi/tags/thoughtworks/</link>
-      <pubDate>Sun, 07 Feb 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/hi/tags/thoughtworks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>selfhelp</title>
-      <link>http://localhost:1313/hi/tags/selfhelp/</link>
-      <pubDate>Sun, 21 Jun 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/hi/tags/selfhelp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>motivation</title>
-      <link>http://localhost:1313/hi/tags/motivation/</link>
-      <pubDate>Sun, 24 May 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/hi/tags/motivation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>success</title>
-      <link>http://localhost:1313/hi/tags/success/</link>
-      <pubDate>Sun, 03 May 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/hi/tags/success/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>takeaways</title>
-      <link>http://localhost:1313/hi/tags/takeaways/</link>
-      <pubDate>Sun, 03 May 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/hi/tags/takeaways/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Tags on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//hi/tags/</link>
+        <description>Recent content in Tags on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Mon, 10 Oct 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/hi/tags/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>covid19</title>
+            <link>https://thinkuldeep.com//hi/tags/covid19/</link>
+            <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/covid19/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>experience</title>
+            <link>https://thinkuldeep.com//hi/tags/experience/</link>
+            <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/experience/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>general</title>
+            <link>https://thinkuldeep.com//hi/tags/general/</link>
+            <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/general/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>impact</title>
+            <link>https://thinkuldeep.com//hi/tags/impact/</link>
+            <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/impact/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>learnings</title>
+            <link>https://thinkuldeep.com//hi/tags/learnings/</link>
+            <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/learnings/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>life</title>
+            <link>https://thinkuldeep.com//hi/tags/life/</link>
+            <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/life/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>motivational</title>
+            <link>https://thinkuldeep.com//hi/tags/motivational/</link>
+            <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/motivational/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>reflection</title>
+            <link>https://thinkuldeep.com//hi/tags/reflection/</link>
+            <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/reflection/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>takeaway</title>
+            <link>https://thinkuldeep.com//hi/tags/takeaway/</link>
+            <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/takeaway/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>work from home</title>
+            <link>https://thinkuldeep.com//hi/tags/work-from-home/</link>
+            <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/work-from-home/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>book-review</title>
+            <link>https://thinkuldeep.com//hi/tags/book-review/</link>
+            <pubDate>Sun, 07 Feb 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/book-review/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>change</title>
+            <link>https://thinkuldeep.com//hi/tags/change/</link>
+            <pubDate>Sun, 07 Feb 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/change/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>thoughtworks</title>
+            <link>https://thinkuldeep.com//hi/tags/thoughtworks/</link>
+            <pubDate>Sun, 07 Feb 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/thoughtworks/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>selfhelp</title>
+            <link>https://thinkuldeep.com//hi/tags/selfhelp/</link>
+            <pubDate>Sun, 21 Jun 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/selfhelp/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>motivation</title>
+            <link>https://thinkuldeep.com//hi/tags/motivation/</link>
+            <pubDate>Sun, 24 May 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/motivation/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>success</title>
+            <link>https://thinkuldeep.com//hi/tags/success/</link>
+            <pubDate>Sun, 03 May 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/success/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>takeaways</title>
+            <link>https://thinkuldeep.com//hi/tags/takeaways/</link>
+            <pubDate>Sun, 03 May 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/takeaways/</guid>
+            <description></description>
+        </item>
+        
+    </channel>
 </rss>

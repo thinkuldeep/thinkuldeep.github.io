@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>efficiency on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/efficiency/</link>
-    <description>Recent content in efficiency on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 14 Jan 2015 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/efficiency/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Software Effectiveness vs Software Efficiency</title>
-      <link>http://localhost:1313/post/software-effectiveness-vs-efficiency/</link>
-      <pubDate>Wed, 14 Jan 2015 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/software-effectiveness-vs-efficiency/</guid>
-      <description>I define software effectiveness as, doing the objective effectively, I mean correctly. Efficiency can be defined as, using the resources optimally where resources could be memory, CPU, time, files, connections, databases etc.
+    <channel>
+        <title>efficiency on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/efficiency/</link>
+        <description>Recent content in efficiency on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Wed, 14 Jan 2015 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/efficiency/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Software Effectiveness vs Software Efficiency</title>
+            <link>https://thinkuldeep.com//post/software-effectiveness-vs-efficiency/</link>
+            <pubDate>Wed, 14 Jan 2015 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/software-effectiveness-vs-efficiency/</guid>
+            <description>I define software effectiveness as, doing the objective effectively, I mean correctly. Efficiency can be defined as, using the resources optimally where resources could be memory, CPU, time, files, connections, databases etc.
 From my experience, in most (should I call many) of the software projects, efficiency/performance is not much accentuated during the system design and in earlier phases(requirement and estimation) as compared to the emphasis given late in the game, coding and testing and mostly in maintenance.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

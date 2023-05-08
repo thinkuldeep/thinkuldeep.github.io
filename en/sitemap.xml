@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>http://localhost:1313/tags/ai/</loc>
+        <loc>https://thinkuldeep.com//tags/ai/</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/change/</loc>
+        <loc>https://thinkuldeep.com//tags/change/</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -22,57 +22,57 @@
                 href="https://thinkuldeep.com//tags/change/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/chatgpt/</loc>
+        <loc>https://thinkuldeep.com//tags/chatgpt/</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/event/</loc>
+        <loc>https://thinkuldeep.com//tags/event/</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/generative-ai/</loc>
+        <loc>https://thinkuldeep.com//tags/generative-ai/</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/green-software/</loc>
+        <loc>https://thinkuldeep.com//tags/green-software/</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/green-software-foundation-meetup-2023/</loc>
+        <loc>https://thinkuldeep.com//event/green-software-foundation-meetup-2023/</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/habit/</loc>
+        <loc>https://thinkuldeep.com//tags/habit/</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/iot/</loc>
+        <loc>https://thinkuldeep.com//tags/iot/</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/meetup/</loc>
+        <loc>https://thinkuldeep.com//tags/meetup/</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/metaverse/</loc>
+        <loc>https://thinkuldeep.com//tags/metaverse/</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/sustainability/</loc>
+        <loc>https://thinkuldeep.com//tags/sustainability/</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/</loc>
+        <loc>https://thinkuldeep.com//tags/</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -92,7 +92,7 @@
                 href="https://thinkuldeep.com//tags/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/takeaways/</loc>
+        <loc>https://thinkuldeep.com//tags/takeaways/</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -107,7 +107,7 @@
                 href="https://thinkuldeep.com//tags/takeaways/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/thoughtworks/</loc>
+        <loc>https://thinkuldeep.com//tags/thoughtworks/</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -127,7 +127,7 @@
                 href="https://thinkuldeep.com//tags/thoughtworks/"
         />
     </url><url>
-        <loc>http://localhost:1313/</loc>
+        <loc>https://thinkuldeep.com//</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -147,7 +147,7 @@
                 href="https://thinkuldeep.com//"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/xr/</loc>
+        <loc>https://thinkuldeep.com//tags/xr/</loc>
         <lastmod>2023-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -162,7 +162,7 @@
                 href="https://thinkuldeep.com//tags/xr/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/ar/</loc>
+        <loc>https://thinkuldeep.com//tags/ar/</loc>
         <lastmod>2023-04-19T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -177,27 +177,27 @@
                 href="https://thinkuldeep.com//tags/ar/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/decoration/</loc>
+        <loc>https://thinkuldeep.com//tags/decoration/</loc>
         <lastmod>2023-04-19T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/xr-virtual-decoration/</loc>
+        <loc>https://thinkuldeep.com//post/xr-virtual-decoration/</loc>
         <lastmod>2023-04-19T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/image-processing/</loc>
+        <loc>https://thinkuldeep.com//tags/image-processing/</loc>
         <lastmod>2023-04-19T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/lenovo/</loc>
+        <loc>https://thinkuldeep.com//tags/lenovo/</loc>
         <lastmod>2023-04-19T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/mr/</loc>
+        <loc>https://thinkuldeep.com//tags/mr/</loc>
         <lastmod>2023-04-19T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -212,17 +212,17 @@
                 href="https://thinkuldeep.com//tags/mr/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/qualcomm/</loc>
+        <loc>https://thinkuldeep.com//tags/qualcomm/</loc>
         <lastmod>2023-04-19T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/spaces/</loc>
+        <loc>https://thinkuldeep.com//tags/spaces/</loc>
         <lastmod>2023-04-19T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/technology/</loc>
+        <loc>https://thinkuldeep.com//tags/technology/</loc>
         <lastmod>2023-04-19T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -237,7 +237,7 @@
                 href="https://thinkuldeep.com//tags/technology/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/vr/</loc>
+        <loc>https://thinkuldeep.com//tags/vr/</loc>
         <lastmod>2023-04-19T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -252,37 +252,37 @@
                 href="https://thinkuldeep.com//tags/vr/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/chatbot/</loc>
+        <loc>https://thinkuldeep.com//tags/chatbot/</loc>
         <lastmod>2023-04-18T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/hackathon/</loc>
+        <loc>https://thinkuldeep.com//tags/hackathon/</loc>
         <lastmod>2023-04-18T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/judge/</loc>
+        <loc>https://thinkuldeep.com//tags/judge/</loc>
         <lastmod>2023-04-18T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/thougthworks-twinnofest3/</loc>
+        <loc>https://thinkuldeep.com//event/thougthworks-twinnofest3/</loc>
         <lastmod>2023-04-18T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/gta_lets_fork_together/</loc>
+        <loc>https://thinkuldeep.com//event/gta_lets_fork_together/</loc>
         <lastmod>2023-04-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/gta/</loc>
+        <loc>https://thinkuldeep.com//tags/gta/</loc>
         <lastmod>2023-04-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/learnings/</loc>
+        <loc>https://thinkuldeep.com//tags/learnings/</loc>
         <lastmod>2023-04-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -297,37 +297,37 @@
                 href="https://thinkuldeep.com//tags/learnings/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/speaker/</loc>
+        <loc>https://thinkuldeep.com//tags/speaker/</loc>
         <lastmod>2023-04-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/startup/</loc>
+        <loc>https://thinkuldeep.com//tags/startup/</loc>
         <lastmod>2023-04-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/students/</loc>
+        <loc>https://thinkuldeep.com//tags/students/</loc>
         <lastmod>2023-04-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/talk/</loc>
+        <loc>https://thinkuldeep.com//tags/talk/</loc>
         <lastmod>2023-04-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/university/</loc>
+        <loc>https://thinkuldeep.com//tags/university/</loc>
         <lastmod>2023-04-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/bookreview/</loc>
+        <loc>https://thinkuldeep.com//tags/bookreview/</loc>
         <lastmod>2023-04-09T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/covid19/</loc>
+        <loc>https://thinkuldeep.com//tags/covid19/</loc>
         <lastmod>2023-04-09T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -342,7 +342,7 @@
                 href="https://thinkuldeep.com//tags/covid19/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/general/</loc>
+        <loc>https://thinkuldeep.com//tags/general/</loc>
         <lastmod>2023-04-09T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -357,17 +357,17 @@
                 href="https://thinkuldeep.com//tags/general/"
         />
     </url><url>
-        <loc>http://localhost:1313/post/habitmatters/</loc>
+        <loc>https://thinkuldeep.com//post/habitmatters/</loc>
         <lastmod>2023-04-09T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/leadership/</loc>
+        <loc>https://thinkuldeep.com//tags/leadership/</loc>
         <lastmod>2023-04-09T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/life/</loc>
+        <loc>https://thinkuldeep.com//tags/life/</loc>
         <lastmod>2023-04-09T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -382,7 +382,7 @@
                 href="https://thinkuldeep.com//tags/life/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/motivational/</loc>
+        <loc>https://thinkuldeep.com//tags/motivational/</loc>
         <lastmod>2023-04-09T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -397,7 +397,7 @@
                 href="https://thinkuldeep.com//tags/motivational/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/selfhelp/</loc>
+        <loc>https://thinkuldeep.com//tags/selfhelp/</loc>
         <lastmod>2023-04-09T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -412,57 +412,57 @@
                 href="https://thinkuldeep.com//tags/selfhelp/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/agile/</loc>
+        <loc>https://thinkuldeep.com//tags/agile/</loc>
         <lastmod>2023-03-25T01:00:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/agilitytoday/</loc>
+        <loc>https://thinkuldeep.com//tags/agilitytoday/</loc>
         <lastmod>2023-03-25T01:00:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/content-management/</loc>
+        <loc>https://thinkuldeep.com//tags/content-management/</loc>
         <lastmod>2023-03-25T01:00:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/evolution/</loc>
+        <loc>https://thinkuldeep.com//tags/evolution/</loc>
         <lastmod>2023-03-25T01:00:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/agiletoday_2023_ael/</loc>
+        <loc>https://thinkuldeep.com//event/agiletoday_2023_ael/</loc>
         <lastmod>2023-03-25T01:00:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/5g/</loc>
+        <loc>https://thinkuldeep.com//tags/5g/</loc>
         <lastmod>2023-03-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/async-agile/</loc>
+        <loc>https://thinkuldeep.com//tags/async-agile/</loc>
         <lastmod>2023-03-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/async-first/</loc>
+        <loc>https://thinkuldeep.com//tags/async-first/</loc>
         <lastmod>2023-03-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/conference/</loc>
+        <loc>https://thinkuldeep.com//tags/conference/</loc>
         <lastmod>2023-03-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/lenovo-techworld-india-2023/</loc>
+        <loc>https://thinkuldeep.com//event/lenovo-techworld-india-2023/</loc>
         <lastmod>2023-03-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/work-from-home/</loc>
+        <loc>https://thinkuldeep.com//tags/work-from-home/</loc>
         <lastmod>2023-03-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -477,102 +477,102 @@
                 href="https://thinkuldeep.com//tags/work-from-home/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/cv/</loc>
+        <loc>https://thinkuldeep.com//tags/cv/</loc>
         <lastmod>2023-02-25T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/innovation/</loc>
+        <loc>https://thinkuldeep.com//tags/innovation/</loc>
         <lastmod>2023-02-25T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/judge-mozohack4-srmkzilla-2023/</loc>
+        <loc>https://thinkuldeep.com//event/judge-mozohack4-srmkzilla-2023/</loc>
         <lastmod>2023-02-25T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/machine-learning/</loc>
+        <loc>https://thinkuldeep.com//tags/machine-learning/</loc>
         <lastmod>2023-02-25T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/ml/</loc>
+        <loc>https://thinkuldeep.com//tags/ml/</loc>
         <lastmod>2023-02-25T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/mozilla/</loc>
+        <loc>https://thinkuldeep.com//tags/mozilla/</loc>
         <lastmod>2023-02-25T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/srm/</loc>
+        <loc>https://thinkuldeep.com//tags/srm/</loc>
         <lastmod>2023-02-25T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/best-practices/</loc>
+        <loc>https://thinkuldeep.com//tags/best-practices/</loc>
         <lastmod>2023-01-31T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/iit/</loc>
+        <loc>https://thinkuldeep.com//tags/iit/</loc>
         <lastmod>2023-01-31T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/meta-meity-xr-startsup-hub-2022/</loc>
+        <loc>https://thinkuldeep.com//event/meta-meity-xr-startsup-hub-2022/</loc>
         <lastmod>2023-01-31T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/ai-generated-xr-content/</loc>
+        <loc>https://thinkuldeep.com//post/ai-generated-xr-content/</loc>
         <lastmod>2023-01-24T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/insights/</loc>
+        <loc>https://thinkuldeep.com//tags/insights/</loc>
         <lastmod>2023-01-24T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/xr-content/</loc>
+        <loc>https://thinkuldeep.com//tags/xr-content/</loc>
         <lastmod>2023-01-24T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/consultant/</loc>
+        <loc>https://thinkuldeep.com//tags/consultant/</loc>
         <lastmod>2022-12-31T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/design/</loc>
+        <loc>https://thinkuldeep.com//tags/design/</loc>
         <lastmod>2022-12-31T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/development/</loc>
+        <loc>https://thinkuldeep.com//tags/development/</loc>
         <lastmod>2022-12-31T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/forward-looking-reflection/</loc>
+        <loc>https://thinkuldeep.com//post/forward-looking-reflection/</loc>
         <lastmod>2022-12-31T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/organization/</loc>
+        <loc>https://thinkuldeep.com//tags/organization/</loc>
         <lastmod>2022-12-31T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/process/</loc>
+        <loc>https://thinkuldeep.com//tags/process/</loc>
         <lastmod>2022-12-31T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/reflection/</loc>
+        <loc>https://thinkuldeep.com//tags/reflection/</loc>
         <lastmod>2022-12-31T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -587,12 +587,12 @@
                 href="https://thinkuldeep.com//tags/reflection/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/software/</loc>
+        <loc>https://thinkuldeep.com//tags/software/</loc>
         <lastmod>2022-12-31T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/success/</loc>
+        <loc>https://thinkuldeep.com//tags/success/</loc>
         <lastmod>2022-12-31T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -607,12 +607,12 @@
                 href="https://thinkuldeep.com//tags/success/"
         />
     </url><url>
-        <loc>http://localhost:1313/post/corporate-lessons-from-a-home-makeover/</loc>
+        <loc>https://thinkuldeep.com//post/corporate-lessons-from-a-home-makeover/</loc>
         <lastmod>2022-11-17T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/experience/</loc>
+        <loc>https://thinkuldeep.com//tags/experience/</loc>
         <lastmod>2022-11-17T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -627,7 +627,7 @@
                 href="https://thinkuldeep.com//tags/experience/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/impact/</loc>
+        <loc>https://thinkuldeep.com//tags/impact/</loc>
         <lastmod>2022-11-17T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -642,7 +642,7 @@
                 href="https://thinkuldeep.com//tags/impact/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/takeaway/</loc>
+        <loc>https://thinkuldeep.com//tags/takeaway/</loc>
         <lastmod>2022-11-17T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -657,42 +657,42 @@
                 href="https://thinkuldeep.com//tags/takeaway/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/blockchain/</loc>
+        <loc>https://thinkuldeep.com//tags/blockchain/</loc>
         <lastmod>2022-10-22T01:00:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/guest_lecture_nit_calicut/</loc>
+        <loc>https://thinkuldeep.com//event/guest_lecture_nit_calicut/</loc>
         <lastmod>2022-10-22T01:00:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/lecture/</loc>
+        <loc>https://thinkuldeep.com//tags/lecture/</loc>
         <lastmod>2022-10-22T01:00:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/nft/</loc>
+        <loc>https://thinkuldeep.com//tags/nft/</loc>
         <lastmod>2022-10-22T01:00:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/nit/</loc>
+        <loc>https://thinkuldeep.com//tags/nit/</loc>
         <lastmod>2022-10-22T01:00:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/spatialweb/</loc>
+        <loc>https://thinkuldeep.com//tags/spatialweb/</loc>
         <lastmod>2022-10-22T01:00:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/web3/</loc>
+        <loc>https://thinkuldeep.com//tags/web3/</loc>
         <lastmod>2022-10-22T01:00:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/lessons-of-life-father-retirement/</loc>
+        <loc>https://thinkuldeep.com//post/lessons-of-life-father-retirement/</loc>
         <lastmod>2022-10-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -707,7 +707,7 @@
                 href="https://thinkuldeep.com//post/lessons-of-life-father-retirement/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/fundamentals/</loc>
+        <loc>https://thinkuldeep.com//tags/fundamentals/</loc>
         <lastmod>2022-09-22T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -722,92 +722,92 @@
                 href="https://thinkuldeep.com//tags/fundamentals/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/podcast/</loc>
+        <loc>https://thinkuldeep.com//tags/podcast/</loc>
         <lastmod>2022-09-22T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/xr-in-practice-engineering-challenges-extending-reality/</loc>
+        <loc>https://thinkuldeep.com//post/xr-in-practice-engineering-challenges-extending-reality/</loc>
         <lastmod>2022-09-22T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/sih-2022/</loc>
+        <loc>https://thinkuldeep.com//event/sih-2022/</loc>
         <lastmod>2022-08-12T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/mentor/</loc>
+        <loc>https://thinkuldeep.com//tags/mentor/</loc>
         <lastmod>2022-08-12T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/sih/</loc>
+        <loc>https://thinkuldeep.com//tags/sih/</loc>
         <lastmod>2022-08-12T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/enterprise/</loc>
+        <loc>https://thinkuldeep.com//tags/enterprise/</loc>
         <lastmod>2022-08-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/extending-reality-of-museum-wtih-xr/</loc>
+        <loc>https://thinkuldeep.com//post/extending-reality-of-museum-wtih-xr/</loc>
         <lastmod>2022-08-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/museum/</loc>
+        <loc>https://thinkuldeep.com//tags/museum/</loc>
         <lastmod>2022-08-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/usecases/</loc>
+        <loc>https://thinkuldeep.com//tags/usecases/</loc>
         <lastmod>2022-08-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/thougthworks-xconf-2022/</loc>
+        <loc>https://thinkuldeep.com//event/thougthworks-xconf-2022/</loc>
         <lastmod>2022-07-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/xconf/</loc>
+        <loc>https://thinkuldeep.com//tags/xconf/</loc>
         <lastmod>2022-07-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/leader/</loc>
+        <loc>https://thinkuldeep.com//tags/leader/</loc>
         <lastmod>2022-07-22T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/roundtable/</loc>
+        <loc>https://thinkuldeep.com//tags/roundtable/</loc>
         <lastmod>2022-07-22T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/leadership-roundtable-vamrr/</loc>
+        <loc>https://thinkuldeep.com//event/leadership-roundtable-vamrr/</loc>
         <lastmod>2022-07-22T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/vamrr/</loc>
+        <loc>https://thinkuldeep.com//tags/vamrr/</loc>
         <lastmod>2022-07-22T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/book/</loc>
+        <loc>https://thinkuldeep.com//tags/book/</loc>
         <lastmod>2022-07-01T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/metaverse-glossary-book/</loc>
+        <loc>https://thinkuldeep.com//event/metaverse-glossary-book/</loc>
         <lastmod>2022-07-01T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/book-review/</loc>
+        <loc>https://thinkuldeep.com//tags/book-review/</loc>
         <lastmod>2022-07-01T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -822,337 +822,337 @@
                 href="https://thinkuldeep.com//tags/book-review/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/glossary/</loc>
+        <loc>https://thinkuldeep.com//tags/glossary/</loc>
         <lastmod>2022-07-01T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/ashoka/</loc>
+        <loc>https://thinkuldeep.com//tags/ashoka/</loc>
         <lastmod>2022-06-19T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/ashoka-university-hackathon-2022/</loc>
+        <loc>https://thinkuldeep.com//event/ashoka-university-hackathon-2022/</loc>
         <lastmod>2022-06-19T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/metaverse-workshop-vit-ap-university/</loc>
+        <loc>https://thinkuldeep.com//event/metaverse-workshop-vit-ap-university/</loc>
         <lastmod>2022-06-11T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/webinar/</loc>
+        <loc>https://thinkuldeep.com//tags/webinar/</loc>
         <lastmod>2022-06-11T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/green-software-foundation-global-summit-2022/</loc>
+        <loc>https://thinkuldeep.com//event/green-software-foundation-global-summit-2022/</loc>
         <lastmod>2022-06-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/award/</loc>
+        <loc>https://thinkuldeep.com//tags/award/</loc>
         <lastmod>2022-05-04T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/india/</loc>
+        <loc>https://thinkuldeep.com//tags/india/</loc>
         <lastmod>2022-05-04T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/indian-achievers-awards-2022/</loc>
+        <loc>https://thinkuldeep.com//event/indian-achievers-awards-2022/</loc>
         <lastmod>2022-05-04T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/nasscom/</loc>
+        <loc>https://thinkuldeep.com//tags/nasscom/</loc>
         <lastmod>2022-05-04T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/the_parallax_view_1_vit/</loc>
+        <loc>https://thinkuldeep.com//event/the_parallax_view_1_vit/</loc>
         <lastmod>2022-04-22T01:00:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/reality/</loc>
+        <loc>https://thinkuldeep.com//tags/reality/</loc>
         <lastmod>2022-04-22T01:00:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/vit/</loc>
+        <loc>https://thinkuldeep.com//tags/vit/</loc>
         <lastmod>2022-04-22T01:00:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/metaverse-a-technological-evolution/</loc>
+        <loc>https://thinkuldeep.com//post/metaverse-a-technological-evolution/</loc>
         <lastmod>2022-04-06T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/bmu-hack5/</loc>
+        <loc>https://thinkuldeep.com//event/bmu-hack5/</loc>
         <lastmod>2022-02-19T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/discussion/</loc>
+        <loc>https://thinkuldeep.com//tags/discussion/</loc>
         <lastmod>2022-02-01T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/ieee/</loc>
+        <loc>https://thinkuldeep.com//tags/ieee/</loc>
         <lastmod>2022-02-01T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/ieee-bu-wie-discussion/</loc>
+        <loc>https://thinkuldeep.com//event/ieee-bu-wie-discussion/</loc>
         <lastmod>2022-02-01T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/tech-nexus-2021/</loc>
+        <loc>https://thinkuldeep.com//event/tech-nexus-2021/</loc>
         <lastmod>2022-01-07T01:00:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/android/</loc>
+        <loc>https://thinkuldeep.com//tags/android/</loc>
         <lastmod>2021-12-21T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/facebook/</loc>
+        <loc>https://thinkuldeep.com//tags/facebook/</loc>
         <lastmod>2021-12-21T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/getting-into-the-metaverse-part-2/</loc>
+        <loc>https://thinkuldeep.com//post/getting-into-the-metaverse-part-2/</loc>
         <lastmod>2021-12-21T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/google/</loc>
+        <loc>https://thinkuldeep.com//tags/google/</loc>
         <lastmod>2021-12-21T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/meta/</loc>
+        <loc>https://thinkuldeep.com//tags/meta/</loc>
         <lastmod>2021-12-21T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/getting-into-the-metaverse-part-1/</loc>
+        <loc>https://thinkuldeep.com//post/getting-into-the-metaverse-part-1/</loc>
         <lastmod>2021-12-20T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/getting_into_metaverse_guest_lecture_nit_hamirpur/</loc>
+        <loc>https://thinkuldeep.com//event/getting_into_metaverse_guest_lecture_nit_hamirpur/</loc>
         <lastmod>2021-12-19T01:00:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/immersive-web/</loc>
+        <loc>https://thinkuldeep.com//tags/immersive-web/</loc>
         <lastmod>2021-11-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/spatial-web/</loc>
+        <loc>https://thinkuldeep.com//tags/spatial-web/</loc>
         <lastmod>2021-11-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/try-everything-in-your-space-webxr/</loc>
+        <loc>https://thinkuldeep.com//post/try-everything-in-your-space-webxr/</loc>
         <lastmod>2021-11-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/tutorial/</loc>
+        <loc>https://thinkuldeep.com//tags/tutorial/</loc>
         <lastmod>2021-11-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/unity/</loc>
+        <loc>https://thinkuldeep.com//tags/unity/</loc>
         <lastmod>2021-11-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/webxr/</loc>
+        <loc>https://thinkuldeep.com//tags/webxr/</loc>
         <lastmod>2021-11-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/digital-twins/</loc>
+        <loc>https://thinkuldeep.com//tags/digital-twins/</loc>
         <lastmod>2021-10-20T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/simulation/</loc>
+        <loc>https://thinkuldeep.com//tags/simulation/</loc>
         <lastmod>2021-10-20T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/thougthworks-masterclasses-2021/</loc>
+        <loc>https://thinkuldeep.com//event/thougthworks-masterclasses-2021/</loc>
         <lastmod>2021-10-20T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/benefits/</loc>
+        <loc>https://thinkuldeep.com//tags/benefits/</loc>
         <lastmod>2021-10-11T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/complexity/</loc>
+        <loc>https://thinkuldeep.com//tags/complexity/</loc>
         <lastmod>2021-10-11T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/managing-enterprise-complexity-xr/</loc>
+        <loc>https://thinkuldeep.com//post/managing-enterprise-complexity-xr/</loc>
         <lastmod>2021-10-11T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/practice/</loc>
+        <loc>https://thinkuldeep.com//tags/practice/</loc>
         <lastmod>2021-10-11T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/thougthworks-ifest2/</loc>
+        <loc>https://thinkuldeep.com//event/thougthworks-ifest2/</loc>
         <lastmod>2021-10-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/thougthworks-xconf-2021/</loc>
+        <loc>https://thinkuldeep.com//event/thougthworks-xconf-2021/</loc>
         <lastmod>2021-10-08T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/coaching/</loc>
+        <loc>https://thinkuldeep.com//tags/coaching/</loc>
         <lastmod>2021-09-30T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/leadership-development-takeaways/</loc>
+        <loc>https://thinkuldeep.com//post/leadership-development-takeaways/</loc>
         <lastmod>2021-09-30T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/mentoring/</loc>
+        <loc>https://thinkuldeep.com//tags/mentoring/</loc>
         <lastmod>2021-09-30T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/workshop/</loc>
+        <loc>https://thinkuldeep.com//tags/workshop/</loc>
         <lastmod>2021-09-30T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/my-impactful-change-stories/</loc>
+        <loc>https://thinkuldeep.com//post/my-impactful-change-stories/</loc>
         <lastmod>2021-08-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/consulting/</loc>
+        <loc>https://thinkuldeep.com//tags/consulting/</loc>
         <lastmod>2021-07-21T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/story/</loc>
+        <loc>https://thinkuldeep.com//tags/story/</loc>
         <lastmod>2021-07-21T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/storytelling/</loc>
+        <loc>https://thinkuldeep.com//tags/storytelling/</loc>
         <lastmod>2021-07-21T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/storywriting/</loc>
+        <loc>https://thinkuldeep.com//tags/storywriting/</loc>
         <lastmod>2021-07-21T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/story-blackbox/</loc>
+        <loc>https://thinkuldeep.com//post/story-blackbox/</loc>
         <lastmod>2021-07-21T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/enterprise-to-ethical-xr/</loc>
+        <loc>https://thinkuldeep.com//post/enterprise-to-ethical-xr/</loc>
         <lastmod>2021-07-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/thevrara-navigating-new-normal/</loc>
+        <loc>https://thinkuldeep.com//event/thevrara-navigating-new-normal/</loc>
         <lastmod>2021-05-22T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/practices/</loc>
+        <loc>https://thinkuldeep.com//tags/practices/</loc>
         <lastmod>2021-05-22T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/vrara/</loc>
+        <loc>https://thinkuldeep.com//tags/vrara/</loc>
         <lastmod>2021-05-22T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/futureofwork/</loc>
+        <loc>https://thinkuldeep.com//tags/futureofwork/</loc>
         <lastmod>2021-05-01T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/navigating-new-normal-xr/</loc>
+        <loc>https://thinkuldeep.com//post/navigating-new-normal-xr/</loc>
         <lastmod>2021-05-01T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/making-pandemic-proof-workplaces-a-reality-xr/</loc>
+        <loc>https://thinkuldeep.com//post/making-pandemic-proof-workplaces-a-reality-xr/</loc>
         <lastmod>2021-04-27T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/thinkreality/</loc>
+        <loc>https://thinkuldeep.com//tags/thinkreality/</loc>
         <lastmod>2021-04-27T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/bmu-hack4/</loc>
+        <loc>https://thinkuldeep.com//event/bmu-hack4/</loc>
         <lastmod>2021-04-23T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/coaching-workshop-key-takaways/</loc>
+        <loc>https://thinkuldeep.com//post/coaching-workshop-key-takaways/</loc>
         <lastmod>2021-04-18T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/at_2020_agilexr/</loc>
+        <loc>https://thinkuldeep.com//event/at_2020_agilexr/</loc>
         <lastmod>2021-03-06T01:00:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/autonomous/</loc>
+        <loc>https://thinkuldeep.com//tags/autonomous/</loc>
         <lastmod>2021-02-25T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/nasscom-smcc/</loc>
+        <loc>https://thinkuldeep.com//event/nasscom-smcc/</loc>
         <lastmod>2021-02-25T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/training-autonomous-vehicles-in-xr/</loc>
+        <loc>https://thinkuldeep.com//post/training-autonomous-vehicles-in-xr/</loc>
         <lastmod>2021-02-25T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/vehicle/</loc>
+        <loc>https://thinkuldeep.com//tags/vehicle/</loc>
         <lastmod>2021-02-25T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/will-cultivation-2020/</loc>
+        <loc>https://thinkuldeep.com//post/will-cultivation-2020/</loc>
         <lastmod>2021-02-07T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -1167,57 +1167,57 @@
                 href="https://thinkuldeep.com//post/will-cultivation-2020/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/dsc/</loc>
+        <loc>https://thinkuldeep.com//tags/dsc/</loc>
         <lastmod>2021-01-30T01:00:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/dotstash_2021_hackathon/</loc>
+        <loc>https://thinkuldeep.com//event/dotstash_2021_hackathon/</loc>
         <lastmod>2021-01-30T01:00:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/xr-best-practices/</loc>
+        <loc>https://thinkuldeep.com//post/xr-best-practices/</loc>
         <lastmod>2021-01-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/nasscom-iotcoe/</loc>
+        <loc>https://thinkuldeep.com//event/nasscom-iotcoe/</loc>
         <lastmod>2020-12-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/xrom-podcast-enterprise-xr/</loc>
+        <loc>https://thinkuldeep.com//event/xrom-podcast-enterprise-xr/</loc>
         <lastmod>2020-11-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/interview/</loc>
+        <loc>https://thinkuldeep.com//tags/interview/</loc>
         <lastmod>2020-11-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/xrom/</loc>
+        <loc>https://thinkuldeep.com//tags/xrom/</loc>
         <lastmod>2020-11-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/developer-summit/</loc>
+        <loc>https://thinkuldeep.com//tags/developer-summit/</loc>
         <lastmod>2020-11-05T06:30:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/gids/</loc>
+        <loc>https://thinkuldeep.com//tags/gids/</loc>
         <lastmod>2020-11-05T06:30:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/gids_2020_xr4ml/</loc>
+        <loc>https://thinkuldeep.com//event/gids_2020_xr4ml/</loc>
         <lastmod>2020-11-05T06:30:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/extending_reality_new_norm/</loc>
+        <loc>https://thinkuldeep.com//post/extending_reality_new_norm/</loc>
         <lastmod>2020-10-28T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -1232,77 +1232,77 @@
                 href="https://thinkuldeep.com//post/extending_reality_new_norm/"
         />
     </url><url>
-        <loc>http://localhost:1313/event/thevrara-ppd-cop-webinar/</loc>
+        <loc>https://thinkuldeep.com//event/thevrara-ppd-cop-webinar/</loc>
         <lastmod>2020-10-17T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/xr-enabled-home-renovation/</loc>
+        <loc>https://thinkuldeep.com//post/xr-enabled-home-renovation/</loc>
         <lastmod>2020-09-30T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/geeknight/</loc>
+        <loc>https://thinkuldeep.com//tags/geeknight/</loc>
         <lastmod>2020-09-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/thougthworks_geeknight_sep_2020_xr/</loc>
+        <loc>https://thinkuldeep.com//event/thougthworks_geeknight_sep_2020_xr/</loc>
         <lastmod>2020-09-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/the-learning-equation/</loc>
+        <loc>https://thinkuldeep.com//post/the-learning-equation/</loc>
         <lastmod>2020-09-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/techgig/</loc>
+        <loc>https://thinkuldeep.com//tags/techgig/</loc>
         <lastmod>2020-08-13T10:58:15-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/techgigs-xr-webinar-1/</loc>
+        <loc>https://thinkuldeep.com//event/techgigs-xr-webinar-1/</loc>
         <lastmod>2020-08-13T10:58:15-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/nagarro/</loc>
+        <loc>https://thinkuldeep.com//tags/nagarro/</loc>
         <lastmod>2020-08-06T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/two-thoughtful-years/</loc>
+        <loc>https://thinkuldeep.com//post/two-thoughtful-years/</loc>
         <lastmod>2020-08-06T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/sih-2020/</loc>
+        <loc>https://thinkuldeep.com//event/sih-2020/</loc>
         <lastmod>2020-08-03T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/hackinindia-hackathon-2020/</loc>
+        <loc>https://thinkuldeep.com//event/hackinindia-hackathon-2020/</loc>
         <lastmod>2020-07-02T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/future/</loc>
+        <loc>https://thinkuldeep.com//tags/future/</loc>
         <lastmod>2020-06-24T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/retail/</loc>
+        <loc>https://thinkuldeep.com//tags/retail/</loc>
         <lastmod>2020-06-24T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/future-of-shoping/</loc>
+        <loc>https://thinkuldeep.com//post/future-of-shoping/</loc>
         <lastmod>2020-06-24T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/2020-year-of-change/</loc>
+        <loc>https://thinkuldeep.com//post/2020-year-of-change/</loc>
         <lastmod>2020-06-21T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -1317,42 +1317,42 @@
                 href="https://thinkuldeep.com//post/2020-year-of-change/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/introduction/</loc>
+        <loc>https://thinkuldeep.com//tags/introduction/</loc>
         <lastmod>2020-06-07T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/google_dsk_skct_xr_introduction/</loc>
+        <loc>https://thinkuldeep.com//event/google_dsk_skct_xr_introduction/</loc>
         <lastmod>2020-06-07T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/analysis/</loc>
+        <loc>https://thinkuldeep.com//tags/analysis/</loc>
         <lastmod>2020-06-01T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/devices/</loc>
+        <loc>https://thinkuldeep.com//tags/devices/</loc>
         <lastmod>2020-06-01T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/the-growing-list-of-xr-devices/</loc>
+        <loc>https://thinkuldeep.com//post/the-growing-list-of-xr-devices/</loc>
         <lastmod>2020-06-01T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/a-new-form-of-webxr/</loc>
+        <loc>https://thinkuldeep.com//post/a-new-form-of-webxr/</loc>
         <lastmod>2020-05-27T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/native-app/</loc>
+        <loc>https://thinkuldeep.com//tags/native-app/</loc>
         <lastmod>2020-05-27T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/motivation/</loc>
+        <loc>https://thinkuldeep.com//tags/motivation/</loc>
         <lastmod>2020-05-24T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -1367,7 +1367,7 @@
                 href="https://thinkuldeep.com//tags/motivation/"
         />
     </url><url>
-        <loc>http://localhost:1313/post/uncovering-the-human-potential/</loc>
+        <loc>https://thinkuldeep.com//post/uncovering-the-human-potential/</loc>
         <lastmod>2020-05-24T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -1382,47 +1382,47 @@
                 href="https://thinkuldeep.com//post/uncovering-the-human-potential/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/3d/</loc>
+        <loc>https://thinkuldeep.com//tags/3d/</loc>
         <lastmod>2020-05-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/arcore/</loc>
+        <loc>https://thinkuldeep.com//tags/arcore/</loc>
         <lastmod>2020-05-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/customization/</loc>
+        <loc>https://thinkuldeep.com//tags/customization/</loc>
         <lastmod>2020-05-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/run-a-2d-app-in-xr-container/</loc>
+        <loc>https://thinkuldeep.com//post/run-a-2d-app-in-xr-container/</loc>
         <lastmod>2020-05-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/system/</loc>
+        <loc>https://thinkuldeep.com//tags/system/</loc>
         <lastmod>2020-05-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/aosp/</loc>
+        <loc>https://thinkuldeep.com//tags/aosp/</loc>
         <lastmod>2020-05-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/os/</loc>
+        <loc>https://thinkuldeep.com//tags/os/</loc>
         <lastmod>2020-05-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/os-customization-for-xr-devices/</loc>
+        <loc>https://thinkuldeep.com//post/os-customization-for-xr-devices/</loc>
         <lastmod>2020-05-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/change_to_become_more_successful_/</loc>
+        <loc>https://thinkuldeep.com//post/change_to_become_more_successful_/</loc>
         <lastmod>2020-05-03T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -1437,72 +1437,72 @@
                 href="https://thinkuldeep.com//post/change_to_become_more_successful_/"
         />
     </url><url>
-        <loc>http://localhost:1313/post/user-account-management-in-xr/</loc>
+        <loc>https://thinkuldeep.com//post/user-account-management-in-xr/</loc>
         <lastmod>2020-04-26T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/webxr-the-new-web/</loc>
+        <loc>https://thinkuldeep.com//post/webxr-the-new-web/</loc>
         <lastmod>2020-04-11T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/extending_reality_with_ar_and_vr-2/</loc>
+        <loc>https://thinkuldeep.com//post/extending_reality_with_ar_and_vr-2/</loc>
         <lastmod>2020-04-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/extending_reality_with_ar_and_vr-1/</loc>
+        <loc>https://thinkuldeep.com//post/extending_reality_with_ar_and_vr-1/</loc>
         <lastmod>2020-04-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/pair-programming/</loc>
+        <loc>https://thinkuldeep.com//tags/pair-programming/</loc>
         <lastmod>2020-04-02T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/xp/</loc>
+        <loc>https://thinkuldeep.com//tags/xp/</loc>
         <lastmod>2020-04-02T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/xr-development-from-home/</loc>
+        <loc>https://thinkuldeep.com//post/xr-development-from-home/</loc>
         <lastmod>2020-04-02T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/enterprise-xr-interoperability/</loc>
+        <loc>https://thinkuldeep.com//post/enterprise-xr-interoperability/</loc>
         <lastmod>2020-03-28T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/integration/</loc>
+        <loc>https://thinkuldeep.com//tags/integration/</loc>
         <lastmod>2020-03-28T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/cloud/</loc>
+        <loc>https://thinkuldeep.com//tags/cloud/</loc>
         <lastmod>2020-03-25T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/enterprise-xr-multi-factor-authentication/</loc>
+        <loc>https://thinkuldeep.com//post/enterprise-xr-multi-factor-authentication/</loc>
         <lastmod>2020-03-25T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/mfa/</loc>
+        <loc>https://thinkuldeep.com//tags/mfa/</loc>
         <lastmod>2020-03-25T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/gids_2020_blr_spatialweb/</loc>
+        <loc>https://thinkuldeep.com//event/gids_2020_blr_spatialweb/</loc>
         <lastmod>2020-03-20T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/</loc>
+        <loc>https://thinkuldeep.com//post/</loc>
         <lastmod>2020-03-02T12:00:00-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -1522,132 +1522,132 @@
                 href="https://thinkuldeep.com//post/"
         />
     </url><url>
-        <loc>http://localhost:1313/event/thougthworks_xrday/</loc>
+        <loc>https://thinkuldeep.com//event/thougthworks_xrday/</loc>
         <lastmod>2020-02-27T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/</loc>
+        <loc>https://thinkuldeep.com//event/</loc>
         <lastmod>2020-02-02T12:00:00-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/success_mantra_amazon/</loc>
+        <loc>https://thinkuldeep.com//post/success_mantra_amazon/</loc>
         <lastmod>2020-01-24T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/augmenting_the_travel_reality/</loc>
+        <loc>https://thinkuldeep.com//post/augmenting_the_travel_reality/</loc>
         <lastmod>2019-11-26T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/transportation/</loc>
+        <loc>https://thinkuldeep.com//tags/transportation/</loc>
         <lastmod>2019-11-26T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/travel/</loc>
+        <loc>https://thinkuldeep.com//tags/travel/</loc>
         <lastmod>2019-11-26T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/ide/</loc>
+        <loc>https://thinkuldeep.com//tags/ide/</loc>
         <lastmod>2019-10-30T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/sonarqube/</loc>
+        <loc>https://thinkuldeep.com//tags/sonarqube/</loc>
         <lastmod>2019-10-30T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/static-code-analysis/</loc>
+        <loc>https://thinkuldeep.com//tags/static-code-analysis/</loc>
         <lastmod>2019-10-30T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/static_code_analysis_unity_2/</loc>
+        <loc>https://thinkuldeep.com//post/static_code_analysis_unity_2/</loc>
         <lastmod>2019-10-30T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/static_code_analysis_unity_1/</loc>
+        <loc>https://thinkuldeep.com//post/static_code_analysis_unity_1/</loc>
         <lastmod>2019-10-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/slam/</loc>
+        <loc>https://thinkuldeep.com//tags/slam/</loc>
         <lastmod>2019-09-19T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/thougthworks_awayday_2019_slam_aware_apps/</loc>
+        <loc>https://thinkuldeep.com//event/thougthworks_awayday_2019_slam_aware_apps/</loc>
         <lastmod>2019-09-19T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/inception/</loc>
+        <loc>https://thinkuldeep.com//tags/inception/</loc>
         <lastmod>2019-09-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/inception_workshop_key_takaways/</loc>
+        <loc>https://thinkuldeep.com//post/inception_workshop_key_takaways/</loc>
         <lastmod>2019-09-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/devfest/</loc>
+        <loc>https://thinkuldeep.com//tags/devfest/</loc>
         <lastmod>2019-09-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/google_devfest_2019_think_beyond_keyboard_and_screen/</loc>
+        <loc>https://thinkuldeep.com//event/google_devfest_2019_think_beyond_keyboard_and_screen/</loc>
         <lastmod>2019-09-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/evolution_of_technology_and_user_interactions/</loc>
+        <loc>https://thinkuldeep.com//post/evolution_of_technology_and_user_interactions/</loc>
         <lastmod>2019-04-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/transformation/</loc>
+        <loc>https://thinkuldeep.com//tags/transformation/</loc>
         <lastmod>2019-04-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/user-interactions/</loc>
+        <loc>https://thinkuldeep.com//tags/user-interactions/</loc>
         <lastmod>2019-04-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/ux/</loc>
+        <loc>https://thinkuldeep.com//tags/ux/</loc>
         <lastmod>2019-04-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/can_it_modernization_lead_to_revenue_loss/</loc>
+        <loc>https://thinkuldeep.com//post/can_it_modernization_lead_to_revenue_loss/</loc>
         <lastmod>2019-04-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/digital/</loc>
+        <loc>https://thinkuldeep.com//tags/digital/</loc>
         <lastmod>2019-04-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/modernization/</loc>
+        <loc>https://thinkuldeep.com//tags/modernization/</loc>
         <lastmod>2019-04-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/troubleshooting/</loc>
+        <loc>https://thinkuldeep.com//tags/troubleshooting/</loc>
         <lastmod>2019-04-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/embibe_purpose_and_balance_in_life/</loc>
+        <loc>https://thinkuldeep.com//post/embibe_purpose_and_balance_in_life/</loc>
         <lastmod>2019-03-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -1662,879 +1662,879 @@
                 href="https://thinkuldeep.com//post/embibe_purpose_and_balance_in_life/"
         />
     </url><url>
-        <loc>http://localhost:1313/event/sih_2019_an_experience/</loc>
+        <loc>https://thinkuldeep.com//event/sih_2019_an_experience/</loc>
         <lastmod>2019-03-07T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/architecture/</loc>
+        <loc>https://thinkuldeep.com//tags/architecture/</loc>
         <lastmod>2019-02-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/java/</loc>
+        <loc>https://thinkuldeep.com//tags/java/</loc>
         <lastmod>2019-02-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/learnings-from-blockchain-based-development/</loc>
+        <loc>https://thinkuldeep.com//post/learnings-from-blockchain-based-development/</loc>
         <lastmod>2019-02-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/micro-services/</loc>
+        <loc>https://thinkuldeep.com//tags/micro-services/</loc>
         <lastmod>2019-02-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/spring-boot/</loc>
+        <loc>https://thinkuldeep.com//tags/spring-boot/</loc>
         <lastmod>2019-02-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/software-development-as-design-process/</loc>
+        <loc>https://thinkuldeep.com//post/software-development-as-design-process/</loc>
         <lastmod>2018-11-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/request-tracing/</loc>
+        <loc>https://thinkuldeep.com//post/request-tracing/</loc>
         <lastmod>2018-10-02T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/request-tracing/</loc>
+        <loc>https://thinkuldeep.com//tags/request-tracing/</loc>
         <lastmod>2018-10-02T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/web-server/</loc>
+        <loc>https://thinkuldeep.com//tags/web-server/</loc>
         <lastmod>2018-10-02T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/test-first-pair-development/</loc>
+        <loc>https://thinkuldeep.com//post/test-first-pair-development/</loc>
         <lastmod>2018-09-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/tdd/</loc>
+        <loc>https://thinkuldeep.com//tags/tdd/</loc>
         <lastmod>2018-09-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/before_java11/</loc>
+        <loc>https://thinkuldeep.com//post/before_java11/</loc>
         <lastmod>2018-08-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/java-10/</loc>
+        <loc>https://thinkuldeep.com//tags/java-10/</loc>
         <lastmod>2018-08-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/java-11/</loc>
+        <loc>https://thinkuldeep.com//tags/java-11/</loc>
         <lastmod>2018-08-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/java-8/</loc>
+        <loc>https://thinkuldeep.com//tags/java-8/</loc>
         <lastmod>2018-08-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/java-9/</loc>
+        <loc>https://thinkuldeep.com//tags/java-9/</loc>
         <lastmod>2018-08-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/upgrade/</loc>
+        <loc>https://thinkuldeep.com//tags/upgrade/</loc>
         <lastmod>2018-08-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/accept_the_change/</loc>
+        <loc>https://thinkuldeep.com//post/accept_the_change/</loc>
         <lastmod>2018-08-09T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/lessons_from_microservices_development/</loc>
+        <loc>https://thinkuldeep.com//post/lessons_from_microservices_development/</loc>
         <lastmod>2018-07-23T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/apache/</loc>
+        <loc>https://thinkuldeep.com//tags/apache/</loc>
         <lastmod>2018-01-08T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/apache_spark_on_windows/</loc>
+        <loc>https://thinkuldeep.com//post/apache_spark_on_windows/</loc>
         <lastmod>2018-01-08T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/scala/</loc>
+        <loc>https://thinkuldeep.com//tags/scala/</loc>
         <lastmod>2018-01-08T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/spark/</loc>
+        <loc>https://thinkuldeep.com//tags/spark/</loc>
         <lastmod>2018-01-08T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/windows/</loc>
+        <loc>https://thinkuldeep.com//tags/windows/</loc>
         <lastmod>2018-01-08T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/iotncr/</loc>
+        <loc>https://thinkuldeep.com//tags/iotncr/</loc>
         <lastmod>2017-04-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/iotncr-ideation-to-production/</loc>
+        <loc>https://thinkuldeep.com//event/iotncr-ideation-to-production/</loc>
         <lastmod>2017-04-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/guide/</loc>
+        <loc>https://thinkuldeep.com//tags/guide/</loc>
         <lastmod>2017-02-21T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/iot_simplified/</loc>
+        <loc>https://thinkuldeep.com//post/iot_simplified/</loc>
         <lastmod>2017-02-21T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/exploring-google-glass/</loc>
+        <loc>https://thinkuldeep.com//post/exploring-google-glass/</loc>
         <lastmod>2017-02-20T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/smart-glass/</loc>
+        <loc>https://thinkuldeep.com//tags/smart-glass/</loc>
         <lastmod>2017-02-20T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/vuzix/</loc>
+        <loc>https://thinkuldeep.com//tags/vuzix/</loc>
         <lastmod>2017-02-20T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/industry4.0/</loc>
+        <loc>https://thinkuldeep.com//tags/industry4.0/</loc>
         <lastmod>2017-01-19T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/lsd/</loc>
+        <loc>https://thinkuldeep.com//tags/lsd/</loc>
         <lastmod>2017-01-19T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/panel-discussion/</loc>
+        <loc>https://thinkuldeep.com//tags/panel-discussion/</loc>
         <lastmod>2017-01-19T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/nagarro-lsd-industory-4-0/</loc>
+        <loc>https://thinkuldeep.com//event/nagarro-lsd-industory-4-0/</loc>
         <lastmod>2017-01-19T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/iot-disruption-multi-skilled-people/</loc>
+        <loc>https://thinkuldeep.com//post/iot-disruption-multi-skilled-people/</loc>
         <lastmod>2017-01-03T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/disruption/</loc>
+        <loc>https://thinkuldeep.com//tags/disruption/</loc>
         <lastmod>2017-01-03T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/multi-skill/</loc>
+        <loc>https://thinkuldeep.com//tags/multi-skill/</loc>
         <lastmod>2017-01-03T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/c&#43;&#43;/</loc>
+        <loc>https://thinkuldeep.com//tags/c&#43;&#43;/</loc>
         <lastmod>2016-12-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/concept/</loc>
+        <loc>https://thinkuldeep.com//tags/concept/</loc>
         <lastmod>2016-12-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/insect-monitoring/</loc>
+        <loc>https://thinkuldeep.com//tags/insect-monitoring/</loc>
         <lastmod>2016-12-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/iot-insect-monitoring/</loc>
+        <loc>https://thinkuldeep.com//post/iot-insect-monitoring/</loc>
         <lastmod>2016-12-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/mqtt/</loc>
+        <loc>https://thinkuldeep.com//tags/mqtt/</loc>
         <lastmod>2016-12-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/opencv/</loc>
+        <loc>https://thinkuldeep.com//tags/opencv/</loc>
         <lastmod>2016-12-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/python/</loc>
+        <loc>https://thinkuldeep.com//tags/python/</loc>
         <lastmod>2016-12-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/raspberry-pi/</loc>
+        <loc>https://thinkuldeep.com//tags/raspberry-pi/</loc>
         <lastmod>2016-12-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/5-steps-of-the-iot-race/</loc>
+        <loc>https://thinkuldeep.com//post/5-steps-of-the-iot-race/</loc>
         <lastmod>2016-08-17T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/product/</loc>
+        <loc>https://thinkuldeep.com//tags/product/</loc>
         <lastmod>2016-08-17T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/race/</loc>
+        <loc>https://thinkuldeep.com//tags/race/</loc>
         <lastmod>2016-08-17T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/industrial/</loc>
+        <loc>https://thinkuldeep.com//tags/industrial/</loc>
         <lastmod>2016-08-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/iiot-reference-architecture/</loc>
+        <loc>https://thinkuldeep.com//post/iiot-reference-architecture/</loc>
         <lastmod>2016-08-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/industry-4.0/</loc>
+        <loc>https://thinkuldeep.com//tags/industry-4.0/</loc>
         <lastmod>2016-08-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/smart-factory/</loc>
+        <loc>https://thinkuldeep.com//tags/smart-factory/</loc>
         <lastmod>2016-08-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/node-mcu/</loc>
+        <loc>https://thinkuldeep.com//tags/node-mcu/</loc>
         <lastmod>2016-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/smart-bottle/</loc>
+        <loc>https://thinkuldeep.com//tags/smart-bottle/</loc>
         <lastmod>2016-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/building-smart-bottle-concept/</loc>
+        <loc>https://thinkuldeep.com//post/building-smart-bottle-concept/</loc>
         <lastmod>2016-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/smart-cap/</loc>
+        <loc>https://thinkuldeep.com//tags/smart-cap/</loc>
         <lastmod>2016-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/thingspeak/</loc>
+        <loc>https://thinkuldeep.com//tags/thingspeak/</loc>
         <lastmod>2016-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/ultrasonic/</loc>
+        <loc>https://thinkuldeep.com//tags/ultrasonic/</loc>
         <lastmod>2016-05-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/arduino/</loc>
+        <loc>https://thinkuldeep.com//tags/arduino/</loc>
         <lastmod>2016-04-17T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/azure/</loc>
+        <loc>https://thinkuldeep.com//tags/azure/</loc>
         <lastmod>2016-04-17T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/ble/</loc>
+        <loc>https://thinkuldeep.com//tags/ble/</loc>
         <lastmod>2016-04-17T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/building-smart-meeting-room-concept/</loc>
+        <loc>https://thinkuldeep.com//post/building-smart-meeting-room-concept/</loc>
         <lastmod>2016-04-17T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/microsoft/</loc>
+        <loc>https://thinkuldeep.com//tags/microsoft/</loc>
         <lastmod>2016-04-17T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/smart-meeting-room/</loc>
+        <loc>https://thinkuldeep.com//tags/smart-meeting-room/</loc>
         <lastmod>2016-04-17T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/androidthings/</loc>
+        <loc>https://thinkuldeep.com//tags/androidthings/</loc>
         <lastmod>2016-04-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/exploring-android-things/</loc>
+        <loc>https://thinkuldeep.com//post/exploring-android-things/</loc>
         <lastmod>2016-04-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/clean-code/</loc>
+        <loc>https://thinkuldeep.com//tags/clean-code/</loc>
         <lastmod>2016-01-14T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/maintainability/</loc>
+        <loc>https://thinkuldeep.com//tags/maintainability/</loc>
         <lastmod>2016-01-14T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/clean-code/</loc>
+        <loc>https://thinkuldeep.com//post/clean-code/</loc>
         <lastmod>2016-01-14T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/connected-things/</loc>
+        <loc>https://thinkuldeep.com//tags/connected-things/</loc>
         <lastmod>2016-01-01T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/forces/</loc>
+        <loc>https://thinkuldeep.com//tags/forces/</loc>
         <lastmod>2016-01-01T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/the-driving-forces-iot/</loc>
+        <loc>https://thinkuldeep.com//post/the-driving-forces-iot/</loc>
         <lastmod>2016-01-01T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/comparison/</loc>
+        <loc>https://thinkuldeep.com//tags/comparison/</loc>
         <lastmod>2015-08-17T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/framework/</loc>
+        <loc>https://thinkuldeep.com//tags/framework/</loc>
         <lastmod>2015-08-17T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/choosing_iot_platform/</loc>
+        <loc>https://thinkuldeep.com//post/choosing_iot_platform/</loc>
         <lastmod>2015-08-17T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/platform/</loc>
+        <loc>https://thinkuldeep.com//tags/platform/</loc>
         <lastmod>2015-08-17T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/security/</loc>
+        <loc>https://thinkuldeep.com//tags/security/</loc>
         <lastmod>2015-08-17T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/sigfox/</loc>
+        <loc>https://thinkuldeep.com//tags/sigfox/</loc>
         <lastmod>2015-08-17T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/sigfox-an-introduction/</loc>
+        <loc>https://thinkuldeep.com//post/sigfox-an-introduction/</loc>
         <lastmod>2015-08-17T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/choose-orm-carefully/</loc>
+        <loc>https://thinkuldeep.com//post/choose-orm-carefully/</loc>
         <lastmod>2015-07-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/hibernate/</loc>
+        <loc>https://thinkuldeep.com//tags/hibernate/</loc>
         <lastmod>2015-07-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/orm/</loc>
+        <loc>https://thinkuldeep.com//tags/orm/</loc>
         <lastmod>2015-07-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/spring/</loc>
+        <loc>https://thinkuldeep.com//tags/spring/</loc>
         <lastmod>2015-07-16T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/course/</loc>
+        <loc>https://thinkuldeep.com//tags/course/</loc>
         <lastmod>2015-01-27T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/javascript/</loc>
+        <loc>https://thinkuldeep.com//tags/javascript/</loc>
         <lastmod>2015-01-27T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/js/</loc>
+        <loc>https://thinkuldeep.com//tags/js/</loc>
         <lastmod>2015-01-27T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/language/</loc>
+        <loc>https://thinkuldeep.com//tags/language/</loc>
         <lastmod>2015-01-27T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/object-oriented/</loc>
+        <loc>https://thinkuldeep.com//tags/object-oriented/</loc>
         <lastmod>2015-01-27T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/oojs/</loc>
+        <loc>https://thinkuldeep.com//post/oojs/</loc>
         <lastmod>2015-01-27T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/oops/</loc>
+        <loc>https://thinkuldeep.com//tags/oops/</loc>
         <lastmod>2015-01-27T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/effectiveness/</loc>
+        <loc>https://thinkuldeep.com//tags/effectiveness/</loc>
         <lastmod>2015-01-14T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/efficiency/</loc>
+        <loc>https://thinkuldeep.com//tags/efficiency/</loc>
         <lastmod>2015-01-14T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/software-effectiveness-vs-efficiency/</loc>
+        <loc>https://thinkuldeep.com//post/software-effectiveness-vs-efficiency/</loc>
         <lastmod>2015-01-14T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/benchmarking/</loc>
+        <loc>https://thinkuldeep.com//tags/benchmarking/</loc>
         <lastmod>2014-12-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/hashmap/</loc>
+        <loc>https://thinkuldeep.com//tags/hashmap/</loc>
         <lastmod>2014-12-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/java8-hashmap-performance-improvement/</loc>
+        <loc>https://thinkuldeep.com//post/java8-hashmap-performance-improvement/</loc>
         <lastmod>2014-12-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/java8-lambda-expression/</loc>
+        <loc>https://thinkuldeep.com//post/java8-lambda-expression/</loc>
         <lastmod>2014-12-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/lambda-expression/</loc>
+        <loc>https://thinkuldeep.com//tags/lambda-expression/</loc>
         <lastmod>2014-12-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/performance/</loc>
+        <loc>https://thinkuldeep.com//tags/performance/</loc>
         <lastmod>2014-12-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/whatsnew/</loc>
+        <loc>https://thinkuldeep.com//tags/whatsnew/</loc>
         <lastmod>2014-12-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/java8-stream-api/</loc>
+        <loc>https://thinkuldeep.com//post/java8-stream-api/</loc>
         <lastmod>2014-12-08T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/stream-api/</loc>
+        <loc>https://thinkuldeep.com//tags/stream-api/</loc>
         <lastmod>2014-12-08T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</loc>
+        <loc>https://thinkuldeep.com//event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</loc>
         <lastmod>2014-10-01T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/javaone/</loc>
+        <loc>https://thinkuldeep.com//tags/javaone/</loc>
         <lastmod>2014-10-01T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/oracle/</loc>
+        <loc>https://thinkuldeep.com//tags/oracle/</loc>
         <lastmod>2014-10-01T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/bosch/</loc>
+        <loc>https://thinkuldeep.com//tags/bosch/</loc>
         <lastmod>2014-08-22T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/ge/</loc>
+        <loc>https://thinkuldeep.com//tags/ge/</loc>
         <lastmod>2014-08-22T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/ibm/</loc>
+        <loc>https://thinkuldeep.com//tags/ibm/</loc>
         <lastmod>2014-08-22T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/iot_cloud_platform_comparision/</loc>
+        <loc>https://thinkuldeep.com//post/iot_cloud_platform_comparision/</loc>
         <lastmod>2014-08-22T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/apache-camel/</loc>
+        <loc>https://thinkuldeep.com//tags/apache-camel/</loc>
         <lastmod>2014-02-13T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/apache-camel-http-route/</loc>
+        <loc>https://thinkuldeep.com//post/apache-camel-http-route/</loc>
         <lastmod>2014-02-13T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/apache-camel-ssh-component/</loc>
+        <loc>https://thinkuldeep.com//post/apache-camel-ssh-component/</loc>
         <lastmod>2013-12-02T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/ssh/</loc>
+        <loc>https://thinkuldeep.com//tags/ssh/</loc>
         <lastmod>2013-12-02T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/groovy/</loc>
+        <loc>https://thinkuldeep.com//tags/groovy/</loc>
         <lastmod>2013-05-20T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/groovy-getting-started/</loc>
+        <loc>https://thinkuldeep.com//post/groovy-getting-started/</loc>
         <lastmod>2013-05-20T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/lift/</loc>
+        <loc>https://thinkuldeep.com//tags/lift/</loc>
         <lastmod>2013-05-18T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/play/</loc>
+        <loc>https://thinkuldeep.com//tags/play/</loc>
         <lastmod>2013-05-18T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/scala-getting-started-part2/</loc>
+        <loc>https://thinkuldeep.com//post/scala-getting-started-part2/</loc>
         <lastmod>2013-05-18T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/scala-getting-started-part1/</loc>
+        <loc>https://thinkuldeep.com//post/scala-getting-started-part1/</loc>
         <lastmod>2013-05-06T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/charset/</loc>
+        <loc>https://thinkuldeep.com//tags/charset/</loc>
         <lastmod>2013-02-14T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/java-charset-configuration/</loc>
+        <loc>https://thinkuldeep.com//post/java-charset-configuration/</loc>
         <lastmod>2013-02-14T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/customizations/</loc>
+        <loc>https://thinkuldeep.com//tags/customizations/</loc>
         <lastmod>2013-02-14T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/jvm/</loc>
+        <loc>https://thinkuldeep.com//tags/jvm/</loc>
         <lastmod>2013-02-14T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/apache-poi/</loc>
+        <loc>https://thinkuldeep.com//tags/apache-poi/</loc>
         <lastmod>2012-09-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/embedded/</loc>
+        <loc>https://thinkuldeep.com//tags/embedded/</loc>
         <lastmod>2012-09-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/ibm-doors/</loc>
+        <loc>https://thinkuldeep.com//tags/ibm-doors/</loc>
         <lastmod>2012-09-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/ole/</loc>
+        <loc>https://thinkuldeep.com//tags/ole/</loc>
         <lastmod>2012-09-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/rif/</loc>
+        <loc>https://thinkuldeep.com//tags/rif/</loc>
         <lastmod>2012-09-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/java-working-with-ole-objects/</loc>
+        <loc>https://thinkuldeep.com//post/java-working-with-ole-objects/</loc>
         <lastmod>2012-09-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/xml/</loc>
+        <loc>https://thinkuldeep.com//tags/xml/</loc>
         <lastmod>2012-09-29T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/compilation/</loc>
+        <loc>https://thinkuldeep.com//tags/compilation/</loc>
         <lastmod>2012-05-27T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/configuration/</loc>
+        <loc>https://thinkuldeep.com//tags/configuration/</loc>
         <lastmod>2012-05-27T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/extendability/</loc>
+        <loc>https://thinkuldeep.com//tags/extendability/</loc>
         <lastmod>2012-05-27T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/issues/</loc>
+        <loc>https://thinkuldeep.com//tags/issues/</loc>
         <lastmod>2012-05-27T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/javascript-plugin-framework/</loc>
+        <loc>https://thinkuldeep.com//post/javascript-plugin-framework/</loc>
         <lastmod>2012-05-27T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/jsp/</loc>
+        <loc>https://thinkuldeep.com//tags/jsp/</loc>
         <lastmod>2012-05-27T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/plugin/</loc>
+        <loc>https://thinkuldeep.com//tags/plugin/</loc>
         <lastmod>2012-05-27T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/jsp-compilation-issues/</loc>
+        <loc>https://thinkuldeep.com//post/jsp-compilation-issues/</loc>
         <lastmod>2012-05-27T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/tuning/</loc>
+        <loc>https://thinkuldeep.com//tags/tuning/</loc>
         <lastmod>2012-05-27T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/database/</loc>
+        <loc>https://thinkuldeep.com//tags/database/</loc>
         <lastmod>2012-04-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/java-mysql-timezone-configuration/</loc>
+        <loc>https://thinkuldeep.com//post/java-mysql-timezone-configuration/</loc>
         <lastmod>2012-04-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/mysql/</loc>
+        <loc>https://thinkuldeep.com//tags/mysql/</loc>
         <lastmod>2012-04-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/timezone/</loc>
+        <loc>https://thinkuldeep.com//tags/timezone/</loc>
         <lastmod>2012-04-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/mysql-tuning/</loc>
+        <loc>https://thinkuldeep.com//post/mysql-tuning/</loc>
         <lastmod>2012-03-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/optimization/</loc>
+        <loc>https://thinkuldeep.com//tags/optimization/</loc>
         <lastmod>2012-03-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/drools/</loc>
+        <loc>https://thinkuldeep.com//tags/drools/</loc>
         <lastmod>2012-03-03T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/rule-engine-getting-started/</loc>
+        <loc>https://thinkuldeep.com//post/rule-engine-getting-started/</loc>
         <lastmod>2012-03-03T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/rule-engine/</loc>
+        <loc>https://thinkuldeep.com//tags/rule-engine/</loc>
         <lastmod>2012-03-03T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/java-jni-cpp/</loc>
+        <loc>https://thinkuldeep.com//post/java-jni-cpp/</loc>
         <lastmod>2012-02-20T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/data-engineering/</loc>
+        <loc>https://thinkuldeep.com//tags/data-engineering/</loc>
         <lastmod>2012-02-20T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/jni/</loc>
+        <loc>https://thinkuldeep.com//tags/jni/</loc>
         <lastmod>2012-02-20T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/native/</loc>
+        <loc>https://thinkuldeep.com//tags/native/</loc>
         <lastmod>2012-02-20T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/nlp-solver/</loc>
+        <loc>https://thinkuldeep.com//tags/nlp-solver/</loc>
         <lastmod>2012-02-20T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/apache-cfx/</loc>
+        <loc>https://thinkuldeep.com//tags/apache-cfx/</loc>
         <lastmod>2012-01-30T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/apache-service-mix/</loc>
+        <loc>https://thinkuldeep.com//tags/apache-service-mix/</loc>
         <lastmod>2012-01-30T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/esb/</loc>
+        <loc>https://thinkuldeep.com//tags/esb/</loc>
         <lastmod>2012-01-30T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/fuseesb/</loc>
+        <loc>https://thinkuldeep.com//tags/fuseesb/</loc>
         <lastmod>2012-01-30T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/esb-introduction-part2/</loc>
+        <loc>https://thinkuldeep.com//post/esb-introduction-part2/</loc>
         <lastmod>2012-01-30T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/exchange/</loc>
+        <loc>https://thinkuldeep.com//tags/exchange/</loc>
         <lastmod>2012-01-22T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/mail/</loc>
+        <loc>https://thinkuldeep.com//tags/mail/</loc>
         <lastmod>2012-01-22T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/java-calendar-and-invite/</loc>
+        <loc>https://thinkuldeep.com//post/java-calendar-and-invite/</loc>
         <lastmod>2012-01-22T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/osgi/</loc>
+        <loc>https://thinkuldeep.com//tags/osgi/</loc>
         <lastmod>2012-01-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/esb-introduction-part1/</loc>
+        <loc>https://thinkuldeep.com//post/esb-introduction-part1/</loc>
         <lastmod>2012-01-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/aspose/</loc>
+        <loc>https://thinkuldeep.com//tags/aspose/</loc>
         <lastmod>2012-01-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/java-mail-merge/</loc>
+        <loc>https://thinkuldeep.com//post/java-mail-merge/</loc>
         <lastmod>2012-01-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/world/</loc>
+        <loc>https://thinkuldeep.com//tags/world/</loc>
         <lastmod>2012-01-10T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/awt/</loc>
+        <loc>https://thinkuldeep.com//tags/awt/</loc>
         <lastmod>2012-01-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/post/java-font-mapping/</loc>
+        <loc>https://thinkuldeep.com//post/java-font-mapping/</loc>
         <lastmod>2012-01-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/fonts/</loc>
+        <loc>https://thinkuldeep.com//tags/fonts/</loc>
         <lastmod>2012-01-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/jfreechart/</loc>
+        <loc>https://thinkuldeep.com//tags/jfreechart/</loc>
         <lastmod>2012-01-05T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/search/</loc>
+        <loc>https://thinkuldeep.com//search/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/about/</loc>
+        <loc>https://thinkuldeep.com//about/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/about/</loc>
+        <loc>https://thinkuldeep.com//tags/about/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/categories/</loc>
+        <loc>https://thinkuldeep.com//categories/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -2553,19 +2553,19 @@
                 href="https://thinkuldeep.com//categories/"
         />
     </url><url>
-        <loc>http://localhost:1313/tags/director/</loc>
+        <loc>https://thinkuldeep.com//tags/director/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/engineering/</loc>
+        <loc>https://thinkuldeep.com//tags/engineering/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/me/</loc>
+        <loc>https://thinkuldeep.com//tags/me/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>http://localhost:1313/tags/profile/</loc>
+        <loc>https://thinkuldeep.com//tags/profile/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>

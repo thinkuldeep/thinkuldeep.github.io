@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ux on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/ux/</link>
-    <description>Recent content in ux on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 29 Apr 2019 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/ux/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Evolution of Technology and User Interactions</title>
-      <link>http://localhost:1313/post/evolution_of_technology_and_user_interactions/</link>
-      <pubDate>Mon, 29 Apr 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/evolution_of_technology_and_user_interactions/</guid>
-      <description>Technology defines our interactions with the ambiance, and the way we want to interact with the ambiance further defines the technology. The evolution of technology and user interactions tightly depends on each other.
+    <channel>
+        <title>ux on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/ux/</link>
+        <description>Recent content in ux on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Mon, 29 Apr 2019 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/ux/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Evolution of Technology and User Interactions</title>
+            <link>https://thinkuldeep.com//post/evolution_of_technology_and_user_interactions/</link>
+            <pubDate>Mon, 29 Apr 2019 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/evolution_of_technology_and_user_interactions/</guid>
+            <description>Technology defines our interactions with the ambiance, and the way we want to interact with the ambiance further defines the technology. The evolution of technology and user interactions tightly depends on each other.
  &amp;ldquo;Walls have ears!&amp;rdquo;, is very much true today, and not just that, now the walls can see you, feel your presence and talk to you.
  In this post, we will discuss how the user interactions evolved with time and what is next!</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

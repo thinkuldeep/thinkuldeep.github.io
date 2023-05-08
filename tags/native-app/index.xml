@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>native app on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/native-app/</link>
-    <description>Recent content in native app on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 27 May 2020 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/native-app/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>A new form of WebXR</title>
-      <link>http://localhost:1313/post/a-new-form-of-webxr/</link>
-      <pubDate>Wed, 27 May 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/a-new-form-of-webxr/</guid>
-      <description>Accessing native XR features from the device using a web page is another form of WebXR.
+    <channel>
+        <title>native app on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/native-app/</link>
+        <description>Recent content in native app on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Wed, 27 May 2020 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/native-app/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>A new form of WebXR</title>
+            <link>https://thinkuldeep.com//post/a-new-form-of-webxr/</link>
+            <pubDate>Wed, 27 May 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/a-new-form-of-webxr/</guid>
+            <description>Accessing native XR features from the device using a web page is another form of WebXR.
 In this article, I want to share an experiment where I tried to control the android device’s native features such as controlling volume and camera torch from a web page. This use case can be really useful in the XR world, where I can control the feature access in the device from cloud services, even the whole look and feel for showing the device controls can be managed from a hosted web page.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

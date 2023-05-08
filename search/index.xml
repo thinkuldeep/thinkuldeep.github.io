@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Kuldeep Singh</title>
-    <link>http://localhost:1313/search/</link>
-    <description>Recent content on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://localhost:1313/search/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+    <channel>
+        <title>Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//search/</link>
+        <description>Recent content on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster><atom:link href="http://localhost:1313/search/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

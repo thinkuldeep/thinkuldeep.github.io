@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>OSGi on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/osgi/</link>
-    <description>Recent content in OSGi on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 15 Jan 2012 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/osgi/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Working with Enterprise Service Bus</title>
-      <link>http://localhost:1313/post/esb-introduction-part1/</link>
-      <pubDate>Sun, 15 Jan 2012 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/esb-introduction-part1/</guid>
-      <description>This article starts from basic terms of ESB worlds and then provides details of the FuseESB with various examples.
+    <channel>
+        <title>OSGi on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/osgi/</link>
+        <description>Recent content in OSGi on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sun, 15 Jan 2012 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/osgi/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Working with Enterprise Service Bus</title>
+            <link>https://thinkuldeep.com//post/esb-introduction-part1/</link>
+            <pubDate>Sun, 15 Jan 2012 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/esb-introduction-part1/</guid>
+            <description>This article starts from basic terms of ESB worlds and then provides details of the FuseESB with various examples.
 It contains step by step guide to install FuseESB, and develop and deploy OSGi bundle on FuseESB.
 Lets understand terminologies of the ESB world :
 ESB An Enterprise Service Bus (ESB) is a software architecture model used for designing and implementing the interaction and communication between mutually interacting software applications in Service Oriented Architecture.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

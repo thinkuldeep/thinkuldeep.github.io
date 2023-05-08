@@ -1,181 +1,183 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ai on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/ai/</link>
-    <description>Recent content in ai on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 05 May 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Greening Up: Key takeaways from Green Software Foundation Meetup</title>
-      <link>http://localhost:1313/event/green-software-foundation-meetup-2023/</link>
-      <pubDate>Fri, 05 May 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/green-software-foundation-meetup-2023/</guid>
-      <description>As technology continues to advance, electronics are getting smaller and wires are disappearing. Even electric poles, once a familiar sight on road trips, are being phased out. With the internet now ubiquitous, physical storage devices are disappearing too, and we rely more on cloud-based solutions that seem to happen over the air.
+    <channel>
+        <title>ai on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/ai/</link>
+        <description>Recent content in ai on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Fri, 05 May 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Greening Up: Key takeaways from Green Software Foundation Meetup</title>
+            <link>https://thinkuldeep.com//event/green-software-foundation-meetup-2023/</link>
+            <pubDate>Fri, 05 May 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/green-software-foundation-meetup-2023/</guid>
+            <description>As technology continues to advance, electronics are getting smaller and wires are disappearing. Even electric poles, once a familiar sight on road trips, are being phased out. With the internet now ubiquitous, physical storage devices are disappearing too, and we rely more on cloud-based solutions that seem to happen over the air.
  ‘It&amp;rsquo;s no wonder we look up when we think of clouds ☁️, but should actually look down to the earth in the mines!</description>
-    </item>
-    
-    <item>
-      <title>Exploring the Potential of XR Technology for Virtual Decoration</title>
-      <link>http://localhost:1313/post/xr-virtual-decoration/</link>
-      <pubDate>Wed, 19 Apr 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/xr-virtual-decoration/</guid>
-      <description>In recent years, XR technology has revolutionized the way we decorate our physical environments. By utilizing AI and computer vision, XR can scan and track real-world surroundings, recognizing and remembering images and objects to enable the addition of virtual content. This technology can store and recall virtual decorations, making them visible every time someone enters the environment. While image matching is not a new concept, XR platforms like Vuforia have already implemented various mobile XR examples.</description>
-    </item>
-    
-    <item>
-      <title>Thoughtworks TWinnoFest 3.0</title>
-      <link>http://localhost:1313/event/thougthworks-twinnofest3/</link>
-      <pubDate>Tue, 18 Apr 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/thougthworks-twinnofest3/</guid>
-      <description>The TWiinoFest 3.0 The third edition of innovation fest, named at TWinnoFest, a month-long hackathon, was recently held by Innovation Labs at Thoughtworks. This year&amp;rsquo;s event was conducted remotely, with participants spread across different cities. I was fortunate enough to be invited to judge the finale of the event.
+        </item>
+        
+        <item>
+            <title>Exploring the Potential of XR Technology for Virtual Decoration</title>
+            <link>https://thinkuldeep.com//post/xr-virtual-decoration/</link>
+            <pubDate>Wed, 19 Apr 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/xr-virtual-decoration/</guid>
+            <description>In recent years, XR technology has revolutionized the way we decorate our physical environments. By utilizing AI and computer vision, XR can scan and track real-world surroundings, recognizing and remembering images and objects to enable the addition of virtual content. This technology can store and recall virtual decorations, making them visible every time someone enters the environment. While image matching is not a new concept, XR platforms like Vuforia have already implemented various mobile XR examples.</description>
+        </item>
+        
+        <item>
+            <title>Thoughtworks TWinnoFest 3.0</title>
+            <link>https://thinkuldeep.com//event/thougthworks-twinnofest3/</link>
+            <pubDate>Tue, 18 Apr 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/thougthworks-twinnofest3/</guid>
+            <description>The TWiinoFest 3.0 The third edition of innovation fest, named at TWinnoFest, a month-long hackathon, was recently held by Innovation Labs at Thoughtworks. This year&amp;rsquo;s event was conducted remotely, with participants spread across different cities. I was fortunate enough to be invited to judge the finale of the event.
 The sheer variety and quality of ideas presented was truly astounding. It was incredibly difficult to compare them, as each one was unique and innovative in its own way.</description>
-    </item>
-    
-    <item>
-      <title>Speaker - Agility Today Fest 2023 - Generative AI and XR</title>
-      <link>http://localhost:1313/event/agiletoday_2023_ael/</link>
-      <pubDate>Sat, 25 Mar 2023 01:00:00 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/agiletoday_2023_ael/</guid>
-      <description>Agility Today is a 2 days annual UnConference, to meet Agility needs of industry, gathered over past few years via meetups, Conferences and Webinar. This UnConference intends to give you best of Agile Psyche (Mindset Culture and Practice) and Geekery (Engineering, Tools and DevOps). This year in Agility Today Fest 2023 there are couple of programs.
+        </item>
+        
+        <item>
+            <title>Speaker - Agility Today Fest 2023 - Generative AI and XR</title>
+            <link>https://thinkuldeep.com//event/agiletoday_2023_ael/</link>
+            <pubDate>Sat, 25 Mar 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/agiletoday_2023_ael/</guid>
+            <description>Agility Today is a 2 days annual UnConference, to meet Agility needs of industry, gathered over past few years via meetups, Conferences and Webinar. This UnConference intends to give you best of Agile Psyche (Mindset Culture and Practice) and Geekery (Engineering, Tools and DevOps). This year in Agility Today Fest 2023 there are couple of programs.
 I am speaking to at Agile Engineering Lab (Technical Agility &amp;amp; Engineering Excellence), on topic of Scaling content generation for XR using AI.</description>
-    </item>
-    
-    <item>
-      <title>Takeaways from Lenovo Techworld India Edition</title>
-      <link>http://localhost:1313/event/lenovo-techworld-india-2023/</link>
-      <pubDate>Thu, 16 Mar 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/lenovo-techworld-india-2023/</guid>
-      <description>Lenovo, the global technology leader, hosted the India edition of its flagship event, Tech World , on March 16th, 2023. Industry leaders come together and peep into the future of smarter technology, that is empowering a changing world through innovative products, solutions, and witness technological solutions.
+        </item>
+        
+        <item>
+            <title>Takeaways from Lenovo Techworld India Edition</title>
+            <link>https://thinkuldeep.com//event/lenovo-techworld-india-2023/</link>
+            <pubDate>Thu, 16 Mar 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/lenovo-techworld-india-2023/</guid>
+            <description>Lenovo, the global technology leader, hosted the India edition of its flagship event, Tech World , on March 16th, 2023. Industry leaders come together and peep into the future of smarter technology, that is empowering a changing world through innovative products, solutions, and witness technological solutions.
 I get a chance to join the event, and meet and listen to the industry leaders, experience lenovo’s innovative product line, and see breakthroughs in india shaping up.</description>
-    </item>
-    
-    <item>
-      <title>Judge at MOZOHACK 4.0 by the Mozilla Students Club</title>
-      <link>http://localhost:1313/event/judge-mozohack4-srmkzilla-2023/</link>
-      <pubDate>Sat, 25 Feb 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/judge-mozohack4-srmkzilla-2023/</guid>
-      <description>MOZOHACK is a 24-hour hackathon organized by SRMKZILLA. SRMKZILLA is a Mozilla campus club of SRM Institute of Science and Technology, Chennai(India). It is inspired by the Mozilla Learning Network, provides students an open platform to analyze and enhance their technical and non-technical skills, such as working on open-source projects, developing websites, technical fests, and workshops. The club is conducting the seventh edition of its annual flagship event – MOZOFEST&#39;23 – where they celebrate student community through technical and non-technical events.</description>
-    </item>
-    
-    <item>
-      <title>AI-Assisted Content Generation Pipeline for XR</title>
-      <link>http://localhost:1313/post/ai-generated-xr-content/</link>
-      <pubDate>Tue, 24 Jan 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/ai-generated-xr-content/</guid>
-      <description>Recently, I and Raju Kandaswamy talked at Thoughtworks XConf on how AI will play its role in content generation. We are already seeing ChatGPT, as the next revolution in textual content generation space. Let&amp;rsquo;s understand what is the need of such content generation revolution of XR space.
+        </item>
+        
+        <item>
+            <title>Judge at MOZOHACK 4.0 by the Mozilla Students Club</title>
+            <link>https://thinkuldeep.com//event/judge-mozohack4-srmkzilla-2023/</link>
+            <pubDate>Sat, 25 Feb 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/judge-mozohack4-srmkzilla-2023/</guid>
+            <description>MOZOHACK is a 24-hour hackathon organized by SRMKZILLA. SRMKZILLA is a Mozilla campus club of SRM Institute of Science and Technology, Chennai(India). It is inspired by the Mozilla Learning Network, provides students an open platform to analyze and enhance their technical and non-technical skills, such as working on open-source projects, developing websites, technical fests, and workshops. The club is conducting the seventh edition of its annual flagship event – MOZOFEST&#39;23 – where they celebrate student community through technical and non-technical events.</description>
+        </item>
+        
+        <item>
+            <title>AI-Assisted Content Generation Pipeline for XR</title>
+            <link>https://thinkuldeep.com//post/ai-generated-xr-content/</link>
+            <pubDate>Tue, 24 Jan 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/ai-generated-xr-content/</guid>
+            <description>Recently, I and Raju Kandaswamy talked at Thoughtworks XConf on how AI will play its role in content generation. We are already seeing ChatGPT, as the next revolution in textual content generation space. Let&amp;rsquo;s understand what is the need of such content generation revolution of XR space.
 With games like Second Life and the impending mainstreaming of the Metaverse, more and more individuals are embracing a virtual reality that, in some ways, mirrors our own real world and, in other ways, lets us live in our imagination or apply them on the real word.</description>
-    </item>
-    
-    <item>
-      <title>Judge - Ashoka University Hackathon 2022</title>
-      <link>http://localhost:1313/event/ashoka-university-hackathon-2022/</link>
-      <pubDate>Sun, 19 Jun 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/ashoka-university-hackathon-2022/</guid>
-      <description>RedBrick Hacks is flagship summer hackathon of Ashoka University, open to students from Delhi NCR. You will have the opportunity to learn, collaborate, and build meaningful projects alongside mentors from various disciplines. For 24 hours on the weekend of June 18, you will have access to free workshops, plenary lectures, prizes worth over ₹8L, games, and more!
+        </item>
+        
+        <item>
+            <title>Judge - Ashoka University Hackathon 2022</title>
+            <link>https://thinkuldeep.com//event/ashoka-university-hackathon-2022/</link>
+            <pubDate>Sun, 19 Jun 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/ashoka-university-hackathon-2022/</guid>
+            <description>RedBrick Hacks is flagship summer hackathon of Ashoka University, open to students from Delhi NCR. You will have the opportunity to learn, collaborate, and build meaningful projects alongside mentors from various disciplines. For 24 hours on the weekend of June 18, you will have access to free workshops, plenary lectures, prizes worth over ₹8L, games, and more!
 The theme of the event was &amp;ldquo;Tech for Social Good&amp;rdquo; with three main tracks: Health &amp;amp; Wellness, Sustainable Growth, and Security &amp;amp; Privacy.</description>
-    </item>
-    
-    <item>
-      <title>Metaverse — a technological evolution</title>
-      <link>http://localhost:1313/post/metaverse-a-technological-evolution/</link>
-      <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/metaverse-a-technological-evolution/</guid>
-      <description>Metaverse is the most talked, understood and misunderstood topic these days. In most of my sessions people ask what is the technology stack for Metaverse? what should I learn to stay relevant? etc.. I will try to cover it in this article. In my earlier article I tried to define the Metaverse, and my friend Vinodh Arumugam also attempted the same here. It is defined so loosely that every other industry today is trying to define it in their own way to suits their narrative.</description>
-    </item>
-    
-    <item>
-      <title>Judge at HackBMU 5.0</title>
-      <link>http://localhost:1313/event/bmu-hack5/</link>
-      <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/bmu-hack5/</guid>
-      <description>BML Munjal University, a Hero group initiative, is organizing a 5th edition Hackathon, named HackBMU 5.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
+        </item>
+        
+        <item>
+            <title>Metaverse — a technological evolution</title>
+            <link>https://thinkuldeep.com//post/metaverse-a-technological-evolution/</link>
+            <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/metaverse-a-technological-evolution/</guid>
+            <description>Metaverse is the most talked, understood and misunderstood topic these days. In most of my sessions people ask what is the technology stack for Metaverse? what should I learn to stay relevant? etc.. I will try to cover it in this article. In my earlier article I tried to define the Metaverse, and my friend Vinodh Arumugam also attempted the same here. It is defined so loosely that every other industry today is trying to define it in their own way to suits their narrative.</description>
+        </item>
+        
+        <item>
+            <title>Judge at HackBMU 5.0</title>
+            <link>https://thinkuldeep.com//event/bmu-hack5/</link>
+            <pubDate>Sat, 19 Feb 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/bmu-hack5/</guid>
+            <description>BML Munjal University, a Hero group initiative, is organizing a 5th edition Hackathon, named HackBMU 5.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
 HackBMU seeks to provide a welcoming and supportive environment to all participants to develop their skills, regardless of their background.</description>
-    </item>
-    
-    <item>
-      <title>Judge - Thoughtworks iFest 2.0</title>
-      <link>http://localhost:1313/event/thougthworks-ifest2/</link>
-      <pubDate>Sun, 10 Oct 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/thougthworks-ifest2/</guid>
-      <description>The iFest This October, at Thoughtworks India, we’re celebrating our 20th anniversary! That’s 20 years of excellence in technology!
+        </item>
+        
+        <item>
+            <title>Judge - Thoughtworks iFest 2.0</title>
+            <link>https://thinkuldeep.com//event/thougthworks-ifest2/</link>
+            <pubDate>Sun, 10 Oct 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/thougthworks-ifest2/</guid>
+            <description>The iFest This October, at Thoughtworks India, we’re celebrating our 20th anniversary! That’s 20 years of excellence in technology!
 Innovation Lab&amp;rsquo;s at Thoughtworks comes second edition of iFest - a month long hackathon. I got opportunity to participate in iFest as a judge.
 I was amazed to see the verity of idea. All the ideas were great and it was so hard to compare them.
 Ideas were touching were reflecting the Thougthworks culture, use technology to solve challenges society is facing.</description>
-    </item>
-    
-    <item>
-      <title>Judge at HackBMU 4.0</title>
-      <link>http://localhost:1313/event/bmu-hack4/</link>
-      <pubDate>Fri, 23 Apr 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/bmu-hack4/</guid>
-      <description>BML Munjal University,a Hero group initiative, is organizing a 4th edition Hackathon, named HackBMU 4.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
+        </item>
+        
+        <item>
+            <title>Judge at HackBMU 4.0</title>
+            <link>https://thinkuldeep.com//event/bmu-hack4/</link>
+            <pubDate>Fri, 23 Apr 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/bmu-hack4/</guid>
+            <description>BML Munjal University,a Hero group initiative, is organizing a 4th edition Hackathon, named HackBMU 4.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
 HackBMU seeks to provide a welcoming and supportive environment to all participants to develop their skills, regardless of their background.</description>
-    </item>
-    
-    <item>
-      <title>Juror - SMCC Startup Challenge by Nasscom</title>
-      <link>http://localhost:1313/event/nasscom-smcc/</link>
-      <pubDate>Thu, 25 Feb 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/nasscom-smcc/</guid>
-      <description>NASSCOM is the premier trade body and chamber of commerce of the Tech industry in India and comprises over 2800 member companies including both Indian and multinational organisations that have a presence in India. Center of Excellence - IoT and AI is an initiative from NASSCOM and collective effort from different state governments in India,
+        </item>
+        
+        <item>
+            <title>Juror - SMCC Startup Challenge by Nasscom</title>
+            <link>https://thinkuldeep.com//event/nasscom-smcc/</link>
+            <pubDate>Thu, 25 Feb 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/nasscom-smcc/</guid>
+            <description>NASSCOM is the premier trade body and chamber of commerce of the Tech industry in India and comprises over 2800 member companies including both Indian and multinational organisations that have a presence in India. Center of Excellence - IoT and AI is an initiative from NASSCOM and collective effort from different state governments in India,
 NASSCOM CoE is launching first-of-its-kind virtual SMART MANUFACTURING COMPETENCY CENTER (SMCC). The innovation platform which will help in accelerating technology adoption by bringing enterprises, governments, researchers, and innovators together.</description>
-    </item>
-    
-    <item>
-      <title>Mentor and Juror - MIC 2020 by Nasscom</title>
-      <link>http://localhost:1313/event/nasscom-iotcoe/</link>
-      <pubDate>Sat, 05 Dec 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/nasscom-iotcoe/</guid>
-      <description>NASSCOM is the premier trade body and chamber of commerce of the Tech industry in India and comprises over 2800 member companies including both Indian and multinational organisations that have a presence in India. Center of Excellence - IoT and AI is an initiative from NASSCOM and collective effort from different state governments in India,
+        </item>
+        
+        <item>
+            <title>Mentor and Juror - MIC 2020 by Nasscom</title>
+            <link>https://thinkuldeep.com//event/nasscom-iotcoe/</link>
+            <pubDate>Sat, 05 Dec 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/nasscom-iotcoe/</guid>
+            <description>NASSCOM is the premier trade body and chamber of commerce of the Tech industry in India and comprises over 2800 member companies including both Indian and multinational organisations that have a presence in India. Center of Excellence - IoT and AI is an initiative from NASSCOM and collective effort from different state governments in India,
 NASSCOM has organized Manufacturing Innovation Challenge 2020 from 12th Oct to 11th Dec, on theme of redefining enterprises and entrepreneurs engagement.</description>
-    </item>
-    
-    <item>
-      <title>eXtended Reality for Enterprise - a PODCast by XROM</title>
-      <link>http://localhost:1313/event/xrom-podcast-enterprise-xr/</link>
-      <pubDate>Sun, 15 Nov 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/xrom-podcast-enterprise-xr/</guid>
-      <description>Interesting conversation on eXtended Reality (XR) with Eddie Avil, starting from my background, how I landed up in the XR space and where are we heading…
+        </item>
+        
+        <item>
+            <title>eXtended Reality for Enterprise - a PODCast by XROM</title>
+            <link>https://thinkuldeep.com//event/xrom-podcast-enterprise-xr/</link>
+            <pubDate>Sun, 15 Nov 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/xrom-podcast-enterprise-xr/</guid>
+            <description>Interesting conversation on eXtended Reality (XR) with Eddie Avil, starting from my background, how I landed up in the XR space and where are we heading…
 XROM PODCast  XROM PODCast is a youtube channel maintained by serial entrepreneur, dreamer &amp;amp; a believer Mr. Eddie Avil. This channel has number of interesting conversations with industry leaders in the emerging technology space. Eddie Avil, also runs a marketplace for AR VR hardware and service, visit here https://www.</description>
-    </item>
-    
-    <item>
-      <title>Judge - HackInIndia - Hackathon 2020</title>
-      <link>http://localhost:1313/event/hackinindia-hackathon-2020/</link>
-      <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/hackinindia-hackathon-2020/</guid>
-      <description>I got chance to judge the HackInIndia event, India&amp;rsquo;s National Level hackathon organized by Script Foundation on 2nd July, 2020.
+        </item>
+        
+        <item>
+            <title>Judge - HackInIndia - Hackathon 2020</title>
+            <link>https://thinkuldeep.com//event/hackinindia-hackathon-2020/</link>
+            <pubDate>Thu, 02 Jul 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/hackinindia-hackathon-2020/</guid>
+            <description>I got chance to judge the HackInIndia event, India&amp;rsquo;s National Level hackathon organized by Script Foundation on 2nd July, 2020.
 Around 150 teams signed up across multiple tracks (Healthcare, Open Innovation, ARVR, EdTech, RPA and FinTech) supported by couple of talented mentors. I and Raviraj Subramanian got chance to meet only top 20 teams in Jury round, and I was amazed to see their innovative ideas, and demonstrations the young blood of nation bring on the table.</description>
-    </item>
-    
-    <item>
-      <title>Compiling Java Native C/C&#43;&#43; Code</title>
-      <link>http://localhost:1313/post/java-jni-cpp/</link>
-      <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/java-jni-cpp/</guid>
-      <description>We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
+        </item>
+        
+        <item>
+            <title>Compiling Java Native C/C&#43;&#43; Code</title>
+            <link>https://thinkuldeep.com//post/java-jni-cpp/</link>
+            <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/java-jni-cpp/</guid>
+            <description>We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
  How to write a JNI program. jni_md.h not found. Incompatible data types. On widows cygwin1.dll is required when running Java code on the native library. and more.  Actually we were compiling NLP Solver’s native library (IPOPT) on windows 32 bit and on 64bit linux machine.
 Solving the chaos! Here are the steps we have followed to solve the above issues:</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

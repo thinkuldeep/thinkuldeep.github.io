@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>GE on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/ge/</link>
-    <description>Recent content in GE on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 22 Aug 2014 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/ge/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>IOT Cloud Platforms -  A Comparative Study</title>
-      <link>http://localhost:1313/post/iot_cloud_platform_comparision/</link>
-      <pubDate>Fri, 22 Aug 2014 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/iot_cloud_platform_comparision/</guid>
-      <description>The vision of IoT can be seen from two perspectives— ‘Internet’ centric and ‘Thing’ centric. The Internet centric architecture will involve internet services being the main focus while data is contributed by the objects. In the object centric architecture, the smart objects take the center stage.
+    <channel>
+        <title>GE on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/ge/</link>
+        <description>Recent content in GE on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Fri, 22 Aug 2014 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/ge/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>IOT Cloud Platforms -  A Comparative Study</title>
+            <link>https://thinkuldeep.com//post/iot_cloud_platform_comparision/</link>
+            <pubDate>Fri, 22 Aug 2014 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot_cloud_platform_comparision/</guid>
+            <description>The vision of IoT can be seen from two perspectives— ‘Internet’ centric and ‘Thing’ centric. The Internet centric architecture will involve internet services being the main focus while data is contributed by the objects. In the object centric architecture, the smart objects take the center stage.
 In order to realize the full potential of cloud computing as well as ubiquitous sensing, a combined framework with a cloud at the center seems to be most viable.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

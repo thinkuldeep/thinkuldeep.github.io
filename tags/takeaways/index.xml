@@ -1,181 +1,183 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>takeaways on Kuldeep Singh</title>
-    <link>http://localhost:1313/tags/takeaways/</link>
-    <description>Recent content in takeaways on Kuldeep Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 05 May 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/takeaways/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Greening Up: Key takeaways from Green Software Foundation Meetup</title>
-      <link>http://localhost:1313/event/green-software-foundation-meetup-2023/</link>
-      <pubDate>Fri, 05 May 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/green-software-foundation-meetup-2023/</guid>
-      <description>As technology continues to advance, electronics are getting smaller and wires are disappearing. Even electric poles, once a familiar sight on road trips, are being phased out. With the internet now ubiquitous, physical storage devices are disappearing too, and we rely more on cloud-based solutions that seem to happen over the air.
+    <channel>
+        <title>takeaways on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/takeaways/</link>
+        <description>Recent content in takeaways on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Fri, 05 May 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/takeaways/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Greening Up: Key takeaways from Green Software Foundation Meetup</title>
+            <link>https://thinkuldeep.com//event/green-software-foundation-meetup-2023/</link>
+            <pubDate>Fri, 05 May 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/green-software-foundation-meetup-2023/</guid>
+            <description>As technology continues to advance, electronics are getting smaller and wires are disappearing. Even electric poles, once a familiar sight on road trips, are being phased out. With the internet now ubiquitous, physical storage devices are disappearing too, and we rely more on cloud-based solutions that seem to happen over the air.
  ‘It&amp;rsquo;s no wonder we look up when we think of clouds ☁️, but should actually look down to the earth in the mines!</description>
-    </item>
-    
-    <item>
-      <title>Community Events are the Energy Boosters!</title>
-      <link>http://localhost:1313/event/gta_lets_fork_together/</link>
-      <pubDate>Sat, 15 Apr 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/gta_lets_fork_together/</guid>
-      <description>Recently, I had the opportunity to contribute to an event called &amp;ldquo;GTA Ghaziabad - Let’s Fork Together&amp;rdquo;. The event was hosted by a community of working professionals and undergraduate engineers from nearby colleges in NCR, and took place at my home office, Thoughtworks Gurgaon. Participating in this event provided me with another energy boost, and in this article, I would like to share my experience and give you a glimpse of what the event was all about!</description>
-    </item>
-    
-    <item>
-      <title>Habit Matters - The change is a side effect</title>
-      <link>http://localhost:1313/post/habitmatters/</link>
-      <pubDate>Sun, 09 Apr 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/habitmatters/</guid>
-      <description>“Change is the only constant, it doesn&amp;rsquo;t matter whether we like it or not, it takes place”- shared and reflected in my change stories.
+        </item>
+        
+        <item>
+            <title>Community Events are the Energy Boosters!</title>
+            <link>https://thinkuldeep.com//event/gta_lets_fork_together/</link>
+            <pubDate>Sat, 15 Apr 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/gta_lets_fork_together/</guid>
+            <description>Recently, I had the opportunity to contribute to an event called &amp;ldquo;GTA Ghaziabad - Let’s Fork Together&amp;rdquo;. The event was hosted by a community of working professionals and undergraduate engineers from nearby colleges in NCR, and took place at my home office, Thoughtworks Gurgaon. Participating in this event provided me with another energy boost, and in this article, I would like to share my experience and give you a glimpse of what the event was all about!</description>
+        </item>
+        
+        <item>
+            <title>Habit Matters - The change is a side effect</title>
+            <link>https://thinkuldeep.com//post/habitmatters/</link>
+            <pubDate>Sun, 09 Apr 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/habitmatters/</guid>
+            <description>“Change is the only constant, it doesn&amp;rsquo;t matter whether we like it or not, it takes place”- shared and reflected in my change stories.
  Over the years, I have been following my theory of change Accept-Observe-Absorb. It helped me to traverse through the change year 2020, and understand the role of “Will” and how to cultivate it. I shared how just one change “working from my native home” brought so many other changes in lifestyle and behavior.</description>
-    </item>
-    
-    <item>
-      <title>Takeaways from Lenovo Techworld India Edition</title>
-      <link>http://localhost:1313/event/lenovo-techworld-india-2023/</link>
-      <pubDate>Thu, 16 Mar 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/lenovo-techworld-india-2023/</guid>
-      <description>Lenovo, the global technology leader, hosted the India edition of its flagship event, Tech World , on March 16th, 2023. Industry leaders come together and peep into the future of smarter technology, that is empowering a changing world through innovative products, solutions, and witness technological solutions.
+        </item>
+        
+        <item>
+            <title>Takeaways from Lenovo Techworld India Edition</title>
+            <link>https://thinkuldeep.com//event/lenovo-techworld-india-2023/</link>
+            <pubDate>Thu, 16 Mar 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/lenovo-techworld-india-2023/</guid>
+            <description>Lenovo, the global technology leader, hosted the India edition of its flagship event, Tech World , on March 16th, 2023. Industry leaders come together and peep into the future of smarter technology, that is empowering a changing world through innovative products, solutions, and witness technological solutions.
 I get a chance to join the event, and meet and listen to the industry leaders, experience lenovo’s innovative product line, and see breakthroughs in india shaping up.</description>
-    </item>
-    
-    <item>
-      <title>Speaker at Meta-MeitY XR Startup Hub, IIT Delhi</title>
-      <link>http://localhost:1313/event/meta-meity-xr-startsup-hub-2022/</link>
-      <pubDate>Tue, 31 Jan 2023 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/meta-meity-xr-startsup-hub-2022/</guid>
-      <description>Extending Reality is providing experience to user where the boundaries of real and fake blur, and use believe in the new reality presented to them. In the recent years, the tech has evolved to enable extending the reality by XR (AR/VR) faster, and much more evolution still to happen. I was invited at Meta and Meity&amp;rsquo;s Startup Hub program as an industry expert. Here I reflect on the day I spend with the few of the top startup of india, who want to solve some of the key challenges using XR and related technology.</description>
-    </item>
-    
-    <item>
-      <title>Guest Lecture on &#39;Forward Looking Reflection&#39; at DesignersX</title>
-      <link>http://localhost:1313/post/forward-looking-reflection/</link>
-      <pubDate>Sat, 31 Dec 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/forward-looking-reflection/</guid>
-      <description>Every end is a beginning, if there is no end, then there is no beginning, just like the year 2023 can only start after the end of year 2022. So this is the right time to reflect and plan for a better beginning. A “Forward Looking Reflection” was my topic of a guest lecture at DesignersX at their year end event. We discussed challenges of software development, and how the industry is trying to solve them.</description>
-    </item>
-    
-    <item>
-      <title>Judging the Smart India Hackathon Juniors 2022</title>
-      <link>http://localhost:1313/event/sih-2022/</link>
-      <pubDate>Fri, 12 Aug 2022 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/sih-2022/</guid>
-      <description>After a wonderful experience of participating as a judge and mentor at Smart India Hackathon 2019 and 2020, I am delighted to share that I got a chance to meet and judge India&amp;rsquo;s young winners and innovators at Grand Finale of Smart India Hackathon Juniors 2022, Smart India Hackathon 2022 is a nationwide initiative to provide students a platform to solve some of the pressing problems we face in our daily lives, and thus inculcate a culture of product innovation and a mindset of problem solving.</description>
-    </item>
-    
-    <item>
-      <title>Leadership - A result of conscious and continuous effort!</title>
-      <link>http://localhost:1313/post/leadership-development-takeaways/</link>
-      <pubDate>Thu, 30 Sep 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/leadership-development-takeaways/</guid>
-      <description>Sep 2020, a year ago, I was excited for getting nominated for an year long Global Leadership Development Program at Thoughtworks. At the same time was little confused on what we are going to do in this program for that long. I must say it was so well executed, despite the challenges of Covid#19, where we all(participants, speakers, coaches and other enablers) are globally distributed working from their home. Expectations were set, virtual meetings were set with options to attend at per individual comfort.</description>
-    </item>
-    
-    <item>
-      <title>Coaching is not what you think!</title>
-      <link>http://localhost:1313/post/coaching-workshop-key-takaways/</link>
-      <pubDate>Sun, 18 Apr 2021 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/coaching-workshop-key-takaways/</guid>
-      <description>When the word “Coaching” comes into my mind, one name always pops up, the cricket legend Sachin Tendulkar and his coach Mr. Ramakant Achrekar who gave him cricket. This example also helps us break the myths that coaching is needed when there are performance issues or people who are under-performing need the most.
+        </item>
+        
+        <item>
+            <title>Speaker at Meta-MeitY XR Startup Hub, IIT Delhi</title>
+            <link>https://thinkuldeep.com//event/meta-meity-xr-startsup-hub-2022/</link>
+            <pubDate>Tue, 31 Jan 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/meta-meity-xr-startsup-hub-2022/</guid>
+            <description>Extending Reality is providing experience to user where the boundaries of real and fake blur, and use believe in the new reality presented to them. In the recent years, the tech has evolved to enable extending the reality by XR (AR/VR) faster, and much more evolution still to happen. I was invited at Meta and Meity&amp;rsquo;s Startup Hub program as an industry expert. Here I reflect on the day I spend with the few of the top startup of india, who want to solve some of the key challenges using XR and related technology.</description>
+        </item>
+        
+        <item>
+            <title>Guest Lecture on &#39;Forward Looking Reflection&#39; at DesignersX</title>
+            <link>https://thinkuldeep.com//post/forward-looking-reflection/</link>
+            <pubDate>Sat, 31 Dec 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/forward-looking-reflection/</guid>
+            <description>Every end is a beginning, if there is no end, then there is no beginning, just like the year 2023 can only start after the end of year 2022. So this is the right time to reflect and plan for a better beginning. A “Forward Looking Reflection” was my topic of a guest lecture at DesignersX at their year end event. We discussed challenges of software development, and how the industry is trying to solve them.</description>
+        </item>
+        
+        <item>
+            <title>Judging the Smart India Hackathon Juniors 2022</title>
+            <link>https://thinkuldeep.com//event/sih-2022/</link>
+            <pubDate>Fri, 12 Aug 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/sih-2022/</guid>
+            <description>After a wonderful experience of participating as a judge and mentor at Smart India Hackathon 2019 and 2020, I am delighted to share that I got a chance to meet and judge India&amp;rsquo;s young winners and innovators at Grand Finale of Smart India Hackathon Juniors 2022, Smart India Hackathon 2022 is a nationwide initiative to provide students a platform to solve some of the pressing problems we face in our daily lives, and thus inculcate a culture of product innovation and a mindset of problem solving.</description>
+        </item>
+        
+        <item>
+            <title>Leadership - A result of conscious and continuous effort!</title>
+            <link>https://thinkuldeep.com//post/leadership-development-takeaways/</link>
+            <pubDate>Thu, 30 Sep 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/leadership-development-takeaways/</guid>
+            <description>Sep 2020, a year ago, I was excited for getting nominated for an year long Global Leadership Development Program at Thoughtworks. At the same time was little confused on what we are going to do in this program for that long. I must say it was so well executed, despite the challenges of Covid#19, where we all(participants, speakers, coaches and other enablers) are globally distributed working from their home. Expectations were set, virtual meetings were set with options to attend at per individual comfort.</description>
+        </item>
+        
+        <item>
+            <title>Coaching is not what you think!</title>
+            <link>https://thinkuldeep.com//post/coaching-workshop-key-takaways/</link>
+            <pubDate>Sun, 18 Apr 2021 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/coaching-workshop-key-takaways/</guid>
+            <description>When the word “Coaching” comes into my mind, one name always pops up, the cricket legend Sachin Tendulkar and his coach Mr. Ramakant Achrekar who gave him cricket. This example also helps us break the myths that coaching is needed when there are performance issues or people who are under-performing need the most.
 Sachin Tendulkar with his coach — Source
 If Sachin Tendulkar needs a coach then we all need a coach in our life to get going.</description>
-    </item>
-    
-    <item>
-      <title>The Learning Equation</title>
-      <link>http://localhost:1313/post/the-learning-equation/</link>
-      <pubDate>Sat, 05 Sep 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/the-learning-equation/</guid>
-      <description>Today, The world is celebrating teacher’s day. I wish Happy Teacher&amp;rsquo;s day to all of us! We all are teachers and learners as every one of us has something to learn from others and something to teach others. I am thinking of an equation of learning that defines my way of learning and hope it would be helpful for you too.  The learning equation — Learning is proportional to Sharing; Learning ∝ Sharing</description>
-    </item>
-    
-    <item>
-      <title>Judge and Mentor -  Smart India Hackathon 2020</title>
-      <link>http://localhost:1313/event/sih-2020/</link>
-      <pubDate>Mon, 03 Aug 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/sih-2020/</guid>
-      <description>After a wonderful experience of participating as a judge and mentor at Smart India Hackathon 2019, I am delighted to share that I again got a chance to meet and judge India&amp;rsquo;s young winners and innovators at Grand Finale of Smart India Hackathon 2020, world’s biggest open innovation modal, organized by AICTE and MHRD, Govt of India. This time it is no more a hackathon but a hackathon of hackathons — 4 Lacks students, 1500 small hackathons, 40 Nodal centers, around 2000 mentors and 1000 evaluators, 11000 finalists and more…</description>
-    </item>
-    
-    <item>
-      <title>Change to become more successful!</title>
-      <link>http://localhost:1313/post/change_to_become_more_successful_/</link>
-      <pubDate>Sun, 03 May 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/change_to_become_more_successful_/</guid>
-      <description>Change is the only constant, it requires continuous effort from humankind to understand the change that leads to success, and make us even more successful. In my earlier article, I talked about the success mantra, and also wrote about accepting the change when required. Sometimes the way we perceive our success becomes a blocker for becoming more successful. We accumulate some habits knowingly or unknowingly along the path of being successful, and mostly we never realize that those habits start blocking our way forward.</description>
-    </item>
-    
-    <item>
-      <title>Success Mantra</title>
-      <link>http://localhost:1313/post/success_mantra_amazon/</link>
-      <pubDate>Fri, 24 Jan 2020 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/success_mantra_amazon/</guid>
-      <description>Everyone in India is talking about Jeff Bezos, the richest of the world, who was on India&amp;rsquo;s visit recently. People are talking about the investments he is making in India, talking about his prediction about India&amp;rsquo;s &amp;ldquo;21st Century is going to be the Indian century&amp;rdquo;, and discussing the impact on small businesses. We have seen disruptions lead by Amazon in multiple sectors, now people have a fear that whatever Amazon touch, it becomes Amazon&amp;rsquo;s.</description>
-    </item>
-    
-    <item>
-      <title>Inception Workshop | Key Takeaways</title>
-      <link>http://localhost:1313/post/inception_workshop_key_takaways/</link>
-      <pubDate>Sun, 15 Sep 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/inception_workshop_key_takaways/</guid>
-      <description>Inception exercise is very common in software development, where we gather the business requirements and define the delivery plan for the MVP(Minimum Viable Product) on a shared understanding. There are a set of tools and practices available to define the MVP requirements and its delivery plan. Famous tools are Lean Value Tree, Business Model Canvas, Plane Map, Elevator Pitch, Futurespective, Empathy Maps, Value Proposition Canvas, User Journey Map, Gamestorming, Process Diagram, MoSCoW, Communication Plan, Project Plan etc.</description>
-    </item>
-    
-    <item>
-      <title>Embibe purpose and balance in life</title>
-      <link>http://localhost:1313/post/embibe_purpose_and_balance_in_life/</link>
-      <pubDate>Fri, 15 Mar 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/embibe_purpose_and_balance_in_life/</guid>
-      <description>I just finished a book &amp;ldquo;Life&amp;rsquo;s Amazing Secrets&amp;rdquo; by Gaur Gopal Das. It covers the topic of balance and purpose in life nicely. Few of the concepts from the book I can very well relate to my current organization&amp;rsquo;s focus on cultivation and collaboration culture.
+        </item>
+        
+        <item>
+            <title>The Learning Equation</title>
+            <link>https://thinkuldeep.com//post/the-learning-equation/</link>
+            <pubDate>Sat, 05 Sep 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/the-learning-equation/</guid>
+            <description>Today, The world is celebrating teacher’s day. I wish Happy Teacher&amp;rsquo;s day to all of us! We all are teachers and learners as every one of us has something to learn from others and something to teach others. I am thinking of an equation of learning that defines my way of learning and hope it would be helpful for you too.  The learning equation — Learning is proportional to Sharing; Learning ∝ Sharing</description>
+        </item>
+        
+        <item>
+            <title>Judge and Mentor -  Smart India Hackathon 2020</title>
+            <link>https://thinkuldeep.com//event/sih-2020/</link>
+            <pubDate>Mon, 03 Aug 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/sih-2020/</guid>
+            <description>After a wonderful experience of participating as a judge and mentor at Smart India Hackathon 2019, I am delighted to share that I again got a chance to meet and judge India&amp;rsquo;s young winners and innovators at Grand Finale of Smart India Hackathon 2020, world’s biggest open innovation modal, organized by AICTE and MHRD, Govt of India. This time it is no more a hackathon but a hackathon of hackathons — 4 Lacks students, 1500 small hackathons, 40 Nodal centers, around 2000 mentors and 1000 evaluators, 11000 finalists and more…</description>
+        </item>
+        
+        <item>
+            <title>Change to become more successful!</title>
+            <link>https://thinkuldeep.com//post/change_to_become_more_successful_/</link>
+            <pubDate>Sun, 03 May 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/change_to_become_more_successful_/</guid>
+            <description>Change is the only constant, it requires continuous effort from humankind to understand the change that leads to success, and make us even more successful. In my earlier article, I talked about the success mantra, and also wrote about accepting the change when required. Sometimes the way we perceive our success becomes a blocker for becoming more successful. We accumulate some habits knowingly or unknowingly along the path of being successful, and mostly we never realize that those habits start blocking our way forward.</description>
+        </item>
+        
+        <item>
+            <title>Success Mantra</title>
+            <link>https://thinkuldeep.com//post/success_mantra_amazon/</link>
+            <pubDate>Fri, 24 Jan 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/success_mantra_amazon/</guid>
+            <description>Everyone in India is talking about Jeff Bezos, the richest of the world, who was on India&amp;rsquo;s visit recently. People are talking about the investments he is making in India, talking about his prediction about India&amp;rsquo;s &amp;ldquo;21st Century is going to be the Indian century&amp;rdquo;, and discussing the impact on small businesses. We have seen disruptions lead by Amazon in multiple sectors, now people have a fear that whatever Amazon touch, it becomes Amazon&amp;rsquo;s.</description>
+        </item>
+        
+        <item>
+            <title>Inception Workshop | Key Takeaways</title>
+            <link>https://thinkuldeep.com//post/inception_workshop_key_takaways/</link>
+            <pubDate>Sun, 15 Sep 2019 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/inception_workshop_key_takaways/</guid>
+            <description>Inception exercise is very common in software development, where we gather the business requirements and define the delivery plan for the MVP(Minimum Viable Product) on a shared understanding. There are a set of tools and practices available to define the MVP requirements and its delivery plan. Famous tools are Lean Value Tree, Business Model Canvas, Plane Map, Elevator Pitch, Futurespective, Empathy Maps, Value Proposition Canvas, User Journey Map, Gamestorming, Process Diagram, MoSCoW, Communication Plan, Project Plan etc.</description>
+        </item>
+        
+        <item>
+            <title>Embibe purpose and balance in life</title>
+            <link>https://thinkuldeep.com//post/embibe_purpose_and_balance_in_life/</link>
+            <pubDate>Fri, 15 Mar 2019 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/embibe_purpose_and_balance_in_life/</guid>
+            <description>I just finished a book &amp;ldquo;Life&amp;rsquo;s Amazing Secrets&amp;rdquo; by Gaur Gopal Das. It covers the topic of balance and purpose in life nicely. Few of the concepts from the book I can very well relate to my current organization&amp;rsquo;s focus on cultivation and collaboration culture.
 It&amp;rsquo;s now more than 6 months of my journey with Thoughtworks, an organization which started as a social experiment more than 25 years ago, and believes in balancing 3 pillars in life ; sustainability, excellence and purpose.</description>
-    </item>
-    
-    <item>
-      <title>Judge and Mentor -  Smart India Hackathon 2019</title>
-      <link>http://localhost:1313/event/sih_2019_an_experience/</link>
-      <pubDate>Thu, 07 Mar 2019 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/event/sih_2019_an_experience/</guid>
-      <description>Recently got a chance to judge and mentor india&amp;rsquo;s young innovators at Smart India Hackathon 2019, world&amp;rsquo;s largest hackathon with 11000 shortlisted participants, hosted by 48 centers across India. It was organized by AICTE and MHRD, Govt of India. I was invited to Judge the event at Panipat Institute of Engineering &amp;amp; Technology, Panipat. I am delighted to contribute in the journey of India&amp;rsquo;s transformation, and see innovative ideas from the new generation.</description>
-    </item>
-    
-    <item>
-      <title>Software Development as a Design Process</title>
-      <link>http://localhost:1313/post/software-development-as-design-process/</link>
-      <pubDate>Mon, 05 Nov 2018 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/software-development-as-design-process/</guid>
-      <description>The book &amp;ldquo;Agile IT Organization Design - For digital transformation and continuous delivery&amp;rdquo; by Sriram Narayan explains software development as a design process. Following statement from the book means a lot.
+        </item>
+        
+        <item>
+            <title>Judge and Mentor -  Smart India Hackathon 2019</title>
+            <link>https://thinkuldeep.com//event/sih_2019_an_experience/</link>
+            <pubDate>Thu, 07 Mar 2019 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/sih_2019_an_experience/</guid>
+            <description>Recently got a chance to judge and mentor india&amp;rsquo;s young innovators at Smart India Hackathon 2019, world&amp;rsquo;s largest hackathon with 11000 shortlisted participants, hosted by 48 centers across India. It was organized by AICTE and MHRD, Govt of India. I was invited to Judge the event at Panipat Institute of Engineering &amp;amp; Technology, Panipat. I am delighted to contribute in the journey of India&amp;rsquo;s transformation, and see innovative ideas from the new generation.</description>
+        </item>
+        
+        <item>
+            <title>Software Development as a Design Process</title>
+            <link>https://thinkuldeep.com//post/software-development-as-design-process/</link>
+            <pubDate>Mon, 05 Nov 2018 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/software-development-as-design-process/</guid>
+            <description>The book &amp;ldquo;Agile IT Organization Design - For digital transformation and continuous delivery&amp;rdquo; by Sriram Narayan explains software development as a design process. Following statement from the book means a lot.
  &amp;ldquo;Software development is a design process, and the production environment is the factory where product takes place. IT OPS work to keep the factory running..&amp;rdquo;
  It questions the way we traditionally think of operation support, maintenance, production bugs, rework, their costs and budgets and the focus in software development life.</description>
-    </item>
-    
-    <item>
-      <title>Boost your organisation agility by test-first-pair development</title>
-      <link>http://localhost:1313/post/test-first-pair-development/</link>
-      <pubDate>Sat, 15 Sep 2018 10:58:08 -0400</pubDate>
-      
-      <guid>http://localhost:1313/post/test-first-pair-development/</guid>
-      <description>Agile software development methodology is the key selling point for most of the IT organisations, however many of the organisations have gone by the literal meaning of the word &amp;ldquo;Agile&amp;rdquo;. They follow agile practices without really being agile. If we go by Manifesto for Agile Software Development, it focus more on human factor (people, interaction, collaboration) which produces working software as per the need of time, than on processes, tools and strict planning.</description>
-    </item>
-    
-  </channel>
+        </item>
+        
+        <item>
+            <title>Boost your organisation agility by test-first-pair development</title>
+            <link>https://thinkuldeep.com//post/test-first-pair-development/</link>
+            <pubDate>Sat, 15 Sep 2018 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/test-first-pair-development/</guid>
+            <description>Agile software development methodology is the key selling point for most of the IT organisations, however many of the organisations have gone by the literal meaning of the word &amp;ldquo;Agile&amp;rdquo;. They follow agile practices without really being agile. If we go by Manifesto for Agile Software Development, it focus more on human factor (people, interaction, collaboration) which produces working software as per the need of time, than on processes, tools and strict planning.</description>
+        </item>
+        
+    </channel>
 </rss>

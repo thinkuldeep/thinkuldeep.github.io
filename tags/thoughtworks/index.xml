@@ -86,6 +86,27 @@ I get a chance to join the event, and meet and listen to the industry leaders, e
         </item>
         
         <item>
+            <title>About</title>
+            <link>https://thinkuldeep.com//about/</link>
+            <pubDate>Wed, 25 Jan 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/</guid>
+            <description>Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.
+Kuldeep has developed innovative solutions that impact effectiveness and efficiency across domains, right from manufacturing to aviation, commodity trading and more. Kuldeep also invests time into evangelizing concepts like connected worker, installation assistant, remote expert, indoor positioning and digital twin, using smart glasses, IoT, blockchain and ARVR technologies within the CXO circles.</description>
+        </item>
+        
+        <item>
+            <title>Books</title>
+            <link>https://thinkuldeep.com//about/books/</link>
+            <pubDate>Wed, 25 Jan 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/books/</guid>
+            <description>My Thoughtworkings The guiding thoughts that work for me ☞ Download - Coming soon.
+Exploring the Metaverse : Redefining reality in the digital age Natural evolution in technology and human interactions converge to the metaverse ☞ Amazon - Coming soon. ☞ Flipkart - Coming soon. ☞ Coming soon.
+Metaverse Glossary Your gateway to the future Metaverse is a very vast topic. I appreciate author Mr. Ravindra Dastikop for taking a step forward and collecting 300+ terms and coming up with a book “Metaverse Glossary”, it covers a variety of terms from history, busineses, user experience design, development, tools, and techniques.</description>
+        </item>
+        
+        <item>
             <title>AI-Assisted Content Generation Pipeline for XR</title>
             <link>https://thinkuldeep.com//post/ai-generated-xr-content/</link>
             <pubDate>Tue, 24 Jan 2023 10:58:08 -0400</pubDate>
@@ -405,6 +426,15 @@ Today, however, COVID-19 with its mandates of social distancing and less to no p
         </item>
         
         <item>
+            <title>Videos</title>
+            <link>https://thinkuldeep.com//about/videos/</link>
+            <pubDate>Wed, 10 Jun 2020 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/videos/</guid>
+            <description>Jim corbett trip - Jun, 2023  Lakshya&amp;rsquo;s visit to Thoughtworks Gurugram - May, 2023  16th Wedding anniversary - Feb, 2023  Father Retirement Speech - Jun, 2022  ☞ More Details 14th Wedding anniversary - Feb, 2021  Keep Moving - Jan, 2021  3rd Birthday Lovyansh - Jun, 2020  ☞ More Details </description>
+        </item>
+        
+        <item>
             <title>eXtending reality with AR and VR - Part 2</title>
             <link>https://thinkuldeep.com//post/extending_reality_with_ar_and_vr-2/</link>
             <pubDate>Fri, 10 Apr 2020 10:58:08 -0400</pubDate>
@@ -489,16 +519,6 @@ It&amp;rsquo;s now more than 6 months of my journey with Thoughtworks, an organi
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//post/accept_the_change/</guid>
             <description>The change is inevitable and constant; it is a part of our life. Sooner or later, we have to accept the change. 13 years ago, I joined a small IT organisation of around 100 people, as a developer. I have grown with the organisation; a 40 times growth journey. I really thank the organisation for giving me opportunity, and transforming me, what I am today. Now, the time has come to accept a change, and start a new journey.</description>
-        </item>
-        
-        <item>
-            <title>About</title>
-            <link>https://thinkuldeep.com//about/</link>
-            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/</guid>
-            <description>Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.
-Kuldeep has developed innovative solutions that impact effectiveness and efficiency across domains, right from manufacturing to aviation, commodity trading and more. Kuldeep also invests time into evangelizing concepts like connected worker, installation assistant, remote expert, indoor positioning and digital twin, using smart glasses, IoT, blockchain and ARVR technologies within the CXO circles.</description>
         </item>
         
     </channel>

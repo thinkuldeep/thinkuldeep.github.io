@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>ai on Kuldeep Singh</title>
+        <title>AI on Kuldeep Singh</title>
         <link>https://thinkuldeep.com//tags/ai/</link>
-        <description>Recent content in ai on Kuldeep Singh</description>
+        <description>Recent content in AI on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
@@ -126,6 +126,15 @@ Ideas were touching were reflecting the Thougthworks culture, use technology to 
             <guid>https://thinkuldeep.com//event/bmu-hack4/</guid>
             <description>BML Munjal University,a Hero group initiative, is organizing a 4th edition Hackathon, named HackBMU 4.0. It is a hackathon focused on promoting innovation, diversity and networking among all future hackers. We will be hosting upcoming engineers and developers from all over the World to create mobile, web, and hardware hacks for an intense session.
 HackBMU seeks to provide a welcoming and supportive environment to all participants to develop their skills, regardless of their background.</description>
+        </item>
+        
+        <item>
+            <title>Certificates</title>
+            <link>https://thinkuldeep.com//about/certificates/</link>
+            <pubDate>Thu, 25 Mar 2021 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/certificates/</guid>
+            <description>Building AI Elements of AI Product Management Enterprise Architecture Internet of Things (IOT) User Experience Design Taradata Certified Java Certified Programmer </description>
         </item>
         
         <item>

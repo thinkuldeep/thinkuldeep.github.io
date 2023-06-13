@@ -532,6 +532,36 @@
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
+        <loc>https://thinkuldeep.com//about/</loc>
+        <lastmod>2023-01-25T01:00:00-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com//tags/about/</loc>
+        <lastmod>2023-01-25T01:00:00-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com//about/books/</loc>
+        <lastmod>2023-01-25T01:00:00-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com//tags/books/</loc>
+        <lastmod>2023-01-25T01:00:00-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com//tags/me/</loc>
+        <lastmod>2023-01-25T01:00:00-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com//tags/profile/</loc>
+        <lastmod>2023-01-25T01:00:00-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
         <loc>https://thinkuldeep.com//post/ai-generated-xr-content/</loc>
         <lastmod>2023-01-24T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
@@ -897,6 +927,21 @@
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
+        <loc>https://thinkuldeep.com//tags/awards/</loc>
+        <lastmod>2022-03-25T01:00:00-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com//about/recognitions/</loc>
+        <lastmod>2022-03-25T01:00:00-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com//tags/recognitions/</loc>
+        <lastmod>2022-03-25T01:00:00-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
         <loc>https://thinkuldeep.com//event/bmu-hack5/</loc>
         <lastmod>2022-02-19T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
@@ -1132,6 +1177,36 @@
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
+        <loc>https://thinkuldeep.com//tags/architecture/</loc>
+        <lastmod>2021-03-25T01:00:00-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com//about/certificates/</loc>
+        <lastmod>2021-03-25T01:00:00-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com//tags/certificates/</loc>
+        <lastmod>2021-03-25T01:00:00-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com//tags/java/</loc>
+        <lastmod>2021-03-25T01:00:00-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com//tags/product-management/</loc>
+        <lastmod>2021-03-25T01:00:00-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com//tags/user-experience/</loc>
+        <lastmod>2021-03-25T01:00:00-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
         <loc>https://thinkuldeep.com//event/at_2020_agilexr/</loc>
         <lastmod>2021-03-06T01:00:00-04:00</lastmod>
         <changefreq>monthly</changefreq>
@@ -1321,6 +1396,16 @@
                 hreflang="en"
                 href="https://thinkuldeep.com//post/2020-year-of-change/"
         />
+    </url><url>
+        <loc>https://thinkuldeep.com//tags/video/</loc>
+        <lastmod>2020-06-10T01:00:00-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com//about/videos/</loc>
+        <lastmod>2020-06-10T01:00:00-04:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com//tags/introduction/</loc>
         <lastmod>2020-06-07T10:58:08-04:00</lastmod>
@@ -1669,16 +1754,6 @@
     </url><url>
         <loc>https://thinkuldeep.com//event/sih_2019_an_experience/</loc>
         <lastmod>2019-03-07T10:58:08-04:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com//tags/architecture/</loc>
-        <lastmod>2019-02-15T10:58:08-04:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com//tags/java/</loc>
-        <lastmod>2019-02-15T10:58:08-04:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
@@ -2531,14 +2606,6 @@
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>https://thinkuldeep.com//about/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com//tags/about/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url><url>
         <loc>https://thinkuldeep.com//categories/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -2563,14 +2630,6 @@
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com//tags/engineering/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com//tags/me/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com//tags/profile/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>

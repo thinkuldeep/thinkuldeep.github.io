@@ -20,7 +20,7 @@ a[href*="https://freehitcounters.org/"] {
 }
 
 img[src*="#profile"] {
-    width: 40%;
+    width: 20%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;

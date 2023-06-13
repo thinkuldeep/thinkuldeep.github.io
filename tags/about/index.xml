@@ -7,15 +7,58 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
-        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster><atom:link href="http://localhost:1313/tags/about/index.xml" rel="self" type="application/rss+xml" />
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Wed, 25 Jan 2023 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/about/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>About</title>
             <link>https://thinkuldeep.com//about/</link>
-            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <pubDate>Wed, 25 Jan 2023 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//about/</guid>
             <description>Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.
 Kuldeep has developed innovative solutions that impact effectiveness and efficiency across domains, right from manufacturing to aviation, commodity trading and more. Kuldeep also invests time into evangelizing concepts like connected worker, installation assistant, remote expert, indoor positioning and digital twin, using smart glasses, IoT, blockchain and ARVR technologies within the CXO circles.</description>
+        </item>
+        
+        <item>
+            <title>Books</title>
+            <link>https://thinkuldeep.com//about/books/</link>
+            <pubDate>Wed, 25 Jan 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/books/</guid>
+            <description>My Thoughtworkings The guiding thoughts that work for me ☞ Download - Coming soon.
+Exploring the Metaverse : Redefining reality in the digital age Natural evolution in technology and human interactions converge to the metaverse ☞ Amazon - Coming soon. ☞ Flipkart - Coming soon. ☞ Coming soon.
+Metaverse Glossary Your gateway to the future Metaverse is a very vast topic. I appreciate author Mr. Ravindra Dastikop for taking a step forward and collecting 300+ terms and coming up with a book “Metaverse Glossary”, it covers a variety of terms from history, busineses, user experience design, development, tools, and techniques.</description>
+        </item>
+        
+        <item>
+            <title>Recognitions</title>
+            <link>https://thinkuldeep.com//about/recognitions/</link>
+            <pubDate>Fri, 25 Mar 2022 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/recognitions/</guid>
+            <description>Awards Indian Achiever&amp;rsquo;s Awards 2022 ☞ More Details
+Recognitions Judge at Smart India Hackathon ☞ More Details ☞ More events like this
+Guest Lecture at NIT Calicut ☞ More Details ☞ More events like this
+Guest Lecture at DesignersX ☞ More Details ☞ More events like this
+Coverage  </description>
+        </item>
+        
+        <item>
+            <title>Certificates</title>
+            <link>https://thinkuldeep.com//about/certificates/</link>
+            <pubDate>Thu, 25 Mar 2021 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/certificates/</guid>
+            <description>Building AI Elements of AI Product Management Enterprise Architecture Internet of Things (IOT) User Experience Design Taradata Certified Java Certified Programmer </description>
+        </item>
+        
+        <item>
+            <title>Videos</title>
+            <link>https://thinkuldeep.com//about/videos/</link>
+            <pubDate>Wed, 10 Jun 2020 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/videos/</guid>
+            <description>Jim corbett trip - Jun, 2023  Lakshya&amp;rsquo;s visit to Thoughtworks Gurugram - May, 2023  16th Wedding anniversary - Feb, 2023  Father Retirement Speech - Jun, 2022  ☞ More Details 14th Wedding anniversary - Feb, 2021  Keep Moving - Jan, 2021  3rd Birthday Lovyansh - Jun, 2020  ☞ More Details </description>
         </item>
         
     </channel>

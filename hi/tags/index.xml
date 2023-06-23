@@ -8,22 +8,103 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Mon, 10 Oct 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/hi/tags/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sat, 10 Jun 2023 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/hi/tags/index.xml" rel="self" type="application/rss+xml" />
         <item>
-            <title>covid19</title>
-            <link>https://thinkuldeep.com//hi/tags/covid19/</link>
-            <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
+            <title>about</title>
+            <link>https://thinkuldeep.com//hi/tags/about/</link>
+            <pubDate>Sat, 10 Jun 2023 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//hi/tags/covid19/</guid>
+            <guid>https://thinkuldeep.com//hi/tags/about/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>change</title>
+            <link>https://thinkuldeep.com//hi/tags/change/</link>
+            <pubDate>Sat, 10 Jun 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/change/</guid>
             <description></description>
         </item>
         
         <item>
             <title>experience</title>
             <link>https://thinkuldeep.com//hi/tags/experience/</link>
-            <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
+            <pubDate>Sat, 10 Jun 2023 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//hi/tags/experience/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>learnings</title>
+            <link>https://thinkuldeep.com//hi/tags/learnings/</link>
+            <pubDate>Sat, 10 Jun 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/learnings/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>life</title>
+            <link>https://thinkuldeep.com//hi/tags/life/</link>
+            <pubDate>Sat, 10 Jun 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/life/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>me</title>
+            <link>https://thinkuldeep.com//hi/tags/me/</link>
+            <pubDate>Sat, 10 Jun 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/me/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>motivational</title>
+            <link>https://thinkuldeep.com//hi/tags/motivational/</link>
+            <pubDate>Sat, 10 Jun 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/motivational/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>profile</title>
+            <link>https://thinkuldeep.com//hi/tags/profile/</link>
+            <pubDate>Sat, 10 Jun 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/profile/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>thoughtworks</title>
+            <link>https://thinkuldeep.com//hi/tags/thoughtworks/</link>
+            <pubDate>Sat, 10 Jun 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/thoughtworks/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>video</title>
+            <link>https://thinkuldeep.com//hi/tags/video/</link>
+            <pubDate>Sat, 10 Jun 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/video/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>covid19</title>
+            <link>https://thinkuldeep.com//hi/tags/covid19/</link>
+            <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/covid19/</guid>
             <description></description>
         </item>
         
@@ -42,33 +123,6 @@
             <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//hi/tags/impact/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>learnings</title>
-            <link>https://thinkuldeep.com//hi/tags/learnings/</link>
-            <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//hi/tags/learnings/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>life</title>
-            <link>https://thinkuldeep.com//hi/tags/life/</link>
-            <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//hi/tags/life/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>motivational</title>
-            <link>https://thinkuldeep.com//hi/tags/motivational/</link>
-            <pubDate>Mon, 10 Oct 2022 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//hi/tags/motivational/</guid>
             <description></description>
         </item>
         
@@ -109,65 +163,11 @@
         </item>
         
         <item>
-            <title>change</title>
-            <link>https://thinkuldeep.com//hi/tags/change/</link>
-            <pubDate>Sun, 07 Feb 2021 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//hi/tags/change/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>thoughtworks</title>
-            <link>https://thinkuldeep.com//hi/tags/thoughtworks/</link>
-            <pubDate>Sun, 07 Feb 2021 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//hi/tags/thoughtworks/</guid>
-            <description></description>
-        </item>
-        
-        <item>
             <title>selfhelp</title>
             <link>https://thinkuldeep.com//hi/tags/selfhelp/</link>
             <pubDate>Sun, 21 Jun 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//hi/tags/selfhelp/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>about</title>
-            <link>https://thinkuldeep.com//hi/tags/about/</link>
-            <pubDate>Wed, 10 Jun 2020 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//hi/tags/about/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>me</title>
-            <link>https://thinkuldeep.com//hi/tags/me/</link>
-            <pubDate>Wed, 10 Jun 2020 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//hi/tags/me/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>profile</title>
-            <link>https://thinkuldeep.com//hi/tags/profile/</link>
-            <pubDate>Wed, 10 Jun 2020 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//hi/tags/profile/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>video</title>
-            <link>https://thinkuldeep.com//hi/tags/video/</link>
-            <pubDate>Wed, 10 Jun 2020 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//hi/tags/video/</guid>
             <description></description>
         </item>
         

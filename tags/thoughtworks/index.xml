@@ -8,7 +8,37 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Sat, 20 May 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/thoughtworks/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sat, 10 Jun 2023 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/thoughtworks/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>About</title>
+            <link>https://thinkuldeep.com//about/</link>
+            <pubDate>Sat, 10 Jun 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/</guid>
+            <description>Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.
+Kuldeep has developed innovative solutions that impact effectiveness and efficiency across domains, right from manufacturing to aviation, commodity trading and more. Kuldeep also invests time into evangelizing concepts like connected worker, installation assistant, remote expert, indoor positioning and digital twin, using smart glasses, IoT, blockchain and ARVR technologies within the CXO circles.</description>
+        </item>
+        
+        <item>
+            <title>Open-sources and Apps</title>
+            <link>https://thinkuldeep.com//about/open-sources/</link>
+            <pubDate>Sat, 10 Jun 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/open-sources/</guid>
+            <description>Arium — An Automation framework for Unity/XR Arium is a lightweight, extensible, platform-agnostic framework for writing automation tests in Unity not limited to but built specifically for XR (ARVR) Applications. I am part of core development team and a reviewer for this.
+☞ GitHub ☞ Medium Article ☞ Thoughtworks Insights
+DecoAR — Decorate the world with XR DecoAR is an App for exdended the decoration at home, office or any place.</description>
+        </item>
+        
+        <item>
+            <title>Some moments</title>
+            <link>https://thinkuldeep.com//about/moments/</link>
+            <pubDate>Sat, 10 Jun 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/moments/</guid>
+            <description>Jim corbett trip - Jun, 2023  Lakshya&amp;rsquo;s visit to Thoughtworks Gurugram - May, 2023  16th Wedding anniversary - Feb, 2023  Father Retirement Speech - Jun, 2022  ☞ More Details 14th Wedding anniversary - Feb, 2021  Keep Moving - Jan, 2021  3rd Birthday Lovyansh - Jun, 2020  ☞ More Details </description>
+        </item>
+        
         <item>
             <title>Progress Review - Meta-MeitY XR Startup Hub, IIT Delhi</title>
             <link>https://thinkuldeep.com//event/msh-progress-review-1/</link>
@@ -83,16 +113,6 @@ I get a chance to join the event, and meet and listen to the industry leaders, e
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//event/meta-meity-xr-startsup-hub-2022/</guid>
             <description>Extending Reality is providing experience to user where the boundaries of real and fake blur, and use believe in the new reality presented to them. In the recent years, the tech has evolved to enable extending the reality by XR (AR/VR) faster, and much more evolution still to happen. I was invited at Meta and Meity&amp;rsquo;s Startup Hub program as an industry expert. Here I reflect on the day I spend with the few of the top startup of india, who want to solve some of the key challenges using XR and related technology.</description>
-        </item>
-        
-        <item>
-            <title>About</title>
-            <link>https://thinkuldeep.com//about/</link>
-            <pubDate>Wed, 25 Jan 2023 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/</guid>
-            <description>Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.
-Kuldeep has developed innovative solutions that impact effectiveness and efficiency across domains, right from manufacturing to aviation, commodity trading and more. Kuldeep also invests time into evangelizing concepts like connected worker, installation assistant, remote expert, indoor positioning and digital twin, using smart glasses, IoT, blockchain and ARVR technologies within the CXO circles.</description>
         </item>
         
         <item>
@@ -423,15 +443,6 @@ Embracing an Agile approach is essential to any successful XR implementation.</d
             <guid>https://thinkuldeep.com//post/future-of-shoping/</guid>
             <description>eXtended Reality (XR) that includes AR and VR technologies have been silently disrupting the gaming industry for more than a decade. In the recent past, the tech has gained some traction in the education and training space.
 Today, however, COVID-19 with its mandates of social distancing and less to no physical interactions has accelerated adoption for XR. The tech is virtual, contactless, and delivers outstanding brand experiences - perfect for the new normal that multiple industries like retail will benefit from.</description>
-        </item>
-        
-        <item>
-            <title>Videos</title>
-            <link>https://thinkuldeep.com//about/videos/</link>
-            <pubDate>Wed, 10 Jun 2020 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/videos/</guid>
-            <description>Jim corbett trip - Jun, 2023  Lakshya&amp;rsquo;s visit to Thoughtworks Gurugram - May, 2023  16th Wedding anniversary - Feb, 2023  Father Retirement Speech - Jun, 2022  ☞ More Details 14th Wedding anniversary - Feb, 2021  Keep Moving - Jan, 2021  3rd Birthday Lovyansh - Jun, 2020  ☞ More Details </description>
         </item>
         
         <item>

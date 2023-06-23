@@ -10,6 +10,16 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Wed, 19 Apr 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>About</title>
+            <link>https://thinkuldeep.com//about/</link>
+            <pubDate>Sat, 10 Jun 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/</guid>
+            <description>Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.
+Kuldeep has developed innovative solutions that impact effectiveness and efficiency across domains, right from manufacturing to aviation, commodity trading and more. Kuldeep also invests time into evangelizing concepts like connected worker, installation assistant, remote expert, indoor positioning and digital twin, using smart glasses, IoT, blockchain and ARVR technologies within the CXO circles.</description>
+        </item>
+        
+        <item>
             <title>Exploring the Potential of XR Technology for Virtual Decoration</title>
             <link>https://thinkuldeep.com//post/xr-virtual-decoration/</link>
             <pubDate>Wed, 19 Apr 2023 10:58:08 -0400</pubDate>
@@ -26,16 +36,6 @@
             <guid>https://thinkuldeep.com//event/agiletoday_2023_ael/</guid>
             <description>Agility Today is a 2 days annual UnConference, to meet Agility needs of industry, gathered over past few years via meetups, Conferences and Webinar. This UnConference intends to give you best of Agile Psyche (Mindset Culture and Practice) and Geekery (Engineering, Tools and DevOps). This year in Agility Today Fest 2023 there are couple of programs.
 I am speaking to at Agile Engineering Lab (Technical Agility &amp;amp; Engineering Excellence), on topic of Scaling content generation for XR using AI.</description>
-        </item>
-        
-        <item>
-            <title>About</title>
-            <link>https://thinkuldeep.com//about/</link>
-            <pubDate>Wed, 25 Jan 2023 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/</guid>
-            <description>Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.
-Kuldeep has developed innovative solutions that impact effectiveness and efficiency across domains, right from manufacturing to aviation, commodity trading and more. Kuldeep also invests time into evangelizing concepts like connected worker, installation assistant, remote expert, indoor positioning and digital twin, using smart glasses, IoT, blockchain and ARVR technologies within the CXO circles.</description>
         </item>
         
         <item>

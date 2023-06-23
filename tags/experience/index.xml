@@ -8,7 +8,27 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Thu, 17 Nov 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/experience/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sat, 10 Jun 2023 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/experience/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Open-sources and Apps</title>
+            <link>https://thinkuldeep.com//about/open-sources/</link>
+            <pubDate>Sat, 10 Jun 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/open-sources/</guid>
+            <description>Arium — An Automation framework for Unity/XR Arium is a lightweight, extensible, platform-agnostic framework for writing automation tests in Unity not limited to but built specifically for XR (ARVR) Applications. I am part of core development team and a reviewer for this.
+☞ GitHub ☞ Medium Article ☞ Thoughtworks Insights
+DecoAR — Decorate the world with XR DecoAR is an App for exdended the decoration at home, office or any place.</description>
+        </item>
+        
+        <item>
+            <title>Some moments</title>
+            <link>https://thinkuldeep.com//about/moments/</link>
+            <pubDate>Sat, 10 Jun 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/moments/</guid>
+            <description>Jim corbett trip - Jun, 2023  Lakshya&amp;rsquo;s visit to Thoughtworks Gurugram - May, 2023  16th Wedding anniversary - Feb, 2023  Father Retirement Speech - Jun, 2022  ☞ More Details 14th Wedding anniversary - Feb, 2021  Keep Moving - Jan, 2021  3rd Birthday Lovyansh - Jun, 2020  ☞ More Details </description>
+        </item>
+        
         <item>
             <title>Corporate lessons from a Home Makeover</title>
             <link>https://thinkuldeep.com//post/corporate-lessons-from-a-home-makeover/</link>
@@ -63,15 +83,6 @@
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//event/sih-2020/</guid>
             <description>After a wonderful experience of participating as a judge and mentor at Smart India Hackathon 2019, I am delighted to share that I again got a chance to meet and judge India&amp;rsquo;s young winners and innovators at Grand Finale of Smart India Hackathon 2020, world’s biggest open innovation modal, organized by AICTE and MHRD, Govt of India. This time it is no more a hackathon but a hackathon of hackathons — 4 Lacks students, 1500 small hackathons, 40 Nodal centers, around 2000 mentors and 1000 evaluators, 11000 finalists and more…</description>
-        </item>
-        
-        <item>
-            <title>Videos</title>
-            <link>https://thinkuldeep.com//about/videos/</link>
-            <pubDate>Wed, 10 Jun 2020 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/videos/</guid>
-            <description>Jim corbett trip - Jun, 2023  Lakshya&amp;rsquo;s visit to Thoughtworks Gurugram - May, 2023  16th Wedding anniversary - Feb, 2023  Father Retirement Speech - Jun, 2022  ☞ More Details 14th Wedding anniversary - Feb, 2021  Keep Moving - Jan, 2021  3rd Birthday Lovyansh - Jun, 2020  ☞ More Details </description>
         </item>
         
         <item>

@@ -8,7 +8,27 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Sat, 20 May 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/learnings/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sat, 10 Jun 2023 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/learnings/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Open-sources and Apps</title>
+            <link>https://thinkuldeep.com//about/open-sources/</link>
+            <pubDate>Sat, 10 Jun 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/open-sources/</guid>
+            <description>Arium — An Automation framework for Unity/XR Arium is a lightweight, extensible, platform-agnostic framework for writing automation tests in Unity not limited to but built specifically for XR (ARVR) Applications. I am part of core development team and a reviewer for this.
+☞ GitHub ☞ Medium Article ☞ Thoughtworks Insights
+DecoAR — Decorate the world with XR DecoAR is an App for exdended the decoration at home, office or any place.</description>
+        </item>
+        
+        <item>
+            <title>Some moments</title>
+            <link>https://thinkuldeep.com//about/moments/</link>
+            <pubDate>Sat, 10 Jun 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/moments/</guid>
+            <description>Jim corbett trip - Jun, 2023  Lakshya&amp;rsquo;s visit to Thoughtworks Gurugram - May, 2023  16th Wedding anniversary - Feb, 2023  Father Retirement Speech - Jun, 2022  ☞ More Details 14th Wedding anniversary - Feb, 2021  Keep Moving - Jan, 2021  3rd Birthday Lovyansh - Jun, 2020  ☞ More Details </description>
+        </item>
+        
         <item>
             <title>Progress Review - Meta-MeitY XR Startup Hub, IIT Delhi</title>
             <link>https://thinkuldeep.com//event/msh-progress-review-1/</link>
@@ -103,15 +123,6 @@ Time was when virtual and augmented reality was regarded as simply gaming techno
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//post/the-learning-equation/</guid>
             <description>Today, The world is celebrating teacher’s day. I wish Happy Teacher&amp;rsquo;s day to all of us! We all are teachers and learners as every one of us has something to learn from others and something to teach others. I am thinking of an equation of learning that defines my way of learning and hope it would be helpful for you too.  The learning equation — Learning is proportional to Sharing; Learning ∝ Sharing</description>
-        </item>
-        
-        <item>
-            <title>Videos</title>
-            <link>https://thinkuldeep.com//about/videos/</link>
-            <pubDate>Wed, 10 Jun 2020 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/videos/</guid>
-            <description>Jim corbett trip - Jun, 2023  Lakshya&amp;rsquo;s visit to Thoughtworks Gurugram - May, 2023  16th Wedding anniversary - Feb, 2023  Father Retirement Speech - Jun, 2022  ☞ More Details 14th Wedding anniversary - Feb, 2021  Keep Moving - Jan, 2021  3rd Birthday Lovyansh - Jun, 2020  ☞ More Details </description>
         </item>
         
         <item>

@@ -10,17 +10,6 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Sat, 10 Jun 2023 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/life/index.xml" rel="self" type="application/rss+xml" />
         <item>
-            <title>Open-sources and Apps</title>
-            <link>https://thinkuldeep.com//about/open-sources/</link>
-            <pubDate>Sat, 10 Jun 2023 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/open-sources/</guid>
-            <description>Arium — An Automation framework for Unity/XR Arium is a lightweight, extensible, platform-agnostic framework for writing automation tests in Unity not limited to but built specifically for XR (ARVR) Applications. I am part of core development team and a reviewer for this.
-☞ GitHub ☞ Medium Article ☞ Thoughtworks Insights
-DecoAR — Decorate the world with XR DecoAR is an App for exdended the decoration at home, office or any place.</description>
-        </item>
-        
-        <item>
             <title>Some moments</title>
             <link>https://thinkuldeep.com//about/moments/</link>
             <pubDate>Sat, 10 Jun 2023 01:00:00 -0400</pubDate>
@@ -57,6 +46,17 @@ DecoAR — Decorate the world with XR DecoAR is an App for exdended the decorati
             <guid>https://thinkuldeep.com//post/lessons-of-life-father-retirement/</guid>
             <description>I started thinkuldeep.com keeping in mind that we learn every day in all situations of life, good or bad. Our learning matures by sharing, we explore more of us by giving it away to others.
  Recently my father turned 60, and has retired from government services. 60 years full of life is a quite big experience, where around 38 years he spent in serving the same Govt of Rajasthan.</description>
+        </item>
+        
+        <item>
+            <title>Open-sources and Apps</title>
+            <link>https://thinkuldeep.com//about/open-sources/</link>
+            <pubDate>Fri, 10 Jun 2022 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/open-sources/</guid>
+            <description>Arium — An Automation framework for Unity/XR Arium is a lightweight, extensible, platform-agnostic framework for writing automation tests in Unity not limited to but built specifically for XR (ARVR) Applications. I am part of core development team and a reviewer for this.
+☞ GitHub ☞ Medium Article ☞ Thoughtworks Insights
+DecoAR — Decorate the world with XR DecoAR is an App for exdended the decoration at home, office or any place.</description>
         </item>
         
         <item>

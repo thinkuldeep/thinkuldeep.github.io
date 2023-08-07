@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>asyc-agile on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/asyc-agile/</link>
+        <description>Recent content in asyc-agile on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sat, 05 Aug 2023 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/asyc-agile/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Books</title>
+            <link>https://thinkuldeep.com//about/books/</link>
+            <pubDate>Sat, 05 Aug 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/books/</guid>
+            <description>My thoughtworkings The guiding thoughts that work for me In celebration of Thoughtworks&amp;rsquo; 30th anniversary, I am excited to launch this eBook featuring guiding thoughts from a diverse set of 30 thoughtworkers. These thoughts have resonated with me and shaped my journey within the organization and life.
+This ebook is launched on my fifth anniversary at Thoughtworks. I believe this compilation of thoughts will not only serve as a personal reflection but also as a valuable resource for others on their own professional journeys.</description>
+        </item>
+        
+    </channel>
+</rss>

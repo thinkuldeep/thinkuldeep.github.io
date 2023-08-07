@@ -217,6 +217,21 @@
                 href="https://thinkuldeep.com//about/"
         />
     </url><url>
+        <loc>https://thinkuldeep.com/tags/agile/</loc>
+        <lastmod>2023-08-05T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/asyc-agile/</loc>
+        <lastmod>2023-08-05T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/async-first/</loc>
+        <lastmod>2023-08-05T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
         <loc>https://thinkuldeep.com/about/books/</loc>
         <lastmod>2023-08-05T01:00:00-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -612,11 +627,6 @@
                 href="https://thinkuldeep.com//tags/selfhelp/"
         />
     </url><url>
-        <loc>https://thinkuldeep.com/tags/agile/</loc>
-        <lastmod>2023-03-25T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
         <loc>https://thinkuldeep.com/tags/agilitytoday/</loc>
         <lastmod>2023-03-25T01:00:00-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -643,11 +653,6 @@
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com/tags/async-agile/</loc>
-        <lastmod>2023-03-16T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/async-first/</loc>
         <lastmod>2023-03-16T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>

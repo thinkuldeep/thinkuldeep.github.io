@@ -10,6 +10,15 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Fri, 29 Jul 2022 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/xconf/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>Generative AI for 3D content in XR and beyond</title>
+            <link>https://thinkuldeep.com//post/generative-ai-for-3d-content-in-xr-and-beyond/</link>
+            <pubDate>Wed, 09 Aug 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/generative-ai-for-3d-content-in-xr-and-beyond/</guid>
+            <description>We touched upon Generative AI while talking about AI assisted content pipeline for XR at Thoughtworks XConf 2022. Generative AI is capable of producing outputs that closely resemble those created by humans. It is evolving in multiple forms, one of its kind is ChatGPT, a useful tool buried beneath the hype. It was touted as Google Killer, and posed a disruption to the way we search, we communicate with machines, and the way machines can respond.</description>
+        </item>
+        
+        <item>
             <title>Speaker - XConf-2022 - Thoughtworks India</title>
             <link>https://thinkuldeep.com//event/thougthworks-xconf-2022/</link>
             <pubDate>Fri, 29 Jul 2022 10:58:08 -0400</pubDate>

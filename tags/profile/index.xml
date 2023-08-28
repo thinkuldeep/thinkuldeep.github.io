@@ -8,15 +8,24 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Sat, 05 Aug 2023 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/profile/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Mon, 28 Aug 2023 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/profile/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>About</title>
             <link>https://thinkuldeep.com//about/</link>
-            <pubDate>Sat, 05 Aug 2023 01:00:00 -0400</pubDate>
+            <pubDate>Mon, 28 Aug 2023 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//about/</guid>
             <description>Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.
 Kuldeep has developed innovative solutions that impact effectiveness and efficiency across domains, right from manufacturing to aviation, commodity trading and more. Kuldeep also invests time into evangelizing concepts like connected worker, installation assistant, remote expert, indoor positioning and digital twin, using smart glasses, IoT, blockchain and ARVR technologies within the CXO circles.</description>
+        </item>
+        
+        <item>
+            <title>Some moments</title>
+            <link>https://thinkuldeep.com//about/moments/</link>
+            <pubDate>Mon, 28 Aug 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/moments/</guid>
+            <description>House warming ceremony and RakshyaBandhan - Aug, 2023  Jim corbett trip - Jun, 2023  Lakshya&amp;rsquo;s visit to Thoughtworks Gurugram - May, 2023  16th Wedding anniversary - Feb, 2023  Father Retirement Speech - Jun, 2022  ☞ More Details 14th Wedding anniversary - Feb, 2021  Keep Moving - Jan, 2021  3rd Birthday Lovyansh - Jun, 2020  ☞ More Details </description>
         </item>
         
         <item>
@@ -27,15 +36,6 @@ Kuldeep has developed innovative solutions that impact effectiveness and efficie
             <guid>https://thinkuldeep.com//about/books/</guid>
             <description>My thoughtworkings The guiding thoughts that work for me In celebration of Thoughtworks&amp;rsquo; 30th anniversary, I am excited to launch this eBook featuring guiding thoughts from a diverse set of 30 thoughtworkers. These thoughts have resonated with me and shaped my journey within the organization and life.
 This ebook is launched on my fifth anniversary at Thoughtworks. I believe this compilation of thoughts will not only serve as a personal reflection but also as a valuable resource for others on their own professional journeys.</description>
-        </item>
-        
-        <item>
-            <title>Some moments</title>
-            <link>https://thinkuldeep.com//about/moments/</link>
-            <pubDate>Sat, 10 Jun 2023 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/moments/</guid>
-            <description>Jim corbett trip - Jun, 2023  Lakshya&amp;rsquo;s visit to Thoughtworks Gurugram - May, 2023  16th Wedding anniversary - Feb, 2023  Father Retirement Speech - Jun, 2022  ☞ More Details 14th Wedding anniversary - Feb, 2021  Keep Moving - Jan, 2021  3rd Birthday Lovyansh - Jun, 2020  ☞ More Details </description>
         </item>
         
         <item>

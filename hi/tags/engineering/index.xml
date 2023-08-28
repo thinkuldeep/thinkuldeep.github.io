@@ -7,12 +7,11 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
-        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Sat, 10 Jun 2023 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/hi/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster><atom:link href="http://localhost:1313/hi/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>About</title>
             <link>https://thinkuldeep.com//hi/about/</link>
-            <pubDate>Sat, 10 Jun 2023 01:00:00 -0400</pubDate>
+            <pubDate>Mon, 28 Aug 2023 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//hi/about/</guid>
             <description>Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.

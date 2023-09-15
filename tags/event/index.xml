@@ -8,7 +8,17 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Sat, 15 Jul 2023 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/event/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sat, 16 Sep 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/event/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Speaker at Rapid Prototyping Community - Products beyond software horizons!</title>
+            <link>https://thinkuldeep.com//event/products-beyond-software-horizons/</link>
+            <pubDate>Sat, 16 Sep 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/products-beyond-software-horizons/</guid>
+            <description>🤖 Rapid Prototyping Community Rapid Prototyping is an internal community @Thoughtworks, focused on building a culture of rapid prototyping and innovation. They organise various learnings events, and I was invited to speak at one of their events.
+I talked about the importance of holistic product development and how the modern products goes beyond software. I also discussed the impact of technological evolution on products, how to stay ahead of the curve.</description>
+        </item>
+        
         <item>
             <title>Speaker - Lean2Lead tech track - Twisted realities</title>
             <link>https://thinkuldeep.com//event/lean2lead_xr_2023/</link>

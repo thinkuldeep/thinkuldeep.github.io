@@ -7,11 +7,6 @@
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>https://thinkuldeep.com/tags/consulting/</loc>
-        <lastmod>2023-09-16T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
         <loc>https://thinkuldeep.com/tags/event/</loc>
         <lastmod>2023-09-16T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -32,21 +27,6 @@
                 href="https://thinkuldeep.com//tags/learnings/"
         />
     </url><url>
-        <loc>https://thinkuldeep.com/tags/motivational/</loc>
-        <lastmod>2023-09-16T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com//hi/tags/motivational/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//tags/motivational/"
-        />
-    </url><url>
         <loc>https://thinkuldeep.com/tags/product-development/</loc>
         <lastmod>2023-09-16T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -63,21 +43,6 @@
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com/event/products-beyond-software-horizons/</loc>
-        <lastmod>2023-09-16T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/story/</loc>
-        <lastmod>2023-09-16T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/storytelling/</loc>
-        <lastmod>2023-09-16T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/storywriting/</loc>
         <lastmod>2023-09-16T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
@@ -286,6 +251,21 @@
         <lastmod>2023-08-28T01:00:00-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/motivational/</loc>
+        <lastmod>2023-08-28T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com//hi/tags/motivational/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com//tags/motivational/"
+        />
     </url><url>
         <loc>https://thinkuldeep.com/tags/profile/</loc>
         <lastmod>2023-08-28T01:00:00-04:00</lastmod>
@@ -977,6 +957,11 @@
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
+        <loc>https://thinkuldeep.com/tags/consulting/</loc>
+        <lastmod>2022-09-16T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
         <loc>https://thinkuldeep.com/tags/effective/</loc>
         <lastmod>2022-09-16T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -998,11 +983,6 @@
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com/tags/tips/</loc>
-        <lastmod>2022-09-16T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/way-of-working/</loc>
         <lastmod>2022-09-16T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
@@ -1364,6 +1344,21 @@
     </url><url>
         <loc>https://thinkuldeep.com/post/my-impactful-change-stories/</loc>
         <lastmod>2021-08-10T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/story/</loc>
+        <lastmod>2021-07-21T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/storytelling/</loc>
+        <lastmod>2021-07-21T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/storywriting/</loc>
+        <lastmod>2021-07-21T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>

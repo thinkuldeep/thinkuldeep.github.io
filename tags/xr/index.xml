@@ -8,7 +8,17 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Sat, 16 Sep 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/xr/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Thu, 21 Sep 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/xr/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>XConf-2023 - Thoughtworks India - Takeaways</title>
+            <link>https://thinkuldeep.com//event/thougthworks-xconf-2023/</link>
+            <pubDate>Thu, 21 Sep 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/thougthworks-xconf-2023/</guid>
+            <description>The XConf XConf is Thoughtworks annual technology event created by technologists. It is designed for technologists who care deeply about software and its impact on the world.
+Last year, I presented on the topic of AI Assisted Content Pipeline for XR. This year, we took it a step further by hosting an immersive experience booth. We featured cutting-edge AR/VR devices and engaged in in-depth discussions about various industrial applications. It was truly enriching to interact with participants, share our insights, and absorb their perspectives.</description>
+        </item>
+        
         <item>
             <title>Speaker at Rapid Prototyping Community - Products beyond software horizons!</title>
             <link>https://thinkuldeep.com//event/products-beyond-software-horizons/</link>

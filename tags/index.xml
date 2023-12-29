@@ -10,6 +10,24 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Tue, 21 Nov 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>anticipation</title>
+            <link>https://thinkuldeep.com//tags/anticipation/</link>
+            <pubDate>Sat, 30 Dec 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/anticipation/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>open</title>
+            <link>https://thinkuldeep.com//tags/open/</link>
+            <pubDate>Sat, 30 Dec 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/open/</guid>
+            <description></description>
+        </item>
+        
+        <item>
             <title>ar</title>
             <link>https://thinkuldeep.com//tags/ar/</link>
             <pubDate>Tue, 21 Nov 2023 10:58:08 -0400</pubDate>
@@ -420,6 +438,24 @@
             <pubDate>Mon, 28 Aug 2023 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/about/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>director</title>
+            <link>https://thinkuldeep.com//tags/director/</link>
+            <pubDate>Mon, 28 Aug 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/director/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>engineering</title>
+            <link>https://thinkuldeep.com//tags/engineering/</link>
+            <pubDate>Mon, 28 Aug 2023 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/engineering/</guid>
             <description></description>
         </item>
         
@@ -2913,24 +2949,6 @@
             <pubDate>Thu, 05 Jan 2012 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/jfreechart/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>director</title>
-            <link>https://thinkuldeep.com//tags/director/</link>
-            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/director/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>engineering</title>
-            <link>https://thinkuldeep.com//tags/engineering/</link>
-            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/engineering/</guid>
             <description></description>
         </item>
         

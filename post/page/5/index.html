@@ -254,9 +254,6 @@ if (!doNotTrack) {
         <a href="/post/page/4/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
       </li>
       <li class="page-item">
-        <a href="/post/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
         <a href="/post/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
       </li>
       <li class="page-item">
@@ -268,13 +265,41 @@ if (!doNotTrack) {
       <li class="page-item active">
         <a aria-current="page" aria-label="Page 5" class="page-link" role="button">5</a>
       </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
+      <li class="page-item">
+        <a href="/post/page/6/" aria-label="Page 6" class="page-link" role="button">6</a>
       </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      <li class="page-item">
+        <a href="/post/page/6/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/post/page/6/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
       </li>
     </ul><aside class="flex-ns flex-wrap justify-around mt5">
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          
+          
+<div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Dec, 2014 - Post</span>
+    <h1 class="f3 near-black">
+      <a href="/post/java8-lambda-expression/" class="link black dim">
+        
+        <div class="mb3 pa5 bg-top" style="padding: 3rem; background: url('/images/jdk8-lambda.jpg');  background-repeat: no-repeat;
+  background-size: cover; background-position: center;">
+
+        </div>
+        
+        Introduction to Java Lambda Expression
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      After Java 8, developers can apply functional programming constructs in a pure Object-Oriented programming language through lambda expressions. Using lambda expression sequential and parallel execution can be achieved by passing behavior into methods. In Java world lambdas can be thought of as an anonymous method with a more compact syntax. Here compact means it is not mandatory to specify access modifiers, return type and parameter types while defining the expression.
+    </div>
+  </div>
+</div>
+
+        </div>
       
         <div class="relative w-100 w-30-l mb4 bg-white">
           
@@ -783,33 +808,6 @@ This article talks about the java approach for generating multiple documents fro
 
         </div>
       
-        <div class="relative w-100 w-30-l mb4 bg-white">
-          
-          
-<div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Jan, 2012 - Post</span>
-    <h1 class="f3 near-black">
-      <a href="/post/java-font-mapping/" class="link black dim">
-        
-        <div class="mb3 pa5 bg-top" style="padding: 3rem; background: url('/images/java.jpg');  background-repeat: no-repeat;
-  background-size: cover; background-position: center;">
-
-        </div>
-        
-        Font configuration in JVM
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Last year we have migrated one of our application from Java 5 to Java 6. The Java 6(OpenJDK) installation was done by client on a fresh system. After installing our application (under JBoss app), we found the fonts on JFreeCharts and on the images generated from AWT were not correct.
-We have solved the issue by configuring the fonts at JVM level. Let understand it better.
-How AWT / JFreeCharts shows the fonts AWT rely on native fonts, it usages default Java fonts (which best fits) if no native fonts mapping found.
-    </div>
-  </div>
-</div>
-
-        </div>
-      
     </aside>
     
     <ul class="pagination pagination-default">
@@ -818,9 +816,6 @@ How AWT / JFreeCharts shows the fonts AWT rely on native fonts, it usages defaul
       </li>
       <li class="page-item">
         <a href="/post/page/4/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/post/" aria-label="Page 1" class="page-link" role="button">1</a>
       </li>
       <li class="page-item">
         <a href="/post/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
@@ -834,11 +829,14 @@ How AWT / JFreeCharts shows the fonts AWT rely on native fonts, it usages defaul
       <li class="page-item active">
         <a aria-current="page" aria-label="Page 5" class="page-link" role="button">5</a>
       </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
+      <li class="page-item">
+        <a href="/post/page/6/" aria-label="Page 6" class="page-link" role="button">6</a>
       </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      <li class="page-item">
+        <a href="/post/page/6/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/post/page/6/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
       </li>
     </ul>
   </article>

@@ -1,3 +1,31 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    background: black;
+    z-index: 1000;
+ }
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    margin-bottom: 100px;
+}
+
+
+
 .measure-wide {
   max-width:none;
 }
@@ -12,7 +40,7 @@
 }
 
 a[href*="https://freehitcounters.org/"] {
-    color: #f4f4f4;
+    color: black;
 }
 
 .visitor-count{
@@ -78,7 +106,7 @@ aside.search {
     top: 0;
     bottom: 0;
     padding: 0;
-    z-index: 2;
+    z-index: 1000;
     opacity: 0;
     visibility: hidden;
     overflow-y: auto;
@@ -108,7 +136,7 @@ aside.search .close {
     right: 20px;
     width: 2rem;
     height: 2rem;
-    z-index: 999;
+    z-index: 10000;
 }
 
 aside.search .close-search {
@@ -117,7 +145,7 @@ aside.search .close-search {
     left: 50px;
     width: 2rem;
     height: 2rem;
-    z-index: 900;
+    z-index: 1001;
 }
 
 @media screen and (max-width: 57rem) {
@@ -139,8 +167,8 @@ aside.search .close svg path {
 aside.search .search-wrapper {
     position: fixed;
     width: 100%;
-    background-image: linear-gradient(to bottom, #282e37, #282e37, #282e37, #282e37, transparent, transparent);
-    padding: 3rem 1.5rem 4.5rem;
+    background: black;
+    padding: 3rem 1.5rem 1.5rem;
 }
 @media screen and (max-width: 36rem) {
     aside.search .search-wrapper {
@@ -239,7 +267,6 @@ code, .code {
 }
 
 
-
 @media screen and (min-width: 60em) {
     .mt6-l {
         margin-top: 0rem;
@@ -255,6 +282,7 @@ code, .code {
 /* Add a black background color to the top navigation */
 .topnav {
     overflow: hidden;
+    background: black;
 }
 
 /* Style the links inside the navigation bar */
@@ -353,4 +381,7 @@ code, .code {
         display: none;
     }
 
+    .visitor-count{
+        display: none;
+    }
 }

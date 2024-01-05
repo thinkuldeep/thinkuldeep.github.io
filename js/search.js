@@ -146,7 +146,9 @@ function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className.includes("topnav") && !x.className.includes("responsive")) {
     x.className += " responsive";
+    document.getElementById("socials").style.display = 'block';
   } else {
-    x.className = "topnav";
+    x.className = "header topnav";
+    document.getElementById("socials").style.display = 'none';
   }
 }

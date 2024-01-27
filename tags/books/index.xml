@@ -8,7 +8,18 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Sun, 06 Aug 2023 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/books/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sat, 27 Jan 2024 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/books/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Books</title>
+            <link>https://thinkuldeep.com//about/books/</link>
+            <pubDate>Sat, 27 Jan 2024 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/books/</guid>
+            <description>Exploring the Metaverse  Redefining Reality in the Digital Age Natural evolution in technology and human interactions converge to the metaverse
+☞ Amazon - Coming in 2024. ☞ Flipkart - Coming in 2024. ☞ Coming soon.
+My Thoughtworkings The guiding thoughts that work for me In celebration of Thoughtworks&amp;rsquo; 30th anniversary, I have launched this book featuring guiding thoughts from a diverse set of 30 thoughtworkers. These thoughts have resonated with me and shaped my journey within the organization and life.</description>
+        </item>
+        
         <item>
             <title>My thoughtworkings from five thoughtful years</title>
             <link>https://thinkuldeep.com//post/five-thoughtful-years/</link>
@@ -17,16 +28,6 @@
             <guid>https://thinkuldeep.com//post/five-thoughtful-years/</guid>
             <description>Thoughtworks is celebrating its 30th year in industry, and I have completed five years here, and to celebrate this, I have compiled thoughts from thoughtworkers, and published them as an ebook. I am grateful for the wealth of knowledge and experiences shared by my colleagues. These thoughts have resonated with me and shaped my journey within the organization and life.
 I am excited to launch the ebook with this post. I believe this compilation of thoughts will not only serve as a personal reflection but also as a valuable resource for others on their own professional journeys.</description>
-        </item>
-        
-        <item>
-            <title>Books</title>
-            <link>https://thinkuldeep.com//about/books/</link>
-            <pubDate>Sat, 05 Aug 2023 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/books/</guid>
-            <description>My thoughtworkings The guiding thoughts that work for me In celebration of Thoughtworks&amp;rsquo; 30th anniversary, I am excited to launch this eBook featuring guiding thoughts from a diverse set of 30 thoughtworkers. These thoughts have resonated with me and shaped my journey within the organization and life.
-This ebook is launched on my fifth anniversary at Thoughtworks. I believe this compilation of thoughts will not only serve as a personal reflection but also as a valuable resource for others on their own professional journeys.</description>
         </item>
         
     </channel>

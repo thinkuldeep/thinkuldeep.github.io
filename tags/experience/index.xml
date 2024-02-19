@@ -10,6 +10,19 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Mon, 28 Aug 2023 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/experience/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>Open-sources and Apps</title>
+            <link>https://thinkuldeep.com//about/open-sources/</link>
+            <pubDate>Mon, 19 Feb 2024 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/open-sources/</guid>
+            <description>ModelViewer WebXR and 3D Printing Demonstrations
+ ☞ Live Demo ☞ Github ☞ Learn WebXR ☞ Learn 3D Printing - coming soon
+3D Book Add pages to the book, and turn them like real pages.
+☞ Github ☞ Book launch - Five thoughtful years
+Arium — An Automation framework for Unity/XR Arium is a lightweight, extensible, platform-agnostic framework for writing automation tests in Unity not limited to but built specifically for XR (ARVR) Applications.</description>
+        </item>
+        
+        <item>
             <title>Some moments</title>
             <link>https://thinkuldeep.com//about/moments/</link>
             <pubDate>Mon, 28 Aug 2023 01:00:00 -0400</pubDate>
@@ -45,17 +58,6 @@
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//event/sih-2022/</guid>
             <description>After a wonderful experience of participating as a judge and mentor at Smart India Hackathon 2019 and 2020, I am delighted to share that I got a chance to meet and judge India&amp;rsquo;s young winners and innovators at Grand Finale of Smart India Hackathon Juniors 2022, Smart India Hackathon 2022 is a nationwide initiative to provide students a platform to solve some of the pressing problems we face in our daily lives, and thus inculcate a culture of product innovation and a mindset of problem solving.</description>
-        </item>
-        
-        <item>
-            <title>Open-sources and Apps</title>
-            <link>https://thinkuldeep.com//about/open-sources/</link>
-            <pubDate>Fri, 10 Jun 2022 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/open-sources/</guid>
-            <description>Arium — An Automation framework for Unity/XR Arium is a lightweight, extensible, platform-agnostic framework for writing automation tests in Unity not limited to but built specifically for XR (ARVR) Applications. I am part of core development team and a reviewer for this.
-☞ GitHub ☞ Medium Article ☞ Thoughtworks Insights
-DecoAR — Decorate the world with XR DecoAR is an App for exdended the decoration at home, office or any place.</description>
         </item>
         
         <item>

@@ -12,11 +12,24 @@
         <item>
             <title>About</title>
             <link>https://thinkuldeep.com//about/</link>
-            <pubDate>Sat, 27 Jan 2024 01:00:00 -0400</pubDate>
+            <pubDate>Mon, 19 Feb 2024 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//about/</guid>
             <description>Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.
 Kuldeep has developed innovative solutions that impact effectiveness and efficiency across domains, right from manufacturing to aviation, commodity trading and more. Kuldeep also invests time into evangelizing concepts like connected worker, installation assistant, remote expert, indoor positioning and digital twin, using smart glasses, IoT, blockchain and ARVR technologies within the CXO circles.</description>
+        </item>
+        
+        <item>
+            <title>Open-sources and Apps</title>
+            <link>https://thinkuldeep.com//about/open-sources/</link>
+            <pubDate>Mon, 19 Feb 2024 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/open-sources/</guid>
+            <description>ModelViewer WebXR and 3D Printing Demonstrations
+ ☞ Live Demo ☞ Github ☞ Learn WebXR ☞ Learn 3D Printing - coming soon
+3D Book Add pages to the book, and turn them like real pages.
+☞ Github ☞ Book launch - Five thoughtful years
+Arium — An Automation framework for Unity/XR Arium is a lightweight, extensible, platform-agnostic framework for writing automation tests in Unity not limited to but built specifically for XR (ARVR) Applications.</description>
         </item>
         
         <item>
@@ -234,17 +247,6 @@ This one is the 98th Conference/Round Table by VAMRR Technologies, and focus thi
             <guid>https://thinkuldeep.com//event/green-software-foundation-global-summit-2022/</guid>
             <description>Green Software Foundation Green Software Foundation (GSF) is building a trusted ecosystem of people, standards, tooling and best practices for Green Software. GSF works with vision to change the culture of building software across the tech industry, so sustainability becomes a core priority to software teams, just as important as performance, security, cost and accessibility. Read more here.
 GSF Global Summit 2022 The Green Software Foundation Global Summit 2022 is a series of free events organized by Green Software Foundation members all around the globe that are passionate about sustainable software development, maintenance.</description>
-        </item>
-        
-        <item>
-            <title>Open-sources and Apps</title>
-            <link>https://thinkuldeep.com//about/open-sources/</link>
-            <pubDate>Fri, 10 Jun 2022 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/open-sources/</guid>
-            <description>Arium — An Automation framework for Unity/XR Arium is a lightweight, extensible, platform-agnostic framework for writing automation tests in Unity not limited to but built specifically for XR (ARVR) Applications. I am part of core development team and a reviewer for this.
-☞ GitHub ☞ Medium Article ☞ Thoughtworks Insights
-DecoAR — Decorate the world with XR DecoAR is an App for exdended the decoration at home, office or any place.</description>
         </item>
         
         <item>

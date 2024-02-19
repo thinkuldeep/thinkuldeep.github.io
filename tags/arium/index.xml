@@ -12,12 +12,14 @@
         <item>
             <title>Open-sources and Apps</title>
             <link>https://thinkuldeep.com//about/open-sources/</link>
-            <pubDate>Fri, 10 Jun 2022 01:00:00 -0400</pubDate>
+            <pubDate>Mon, 19 Feb 2024 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//about/open-sources/</guid>
-            <description>Arium — An Automation framework for Unity/XR Arium is a lightweight, extensible, platform-agnostic framework for writing automation tests in Unity not limited to but built specifically for XR (ARVR) Applications. I am part of core development team and a reviewer for this.
-☞ GitHub ☞ Medium Article ☞ Thoughtworks Insights
-DecoAR — Decorate the world with XR DecoAR is an App for exdended the decoration at home, office or any place.</description>
+            <description>ModelViewer WebXR and 3D Printing Demonstrations
+ ☞ Live Demo ☞ Github ☞ Learn WebXR ☞ Learn 3D Printing - coming soon
+3D Book Add pages to the book, and turn them like real pages.
+☞ Github ☞ Book launch - Five thoughtful years
+Arium — An Automation framework for Unity/XR Arium is a lightweight, extensible, platform-agnostic framework for writing automation tests in Unity not limited to but built specifically for XR (ARVR) Applications.</description>
         </item>
         
     </channel>

@@ -8,7 +8,16 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Tue, 21 Dec 2021 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/google/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sun, 28 Apr 2024 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/google/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Livestreaming</title>
+            <link>https://thinkuldeep.com//about/streaming/</link>
+            <pubDate>Sun, 28 Apr 2024 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/streaming/</guid>
+            <description>XR in practice: the engineering challenges of extending reality Thoughtworks Podcast - ☞ More Details     AI Assisted Content Pipeline for XR Thoughtworks XConf 2022 - ☞ More Details      Using XR in building autonomous vehicles Thoughtworks MasterClass-2021 - ☞ More Details   &amp;nbsp;    The Shift from Enterprise XR to Ethical XR Thoughtworks XConf 2021 - ☞ More Details     Navigating the new normal The VRARA - ☞ More Details      eXtended Reality for Enterprise XROM Podcast - ☞ More Details     XR - Nicety to Necessity Techgig Webinars - ☞ More Details      How to get started with AR VR?</description>
+        </item>
+        
         <item>
             <title>Getting into the Metaverse — Part 2</title>
             <link>https://thinkuldeep.com//post/getting-into-the-metaverse-part-2/</link>

@@ -8,7 +8,16 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Mon, 28 Aug 2023 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/moments/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sun, 28 Apr 2024 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/moments/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Livestreaming</title>
+            <link>https://thinkuldeep.com//about/streaming/</link>
+            <pubDate>Sun, 28 Apr 2024 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/streaming/</guid>
+            <description>XR in practice: the engineering challenges of extending reality Thoughtworks Podcast - ☞ More Details     AI Assisted Content Pipeline for XR Thoughtworks XConf 2022 - ☞ More Details      Using XR in building autonomous vehicles Thoughtworks MasterClass-2021 - ☞ More Details   &amp;nbsp;    The Shift from Enterprise XR to Ethical XR Thoughtworks XConf 2021 - ☞ More Details     Navigating the new normal The VRARA - ☞ More Details      eXtended Reality for Enterprise XROM Podcast - ☞ More Details     XR - Nicety to Necessity Techgig Webinars - ☞ More Details      How to get started with AR VR?</description>
+        </item>
+        
         <item>
             <title>Some moments</title>
             <link>https://thinkuldeep.com//about/moments/</link>

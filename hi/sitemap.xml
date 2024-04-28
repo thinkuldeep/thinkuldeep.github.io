@@ -2,21 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>https://thinkuldeep.com/hi/about/</loc>
-        <lastmod>2024-01-27T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//about/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com//hi/about/"
-        />
-    </url><url>
         <loc>https://thinkuldeep.com/hi/tags/about/</loc>
         <lastmod>2024-01-27T01:00:00-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -32,6 +17,21 @@
                 href="https://thinkuldeep.com//hi/tags/about/"
         />
     </url><url>
+        <loc>https://thinkuldeep.com/hi/about/</loc>
+        <lastmod>2024-01-27T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com//about/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com//hi/about/"
+        />
+    </url><url>
         <loc>https://thinkuldeep.com/hi/tags/books/</loc>
         <lastmod>2024-01-27T01:00:00-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -45,51 +45,6 @@
                 rel="alternate"
                 hreflang="hi"
                 href="https://thinkuldeep.com//hi/tags/books/"
-        />
-    </url><url>
-        <loc>https://thinkuldeep.com/hi/tags/director/</loc>
-        <lastmod>2024-01-27T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//tags/director/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com//hi/tags/director/"
-        />
-    </url><url>
-        <loc>https://thinkuldeep.com/hi/tags/engineering/</loc>
-        <lastmod>2024-01-27T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//tags/engineering/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com//hi/tags/engineering/"
-        />
-    </url><url>
-        <loc>https://thinkuldeep.com/hi/tags/leader/</loc>
-        <lastmod>2024-01-27T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//tags/leader/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com//hi/tags/leader/"
         />
     </url><url>
         <loc>https://thinkuldeep.com/hi/tags/learnings/</loc>
@@ -150,21 +105,6 @@
                 rel="alternate"
                 hreflang="hi"
                 href="https://thinkuldeep.com//hi/tags/motivational/"
-        />
-    </url><url>
-        <loc>https://thinkuldeep.com/hi/tags/nagarro/</loc>
-        <lastmod>2024-01-27T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//tags/nagarro/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com//hi/tags/nagarro/"
         />
     </url><url>
         <loc>https://thinkuldeep.com/hi/tags/profile/</loc>
@@ -230,26 +170,6 @@
                 rel="alternate"
                 hreflang="hi"
                 href="https://thinkuldeep.com//hi/tags/takeaways/"
-        />
-    </url><url>
-        <loc>https://thinkuldeep.com/hi/tags/technology/</loc>
-        <lastmod>2024-01-27T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//tags/technology/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://thinkuldeep.com//de/tags/technology/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com//hi/tags/technology/"
         />
     </url><url>
         <loc>https://thinkuldeep.com/hi/</loc>

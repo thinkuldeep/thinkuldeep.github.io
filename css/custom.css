@@ -407,3 +407,8 @@ code, .code {
         width: 100%;
     }
 }
+
+
+.lh-title {
+    font-weight: bold;
+}

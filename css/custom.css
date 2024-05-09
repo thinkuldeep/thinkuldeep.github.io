@@ -69,7 +69,7 @@ img.home-link {
 }
 
 img.home-link:hover {
-    border: 3px solid #00f095;
+    border: 3px solid #4e3588;
 }
 
 .f-subheadline-l {
@@ -86,7 +86,7 @@ a.show-search {
 }
 
 a.hover-green:hover {
-    color: #67eba2;
+    color: #4e3588;
 }
 
 
@@ -100,7 +100,7 @@ a.show-search  svg path {
     fill: rgba(255, 255, 255, 0.7)
 }
 a.show-search:hover svg path {
-    fill: #67eba2;
+    fill: #4e3588;
 }
 
 aside.search {
@@ -170,7 +170,7 @@ aside.search .close svg {
     height: 2rem;
 }
 aside.search .close svg path {
-    fill: #67eba2;
+    fill: #4e3588;
 }
 aside.search .search-wrapper {
     position: fixed;
@@ -184,7 +184,7 @@ aside.search .search-wrapper {
     }
 }
 aside.search .search-wrapper input[type="search"] {
-    border: 3px solid #94f1be;
+    border: 3px solid #4e3588;
     color: rgba(0, 0, 0, 0.2);
     line-height: 2rem;
     font-size: 2rem;
@@ -211,10 +211,10 @@ aside.search .search-wrapper input[type="search"]::placeholder {
     opacity: 1;
 }
 aside.search .search-wrapper input[type="search"]:focus {
-    border: 3px solid #67eba2;
+    border: 3px solid #4e3588;
     outline: none;
     color: #3d434c;
-    box-shadow: 0 0 18px #67eba2;
+    box-shadow: 0 0 18px #4e3588;
 }
 aside.search .search-wrapper input[type="search"]::-webkit-search-decoration, aside.search .search-wrapper input[type="search"]::-webkit-search-cancel-button, aside.search .search-wrapper input[type="search"]::-webkit-search-results-button, aside.search .search-wrapper input[type="search"]::-webkit-search-results-decoration {
     -webkit-appearance: none;
@@ -244,13 +244,13 @@ aside.search ul.search-results li h4 a {
     border-bottom: none;
 }
 aside.search ul.search-results li .tags .tag {
-    color: #67eba2;
+    color: #4e3588;
 }
 aside.search ul.search-results li .tags .tag:first-child {
     margin-left: 0;
 }
 aside.search ul.search-results li .tags .tag:hover {
-    color: #67eba2;
+    color: #4e3588;
     background: rgba(255, 255, 255, .1);
 }
 aside.search ul.search-results li .purpose span {

@@ -8,7 +8,7 @@ body {
     position: sticky;
     top: 0;
     text-align: center;
-    background: black;
+    background: rgb(184, 43, 113, 0.95);
     z-index: 1000;
  }
 
@@ -18,6 +18,14 @@ body {
     width: 100%;
     padding: 10px;
     text-align: center;
+}
+
+.bg-black {
+    background-color: rgb(184, 43, 113, 0.95);
+}
+
+.bg-black-60{
+    background-color: rgb(184, 43, 113, 0.5);
 }
 
 .content {
@@ -40,7 +48,7 @@ body {
 }
 
 a[href*="https://freehitcounters.org/"] {
-    color: black;
+    color: rgb(184, 43, 113, 0.95);
 }
 
 .visitor-count{
@@ -167,7 +175,7 @@ aside.search .close svg path {
 aside.search .search-wrapper {
     position: fixed;
     width: 100%;
-    background: black;
+    background: rgb(184, 43, 113, 0.95);
     padding: 3rem 1.5rem 1.5rem;
 }
 @media screen and (max-width: 36rem) {
@@ -282,7 +290,7 @@ code, .code {
 /* Add a black background color to the top navigation */
 .topnav {
     overflow: hidden;
-    background: black;
+    background: rgb(184, 43, 113, 0.95);
 }
 
 /* Style the links inside the navigation bar */
@@ -391,7 +399,7 @@ code, .code {
         position: sticky;
         top: 0;
         text-align: center;
-        background: black;
+        background: rgb(184, 43, 113, 0.95);
         z-index: 1000;
     }
 

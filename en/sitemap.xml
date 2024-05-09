@@ -312,16 +312,6 @@
                 href="https://thinkuldeep.com//tags/change/"
         />
     </url><url>
-        <loc>https://thinkuldeep.com/tags/director/</loc>
-        <lastmod>2024-05-06T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/engineering/</loc>
-        <lastmod>2024-05-06T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
         <loc>https://thinkuldeep.com/tags/experience/</loc>
         <lastmod>2024-05-06T01:00:00-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -3129,5 +3119,13 @@
                 hreflang="en"
                 href="https://thinkuldeep.com//categories/"
         />
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/director/</loc>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/engineering/</loc>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
     </url>
 </urlset>

@@ -133,6 +133,11 @@
         />
         <xhtml:link
                 rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com//hi/tags/technology/"
+        />
+        <xhtml:link
+                rel="alternate"
                 hreflang="de"
                 href="https://thinkuldeep.com//de/tags/technology/"
         />

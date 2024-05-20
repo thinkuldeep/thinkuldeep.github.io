@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
+        <loc>https://thinkuldeep.com/event/gatherverse-xrevolve-summit/</loc>
+        <lastmod>2024-05-22T23:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
         <loc>https://thinkuldeep.com/tags/ai/</loc>
         <lastmod>2024-05-15T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -197,6 +202,11 @@
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
+        <loc>https://thinkuldeep.com/tags/gatherverse/</loc>
+        <lastmod>2024-05-06T23:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
         <loc>https://thinkuldeep.com/tags/iit/</loc>
         <lastmod>2024-05-06T23:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -237,6 +247,11 @@
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
+        <loc>https://thinkuldeep.com/tags/summit/</loc>
+        <lastmod>2024-05-06T23:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
         <loc>https://thinkuldeep.com/tags/takeaways/</loc>
         <lastmod>2024-05-06T23:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -251,6 +266,11 @@
                 hreflang="en"
                 href="https://thinkuldeep.com//tags/takeaways/"
         />
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/talk/</loc>
+        <lastmod>2024-05-06T23:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com/tags/web3/</loc>
         <lastmod>2024-05-06T23:58:08-04:00</lastmod>
@@ -578,11 +598,6 @@
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com/tags/students/</loc>
-        <lastmod>2024-04-24T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/talk/</loc>
         <lastmod>2024-04-24T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
@@ -993,11 +1008,6 @@
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com/tags/startup/</loc>
-        <lastmod>2023-11-21T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/summit/</loc>
         <lastmod>2023-11-21T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>

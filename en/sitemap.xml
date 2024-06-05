@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
+        <loc>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-3/</loc>
+        <lastmod>2024-06-04T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
         <loc>https://thinkuldeep.com/tags/ai/</loc>
         <lastmod>2024-05-29T23:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -260,6 +265,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://thinkuldeep.com//tags/mr/"
+        />
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/nagarro/</loc>
+        <lastmod>2024-05-15T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com//hi/tags/nagarro/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com//tags/nagarro/"
         />
     </url><url>
         <loc>https://thinkuldeep.com/tags/nft/</loc>
@@ -1956,21 +1976,6 @@
         <lastmod>2020-08-13T10:58:15-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/nagarro/</loc>
-        <lastmod>2020-08-06T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com//hi/tags/nagarro/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//tags/nagarro/"
-        />
     </url><url>
         <loc>https://thinkuldeep.com/post/two-thoughtful-years/</loc>
         <lastmod>2020-08-06T10:58:08-04:00</lastmod>

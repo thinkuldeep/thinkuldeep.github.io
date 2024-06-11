@@ -10,6 +10,17 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Wed, 05 Jun 2024 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>Patents</title>
+            <link>https://thinkuldeep.com//about/patents/</link>
+            <pubDate>Tue, 11 Jun 2024 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/patents/</guid>
+            <description>I have filed for patents to protect the following inventions. This listing includes patent applications that are pending as well as patents that have already been granted by the United States Patent and Trademark Office (USPTO).
+CONCURRENT RENDERING OF CANVASES FOR DIFFERENT APPS AS PART OF 3D SIMULATION This invention focuses on rendering multiple 2D mobile apps simultaneously in XR devices, arranged within a 3D spatial layout.
+This browser does not support PDFs.</description>
+        </item>
+        
+        <item>
             <title>Some moments</title>
             <link>https://thinkuldeep.com//about/moments/</link>
             <pubDate>Wed, 05 Jun 2024 01:00:00 -0400</pubDate>
@@ -147,9 +158,9 @@ It was an honor to accept this invitation, as engaging with the young, fresh min
             <pubDate>Tue, 16 Apr 2024 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//about/books/</guid>
-            <description>📕 Exploring the Metaverse  Redefining Reality in the Digital Age ☞ Amazon.in ☞ BPB Online ☞ Free Preview ☞ More Details 
+            <description>📕 Exploring the Metaverse  Redefining Reality in the Digital Age ☞ Amazon.com ☞ Amazon.in ☞ BPB Online ☞ Free Preview ☞ More Details 
 Natural evolution in technology and human interactions converge to the metaverse
-☞ Amazon.in ☞ eBook ☞ BPB Online ☞ Free Preview ☞ More Details 
+☞ Amazon.com ☞ Amazon.in ☞ eBook ☞ BPB Online ☞ Free Preview ☞ More Details 
    📕 My Thoughtworkings The guiding thoughts that work for me ☞ Book launch - Five thoughtful years ☞ Download</description>
         </item>
         
@@ -191,16 +202,6 @@ We highlighted content management as a key challenge in XR and metaverse adoptio
             <guid>https://thinkuldeep.com//post/exploring-the-metaverse-comming-soon/</guid>
             <description>In the world of tech buzzwords, “metaverse” has been topic of discussion, largely understood and misunderstood. It comes, goes, and comes again in new shapes and forms, definitions and understanding. The term has been around for three decades and is poised to continue its evolution.
 In the past, it has been defined to suit the narratives of organizations and individuals alike. Some see it as a game, others as a virtual world, while some view it as a tool for global connection and collaboration.</description>
-        </item>
-        
-        <item>
-            <title>Patents</title>
-            <link>https://thinkuldeep.com//about/patents/</link>
-            <pubDate>Wed, 13 Mar 2024 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/patents/</guid>
-            <description>I have filed for patents to protect the following inventions. This listing includes patent applications that are pending as well as patents that have already been granted by the United States Patent and Trademark Office (USPTO).
-1. CONVERSION OF 3D VIRTUAL ACTIONS INTO 2D ACTIONS This invention pertains to rendering a 2D mobile app in XR devices in 3D. We have developed a method to convert 3D interactions of XR devices into 2D interactions, enabling us to interact with 2D apps within a 3D environment.</description>
         </item>
         
         <item>

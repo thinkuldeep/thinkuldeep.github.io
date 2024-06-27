@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>convrse.ai on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/convrse.ai/</link>
+        <description>Recent content in convrse.ai on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Thu, 27 Jun 2024 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/convrse.ai/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Generative XR – Space aware AI bringing new era of immersion</title>
+            <link>https://thinkuldeep.com//post/generative-xr-space-aware-ai-bringing-new-era-of-immersion/</link>
+            <pubDate>Thu, 27 Jun 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/generative-xr-space-aware-ai-bringing-new-era-of-immersion/</guid>
+            <description>Artificial Intelligence has made significant strides with the development of Large Language Models (LLMs) or Generative AI, which are trained to understand and respond to human language naturally. Tools like OpenAI’s ChatGPT, Google’s Gemini, and Microsoft’s Co-pilot have become the go-to resources for &amp;ldquo;Ask me anything&amp;rdquo; queries. These innovations have been touted as potential Google Search Killer, disrupting the way we search for information, communicate with machines, and receive machine responses.</description>
+        </item>
+        
+        <item>
+            <title>🤝 Making the XR content usable with AI!</title>
+            <link>https://thinkuldeep.com//post/making-the-xr-content-usable-with-ai/</link>
+            <pubDate>Sun, 24 Mar 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/making-the-xr-content-usable-with-ai/</guid>
+            <description>Generative AI is revolutionizing content generation across various mediums, disrupting traditional methods in text, images, art, movies, and music creation. XR (Extended Reality) is also undergoing this transformation. In a previous article, Raju Kandaswamy and I discussed how AI aids in generating content for XR, meeting the dynamic needs of XR and the metaverse.
+We highlighted content management as a key challenge in XR and metaverse adoption. While generative AI methods offer some solutions, the significant hurdle of content optimization remains.</description>
+        </item>
+        
+    </channel>
+</rss>

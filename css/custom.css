@@ -8,7 +8,7 @@ body {
     position: sticky;
     top: 0;
     text-align: center;
-    background: rgb(184, 43, 113, 0.95);
+    background: rgb(43, 5, 111, 0.95);
     z-index: 1000;
  }
 
@@ -21,11 +21,11 @@ body {
 }
 
 .bg-black {
-    background-color: rgb(184, 43, 113, 0.95);
+    background-color: rgb(43, 5, 111, 0.95);
 }
 
 .bg-black-60{
-    background-color: rgb(184, 43, 113, 0.5);
+    background-color: rgb(43, 5, 111, 0.5);
 }
 
 .content {
@@ -48,7 +48,7 @@ body {
 }
 
 a[href*="https://freehitcounters.org/"] {
-    color: rgb(184, 43, 113, 0.95);
+    color: rgb(43, 5, 111, 0.95);
 }
 
 .visitor-count{
@@ -175,7 +175,7 @@ aside.search .close svg path {
 aside.search .search-wrapper {
     position: fixed;
     width: 100%;
-    background: rgb(184, 43, 113, 0.95);
+    background: rgb(43, 5, 111, 0.95);
     padding: 3rem 1.5rem 1.5rem;
 }
 @media screen and (max-width: 36rem) {
@@ -290,7 +290,7 @@ code, .code {
 /* Add a black background color to the top navigation */
 .topnav {
     overflow: hidden;
-    background: rgb(184, 43, 113, 0.95);
+    background: rgb(43, 5, 111, 0.95);
 }
 
 /* Style the links inside the navigation bar */
@@ -399,7 +399,7 @@ code, .code {
         position: sticky;
         top: 0;
         text-align: center;
-        background: rgb(184, 43, 113, 0.95);
+        background: rgb(43, 5, 111, 0.95);
         z-index: 1000;
     }
 
@@ -411,4 +411,8 @@ code, .code {
 
 .lh-title {
     font-weight: bold;
+}
+
+.page-header-custom {
+    background-image: linear-gradient(rgb(43, 5, 111, 0.7), rgb(43, 5, 111, 0.6), rgb(43, 5, 111, 0.7), rgb(43, 5, 111, 0.6), rgb(43, 5, 111, 0.1));
 }

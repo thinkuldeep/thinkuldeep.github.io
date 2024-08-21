@@ -280,15 +280,6 @@
         </item>
         
         <item>
-            <title>ficci</title>
-            <link>https://thinkuldeep.com//tags/ficci/</link>
-            <pubDate>Thu, 15 Aug 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/ficci/</guid>
-            <description></description>
-        </item>
-        
-        <item>
             <title>goi</title>
             <link>https://thinkuldeep.com//tags/goi/</link>
             <pubDate>Thu, 15 Aug 2024 10:58:08 -0400</pubDate>
@@ -307,11 +298,11 @@
         </item>
         
         <item>
-            <title>iit</title>
-            <link>https://thinkuldeep.com//tags/iit/</link>
+            <title>india</title>
+            <link>https://thinkuldeep.com//tags/india/</link>
             <pubDate>Thu, 15 Aug 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/iit/</guid>
+            <guid>https://thinkuldeep.com//tags/india/</guid>
             <description></description>
         </item>
         
@@ -325,15 +316,6 @@
         </item>
         
         <item>
-            <title>MIPS</title>
-            <link>https://thinkuldeep.com//tags/mips/</link>
-            <pubDate>Thu, 15 Aug 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/mips/</guid>
-            <description></description>
-        </item>
-        
-        <item>
             <title>ONDC</title>
             <link>https://thinkuldeep.com//tags/ondc/</link>
             <pubDate>Thu, 15 Aug 2024 10:58:08 -0400</pubDate>
@@ -343,47 +325,11 @@
         </item>
         
         <item>
-            <title>open-source</title>
-            <link>https://thinkuldeep.com//tags/open-source/</link>
-            <pubDate>Thu, 15 Aug 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/open-source/</guid>
-            <description></description>
-        </item>
-        
-        <item>
             <title>policies</title>
             <link>https://thinkuldeep.com//tags/policies/</link>
             <pubDate>Thu, 15 Aug 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/policies/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>practices</title>
-            <link>https://thinkuldeep.com//tags/practices/</link>
-            <pubDate>Thu, 15 Aug 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/practices/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>standards</title>
-            <link>https://thinkuldeep.com//tags/standards/</link>
-            <pubDate>Thu, 15 Aug 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/standards/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>students</title>
-            <link>https://thinkuldeep.com//tags/students/</link>
-            <pubDate>Thu, 15 Aug 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/students/</guid>
             <description></description>
         </item>
         
@@ -406,15 +352,6 @@
         </item>
         
         <item>
-            <title>university</title>
-            <link>https://thinkuldeep.com//tags/university/</link>
-            <pubDate>Thu, 15 Aug 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/university/</guid>
-            <description></description>
-        </item>
-        
-        <item>
             <title>UPI</title>
             <link>https://thinkuldeep.com//tags/upi/</link>
             <pubDate>Thu, 15 Aug 2024 10:58:08 -0400</pubDate>
@@ -424,9 +361,81 @@
         </item>
         
         <item>
+            <title>ficci</title>
+            <link>https://thinkuldeep.com//tags/ficci/</link>
+            <pubDate>Wed, 14 Aug 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/ficci/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>iit</title>
+            <link>https://thinkuldeep.com//tags/iit/</link>
+            <pubDate>Wed, 14 Aug 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/iit/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>MIPS</title>
+            <link>https://thinkuldeep.com//tags/mips/</link>
+            <pubDate>Wed, 14 Aug 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/mips/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>open-source</title>
+            <link>https://thinkuldeep.com//tags/open-source/</link>
+            <pubDate>Wed, 14 Aug 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/open-source/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>practices</title>
+            <link>https://thinkuldeep.com//tags/practices/</link>
+            <pubDate>Wed, 14 Aug 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/practices/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>standards</title>
+            <link>https://thinkuldeep.com//tags/standards/</link>
+            <pubDate>Wed, 14 Aug 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/standards/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>students</title>
+            <link>https://thinkuldeep.com//tags/students/</link>
+            <pubDate>Wed, 14 Aug 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/students/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>university</title>
+            <link>https://thinkuldeep.com//tags/university/</link>
+            <pubDate>Wed, 14 Aug 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/university/</guid>
+            <description></description>
+        </item>
+        
+        <item>
             <title>whitepaper</title>
             <link>https://thinkuldeep.com//tags/whitepaper/</link>
-            <pubDate>Thu, 15 Aug 2024 10:58:08 -0400</pubDate>
+            <pubDate>Wed, 14 Aug 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/whitepaper/</guid>
             <description></description>
@@ -435,7 +444,7 @@
         <item>
             <title>XROS</title>
             <link>https://thinkuldeep.com//tags/xros/</link>
-            <pubDate>Thu, 15 Aug 2024 10:58:08 -0400</pubDate>
+            <pubDate>Wed, 14 Aug 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/xros/</guid>
             <description></description>
@@ -444,7 +453,7 @@
         <item>
             <title>XTIC</title>
             <link>https://thinkuldeep.com//tags/xtic/</link>
-            <pubDate>Thu, 15 Aug 2024 10:58:08 -0400</pubDate>
+            <pubDate>Wed, 14 Aug 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/xtic/</guid>
             <description></description>
@@ -928,24 +937,6 @@
         </item>
         
         <item>
-            <title>director</title>
-            <link>https://thinkuldeep.com//tags/director/</link>
-            <pubDate>Wed, 05 Jun 2024 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/director/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>engineering</title>
-            <link>https://thinkuldeep.com//tags/engineering/</link>
-            <pubDate>Wed, 05 Jun 2024 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/engineering/</guid>
-            <description></description>
-        </item>
-        
-        <item>
             <title>experience</title>
             <link>https://thinkuldeep.com//tags/experience/</link>
             <pubDate>Wed, 05 Jun 2024 01:00:00 -0400</pubDate>
@@ -1050,15 +1041,6 @@
             <pubDate>Wed, 22 May 2024 23:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/summit/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>india</title>
-            <link>https://thinkuldeep.com//tags/india/</link>
-            <pubDate>Mon, 06 May 2024 23:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/india/</guid>
             <description></description>
         </item>
         
@@ -3435,6 +3417,24 @@
             <pubDate>Thu, 05 Jan 2012 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/jfreechart/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>director</title>
+            <link>https://thinkuldeep.com//tags/director/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/director/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>engineering</title>
+            <link>https://thinkuldeep.com//tags/engineering/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/engineering/</guid>
             <description></description>
         </item>
         

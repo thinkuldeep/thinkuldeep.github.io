@@ -237,6 +237,11 @@
                 href="https://thinkuldeep.com//tags/opportunity/"
         />
     </url><url>
+        <loc>https://thinkuldeep.com/post/patent-granted-xr-2/</loc>
+        <lastmod>2024-09-12T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
         <loc>https://thinkuldeep.com/tags/reading/</loc>
         <lastmod>2024-09-12T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -398,7 +403,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com/about/</loc>
-        <lastmod>2024-09-03T01:00:00-04:00</lastmod>
+        <lastmod>2024-09-12T01:00:00-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -411,6 +416,11 @@
                 hreflang="en"
                 href="https://thinkuldeep.com//about/"
         />
+    </url><url>
+        <loc>https://thinkuldeep.com/about/patents/</loc>
+        <lastmod>2024-09-12T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com/tags/about/</loc>
         <lastmod>2024-09-03T01:00:00-04:00</lastmod>
@@ -451,6 +461,36 @@
         <lastmod>2024-09-03T01:00:00-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/director/</loc>
+        <lastmod>2024-09-03T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com//hi/tags/director/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com//tags/director/"
+        />
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/engineering/</loc>
+        <lastmod>2024-09-03T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com//hi/tags/engineering/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com//tags/engineering/"
+        />
     </url><url>
         <loc>https://thinkuldeep.com/tags/ethics/</loc>
         <lastmod>2024-09-03T01:00:00-04:00</lastmod>
@@ -1099,11 +1139,6 @@
     </url><url>
         <loc>https://thinkuldeep.com/tags/webinar/</loc>
         <lastmod>2024-05-29T23:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/about/patents/</loc>
-        <lastmod>2024-05-25T01:00:00-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
@@ -3488,34 +3523,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://thinkuldeep.com//categories/"
-        />
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/director/</loc>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com//hi/tags/director/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//tags/director/"
-        />
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/engineering/</loc>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com//hi/tags/engineering/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//tags/engineering/"
         />
     </url>
 </urlset>

@@ -89,6 +89,10 @@ a.hover-green:hover {
     color: #4e3588;
 }
 
+a.hover-green:focus {
+    color: rgba(255,255,255,.9);
+}
+
 
 a.show-search svg {
     width: 1rem;

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>getting started on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/getting-started/</link>
+        <description>Recent content in getting started on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Wed, 25 Sep 2024 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/getting-started/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Booting Up the Internet of Things</title>
+            <link>https://thinkuldeep.com//post/iot-rebooting/</link>
+            <pubDate>Wed, 25 Sep 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-rebooting/</guid>
+            <description>A few years ago, I bought a Raspberry Pi 3, but during a house move, I misplaced it. Fast forward to this Diwali cleaning, and to my surprise, I found it! My son’s curiosity was piqued, so we decided to set it up together. While my recent focus has been on XR technologies and we setup XRPractices, but this moment brought me back to IoT — sparking the idea to share my journey and experiences through a series of articles on getting started with IoT.</description>
+        </item>
+        
+    </channel>
+</rss>

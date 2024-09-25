@@ -8,7 +8,70 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Mon, 23 Sep 2024 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Wed, 25 Sep 2024 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>cloud</title>
+            <link>https://thinkuldeep.com//tags/cloud/</link>
+            <pubDate>Wed, 25 Sep 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/cloud/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>getting started</title>
+            <link>https://thinkuldeep.com//tags/getting-started/</link>
+            <pubDate>Wed, 25 Sep 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/getting-started/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>IOT</title>
+            <link>https://thinkuldeep.com//tags/iot/</link>
+            <pubDate>Wed, 25 Sep 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/iot/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>learning</title>
+            <link>https://thinkuldeep.com//tags/learning/</link>
+            <pubDate>Wed, 25 Sep 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/learning/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>Raspberry PI</title>
+            <link>https://thinkuldeep.com//tags/raspberry-pi/</link>
+            <pubDate>Wed, 25 Sep 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/raspberry-pi/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>rebooting</title>
+            <link>https://thinkuldeep.com//tags/rebooting/</link>
+            <pubDate>Wed, 25 Sep 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/rebooting/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>technology</title>
+            <link>https://thinkuldeep.com//tags/technology/</link>
+            <pubDate>Wed, 25 Sep 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/technology/</guid>
+            <description></description>
+        </item>
+        
         <item>
             <title>AI</title>
             <link>https://thinkuldeep.com//tags/ai/</link>
@@ -78,15 +141,6 @@
             <pubDate>Mon, 23 Sep 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/iit/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>IOT</title>
-            <link>https://thinkuldeep.com//tags/iot/</link>
-            <pubDate>Mon, 23 Sep 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/iot/</guid>
             <description></description>
         </item>
         
@@ -1014,15 +1068,6 @@
             <pubDate>Thu, 27 Jun 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/optimization/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>technology</title>
-            <link>https://thinkuldeep.com//tags/technology/</link>
-            <pubDate>Thu, 27 Jun 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/technology/</guid>
             <description></description>
         </item>
         
@@ -2269,15 +2314,6 @@
         </item>
         
         <item>
-            <title>cloud</title>
-            <link>https://thinkuldeep.com//tags/cloud/</link>
-            <pubDate>Wed, 25 Mar 2020 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/cloud/</guid>
-            <description></description>
-        </item>
-        
-        <item>
             <title>mfa</title>
             <link>https://thinkuldeep.com//tags/mfa/</link>
             <pubDate>Wed, 25 Mar 2020 10:58:08 -0400</pubDate>
@@ -2661,15 +2697,6 @@
             <pubDate>Fri, 16 Dec 2016 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/python/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>Raspberry PI</title>
-            <link>https://thinkuldeep.com//tags/raspberry-pi/</link>
-            <pubDate>Fri, 16 Dec 2016 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/raspberry-pi/</guid>
             <description></description>
         </item>
         

@@ -21,6 +21,16 @@
         </item>
         
         <item>
+            <title>Getting Started with Soft IoT</title>
+            <link>https://thinkuldeep.com//post/soft-iot/</link>
+            <pubDate>Wed, 09 Oct 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/soft-iot/</guid>
+            <description>Learning IoT doesn’t have to be complex, especially when starting out. In this post, we’ll explore how to get started with IoT without diving deep into hardware complexities like wiring or understanding intricate sensor details.
+In an earlier article, we set up a Raspberry Pi. My son initially saw it as just another, albeit slower, computer. There was no “IoT” in it yet, just a basic device. But IoT is about more than just the device itself; it’s about integrating sensors and actuators.</description>
+        </item>
+        
+        <item>
             <title>📕 Exploring the Metaverse | Available Globally</title>
             <link>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</link>
             <pubDate>Fri, 04 Oct 2024 10:58:08 -0400</pubDate>
@@ -813,7 +823,8 @@ A student club at VIT Vellore named Mozilla Firefox Club invited me for a guest 
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//about/recognitions/</guid>
             <description>Awards Indian Achiever&amp;rsquo;s Awards 2022 ☞ More Details
-Recognitions Judge at Smart India Hackathon ☞ More Details ☞ More events like this
+Recognitions NITK Alumni Recognition ☞ Patent#11,988,832 B2 ☞ Patent#12,081,729 B2
+Judge at Smart India Hackathon ☞ More Details ☞ More events like this
 Guest Lecture at NIT Calicut ☞ More Details ☞ More events like this
 Guest Lecture at DesignersX ☞ More Details ☞ More events like this
 Coverage  </description>

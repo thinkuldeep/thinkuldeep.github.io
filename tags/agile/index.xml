@@ -10,6 +10,16 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Tue, 16 Apr 2024 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/agile/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>Myths and Realities of AI-Assisted Software Development</title>
+            <link>https://thinkuldeep.com//post/ai-assisted-software-development-myths/</link>
+            <pubDate>Thu, 10 Oct 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/ai-assisted-software-development-myths/</guid>
+            <description>AI is transforming the software development process, but there are many misconceptions about its capabilities. This article explores the common myths surrounding AI in software development and sheds light on its reality.
+In recent times, Artificial Intelligence (AI) has gained momentum across various fields, especially with the introduction of Generative AI (GenAI). AI is now widely accessible, often sparking discussions about its potential, its misuse, and, unfortunately, several myths. As the hype around AI intensifies, so does the Fear of Missing Out (FOMO), leading many to adopt it without fully understanding its true value.</description>
+        </item>
+        
+        <item>
             <title>Books</title>
             <link>https://thinkuldeep.com//about/books/</link>
             <pubDate>Tue, 16 Apr 2024 01:00:00 -0400</pubDate>

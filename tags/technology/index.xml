@@ -10,6 +10,16 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Thu, 10 Oct 2024 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>About</title>
+            <link>https://thinkuldeep.com//about/</link>
+            <pubDate>Wed, 16 Oct 2024 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/</guid>
+            <description>👉 About Me 📨 Contact Me 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
+👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
+        </item>
+        
+        <item>
             <title>Myths and Realities of AI-Assisted Software Development</title>
             <link>https://thinkuldeep.com//post/ai-assisted-software-development-myths/</link>
             <pubDate>Thu, 10 Oct 2024 10:58:08 -0400</pubDate>
@@ -37,16 +47,6 @@ In an earlier article, we set up a Raspberry Pi. My son initially saw it as just
             <guid>https://thinkuldeep.com//event/xrom-podcast-exploring-the-metaverse/</guid>
             <description>Exciting conversation on the future of tech with Eddie Avil, where we dive into my journey of writing Exploring the Metaverse, discuss the opportunities and challenges of the digital age, and even touch on mind-bending concepts like Programmable Dreams and Time Travel. Are we ready for what’s coming?
 XROM Podcast 🎙️ XROM PODCast, hosted by serial entrepreneur and visionary Eddie Avil, is an incredible YouTube channel showcasing conversations with industry leaders in emerging tech.</description>
-        </item>
-        
-        <item>
-            <title>About</title>
-            <link>https://thinkuldeep.com//about/</link>
-            <pubDate>Tue, 01 Oct 2024 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/</guid>
-            <description>👉 About Me 📨 Contact Me 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
-👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
         </item>
         
         <item>

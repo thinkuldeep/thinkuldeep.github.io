@@ -8,16 +8,15 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Tue, 15 Oct 2024 23:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/iot/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Wed, 16 Oct 2024 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/iot/index.xml" rel="self" type="application/rss+xml" />
         <item>
-            <title>📕 Exploring the Metaverse | Available Globally</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</link>
-            <pubDate>Wed, 16 Oct 2024 10:58:08 -0400</pubDate>
+            <title>Soft IoT Continued: Bringing the Internet into IoT</title>
+            <link>https://thinkuldeep.com//post/soft-iot-continued/</link>
+            <pubDate>Fri, 18 Oct 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</guid>
-            <description>Is the metaverse hype or reality? My new book explores what lies ahead &amp;ldquo;Exploring the Metaverse&amp;rdquo; is now available globally!
-Read the detail synopsis of the book here and testimonials from a diverse set of industry leaders
-Buy Paper Back: 🇧🇪 Amazon Belgium - 👉 Get it in 32,65€ (3% off)  🇧🇷 Amazon Brazil - 👉 Get it in R$436,82  🇨🇦 Amazon Canada - 👉 Get it in $45.</description>
+            <guid>https://thinkuldeep.com//post/soft-iot-continued/</guid>
+            <description>Simplifying IoT learning doesn’t have to mean getting bogged down with hardware details. Instead, let’s dive into Soft IoT — where we focus on software-driven IoT exploration. In this article, we’ll learn how to read inputs from a button and turn it into a web based remote control for an LED, all while keeping things software-centric..
+In the previous article, we introduced Soft IoT using a Grove Pi board, which simplifies IoT learning by hiding wiring and connections complexity.</description>
         </item>
         
         <item>
@@ -529,6 +528,17 @@ Dedicated to the IOT means:
             <guid>https://thinkuldeep.com//post/iot_cloud_platform_comparision/</guid>
             <description>The vision of IoT can be seen from two perspectives— ‘Internet’ centric and ‘Thing’ centric. The Internet centric architecture will involve internet services being the main focus while data is contributed by the objects. In the object centric architecture, the smart objects take the center stage.
 In order to realize the full potential of cloud computing as well as ubiquitous sensing, a combined framework with a cloud at the center seems to be most viable.</description>
+        </item>
+        
+        <item>
+            <title>📕 Exploring the Metaverse | Available Globally</title>
+            <link>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</guid>
+            <description>Is the metaverse hype or reality? My new book explores what lies ahead &amp;ldquo;Exploring the Metaverse&amp;rdquo; is now available globally!
+Read the detail synopsis of the book here and testimonials from a diverse set of industry leaders
+Buy Paper Back: 🇧🇪 Amazon Belgium - 👉 Get it in 32,65€ (3% off)  🇧🇷 Amazon Brazil - 👉 Get it in R$436,82  🇨🇦 Amazon Canada - 👉 Get it in $45.</description>
         </item>
         
     </channel>

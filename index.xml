@@ -8,16 +8,29 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Tue, 15 Oct 2024 23:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Wed, 16 Oct 2024 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
-            <title>📕 Exploring the Metaverse | Available Globally</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</link>
-            <pubDate>Wed, 16 Oct 2024 10:58:08 -0400</pubDate>
+            <title>Soft IoT Continued: Bringing the Internet into IoT</title>
+            <link>https://thinkuldeep.com//post/soft-iot-continued/</link>
+            <pubDate>Fri, 18 Oct 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</guid>
-            <description>Is the metaverse hype or reality? My new book explores what lies ahead &amp;ldquo;Exploring the Metaverse&amp;rdquo; is now available globally!
-Read the detail synopsis of the book here and testimonials from a diverse set of industry leaders
-Buy Paper Back: 🇧🇪 Amazon Belgium - 👉 Get it in 32,65€ (3% off)  🇧🇷 Amazon Brazil - 👉 Get it in R$436,82  🇨🇦 Amazon Canada - 👉 Get it in $45.</description>
+            <guid>https://thinkuldeep.com//post/soft-iot-continued/</guid>
+            <description>Simplifying IoT learning doesn’t have to mean getting bogged down with hardware details. Instead, let’s dive into Soft IoT — where we focus on software-driven IoT exploration. In this article, we’ll learn how to read inputs from a button and turn it into a web based remote control for an LED, all while keeping things software-centric..
+In the previous article, we introduced Soft IoT using a Grove Pi board, which simplifies IoT learning by hiding wiring and connections complexity.</description>
+        </item>
+        
+        <item>
+            <title>Open-sources and Apps</title>
+            <link>https://thinkuldeep.com//about/open-sources/</link>
+            <pubDate>Fri, 18 Oct 2024 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/open-sources/</guid>
+            <description>MQTT-Remote This is a web-based remote control for a led. It is a soft button on web that works in sync with hardware button.
+ ☞ Live Demo ☞ Github ☞ Learn More
+ModelViewer WebXR and 3D Printing Demonstrations
+ ☞ Live Demo ☞ Github ☞ Learn WebXR
+3D Book Add pages to the book, and turn them like real pages.
+☞ Github ☞ Book launch - Five thoughtful years</description>
         </item>
         
         <item>
@@ -450,19 +463,6 @@ In the past, it has been defined to suit the narratives of organizations and ind
             <guid>https://thinkuldeep.com//post/thoughtworks-immersive-is-the-new-interactive/</guid>
             <description>The way we interact with each other, and the world around us, is changing fast. And with consumer expectations continuing to grow, enterprises are racing to find new ways to deliver immersive experiences. I am republishing this article from Thoughtworks Insights here.
  As we discuss in the evolving interactions lens of our latest Looking Glass report, extended reality (XR) technologies offer new opportunities to engage and entertain. But what exactly is XR?</description>
-        </item>
-        
-        <item>
-            <title>Open-sources and Apps</title>
-            <link>https://thinkuldeep.com//about/open-sources/</link>
-            <pubDate>Mon, 19 Feb 2024 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/open-sources/</guid>
-            <description>ModelViewer WebXR and 3D Printing Demonstrations
- ☞ Live Demo ☞ Github ☞ Learn WebXR ☞ Learn 3D Printing - coming soon
-3D Book Add pages to the book, and turn them like real pages.
-☞ Github ☞ Book launch - Five thoughtful years
-Arium — An Automation framework for Unity/XR Arium is a lightweight, extensible, platform-agnostic framework for writing automation tests in Unity not limited to but built specifically for XR (ARVR) Applications.</description>
         </item>
         
         <item>
@@ -2020,6 +2020,17 @@ This article talks about the java approach for generating multiple documents fro
             <description>Last year we have migrated one of our application from Java 5 to Java 6. The Java 6(OpenJDK) installation was done by client on a fresh system. After installing our application (under JBoss app), we found the fonts on JFreeCharts and on the images generated from AWT were not correct.
 We have solved the issue by configuring the fonts at JVM level. Let understand it better.
 How AWT / JFreeCharts shows the fonts AWT rely on native fonts, it usages default Java fonts (which best fits) if no native fonts mapping found.</description>
+        </item>
+        
+        <item>
+            <title>📕 Exploring the Metaverse | Available Globally</title>
+            <link>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</guid>
+            <description>Is the metaverse hype or reality? My new book explores what lies ahead &amp;ldquo;Exploring the Metaverse&amp;rdquo; is now available globally!
+Read the detail synopsis of the book here and testimonials from a diverse set of industry leaders
+Buy Paper Back: 🇧🇪 Amazon Belgium - 👉 Get it in 32,65€ (3% off)  🇧🇷 Amazon Brazil - 👉 Get it in R$436,82  🇨🇦 Amazon Canada - 👉 Get it in $45.</description>
         </item>
         
     </channel>

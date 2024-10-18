@@ -12,14 +12,15 @@
         <item>
             <title>Open-sources and Apps</title>
             <link>https://thinkuldeep.com//about/open-sources/</link>
-            <pubDate>Mon, 19 Feb 2024 01:00:00 -0400</pubDate>
+            <pubDate>Fri, 18 Oct 2024 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//about/open-sources/</guid>
-            <description>ModelViewer WebXR and 3D Printing Demonstrations
- ☞ Live Demo ☞ Github ☞ Learn WebXR ☞ Learn 3D Printing - coming soon
+            <description>MQTT-Remote This is a web-based remote control for a led. It is a soft button on web that works in sync with hardware button.
+ ☞ Live Demo ☞ Github ☞ Learn More
+ModelViewer WebXR and 3D Printing Demonstrations
+ ☞ Live Demo ☞ Github ☞ Learn WebXR
 3D Book Add pages to the book, and turn them like real pages.
-☞ Github ☞ Book launch - Five thoughtful years
-Arium — An Automation framework for Unity/XR Arium is a lightweight, extensible, platform-agnostic framework for writing automation tests in Unity not limited to but built specifically for XR (ARVR) Applications.</description>
+☞ Github ☞ Book launch - Five thoughtful years</description>
         </item>
         
     </channel>

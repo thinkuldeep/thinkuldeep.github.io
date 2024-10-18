@@ -10,17 +10,6 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Fri, 04 Oct 2024 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
         <item>
-            <title>📕 Exploring the Metaverse | Available Globally</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</link>
-            <pubDate>Wed, 16 Oct 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</guid>
-            <description>Is the metaverse hype or reality? My new book explores what lies ahead &amp;ldquo;Exploring the Metaverse&amp;rdquo; is now available globally!
-Read the detail synopsis of the book here and testimonials from a diverse set of industry leaders
-Buy Paper Back: 🇧🇪 Amazon Belgium - 👉 Get it in 32,65€ (3% off)  🇧🇷 Amazon Brazil - 👉 Get it in R$436,82  🇨🇦 Amazon Canada - 👉 Get it in $45.</description>
-        </item>
-        
-        <item>
             <title>🙏 Exploring the Metaverse | Testimonial 7</title>
             <link>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-7/</link>
             <pubDate>Fri, 04 Oct 2024 10:58:08 -0400</pubDate>
@@ -248,6 +237,17 @@ Today, Metaverse is being considered as a $800 billion path with double digit gr
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//post/learnings-from-blockchain-based-development/</guid>
             <description>Blockchain or DLT (Distributed Ledger Technology) is getting good traction in the IT world these days. Earlier, this technology was being mostly explored by banks and other finance-related institutions, such as Bitcoin and Ethereum. Now, it is getting explored for other use cases for building distributed applications. Blockchain technology comes with a decentralized and immutable data structure that maintains a connected block of information. Each block is connected using a hash of the previous block, and every new block on the chain is validated (mined) before adding and replicating it.</description>
+        </item>
+        
+        <item>
+            <title>📕 Exploring the Metaverse | Available Globally</title>
+            <link>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</guid>
+            <description>Is the metaverse hype or reality? My new book explores what lies ahead &amp;ldquo;Exploring the Metaverse&amp;rdquo; is now available globally!
+Read the detail synopsis of the book here and testimonials from a diverse set of industry leaders
+Buy Paper Back: 🇧🇪 Amazon Belgium - 👉 Get it in 32,65€ (3% off)  🇧🇷 Amazon Brazil - 👉 Get it in R$436,82  🇨🇦 Amazon Canada - 👉 Get it in $45.</description>
         </item>
         
     </channel>

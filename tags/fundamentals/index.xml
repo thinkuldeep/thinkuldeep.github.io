@@ -10,6 +10,16 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Wed, 09 Oct 2024 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/fundamentals/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>Soft IoT Continued: Bringing the Internet into IoT</title>
+            <link>https://thinkuldeep.com//post/soft-iot-continued/</link>
+            <pubDate>Fri, 18 Oct 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/soft-iot-continued/</guid>
+            <description>Simplifying IoT learning doesn’t have to mean getting bogged down with hardware details. Instead, let’s dive into Soft IoT — where we focus on software-driven IoT exploration. In this article, we’ll learn how to read inputs from a button and turn it into a web based remote control for an LED, all while keeping things software-centric..
+In the previous article, we introduced Soft IoT using a Grove Pi board, which simplifies IoT learning by hiding wiring and connections complexity.</description>
+        </item>
+        
+        <item>
             <title>Getting Started with Soft IoT</title>
             <link>https://thinkuldeep.com//post/soft-iot/</link>
             <pubDate>Wed, 09 Oct 2024 10:58:08 -0400</pubDate>

@@ -8,15 +8,29 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Tue, 01 Oct 2024 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/about/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Wed, 16 Oct 2024 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/about/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>About</title>
             <link>https://thinkuldeep.com//about/</link>
-            <pubDate>Wed, 16 Oct 2024 01:00:00 -0400</pubDate>
+            <pubDate>Fri, 18 Oct 2024 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//about/</guid>
             <description>👉 About Me 📨 Contact Me 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
 👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
+        </item>
+        
+        <item>
+            <title>Open-sources and Apps</title>
+            <link>https://thinkuldeep.com//about/open-sources/</link>
+            <pubDate>Fri, 18 Oct 2024 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/open-sources/</guid>
+            <description>MQTT-Remote This is a web-based remote control for a led. It is a soft button on web that works in sync with hardware button.
+ ☞ Live Demo ☞ Github ☞ Learn More
+ModelViewer WebXR and 3D Printing Demonstrations
+ ☞ Live Demo ☞ Github ☞ Learn WebXR
+3D Book Add pages to the book, and turn them like real pages.
+☞ Github ☞ Book launch - Five thoughtful years</description>
         </item>
         
         <item>
@@ -76,19 +90,6 @@ I&amp;rsquo;m thrilled to share that a new patent has been granted to Lenovo for
             <guid>https://thinkuldeep.com//about/books/</guid>
             <description>📕 Exploring the Metaverse  Redefining Reality in the Digital Age &amp;ldquo;Exploring the Metaverse&amp;rdquo; is a comprehensive guide to the metaverse, the future state of the internet. Prepare yourself for what&amp;rsquo;s ahead by understanding the opportunities and challenges of the metaverse. This book calls us to action, emphasizing that its evolution is in our hands. You can find a detailed synopsis of the book here.
 Available globally on Amazon and BPB Online as both paperback and eBook.</description>
-        </item>
-        
-        <item>
-            <title>Open-sources and Apps</title>
-            <link>https://thinkuldeep.com//about/open-sources/</link>
-            <pubDate>Mon, 19 Feb 2024 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/open-sources/</guid>
-            <description>ModelViewer WebXR and 3D Printing Demonstrations
- ☞ Live Demo ☞ Github ☞ Learn WebXR ☞ Learn 3D Printing - coming soon
-3D Book Add pages to the book, and turn them like real pages.
-☞ Github ☞ Book launch - Five thoughtful years
-Arium — An Automation framework for Unity/XR Arium is a lightweight, extensible, platform-agnostic framework for writing automation tests in Unity not limited to but built specifically for XR (ARVR) Applications.</description>
         </item>
         
         <item>

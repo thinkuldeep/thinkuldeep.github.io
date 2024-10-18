@@ -10,6 +10,20 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Wed, 14 Aug 2024 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>Open-sources and Apps</title>
+            <link>https://thinkuldeep.com//about/open-sources/</link>
+            <pubDate>Fri, 18 Oct 2024 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/open-sources/</guid>
+            <description>MQTT-Remote This is a web-based remote control for a led. It is a soft button on web that works in sync with hardware button.
+ ☞ Live Demo ☞ Github ☞ Learn More
+ModelViewer WebXR and 3D Printing Demonstrations
+ ☞ Live Demo ☞ Github ☞ Learn WebXR
+3D Book Add pages to the book, and turn them like real pages.
+☞ Github ☞ Book launch - Five thoughtful years</description>
+        </item>
+        
+        <item>
             <title>🙏 Exploring the Metaverse | Testimonial 5</title>
             <link>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-5/</link>
             <pubDate>Wed, 14 Aug 2024 10:58:08 -0400</pubDate>
@@ -28,19 +42,6 @@ Prof. Mani has spearheaded innovation at XTIC and have made India proud. His pio
             <guid>https://thinkuldeep.com//post/extending-reality-the-enabler-xros/</guid>
             <description>Welcome to Internet 3.0, a transformative era where reality takes on new dimensions, driven by eXtended Reality (XR) at its core, along with AI, Cloud, IoT, and more. This evolution is the product of collaborative efforts involving academia, government, industry, and individuals. My book, Exploring the Metaverse, available globally, outlines this kind of collaboration as a call to action for all of us.
 FICCI XROS Fellowship Program Federation of Indian Chambers of Commerce &amp;amp; Industry (FICCI), is the voice of india&amp;rsquo;s business and industry for policy change.</description>
-        </item>
-        
-        <item>
-            <title>Open-sources and Apps</title>
-            <link>https://thinkuldeep.com//about/open-sources/</link>
-            <pubDate>Mon, 19 Feb 2024 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/open-sources/</guid>
-            <description>ModelViewer WebXR and 3D Printing Demonstrations
- ☞ Live Demo ☞ Github ☞ Learn WebXR ☞ Learn 3D Printing - coming soon
-3D Book Add pages to the book, and turn them like real pages.
-☞ Github ☞ Book launch - Five thoughtful years
-Arium — An Automation framework for Unity/XR Arium is a lightweight, extensible, platform-agnostic framework for writing automation tests in Unity not limited to but built specifically for XR (ARVR) Applications.</description>
         </item>
         
         <item>

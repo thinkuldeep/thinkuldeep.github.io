@@ -8,13 +8,58 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Fri, 18 Oct 2024 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sat, 26 Oct 2024 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>cloud</title>
+            <link>https://thinkuldeep.com//tags/cloud/</link>
+            <pubDate>Sat, 26 Oct 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/cloud/</guid>
+            <description></description>
+        </item>
+        
         <item>
             <title>docker</title>
             <link>https://thinkuldeep.com//tags/docker/</link>
             <pubDate>Sat, 26 Oct 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/docker/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>fundamentals</title>
+            <link>https://thinkuldeep.com//tags/fundamentals/</link>
+            <pubDate>Sat, 26 Oct 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/fundamentals/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>getting started</title>
+            <link>https://thinkuldeep.com//tags/getting-started/</link>
+            <pubDate>Sat, 26 Oct 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/getting-started/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>IOT</title>
+            <link>https://thinkuldeep.com//tags/iot/</link>
+            <pubDate>Sat, 26 Oct 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/iot/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>learning</title>
+            <link>https://thinkuldeep.com//tags/learning/</link>
+            <pubDate>Sat, 26 Oct 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/learning/</guid>
             <description></description>
         </item>
         
@@ -37,56 +82,20 @@
         </item>
         
         <item>
+            <title>technology</title>
+            <link>https://thinkuldeep.com//tags/technology/</link>
+            <pubDate>Sat, 26 Oct 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/technology/</guid>
+            <description></description>
+        </item>
+        
+        <item>
             <title>thread</title>
             <link>https://thinkuldeep.com//tags/thread/</link>
             <pubDate>Sat, 26 Oct 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/thread/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>cloud</title>
-            <link>https://thinkuldeep.com//tags/cloud/</link>
-            <pubDate>Fri, 18 Oct 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/cloud/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>fundamentals</title>
-            <link>https://thinkuldeep.com//tags/fundamentals/</link>
-            <pubDate>Fri, 18 Oct 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/fundamentals/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>getting started</title>
-            <link>https://thinkuldeep.com//tags/getting-started/</link>
-            <pubDate>Fri, 18 Oct 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/getting-started/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>IOT</title>
-            <link>https://thinkuldeep.com//tags/iot/</link>
-            <pubDate>Fri, 18 Oct 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/iot/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>learning</title>
-            <link>https://thinkuldeep.com//tags/learning/</link>
-            <pubDate>Fri, 18 Oct 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/learning/</guid>
             <description></description>
         </item>
         
@@ -109,15 +118,6 @@
         </item>
         
         <item>
-            <title>technology</title>
-            <link>https://thinkuldeep.com//tags/technology/</link>
-            <pubDate>Fri, 18 Oct 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/technology/</guid>
-            <description></description>
-        </item>
-        
-        <item>
             <title>about</title>
             <link>https://thinkuldeep.com//tags/about/</link>
             <pubDate>Fri, 18 Oct 2024 01:00:00 -0400</pubDate>
@@ -132,24 +132,6 @@
             <pubDate>Fri, 18 Oct 2024 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/arium/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>director</title>
-            <link>https://thinkuldeep.com//tags/director/</link>
-            <pubDate>Fri, 18 Oct 2024 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/director/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>engineering</title>
-            <link>https://thinkuldeep.com//tags/engineering/</link>
-            <pubDate>Fri, 18 Oct 2024 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/engineering/</guid>
             <description></description>
         </item>
         
@@ -3534,6 +3516,24 @@
             <pubDate>Thu, 05 Jan 2012 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/jfreechart/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>director</title>
+            <link>https://thinkuldeep.com//tags/director/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/director/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>engineering</title>
+            <link>https://thinkuldeep.com//tags/engineering/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/engineering/</guid>
             <description></description>
         </item>
         

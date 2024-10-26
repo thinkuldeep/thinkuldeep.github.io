@@ -50,7 +50,7 @@
 <meta property="article:modified_time" content="2024-10-26T10:58:08-04:00" /><meta itemprop="name" content="Understanding the Thread Protocol and Network">
 <meta itemprop="description" content="Building a Simulated IoT Network with Thread Protocol: A Step-by-Step Guide Using OpenThread and Docker"><meta itemprop="datePublished" content="2024-10-26T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2024-10-26T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1140">
+<meta itemprop="wordCount" content="1193">
 <meta itemprop="keywords" content="IOT,network,cloud,getting started,learning,technology,fundamentals,thread,openthread,docker," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Understanding the Thread Protocol and Network"/>
 <meta name="twitter:description" content="Building a Simulated IoT Network with Thread Protocol: A Step-by-Step Guide Using OpenThread and Docker"/>
@@ -311,7 +311,7 @@ if (!doNotTrack) {
       
       
         <span class="f6 mv4 dib tracked"> - 6 minutes read </span>
-        <span class="f6 mv4 dib tracked"> - 1140 words </span>
+        <span class="f6 mv4 dib tracked"> - 1193 words </span>
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In <a href="/tags/iot">previous articles</a>, we explored MQTT in-depth, even setting up a <a href="/post/soft-iot-continued/">web-based remote controller</a> that simulated a physical button. We did this in a “Soft IoT” way, avoiding hardware intricacies. However, in IoT, networking between devices plays a crucial role. Not all IoT devices are connected to the Internet or can communicate via MQTT over the internet, as shown in our earlier examples. These devices need a low-latency, low-power network that can auto-discover and manage device communication seamlessly. Popular protocols like <a href="https://en.wikipedia.org/wiki/Zigbee">Zigbee</a>, <a href="https://en.wikipedia.org/wiki/Matter_(standard)">Matter</a>, and Thread are designed for this purpose. In this article, we’ll focus on Thread, discussing its fundamentals and building a virtual Thread network — no physical hardware required.</p>
@@ -471,6 +471,11 @@ if (!doNotTrack) {
 <p>This demonstrates how Thread’s self-healing capabilities ensure the network remains stable and operational, even when nodes go offline or rejoin. Additional features, like configuring authentication, making Leader as a Commissioner to control which devices can join the network, provide further customization. For more in-depth guidance, refer to the <a href="https://openthread.io/codelabs/openthread-simulation?authuser=1#2">codelab</a>.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>This article introduced the fundamentals of the Thread protocol and demonstrated how to create a virtual Thread network using Docker. We saw how Thread’s mesh networking ensures robust and dynamic device communication. In the next tutorial, we’ll extend this setup with real hardware and explore how to connect a Thread network to the web for broader accessibility.</p>
+<p>In Chapter 4 of my book <a href="https://thinkuldeep.com/about/books/#exploring-the-metaverse">📕Exploring the Metaverse</a>, I discuss how IoT will shape our connected future, and <strong>XR devices are the evolved IoT</strong>.</p>
+<p><img src="/images/exploring-the-metaverse-books.png" alt="Image"></p>
+<p><a href="https://thinkuldeep.com/post/exploring-the-metaverse-available-globally/" class="ba b--moon-black bg-light-gray br2 color-inherit dib f9 hover-bg-moon-gray link mt2 ph2 pv1">☞ Click here for availability and discounts in your region</a></p>
+<p><a href="/post/exploring-the-metaverse-a-synopsis/" class="ba b--moon-black bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">☞ Read: <em>Exploring the Metaverse</em> - Synopsis</a></p>
+<p>Stay tuned for more! Keep learning, keep experimenting, and keep sharing.</p>
 <p>Find the <a href="https://medium.com/iotpractices">IoT Practices Publication</a> for more details.</p>
 
 <a href="/tags/iot"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃IOT</a>

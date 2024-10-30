@@ -8,7 +8,29 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Wed, 16 Oct 2024 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sun, 20 Oct 2024 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Exploring the AI-powered Metaverse is Our Next Reality</title>
+            <link>https://thinkuldeep.com//post/exploring-ai-powered-metaverse/</link>
+            <pubDate>Tue, 29 Oct 2024 20:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/exploring-ai-powered-metaverse/</guid>
+            <description>📖 My Takeaways from Our Next Reality by Alvin Wang Graylin and Louis Rosenberg
+☞ Buy - Exploring the Metaverse ☞ Buy - Our Next Reality 
+Our Next Reality topped my reading list for months, and travel always helps me catch up on books! After meeting Alvin at AWE Asia 2024, I was eager to dive in and finally complete it. Following recent trips to Singapore and now the US, here’s what I found worth sharing from the book.</description>
+        </item>
+        
+        <item>
+            <title>📕 Exploring the Metaverse | Available Globally</title>
+            <link>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</link>
+            <pubDate>Sun, 20 Oct 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</guid>
+            <description>Is the metaverse hype or reality? My new book explores what lies ahead &amp;ldquo;Exploring the Metaverse&amp;rdquo; is now available globally!
+Read the detail synopsis of the book here and testimonials from a diverse set of industry leaders
+Buy Paper Back: 🇧🇪 Amazon Belgium - 👉 Get it in 32,65€ (3% off)  🇧🇷 Amazon Brazil - 👉 Get it in R$436,82  🇨🇦 Amazon Canada - 👉 Get it in $45.</description>
+        </item>
+        
         <item>
             <title>Livestreaming</title>
             <link>https://thinkuldeep.com//about/streaming/</link>
@@ -518,17 +540,6 @@ Around 150 teams signed up across multiple tracks (Healthcare, Open Innovation, 
             <description>We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
  How to write a JNI program. jni_md.h not found. Incompatible data types. On widows cygwin1.dll is required when running Java code on the native library. and more.  Actually we were compiling NLP Solver’s native library (IPOPT) on windows 32 bit and on 64bit linux machine.
 Solving the chaos! Here are the steps we have followed to solve the above issues:</description>
-        </item>
-        
-        <item>
-            <title>📕 Exploring the Metaverse | Available Globally</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</link>
-            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</guid>
-            <description>Is the metaverse hype or reality? My new book explores what lies ahead &amp;ldquo;Exploring the Metaverse&amp;rdquo; is now available globally!
-Read the detail synopsis of the book here and testimonials from a diverse set of industry leaders
-Buy Paper Back: 🇧🇪 Amazon Belgium - 👉 Get it in 32,65€ (3% off)  🇧🇷 Amazon Brazil - 👉 Get it in R$436,82  🇨🇦 Amazon Canada - 👉 Get it in $45.</description>
         </item>
         
     </channel>

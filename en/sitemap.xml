@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
+        <loc>https://thinkuldeep.com/tags/emergingtech/</loc>
+        <lastmod>2024-12-09T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/sdv/</loc>
+        <lastmod>2024-12-09T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/event/thougthworks-xconf-2024/</loc>
+        <lastmod>2024-12-09T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
         <loc>https://thinkuldeep.com/tags/3d/</loc>
         <lastmod>2024-11-28T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -58,6 +73,11 @@
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com/tags/expert-insights/</loc>
+        <lastmod>2024-11-28T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/ficci/</loc>
         <lastmod>2024-11-28T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
@@ -1187,11 +1207,6 @@
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>https://thinkuldeep.com/tags/ficci/</loc>
-        <lastmod>2024-08-14T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
         <loc>https://thinkuldeep.com/tags/students/</loc>
         <lastmod>2024-08-14T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -1677,6 +1692,11 @@
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
+        <loc>https://thinkuldeep.com/tags/conference/</loc>
+        <lastmod>2023-12-09T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
         <loc>https://thinkuldeep.com/event/ficci-xros-fellowship-summit/</loc>
         <lastmod>2023-11-21T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -1689,11 +1709,6 @@
     </url><url>
         <loc>https://thinkuldeep.com/post/100-articles-50-events/</loc>
         <lastmod>2023-10-01T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/conference/</loc>
-        <lastmod>2023-09-21T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>

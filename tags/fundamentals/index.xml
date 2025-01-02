@@ -8,7 +8,17 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Sat, 26 Oct 2024 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/fundamentals/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Wed, 01 Jan 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/fundamentals/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Connecting Thread Devices to Internet</title>
+            <link>https://thinkuldeep.com//post/iot-thread-devices-internet/</link>
+            <pubDate>Wed, 01 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-thread-devices-internet/</guid>
+            <description>In previous articles, we explored the Thread Network and its protocol, focusing on the formation, functionality, and topology of the network. Thread is a lightweight, low-power communication protocol for IoT devices, operating on IPv6. We discussed its ability to automatically establish a mesh network and maintain connectivity through its robust topology.
+We simulated a Thread network using Docker. Now in this article, we’ll create a Thread network between physical devices and connect it to the internet.</description>
+        </item>
+        
         <item>
             <title>Understanding the Thread Protocol and Network</title>
             <link>https://thinkuldeep.com//post/iot-the-thread-protocol-and-network/</link>

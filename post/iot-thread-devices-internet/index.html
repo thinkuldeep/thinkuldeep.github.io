@@ -50,7 +50,7 @@
 <meta property="article:modified_time" content="2025-01-01T10:58:08-04:00" /><meta itemprop="name" content="Connecting Thread Devices to Internet">
 <meta itemprop="description" content="A step-by-step guide to integrating Thread network devices with the Internet"><meta itemprop="datePublished" content="2025-01-01T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2025-01-01T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1556">
+<meta itemprop="wordCount" content="1561">
 <meta itemprop="keywords" content="IOT,network,cloud,getting started,learning,technology,fundamentals,thread,openthread,docker," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Connecting Thread Devices to Internet"/>
 <meta name="twitter:description" content="A step-by-step guide to integrating Thread network devices with the Internet"/>
@@ -311,7 +311,7 @@ if (!doNotTrack) {
       
       
         <span class="f6 mv4 dib tracked"> - 8 minutes read </span>
-        <span class="f6 mv4 dib tracked"> - 1556 words </span>
+        <span class="f6 mv4 dib tracked"> - 1561 words </span>
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In <a href="/tags/iot">previous articles</a>, we explored the <a href="/post/iot-the-thread-protocol-and-network/">Thread Network and its protocol</a>, focusing on the formation, functionality, and topology of the network. Thread is a lightweight, low-power communication protocol for IoT devices, operating on IPv6. We discussed its ability to automatically establish a mesh network and maintain connectivity through its robust topology.</p>
@@ -330,16 +330,14 @@ if (!doNotTrack) {
 </ul>
 <h2 id="step-1--setting-up-the-thread-border-router">Step 1 — Setting Up the Thread Border Router</h2>
 <p>The Border Router bridges the Thread network with non-Thread networks (e.g., Wi-Fi or Ethernet). Three are few <a href="https://www.matteralpha.com/frequently-asked-questions/complete-list-thread-border-routers">commercial routers</a> available, but in this article we’ll use the open-source implementation provided by <a href="https://openthread.io/guides/border-router?authuser=1">OpenThread Border Router (OTBR)</a> to configure the Raspberry Pi as Border Router.</p>
-<ol>
-<li><strong>Download and Prepare the Raspberry Pi Image</strong>
+<h4 id="11-download-and-prepare-the-raspberry-pi-image"><strong>1.1 Download and Prepare the Raspberry Pi Image</strong></h4>
 <ul>
 <li>Download this Raspberry Pi image for OTBR and load it onto an SD card as described in our earlier article.</li>
 <li>Insert the SD card into the Raspberry Pi and configure your Wi-Fi AP and credentials during the initial setup:
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>kuldeep@thinkuldeep:~$ sudo raspi-config
 </span></span></code></pre></div></li>
 </ul>
-</li>
-<li><strong>Build and Configure OTBR</strong>
+<h4 id="12-build-and-configure-otbr">1.2 <strong>Build and Configure OTBR</strong></h4>
 <ul>
 <li>Install Git and Clone OTBR Repo
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>kuldeep@thinkuldeep:~$ sudo apt update
@@ -361,8 +359,7 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span>    Active: activating <span style="color:#f92672">(</span>start-pre<span style="color:#f92672">)</span> <span style="color:#f92672">(</span>Result: exit-code<span style="color:#f92672">)</span> since Web 2025-01-01 17:43:38 GM
 </span></span></code></pre></div></li>
 </ul>
-At this stage, the Border Router is set up but requires a Radio Co-Processor (RCP) to establish the Thread network.</li>
-</ol>
+<p>At this stage, the Border Router is set up but requires a Radio Co-Processor (RCP) to establish the Thread network.</p>
 <h2 id="step-2-setting-up-the-development-environment">Step 2: Setting Up the Development Environment</h2>
 <p>We’ll use Nordic Semiconductor’s <strong>nRF52840 chipset</strong> for this exercise. Follow these steps to set up the development environment for Mac:</p>
 <ol>
@@ -381,9 +378,8 @@ At this stage, the Border Router is set up but requires a Radio Co-Processor (RC
 </ol>
 <h2 id="step-3-preparing-one-nrf52840-dongle-as-an-rcp">Step 3: Preparing one nRF52840 Dongle as an RCP</h2>
 <p>Open Thread Border Router (OTBR) support Radio Co-Processor (RCP) mode of nRF chipset.</p>
-<ol>
-<li>
-<p><strong>Build the RCP Firmware</strong> - Clone OpenThread repository and Build OT RCP Image as follows.</p>
+<h4 id="31-build-the-rcp-firmware">3.1 <strong>Build the RCP Firmware</strong></h4>
+<p>Clone OpenThread repository and Build OT RCP Image as follows.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>kuldeep@PC1 % cd /opt/nordic/ncs/v2.8.0
 </span></span><span style="display:flex;"><span>kuldeep@PC1 % git clone --recursive https://github.com/openthread/ot-nrf528xx.git
 </span></span><span style="display:flex;"><span>
@@ -396,9 +392,7 @@ At this stage, the Border Router is set up but requires a Radio Co-Processor (RC
 </span></span><span style="display:flex;"><span>kuldeep@PC1 % arm-none-eabi-objcopy -O ihex ot-rcp ot-rcp.hex
 </span></span><span style="display:flex;"><span>kuldeep@PC1 % ls
 </span></span><span style="display:flex;"><span>kuldeep@PC1 % ot-cli-ftd ot-cli-mtd ot-ncp-ftd ot-rcp ot-rcp.hex
-</span></span></code></pre></div></li>
-<li>
-<p><strong>Flash the Firmware</strong></p>
+</span></span></code></pre></div><h4 id="32-flash-the-firmware">3.2 <strong>Flash the Firmware</strong></h4>
 <ul>
 <li>Put the dongle in <strong>DFU mode</strong> by pressing the small button next to the white button.
 <img src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*wj3Fh_kh4hap3rBqe3XfTQ.gif" alt="dfu"></li>
@@ -406,16 +400,11 @@ At this stage, the Border Router is set up but requires a Radio Co-Processor (RC
 <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*OtJN7Hj97apKT9PVTdmBIg.png" alt="programmer"></li>
 <li>Verify the dongle is no longer blinking, indicating successful flashing</li>
 </ul>
-</li>
-</ol>
 <h2 id="step-4-starting-the-thread-network">Step 4: Starting the Thread Network</h2>
-<ol>
-<li>
-<p>Connect the RCP to the Raspberry Pi</p>
+<h4 id="41-connect-the-rcp-to-the-raspberry-pi">4.1 Connect the RCP to the Raspberry Pi</h4>
 <ul>
 <li>Plug the dongle into the Raspberry Pi.</li>
-<li>Restart the OTBR agent, and wait till it is active.</li>
-</ul>
+<li>Restart the OTBR agent, and wait till it is active.
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>kuldeep@thinkuldeep:~ $ sudo service otbr-agent restart
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>kuldeep@thinkuldeep:~ $ sudo service otbr-agent status
@@ -432,8 +421,8 @@ At this stage, the Border Router is set up but requires a Radio Co-Processor (RC
 </span></span><span style="display:flex;"><span>Jan <span style="color:#ae81ff">01</span> 19:36:58 thinkuldeep otbr-agent<span style="color:#f92672">[</span>644<span style="color:#f92672">]</span>: 00:01:07.750 <span style="color:#f92672">[</span>I<span style="color:#f92672">]</span> RoutingManager: Will evaluate rou&gt;
 </span></span><span style="display:flex;"><span>Jan <span style="color:#ae81ff">01</span> 19:36:58 thinkuldeep otbr-agent<span style="color:#f92672">[</span>644<span style="color:#f92672">]</span>: 00:01:07.750 <span style="color:#f92672">[</span>I<span style="color:#f92672">]</span> RoutingManager: Received RA from &gt;      
 </span></span></code></pre></div></li>
-<li>
-<p>Start the Thread Network</p>
+</ul>
+<h4 id="42-start-the-thread-network">4.2 Start the Thread Network</h4>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>kuldeep@thinkuldeep:~ $ sudo ot-ctl dataset init new
 </span></span><span style="display:flex;"><span>Done
 </span></span><span style="display:flex;"><span>kuldeep@thinkuldeep:~ $ sudo ot-ctl dataset commit active
@@ -474,23 +463,18 @@ At this stage, the Border Router is set up but requires a Radio Co-Processor (RC
 </span></span><span style="display:flex;"><span>Done     
 </span></span></code></pre></div><p><strong>Off-Mesh-Routable(OMR)</strong> prefix <code>fde7:469d:7d12:1::/64</code> can be reached from the Wi-Fi/Ethernet network (IPv6 address of this node <code>fde7:469d:7d12:1:77bb:f0af:fa65:2529</code> starts with the OMR prefix)</p>
 <p><strong>NAT64</strong> Prefix <code>fde7:469d:7d12:2:0:0::/96</code> is will be used by Thread devices when communicating with an IPv4 host.</p>
-</li>
-</ol>
 <h2 id="step-5-preparing-thread-end-device">Step 5: Preparing Thread End Device</h2>
-<ol>
-<li><strong>Build the End Device Firmware</strong> - Build the Thread End Device Firmware from OpenThread’s CLI samples</li>
-</ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>  kuldeep@PC1 % cd /opt/nordic/ncs/v2.8.0/nrf/samples/openthread/cli
-</span></span><span style="display:flex;"><span>  kuldeep@PC1 % rm -rf build
-</span></span><span style="display:flex;"><span>  kuldeep@PC1 % west build -b nrf52840dongle_nrf52840 ./ -- -DOVERLAY_CONFIG<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nrf52840dongle_nrf52840.conf&#34;</span> -DDTC_OVERLAY_FILE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nrf52840dongle_nrf52840.overlay&#34;</span>
+<h4 id="51-build-the-end-device-firmware">5.1 <strong>Build the End Device Firmware</strong></h4>
+<p>Build the Thread End Device Firmware from OpenThread’s CLI samples</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>kuldeep@PC1 % cd /opt/nordic/ncs/v2.8.0/nrf/samples/openthread/cli
+</span></span><span style="display:flex;"><span>kuldeep@PC1 % rm -rf build
+</span></span><span style="display:flex;"><span>kuldeep@PC1 % west build -b nrf52840dongle_nrf52840 ./ -- -DOVERLAY_CONFIG<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nrf52840dongle_nrf52840.conf&#34;</span> -DDTC_OVERLAY_FILE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;nrf52840dongle_nrf52840.overlay&#34;</span>
 </span></span></code></pre></div><p>On success it will generate a firmware at <code>/opt/nordic/ncs/v2.8.0/nrf/samples/openthread/cli/build/cli/zephyr/zephyr.hex</code></p>
-<ol start="3">
-<li><strong>Flash Thread End Device</strong> - Plug second nRF52840 Dongle and Repeat the flashing steps from Step 3.2 using the <code>zephyr.hex</code> firmware.</li>
-</ol>
+<h4 id="52-flash-thread-end-device">5.2 <strong>Flash Thread End Device</strong></h4>
+<p>Plug second nRF52840 Dongle and Repeat the flashing steps from Step 3.2 using the <code>zephyr.hex</code> firmware.</p>
 <h2 id="step-6-joining-the-thread-network">Step 6: Joining the Thread Network</h2>
-<ol>
-<li>
-<p><strong>Access Network Credentials</strong> - SSH into the Raspberry Pi and retrieve the network credentials:</p>
+<h4 id="61-access-network-credentials">6.1 <strong>Access Network Credentials</strong></h4>
+<p>SSH into the Raspberry Pi and retrieve the network credentials:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>kuldeep@PC1 % ssh kuldeep@192.168.1.12
 </span></span><span style="display:flex;"><span>kuldeep@192.168.1.12<span style="color:#960050;background-color:#1e0010">&#39;</span>s password:
 </span></span><span style="display:flex;"><span>Linux thinkuldeep 6.6.51+rpt-rpi-v7 <span style="color:#75715e">#1 SMP Raspbian 1:6.6.51-1+rpt3 (2024-10-08) armv7l</span>
@@ -506,9 +490,8 @@ At this stage, the Border Router is set up but requires a Radio Co-Processor (RC
 </span></span><span style="display:flex;"><span>kuldeep@thinkuldeep:~ $ sudo ot-ctl dataset active -x
 </span></span><span style="display:flex;"><span>0e08000000000001000000030000174a0300001735060004001fffe002082dbb9520c986a4900708fd1fcec150fab21a05105c9a2475b25dbba261b9d557a9a7fa33030f4f70656e5468726561642d656462620102edbb0410b35ee9c0bfef6733005b6a17e125953c0c0402a0f7f8
 </span></span><span style="display:flex;"><span>Done
-</span></span></code></pre></div></li>
-<li>
-<p><strong>Join the network</strong> - Start another terminal to log into Thread End Device using screen command.</p>
+</span></span></code></pre></div><h4 id="62-join-the-network">6.2 <strong>Join the network</strong></h4>
+<p>Start another terminal to log into Thread End Device using screen command.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>kuldeep@PC1 % ls /dev/tty.
 </span></span><span style="display:flex;"><span>tty.Bluetooth-Incoming-Port%  tty.usbmodem1301%
 </span></span><span style="display:flex;"><span>kuldeep@PC1 % screen /dev/tty.usbmodem1301 <span style="color:#ae81ff">115200</span>
@@ -533,22 +516,18 @@ At this stage, the Border Router is set up but requires a Radio Co-Processor (RC
 </span></span><span style="display:flex;"><span><span style="color:#ae81ff">1</span> packets transmitted, <span style="color:#ae81ff">1</span> packets received. Packet loss <span style="color:#f92672">=</span> 0.0%. Round-trip min/avg/max <span style="color:#f92672">=</span> 38/38.0/38 ms.
 </span></span><span style="display:flex;"><span>Done
 </span></span><span style="display:flex;"><span>uart:~$      
-</span></span></code></pre></div></li>
-</ol>
-<h2 id="step-7-communicating-beyond-the-thread-network">Step 7: Communicating Beyond the Thread Network</h2>
+</span></span></code></pre></div><h2 id="step-7-communicating-beyond-the-thread-network">Step 7: Communicating Beyond the Thread Network</h2>
 <p>First, we’ll disable the Wi-Fi connection on this Thread End Device PC. Doing so will disconnect any SSH terminal sessions with the Raspberry Pi (OBTR). However, the Thread network will remain active, ensuring communication between the Thread end device and the Border Router (OBTR).</p>
-<ol>
-<li>
-<p><strong>Pinging a Public Address from the Thread End Device</strong> - To verify external communication, we’ll ping a public address (e.g., Google DNS).</p>
+<h4 id="71-pinging-a-public-address-from-the-thread-end-device">7.1. <strong>Pinging a Public Address from the Thread End Device</strong></h4>
+<p>To verify external communication, we’ll ping a public address (e.g., Google DNS).</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>uart:~$ ot ping 8.8.8.8
 </span></span><span style="display:flex;"><span>Pinging synthesized IPv6 address: fde7:469d:7d12:2:0:0:808:808
 </span></span><span style="display:flex;"><span><span style="color:#ae81ff">16</span> bytes from fde7:469d:7d12:2:0:0:808:808: icmp_seq<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span> hlim<span style="color:#f92672">=</span><span style="color:#ae81ff">118</span> time<span style="color:#f92672">=</span>138ms
 </span></span><span style="display:flex;"><span><span style="color:#ae81ff">1</span> packets transmitted, <span style="color:#ae81ff">1</span> packets received. Packet loss <span style="color:#f92672">=</span> 0.0%. Round-trip min/avg/max <span style="color:#f92672">=</span> 138/138.0/138 ms.
 </span></span><span style="display:flex;"><span>Done    
 </span></span></code></pre></div><p>This demonstrates successful communication from the Thread end device to an external public network.</p>
-</li>
-<li>
-<p><strong>Communicating with an IPv4 Host</strong> - Next, let’s communicate with a PC in the same Wi-Fi network, which is running a UDP server. The host’s IP address is <em>192.168.1.4</em>, and it listens over UDP using Netcat:</p>
+<h4 id="72-communicating-with-an-ipv4-host">7.2 <strong>Communicating with an IPv4 Host</strong></h4>
+<p>Next, let’s communicate with a PC in the same Wi-Fi network, which is running a UDP server. The host’s IP address is <em>192.168.1.4</em>, and it listens over UDP using Netcat:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ nc -u -l 0.0.0.0 <span style="color:#ae81ff">12345</span> 
 </span></span></code></pre></div><p>From the Thread end device, establish a UDP connection with the host and send the message &ldquo;<em>Happy_New_Year_2025</em>&rdquo;.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>uart:~$ ot udp open
@@ -572,9 +551,7 @@ Since the UDP session remains open, the host can also send messages back to the 
 </span></span><span style="display:flex;"><span><span style="color:#ae81ff">2</span> bytes from fde7:469d:7d12:2:0:0:c0a8:104 <span style="color:#ae81ff">12345</span>
 </span></span><span style="display:flex;"><span><span style="color:#ae81ff">23</span> bytes from fde7:469d:7d12:2:0:0:c0a8:104 <span style="color:#ae81ff">12345</span> Thanks and Same to You
 </span></span><span style="display:flex;"><span>uart:~$
-</span></span></code></pre></div></li>
-</ol>
-<p><img src="/images/iot-16.jpg" alt="THread"></p>
+</span></span></code></pre></div><p><img src="/images/iot-16.jpg" alt="THread"></p>
 <p><strong>Conclusion</strong>
 Your Thread network is now connected to the internet! Devices in this network can communicate seamlessly with non-Thread devices via the Border Router. As a demonstration, send a “Happy New Year” message from a Thread device to a non-Thread device. This guide covered the essentials of setting up a Thread network with physical devices.</p>
 <p>Stay tuned for more hands-on experiments with Thread technology! In future articles, we’ll explore how IoT connects with the broader internet ecosystem, and shaping up it’s practices, and its role in the emerging metaverse. In Chapter 4 of my book 📕<a href="https://thinkuldeep.com/about/books/#exploring-the-metaverse">Exploring the Metaverse</a>, I discuss how IoT will shape our connected future, and XR devices are the evolved IoT.</p>
@@ -1018,11 +995,11 @@ Your Thread network is now connected to the internet! Devices in this network ca
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
+          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
+          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
         </li>
 	    
 	     <li  class="mb2">

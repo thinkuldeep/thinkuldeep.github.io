@@ -10,6 +10,16 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Mon, 02 Mar 2020 12:00:00 -0500</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>Getting Started with nRF Connect SDK</title>
+            <link>https://thinkuldeep.com//post/iot-nrf-connect-sdk/</link>
+            <pubDate>Wed, 08 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-nrf-connect-sdk/</guid>
+            <description>In the previous article, we explored setting up a Thread Network and enabling communication within and outside the network via a Border Router using OpenThread and the nRF Connect SDK. While we covered installing and configuring the SDK during the setup, we didn’t dive into the development process for nRF Connect SDK Apps. Let’s address that now!
+What We’ll Cover This article introduces the nRF Connect SDK and walks through building applications with it.</description>
+        </item>
+        
+        <item>
             <title>🙏 Exploring the Metaverse | Testimonial 10</title>
             <link>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-10/</link>
             <pubDate>Tue, 07 Jan 2025 10:58:08 -0400</pubDate>
@@ -47,7 +57,7 @@ This year marked a significant milestone as I celebrated 20 years in the industr
             <guid>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</guid>
             <description>Is the metaverse hype or reality? My new book explores what lies ahead &amp;ldquo;Exploring the Metaverse&amp;rdquo; is now available globally!
 Read the detail synopsis of the book here and testimonials from a diverse set of industry leaders
-Buy Paper Back: 🇧🇪 Amazon Belgium - 👉 Get it in 32,65€ (3% off)  🇧🇷 Amazon Brazil - 👉 Get it in R$436,82 (Out of Stock)  🇨🇦 Amazon Canada - 👉 Get it in $45.</description>
+Buy Paper Back: 🇧🇪 Amazon Belgium - 👉 Get it in 32,65€ (6% off)  🇧🇷 Amazon Brazil - 👉 Get it in R$214,93  🇨🇦 Amazon Canada - 👉 Get it in $45.</description>
         </item>
         
         <item>

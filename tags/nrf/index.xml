@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>nRF on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/nrf/</link>
+        <description>Recent content in nRF on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Wed, 08 Jan 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/nrf/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Getting Started with nRF Connect SDK</title>
+            <link>https://thinkuldeep.com//post/iot-nrf-connect-sdk/</link>
+            <pubDate>Wed, 08 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-nrf-connect-sdk/</guid>
+            <description>In the previous article, we explored setting up a Thread Network and enabling communication within and outside the network via a Border Router using OpenThread and the nRF Connect SDK. While we covered installing and configuring the SDK during the setup, we didn’t dive into the development process for nRF Connect SDK Apps. Let’s address that now!
+What We’ll Cover This article introduces the nRF Connect SDK and walks through building applications with it.</description>
+        </item>
+        
+        <item>
+            <title>Connecting Thread Devices to Internet</title>
+            <link>https://thinkuldeep.com//post/iot-thread-devices-internet/</link>
+            <pubDate>Wed, 01 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-thread-devices-internet/</guid>
+            <description>In previous articles, we explored the Thread Network and its protocol, focusing on the formation, functionality, and topology of the network. Thread is a lightweight, low-power communication protocol for IoT devices, operating on IPv6. We discussed its ability to automatically establish a mesh network and maintain connectivity through its robust topology.
+We simulated a Thread network using Docker. Now in this article, we’ll create a Thread network between physical devices and connect it to the internet.</description>
+        </item>
+        
+    </channel>
+</rss>

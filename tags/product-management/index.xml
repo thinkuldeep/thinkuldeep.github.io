@@ -10,6 +10,15 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Wed, 24 Apr 2024 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/product-management/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>Certificates</title>
+            <link>https://thinkuldeep.com//about/certificates/</link>
+            <pubDate>Tue, 14 Jan 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/certificates/</guid>
+            <description> nRF Connect SDK Fundamentals Building AI Elements of AI Product Management Enterprise Architecture Internet of Things (IOT) User Experience Design Taradata Certified Java Certified Programmer </description>
+        </item>
+        
+        <item>
             <title>An Adventure to Remember: Making it to CareerMaker Meetup</title>
             <link>https://thinkuldeep.com//event/careermaker-meetup-azure-developer-community/</link>
             <pubDate>Wed, 24 Apr 2024 10:58:08 -0400</pubDate>
@@ -47,15 +56,6 @@ This is where Dinker Charak&amp;rsquo;s book &amp;lsquo;Product Management Untan
             <guid>https://thinkuldeep.com//event/products-beyond-software-horizons/</guid>
             <description>🤖 Rapid Prototyping Community Rapid Prototyping is an internal community @Thoughtworks, focused on building a culture of rapid prototyping and innovation. They organise various learnings events, and I was invited to speak at one of their events.
 I talked about the importance of holistic product development and how the modern products goes beyond software. I also discussed the impact of technological evolution on products, how to stay ahead of the curve.</description>
-        </item>
-        
-        <item>
-            <title>Certificates</title>
-            <link>https://thinkuldeep.com//about/certificates/</link>
-            <pubDate>Thu, 25 Mar 2021 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/certificates/</guid>
-            <description>Building AI Elements of AI Product Management Enterprise Architecture Internet of Things (IOT) User Experience Design Taradata Certified Java Certified Programmer </description>
         </item>
         
     </channel>

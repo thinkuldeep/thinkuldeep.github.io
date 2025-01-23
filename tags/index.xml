@@ -8,11 +8,74 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Wed, 01 Jan 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Thu, 23 Jan 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>BLE</title>
+            <link>https://thinkuldeep.com//tags/ble/</link>
+            <pubDate>Thu, 23 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/ble/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>cloud</title>
+            <link>https://thinkuldeep.com//tags/cloud/</link>
+            <pubDate>Thu, 23 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/cloud/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>fundamentals</title>
+            <link>https://thinkuldeep.com//tags/fundamentals/</link>
+            <pubDate>Thu, 23 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/fundamentals/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>getting started</title>
+            <link>https://thinkuldeep.com//tags/getting-started/</link>
+            <pubDate>Thu, 23 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/getting-started/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>IOT</title>
+            <link>https://thinkuldeep.com//tags/iot/</link>
+            <pubDate>Thu, 23 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/iot/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>learning</title>
+            <link>https://thinkuldeep.com//tags/learning/</link>
+            <pubDate>Thu, 23 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/learning/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>network</title>
+            <link>https://thinkuldeep.com//tags/network/</link>
+            <pubDate>Thu, 23 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/network/</guid>
+            <description></description>
+        </item>
+        
         <item>
             <title>nRF</title>
             <link>https://thinkuldeep.com//tags/nrf/</link>
-            <pubDate>Wed, 08 Jan 2025 10:58:08 -0400</pubDate>
+            <pubDate>Thu, 23 Jan 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/nrf/</guid>
             <description></description>
@@ -21,18 +84,297 @@
         <item>
             <title>SDK</title>
             <link>https://thinkuldeep.com//tags/sdk/</link>
-            <pubDate>Wed, 08 Jan 2025 10:58:08 -0400</pubDate>
+            <pubDate>Thu, 23 Jan 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/sdk/</guid>
             <description></description>
         </item>
         
         <item>
-            <title>cloud</title>
-            <link>https://thinkuldeep.com//tags/cloud/</link>
-            <pubDate>Wed, 01 Jan 2025 10:58:08 -0400</pubDate>
+            <title>technology</title>
+            <link>https://thinkuldeep.com//tags/technology/</link>
+            <pubDate>Thu, 23 Jan 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/cloud/</guid>
+            <guid>https://thinkuldeep.com//tags/technology/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>about</title>
+            <link>https://thinkuldeep.com//tags/about/</link>
+            <pubDate>Tue, 14 Jan 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/about/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>AI</title>
+            <link>https://thinkuldeep.com//tags/ai/</link>
+            <pubDate>Tue, 14 Jan 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/ai/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>architecture</title>
+            <link>https://thinkuldeep.com//tags/architecture/</link>
+            <pubDate>Tue, 14 Jan 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/architecture/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>certificates</title>
+            <link>https://thinkuldeep.com//tags/certificates/</link>
+            <pubDate>Tue, 14 Jan 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/certificates/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>design</title>
+            <link>https://thinkuldeep.com//tags/design/</link>
+            <pubDate>Tue, 14 Jan 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/design/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>director</title>
+            <link>https://thinkuldeep.com//tags/director/</link>
+            <pubDate>Tue, 14 Jan 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/director/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>engineering</title>
+            <link>https://thinkuldeep.com//tags/engineering/</link>
+            <pubDate>Tue, 14 Jan 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/engineering/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>enterprise</title>
+            <link>https://thinkuldeep.com//tags/enterprise/</link>
+            <pubDate>Tue, 14 Jan 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/enterprise/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>java</title>
+            <link>https://thinkuldeep.com//tags/java/</link>
+            <pubDate>Tue, 14 Jan 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/java/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>me</title>
+            <link>https://thinkuldeep.com//tags/me/</link>
+            <pubDate>Tue, 14 Jan 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/me/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>product management</title>
+            <link>https://thinkuldeep.com//tags/product-management/</link>
+            <pubDate>Tue, 14 Jan 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/product-management/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>profile</title>
+            <link>https://thinkuldeep.com//tags/profile/</link>
+            <pubDate>Tue, 14 Jan 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/profile/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>user experience</title>
+            <link>https://thinkuldeep.com//tags/user-experience/</link>
+            <pubDate>Tue, 14 Jan 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/user-experience/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>ar</title>
+            <link>https://thinkuldeep.com//tags/ar/</link>
+            <pubDate>Fri, 10 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/ar/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>available now</title>
+            <link>https://thinkuldeep.com//tags/available-now/</link>
+            <pubDate>Fri, 10 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/available-now/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>blockchain</title>
+            <link>https://thinkuldeep.com//tags/blockchain/</link>
+            <pubDate>Fri, 10 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/blockchain/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>book</title>
+            <link>https://thinkuldeep.com//tags/book/</link>
+            <pubDate>Fri, 10 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/book/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>buy</title>
+            <link>https://thinkuldeep.com//tags/buy/</link>
+            <pubDate>Fri, 10 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/buy/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>event</title>
+            <link>https://thinkuldeep.com//tags/event/</link>
+            <pubDate>Fri, 10 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/event/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>launch</title>
+            <link>https://thinkuldeep.com//tags/launch/</link>
+            <pubDate>Fri, 10 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/launch/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>meta</title>
+            <link>https://thinkuldeep.com//tags/meta/</link>
+            <pubDate>Fri, 10 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/meta/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>metaverse</title>
+            <link>https://thinkuldeep.com//tags/metaverse/</link>
+            <pubDate>Fri, 10 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/metaverse/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>nft</title>
+            <link>https://thinkuldeep.com//tags/nft/</link>
+            <pubDate>Fri, 10 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/nft/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>vr</title>
+            <link>https://thinkuldeep.com//tags/vr/</link>
+            <pubDate>Fri, 10 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/vr/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>XR</title>
+            <link>https://thinkuldeep.com//tags/xr/</link>
+            <pubDate>Fri, 10 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/xr/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>openthread</title>
+            <link>https://thinkuldeep.com//tags/openthread/</link>
+            <pubDate>Wed, 08 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/openthread/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>thread</title>
+            <link>https://thinkuldeep.com//tags/thread/</link>
+            <pubDate>Wed, 08 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/thread/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>mr</title>
+            <link>https://thinkuldeep.com//tags/mr/</link>
+            <pubDate>Tue, 07 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/mr/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>testimonial</title>
+            <link>https://thinkuldeep.com//tags/testimonial/</link>
+            <pubDate>Tue, 07 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/testimonial/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>thoughtworks</title>
+            <link>https://thinkuldeep.com//tags/thoughtworks/</link>
+            <pubDate>Tue, 07 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/thoughtworks/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>xros</title>
+            <link>https://thinkuldeep.com//tags/xros/</link>
+            <pubDate>Tue, 07 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/xros/</guid>
             <description></description>
         </item>
         
@@ -46,92 +388,11 @@
         </item>
         
         <item>
-            <title>fundamentals</title>
-            <link>https://thinkuldeep.com//tags/fundamentals/</link>
-            <pubDate>Wed, 01 Jan 2025 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/fundamentals/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>getting started</title>
-            <link>https://thinkuldeep.com//tags/getting-started/</link>
-            <pubDate>Wed, 01 Jan 2025 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/getting-started/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>IOT</title>
-            <link>https://thinkuldeep.com//tags/iot/</link>
-            <pubDate>Wed, 01 Jan 2025 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/iot/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>learning</title>
-            <link>https://thinkuldeep.com//tags/learning/</link>
-            <pubDate>Wed, 01 Jan 2025 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/learning/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>network</title>
-            <link>https://thinkuldeep.com//tags/network/</link>
-            <pubDate>Wed, 01 Jan 2025 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/network/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>openthread</title>
-            <link>https://thinkuldeep.com//tags/openthread/</link>
-            <pubDate>Wed, 01 Jan 2025 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/openthread/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>technology</title>
-            <link>https://thinkuldeep.com//tags/technology/</link>
-            <pubDate>Wed, 01 Jan 2025 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/technology/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>thread</title>
-            <link>https://thinkuldeep.com//tags/thread/</link>
-            <pubDate>Wed, 01 Jan 2025 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/thread/</guid>
-            <description></description>
-        </item>
-        
-        <item>
             <title>agile</title>
             <link>https://thinkuldeep.com//tags/agile/</link>
             <pubDate>Tue, 31 Dec 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/agile/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>AI</title>
-            <link>https://thinkuldeep.com//tags/ai/</link>
-            <pubDate>Tue, 31 Dec 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/ai/</guid>
             <description></description>
         </item>
         
@@ -186,15 +447,6 @@
             <pubDate>Tue, 31 Dec 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/iit/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>metaverse</title>
-            <link>https://thinkuldeep.com//tags/metaverse/</link>
-            <pubDate>Tue, 31 Dec 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/metaverse/</guid>
             <description></description>
         </item>
         
@@ -307,33 +559,6 @@
         </item>
         
         <item>
-            <title>XR</title>
-            <link>https://thinkuldeep.com//tags/xr/</link>
-            <pubDate>Tue, 31 Dec 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/xr/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>ar</title>
-            <link>https://thinkuldeep.com//tags/ar/</link>
-            <pubDate>Wed, 18 Dec 2024 23:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/ar/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>event</title>
-            <link>https://thinkuldeep.com//tags/event/</link>
-            <pubDate>Wed, 18 Dec 2024 23:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/event/</guid>
-            <description></description>
-        </item>
-        
-        <item>
             <title>future</title>
             <link>https://thinkuldeep.com//tags/future/</link>
             <pubDate>Wed, 18 Dec 2024 23:58:08 -0400</pubDate>
@@ -406,83 +631,11 @@
         </item>
         
         <item>
-            <title>vr</title>
-            <link>https://thinkuldeep.com//tags/vr/</link>
-            <pubDate>Wed, 18 Dec 2024 23:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/vr/</guid>
-            <description></description>
-        </item>
-        
-        <item>
             <title>web3</title>
             <link>https://thinkuldeep.com//tags/web3/</link>
             <pubDate>Wed, 18 Dec 2024 23:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/web3/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>available now</title>
-            <link>https://thinkuldeep.com//tags/available-now/</link>
-            <pubDate>Tue, 10 Dec 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/available-now/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>blockchain</title>
-            <link>https://thinkuldeep.com//tags/blockchain/</link>
-            <pubDate>Tue, 10 Dec 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/blockchain/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>book</title>
-            <link>https://thinkuldeep.com//tags/book/</link>
-            <pubDate>Tue, 10 Dec 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/book/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>buy</title>
-            <link>https://thinkuldeep.com//tags/buy/</link>
-            <pubDate>Tue, 10 Dec 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/buy/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>launch</title>
-            <link>https://thinkuldeep.com//tags/launch/</link>
-            <pubDate>Tue, 10 Dec 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/launch/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>meta</title>
-            <link>https://thinkuldeep.com//tags/meta/</link>
-            <pubDate>Tue, 10 Dec 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/meta/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>nft</title>
-            <link>https://thinkuldeep.com//tags/nft/</link>
-            <pubDate>Tue, 10 Dec 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/nft/</guid>
             <description></description>
         </item>
         
@@ -523,29 +676,11 @@
         </item>
         
         <item>
-            <title>mr</title>
-            <link>https://thinkuldeep.com//tags/mr/</link>
-            <pubDate>Mon, 09 Dec 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/mr/</guid>
-            <description></description>
-        </item>
-        
-        <item>
             <title>sdv</title>
             <link>https://thinkuldeep.com//tags/sdv/</link>
             <pubDate>Mon, 09 Dec 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/sdv/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>thoughtworks</title>
-            <link>https://thinkuldeep.com//tags/thoughtworks/</link>
-            <pubDate>Mon, 09 Dec 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/thoughtworks/</guid>
             <description></description>
         </item>
         
@@ -573,15 +708,6 @@
             <pubDate>Thu, 28 Nov 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/community/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>enterprise</title>
-            <link>https://thinkuldeep.com//tags/enterprise/</link>
-            <pubDate>Thu, 28 Nov 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/enterprise/</guid>
             <description></description>
         </item>
         
@@ -658,24 +784,6 @@
         </item>
         
         <item>
-            <title>testimonial</title>
-            <link>https://thinkuldeep.com//tags/testimonial/</link>
-            <pubDate>Wed, 27 Nov 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/testimonial/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>xros</title>
-            <link>https://thinkuldeep.com//tags/xros/</link>
-            <pubDate>Wed, 27 Nov 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/xros/</guid>
-            <description></description>
-        </item>
-        
-        <item>
             <title>AVGC</title>
             <link>https://thinkuldeep.com//tags/avgc/</link>
             <pubDate>Sat, 16 Nov 2024 10:58:08 -0400</pubDate>
@@ -721,38 +829,11 @@
         </item>
         
         <item>
-            <title>about</title>
-            <link>https://thinkuldeep.com//tags/about/</link>
-            <pubDate>Fri, 18 Oct 2024 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/about/</guid>
-            <description></description>
-        </item>
-        
-        <item>
             <title>arium</title>
             <link>https://thinkuldeep.com//tags/arium/</link>
             <pubDate>Fri, 18 Oct 2024 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/arium/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>director</title>
-            <link>https://thinkuldeep.com//tags/director/</link>
-            <pubDate>Fri, 18 Oct 2024 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/director/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>engineering</title>
-            <link>https://thinkuldeep.com//tags/engineering/</link>
-            <pubDate>Fri, 18 Oct 2024 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/engineering/</guid>
             <description></description>
         </item>
         
@@ -775,29 +856,11 @@
         </item>
         
         <item>
-            <title>me</title>
-            <link>https://thinkuldeep.com//tags/me/</link>
-            <pubDate>Fri, 18 Oct 2024 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/me/</guid>
-            <description></description>
-        </item>
-        
-        <item>
             <title>practice</title>
             <link>https://thinkuldeep.com//tags/practice/</link>
             <pubDate>Fri, 18 Oct 2024 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/practice/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>profile</title>
-            <link>https://thinkuldeep.com//tags/profile/</link>
-            <pubDate>Fri, 18 Oct 2024 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/profile/</guid>
             <description></description>
         </item>
         
@@ -1009,15 +1072,6 @@
         </item>
         
         <item>
-            <title>design</title>
-            <link>https://thinkuldeep.com//tags/design/</link>
-            <pubDate>Thu, 12 Sep 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/design/</guid>
-            <description></description>
-        </item>
-        
-        <item>
             <title>general</title>
             <link>https://thinkuldeep.com//tags/general/</link>
             <pubDate>Thu, 12 Sep 2024 10:58:08 -0400</pubDate>
@@ -1050,15 +1104,6 @@
             <pubDate>Thu, 12 Sep 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/invention/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>java</title>
-            <link>https://thinkuldeep.com//tags/java/</link>
-            <pubDate>Thu, 12 Sep 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/java/</guid>
             <description></description>
         </item>
         
@@ -1185,15 +1230,6 @@
             <pubDate>Thu, 12 Sep 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/tips/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>user experience</title>
-            <link>https://thinkuldeep.com//tags/user-experience/</link>
-            <pubDate>Thu, 12 Sep 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/user-experience/</guid>
             <description></description>
         </item>
         
@@ -1500,15 +1536,6 @@
             <pubDate>Wed, 24 Apr 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/product-development/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>product management</title>
-            <link>https://thinkuldeep.com//tags/product-management/</link>
-            <pubDate>Wed, 24 Apr 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/product-management/</guid>
             <description></description>
         </item>
         
@@ -2260,24 +2287,6 @@
         </item>
         
         <item>
-            <title>architecture</title>
-            <link>https://thinkuldeep.com//tags/architecture/</link>
-            <pubDate>Thu, 25 Mar 2021 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/architecture/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>certificates</title>
-            <link>https://thinkuldeep.com//tags/certificates/</link>
-            <pubDate>Thu, 25 Mar 2021 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/certificates/</guid>
-            <description></description>
-        </item>
-        
-        <item>
             <title>autonomous</title>
             <link>https://thinkuldeep.com//tags/autonomous/</link>
             <pubDate>Thu, 25 Feb 2021 10:58:08 -0400</pubDate>
@@ -2922,15 +2931,6 @@
             <pubDate>Sun, 17 Apr 2016 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/arduino/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>BLE</title>
-            <link>https://thinkuldeep.com//tags/ble/</link>
-            <pubDate>Sun, 17 Apr 2016 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/ble/</guid>
             <description></description>
         </item>
         

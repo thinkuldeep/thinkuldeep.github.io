@@ -8,7 +8,17 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Wed, 01 Jan 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/fundamentals/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Thu, 23 Jan 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/fundamentals/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Getting Started with Bluetooth Low Energy (BLE)</title>
+            <link>https://thinkuldeep.com//post/iot-ble/</link>
+            <pubDate>Thu, 23 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-ble/</guid>
+            <description>In a previous article, we explored how to build IoT firmware applications using the nRF Connect SDK. We examined its project structure and learned how to build and flash firmware on the nRF52840 dongle. If you missed it, you can catch up here:
+For more hands-on practices, use nRF52840 Development Kit (DK), that offers advanced developer features. You need to connect this board via a high-speed data cable like this one, to get it detected on your PC.</description>
+        </item>
+        
         <item>
             <title>Getting Started with nRF Connect SDK</title>
             <link>https://thinkuldeep.com//post/iot-nrf-connect-sdk/</link>

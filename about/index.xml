@@ -8,14 +8,23 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Tue, 14 Jan 2025 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sat, 08 Feb 2025 11:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Certificates</title>
             <link>https://thinkuldeep.com//about/certificates/</link>
-            <pubDate>Tue, 14 Jan 2025 01:00:00 -0400</pubDate>
+            <pubDate>Sat, 08 Feb 2025 11:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//about/certificates/</guid>
-            <description> nRF Connect SDK Fundamentals Building AI Elements of AI Product Management Enterprise Architecture Internet of Things (IOT) User Experience Design Taradata Certified Java Certified Programmer </description>
+            <description> nRF Connect SDK Intermediate Bluetooth Low Energy Fundamentals nRF Connect SDK Fundamentals Building AI Elements of AI Product Management Enterprise Architecture Internet of Things (IOT) User Experience Design Taradata Certified Java Certified Programmer </description>
+        </item>
+        
+        <item>
+            <title>Some moments</title>
+            <link>https://thinkuldeep.com//about/moments/</link>
+            <pubDate>Fri, 07 Feb 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/moments/</guid>
+            <description>18th Anniversary Ritu &amp;amp; Kuldeep - Feb, 2025  44th Anniversary of Parents - Jun, 2024  Book in parent&amp;rsquo;s Hand - May, 2024  Vrindavan - Mar, 2024  House warming ceremony and RakshyaBandhan - Aug, 2023  Jim corbett trip - Jun, 2023  Lakshya&amp;rsquo;s visit to Thoughtworks Gurugram - May, 2023  16th Wedding anniversary - Feb, 2023  Father Retirement Speech - Jun, 2022  ☞ More Details Welcoming Aarav Remotely!</description>
         </item>
         
         <item>
@@ -50,15 +59,6 @@ ModelViewer WebXR and 3D Printing Demonstrations
             <description>This listing includes patent applications that are pending as well as patents that have already been granted by the United States Patent and Trademark Office (USPTO).
  CONCURRENT RENDERING OF CANVASES FOR DIFFERENT APPS AS PART OF 3D SIMULATION This invention focuses on rendering multiple 2D mobile apps simultaneously in XR devices, arranged within a 3D spatial layout.
 This browser does not support PDFs. Please download the PDF to view it: Download PDF.</description>
-        </item>
-        
-        <item>
-            <title>Some moments</title>
-            <link>https://thinkuldeep.com//about/moments/</link>
-            <pubDate>Wed, 05 Jun 2024 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/moments/</guid>
-            <description>44th Anniversary of Parents - Jun, 2024  Book in parent&amp;rsquo;s Hand - May, 2024  Vrindavan - Mar, 2024  House warming ceremony and RakshyaBandhan - Aug, 2023  Jim corbett trip - Jun, 2023  Lakshya&amp;rsquo;s visit to Thoughtworks Gurugram - May, 2023  16th Wedding anniversary - Feb, 2023  Father Retirement Speech - Jun, 2022  ☞ More Details Welcoming Aarav Remotely! - Apr, 2021  14th Wedding anniversary - Feb, 2021  Keep Moving - Jan, 2021  3rd Birthday Lovyansh - Jun, 2020  ☞ More Details </description>
         </item>
         
         <item>

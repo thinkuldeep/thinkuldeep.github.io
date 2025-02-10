@@ -10,6 +10,65 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Fri, 24 Jan 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/iot/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>nRF Connect SDK Advanced Practices</title>
+            <link>https://thinkuldeep.com//post/iot-nrf-connect-sdk-advanced/</link>
+            <pubDate>Sun, 09 Feb 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-nrf-connect-sdk-advanced/</guid>
+            <description>In our previous article, we provided a brief overview of the nRF Connect SDK and demonstrated how to build a simple application. This article explores advanced practices for working with the nRF Connect SDK, focusing on Zephyr OS internals, including timers, schedulers, bootloading, DFU, and FOTA concepts. It builds on our previous introduction to the nRF Connect SDK and provides insights into developing multi-threaded firmware, troubleshooting, and deploying firmware over the air (OTA).</description>
+        </item>
+        
+        <item>
+            <title>Implementing a Joiner in nRF Connect SDK</title>
+            <link>https://thinkuldeep.com//post/iot-thread-joiner-implementation/</link>
+            <pubDate>Sat, 08 Feb 2025 11:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-thread-joiner-implementation/</guid>
+            <description>In a previous article, we explored how a Commissioner node provisions a Joiner in a Thread network using OpenThread&amp;rsquo;s default firmware. However, in real-world applications, custom firmware logic is often required, along with programmatic control over the commissioning process. In this article, we will implement a Joiner using the nRF Connect SDK, following these four key steps.
+Joiner in Action The Joiner process involves the following steps:
+ Enable Thread – Ensure that the Thread network and IPv6 are enabled.</description>
+        </item>
+        
+        <item>
+            <title>📕 Exploring the Metaverse | Available Globally</title>
+            <link>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</link>
+            <pubDate>Sat, 08 Feb 2025 11:00:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</guid>
+            <description>Is the metaverse hype or reality? My new book explores what lies ahead &amp;ldquo;Exploring the Metaverse&amp;rdquo; is now available globally!
+Read the detail synopsis of the book here and testimonials from a diverse set of industry leaders
+Buy Paper Back: 🇧🇪 Amazon Belgium - 👉 Get it in 32,65€ (6% off)  🇧🇷 Amazon Brazil - 👉 Get it in R$214,93  🇨🇦 Amazon Canada - 👉 Get it in $45.</description>
+        </item>
+        
+        <item>
+            <title>Certificates</title>
+            <link>https://thinkuldeep.com//about/certificates/</link>
+            <pubDate>Sat, 08 Feb 2025 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/certificates/</guid>
+            <description> nRF Connect SDK Intermediate Bluetooth Low Energy Fundamentals nRF Connect SDK Fundamentals Building AI Elements of AI Product Management Enterprise Architecture Internet of Things (IOT) User Experience Design Taradata Certified Java Certified Programmer </description>
+        </item>
+        
+        <item>
+            <title>Simplifying Thread Network Provisioning with Joiner and Commissioner</title>
+            <link>https://thinkuldeep.com//post/iot-thread-network-provisioning/</link>
+            <pubDate>Sat, 08 Feb 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-thread-network-provisioning/</guid>
+            <description>In previous articles, we explored the Thread protocol and connected Thread devices to the internet using a Border Router. We joined the Thread network by manually configuring each node with a full dataset containing network credentials such as the PAN ID, Network Key, Network Name, and more (refer to Step 6.1: Access Network Credentials). While this method works, it becomes impractical when provisioning hundreds of Thread devices in real-world scenarios.</description>
+        </item>
+        
+        <item>
+            <title>Contributions to ITU-T SG-20 on IoT and Metaverse</title>
+            <link>https://thinkuldeep.com//event/itu-t-sg20-meeting/</link>
+            <pubDate>Sat, 25 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/itu-t-sg20-meeting/</guid>
+            <description>Metaverse: The Next Internet The Metaverse represents the next evolution of the internet, a digital realm where the physical and virtual worlds converge. In my book, 📕 Exploring the Metaverse, I delve into the current state of the Metaverse and how advancements in AI, IoT, networking, and cloud technologies are accelerating its development at an unprecedented pace.
+As a call to action, I emphasize the importance of collaboration among industry leaders, academia, and individuals to establish standards and practices for the responsible use of the Metaverse.</description>
+        </item>
+        
+        <item>
             <title>🙏 Exploring the Metaverse | Testimonial 11</title>
             <link>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-11/</link>
             <pubDate>Fri, 24 Jan 2025 10:58:08 -0400</pubDate>
@@ -27,26 +86,6 @@ A notable endorsement came from Mayan Shay May-Raz — Principal Product, Amazon
             <guid>https://thinkuldeep.com//post/iot-ble/</guid>
             <description>In a previous article, we explored how to build IoT firmware applications using the nRF Connect SDK. We examined its project structure and learned how to build and flash firmware on the nRF52840 dongle. If you missed it, you can catch up here:
 For more hands-on practices, use nRF52840 Development Kit (DK), that offers advanced developer features. You need to connect this board via a high-speed data cable like this one, to get it detected on your PC.</description>
-        </item>
-        
-        <item>
-            <title>Certificates</title>
-            <link>https://thinkuldeep.com//about/certificates/</link>
-            <pubDate>Tue, 14 Jan 2025 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/certificates/</guid>
-            <description> nRF Connect SDK Fundamentals Building AI Elements of AI Product Management Enterprise Architecture Internet of Things (IOT) User Experience Design Taradata Certified Java Certified Programmer </description>
-        </item>
-        
-        <item>
-            <title>📕 Exploring the Metaverse | Available Globally</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</link>
-            <pubDate>Fri, 10 Jan 2025 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</guid>
-            <description>Is the metaverse hype or reality? My new book explores what lies ahead &amp;ldquo;Exploring the Metaverse&amp;rdquo; is now available globally!
-Read the detail synopsis of the book here and testimonials from a diverse set of industry leaders
-Buy Paper Back: 🇧🇪 Amazon Belgium - 👉 Get it in 32,65€ (6% off)  🇧🇷 Amazon Brazil - 👉 Get it in R$214,93  🇨🇦 Amazon Canada - 👉 Get it in $45.</description>
         </item>
         
         <item>

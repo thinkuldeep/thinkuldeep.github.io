@@ -10,6 +10,15 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Sun, 10 May 2020 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/os/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>nRF Connect SDK Advanced Practices</title>
+            <link>https://thinkuldeep.com//post/iot-nrf-connect-sdk-advanced/</link>
+            <pubDate>Sun, 09 Feb 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-nrf-connect-sdk-advanced/</guid>
+            <description>In our previous article, we provided a brief overview of the nRF Connect SDK and demonstrated how to build a simple application. This article explores advanced practices for working with the nRF Connect SDK, focusing on Zephyr OS internals, including timers, schedulers, bootloading, DFU, and FOTA concepts. It builds on our previous introduction to the nRF Connect SDK and provides insights into developing multi-threaded firmware, troubleshooting, and deploying firmware over the air (OTA).</description>
+        </item>
+        
+        <item>
             <title>OS Customization for XR Device</title>
             <link>https://thinkuldeep.com//post/os-customization-for-xr-devices/</link>
             <pubDate>Sun, 10 May 2020 10:58:08 -0400</pubDate>

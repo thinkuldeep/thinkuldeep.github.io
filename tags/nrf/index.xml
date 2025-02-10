@@ -10,6 +10,35 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Thu, 23 Jan 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/nrf/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>nRF Connect SDK Advanced Practices</title>
+            <link>https://thinkuldeep.com//post/iot-nrf-connect-sdk-advanced/</link>
+            <pubDate>Sun, 09 Feb 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-nrf-connect-sdk-advanced/</guid>
+            <description>In our previous article, we provided a brief overview of the nRF Connect SDK and demonstrated how to build a simple application. This article explores advanced practices for working with the nRF Connect SDK, focusing on Zephyr OS internals, including timers, schedulers, bootloading, DFU, and FOTA concepts. It builds on our previous introduction to the nRF Connect SDK and provides insights into developing multi-threaded firmware, troubleshooting, and deploying firmware over the air (OTA).</description>
+        </item>
+        
+        <item>
+            <title>Implementing a Joiner in nRF Connect SDK</title>
+            <link>https://thinkuldeep.com//post/iot-thread-joiner-implementation/</link>
+            <pubDate>Sat, 08 Feb 2025 11:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-thread-joiner-implementation/</guid>
+            <description>In a previous article, we explored how a Commissioner node provisions a Joiner in a Thread network using OpenThread&amp;rsquo;s default firmware. However, in real-world applications, custom firmware logic is often required, along with programmatic control over the commissioning process. In this article, we will implement a Joiner using the nRF Connect SDK, following these four key steps.
+Joiner in Action The Joiner process involves the following steps:
+ Enable Thread – Ensure that the Thread network and IPv6 are enabled.</description>
+        </item>
+        
+        <item>
+            <title>Simplifying Thread Network Provisioning with Joiner and Commissioner</title>
+            <link>https://thinkuldeep.com//post/iot-thread-network-provisioning/</link>
+            <pubDate>Sat, 08 Feb 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-thread-network-provisioning/</guid>
+            <description>In previous articles, we explored the Thread protocol and connected Thread devices to the internet using a Border Router. We joined the Thread network by manually configuring each node with a full dataset containing network credentials such as the PAN ID, Network Key, Network Name, and more (refer to Step 6.1: Access Network Credentials). While this method works, it becomes impractical when provisioning hundreds of Thread devices in real-world scenarios.</description>
+        </item>
+        
+        <item>
             <title>Getting Started with Bluetooth Low Energy (BLE)</title>
             <link>https://thinkuldeep.com//post/iot-ble/</link>
             <pubDate>Thu, 23 Jan 2025 10:58:08 -0400</pubDate>

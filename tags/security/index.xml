@@ -10,6 +10,26 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Mon, 17 Aug 2015 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/security/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>Implementing a Joiner in nRF Connect SDK</title>
+            <link>https://thinkuldeep.com//post/iot-thread-joiner-implementation/</link>
+            <pubDate>Sat, 08 Feb 2025 11:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-thread-joiner-implementation/</guid>
+            <description>In a previous article, we explored how a Commissioner node provisions a Joiner in a Thread network using OpenThread&amp;rsquo;s default firmware. However, in real-world applications, custom firmware logic is often required, along with programmatic control over the commissioning process. In this article, we will implement a Joiner using the nRF Connect SDK, following these four key steps.
+Joiner in Action The Joiner process involves the following steps:
+ Enable Thread – Ensure that the Thread network and IPv6 are enabled.</description>
+        </item>
+        
+        <item>
+            <title>Simplifying Thread Network Provisioning with Joiner and Commissioner</title>
+            <link>https://thinkuldeep.com//post/iot-thread-network-provisioning/</link>
+            <pubDate>Sat, 08 Feb 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-thread-network-provisioning/</guid>
+            <description>In previous articles, we explored the Thread protocol and connected Thread devices to the internet using a Border Router. We joined the Thread network by manually configuring each node with a full dataset containing network credentials such as the PAN ID, Network Key, Network Name, and more (refer to Step 6.1: Access Network Credentials). While this method works, it becomes impractical when provisioning hundreds of Thread devices in real-world scenarios.</description>
+        </item>
+        
+        <item>
             <title>Framework for choosing an IoT Platform</title>
             <link>https://thinkuldeep.com//post/choosing_iot_platform/</link>
             <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>

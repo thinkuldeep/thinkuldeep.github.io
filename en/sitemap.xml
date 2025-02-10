@@ -2,6 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
+        <loc>https://thinkuldeep.com/tags/dfu/</loc>
+        <lastmod>2025-02-09T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/post/iot-nrf-connect-sdk-advanced/</loc>
+        <lastmod>2025-02-09T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/ota/</loc>
+        <lastmod>2025-02-09T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/post/iot-thread-joiner-implementation/</loc>
+        <lastmod>2025-02-08T11:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/post/exploring-the-metaverse-available-globally/</loc>
+        <lastmod>2025-02-08T11:00:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/about/</loc>
+        <lastmod>2025-02-08T11:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com//hi/about/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com//about/"
+        />
+    </url><url>
+        <loc>https://thinkuldeep.com/about/certificates/</loc>
+        <lastmod>2025-02-08T11:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/post/iot-thread-network-provisioning/</loc>
+        <lastmod>2025-02-08T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/about/moments/</loc>
+        <lastmod>2025-02-07T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com//hi/about/moments/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com//about/moments/"
+        />
+    </url><url>
         <loc>https://thinkuldeep.com/tags/ai/</loc>
         <lastmod>2025-01-25T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -337,21 +402,6 @@
                 href="https://thinkuldeep.com//tags/technology/"
         />
     </url><url>
-        <loc>https://thinkuldeep.com/about/</loc>
-        <lastmod>2025-01-14T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com//hi/about/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//about/"
-        />
-    </url><url>
         <loc>https://thinkuldeep.com/tags/about/</loc>
         <lastmod>2025-01-14T01:00:00-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -368,11 +418,6 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com/tags/architecture/</loc>
-        <lastmod>2025-01-14T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/about/certificates/</loc>
         <lastmod>2025-01-14T01:00:00-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
@@ -477,11 +522,6 @@
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>https://thinkuldeep.com/post/exploring-the-metaverse-available-globally/</loc>
-        <lastmod>2025-01-10T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
         <loc>https://thinkuldeep.com/post/iot-nrf-connect-sdk/</loc>
         <lastmod>2025-01-08T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -508,6 +548,11 @@
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com/tags/docker/</loc>
+        <lastmod>2025-01-01T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/router/</loc>
         <lastmod>2025-01-01T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
@@ -1506,21 +1551,6 @@
         <lastmod>2024-06-13T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/about/moments/</loc>
-        <lastmod>2024-06-05T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com//hi/about/moments/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//about/moments/"
-        />
     </url><url>
         <loc>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-3/</loc>
         <lastmod>2024-06-04T10:58:08-04:00</lastmod>

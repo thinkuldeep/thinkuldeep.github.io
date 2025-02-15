@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>tcp on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/tcp/</link>
+        <description>Recent content in tcp on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sat, 15 Feb 2025 11:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/tcp/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Implementing a TCP Client in nRF Connect</title>
+            <link>https://thinkuldeep.com//post/iot-thread-tcp-client-implementation/</link>
+            <pubDate>Sat, 15 Feb 2025 11:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-thread-tcp-client-implementation/</guid>
+            <description>In a previous article, we implemented a Joiner that is programmatically provisioned by a Commissioner node to join a Thread network. Once an IoT device is part of the Thread network, the next step is to enable communication with other Thread nodes or external hosts. We previously discussed and tested UDP-based communication in Connecting Thread devices to Internet. In this article, we explore a similar approach with TCP OT CLI, and here we are implementing a custom TCP client that sends data to a TCP server programmatically.</description>
+        </item>
+        
+    </channel>
+</rss>

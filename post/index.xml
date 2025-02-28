@@ -10,6 +10,28 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Mon, 02 Mar 2020 12:00:00 -0500</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>External Commissioning in Thread Network</title>
+            <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-cli/</link>
+            <pubDate>Wed, 26 Feb 2025 11:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-thread-external-commissioner-cli/</guid>
+            <description>In our previous article, we set up a commissioner within a Thread network by starting the commissioner from a thread node. However, a Thread network can also be provisioned using an external commissioner outside the thread network.
+This article will guide you through the configuration of an external commissioner for a Thread network using a Commissioner CLI setup on a mac/linux pc.
+Commissioner CLI The Commissioner CLI can be built on macOS or Linux using the following steps:</description>
+        </item>
+        
+        <item>
+            <title>📕 Exploring the Metaverse | Available Globally</title>
+            <link>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</link>
+            <pubDate>Mon, 24 Feb 2025 11:00:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</guid>
+            <description>Is the metaverse hype or reality? My new book explores what lies ahead &amp;ldquo;Exploring the Metaverse&amp;rdquo; is now available globally!
+Read the detail synopsis of the book here and testimonials from a diverse set of industry leaders
+Buy Paper Back: 🇧🇪 Amazon Belgium - 👉 Get it in 32,65€ (6% off)  🇧🇷 Amazon Brazil - 👉 Get it in R$214,93  🇨🇦 Amazon Canada - 👉 Get it in $45.</description>
+        </item>
+        
+        <item>
             <title>Implementing a TCP Client in nRF Connect</title>
             <link>https://thinkuldeep.com//post/iot-thread-tcp-client-implementation/</link>
             <pubDate>Sat, 15 Feb 2025 11:58:08 -0400</pubDate>
@@ -36,17 +58,6 @@
             <description>In a previous article, we explored how a Commissioner node provisions a Joiner in a Thread network using OpenThread&amp;rsquo;s default firmware. However, in real-world applications, custom firmware logic is often required, along with programmatic control over the commissioning process. In this article, we will implement a Joiner using the nRF Connect SDK, following these four key steps.
 Joiner in Action The Joiner process involves the following steps:
  Enable Thread – Ensure that the Thread network and IPv6 are enabled.</description>
-        </item>
-        
-        <item>
-            <title>📕 Exploring the Metaverse | Available Globally</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</link>
-            <pubDate>Sat, 08 Feb 2025 11:00:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</guid>
-            <description>Is the metaverse hype or reality? My new book explores what lies ahead &amp;ldquo;Exploring the Metaverse&amp;rdquo; is now available globally!
-Read the detail synopsis of the book here and testimonials from a diverse set of industry leaders
-Buy Paper Back: 🇧🇪 Amazon Belgium - 👉 Get it in 32,65€ (6% off)  🇧🇷 Amazon Brazil - 👉 Get it in R$214,93  🇨🇦 Amazon Canada - 👉 Get it in $45.</description>
         </item>
         
         <item>

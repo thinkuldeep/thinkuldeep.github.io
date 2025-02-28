@@ -10,6 +10,17 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Sat, 15 Feb 2025 11:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/thread/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>External Commissioning in Thread Network</title>
+            <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-cli/</link>
+            <pubDate>Wed, 26 Feb 2025 11:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-thread-external-commissioner-cli/</guid>
+            <description>In our previous article, we set up a commissioner within a Thread network by starting the commissioner from a thread node. However, a Thread network can also be provisioned using an external commissioner outside the thread network.
+This article will guide you through the configuration of an external commissioner for a Thread network using a Commissioner CLI setup on a mac/linux pc.
+Commissioner CLI The Commissioner CLI can be built on macOS or Linux using the following steps:</description>
+        </item>
+        
+        <item>
             <title>Implementing a TCP Client in nRF Connect</title>
             <link>https://thinkuldeep.com//post/iot-thread-tcp-client-implementation/</link>
             <pubDate>Sat, 15 Feb 2025 11:58:08 -0400</pubDate>

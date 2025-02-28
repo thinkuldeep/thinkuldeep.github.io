@@ -50,7 +50,7 @@
 <meta property="article:modified_time" content="2025-02-15T11:58:08-04:00" /><meta itemprop="name" content="Implementing a TCP Client in nRF Connect">
 <meta itemprop="description" content="Developing custom TCP client using nRF Connect SDK and native APIs, and communicate with TCP Server in Thread network and outside."><meta itemprop="datePublished" content="2025-02-15T11:58:08-04:00" />
 <meta itemprop="dateModified" content="2025-02-15T11:58:08-04:00" />
-<meta itemprop="wordCount" content="1366">
+<meta itemprop="wordCount" content="1496">
 <meta itemprop="keywords" content="IOT,network,cloud,getting started,learning,technology,fundamentals,thread,openthread,tcp,nRF,SDK," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Implementing a TCP Client in nRF Connect"/>
 <meta name="twitter:description" content="Developing custom TCP client using nRF Connect SDK and native APIs, and communicate with TCP Server in Thread network and outside."/>
@@ -310,8 +310,8 @@ if (!doNotTrack) {
 
       
       
-        <span class="f6 mv4 dib tracked"> - 7 minutes read </span>
-        <span class="f6 mv4 dib tracked"> - 1366 words </span>
+        <span class="f6 mv4 dib tracked"> - 8 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 1496 words </span>
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In a <a href="/post/iot-thread-joiner-implementation/">previous article</a>, we implemented a <em>Joiner</em> that is programmatically provisioned by a
@@ -369,6 +369,10 @@ In this article, we explore a similar approach with <a href="https://openthread.
 </span></span><span style="display:flex;"><span>    LOG_INF(<span style="color:#e6db74">&#34;ConnectionEstablished!&#34;</span>);
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">tcpSendDone</span>(otTcpEndpoint <span style="color:#f92672">*</span>aEndpoint, otLinkedBuffer <span style="color:#f92672">*</span>aData){
+</span></span><span style="display:flex;"><span>  LOG_INF(<span style="color:#e6db74">&#34;Send done data&#34;</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">startTcpClient</span>(<span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span> ipv6_host, <span style="color:#66d9ef">uint16_t</span> port_no)
 </span></span><span style="display:flex;"><span>{
 </span></span><span style="display:flex;"><span>    LOG_DBG(<span style="color:#e6db74">&#34;Starting TCP Client for - %s:%d&#34;</span>,ipv6_host,port_no)  
@@ -381,6 +385,7 @@ In this article, we explore a similar approach with <a href="https://openthread.
 </span></span><span style="display:flex;"><span>    clientArgs.mReceiveBuffer <span style="color:#f92672">=</span> sReceiveBuffer;
 </span></span><span style="display:flex;"><span>    clientArgs.mReceiveBufferSize <span style="color:#f92672">=</span> OT_TCP_RECEIVE_BUFFER_SIZE_FEW_HOPS;
 </span></span><span style="display:flex;"><span>    clientArgs.mEstablishedCallback <span style="color:#f92672">=</span> tcpConnectionEstablished;
+</span></span><span style="display:flex;"><span>    clientArgs.mSendDoneCallback <span style="color:#f92672">=</span> tcpSendDone;
 </span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Initialize TCP
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">if</span> (otTcpEndpointInitialize(openthread_get_default_instance(), <span style="color:#f92672">&amp;</span>sEndpoint, <span style="color:#f92672">&amp;</span>clientArgs) <span style="color:#f92672">==</span> OT_ERROR_NONE)
@@ -549,7 +554,34 @@ TCP: Reached end of stream
 </span></span></code></pre></div><p>Start this TCP Server on IOT gateway</p>
 <pre tabindex="0"><code class="language-commandline" data-lang="commandline">$ ~ python3 tcpServer.py 192.223.10.20 8083
 waiting for a connection
-</code></pre><h4 id="63-synthesize-ipv4-to-ipv6">6.3 Synthesize IPv4 to IPv6</h4>
+</code></pre><h4 id="63-receive-data-over-tcp">6.3 Receive Data over TCP</h4>
+<p>Implement data receive logic in the <code>tcpConnectionEstablished</code> callback. Make sure of calling  <code>otTcpCommitReceive</code> to confirm tcp stack about state of data received.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">tcpReceived</span>(otTcpEndpoint <span style="color:#f92672">*</span>aEndpoint,size_t aBytesAvailable,<span style="color:#66d9ef">bool</span> aEndOfStream, size_t aBytesRemaining)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (aBytesAvailable <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">const</span> otLinkedBuffer <span style="color:#f92672">*</span>data;
+</span></span><span style="display:flex;"><span>        size_t totalReceived <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>          
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (otTcpReceiveByReference(aEndpoint, <span style="color:#f92672">&amp;</span>data) <span style="color:#f92672">==</span> OT_ERROR_NONE){
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> (; data <span style="color:#f92672">!=</span> NULL; data <span style="color:#f92672">=</span> data<span style="color:#f92672">-&gt;</span>mNext)
+</span></span><span style="display:flex;"><span>            {
+</span></span><span style="display:flex;"><span>                LOG_INF(<span style="color:#e6db74">&#34;Received %.*s&#34;</span>, data<span style="color:#f92672">-&gt;</span>mLength, data<span style="color:#f92672">-&gt;</span>mData);
+</span></span><span style="display:flex;"><span>                totalReceived <span style="color:#f92672">+=</span> data<span style="color:#f92672">-&gt;</span>mLength;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(aBytesAvailable <span style="color:#f92672">!=</span> totalReceived){
+</span></span><span style="display:flex;"><span>                LOG_ERR(<span style="color:#e6db74">&#34;bytes available not matching with total received&#34;</span>);
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            otTcpCommitReceive(aEndpoint, totalReceived, <span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (aEndOfStream)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        LOG_INF(<span style="color:#e6db74">&#34;Closing connection...&#34;</span>);
+</span></span><span style="display:flex;"><span>        otTcpEndpointDeinitialize(aEndpoint);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="64-synthesize-ipv4-to-ipv6">6.4 Synthesize IPv4 to IPv6</h4>
 <p>Since our TCP client accepts only IPv6 host address, we need to ask border router to provide mapped IPv6 address. Here is a method that can do it.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">synthesizeIp6Address</span>(<span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span>ip4host)
 </span></span><span style="display:flex;"><span>{
@@ -599,6 +631,11 @@ waiting for a connection
 &lt;dbg&gt; TCP: startTcpClient: TCP Endpoint initialized.
 &lt;dbg&gt; TCP: tcpConnectionEstablished: Connection Established!
 &lt;dbg&gt; TCP: tcpConnectionEstablished: Payload sent! {&#34;Data&#34;: 509091}
+&lt;inf&gt; TCP: Received : {&#34;Data&#34;: 509091
+&lt;inf&gt; TCP: Received : }
+&lt;inf&gt; TCP: Received : 
+&lt;inf&gt; TCP: Closing connection...
+TCP: TCP connection closed. Reason: 0
 </code></pre><p>Logs on IOT Gateway Python Console</p>
 <pre tabindex="0"><code class="language-commandline" data-lang="commandline">$ ~ python3 tcpServer.py 192.223.10.20 8083
 waiting for a connection
@@ -675,6 +712,10 @@ waiting for a connection
     <p class="f5 b mb3">Related</p>
     <ul class="pa0 list">
 	   
+	     <li  class="mb2">
+          <a href="/post/iot-thread-external-commissioner-cli/">External Commissioning in Thread Network</a>
+        </li>
+	    
 	     <li  class="mb2">
           <a href="/post/iot-nrf-connect-sdk-advanced/">nRF Connect SDK Advanced Practices</a>
         </li>
@@ -1173,6 +1214,10 @@ waiting for a connection
 	    
 	     <li  class="mb2">
           <a href="/event/gatherverse-summit-2025/">Speaker - Gatherverse Summit 2025</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/about/streaming/">Livestreaming</a>
         </li>
 	    
 	     <li  class="mb2">

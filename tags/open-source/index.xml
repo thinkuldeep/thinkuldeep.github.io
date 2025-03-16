@@ -10,6 +10,29 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Tue, 31 Dec 2024 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>OpenThread Commissioner Implementation in Java</title>
+            <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-java/</link>
+            <pubDate>Mon, 10 Mar 2025 11:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-thread-external-commissioner-java/</guid>
+            <description>In a previous article, we explored how to build and use an Android app as an external commissioner to onboard Thread devices into a network. This article takes it a step further by demonstrating how to implement a Java-based external commissioner.
+The thread commissioning process involves the following key steps:
+ Discovering the Border Router Connecting to the Border Router Adding Joiner Rules Joining the Thread Network  In this guide, we will implement these steps in a Java application, providing a clear and structured approach to external commissioning in OpenThread.</description>
+        </item>
+        
+        <item>
+            <title>Open-sources and Apps</title>
+            <link>https://thinkuldeep.com//about/open-sources/</link>
+            <pubDate>Mon, 10 Mar 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/open-sources/</guid>
+            <description>OpenThread Commissioner Implementation in Java OpenThread’s open-source project currently offers a native Commissioner CLI and an Android app for external commissioning, but no standalone Java-based implementation.
+This project aims to bridge that gap by providing a step-by-step guide for developers to build an external Commissioner in Java.
+☞ Github ☞ Learn More
+ MQTT-Remote This is a web-based remote control for a led. It is a soft button on web that works in sync with hardware button.</description>
+        </item>
+        
+        <item>
             <title>Testing the Ground: Reflections on 2024 and the Road Ahead for 2025</title>
             <link>https://thinkuldeep.com//post/2024-reflections-2025-anticipation/</link>
             <pubDate>Tue, 31 Dec 2024 10:58:08 -0400</pubDate>
@@ -17,20 +40,6 @@
             <guid>https://thinkuldeep.com//post/2024-reflections-2025-anticipation/</guid>
             <description>As we bid farewell to 2024 and welcome 2025, it’s a perfect moment to reflect on the lessons this year has offered—both rewarding and challenging—and to prepare for the opportunities ahead.
 This year marked a significant milestone as I celebrated 20 years in the industry. Along this journey, I shared my experiences by publishing a book, contributing over 30 articles and whitepapers on topics like the AI-powered metaverse, IoT, D&amp;amp;Iand product management.</description>
-        </item>
-        
-        <item>
-            <title>Open-sources and Apps</title>
-            <link>https://thinkuldeep.com//about/open-sources/</link>
-            <pubDate>Fri, 18 Oct 2024 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/open-sources/</guid>
-            <description>MQTT-Remote This is a web-based remote control for a led. It is a soft button on web that works in sync with hardware button.
- ☞ Live Demo ☞ Github ☞ Learn More
-ModelViewer WebXR and 3D Printing Demonstrations
- ☞ Live Demo ☞ Github ☞ Learn WebXR
-3D Book Add pages to the book, and turn them like real pages.
-☞ Github ☞ Book launch - Five thoughtful years</description>
         </item>
         
         <item>

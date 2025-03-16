@@ -8,7 +8,29 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Sat, 08 Feb 2025 11:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/java/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Wed, 05 Mar 2025 11:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/java/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>OpenThread Commissioner Implementation in Java</title>
+            <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-java/</link>
+            <pubDate>Mon, 10 Mar 2025 11:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-thread-external-commissioner-java/</guid>
+            <description>In a previous article, we explored how to build and use an Android app as an external commissioner to onboard Thread devices into a network. This article takes it a step further by demonstrating how to implement a Java-based external commissioner.
+The thread commissioning process involves the following key steps:
+ Discovering the Border Router Connecting to the Border Router Adding Joiner Rules Joining the Thread Network  In this guide, we will implement these steps in a Java application, providing a clear and structured approach to external commissioning in OpenThread.</description>
+        </item>
+        
+        <item>
+            <title>Building and Using OpenThread Commissioner Mobile App</title>
+            <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-android/</link>
+            <pubDate>Wed, 05 Mar 2025 11:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-thread-external-commissioner-android/</guid>
+            <description>In our previous article, we set up an external commissioner outside a Thread network using a command-line tool on a PC. However, OpenThread also provides a mobile app that can serve as an external commissioner.
+This guide will walk you through building and using the OpenThread Commissioner mobile app to provision a device onto a Thread network.
+Building the OpenThread Commissioner Mobile App OpenThread provides an Android app source, which requires Android Studio and Android NDK to build.</description>
+        </item>
+        
         <item>
             <title>Certificates</title>
             <link>https://thinkuldeep.com//about/certificates/</link>

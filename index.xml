@@ -8,7 +8,62 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Sat, 15 Feb 2025 11:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Wed, 05 Mar 2025 11:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>🙏 Exploring the Metaverse | Testimonial 12</title>
+            <link>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-12/</link>
+            <pubDate>Sun, 16 Mar 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-12/</guid>
+            <description>🚀 My Book, Exploring the Metaverse, is available in stores worldwide, including Amazon and BPB Online. It features forewords and testimonials from industry pioneers, and it aims to uncover the concept of the Metaverse, offering insights into its technological and business implications.
+One notable endorsement comes from Sumeet Gayathri Moghe — Principal Product Manager at Thoughtworks and author of The Async-First Playbook. It is a privilege collaborating with Sumeet, who challenges the notion of being &amp;ldquo;busy&amp;rdquo; and advocates for deep, meaningful work through an async-first mindset—syncing when truly necessary.</description>
+        </item>
+        
+        <item>
+            <title>OpenThread Commissioner Implementation in Java</title>
+            <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-java/</link>
+            <pubDate>Mon, 10 Mar 2025 11:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-thread-external-commissioner-java/</guid>
+            <description>In a previous article, we explored how to build and use an Android app as an external commissioner to onboard Thread devices into a network. This article takes it a step further by demonstrating how to implement a Java-based external commissioner.
+The thread commissioning process involves the following key steps:
+ Discovering the Border Router Connecting to the Border Router Adding Joiner Rules Joining the Thread Network  In this guide, we will implement these steps in a Java application, providing a clear and structured approach to external commissioning in OpenThread.</description>
+        </item>
+        
+        <item>
+            <title>Open-sources and Apps</title>
+            <link>https://thinkuldeep.com//about/open-sources/</link>
+            <pubDate>Mon, 10 Mar 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/open-sources/</guid>
+            <description>OpenThread Commissioner Implementation in Java OpenThread’s open-source project currently offers a native Commissioner CLI and an Android app for external commissioning, but no standalone Java-based implementation.
+This project aims to bridge that gap by providing a step-by-step guide for developers to build an external Commissioner in Java.
+☞ Github ☞ Learn More
+ MQTT-Remote This is a web-based remote control for a led. It is a soft button on web that works in sync with hardware button.</description>
+        </item>
+        
+        <item>
+            <title>📕 Exploring the Metaverse | Available Globally</title>
+            <link>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</link>
+            <pubDate>Sun, 09 Mar 2025 11:00:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</guid>
+            <description>Is the metaverse hype or reality? My new book explores what lies ahead &amp;ldquo;Exploring the Metaverse&amp;rdquo; is now available globally!
+Read the detail synopsis of the book here and testimonials from a diverse set of industry leaders
+Buy Paper Back: 🇧🇪 Amazon Belgium - 👉 Get it in 32,65€ (6% off)  🇧🇷 Amazon Brazil - 👉 Get it in R$214,93  🇨🇦 Amazon Canada - 👉 Get it in $45.</description>
+        </item>
+        
+        <item>
+            <title>Building and Using OpenThread Commissioner Mobile App</title>
+            <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-android/</link>
+            <pubDate>Wed, 05 Mar 2025 11:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-thread-external-commissioner-android/</guid>
+            <description>In our previous article, we set up an external commissioner outside a Thread network using a command-line tool on a PC. However, OpenThread also provides a mobile app that can serve as an external commissioner.
+This guide will walk you through building and using the OpenThread Commissioner mobile app to provision a device onto a Thread network.
+Building the OpenThread Commissioner Mobile App OpenThread provides an Android app source, which requires Android Studio and Android NDK to build.</description>
+        </item>
+        
         <item>
             <title>External Commissioning in Thread Network</title>
             <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-cli/</link>
@@ -39,17 +94,6 @@ Commissioner CLI The Commissioner CLI can be built on macOS or Linux using the f
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//about/streaming/</guid>
             <description>The Metaverse United : How AI and XR Can Deepen Human Connections Gatherverse Summit 2025 - ☞ More Details   Defining the AI Powered Virtual World Gatherverse Virtual World Symposium 2024 - ☞ More Details   India&amp;rsquo;s Metaverse Journey: Opportunities and Challenges XROM Postcast - ☞ More Details   Global Insights from XR Leaders in India: AI-Powered Real-Time Adaptation in XR AWE Asia 2024 - ☞ More Details   Harnessing Business Opportunity with AI Powered XR Express Computer Webinar - ☞ More Details   Azure AI Fostering Sense within XR World Season of AI - Azure Developer Community - Rekill - ☞ More Details   Evolving into Tomorrow, Today: Enter the Metaverse Gatherverse XREvolve Summit 2024 - ☞ More Details   Exploring the Metaverse: Redefining the reality in the digital age Book promo - ☞ More Details   XR in practice: the engineering challenges of extending reality Thoughtworks Podcast - ☞ More Details   AI Assisted Content Pipeline for XR Thoughtworks XConf 2022 - ☞ More Details    Using XR in building autonomous vehicles Thoughtworks MasterClass-2021 - ☞ More Details   &amp;nbsp;  The Shift from Enterprise XR to Ethical XR Thoughtworks XConf 2021 - ☞ More Details   Navigating the new normal The VRARA - ☞ More Details    eXtended Reality for Enterprise XROM Podcast - ☞ More Details   XR - Nicety to Necessity Techgig Webinars - ☞ More Details    How to get started with AR VR?</description>
-        </item>
-        
-        <item>
-            <title>📕 Exploring the Metaverse | Available Globally</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</link>
-            <pubDate>Mon, 24 Feb 2025 11:00:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</guid>
-            <description>Is the metaverse hype or reality? My new book explores what lies ahead &amp;ldquo;Exploring the Metaverse&amp;rdquo; is now available globally!
-Read the detail synopsis of the book here and testimonials from a diverse set of industry leaders
-Buy Paper Back: 🇧🇪 Amazon Belgium - 👉 Get it in 32,65€ (6% off)  🇧🇷 Amazon Brazil - 👉 Get it in R$214,93  🇨🇦 Amazon Canada - 👉 Get it in $45.</description>
         </item>
         
         <item>
@@ -266,20 +310,6 @@ Our Next Reality topped my reading list for months, and travel always helps me c
             <guid>https://thinkuldeep.com//post/soft-iot-continued/</guid>
             <description>Simplifying IoT learning doesn’t have to mean getting bogged down with hardware details. Instead, let’s dive into Soft IoT — where we focus on software-driven IoT exploration. In this article, we’ll learn how to read inputs from a button and turn it into a web based remote control for an LED, all while keeping things software-centric..
 In the previous article, we introduced Soft IoT using a Grove Pi board, which simplifies IoT learning by hiding wiring and connections complexity.</description>
-        </item>
-        
-        <item>
-            <title>Open-sources and Apps</title>
-            <link>https://thinkuldeep.com//about/open-sources/</link>
-            <pubDate>Fri, 18 Oct 2024 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/open-sources/</guid>
-            <description>MQTT-Remote This is a web-based remote control for a led. It is a soft button on web that works in sync with hardware button.
- ☞ Live Demo ☞ Github ☞ Learn More
-ModelViewer WebXR and 3D Printing Demonstrations
- ☞ Live Demo ☞ Github ☞ Learn WebXR
-3D Book Add pages to the book, and turn them like real pages.
-☞ Github ☞ Book launch - Five thoughtful years</description>
         </item>
         
         <item>

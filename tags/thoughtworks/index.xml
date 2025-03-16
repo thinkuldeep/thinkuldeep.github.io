@@ -8,15 +8,37 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Fri, 07 Feb 2025 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/thoughtworks/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Tue, 25 Feb 2025 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/thoughtworks/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>🙏 Exploring the Metaverse | Testimonial 12</title>
+            <link>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-12/</link>
+            <pubDate>Sun, 16 Mar 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-12/</guid>
+            <description>🚀 My Book, Exploring the Metaverse, is available in stores worldwide, including Amazon and BPB Online. It features forewords and testimonials from industry pioneers, and it aims to uncover the concept of the Metaverse, offering insights into its technological and business implications.
+One notable endorsement comes from Sumeet Gayathri Moghe — Principal Product Manager at Thoughtworks and author of The Async-First Playbook. It is a privilege collaborating with Sumeet, who challenges the notion of being &amp;ldquo;busy&amp;rdquo; and advocates for deep, meaningful work through an async-first mindset—syncing when truly necessary.</description>
+        </item>
+        
         <item>
             <title>About</title>
             <link>https://thinkuldeep.com//about/</link>
-            <pubDate>Tue, 25 Feb 2025 01:00:00 -0400</pubDate>
+            <pubDate>Mon, 10 Mar 2025 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//about/</guid>
             <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
 👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
+        </item>
+        
+        <item>
+            <title>Open-sources and Apps</title>
+            <link>https://thinkuldeep.com//about/open-sources/</link>
+            <pubDate>Mon, 10 Mar 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/open-sources/</guid>
+            <description>OpenThread Commissioner Implementation in Java OpenThread’s open-source project currently offers a native Commissioner CLI and an Android app for external commissioning, but no standalone Java-based implementation.
+This project aims to bridge that gap by providing a step-by-step guide for developers to build an external Commissioner in Java.
+☞ Github ☞ Learn More
+ MQTT-Remote This is a web-based remote control for a led. It is a soft button on web that works in sync with hardware button.</description>
         </item>
         
         <item>
@@ -126,20 +148,6 @@ One of the standout testimonials is from Mr. Hemanth Kumar Satyanarayana, Founde
             <description>📖 My Takeaways from Our Next Reality by Alvin Wang Graylin and Louis Rosenberg
 ☞ Buy - Exploring the Metaverse ☞ Buy - Our Next Reality 
 Our Next Reality topped my reading list for months, and travel always helps me catch up on books! After meeting Alvin at AWE Asia 2024, I was eager to dive in and finally complete it. Following recent trips to Singapore and now the US, here’s what I found worth sharing from the book.</description>
-        </item>
-        
-        <item>
-            <title>Open-sources and Apps</title>
-            <link>https://thinkuldeep.com//about/open-sources/</link>
-            <pubDate>Fri, 18 Oct 2024 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/open-sources/</guid>
-            <description>MQTT-Remote This is a web-based remote control for a led. It is a soft button on web that works in sync with hardware button.
- ☞ Live Demo ☞ Github ☞ Learn More
-ModelViewer WebXR and 3D Printing Demonstrations
- ☞ Live Demo ☞ Github ☞ Learn WebXR
-3D Book Add pages to the book, and turn them like real pages.
-☞ Github ☞ Book launch - Five thoughtful years</description>
         </item>
         
         <item>

@@ -8,7 +8,39 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Sat, 15 Feb 2025 11:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Wed, 05 Mar 2025 11:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>OpenThread Commissioner Implementation in Java</title>
+            <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-java/</link>
+            <pubDate>Mon, 10 Mar 2025 11:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-thread-external-commissioner-java/</guid>
+            <description>In a previous article, we explored how to build and use an Android app as an external commissioner to onboard Thread devices into a network. This article takes it a step further by demonstrating how to implement a Java-based external commissioner.
+The thread commissioning process involves the following key steps:
+ Discovering the Border Router Connecting to the Border Router Adding Joiner Rules Joining the Thread Network  In this guide, we will implement these steps in a Java application, providing a clear and structured approach to external commissioning in OpenThread.</description>
+        </item>
+        
+        <item>
+            <title>About</title>
+            <link>https://thinkuldeep.com//about/</link>
+            <pubDate>Mon, 10 Mar 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/</guid>
+            <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
+👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
+        </item>
+        
+        <item>
+            <title>Building and Using OpenThread Commissioner Mobile App</title>
+            <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-android/</link>
+            <pubDate>Wed, 05 Mar 2025 11:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-thread-external-commissioner-android/</guid>
+            <description>In our previous article, we set up an external commissioner outside a Thread network using a command-line tool on a PC. However, OpenThread also provides a mobile app that can serve as an external commissioner.
+This guide will walk you through building and using the OpenThread Commissioner mobile app to provision a device onto a Thread network.
+Building the OpenThread Commissioner Mobile App OpenThread provides an Android app source, which requires Android Studio and Android NDK to build.</description>
+        </item>
+        
         <item>
             <title>External Commissioning in Thread Network</title>
             <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-cli/</link>
@@ -18,16 +50,6 @@
             <description>In our previous article, we set up a commissioner within a Thread network by starting the commissioner from a thread node. However, a Thread network can also be provisioned using an external commissioner outside the thread network.
 This article will guide you through the configuration of an external commissioner for a Thread network using a Commissioner CLI setup on a mac/linux pc.
 Commissioner CLI The Commissioner CLI can be built on macOS or Linux using the following steps:</description>
-        </item>
-        
-        <item>
-            <title>About</title>
-            <link>https://thinkuldeep.com//about/</link>
-            <pubDate>Tue, 25 Feb 2025 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/</guid>
-            <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
-👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
         </item>
         
         <item>

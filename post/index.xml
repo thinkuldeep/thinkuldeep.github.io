@@ -10,6 +10,49 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Mon, 02 Mar 2020 12:00:00 -0500</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>🙏 Exploring the Metaverse | Testimonial 12</title>
+            <link>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-12/</link>
+            <pubDate>Sun, 16 Mar 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-12/</guid>
+            <description>🚀 My Book, Exploring the Metaverse, is available in stores worldwide, including Amazon and BPB Online. It features forewords and testimonials from industry pioneers, and it aims to uncover the concept of the Metaverse, offering insights into its technological and business implications.
+One notable endorsement comes from Sumeet Gayathri Moghe — Principal Product Manager at Thoughtworks and author of The Async-First Playbook. It is a privilege collaborating with Sumeet, who challenges the notion of being &amp;ldquo;busy&amp;rdquo; and advocates for deep, meaningful work through an async-first mindset—syncing when truly necessary.</description>
+        </item>
+        
+        <item>
+            <title>OpenThread Commissioner Implementation in Java</title>
+            <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-java/</link>
+            <pubDate>Mon, 10 Mar 2025 11:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-thread-external-commissioner-java/</guid>
+            <description>In a previous article, we explored how to build and use an Android app as an external commissioner to onboard Thread devices into a network. This article takes it a step further by demonstrating how to implement a Java-based external commissioner.
+The thread commissioning process involves the following key steps:
+ Discovering the Border Router Connecting to the Border Router Adding Joiner Rules Joining the Thread Network  In this guide, we will implement these steps in a Java application, providing a clear and structured approach to external commissioning in OpenThread.</description>
+        </item>
+        
+        <item>
+            <title>📕 Exploring the Metaverse | Available Globally</title>
+            <link>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</link>
+            <pubDate>Sun, 09 Mar 2025 11:00:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</guid>
+            <description>Is the metaverse hype or reality? My new book explores what lies ahead &amp;ldquo;Exploring the Metaverse&amp;rdquo; is now available globally!
+Read the detail synopsis of the book here and testimonials from a diverse set of industry leaders
+Buy Paper Back: 🇧🇪 Amazon Belgium - 👉 Get it in 32,65€ (6% off)  🇧🇷 Amazon Brazil - 👉 Get it in R$214,93  🇨🇦 Amazon Canada - 👉 Get it in $45.</description>
+        </item>
+        
+        <item>
+            <title>Building and Using OpenThread Commissioner Mobile App</title>
+            <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-android/</link>
+            <pubDate>Wed, 05 Mar 2025 11:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-thread-external-commissioner-android/</guid>
+            <description>In our previous article, we set up an external commissioner outside a Thread network using a command-line tool on a PC. However, OpenThread also provides a mobile app that can serve as an external commissioner.
+This guide will walk you through building and using the OpenThread Commissioner mobile app to provision a device onto a Thread network.
+Building the OpenThread Commissioner Mobile App OpenThread provides an Android app source, which requires Android Studio and Android NDK to build.</description>
+        </item>
+        
+        <item>
             <title>External Commissioning in Thread Network</title>
             <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-cli/</link>
             <pubDate>Wed, 26 Feb 2025 11:58:08 -0400</pubDate>
@@ -18,17 +61,6 @@
             <description>In our previous article, we set up a commissioner within a Thread network by starting the commissioner from a thread node. However, a Thread network can also be provisioned using an external commissioner outside the thread network.
 This article will guide you through the configuration of an external commissioner for a Thread network using a Commissioner CLI setup on a mac/linux pc.
 Commissioner CLI The Commissioner CLI can be built on macOS or Linux using the following steps:</description>
-        </item>
-        
-        <item>
-            <title>📕 Exploring the Metaverse | Available Globally</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</link>
-            <pubDate>Mon, 24 Feb 2025 11:00:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</guid>
-            <description>Is the metaverse hype or reality? My new book explores what lies ahead &amp;ldquo;Exploring the Metaverse&amp;rdquo; is now available globally!
-Read the detail synopsis of the book here and testimonials from a diverse set of industry leaders
-Buy Paper Back: 🇧🇪 Amazon Belgium - 👉 Get it in 32,65€ (6% off)  🇧🇷 Amazon Brazil - 👉 Get it in R$214,93  🇨🇦 Amazon Canada - 👉 Get it in $45.</description>
         </item>
         
         <item>

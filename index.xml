@@ -8,7 +8,38 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Wed, 05 Mar 2025 11:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Tue, 15 Apr 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>🙏 Exploring the Metaverse | Testimonial 13</title>
+            <link>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-13/</link>
+            <pubDate>Fri, 18 Apr 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-13/</guid>
+            <description>🚀 My Book, Exploring the Metaverse, is available in stores worldwide, including Amazon and BPB Online. It features forewords and testimonials from industry pioneers, and it aims to uncover the concept of the Metaverse, offering insights into its technological and business implications.
+One notable endorsement comes from industry veteran Mr. Pradeep Khanna, who holds multiple global roles in metaverse eco-system. It is a privilege to work with Pradeep at various front on VRARA and other emerging technologies platform.</description>
+        </item>
+        
+        <item>
+            <title>DNS Resolution In Thread Network</title>
+            <link>https://thinkuldeep.com//post/iot-thread-dns-resolution/</link>
+            <pubDate>Tue, 15 Apr 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-thread-dns-resolution/</guid>
+            <description>In previous articles, we explored communication between a Thread device and external (non-Thread) networks, primarily over TCP/HTTP using IP addresses and ports. However, in real-world applications, we rarely use raw IP addresses. Instead, we rely on hostnames — which are resolved to IP addresses using DNS (Domain Name System).
+Public DNS resolution (like Google’s 8.8.8.8) handles global domain names, typically configured at the OS or browser level. But for private, local networks — like those used in IoT and Thread-based deployments — we need a local DNS setup to resolve custom hostnames (e.</description>
+        </item>
+        
+        <item>
+            <title>📕 Exploring the Metaverse | Available Globally</title>
+            <link>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</link>
+            <pubDate>Tue, 01 Apr 2025 11:00:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</guid>
+            <description>Is the metaverse hype or reality? My new book explores what lies ahead &amp;ldquo;Exploring the Metaverse&amp;rdquo; is now available globally!
+Read the detail synopsis of the book here and testimonials from a diverse set of industry leaders
+Buy Paper Back: 🇧🇪 Amazon Belgium - 👉 Get it in 32,80€ (4% off)  🇧🇷 Amazon Brazil - 👉 Get it in R$200,16  🇨🇦 Amazon Canada - 👉 Get it in $45.</description>
+        </item>
+        
         <item>
             <title>🙏 Exploring the Metaverse | Testimonial 12</title>
             <link>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-12/</link>
@@ -40,17 +71,6 @@ The thread commissioning process involves the following key steps:
 This project aims to bridge that gap by providing a step-by-step guide for developers to build an external Commissioner in Java.
 ☞ Github ☞ Learn More
  MQTT-Remote This is a web-based remote control for a led. It is a soft button on web that works in sync with hardware button.</description>
-        </item>
-        
-        <item>
-            <title>📕 Exploring the Metaverse | Available Globally</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</link>
-            <pubDate>Sun, 09 Mar 2025 11:00:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</guid>
-            <description>Is the metaverse hype or reality? My new book explores what lies ahead &amp;ldquo;Exploring the Metaverse&amp;rdquo; is now available globally!
-Read the detail synopsis of the book here and testimonials from a diverse set of industry leaders
-Buy Paper Back: 🇧🇪 Amazon Belgium - 👉 Get it in 32,65€ (6% off)  🇧🇷 Amazon Brazil - 👉 Get it in R$214,93  🇨🇦 Amazon Canada - 👉 Get it in $45.</description>
         </item>
         
         <item>

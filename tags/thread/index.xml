@@ -8,7 +8,17 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Mon, 10 Mar 2025 11:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/thread/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Tue, 15 Apr 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/thread/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>DNS Resolution In Thread Network</title>
+            <link>https://thinkuldeep.com//post/iot-thread-dns-resolution/</link>
+            <pubDate>Tue, 15 Apr 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/iot-thread-dns-resolution/</guid>
+            <description>In previous articles, we explored communication between a Thread device and external (non-Thread) networks, primarily over TCP/HTTP using IP addresses and ports. However, in real-world applications, we rarely use raw IP addresses. Instead, we rely on hostnames — which are resolved to IP addresses using DNS (Domain Name System).
+Public DNS resolution (like Google’s 8.8.8.8) handles global domain names, typically configured at the OS or browser level. But for private, local networks — like those used in IoT and Thread-based deployments — we need a local DNS setup to resolve custom hostnames (e.</description>
+        </item>
+        
         <item>
             <title>OpenThread Commissioner Implementation in Java</title>
             <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-java/</link>

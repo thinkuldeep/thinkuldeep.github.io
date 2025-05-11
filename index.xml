@@ -10,6 +10,15 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Sat, 26 Apr 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>Certificates</title>
+            <link>https://thinkuldeep.com//about/certificates/</link>
+            <pubDate>Sun, 11 May 2025 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/certificates/</guid>
+            <description> Generative AI Essentials 2 Expertise: Complete Concise Guide nRF Connect SDK Intermediate Bluetooth Low Energy Fundamentals nRF Connect SDK Fundamentals Building AI Elements of AI Product Management Enterprise Architecture Internet of Things (IOT) User Experience Design Taradata Certified Java Certified Programmer </description>
+        </item>
+        
+        <item>
             <title>🚀 HackVSIT 6.0 – Judging the brilliant minds</title>
             <link>https://thinkuldeep.com//event/hackvsit-6-2025/</link>
             <pubDate>Sat, 26 Apr 2025 10:58:08 -0400</pubDate>
@@ -153,15 +162,6 @@ Commissioner CLI The Commissioner CLI can be built on macOS or Linux using the f
             <description>In a previous article, we explored how a Commissioner node provisions a Joiner in a Thread network using OpenThread&amp;rsquo;s default firmware. However, in real-world applications, custom firmware logic is often required, along with programmatic control over the commissioning process. In this article, we will implement a Joiner using the nRF Connect SDK, following these four key steps.
 Joiner in Action The Joiner process involves the following steps:
  Enable Thread – Ensure that the Thread network and IPv6 are enabled.</description>
-        </item>
-        
-        <item>
-            <title>Certificates</title>
-            <link>https://thinkuldeep.com//about/certificates/</link>
-            <pubDate>Sat, 08 Feb 2025 11:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/certificates/</guid>
-            <description> nRF Connect SDK Intermediate Bluetooth Low Energy Fundamentals nRF Connect SDK Fundamentals Building AI Elements of AI Product Management Enterprise Architecture Internet of Things (IOT) User Experience Design Taradata Certified Java Certified Programmer </description>
         </item>
         
         <item>

@@ -28,11 +28,20 @@
         </item>
         
         <item>
-            <title>ashoka</title>
-            <link>https://thinkuldeep.com//tags/ashoka/</link>
+            <title>book</title>
+            <link>https://thinkuldeep.com//tags/book/</link>
             <pubDate>Sat, 26 Apr 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/ashoka/</guid>
+            <guid>https://thinkuldeep.com//tags/book/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>computer vision</title>
+            <link>https://thinkuldeep.com//tags/computer-vision/</link>
+            <pubDate>Sat, 26 Apr 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/computer-vision/</guid>
             <description></description>
         </item>
         
@@ -73,6 +82,15 @@
         </item>
         
         <item>
+            <title>IOT</title>
+            <link>https://thinkuldeep.com//tags/iot/</link>
+            <pubDate>Sat, 26 Apr 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/iot/</guid>
+            <description></description>
+        </item>
+        
+        <item>
             <title>judge</title>
             <link>https://thinkuldeep.com//tags/judge/</link>
             <pubDate>Sat, 26 Apr 2025 10:58:08 -0400</pubDate>
@@ -91,6 +109,15 @@
         </item>
         
         <item>
+            <title>metaverse</title>
+            <link>https://thinkuldeep.com//tags/metaverse/</link>
+            <pubDate>Sat, 26 Apr 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/metaverse/</guid>
+            <description></description>
+        </item>
+        
+        <item>
             <title>ml</title>
             <link>https://thinkuldeep.com//tags/ml/</link>
             <pubDate>Sat, 26 Apr 2025 10:58:08 -0400</pubDate>
@@ -100,11 +127,20 @@
         </item>
         
         <item>
-            <title>sustainability</title>
-            <link>https://thinkuldeep.com//tags/sustainability/</link>
+            <title>robotics</title>
+            <link>https://thinkuldeep.com//tags/robotics/</link>
             <pubDate>Sat, 26 Apr 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/sustainability/</guid>
+            <guid>https://thinkuldeep.com//tags/robotics/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>students</title>
+            <link>https://thinkuldeep.com//tags/students/</link>
+            <pubDate>Sat, 26 Apr 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/students/</guid>
             <description></description>
         </item>
         
@@ -114,6 +150,15 @@
             <pubDate>Sat, 26 Apr 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/university/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>vsit</title>
+            <link>https://thinkuldeep.com//tags/vsit/</link>
+            <pubDate>Sat, 26 Apr 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/vsit/</guid>
             <description></description>
         </item>
         
@@ -145,29 +190,11 @@
         </item>
         
         <item>
-            <title>book</title>
-            <link>https://thinkuldeep.com//tags/book/</link>
-            <pubDate>Fri, 18 Apr 2025 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/book/</guid>
-            <description></description>
-        </item>
-        
-        <item>
             <title>buy</title>
             <link>https://thinkuldeep.com//tags/buy/</link>
             <pubDate>Fri, 18 Apr 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/buy/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>IOT</title>
-            <link>https://thinkuldeep.com//tags/iot/</link>
-            <pubDate>Fri, 18 Apr 2025 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/iot/</guid>
             <description></description>
         </item>
         
@@ -186,15 +213,6 @@
             <pubDate>Fri, 18 Apr 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/meta/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>metaverse</title>
-            <link>https://thinkuldeep.com//tags/metaverse/</link>
-            <pubDate>Fri, 18 Apr 2025 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/metaverse/</guid>
             <description></description>
         </item>
         
@@ -1477,15 +1495,6 @@
         </item>
         
         <item>
-            <title>students</title>
-            <link>https://thinkuldeep.com//tags/students/</link>
-            <pubDate>Wed, 14 Aug 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//tags/students/</guid>
-            <description></description>
-        </item>
-        
-        <item>
             <title>whitepaper</title>
             <link>https://thinkuldeep.com//tags/whitepaper/</link>
             <pubDate>Wed, 14 Aug 2024 10:58:08 -0400</pubDate>
@@ -1873,6 +1882,15 @@
         </item>
         
         <item>
+            <title>sustainability</title>
+            <link>https://thinkuldeep.com//tags/sustainability/</link>
+            <pubDate>Sat, 30 Dec 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/sustainability/</guid>
+            <description></description>
+        </item>
+        
+        <item>
             <title>listening</title>
             <link>https://thinkuldeep.com//tags/listening/</link>
             <pubDate>Sun, 01 Oct 2023 10:58:08 -0400</pubDate>
@@ -2157,6 +2175,15 @@
             <pubDate>Fri, 01 Jul 2022 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//tags/glossary/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>ashoka</title>
+            <link>https://thinkuldeep.com//tags/ashoka/</link>
+            <pubDate>Sun, 19 Jun 2022 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//tags/ashoka/</guid>
             <description></description>
         </item>
         

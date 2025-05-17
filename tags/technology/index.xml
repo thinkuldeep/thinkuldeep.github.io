@@ -8,7 +8,36 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Tue, 15 Apr 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sat, 17 May 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>FOMO to Flow: Building Gen AI Solutions</title>
+            <link>https://thinkuldeep.com//post/ai-fomo-to-flow-building-genai-solutions/</link>
+            <pubDate>Sat, 17 May 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/ai-fomo-to-flow-building-genai-solutions/</guid>
+            <description>Unlock the power of Generative AI by learning to interact with large language models programmatically—and take it further with fine-tuning for customized responses.
+If you’re a software maker feeling the fear of missing out (FOMO) on the Gen AI revolution, you’re not alone. The way we build and interact with software is evolving rapidly. “Google it” or “check Stack Overflow” is no longer the go-to approach — AI-first, conversational tools are becoming the new standard across development, design, and decision-making.</description>
+        </item>
+        
+        <item>
+            <title>About</title>
+            <link>https://thinkuldeep.com//about/</link>
+            <pubDate>Sun, 11 May 2025 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/</guid>
+            <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
+👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
+        </item>
+        
+        <item>
+            <title>Certificates</title>
+            <link>https://thinkuldeep.com//about/certificates/</link>
+            <pubDate>Sun, 11 May 2025 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/certificates/</guid>
+            <description> Generative AI Essentials 2 Expertise: Complete Concise Guide nRF Connect SDK Intermediate Bluetooth Low Energy Fundamentals nRF Connect SDK Fundamentals Building AI Elements of AI Product Management Enterprise Architecture Internet of Things (IOT) User Experience Design Taradata Certified Java Certified Programmer </description>
+        </item>
+        
         <item>
             <title>DNS Resolution In Thread Network</title>
             <link>https://thinkuldeep.com//post/iot-thread-dns-resolution/</link>
@@ -28,16 +57,6 @@ Public DNS resolution (like Google’s 8.8.8.8) handles global domain names, typ
             <description>In a previous article, we explored how to build and use an Android app as an external commissioner to onboard Thread devices into a network. This article takes it a step further by demonstrating how to implement a Java-based external commissioner.
 The thread commissioning process involves the following key steps:
  Discovering the Border Router Connecting to the Border Router Adding Joiner Rules Joining the Thread Network  In this guide, we will implement these steps in a Java application, providing a clear and structured approach to external commissioning in OpenThread.</description>
-        </item>
-        
-        <item>
-            <title>About</title>
-            <link>https://thinkuldeep.com//about/</link>
-            <pubDate>Mon, 10 Mar 2025 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/</guid>
-            <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
-👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
         </item>
         
         <item>
@@ -89,15 +108,6 @@ Commissioner CLI The Commissioner CLI can be built on macOS or Linux using the f
             <description>In a previous article, we explored how a Commissioner node provisions a Joiner in a Thread network using OpenThread&amp;rsquo;s default firmware. However, in real-world applications, custom firmware logic is often required, along with programmatic control over the commissioning process. In this article, we will implement a Joiner using the nRF Connect SDK, following these four key steps.
 Joiner in Action The Joiner process involves the following steps:
  Enable Thread – Ensure that the Thread network and IPv6 are enabled.</description>
-        </item>
-        
-        <item>
-            <title>Certificates</title>
-            <link>https://thinkuldeep.com//about/certificates/</link>
-            <pubDate>Sat, 08 Feb 2025 11:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/certificates/</guid>
-            <description> Generative AI Essentials 2 Expertise: Complete Concise Guide nRF Connect SDK Intermediate Bluetooth Low Energy Fundamentals nRF Connect SDK Fundamentals Building AI Elements of AI Product Management Enterprise Architecture Internet of Things (IOT) User Experience Design Taradata Certified Java Certified Programmer </description>
         </item>
         
         <item>

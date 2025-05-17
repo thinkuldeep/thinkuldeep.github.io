@@ -8,7 +8,17 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Mon, 10 Mar 2025 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/learnings/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sat, 17 May 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/learnings/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>FOMO to Flow: Building Gen AI Solutions</title>
+            <link>https://thinkuldeep.com//post/ai-fomo-to-flow-building-genai-solutions/</link>
+            <pubDate>Sat, 17 May 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/ai-fomo-to-flow-building-genai-solutions/</guid>
+            <description>Unlock the power of Generative AI by learning to interact with large language models programmatically—and take it further with fine-tuning for customized responses.
+If you’re a software maker feeling the fear of missing out (FOMO) on the Gen AI revolution, you’re not alone. The way we build and interact with software is evolving rapidly. “Google it” or “check Stack Overflow” is no longer the go-to approach — AI-first, conversational tools are becoming the new standard across development, design, and decision-making.</description>
+        </item>
+        
         <item>
             <title>Open-sources and Apps</title>
             <link>https://thinkuldeep.com//about/open-sources/</link>

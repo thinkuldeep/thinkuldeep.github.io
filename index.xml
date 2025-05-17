@@ -8,7 +8,29 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Sat, 26 Apr 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sat, 17 May 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>FOMO to Flow: Building Gen AI Solutions</title>
+            <link>https://thinkuldeep.com//post/ai-fomo-to-flow-building-genai-solutions/</link>
+            <pubDate>Sat, 17 May 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/ai-fomo-to-flow-building-genai-solutions/</guid>
+            <description>Unlock the power of Generative AI by learning to interact with large language models programmatically—and take it further with fine-tuning for customized responses.
+If you’re a software maker feeling the fear of missing out (FOMO) on the Gen AI revolution, you’re not alone. The way we build and interact with software is evolving rapidly. “Google it” or “check Stack Overflow” is no longer the go-to approach — AI-first, conversational tools are becoming the new standard across development, design, and decision-making.</description>
+        </item>
+        
+        <item>
+            <title>Open-sources and Apps</title>
+            <link>https://thinkuldeep.com//about/open-sources/</link>
+            <pubDate>Sat, 17 May 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/open-sources/</guid>
+            <description>Gen AI Hands On Practices Google Colab Hands-on practice for developing Gen AI applications, and understanding the concepts.
+☞ Github ☞ Learn More
+ OpenThread Commissioner Implementation in Java OpenThread’s open-source project currently offers a native Commissioner CLI and an Android app for external commissioning, but no standalone Java-based implementation.
+This project aims to bridge that gap by providing a step-by-step guide for developers to build an external Commissioner in Java.</description>
+        </item>
+        
         <item>
             <title>Certificates</title>
             <link>https://thinkuldeep.com//about/certificates/</link>
@@ -78,18 +100,6 @@ One notable endorsement comes from Sumeet Gayathri Moghe — Principal Product M
             <description>In a previous article, we explored how to build and use an Android app as an external commissioner to onboard Thread devices into a network. This article takes it a step further by demonstrating how to implement a Java-based external commissioner.
 The thread commissioning process involves the following key steps:
  Discovering the Border Router Connecting to the Border Router Adding Joiner Rules Joining the Thread Network  In this guide, we will implement these steps in a Java application, providing a clear and structured approach to external commissioning in OpenThread.</description>
-        </item>
-        
-        <item>
-            <title>Open-sources and Apps</title>
-            <link>https://thinkuldeep.com//about/open-sources/</link>
-            <pubDate>Mon, 10 Mar 2025 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/open-sources/</guid>
-            <description>OpenThread Commissioner Implementation in Java OpenThread’s open-source project currently offers a native Commissioner CLI and an Android app for external commissioning, but no standalone Java-based implementation.
-This project aims to bridge that gap by providing a step-by-step guide for developers to build an external Commissioner in Java.
-☞ Github ☞ Learn More
- MQTT-Remote This is a web-based remote control for a led. It is a soft button on web that works in sync with hardware button.</description>
         </item>
         
         <item>

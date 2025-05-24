@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>JavaScript on Kuldeep Singh</title>
+        <title>javascript on Kuldeep Singh</title>
         <link>https://thinkuldeep.com//tags/javascript/</link>
-        <description>Recent content in JavaScript on Kuldeep Singh</description>
+        <description>Recent content in javascript on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Tue, 27 Jan 2015 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sat, 17 May 2025 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Open-sources and Apps</title>
+            <link>https://thinkuldeep.com//about/open-sources/</link>
+            <pubDate>Sat, 17 May 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/open-sources/</guid>
+            <description>Gen AI Hands On Practices Google Colab Hands-on practice for developing Gen AI applications, and understanding the concepts.
+☞ Github ☞ Learn More
+ OpenThread Commissioner Implementation in Java OpenThread’s open-source project currently offers a native Commissioner CLI and an Android app for external commissioning, but no standalone Java-based implementation.
+This project aims to bridge that gap by providing a step-by-step guide for developers to build an external Commissioner in Java.</description>
+        </item>
+        
         <item>
             <title>Object Oriented JavaScript</title>
             <link>https://thinkuldeep.com//post/oojs/</link>

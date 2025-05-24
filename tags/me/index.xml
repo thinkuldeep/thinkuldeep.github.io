@@ -8,15 +8,27 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Sun, 11 May 2025 11:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/me/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sat, 17 May 2025 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/me/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>About</title>
             <link>https://thinkuldeep.com//about/</link>
-            <pubDate>Sun, 11 May 2025 11:00:00 -0400</pubDate>
+            <pubDate>Sat, 17 May 2025 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//about/</guid>
             <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
 👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
+        </item>
+        
+        <item>
+            <title>Open-sources and Apps</title>
+            <link>https://thinkuldeep.com//about/open-sources/</link>
+            <pubDate>Sat, 17 May 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/open-sources/</guid>
+            <description>Gen AI Hands On Practices Google Colab Hands-on practice for developing Gen AI applications, and understanding the concepts.
+☞ Github ☞ Learn More
+ OpenThread Commissioner Implementation in Java OpenThread’s open-source project currently offers a native Commissioner CLI and an Android app for external commissioning, but no standalone Java-based implementation.
+This project aims to bridge that gap by providing a step-by-step guide for developers to build an external Commissioner in Java.</description>
         </item>
         
         <item>
@@ -26,18 +38,6 @@
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//about/certificates/</guid>
             <description> Generative AI Essentials 2 Expertise: Complete Concise Guide nRF Connect SDK Intermediate Bluetooth Low Energy Fundamentals nRF Connect SDK Fundamentals Building AI Elements of AI Product Management Enterprise Architecture Internet of Things (IOT) User Experience Design Taradata Certified Java Certified Programmer </description>
-        </item>
-        
-        <item>
-            <title>Open-sources and Apps</title>
-            <link>https://thinkuldeep.com//about/open-sources/</link>
-            <pubDate>Mon, 10 Mar 2025 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/open-sources/</guid>
-            <description>OpenThread Commissioner Implementation in Java OpenThread’s open-source project currently offers a native Commissioner CLI and an Android app for external commissioning, but no standalone Java-based implementation.
-This project aims to bridge that gap by providing a step-by-step guide for developers to build an external Commissioner in Java.
-☞ Github ☞ Learn More
- MQTT-Remote This is a web-based remote control for a led. It is a soft button on web that works in sync with hardware button.</description>
         </item>
         
         <item>

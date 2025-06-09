@@ -8,7 +8,18 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Sat, 17 May 2025 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Tue, 03 Jun 2025 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Patents</title>
+            <link>https://thinkuldeep.com//about/patents/</link>
+            <pubDate>Tue, 03 Jun 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/patents/</guid>
+            <description>This listing includes patent applications that are pending as well as patents that have already been granted by the United States Patent and Trademark Office (USPTO).
+ CONCURRENT RENDERING OF CANVASES FOR DIFFERENT APPS AS PART OF 3D SIMULATION This invention focuses on rendering multiple 2D mobile apps simultaneously in XR devices, arranged within a 3D spatial layout.
+This browser does not support PDFs. Please download the PDF to view it: Download PDF.</description>
+        </item>
+        
         <item>
             <title>Open-sources and Apps</title>
             <link>https://thinkuldeep.com//about/open-sources/</link>
@@ -46,17 +57,6 @@ This project aims to bridge that gap by providing a step-by-step guide for devel
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//about/moments/</guid>
             <description>18th Anniversary Ritu &amp;amp; Kuldeep - Feb, 2025  44th Anniversary of Parents - Jun, 2024  Book in parent&amp;rsquo;s Hand - May, 2024  Vrindavan - Mar, 2024  House warming ceremony and RakshyaBandhan - Aug, 2023  Jim corbett trip - Jun, 2023  Lakshya&amp;rsquo;s visit to Thoughtworks Gurugram - May, 2023  16th Wedding anniversary - Feb, 2023  Father Retirement Speech - Jun, 2022  ☞ More Details Welcoming Aarav Remotely!</description>
-        </item>
-        
-        <item>
-            <title>Patents</title>
-            <link>https://thinkuldeep.com//about/patents/</link>
-            <pubDate>Thu, 12 Sep 2024 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/patents/</guid>
-            <description>This listing includes patent applications that are pending as well as patents that have already been granted by the United States Patent and Trademark Office (USPTO).
- CONCURRENT RENDERING OF CANVASES FOR DIFFERENT APPS AS PART OF 3D SIMULATION This invention focuses on rendering multiple 2D mobile apps simultaneously in XR devices, arranged within a 3D spatial layout.
-This browser does not support PDFs. Please download the PDF to view it: Download PDF.</description>
         </item>
         
         <item>

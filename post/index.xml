@@ -10,6 +10,17 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Mon, 02 Mar 2020 12:00:00 -0500</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>📕 Exploring the Metaverse | Available Globally</title>
+            <link>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</link>
+            <pubDate>Tue, 10 Jun 2025 11:00:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</guid>
+            <description>Is the metaverse hype or reality? My new book explores what lies ahead &amp;ldquo;Exploring the Metaverse&amp;rdquo; is now available globally!
+Read the detail synopsis of the book here and testimonials from a diverse set of industry leaders
+Buy Paper Back: 🇧🇪 Amazon Belgium - 👉 Get it in 32,80€ (4% off)  🇧🇷 Amazon Brazil - 👉 Get it in R$200,16  🇨🇦 Amazon Canada - 👉 Get it in $45.</description>
+        </item>
+        
+        <item>
             <title>Patent Granted: Streaming of Composite Alpha Blended AR/MR Video</title>
             <link>https://thinkuldeep.com//post/patent-granted-xr-3/</link>
             <pubDate>Tue, 03 Jun 2025 10:58:08 -0400</pubDate>
@@ -60,17 +71,6 @@ One notable endorsement comes from industry veteran Mr. Pradeep Khanna, who hold
             <guid>https://thinkuldeep.com//post/iot-thread-dns-resolution/</guid>
             <description>In previous articles, we explored communication between a Thread device and external (non-Thread) networks, primarily over TCP/HTTP using IP addresses and ports. However, in real-world applications, we rarely use raw IP addresses. Instead, we rely on hostnames — which are resolved to IP addresses using DNS (Domain Name System).
 Public DNS resolution (like Google’s 8.8.8.8) handles global domain names, typically configured at the OS or browser level. But for private, local networks — like those used in IoT and Thread-based deployments — we need a local DNS setup to resolve custom hostnames (e.</description>
-        </item>
-        
-        <item>
-            <title>📕 Exploring the Metaverse | Available Globally</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</link>
-            <pubDate>Tue, 01 Apr 2025 11:00:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-available-globally/</guid>
-            <description>Is the metaverse hype or reality? My new book explores what lies ahead &amp;ldquo;Exploring the Metaverse&amp;rdquo; is now available globally!
-Read the detail synopsis of the book here and testimonials from a diverse set of industry leaders
-Buy Paper Back: 🇧🇪 Amazon Belgium - 👉 Get it in 32,80€ (4% off)  🇧🇷 Amazon Brazil - 👉 Get it in R$200,16  🇨🇦 Amazon Canada - 👉 Get it in $45.</description>
         </item>
         
         <item>

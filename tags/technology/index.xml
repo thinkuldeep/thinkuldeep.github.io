@@ -8,15 +8,34 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Sat, 17 May 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Fri, 25 Jul 2025 11:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>About</title>
             <link>https://thinkuldeep.com//about/</link>
-            <pubDate>Fri, 27 Jun 2025 01:00:00 -0400</pubDate>
+            <pubDate>Fri, 25 Jul 2025 11:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//about/</guid>
             <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
 👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
+        </item>
+        
+        <item>
+            <title>Certificates</title>
+            <link>https://thinkuldeep.com//about/certificates/</link>
+            <pubDate>Fri, 25 Jul 2025 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/certificates/</guid>
+            <description> Microsoft Certified: Azure AI Fundamentals Generative AI Essentials 2 Expertise: Complete Concise Guide nRF Connect SDK Intermediate Bluetooth Low Energy Fundamentals nRF Connect SDK Fundamentals Building AI Elements of AI Product Management Enterprise Architecture Internet of Things (IOT) User Experience Design Taradata Certified Java Certified Programmer </description>
+        </item>
+        
+        <item>
+            <title>Books</title>
+            <link>https://thinkuldeep.com//about/books/</link>
+            <pubDate>Sun, 06 Jul 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/books/</guid>
+            <description>📕 Exploring the Metaverse  Redefining Reality in the Digital Age &amp;ldquo;Exploring the Metaverse&amp;rdquo; is a comprehensive guide to the metaverse, the future state of the internet. Prepare yourself for what&amp;rsquo;s ahead by understanding the opportunities and challenges of the metaverse. This book calls us to action, emphasizing that its evolution is in our hands. You can find a detailed synopsis of the book here.
+Available globally on Amazon and BPB Online as both paperback and eBook.</description>
         </item>
         
         <item>
@@ -27,15 +46,6 @@
             <guid>https://thinkuldeep.com//post/ai-fomo-to-flow-building-genai-solutions/</guid>
             <description>Unlock the power of Generative AI by learning to interact with large language models programmatically—and take it further with fine-tuning for customized responses.
 If you’re a software maker feeling the fear of missing out (FOMO) on the Gen AI revolution, you’re not alone. The way we build and interact with software is evolving rapidly. “Google it” or “check Stack Overflow” is no longer the go-to approach — AI-first, conversational tools are becoming the new standard across development, design, and decision-making.</description>
-        </item>
-        
-        <item>
-            <title>Certificates</title>
-            <link>https://thinkuldeep.com//about/certificates/</link>
-            <pubDate>Sun, 11 May 2025 11:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/certificates/</guid>
-            <description> Generative AI Essentials 2 Expertise: Complete Concise Guide nRF Connect SDK Intermediate Bluetooth Low Energy Fundamentals nRF Connect SDK Fundamentals Building AI Elements of AI Product Management Enterprise Architecture Internet of Things (IOT) User Experience Design Taradata Certified Java Certified Programmer </description>
         </item>
         
         <item>
@@ -234,16 +244,6 @@ XROM Podcast 🎙️ XROM PODCast, hosted by serial entrepreneur and visionary E
             <guid>https://thinkuldeep.com//event/guest-lecture-ai-and-metaverse-reshape-the-future/</guid>
             <description>AI is pervasive, whether we sense it or not. Staying updated has become essential for survival. We are increasingly immersed in artificially generated worlds, with the internet rapidly evolving into what is known as the metaverse. In my book, &amp;ldquo;Exploring the Metaverse&amp;rdquo;, I delve into its various forms and interpretations, usecases and challenges, and the way forward.
 DesignersX, a company specializing in software development, invited me to speak about my book and discuss how AI and the metaverse will shape the future.</description>
-        </item>
-        
-        <item>
-            <title>Books</title>
-            <link>https://thinkuldeep.com//about/books/</link>
-            <pubDate>Tue, 16 Apr 2024 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/books/</guid>
-            <description>📕 Exploring the Metaverse  Redefining Reality in the Digital Age &amp;ldquo;Exploring the Metaverse&amp;rdquo; is a comprehensive guide to the metaverse, the future state of the internet. Prepare yourself for what&amp;rsquo;s ahead by understanding the opportunities and challenges of the metaverse. This book calls us to action, emphasizing that its evolution is in our hands. You can find a detailed synopsis of the book here.
-Available globally on Amazon and BPB Online as both paperback and eBook.</description>
         </item>
         
         <item>

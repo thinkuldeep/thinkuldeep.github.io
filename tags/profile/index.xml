@@ -8,15 +8,34 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Fri, 27 Jun 2025 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/profile/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Fri, 25 Jul 2025 11:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/profile/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>About</title>
             <link>https://thinkuldeep.com//about/</link>
-            <pubDate>Fri, 27 Jun 2025 01:00:00 -0400</pubDate>
+            <pubDate>Fri, 25 Jul 2025 11:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//about/</guid>
             <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
 👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
+        </item>
+        
+        <item>
+            <title>Certificates</title>
+            <link>https://thinkuldeep.com//about/certificates/</link>
+            <pubDate>Fri, 25 Jul 2025 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/certificates/</guid>
+            <description> Microsoft Certified: Azure AI Fundamentals Generative AI Essentials 2 Expertise: Complete Concise Guide nRF Connect SDK Intermediate Bluetooth Low Energy Fundamentals nRF Connect SDK Fundamentals Building AI Elements of AI Product Management Enterprise Architecture Internet of Things (IOT) User Experience Design Taradata Certified Java Certified Programmer </description>
+        </item>
+        
+        <item>
+            <title>Books</title>
+            <link>https://thinkuldeep.com//about/books/</link>
+            <pubDate>Sun, 06 Jul 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/books/</guid>
+            <description>📕 Exploring the Metaverse  Redefining Reality in the Digital Age &amp;ldquo;Exploring the Metaverse&amp;rdquo; is a comprehensive guide to the metaverse, the future state of the internet. Prepare yourself for what&amp;rsquo;s ahead by understanding the opportunities and challenges of the metaverse. This book calls us to action, emphasizing that its evolution is in our hands. You can find a detailed synopsis of the book here.
+Available globally on Amazon and BPB Online as both paperback and eBook.</description>
         </item>
         
         <item>
@@ -64,15 +83,6 @@ This project aims to bridge that gap by providing a step-by-step guide for devel
         </item>
         
         <item>
-            <title>Certificates</title>
-            <link>https://thinkuldeep.com//about/certificates/</link>
-            <pubDate>Sun, 11 May 2025 11:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/certificates/</guid>
-            <description> Generative AI Essentials 2 Expertise: Complete Concise Guide nRF Connect SDK Intermediate Bluetooth Low Energy Fundamentals nRF Connect SDK Fundamentals Building AI Elements of AI Product Management Enterprise Architecture Internet of Things (IOT) User Experience Design Taradata Certified Java Certified Programmer </description>
-        </item>
-        
-        <item>
             <title>Some moments</title>
             <link>https://thinkuldeep.com//about/moments/</link>
             <pubDate>Fri, 07 Feb 2025 01:00:00 -0400</pubDate>
@@ -99,16 +109,6 @@ I&amp;rsquo;m thrilled to share that a new patent has been granted to Lenovo for
             <guid>https://thinkuldeep.com//post/patent-granted-xr-1/</guid>
             <description>In our day-to-day work, we often create methods, processes, approaches, or features to address specific needs and challenges. Sometimes, these solutions turn into significant innovations, even if we don&amp;rsquo;t immediately recognize them as such. This is also true in our professional work setup, where we may invent without fully realizing it.
 I&amp;rsquo;m thrilled to share that a new patent has been granted to Lenovo for their groundbreaking work in the ThinkReality XR product line, and I am honored to be a co-inventor on this work.</description>
-        </item>
-        
-        <item>
-            <title>Books</title>
-            <link>https://thinkuldeep.com//about/books/</link>
-            <pubDate>Tue, 16 Apr 2024 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/books/</guid>
-            <description>📕 Exploring the Metaverse  Redefining Reality in the Digital Age &amp;ldquo;Exploring the Metaverse&amp;rdquo; is a comprehensive guide to the metaverse, the future state of the internet. Prepare yourself for what&amp;rsquo;s ahead by understanding the opportunities and challenges of the metaverse. This book calls us to action, emphasizing that its evolution is in our hands. You can find a detailed synopsis of the book here.
-Available globally on Amazon and BPB Online as both paperback and eBook.</description>
         </item>
         
         <item>

@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
+        <loc>https://thinkuldeep.com/tags/open/</loc>
+        <lastmod>2025-08-11T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/event/pre-ai-impact-summit-openess-in-ai/</loc>
+        <lastmod>2025-08-11T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
         <loc>https://thinkuldeep.com/tags/3d/</loc>
         <lastmod>2025-08-02T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -537,6 +547,11 @@
                 href="https://thinkuldeep.com//tags/thoughtworks/"
         />
     </url><url>
+        <loc>https://thinkuldeep.com/about/patents/</loc>
+        <lastmod>2025-06-30T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
         <loc>https://thinkuldeep.com/tags/awe/</loc>
         <lastmod>2025-06-27T01:00:00-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -739,11 +754,6 @@
     </url><url>
         <loc>https://thinkuldeep.com/tags/webrtc/</loc>
         <lastmod>2025-06-03T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/about/patents/</loc>
-        <lastmod>2025-06-03T01:00:00-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
@@ -2104,6 +2114,11 @@
     </url><url>
         <loc>https://thinkuldeep.com/event/products-beyond-software-horizons/</loc>
         <lastmod>2023-09-16T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/post/patent-granted-xr-4/</loc>
+        <lastmod>2023-08-10T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>

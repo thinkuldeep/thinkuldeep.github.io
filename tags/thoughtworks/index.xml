@@ -8,15 +8,38 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Sun, 06 Jul 2025 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/thoughtworks/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sun, 24 Aug 2025 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/thoughtworks/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>About</title>
             <link>https://thinkuldeep.com//about/</link>
-            <pubDate>Fri, 25 Jul 2025 11:00:00 -0400</pubDate>
+            <pubDate>Sun, 24 Aug 2025 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//about/</guid>
             <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
 👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
+        </item>
+        
+        <item>
+            <title>Open-sources and Apps</title>
+            <link>https://thinkuldeep.com//about/open-sources/</link>
+            <pubDate>Sun, 24 Aug 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/open-sources/</guid>
+            <description>Gen AI Hands On Practices Google Colab Hands-on practice for developing Gen AI applications, and understanding the concepts.
+☞ Github ☞ Learn More
+ SSO Proxy A lightweight proxy tool for accessing APIs and websites that require SSO authentication. It uses Puppeteer to open a browser window for login and then reuses the authenticated cookies to access the proxied URL.
+This tool is particularly helpful for:
+ Showcasing integration with portal APIs that require SSO (before SSO is actually set up).</description>
+        </item>
+        
+        <item>
+            <title>Speaker | Pre AI Impact Summit: Openness in AI</title>
+            <link>https://thinkuldeep.com//event/pre-ai-impact-summit-openess-in-ai/</link>
+            <pubDate>Mon, 11 Aug 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//event/pre-ai-impact-summit-openess-in-ai/</guid>
+            <description>India will host the AI Impact Summit 2026, reaffirming its commitment to making Artificial Intelligence (AI) accessible and beneficial for the public good. The event will explore how AI can address real-world challenges in healthcare, education, agriculture, climate change, and governance—building on the momentum of global gatherings like the AI Action Summit France, AI Seoul Summit, and AI Safety Summit.
+As part of the lead-up to the summit, OpenUK and OpenHQ have been hosting pre-summit events to spark conversations around AI openness.</description>
         </item>
         
         <item>
@@ -47,18 +70,6 @@ Available globally on Amazon and BPB Online as both paperback and eBook.</descri
             <description>Almost a year ago, my book Exploring the Metaverse was launched globally—available at leading retailers including Amazon and BPB Online.
 With forewords and testimonials from pioneers across industries, the book aims to demystify the Metaverse and provide a thoughtful lens on its technological, business, and societal implications. It&amp;rsquo;s been incredibly fulfilling to see it resonate with readers and spark meaningful conversations.
 This milestone wouldn&amp;rsquo;t have been possible without the unwavering support of Thoughtworks, our ecosystem partners, and—above all—my family, friends, and colleagues.</description>
-        </item>
-        
-        <item>
-            <title>Open-sources and Apps</title>
-            <link>https://thinkuldeep.com//about/open-sources/</link>
-            <pubDate>Sat, 17 May 2025 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/open-sources/</guid>
-            <description>Gen AI Hands On Practices Google Colab Hands-on practice for developing Gen AI applications, and understanding the concepts.
-☞ Github ☞ Learn More
- OpenThread Commissioner Implementation in Java OpenThread’s open-source project currently offers a native Commissioner CLI and an Android app for external commissioning, but no standalone Java-based implementation.
-This project aims to bridge that gap by providing a step-by-step guide for developers to build an external Commissioner in Java.</description>
         </item>
         
         <item>

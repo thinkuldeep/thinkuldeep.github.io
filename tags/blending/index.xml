@@ -8,7 +8,18 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Tue, 03 Jun 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/blending/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sun, 10 Aug 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/blending/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Patent Granted: Spatially interact with 3D Model from a 2D app in the smart glasses</title>
+            <link>https://thinkuldeep.com//post/patent-granted-xr-4/</link>
+            <pubDate>Sun, 10 Aug 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/patent-granted-xr-4/</guid>
+            <description>💡 Innovation often starts with solving everyday problems. While working on XR solutions and building operating systems for smart glasses, we solved one such challenge.
+Earlier, with our patented AppSpace method, we enabled rendering a phone’s 2D apps in 3D on smart glasses. But we found a gap — there was no direct way for a 2D app (like Chrome) to interact with 3D spatial content.
+🏅 Thrilled to share that our solution to this is now recognized with a U.</description>
+        </item>
+        
         <item>
             <title>Patent Granted: Streaming of Composite Alpha Blended AR/MR Video</title>
             <link>https://thinkuldeep.com//post/patent-granted-xr-3/</link>

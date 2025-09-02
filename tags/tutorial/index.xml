@@ -8,7 +8,28 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Sat, 17 May 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Mon, 01 Sep 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>A Path to AI → GenAI → Agentic AI</title>
+            <link>https://thinkuldeep.com//post/ai-to-genai-to-agenticai/</link>
+            <pubDate>Mon, 01 Sep 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/ai-to-genai-to-agenticai/</guid>
+            <description>The world of technology is evolving at lightning speed. Every week, new AI models, frameworks, and services make headlines. With the hype around LLMs, Agentic AI, MCPs, and A2A systems, it’s easy to feel like we’re always playing catch-up.
+But here’s the truth: without strong fundamentals, chasing the “next big thing” is like building a skyscraper on sand. A strong foundation ensures stability. That’s why, before diving deep into Generative AI, it’s critical to revisit the path that got us here.</description>
+        </item>
+        
+        <item>
+            <title>Implementing a Proxy for Single Sign-On (SSO) Authentication</title>
+            <link>https://thinkuldeep.com//post/sso-proxy/</link>
+            <pubDate>Sun, 24 Aug 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/sso-proxy/</guid>
+            <description>Enterprise integrations almost always require authentication and authorization. In particular, Single Sign-On (SSO) with Multi-Factor Authentication (MFA) has become a standard practice in modern enterprise applications.
+But here’s the challenge:
+ When experimenting with new integrations, building spikes, or running proofs of concept (POCs), setting up a full SSO environment upfront can be cumbersome. Sometimes all you need is a way to quickly test APIs that are locked behind SSO.</description>
+        </item>
+        
         <item>
             <title>FOMO to Flow: Building Gen AI Solutions</title>
             <link>https://thinkuldeep.com//post/ai-fomo-to-flow-building-genai-solutions/</link>

@@ -8,7 +8,18 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Mon, 11 Aug 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/opensource/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sun, 24 Aug 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/opensource/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Implementing a Proxy for Single Sign-On (SSO) Authentication</title>
+            <link>https://thinkuldeep.com//post/sso-proxy/</link>
+            <pubDate>Sun, 24 Aug 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/sso-proxy/</guid>
+            <description>Enterprise integrations almost always require authentication and authorization. In particular, Single Sign-On (SSO) with Multi-Factor Authentication (MFA) has become a standard practice in modern enterprise applications.
+But here’s the challenge:
+ When experimenting with new integrations, building spikes, or running proofs of concept (POCs), setting up a full SSO environment upfront can be cumbersome. Sometimes all you need is a way to quickly test APIs that are locked behind SSO.</description>
+        </item>
+        
         <item>
             <title>Speaker | Pre AI Impact Summit: Openness in AI</title>
             <link>https://thinkuldeep.com//event/pre-ai-impact-summit-openess-in-ai/</link>

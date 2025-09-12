@@ -10,6 +10,15 @@
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Mon, 01 Sep 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>Some moments</title>
+            <link>https://thinkuldeep.com//about/moments/</link>
+            <pubDate>Mon, 08 Sep 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/moments/</guid>
+            <description>Sky Diving - An experience - Sep, 2025  18th Anniversary Ritu &amp;amp; Kuldeep - Feb, 2025  44th Anniversary of Parents - Jun, 2024  Book in parent&amp;rsquo;s Hand - May, 2024  Vrindavan - Mar, 2024  House warming ceremony and RakshyaBandhan - Aug, 2023  Jim corbett trip - Jun, 2023  Lakshya&amp;rsquo;s visit to Thoughtworks Gurugram - May, 2023  16th Wedding anniversary - Feb, 2023  Father Retirement Speech - Jun, 2022  ☞ More Details Welcoming Aarav Remotely!</description>
+        </item>
+        
+        <item>
             <title>A Path to AI → GenAI → Agentic AI</title>
             <link>https://thinkuldeep.com//post/ai-to-genai-to-agenticai/</link>
             <pubDate>Mon, 01 Sep 2025 10:58:08 -0400</pubDate>
@@ -298,15 +307,6 @@ Joiner in Action The Joiner process involves the following steps:
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//post/iot-thread-network-provisioning/</guid>
             <description>In previous articles, we explored the Thread protocol and connected Thread devices to the internet using a Border Router. We joined the Thread network by manually configuring each node with a full dataset containing network credentials such as the PAN ID, Network Key, Network Name, and more (refer to Step 6.1: Access Network Credentials). While this method works, it becomes impractical when provisioning hundreds of Thread devices in real-world scenarios.</description>
-        </item>
-        
-        <item>
-            <title>Some moments</title>
-            <link>https://thinkuldeep.com//about/moments/</link>
-            <pubDate>Fri, 07 Feb 2025 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/moments/</guid>
-            <description>18th Anniversary Ritu &amp;amp; Kuldeep - Feb, 2025  44th Anniversary of Parents - Jun, 2024  Book in parent&amp;rsquo;s Hand - May, 2024  Vrindavan - Mar, 2024  House warming ceremony and RakshyaBandhan - Aug, 2023  Jim corbett trip - Jun, 2023  Lakshya&amp;rsquo;s visit to Thoughtworks Gurugram - May, 2023  16th Wedding anniversary - Feb, 2023  Father Retirement Speech - Jun, 2022  ☞ More Details Welcoming Aarav Remotely!</description>
         </item>
         
         <item>

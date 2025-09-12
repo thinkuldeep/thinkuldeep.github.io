@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
+        <loc>https://thinkuldeep.com/hi/about/moments/</loc>
+        <lastmod>2025-09-08T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com//about/moments/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com//hi/about/moments/"
+        />
+    </url><url>
+        <loc>https://thinkuldeep.com/hi/about/</loc>
+        <lastmod>2025-09-08T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com//about/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com//hi/about/"
+        />
+    </url><url>
         <loc>https://thinkuldeep.com/hi/tags/blogs/</loc>
         <lastmod>2024-07-05T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -545,36 +575,6 @@
                 rel="alternate"
                 hreflang="hi"
                 href="https://thinkuldeep.com//hi/tags/video/"
-        />
-    </url><url>
-        <loc>https://thinkuldeep.com/hi/about/moments/</loc>
-        <lastmod>2024-06-05T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//about/moments/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com//hi/about/moments/"
-        />
-    </url><url>
-        <loc>https://thinkuldeep.com/hi/about/</loc>
-        <lastmod>2024-06-05T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//about/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com//hi/about/"
         />
     </url><url>
         <loc>https://thinkuldeep.com/hi/tags/books/</loc>

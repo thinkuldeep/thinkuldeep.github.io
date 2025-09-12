@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
+        <loc>https://thinkuldeep.com/about/</loc>
+        <lastmod>2025-09-08T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com//hi/about/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com//about/"
+        />
+    </url><url>
+        <loc>https://thinkuldeep.com/about/moments/</loc>
+        <lastmod>2025-09-08T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com//hi/about/moments/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com//about/moments/"
+        />
+    </url><url>
         <loc>https://thinkuldeep.com/post/ai-to-genai-to-agenticai/</loc>
         <lastmod>2025-09-01T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -201,21 +231,6 @@
         <lastmod>2025-08-24T01:00:00-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/about/</loc>
-        <lastmod>2025-08-24T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com//hi/about/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//about/"
-        />
     </url><url>
         <loc>https://thinkuldeep.com/tags/about/</loc>
         <lastmod>2025-08-24T01:00:00-04:00</lastmod>
@@ -1150,21 +1165,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://thinkuldeep.com//tags/change/"
-        />
-    </url><url>
-        <loc>https://thinkuldeep.com/about/moments/</loc>
-        <lastmod>2025-02-07T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com//hi/about/moments/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//about/moments/"
         />
     </url><url>
         <loc>https://thinkuldeep.com/event/itu-t-sg20-meeting/</loc>

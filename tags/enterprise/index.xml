@@ -8,7 +8,7 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Sun, 24 Aug 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:54992/tags/enterprise/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sun, 24 Aug 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/enterprise/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Implementing a Proxy for Single Sign-On (SSO) Authentication</title>
             <link>https://thinkuldeep.com//post/sso-proxy/</link>

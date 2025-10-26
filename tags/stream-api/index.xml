@@ -8,7 +8,7 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Mon, 08 Dec 2014 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:54992/tags/stream-api/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Mon, 08 Dec 2014 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/stream-api/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Introduction to Java Stream API</title>
             <link>https://thinkuldeep.com//post/java8-stream-api/</link>

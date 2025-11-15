@@ -8,20 +8,38 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Mon, 08 Sep 2025 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/hi/tags/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sun, 05 Oct 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/hi/tags/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>about</title>
             <link>https://thinkuldeep.com//hi/tags/about/</link>
-            <pubDate>Mon, 08 Sep 2025 01:00:00 -0400</pubDate>
+            <pubDate>Sun, 05 Oct 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//hi/tags/about/</guid>
             <description></description>
         </item>
         
         <item>
+            <title>book</title>
+            <link>https://thinkuldeep.com//hi/tags/book/</link>
+            <pubDate>Sun, 05 Oct 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/book/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>career</title>
+            <link>https://thinkuldeep.com//hi/tags/career/</link>
+            <pubDate>Sun, 05 Oct 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/career/</guid>
+            <description></description>
+        </item>
+        
+        <item>
             <title>change</title>
             <link>https://thinkuldeep.com//hi/tags/change/</link>
-            <pubDate>Mon, 08 Sep 2025 01:00:00 -0400</pubDate>
+            <pubDate>Sun, 05 Oct 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//hi/tags/change/</guid>
             <description></description>
@@ -30,16 +48,34 @@
         <item>
             <title>experience</title>
             <link>https://thinkuldeep.com//hi/tags/experience/</link>
-            <pubDate>Mon, 08 Sep 2025 01:00:00 -0400</pubDate>
+            <pubDate>Sun, 05 Oct 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//hi/tags/experience/</guid>
             <description></description>
         </item>
         
         <item>
+            <title>general</title>
+            <link>https://thinkuldeep.com//hi/tags/general/</link>
+            <pubDate>Sun, 05 Oct 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/general/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>jagjeevan</title>
+            <link>https://thinkuldeep.com//hi/tags/jagjeevan/</link>
+            <pubDate>Sun, 05 Oct 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/jagjeevan/</guid>
+            <description></description>
+        </item>
+        
+        <item>
             <title>learnings</title>
             <link>https://thinkuldeep.com//hi/tags/learnings/</link>
-            <pubDate>Mon, 08 Sep 2025 01:00:00 -0400</pubDate>
+            <pubDate>Sun, 05 Oct 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//hi/tags/learnings/</guid>
             <description></description>
@@ -48,9 +84,72 @@
         <item>
             <title>life</title>
             <link>https://thinkuldeep.com//hi/tags/life/</link>
-            <pubDate>Mon, 08 Sep 2025 01:00:00 -0400</pubDate>
+            <pubDate>Sun, 05 Oct 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//hi/tags/life/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>metaverse</title>
+            <link>https://thinkuldeep.com//hi/tags/metaverse/</link>
+            <pubDate>Sun, 05 Oct 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/metaverse/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>motivational</title>
+            <link>https://thinkuldeep.com//hi/tags/motivational/</link>
+            <pubDate>Sun, 05 Oct 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/motivational/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>point of view</title>
+            <link>https://thinkuldeep.com//hi/tags/point-of-view/</link>
+            <pubDate>Sun, 05 Oct 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/point-of-view/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>selfhelp</title>
+            <link>https://thinkuldeep.com//hi/tags/selfhelp/</link>
+            <pubDate>Sun, 05 Oct 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/selfhelp/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>space</title>
+            <link>https://thinkuldeep.com//hi/tags/space/</link>
+            <pubDate>Sun, 05 Oct 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/space/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>takeaways</title>
+            <link>https://thinkuldeep.com//hi/tags/takeaways/</link>
+            <pubDate>Sun, 05 Oct 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/takeaways/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>universe</title>
+            <link>https://thinkuldeep.com//hi/tags/universe/</link>
+            <pubDate>Sun, 05 Oct 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//hi/tags/universe/</guid>
             <description></description>
         </item>
         
@@ -60,15 +159,6 @@
             <pubDate>Mon, 08 Sep 2025 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//hi/tags/me/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>motivational</title>
-            <link>https://thinkuldeep.com//hi/tags/motivational/</link>
-            <pubDate>Mon, 08 Sep 2025 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//hi/tags/motivational/</guid>
             <description></description>
         </item>
         
@@ -132,15 +222,6 @@
             <pubDate>Fri, 05 Jul 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//hi/tags/covid19/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>general</title>
-            <link>https://thinkuldeep.com//hi/tags/general/</link>
-            <pubDate>Fri, 05 Jul 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//hi/tags/general/</guid>
             <description></description>
         </item>
         
@@ -213,24 +294,6 @@
             <pubDate>Fri, 05 Jul 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//hi/tags/reading/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>selfhelp</title>
-            <link>https://thinkuldeep.com//hi/tags/selfhelp/</link>
-            <pubDate>Fri, 05 Jul 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//hi/tags/selfhelp/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>takeaways</title>
-            <link>https://thinkuldeep.com//hi/tags/takeaways/</link>
-            <pubDate>Fri, 05 Jul 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//hi/tags/takeaways/</guid>
             <description></description>
         </item>
         

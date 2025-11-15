@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>publication on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/publication/</link>
+        <description>Recent content in publication on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Sat, 01 Nov 2025 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/publication/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Patents and Papers</title>
+            <link>https://thinkuldeep.com//about/patents/</link>
+            <pubDate>Sat, 01 Nov 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/patents/</guid>
+            <description>This listing includes patent applications that are pending as well as patents that have already been granted by the United States Patent and Trademark Office (USPTO). It also includes the papers published in various conferences and journals.
+ ITU-T Technical Report - Potential requirements of IoT-based Perishable Goods Monitoring System ITU-T Study Group 20 accepted my recommendation as a Technical Report. It defines key layers for IoT-based retail monitoring systems — including Sensing, Communication, Integration, Application &amp;amp; Analytics, and Management &amp;amp; Maintenance layers.</description>
+        </item>
+        
+    </channel>
+</rss>

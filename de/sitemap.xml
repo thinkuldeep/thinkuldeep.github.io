@@ -13,6 +13,11 @@
         />
         <xhtml:link
                 rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/tags/ar/"
+        />
+        <xhtml:link
+                rel="alternate"
                 hreflang="de"
                 href="https://thinkuldeep.com/de/tags/ar/"
         />
@@ -173,6 +178,11 @@
         />
         <xhtml:link
                 rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/tags/vr/"
+        />
+        <xhtml:link
+                rel="alternate"
                 hreflang="de"
                 href="https://thinkuldeep.com/de/tags/vr/"
         />
@@ -185,6 +195,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://thinkuldeep.com/tags/xr/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/tags/xr/"
         />
         <xhtml:link
                 rel="alternate"

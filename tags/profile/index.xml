@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>profile on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/profile/</link>
+        <link>https://thinkuldeep.com/tags/profile/</link>
         <description>Recent content in profile on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,49 +11,49 @@
         <lastBuildDate>Sat, 15 Nov 2025 01:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/profile/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>About</title>
-            <link>https://thinkuldeep.com//about/</link>
+            <link>https://thinkuldeep.com/about/</link>
             <pubDate>Sat, 15 Nov 2025 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/</guid>
+            <guid>https://thinkuldeep.com/about/</guid>
             <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
 👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
         </item>
         
         <item>
             <title>Books</title>
-            <link>https://thinkuldeep.com//about/books/</link>
+            <link>https://thinkuldeep.com/about/books/</link>
             <pubDate>Sat, 15 Nov 2025 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/books/</guid>
+            <guid>https://thinkuldeep.com/about/books/</guid>
             <description>📕 Jagjeevan  Living Larger than Life 📕 Jagjeevan: Living Larger Than Life is a heartfelt tribute to the extraordinary life and timeless wisdom of Shri Jagguram—an enlightened soul whose values shaped generations. Blending personal memories with profound life lessons, it captures the essence of a man who lived with humility, discipline, compassion, and unwavering purpose.
  Through ten insightful chapters, the book explores heritage, resilience, responsibility, inner strength, family unity, conflict resolution, gratitude, and the power of one’s actions.</description>
         </item>
         
         <item>
             <title>Patents and Papers</title>
-            <link>https://thinkuldeep.com//about/patents/</link>
+            <link>https://thinkuldeep.com/about/patents/</link>
             <pubDate>Sat, 01 Nov 2025 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/patents/</guid>
+            <guid>https://thinkuldeep.com/about/patents/</guid>
             <description>This listing includes patent applications that are pending as well as patents that have already been granted by the United States Patent and Trademark Office (USPTO). It also includes the papers published in various conferences and journals.
  ITU-T Technical Report - Potential requirements of IoT-based Perishable Goods Monitoring System ITU-T Study Group 20 accepted my recommendation as a Technical Report. It defines key layers for IoT-based retail monitoring systems — including Sensing, Communication, Integration, Application &amp;amp; Analytics, and Management &amp;amp; Maintenance layers.</description>
         </item>
         
         <item>
             <title>Some moments</title>
-            <link>https://thinkuldeep.com//about/moments/</link>
+            <link>https://thinkuldeep.com/about/moments/</link>
             <pubDate>Mon, 08 Sep 2025 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/moments/</guid>
+            <guid>https://thinkuldeep.com/about/moments/</guid>
             <description>How Small, How Big - The Nature Trip - Oct, 2025  Sky Diving - An experience - Sep, 2025  18th Anniversary Ritu &amp;amp; Kuldeep - Feb, 2025  44th Anniversary of Parents - Jun, 2024  Book in parent&amp;rsquo;s Hand - May, 2024  Vrindavan - Mar, 2024  House warming ceremony and RakshyaBandhan - Aug, 2023  Jim corbett trip - Jun, 2023  Lakshya&amp;rsquo;s visit to Thoughtworks Gurugram - May, 2023  16th Wedding anniversary - Feb, 2023  Father Retirement Speech - Jun, 2022  ☞ More Details Welcoming Aarav Remotely!</description>
         </item>
         
         <item>
             <title>Open-sources and Apps</title>
-            <link>https://thinkuldeep.com//about/open-sources/</link>
+            <link>https://thinkuldeep.com/about/open-sources/</link>
             <pubDate>Sun, 24 Aug 2025 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/open-sources/</guid>
+            <guid>https://thinkuldeep.com/about/open-sources/</guid>
             <description>Gen AI Hands On Practices Google Colab Hands-on practice for developing Gen AI applications, and understanding the concepts.
 ☞ Github ☞ Learn More
  SSO Proxy A lightweight proxy tool for accessing APIs and websites that require SSO authentication. It uses Puppeteer to open a browser window for login and then reuses the authenticated cookies to access the proxied URL.
@@ -63,10 +63,10 @@ This tool is particularly helpful for:
         
         <item>
             <title>Patent Granted: Spatially interact with 3D Model from a 2D app in the smart glasses</title>
-            <link>https://thinkuldeep.com//post/patent-granted-xr-4/</link>
+            <link>https://thinkuldeep.com/post/patent-granted-xr-4/</link>
             <pubDate>Sun, 10 Aug 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/patent-granted-xr-4/</guid>
+            <guid>https://thinkuldeep.com/post/patent-granted-xr-4/</guid>
             <description>💡 Innovation often starts with solving everyday problems. While working on XR solutions and building operating systems for smart glasses, we solved one such challenge.
 Earlier, with our patented AppSpace method, we enabled rendering a phone’s 2D apps in 3D on smart glasses. But we found a gap — there was no direct way for a 2D app (like Chrome) to interact with 3D spatial content.
 🏅 Thrilled to share that our solution to this is now recognized with a U.</description>
@@ -74,28 +74,28 @@ Earlier, with our patented AppSpace method, we enabled rendering a phone’s 2D 
         
         <item>
             <title>Certificates</title>
-            <link>https://thinkuldeep.com//about/certificates/</link>
+            <link>https://thinkuldeep.com/about/certificates/</link>
             <pubDate>Fri, 25 Jul 2025 11:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/certificates/</guid>
+            <guid>https://thinkuldeep.com/about/certificates/</guid>
             <description> Microsoft Certified: Azure AI Fundamentals Generative AI Essentials 2 Expertise: Complete Concise Guide nRF Connect SDK Intermediate Bluetooth Low Energy Fundamentals nRF Connect SDK Fundamentals Building AI Elements of AI Product Management Enterprise Architecture Internet of Things (IOT) User Experience Design Taradata Certified Java Certified Programmer </description>
         </item>
         
         <item>
             <title>Livestreaming</title>
-            <link>https://thinkuldeep.com//about/streaming/</link>
+            <link>https://thinkuldeep.com/about/streaming/</link>
             <pubDate>Fri, 27 Jun 2025 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/streaming/</guid>
+            <guid>https://thinkuldeep.com/about/streaming/</guid>
             <description>Machine Gaze - What Happens When Glasses Begin to Think Gatherverse Summit 2025 - ☞ More Details   The Metaverse United : How AI and XR Can Deepen Human Connections Gatherverse Summit 2025 - ☞ More Details   Defining the AI Powered Virtual World Gatherverse Virtual World Symposium 2024 - ☞ More Details   India&amp;rsquo;s Metaverse Journey: Opportunities and Challenges XROM Postcast - ☞ More Details   Global Insights from XR Leaders in India: AI-Powered Real-Time Adaptation in XR AWE Asia 2024 - ☞ More Details   Harnessing Business Opportunity with AI Powered XR Express Computer Webinar - ☞ More Details   Azure AI Fostering Sense within XR World Season of AI - Azure Developer Community - Rekill - ☞ More Details   Evolving into Tomorrow, Today: Enter the Metaverse Gatherverse XREvolve Summit 2024 - ☞ More Details   Exploring the Metaverse: Redefining the reality in the digital age Book promo - ☞ More Details   XR in practice: the engineering challenges of extending reality Thoughtworks Podcast - ☞ More Details   AI Assisted Content Pipeline for XR Thoughtworks XConf 2022 - ☞ More Details    Using XR in building autonomous vehicles Thoughtworks MasterClass-2021 - ☞ More Details   &amp;nbsp;  The Shift from Enterprise XR to Ethical XR Thoughtworks XConf 2021 - ☞ More Details   Navigating the new normal The VRARA - ☞ More Details    eXtended Reality for Enterprise XROM Podcast - ☞ More Details   XR - Nicety to Necessity Techgig Webinars - ☞ More Details    How to get started with AR VR?</description>
         </item>
         
         <item>
             <title>Patent Granted: Streaming of Composite Alpha Blended AR/MR Video</title>
-            <link>https://thinkuldeep.com//post/patent-granted-xr-3/</link>
+            <link>https://thinkuldeep.com/post/patent-granted-xr-3/</link>
             <pubDate>Tue, 03 Jun 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/patent-granted-xr-3/</guid>
+            <guid>https://thinkuldeep.com/post/patent-granted-xr-3/</guid>
             <description>💡 Innovation Often Begins with Solving Everyday Problems
 In our daily work, we regularly develop methods, processes, features, or approaches to address specific challenges. While these may initially seem like routine solutions, some of them quietly evolve into true innovations—often without us realizing it at the time.
 🏅 I’m excited to share that one such innovation has now been recognized with a U.S. Patent!
@@ -104,30 +104,30 @@ Patent No : US 12,323,679 B2 This patent, titled _&amp;ldquo;Streaming of Compos
         
         <item>
             <title>Patent Granted: Square orientation for stereoscopic rendering</title>
-            <link>https://thinkuldeep.com//post/patent-granted-xr-2/</link>
+            <link>https://thinkuldeep.com/post/patent-granted-xr-2/</link>
             <pubDate>Thu, 12 Sep 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/patent-granted-xr-2/</guid>
+            <guid>https://thinkuldeep.com/post/patent-granted-xr-2/</guid>
             <description>In our day-to-day work, we often create methods, processes, approaches, or features to address specific needs and challenges. Sometimes, these solutions turn into significant innovations, even if we don&amp;rsquo;t immediately recognize them as such. This is also true in our professional work setup, where we may invent without fully realizing it.
 I&amp;rsquo;m thrilled to share that a new patent has been granted to Lenovo for their groundbreaking work in the ThinkReality XR product line, and I am honored to be a co-inventor on this work.</description>
         </item>
         
         <item>
             <title>Patent Granted: Manage multiple 2D apps in a 3D layout</title>
-            <link>https://thinkuldeep.com//post/patent-granted-xr-1/</link>
+            <link>https://thinkuldeep.com/post/patent-granted-xr-1/</link>
             <pubDate>Thu, 13 Jun 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/patent-granted-xr-1/</guid>
+            <guid>https://thinkuldeep.com/post/patent-granted-xr-1/</guid>
             <description>In our day-to-day work, we often create methods, processes, approaches, or features to address specific needs and challenges. Sometimes, these solutions turn into significant innovations, even if we don&amp;rsquo;t immediately recognize them as such. This is also true in our professional work setup, where we may invent without fully realizing it.
 I&amp;rsquo;m thrilled to share that a new patent has been granted to Lenovo for their groundbreaking work in the ThinkReality XR product line, and I am honored to be a co-inventor on this work.</description>
         </item>
         
         <item>
             <title>Recognitions</title>
-            <link>https://thinkuldeep.com//about/recognitions/</link>
+            <link>https://thinkuldeep.com/about/recognitions/</link>
             <pubDate>Fri, 25 Mar 2022 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/recognitions/</guid>
+            <guid>https://thinkuldeep.com/about/recognitions/</guid>
             <description>Awards Indian Achiever&amp;rsquo;s Awards 2022 ☞ More Details
 Recognitions NITK Alumni Recognition ☞ Patent#11,988,832 B2 ☞ Patent#12,081,729 B2
 Judge at Smart India Hackathon ☞ More Details ☞ More events like this

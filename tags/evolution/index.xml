@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>evolution on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/evolution/</link>
+        <link>https://thinkuldeep.com/tags/evolution/</link>
         <description>Recent content in evolution on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,78 +11,78 @@
         <lastBuildDate>Mon, 01 Sep 2025 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/evolution/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>A Path to AI → GenAI → Agentic AI</title>
-            <link>https://thinkuldeep.com//post/ai-to-genai-to-agenticai/</link>
+            <link>https://thinkuldeep.com/post/ai-to-genai-to-agenticai/</link>
             <pubDate>Mon, 01 Sep 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/ai-to-genai-to-agenticai/</guid>
+            <guid>https://thinkuldeep.com/post/ai-to-genai-to-agenticai/</guid>
             <description>The world of technology is evolving at lightning speed. Every week, new AI models, frameworks, and services make headlines. With the hype around LLMs, Agentic AI, MCPs, and A2A systems, it’s easy to feel like we’re always playing catch-up.
 But here’s the truth: without strong fundamentals, chasing the “next big thing” is like building a skyscraper on sand. A strong foundation ensures stability. That’s why, before diving deep into Generative AI, it’s critical to revisit the path that got us here.</description>
         </item>
         
         <item>
             <title>FOMO to Flow: Building Gen AI Solutions</title>
-            <link>https://thinkuldeep.com//post/ai-fomo-to-flow-building-genai-solutions/</link>
+            <link>https://thinkuldeep.com/post/ai-fomo-to-flow-building-genai-solutions/</link>
             <pubDate>Sat, 17 May 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/ai-fomo-to-flow-building-genai-solutions/</guid>
+            <guid>https://thinkuldeep.com/post/ai-fomo-to-flow-building-genai-solutions/</guid>
             <description>Unlock the power of Generative AI by learning to interact with large language models programmatically—and take it further with fine-tuning for customized responses.
 If you’re a software maker feeling the fear of missing out (FOMO) on the Gen AI revolution, you’re not alone. The way we build and interact with software is evolving rapidly. “Google it” or “check Stack Overflow” is no longer the go-to approach — AI-first, conversational tools are becoming the new standard across development, design, and decision-making.</description>
         </item>
         
         <item>
             <title>Myths and Realities of AI-Assisted Software Development</title>
-            <link>https://thinkuldeep.com//post/ai-assisted-software-development-myths/</link>
+            <link>https://thinkuldeep.com/post/ai-assisted-software-development-myths/</link>
             <pubDate>Thu, 10 Oct 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/ai-assisted-software-development-myths/</guid>
+            <guid>https://thinkuldeep.com/post/ai-assisted-software-development-myths/</guid>
             <description>AI is transforming the software development process, but there are many misconceptions about its capabilities. This article explores the common myths surrounding AI in software development and sheds light on its reality.
 In recent times, Artificial Intelligence (AI) has gained momentum across various fields, especially with the introduction of Generative AI (GenAI). AI is now widely accessible, often sparking discussions about its potential, its misuse, and, unfortunately, several myths. As the hype around AI intensifies, so does the Fear of Missing Out (FOMO), leading many to adopt it without fully understanding its true value.</description>
         </item>
         
         <item>
             <title>Generative AI for 3D content in XR and beyond</title>
-            <link>https://thinkuldeep.com//post/generative-ai-for-3d-content-in-xr-and-beyond/</link>
+            <link>https://thinkuldeep.com/post/generative-ai-for-3d-content-in-xr-and-beyond/</link>
             <pubDate>Wed, 09 Aug 2023 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/generative-ai-for-3d-content-in-xr-and-beyond/</guid>
+            <guid>https://thinkuldeep.com/post/generative-ai-for-3d-content-in-xr-and-beyond/</guid>
             <description>We touched upon Generative AI while talking about AI assisted content pipeline for XR at Thoughtworks XConf 2022. Generative AI is capable of producing outputs that closely resemble those created by humans. It is evolving in multiple forms, one of its kind is ChatGPT, a useful tool buried beneath the hype. It was touted as Google Killer, and posed a disruption to the way we search, we communicate with machines, and the way machines can respond.</description>
         </item>
         
         <item>
             <title>Speaker - Agility Today Fest 2023 - Generative AI and XR</title>
-            <link>https://thinkuldeep.com//event/agiletoday_2023_ael/</link>
+            <link>https://thinkuldeep.com/event/agiletoday_2023_ael/</link>
             <pubDate>Sat, 25 Mar 2023 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/agiletoday_2023_ael/</guid>
+            <guid>https://thinkuldeep.com/event/agiletoday_2023_ael/</guid>
             <description>Agility Today is a 2 days annual UnConference, to meet Agility needs of industry, gathered over past few years via meetups, Conferences and Webinar. This UnConference intends to give you best of Agile Psyche (Mindset Culture and Practice) and Geekery (Engineering, Tools and DevOps). This year in Agility Today Fest 2023 there are couple of programs.
 I am speaking to at Agile Engineering Lab (Technical Agility &amp;amp; Engineering Excellence), on topic of Scaling content generation for XR using AI.</description>
         </item>
         
         <item>
             <title>AI-Assisted Content Generation Pipeline for XR</title>
-            <link>https://thinkuldeep.com//post/ai-generated-xr-content/</link>
+            <link>https://thinkuldeep.com/post/ai-generated-xr-content/</link>
             <pubDate>Tue, 24 Jan 2023 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/ai-generated-xr-content/</guid>
+            <guid>https://thinkuldeep.com/post/ai-generated-xr-content/</guid>
             <description>Recently, I and Raju Kandaswamy talked at Thoughtworks XConf on how AI will play its role in content generation. We are already seeing ChatGPT, as the next revolution in textual content generation space. Let&amp;rsquo;s understand what is the need of such content generation revolution of XR space.
 With games like Second Life and the impending mainstreaming of the Metaverse, more and more individuals are embracing a virtual reality that, in some ways, mirrors our own real world and, in other ways, lets us live in our imagination or apply them on the real word.</description>
         </item>
         
         <item>
             <title>Metaverse — a technological evolution</title>
-            <link>https://thinkuldeep.com//post/metaverse-a-technological-evolution/</link>
+            <link>https://thinkuldeep.com/post/metaverse-a-technological-evolution/</link>
             <pubDate>Wed, 06 Apr 2022 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/metaverse-a-technological-evolution/</guid>
+            <guid>https://thinkuldeep.com/post/metaverse-a-technological-evolution/</guid>
             <description>Metaverse is the most talked, understood and misunderstood topic these days. In most of my sessions people ask what is the technology stack for Metaverse? what should I learn to stay relevant? etc.. I will try to cover it in this article. In my earlier article I tried to define the Metaverse, and my friend Vinodh Arumugam also attempted the same here. It is defined so loosely that every other industry today is trying to define it in their own way to suits their narrative.</description>
         </item>
         
         <item>
             <title>Evolution of Technology and User Interactions</title>
-            <link>https://thinkuldeep.com//post/evolution_of_technology_and_user_interactions/</link>
+            <link>https://thinkuldeep.com/post/evolution_of_technology_and_user_interactions/</link>
             <pubDate>Mon, 29 Apr 2019 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/evolution_of_technology_and_user_interactions/</guid>
+            <guid>https://thinkuldeep.com/post/evolution_of_technology_and_user_interactions/</guid>
             <description>Technology defines our interactions with the ambiance, and the way we want to interact with the ambiance further defines the technology. The evolution of technology and user interactions tightly depends on each other.
  &amp;ldquo;Walls have ears!&amp;rdquo;, is very much true today, and not just that, now the walls can see you, feel your presence and talk to you.
  In this post, we will discuss how the user interactions evolved with time and what is next!</description>

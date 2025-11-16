@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>groovy on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/groovy/</link>
+        <link>https://thinkuldeep.com/tags/groovy/</link>
         <description>Recent content in groovy on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,10 +11,10 @@
         <lastBuildDate>Mon, 20 May 2013 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/groovy/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Groovy - Getting Started</title>
-            <link>https://thinkuldeep.com//post/groovy-getting-started/</link>
+            <link>https://thinkuldeep.com/post/groovy-getting-started/</link>
             <pubDate>Mon, 20 May 2013 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/groovy-getting-started/</guid>
+            <guid>https://thinkuldeep.com/post/groovy-getting-started/</guid>
             <description>This article help you start with Groovy, with step by step guide and series of examples. It starts with an overview and then covers in detail examples.
 Groovy Overview Groovy is an Object Oriented Scripting Language which provides Dynamic, Easy-to-use and Integration capabilities to the Java Virtual Machine. It absorbs most of the syntax from Java and it is much powerful in terms of functionalities which is manifested in the form Closures, Dynamic Typing, Builders etc.</description>
         </item>

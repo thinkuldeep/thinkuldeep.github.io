@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>nodejs on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/nodejs/</link>
+        <link>https://thinkuldeep.com/tags/nodejs/</link>
         <description>Recent content in nodejs on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,10 +11,10 @@
         <lastBuildDate>Sun, 24 Aug 2025 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Implementing a Proxy for Single Sign-On (SSO) Authentication</title>
-            <link>https://thinkuldeep.com//post/sso-proxy/</link>
+            <link>https://thinkuldeep.com/post/sso-proxy/</link>
             <pubDate>Sun, 24 Aug 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/sso-proxy/</guid>
+            <guid>https://thinkuldeep.com/post/sso-proxy/</guid>
             <description>Enterprise integrations almost always require authentication and authorization. In particular, Single Sign-On (SSO) with Multi-Factor Authentication (MFA) has become a standard practice in modern enterprise applications.
 But here’s the challenge:
  When experimenting with new integrations, building spikes, or running proofs of concept (POCs), setting up a full SSO environment upfront can be cumbersome. Sometimes all you need is a way to quickly test APIs that are locked behind SSO.</description>

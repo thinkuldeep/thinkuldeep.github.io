@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>meetup on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/meetup/</link>
+        <link>https://thinkuldeep.com/tags/meetup/</link>
         <description>Recent content in meetup on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,20 +11,20 @@
         <lastBuildDate>Wed, 24 Apr 2024 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>An Adventure to Remember: Making it to CareerMaker Meetup</title>
-            <link>https://thinkuldeep.com//event/careermaker-meetup-azure-developer-community/</link>
+            <link>https://thinkuldeep.com/event/careermaker-meetup-azure-developer-community/</link>
             <pubDate>Wed, 24 Apr 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/careermaker-meetup-azure-developer-community/</guid>
+            <guid>https://thinkuldeep.com/event/careermaker-meetup-azure-developer-community/</guid>
             <description>The CareerMaker meetup, hosted by the Microsoft Azure Developer Community and managed by Reskill, stands as a flagship event in empowering aspiring professionals. Recently, I had the privilege of delivering a special keynote address at Microsoft Gurugram, where I had the opportunity to guide students from various institutes and share insights from my experience in product management.
 It was an honor to accept this invitation, as engaging with the young, fresh minds of our nation is not only an opportunity to learn from them but also a responsibility to impart valuable knowledge.</description>
         </item>
         
         <item>
             <title>Greening Up: Key takeaways from Green Software Foundation Meetup</title>
-            <link>https://thinkuldeep.com//event/green-software-foundation-meetup-2023/</link>
+            <link>https://thinkuldeep.com/event/green-software-foundation-meetup-2023/</link>
             <pubDate>Fri, 05 May 2023 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/green-software-foundation-meetup-2023/</guid>
+            <guid>https://thinkuldeep.com/event/green-software-foundation-meetup-2023/</guid>
             <description>As technology continues to advance, electronics are getting smaller and wires are disappearing. Even electric poles, once a familiar sight on road trips, are being phased out. With the internet now ubiquitous, physical storage devices are disappearing too, and we rely more on cloud-based solutions that seem to happen over the air.
  ‘It&amp;rsquo;s no wonder we look up when we think of clouds ☁️, but should actually look down to the earth in the mines!</description>
         </item>

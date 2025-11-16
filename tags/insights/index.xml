@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>insights on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/insights/</link>
+        <link>https://thinkuldeep.com/tags/insights/</link>
         <description>Recent content in insights on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,49 +11,49 @@
         <lastBuildDate>Thu, 10 Oct 2024 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/insights/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Myths and Realities of AI-Assisted Software Development</title>
-            <link>https://thinkuldeep.com//post/ai-assisted-software-development-myths/</link>
+            <link>https://thinkuldeep.com/post/ai-assisted-software-development-myths/</link>
             <pubDate>Thu, 10 Oct 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/ai-assisted-software-development-myths/</guid>
+            <guid>https://thinkuldeep.com/post/ai-assisted-software-development-myths/</guid>
             <description>AI is transforming the software development process, but there are many misconceptions about its capabilities. This article explores the common myths surrounding AI in software development and sheds light on its reality.
 In recent times, Artificial Intelligence (AI) has gained momentum across various fields, especially with the introduction of Generative AI (GenAI). AI is now widely accessible, often sparking discussions about its potential, its misuse, and, unfortunately, several myths. As the hype around AI intensifies, so does the Fear of Missing Out (FOMO), leading many to adopt it without fully understanding its true value.</description>
         </item>
         
         <item>
             <title>🤝 Making the XR content usable with AI!</title>
-            <link>https://thinkuldeep.com//post/making-the-xr-content-usable-with-ai/</link>
+            <link>https://thinkuldeep.com/post/making-the-xr-content-usable-with-ai/</link>
             <pubDate>Sun, 24 Mar 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/making-the-xr-content-usable-with-ai/</guid>
+            <guid>https://thinkuldeep.com/post/making-the-xr-content-usable-with-ai/</guid>
             <description>Generative AI is revolutionizing content generation across various mediums, disrupting traditional methods in text, images, art, movies, and music creation. XR (Extended Reality) is also undergoing this transformation. In a previous article, Raju Kandaswamy and I discussed how AI aids in generating content for XR, meeting the dynamic needs of XR and the metaverse.
 We highlighted content management as a key challenge in XR and metaverse adoption. While generative AI methods offer some solutions, the significant hurdle of content optimization remains.</description>
         </item>
         
         <item>
             <title>Effective communication: five key insights</title>
-            <link>https://thinkuldeep.com//post/effective-communication-5-insights/</link>
+            <link>https://thinkuldeep.com/post/effective-communication-5-insights/</link>
             <pubDate>Mon, 18 Sep 2023 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/effective-communication-5-insights/</guid>
+            <guid>https://thinkuldeep.com/post/effective-communication-5-insights/</guid>
             <description>Communication is a puzzle - will others understand us as we hope? What&amp;rsquo;s the secret to effective communication? In this article, I share my top five lessons from books, personal exploration, and experts in the field.
 I&amp;rsquo;m still learning this art, and it&amp;rsquo;s ever-evolving. I&amp;rsquo;ve read couple books and followed communication pros, they shed light on how crucial communication is, especially in our modern ways of working. But it&amp;rsquo;s clear even they&amp;rsquo;re always learning.</description>
         </item>
         
         <item>
             <title>Generative AI for 3D content in XR and beyond</title>
-            <link>https://thinkuldeep.com//post/generative-ai-for-3d-content-in-xr-and-beyond/</link>
+            <link>https://thinkuldeep.com/post/generative-ai-for-3d-content-in-xr-and-beyond/</link>
             <pubDate>Wed, 09 Aug 2023 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/generative-ai-for-3d-content-in-xr-and-beyond/</guid>
+            <guid>https://thinkuldeep.com/post/generative-ai-for-3d-content-in-xr-and-beyond/</guid>
             <description>We touched upon Generative AI while talking about AI assisted content pipeline for XR at Thoughtworks XConf 2022. Generative AI is capable of producing outputs that closely resemble those created by humans. It is evolving in multiple forms, one of its kind is ChatGPT, a useful tool buried beneath the hype. It was touted as Google Killer, and posed a disruption to the way we search, we communicate with machines, and the way machines can respond.</description>
         </item>
         
         <item>
             <title>AI-Assisted Content Generation Pipeline for XR</title>
-            <link>https://thinkuldeep.com//post/ai-generated-xr-content/</link>
+            <link>https://thinkuldeep.com/post/ai-generated-xr-content/</link>
             <pubDate>Tue, 24 Jan 2023 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/ai-generated-xr-content/</guid>
+            <guid>https://thinkuldeep.com/post/ai-generated-xr-content/</guid>
             <description>Recently, I and Raju Kandaswamy talked at Thoughtworks XConf on how AI will play its role in content generation. We are already seeing ChatGPT, as the next revolution in textual content generation space. Let&amp;rsquo;s understand what is the need of such content generation revolution of XR space.
 With games like Second Life and the impending mainstreaming of the Metaverse, more and more individuals are embracing a virtual reality that, in some ways, mirrors our own real world and, in other ways, lets us live in our imagination or apply them on the real word.</description>
         </item>

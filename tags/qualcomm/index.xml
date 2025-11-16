@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>qualcomm on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/qualcomm/</link>
+        <link>https://thinkuldeep.com/tags/qualcomm/</link>
         <description>Recent content in qualcomm on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,10 +11,10 @@
         <lastBuildDate>Wed, 19 Apr 2023 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/qualcomm/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Exploring the Potential of XR Technology for Virtual Decoration</title>
-            <link>https://thinkuldeep.com//post/xr-virtual-decoration/</link>
+            <link>https://thinkuldeep.com/post/xr-virtual-decoration/</link>
             <pubDate>Wed, 19 Apr 2023 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/xr-virtual-decoration/</guid>
+            <guid>https://thinkuldeep.com/post/xr-virtual-decoration/</guid>
             <description>In recent years, XR technology has revolutionized the way we decorate our physical environments. By utilizing AI and computer vision, XR can scan and track real-world surroundings, recognizing and remembering images and objects to enable the addition of virtual content. This technology can store and recall virtual decorations, making them visible every time someone enters the environment. While image matching is not a new concept, XR platforms like Vuforia have already implemented various mobile XR examples.</description>
         </item>
         

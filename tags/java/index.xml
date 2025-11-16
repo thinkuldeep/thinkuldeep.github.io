@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>java on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/java/</link>
+        <link>https://thinkuldeep.com/tags/java/</link>
         <description>Recent content in java on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,19 +11,19 @@
         <lastBuildDate>Fri, 25 Jul 2025 11:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Certificates</title>
-            <link>https://thinkuldeep.com//about/certificates/</link>
+            <link>https://thinkuldeep.com/about/certificates/</link>
             <pubDate>Fri, 25 Jul 2025 11:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/certificates/</guid>
+            <guid>https://thinkuldeep.com/about/certificates/</guid>
             <description> Microsoft Certified: Azure AI Fundamentals Generative AI Essentials 2 Expertise: Complete Concise Guide nRF Connect SDK Intermediate Bluetooth Low Energy Fundamentals nRF Connect SDK Fundamentals Building AI Elements of AI Product Management Enterprise Architecture Internet of Things (IOT) User Experience Design Taradata Certified Java Certified Programmer </description>
         </item>
         
         <item>
             <title>OpenThread Commissioner Implementation in Java</title>
-            <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-java/</link>
+            <link>https://thinkuldeep.com/post/iot-thread-external-commissioner-java/</link>
             <pubDate>Mon, 10 Mar 2025 11:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/iot-thread-external-commissioner-java/</guid>
+            <guid>https://thinkuldeep.com/post/iot-thread-external-commissioner-java/</guid>
             <description>In a previous article, we explored how to build and use an Android app as an external commissioner to onboard Thread devices into a network. This article takes it a step further by demonstrating how to implement a Java-based external commissioner.
 The thread commissioning process involves the following key steps:
  Discovering the Border Router Connecting to the Border Router Adding Joiner Rules Joining the Thread Network  In this guide, we will implement these steps in a Java application, providing a clear and structured approach to external commissioning in OpenThread.</description>
@@ -31,10 +31,10 @@ The thread commissioning process involves the following key steps:
         
         <item>
             <title>Building and Using OpenThread Commissioner Mobile App</title>
-            <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-android/</link>
+            <link>https://thinkuldeep.com/post/iot-thread-external-commissioner-android/</link>
             <pubDate>Wed, 05 Mar 2025 11:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/iot-thread-external-commissioner-android/</guid>
+            <guid>https://thinkuldeep.com/post/iot-thread-external-commissioner-android/</guid>
             <description>In our previous article, we set up an external commissioner outside a Thread network using a command-line tool on a PC. However, OpenThread also provides a mobile app that can serve as an external commissioner.
 This guide will walk you through building and using the OpenThread Commissioner mobile app to provision a device onto a Thread network.
 Building the OpenThread Commissioner Mobile App OpenThread provides an Android app source, which requires Android Studio and Android NDK to build.</description>
@@ -42,19 +42,19 @@ Building the OpenThread Commissioner Mobile App OpenThread provides an Android a
         
         <item>
             <title>TW Spotlight: Going with the Flow – My Journey</title>
-            <link>https://thinkuldeep.com//event/tw-spotlight-2024/</link>
+            <link>https://thinkuldeep.com/event/tw-spotlight-2024/</link>
             <pubDate>Thu, 12 Sep 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/tw-spotlight-2024/</guid>
+            <guid>https://thinkuldeep.com/event/tw-spotlight-2024/</guid>
             <description>Thoughtworks has always amazed me—whether it&amp;rsquo;s the pioneering work we do in the industry or the contributions we make to software engineering practices. What truly inspires me is our people-centered approach. Recently, I was honored by our market leadership, who put me in the spotlight to share my journey with fellow Thoughtworkers. While I&amp;rsquo;ve learned a great deal from my colleagues, I took this opportunity to share my own experiences in the hope of inspiring others.</description>
         </item>
         
         <item>
             <title>20 reflections of 20 years</title>
-            <link>https://thinkuldeep.com//post/20-of-20/</link>
+            <link>https://thinkuldeep.com/post/20-of-20/</link>
             <pubDate>Fri, 05 Jul 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/20-of-20/</guid>
+            <guid>https://thinkuldeep.com/post/20-of-20/</guid>
             <description>On July 5, 2004, I embarked on my professional journey. These past 20 years have been nothing short of adventurous and fulfilling.
  &amp;ldquo;Learning is a natural process, and it matures by sharing&amp;rdquo;
  I&amp;rsquo;ve had a wealth of learnings throughout these two decades, as I worked on over 50 projects spanning various domains and technologies. I&amp;rsquo;ve had the privilege of directly working with over a thousand individuals from diverse backgrounds across different organizations.</description>
@@ -62,94 +62,94 @@ Building the OpenThread Commissioner Mobile App OpenThread provides an Android a
         
         <item>
             <title>Lessons Learned From Blockchain-Based Development</title>
-            <link>https://thinkuldeep.com//post/learnings-from-blockchain-based-development/</link>
+            <link>https://thinkuldeep.com/post/learnings-from-blockchain-based-development/</link>
             <pubDate>Fri, 15 Feb 2019 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/learnings-from-blockchain-based-development/</guid>
+            <guid>https://thinkuldeep.com/post/learnings-from-blockchain-based-development/</guid>
             <description>Blockchain or DLT (Distributed Ledger Technology) is getting good traction in the IT world these days. Earlier, this technology was being mostly explored by banks and other finance-related institutions, such as Bitcoin and Ethereum. Now, it is getting explored for other use cases for building distributed applications. Blockchain technology comes with a decentralized and immutable data structure that maintains a connected block of information. Each block is connected using a hash of the previous block, and every new block on the chain is validated (mined) before adding and replicating it.</description>
         </item>
         
         <item>
             <title>Request Tracing Using Nginx and Spring Boot</title>
-            <link>https://thinkuldeep.com//post/request-tracing/</link>
+            <link>https://thinkuldeep.com/post/request-tracing/</link>
             <pubDate>Tue, 02 Oct 2018 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/request-tracing/</guid>
+            <guid>https://thinkuldeep.com/post/request-tracing/</guid>
             <description>Most web applications are hosted behind a load balancer or web-server such as Nginx/HTTPD, which intercepts all the requests and directs dynamic content requests to the application server, such as Tomcat. Correlating requests traversing from the front-end server to the backend servers are general requirements. In this post, we will discuss tracing the request in the simplest way in an Nginx and Spring Boot-based application without using an external heavyweight library like Slueth.</description>
         </item>
         
         <item>
             <title>A Quick Catch up Before Java 11</title>
-            <link>https://thinkuldeep.com//post/before_java11/</link>
+            <link>https://thinkuldeep.com/post/before_java11/</link>
             <pubDate>Wed, 29 Aug 2018 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/before_java11/</guid>
+            <guid>https://thinkuldeep.com/post/before_java11/</guid>
             <description>Java 11&amp;rsquo;s release candidate is already here, and the industry is still roaming around Java 8. Every six months, we will see a new release. It is good that Java is evolving at a fast speed to catch up the challengers, but at the same time, it is also scary to catch its speed, even the Java ecosystem (build tools, IDE, etc.) is not catching up that fast. It feels like we are losing track.</description>
         </item>
         
         <item>
             <title>5 Hard Lessons From Microservices Development</title>
-            <link>https://thinkuldeep.com//post/lessons_from_microservices_development/</link>
+            <link>https://thinkuldeep.com/post/lessons_from_microservices_development/</link>
             <pubDate>Mon, 23 Jul 2018 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/lessons_from_microservices_development/</guid>
+            <guid>https://thinkuldeep.com/post/lessons_from_microservices_development/</guid>
             <description>Microservices-based development is happening all around the industry; more than 70% are trying development of microservice-based software. Microservices simplify integration of the businesses, processes, technology, and people by breaking down the big-bang monolith problem to a smaller set that can be handled independently. However, it also comes with the problem of managing relations between these smaller sets. We used to manage fewer independent units, so there was less operation and planning effort.</description>
         </item>
         
         <item>
             <title>Apache Spark on Windows</title>
-            <link>https://thinkuldeep.com//post/apache_spark_on_windows/</link>
+            <link>https://thinkuldeep.com/post/apache_spark_on_windows/</link>
             <pubDate>Mon, 08 Jan 2018 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/apache_spark_on_windows/</guid>
+            <guid>https://thinkuldeep.com/post/apache_spark_on_windows/</guid>
             <description>This article is for the Java developer who wants to learn Apache Spark but don&amp;rsquo;t know much of Linux, Python, Scala, R, and Hadoop. Around 50% of developers are using Microsoft Windows environment for development, and they don&amp;rsquo;t need to change their development environment to learn Spark. This is the first article of a series, &amp;ldquo;Apache Spark on Windows&amp;rdquo;, which covers a step-by-step guide to start the Apache Spark application on Windows environment with challenges faced and thier resolutions.</description>
         </item>
         
         <item>
             <title>Choose ORM carefully!</title>
-            <link>https://thinkuldeep.com//post/choose-orm-carefully/</link>
+            <link>https://thinkuldeep.com/post/choose-orm-carefully/</link>
             <pubDate>Thu, 16 Jul 2015 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/choose-orm-carefully/</guid>
+            <guid>https://thinkuldeep.com/post/choose-orm-carefully/</guid>
             <description>We have recently migrated source code from Hibernate ORM to JDBC (Spring JDBC template) based implementation. Performance has been improved 10 times.
 User case (Oracle 11g, JBoss 6, JDK 6, Hibernate, Spring 3) : A tree structure in database is getting populated from a deep file system (directory structure) having around 75000 nodes. Each node (directory) contains text files, which get parsed based on business rules and then populate the database ( BRANCHs representing a node, tables referring to branch, tree_nodes).</description>
         </item>
         
         <item>
             <title>HashMap Performance Improvement in Java 8</title>
-            <link>https://thinkuldeep.com//post/java8-hashmap-performance-improvement/</link>
+            <link>https://thinkuldeep.com/post/java8-hashmap-performance-improvement/</link>
             <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/java8-hashmap-performance-improvement/</guid>
+            <guid>https://thinkuldeep.com/post/java8-hashmap-performance-improvement/</guid>
             <description>Hash collision degrades the performance of HashMap significantly. Java 8 has introduced a new strategy to deal with hash collisions, thus improving the performance of HashMaps. Considering this improvement in Java 8 for hash collisions, existing applications can expect performance improvements in case they are using HashMaps having large number of elements by simply upgrading to Java 8.
 Earlier, when multiple keys ends up in the same bucket, then values along with their keys are placed in a linked list.</description>
         </item>
         
         <item>
             <title>Introduction to Java Lambda Expression</title>
-            <link>https://thinkuldeep.com//post/java8-lambda-expression/</link>
+            <link>https://thinkuldeep.com/post/java8-lambda-expression/</link>
             <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/java8-lambda-expression/</guid>
+            <guid>https://thinkuldeep.com/post/java8-lambda-expression/</guid>
             <description>After Java 8, developers can apply functional programming constructs in a pure Object-Oriented programming language through lambda expressions. Using lambda expression sequential and parallel execution can be achieved by passing behavior into methods. In Java world lambdas can be thought of as an anonymous method with a more compact syntax. Here compact means it is not mandatory to specify access modifiers, return type and parameter types while defining the expression.</description>
         </item>
         
         <item>
             <title>Introduction to Java Stream API</title>
-            <link>https://thinkuldeep.com//post/java8-stream-api/</link>
+            <link>https://thinkuldeep.com/post/java8-stream-api/</link>
             <pubDate>Mon, 08 Dec 2014 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/java8-stream-api/</guid>
+            <guid>https://thinkuldeep.com/post/java8-stream-api/</guid>
             <description>Prior to JDK 8, collections can only be managed through iterators with the use of for, foreach or while loops. It means that we instruct a computer to execute the algorithm steps.
 int sum(List&amp;lt;Integer&amp;gt; list) {  Iterator&amp;lt;Integer&amp;gt; intIterator = list.iterator();  int sum = 0;  while (intIterator.hasNext()) {  int number = intIterator.next();  if (number &amp;gt; 5) {  sum += number;  }  }  return sum; } The above approach has the following tailbacks:</description>
         </item>
         
         <item>
             <title>Contributor - JavaOne - Rapid Modernization to Java8</title>
-            <link>https://thinkuldeep.com//event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</link>
+            <link>https://thinkuldeep.com/event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</link>
             <pubDate>Wed, 01 Oct 2014 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</guid>
+            <guid>https://thinkuldeep.com/event/oracle-rapid-modernization-of-java-applications-to-jdk-8/</guid>
             <description>Presented At: G. Venkat, Senior Vice President of Technology &amp;amp; Solutions, at Nagarro and I have spoken at the Oracle OpenWorld / JavaOne conference on Wednesday, October 1, 2014, form 10:00 – 11:00 a.m., Pacific Time, at Ballroom 6 in the Hilton San Francisco at Union Square.
 I have supported Venkat and presented the JMod tool demo with him.
 Here are some coverages - https://www.nagarro.com/en/news-events/nagarro-has-java-8-covered-at-oracle-open-world I have lead the Nagarro Stall and showcased the JMod demo to 300+ visitors.</description>
@@ -157,10 +157,10 @@ Here are some coverages - https://www.nagarro.com/en/news-events/nagarro-has-jav
         
         <item>
             <title>HTTP Router with Apache Camel </title>
-            <link>https://thinkuldeep.com//post/apache-camel-http-route/</link>
+            <link>https://thinkuldeep.com/post/apache-camel-http-route/</link>
             <pubDate>Thu, 13 Feb 2014 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/apache-camel-http-route/</guid>
+            <guid>https://thinkuldeep.com/post/apache-camel-http-route/</guid>
             <description>This article explains the http integration using Apache Camel. Create a configurable router to any http URL having place holders.
  Prerequisite  Windows7, Eclipse Juno Java 1.7    Creating HTTP Router Please follow below steps to generate POC for HTTP routing using apache camel.
 Create Sample Camel Example   Create eclipse project using archetype “camel-archetype-spring”
@@ -169,10 +169,10 @@ mvn archetype:generate DarchetypeGroupId=com.tk.poc.camel -DarchetypeArtifactId=
         
         <item>
             <title>Apache Camel SSH Component</title>
-            <link>https://thinkuldeep.com//post/apache-camel-ssh-component/</link>
+            <link>https://thinkuldeep.com/post/apache-camel-ssh-component/</link>
             <pubDate>Mon, 02 Dec 2013 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/apache-camel-ssh-component/</guid>
+            <guid>https://thinkuldeep.com/post/apache-camel-ssh-component/</guid>
             <description>This article is about troubleshooting issues we have faced while using apache camel’s SSH routes. It also covers step wise guide to setup apache camel routes.
 Prerequisites  Windows7 Eclipse Juno Java 1.7  Problem Statement We were getting following issues in the logs when connecting to one of the SSH server using Apache Camel-SSH. This was happening in one of the instance in production environment.
 Here are few logs :</description>
@@ -180,20 +180,20 @@ Here are few logs :</description>
         
         <item>
             <title>Groovy - Getting Started</title>
-            <link>https://thinkuldeep.com//post/groovy-getting-started/</link>
+            <link>https://thinkuldeep.com/post/groovy-getting-started/</link>
             <pubDate>Mon, 20 May 2013 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/groovy-getting-started/</guid>
+            <guid>https://thinkuldeep.com/post/groovy-getting-started/</guid>
             <description>This article help you start with Groovy, with step by step guide and series of examples. It starts with an overview and then covers in detail examples.
 Groovy Overview Groovy is an Object Oriented Scripting Language which provides Dynamic, Easy-to-use and Integration capabilities to the Java Virtual Machine. It absorbs most of the syntax from Java and it is much powerful in terms of functionalities which is manifested in the form Closures, Dynamic Typing, Builders etc.</description>
         </item>
         
         <item>
             <title>Scala - Getting Started - Part 2</title>
-            <link>https://thinkuldeep.com//post/scala-getting-started-part2/</link>
+            <link>https://thinkuldeep.com/post/scala-getting-started-part2/</link>
             <pubDate>Sat, 18 May 2013 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/scala-getting-started-part2/</guid>
+            <guid>https://thinkuldeep.com/post/scala-getting-started-part2/</guid>
             <description>In previous article we learned basics of Scala, in this articles we will learn how to setup build scripts for scala and build applications using scala.
 We will also learn few web development frameworks for Scala and compare them with similar framework in Java.
 Building Scala Applications Below program demonstrates the use of Scala script with Maven, Ant, and logging library – LogBack.
@@ -202,30 +202,30 @@ Integration with Ant Below example shows how Scala project can be built by the a
         
         <item>
             <title>Scala - Getting Started - Part 1</title>
-            <link>https://thinkuldeep.com//post/scala-getting-started-part1/</link>
+            <link>https://thinkuldeep.com/post/scala-getting-started-part1/</link>
             <pubDate>Mon, 06 May 2013 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/scala-getting-started-part1/</guid>
+            <guid>https://thinkuldeep.com/post/scala-getting-started-part1/</guid>
             <description>This article help you to start with Scala, with step by step guide and series of examples. It starts with an overview and then covers in detail examples. In later articles, I will write about feature comparison with other languages. It article is helpful for people coming from Java background, how it is not the prerequisites.
 Scala Overview Scala is a general purpose programming language designed to express common programming patterns in a concise, elegant, and type-safe way.</description>
         </item>
         
         <item>
             <title>Charset configuration in JVM</title>
-            <link>https://thinkuldeep.com//post/java-charset-configuration/</link>
+            <link>https://thinkuldeep.com/post/java-charset-configuration/</link>
             <pubDate>Thu, 14 Feb 2013 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/java-charset-configuration/</guid>
+            <guid>https://thinkuldeep.com/post/java-charset-configuration/</guid>
             <description>This article describes how to configure charset for a JVM.
 We faced an issue on a Linux environment, a file containing some Swedish character was not being read correctly by underlying JVM since the default charset of JVM was picked as UTF-8 (which does not support some Swedish character). But on the other hand, in Windows environment, it was working fine since the default charset was picked as Windows-1252 (which does support these characters).</description>
         </item>
         
         <item>
             <title>Working with Embedded OLE Objects in Java</title>
-            <link>https://thinkuldeep.com//post/java-working-with-ole-objects/</link>
+            <link>https://thinkuldeep.com/post/java-working-with-ole-objects/</link>
             <pubDate>Sat, 29 Sep 2012 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/java-working-with-ole-objects/</guid>
+            <guid>https://thinkuldeep.com/post/java-working-with-ole-objects/</guid>
             <description>Document introduction contains a proof of concept for the research done on reading and writing OLE objects in Java. This research has been done using Apache POI. Please go thru the references for information about apache POI.
 This article covers a POC to fetch OLE objects from RIF formatted XML. Not just that, we need to store them in a in some viewable format.
 For a given XML in RIF format, parse it and read the embedded OLE object and represent in some viewable format using Java.</description>
@@ -233,20 +233,20 @@ For a given XML in RIF format, parse it and read the embedded OLE object and rep
         
         <item>
             <title>Strange JSP Compilation Issue </title>
-            <link>https://thinkuldeep.com//post/jsp-compilation-issues/</link>
+            <link>https://thinkuldeep.com/post/jsp-compilation-issues/</link>
             <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/jsp-compilation-issues/</guid>
+            <guid>https://thinkuldeep.com/post/jsp-compilation-issues/</guid>
             <description>We were getting following error on the production sever (Linux, Jboss). We were in the middle of user acceptance testing with the client, many users were accessing the application to simulate various scenarios in a live session.
 the application was crashing just after 2-3 minute of start with above error, and no user were able to access the application. We were expected for fix the issue ASAP, as the users were assembled for the web session, all were waiting for the server up.</description>
         </item>
         
         <item>
             <title>Default Timezone in Java and MySQL</title>
-            <link>https://thinkuldeep.com//post/java-mysql-timezone-configuration/</link>
+            <link>https://thinkuldeep.com/post/java-mysql-timezone-configuration/</link>
             <pubDate>Sun, 15 Apr 2012 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/java-mysql-timezone-configuration/</guid>
+            <guid>https://thinkuldeep.com/post/java-mysql-timezone-configuration/</guid>
             <description>On one of our production environments, we had an issue our application related to time, specially modified time and creation time of the entities. It was quite random in nature for some entities.
 We suspected that there might be issue in the timezone configuration.
 Analysing the problem On production environment, we had limited permissions. We were not allowed to change system timezone. We noticed that Jboss is automatically picking the system timezone “Europe/Berlin” (which was configured from root user) and if we check the timezone for the linux user for which we have access it shows GMT time.</description>
@@ -254,20 +254,20 @@ Analysing the problem On production environment, we had limited permissions. We 
         
         <item>
             <title>Rule Engine - Getting Started with Drools</title>
-            <link>https://thinkuldeep.com//post/rule-engine-getting-started/</link>
+            <link>https://thinkuldeep.com/post/rule-engine-getting-started/</link>
             <pubDate>Sat, 03 Mar 2012 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/rule-engine-getting-started/</guid>
+            <guid>https://thinkuldeep.com/post/rule-engine-getting-started/</guid>
             <description>This article let you start with Rule Engine Drools, with step by step guide and series of examples. It starts with an overview and then covers in detail examples.
 Rule Engine Overview The underlying idea of a rule engine is to externalize the business or application logic. A rule engine can be viewed as a sophisticated interpreter of if-then statements. The if-then statements are the rules. A rule is composed of two parts, a condition and an action: When the condition is met, the action is executed.</description>
         </item>
         
         <item>
             <title>Compiling Java Native C/C&#43;&#43; Code</title>
-            <link>https://thinkuldeep.com//post/java-jni-cpp/</link>
+            <link>https://thinkuldeep.com/post/java-jni-cpp/</link>
             <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/java-jni-cpp/</guid>
+            <guid>https://thinkuldeep.com/post/java-jni-cpp/</guid>
             <description>We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
  How to write a JNI program. jni_md.h not found. Incompatible data types. On widows cygwin1.dll is required when running Java code on the native library. and more.  Actually we were compiling NLP Solver’s native library (IPOPT) on windows 32 bit and on 64bit linux machine.
 Solving the chaos! Here are the steps we have followed to solve the above issues:</description>
@@ -275,10 +275,10 @@ Solving the chaos! Here are the steps we have followed to solve the above issues
         
         <item>
             <title>Using Apache CFX and Apache Camel in ESB</title>
-            <link>https://thinkuldeep.com//post/esb-introduction-part2/</link>
+            <link>https://thinkuldeep.com/post/esb-introduction-part2/</link>
             <pubDate>Mon, 30 Jan 2012 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/esb-introduction-part2/</guid>
+            <guid>https://thinkuldeep.com/post/esb-introduction-part2/</guid>
             <description>In the previous article, we learned about ESB and deployed our first OSGi bundle on FuseESB.
 In this article, we will learn how to build Apache CXF and Apache Camel component and deploy them on FuseESB.
 Lets understand what are these components :
@@ -288,10 +288,10 @@ Camel lets you create the Enterprise Integration Patterns to implement routing a
         
         <item>
             <title>Managing Calendar and Invites in Java</title>
-            <link>https://thinkuldeep.com//post/java-calendar-and-invite/</link>
+            <link>https://thinkuldeep.com/post/java-calendar-and-invite/</link>
             <pubDate>Sun, 22 Jan 2012 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/java-calendar-and-invite/</guid>
+            <guid>https://thinkuldeep.com/post/java-calendar-and-invite/</guid>
             <description>Calendars are used to store formation for various events. Calendar viewer displays the month-date view and for each day displays the events/reminders information.
 Invites are the events in the form of email. Once the invite for an event sent to a user via email then that event will be stored in the calendar view and same can be seen in the day information of the calendar view.
 Calendars Calendar data can be stored in files; there are some standard formats for storing calendars iCalendar is a computer file format which allows Internet users to send meeting requests and tasks to other Internet users, via email, or sharing files with an extension of .</description>
@@ -299,10 +299,10 @@ Calendars Calendar data can be stored in files; there are some standard formats 
         
         <item>
             <title>Working with Enterprise Service Bus</title>
-            <link>https://thinkuldeep.com//post/esb-introduction-part1/</link>
+            <link>https://thinkuldeep.com/post/esb-introduction-part1/</link>
             <pubDate>Sun, 15 Jan 2012 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/esb-introduction-part1/</guid>
+            <guid>https://thinkuldeep.com/post/esb-introduction-part1/</guid>
             <description>This article starts from basic terms of ESB worlds and then provides details of the FuseESB with various examples.
 It contains step by step guide to install FuseESB, and develop and deploy OSGi bundle on FuseESB.
 Lets understand terminologies of the ESB world :
@@ -311,20 +311,20 @@ ESB An Enterprise Service Bus (ESB) is a software architecture model used for de
         
         <item>
             <title>Mail Merge in Java</title>
-            <link>https://thinkuldeep.com//post/java-mail-merge/</link>
+            <link>https://thinkuldeep.com/post/java-mail-merge/</link>
             <pubDate>Tue, 10 Jan 2012 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/java-mail-merge/</guid>
+            <guid>https://thinkuldeep.com/post/java-mail-merge/</guid>
             <description>MailMerge is a process to create personalized letters and pre-addressed envelopes or mailing labels for mass mailings from a word processing document (Template). A template contains placeholders (Fields) along with the actual content. The placeholders are filled by the data source which is typically a spreadsheet or a database having column for each place holders.
 This article talks about the java approach for generating multiple documents from a single MS Word template.</description>
         </item>
         
         <item>
             <title>Font configuration in JVM</title>
-            <link>https://thinkuldeep.com//post/java-font-mapping/</link>
+            <link>https://thinkuldeep.com/post/java-font-mapping/</link>
             <pubDate>Thu, 05 Jan 2012 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/java-font-mapping/</guid>
+            <guid>https://thinkuldeep.com/post/java-font-mapping/</guid>
             <description>Last year we have migrated one of our application from Java 5 to Java 6. The Java 6(OpenJDK) installation was done by client on a fresh system. After installing our application (under JBoss app), we found the fonts on JFreeCharts and on the images generated from AWT were not correct.
 We have solved the issue by configuring the fonts at JVM level. Let understand it better.
 How AWT / JFreeCharts shows the fonts AWT rely on native fonts, it usages default Java fonts (which best fits) if no native fonts mapping found.</description>

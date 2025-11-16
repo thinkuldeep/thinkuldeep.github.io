@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Apache CFX on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/apache-cfx/</link>
+        <link>https://thinkuldeep.com/tags/apache-cfx/</link>
         <description>Recent content in Apache CFX on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,10 +11,10 @@
         <lastBuildDate>Mon, 30 Jan 2012 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/apache-cfx/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Using Apache CFX and Apache Camel in ESB</title>
-            <link>https://thinkuldeep.com//post/esb-introduction-part2/</link>
+            <link>https://thinkuldeep.com/post/esb-introduction-part2/</link>
             <pubDate>Mon, 30 Jan 2012 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/esb-introduction-part2/</guid>
+            <guid>https://thinkuldeep.com/post/esb-introduction-part2/</guid>
             <description>In the previous article, we learned about ESB and deployed our first OSGi bundle on FuseESB.
 In this article, we will learn how to build Apache CXF and Apache Camel component and deploy them on FuseESB.
 Lets understand what are these components :

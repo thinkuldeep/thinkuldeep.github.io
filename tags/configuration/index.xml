@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>configuration on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/configuration/</link>
+        <link>https://thinkuldeep.com/tags/configuration/</link>
         <description>Recent content in configuration on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,20 +11,20 @@
         <lastBuildDate>Sun, 27 May 2012 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/configuration/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Strange JSP Compilation Issue </title>
-            <link>https://thinkuldeep.com//post/jsp-compilation-issues/</link>
+            <link>https://thinkuldeep.com/post/jsp-compilation-issues/</link>
             <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/jsp-compilation-issues/</guid>
+            <guid>https://thinkuldeep.com/post/jsp-compilation-issues/</guid>
             <description>We were getting following error on the production sever (Linux, Jboss). We were in the middle of user acceptance testing with the client, many users were accessing the application to simulate various scenarios in a live session.
 the application was crashing just after 2-3 minute of start with above error, and no user were able to access the application. We were expected for fix the issue ASAP, as the users were assembled for the web session, all were waiting for the server up.</description>
         </item>
         
         <item>
             <title>Default Timezone in Java and MySQL</title>
-            <link>https://thinkuldeep.com//post/java-mysql-timezone-configuration/</link>
+            <link>https://thinkuldeep.com/post/java-mysql-timezone-configuration/</link>
             <pubDate>Sun, 15 Apr 2012 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/java-mysql-timezone-configuration/</guid>
+            <guid>https://thinkuldeep.com/post/java-mysql-timezone-configuration/</guid>
             <description>On one of our production environments, we had an issue our application related to time, specially modified time and creation time of the entities. It was quite random in nature for some entities.
 We suspected that there might be issue in the timezone configuration.
 Analysing the problem On production environment, we had limited permissions. We were not allowed to change system timezone. We noticed that Jboss is automatically picking the system timezone “Europe/Berlin” (which was configured from root user) and if we check the timezone for the linux user for which we have access it shows GMT time.</description>

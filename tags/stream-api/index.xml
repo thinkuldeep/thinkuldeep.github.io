@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>stream-api on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/stream-api/</link>
+        <link>https://thinkuldeep.com/tags/stream-api/</link>
         <description>Recent content in stream-api on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,10 +11,10 @@
         <lastBuildDate>Mon, 08 Dec 2014 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/stream-api/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Introduction to Java Stream API</title>
-            <link>https://thinkuldeep.com//post/java8-stream-api/</link>
+            <link>https://thinkuldeep.com/post/java8-stream-api/</link>
             <pubDate>Mon, 08 Dec 2014 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/java8-stream-api/</guid>
+            <guid>https://thinkuldeep.com/post/java8-stream-api/</guid>
             <description>Prior to JDK 8, collections can only be managed through iterators with the use of for, foreach or while loops. It means that we instruct a computer to execute the algorithm steps.
 int sum(List&amp;lt;Integer&amp;gt; list) {  Iterator&amp;lt;Integer&amp;gt; intIterator = list.iterator();  int sum = 0;  while (intIterator.hasNext()) {  int number = intIterator.next();  if (number &amp;gt; 5) {  sum += number;  }  }  return sum; } The above approach has the following tailbacks:</description>
         </item>

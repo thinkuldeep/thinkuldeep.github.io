@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>microsoft on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/microsoft/</link>
+        <link>https://thinkuldeep.com/tags/microsoft/</link>
         <description>Recent content in microsoft on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,40 +11,40 @@
         <lastBuildDate>Sat, 06 Jul 2024 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Speaker - Azure AI Fostering Sense within XR World</title>
-            <link>https://thinkuldeep.com//event/azure-ai-fostering-sense-within-xr-world/</link>
+            <link>https://thinkuldeep.com/event/azure-ai-fostering-sense-within-xr-world/</link>
             <pubDate>Sat, 06 Jul 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/azure-ai-fostering-sense-within-xr-world/</guid>
+            <guid>https://thinkuldeep.com/event/azure-ai-fostering-sense-within-xr-world/</guid>
             <description>Season of AI, a virtual event series of the Microsoft Azure Developer Community by Reskill, stands as a flagship event in empowering aspiring professionals. Recently, I had the privilege of delivering a session, where I had the opportunity to guide the community and share insights from my experience in XR and AI development.
 It was an honor to accept this invitation, and special thanks to Rohit Sardana and Azkar Khan for extending the invitation.</description>
         </item>
         
         <item>
             <title>An Adventure to Remember: Making it to CareerMaker Meetup</title>
-            <link>https://thinkuldeep.com//event/careermaker-meetup-azure-developer-community/</link>
+            <link>https://thinkuldeep.com/event/careermaker-meetup-azure-developer-community/</link>
             <pubDate>Wed, 24 Apr 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/careermaker-meetup-azure-developer-community/</guid>
+            <guid>https://thinkuldeep.com/event/careermaker-meetup-azure-developer-community/</guid>
             <description>The CareerMaker meetup, hosted by the Microsoft Azure Developer Community and managed by Reskill, stands as a flagship event in empowering aspiring professionals. Recently, I had the privilege of delivering a special keynote address at Microsoft Gurugram, where I had the opportunity to guide students from various institutes and share insights from my experience in product management.
 It was an honor to accept this invitation, as engaging with the young, fresh minds of our nation is not only an opportunity to learn from them but also a responsibility to impart valuable knowledge.</description>
         </item>
         
         <item>
             <title>Building a smart meeting room concept</title>
-            <link>https://thinkuldeep.com//post/building-smart-meeting-room-concept/</link>
+            <link>https://thinkuldeep.com/post/building-smart-meeting-room-concept/</link>
             <pubDate>Sun, 17 Apr 2016 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/building-smart-meeting-room-concept/</guid>
+            <guid>https://thinkuldeep.com/post/building-smart-meeting-room-concept/</guid>
             <description>On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
 Smart Meeting Room is a step forward in automating the availability and booking procedure of a meeting room.</description>
         </item>
         
         <item>
             <title>Managing Calendar and Invites in Java</title>
-            <link>https://thinkuldeep.com//post/java-calendar-and-invite/</link>
+            <link>https://thinkuldeep.com/post/java-calendar-and-invite/</link>
             <pubDate>Sun, 22 Jan 2012 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/java-calendar-and-invite/</guid>
+            <guid>https://thinkuldeep.com/post/java-calendar-and-invite/</guid>
             <description>Calendars are used to store formation for various events. Calendar viewer displays the month-date view and for each day displays the events/reminders information.
 Invites are the events in the form of email. Once the invite for an event sent to a user via email then that event will be stored in the calendar view and same can be seen in the day information of the calendar view.
 Calendars Calendar data can be stored in files; there are some standard formats for storing calendars iCalendar is a computer file format which allows Internet users to send meeting requests and tasks to other Internet users, via email, or sharing files with an extension of .</description>
@@ -52,10 +52,10 @@ Calendars Calendar data can be stored in files; there are some standard formats 
         
         <item>
             <title>Mail Merge in Java</title>
-            <link>https://thinkuldeep.com//post/java-mail-merge/</link>
+            <link>https://thinkuldeep.com/post/java-mail-merge/</link>
             <pubDate>Tue, 10 Jan 2012 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/java-mail-merge/</guid>
+            <guid>https://thinkuldeep.com/post/java-mail-merge/</guid>
             <description>MailMerge is a process to create personalized letters and pre-addressed envelopes or mailing labels for mass mailings from a word processing document (Template). A template contains placeholders (Fields) along with the actual content. The placeholders are filled by the data source which is typically a spreadsheet or a database having column for each place holders.
 This article talks about the java approach for generating multiple documents from a single MS Word template.</description>
         </item>

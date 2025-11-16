@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>customization on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/customization/</link>
+        <link>https://thinkuldeep.com/tags/customization/</link>
         <description>Recent content in customization on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,10 +11,10 @@
         <lastBuildDate>Sat, 16 May 2020 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/customization/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Run a 2D App in XR Container</title>
-            <link>https://thinkuldeep.com//post/run-a-2d-app-in-xr-container/</link>
+            <link>https://thinkuldeep.com/post/run-a-2d-app-in-xr-container/</link>
             <pubDate>Sat, 16 May 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/run-a-2d-app-in-xr-container/</guid>
+            <guid>https://thinkuldeep.com/post/run-a-2d-app-in-xr-container/</guid>
             <description>There are a number of Enterprise XR use cases where we have a need to open the existing 2D apps in the XR devices in a wrapper app, and this article covers a concept, have a look!
 After trying the OS level customization on an XR device, you may like to run your XR apps as a system app. Here is a simple article by Raju K
  Android System Apps development - Android Emulator Setup and guidelines to develop system applications</description>
@@ -22,20 +22,20 @@ After trying the OS level customization on an XR device, you may like to run you
         
         <item>
             <title>OS Customization for XR Device</title>
-            <link>https://thinkuldeep.com//post/os-customization-for-xr-devices/</link>
+            <link>https://thinkuldeep.com/post/os-customization-for-xr-devices/</link>
             <pubDate>Sun, 10 May 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/os-customization-for-xr-devices/</guid>
+            <guid>https://thinkuldeep.com/post/os-customization-for-xr-devices/</guid>
             <description>The Operating System of XR (AR VR) devices is mostly customized to the hardware of the device, and not just that the OS level customizations are needed to meet the enterprise needs such as integration with Enterprise MDM (Mobile Device Management) solutions (such as Intune, MobileIron and Airwatch), 3D lock screen, idle-timeout, custom home screen, custom settings, security, as so on.
 Most organizations currently using traditional hardware and software assets such as mobile devices, laptops, and desktops, and the processes and policies for managing these devices are quite stable and straightforward by now.</description>
         </item>
         
         <item>
             <title>Apache Camel SSH Component</title>
-            <link>https://thinkuldeep.com//post/apache-camel-ssh-component/</link>
+            <link>https://thinkuldeep.com/post/apache-camel-ssh-component/</link>
             <pubDate>Mon, 02 Dec 2013 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/apache-camel-ssh-component/</guid>
+            <guid>https://thinkuldeep.com/post/apache-camel-ssh-component/</guid>
             <description>This article is about troubleshooting issues we have faced while using apache camel’s SSH routes. It also covers step wise guide to setup apache camel routes.
 Prerequisites  Windows7 Eclipse Juno Java 1.7  Problem Statement We were getting following issues in the logs when connecting to one of the SSH server using Apache Camel-SSH. This was happening in one of the instance in production environment.
 Here are few logs :</description>

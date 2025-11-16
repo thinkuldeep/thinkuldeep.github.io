@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>product on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/product/</link>
+        <link>https://thinkuldeep.com/tags/product/</link>
         <description>Recent content in product on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,10 +11,10 @@
         <lastBuildDate>Wed, 17 Aug 2016 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/product/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>5 Steps of the IoT race</title>
-            <link>https://thinkuldeep.com//post/5-steps-of-the-iot-race/</link>
+            <link>https://thinkuldeep.com/post/5-steps-of-the-iot-race/</link>
             <pubDate>Wed, 17 Aug 2016 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/5-steps-of-the-iot-race/</guid>
+            <guid>https://thinkuldeep.com/post/5-steps-of-the-iot-race/</guid>
             <description>The ‘Internet of Things’ (IoT) presents tremendous opportunity in all the industry verticals and business domains. Specifically, the ‘Industrial Internet of Things’(IIoT) promises to increase the value proposition by making self-optimizing business processes. As discussed in the post “The Driving Forces Behind IoT”, there are several challenges to be addressed to realize the full IoT potentials, but following steps will help organization to systemically make their products participate in the IoT journey and stay in the IoT race.</description>
         </item>
         

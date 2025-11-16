@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>rebooting on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/rebooting/</link>
+        <link>https://thinkuldeep.com/tags/rebooting/</link>
         <description>Recent content in rebooting on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,30 +11,30 @@
         <lastBuildDate>Fri, 18 Oct 2024 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/rebooting/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Soft IoT Continued: Bringing the Internet into IoT</title>
-            <link>https://thinkuldeep.com//post/soft-iot-continued/</link>
+            <link>https://thinkuldeep.com/post/soft-iot-continued/</link>
             <pubDate>Fri, 18 Oct 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/soft-iot-continued/</guid>
+            <guid>https://thinkuldeep.com/post/soft-iot-continued/</guid>
             <description>Simplifying IoT learning doesn’t have to mean getting bogged down with hardware details. Instead, let’s dive into Soft IoT — where we focus on software-driven IoT exploration. In this article, we’ll learn how to read inputs from a button and turn it into a web based remote control for an LED, all while keeping things software-centric..
 In the previous article, we introduced Soft IoT using a Grove Pi board, which simplifies IoT learning by hiding wiring and connections complexity.</description>
         </item>
         
         <item>
             <title>Getting Started with Soft IoT</title>
-            <link>https://thinkuldeep.com//post/soft-iot/</link>
+            <link>https://thinkuldeep.com/post/soft-iot/</link>
             <pubDate>Wed, 09 Oct 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/soft-iot/</guid>
+            <guid>https://thinkuldeep.com/post/soft-iot/</guid>
             <description>Learning IoT doesn’t have to be complex, especially when starting out. In this post, we’ll explore how to get started with IoT without diving deep into hardware complexities like wiring or understanding intricate sensor details.
 In an earlier article, we set up a Raspberry Pi. My son initially saw it as just another, albeit slower, computer. There was no “IoT” in it yet, just a basic device. But IoT is about more than just the device itself; it’s about integrating sensors and actuators.</description>
         </item>
         
         <item>
             <title>Booting Up the Internet of Things</title>
-            <link>https://thinkuldeep.com//post/iot-rebooting/</link>
+            <link>https://thinkuldeep.com/post/iot-rebooting/</link>
             <pubDate>Wed, 25 Sep 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/iot-rebooting/</guid>
+            <guid>https://thinkuldeep.com/post/iot-rebooting/</guid>
             <description>A few years ago, I bought a Raspberry Pi 3, but during a house move, I misplaced it. Fast forward to this Diwali cleaning, and to my surprise, I found it! My son’s curiosity was piqued, so we decided to set it up together. While my recent focus has been on XR technologies and we setup XRPractices, but this moment brought me back to IoT — sparking the idea to share my journey and experiences through a series of articles on getting started with IoT.</description>
         </item>
         

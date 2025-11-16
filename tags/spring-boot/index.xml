@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>spring boot on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/spring-boot/</link>
+        <link>https://thinkuldeep.com/tags/spring-boot/</link>
         <description>Recent content in spring boot on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,28 +11,28 @@
         <lastBuildDate>Fri, 15 Feb 2019 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/spring-boot/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Lessons Learned From Blockchain-Based Development</title>
-            <link>https://thinkuldeep.com//post/learnings-from-blockchain-based-development/</link>
+            <link>https://thinkuldeep.com/post/learnings-from-blockchain-based-development/</link>
             <pubDate>Fri, 15 Feb 2019 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/learnings-from-blockchain-based-development/</guid>
+            <guid>https://thinkuldeep.com/post/learnings-from-blockchain-based-development/</guid>
             <description>Blockchain or DLT (Distributed Ledger Technology) is getting good traction in the IT world these days. Earlier, this technology was being mostly explored by banks and other finance-related institutions, such as Bitcoin and Ethereum. Now, it is getting explored for other use cases for building distributed applications. Blockchain technology comes with a decentralized and immutable data structure that maintains a connected block of information. Each block is connected using a hash of the previous block, and every new block on the chain is validated (mined) before adding and replicating it.</description>
         </item>
         
         <item>
             <title>Request Tracing Using Nginx and Spring Boot</title>
-            <link>https://thinkuldeep.com//post/request-tracing/</link>
+            <link>https://thinkuldeep.com/post/request-tracing/</link>
             <pubDate>Tue, 02 Oct 2018 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/request-tracing/</guid>
+            <guid>https://thinkuldeep.com/post/request-tracing/</guid>
             <description>Most web applications are hosted behind a load balancer or web-server such as Nginx/HTTPD, which intercepts all the requests and directs dynamic content requests to the application server, such as Tomcat. Correlating requests traversing from the front-end server to the backend servers are general requirements. In this post, we will discuss tracing the request in the simplest way in an Nginx and Spring Boot-based application without using an external heavyweight library like Slueth.</description>
         </item>
         
         <item>
             <title>5 Hard Lessons From Microservices Development</title>
-            <link>https://thinkuldeep.com//post/lessons_from_microservices_development/</link>
+            <link>https://thinkuldeep.com/post/lessons_from_microservices_development/</link>
             <pubDate>Mon, 23 Jul 2018 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/lessons_from_microservices_development/</guid>
+            <guid>https://thinkuldeep.com/post/lessons_from_microservices_development/</guid>
             <description>Microservices-based development is happening all around the industry; more than 70% are trying development of microservice-based software. Microservices simplify integration of the businesses, processes, technology, and people by breaking down the big-bang monolith problem to a smaller set that can be handled independently. However, it also comes with the problem of managing relations between these smaller sets. We used to manage fewer independent units, so there was less operation and planning effort.</description>
         </item>
         

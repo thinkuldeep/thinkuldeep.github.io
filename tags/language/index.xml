@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>language on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/language/</link>
+        <link>https://thinkuldeep.com/tags/language/</link>
         <description>Recent content in language on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,49 +11,49 @@
         <lastBuildDate>Tue, 27 Jan 2015 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/language/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Object Oriented JavaScript</title>
-            <link>https://thinkuldeep.com//post/oojs/</link>
+            <link>https://thinkuldeep.com/post/oojs/</link>
             <pubDate>Tue, 27 Jan 2015 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/oojs/</guid>
+            <guid>https://thinkuldeep.com/post/oojs/</guid>
             <description>JavaScript has been regarded as a functional programing language by most of the developers. This book is targeted for all the JavaScript developers to shift their thinking from the functional to the object oriented programing language.
 The course requires basic knowledge of JavaScript syntax. If you already know some JavaScript, you will find a lot of eye-openers as you go along and learn what more the JavaScript can do for you.</description>
         </item>
         
         <item>
             <title>Introduction to Java Lambda Expression</title>
-            <link>https://thinkuldeep.com//post/java8-lambda-expression/</link>
+            <link>https://thinkuldeep.com/post/java8-lambda-expression/</link>
             <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/java8-lambda-expression/</guid>
+            <guid>https://thinkuldeep.com/post/java8-lambda-expression/</guid>
             <description>After Java 8, developers can apply functional programming constructs in a pure Object-Oriented programming language through lambda expressions. Using lambda expression sequential and parallel execution can be achieved by passing behavior into methods. In Java world lambdas can be thought of as an anonymous method with a more compact syntax. Here compact means it is not mandatory to specify access modifiers, return type and parameter types while defining the expression.</description>
         </item>
         
         <item>
             <title>Introduction to Java Stream API</title>
-            <link>https://thinkuldeep.com//post/java8-stream-api/</link>
+            <link>https://thinkuldeep.com/post/java8-stream-api/</link>
             <pubDate>Mon, 08 Dec 2014 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/java8-stream-api/</guid>
+            <guid>https://thinkuldeep.com/post/java8-stream-api/</guid>
             <description>Prior to JDK 8, collections can only be managed through iterators with the use of for, foreach or while loops. It means that we instruct a computer to execute the algorithm steps.
 int sum(List&amp;lt;Integer&amp;gt; list) {  Iterator&amp;lt;Integer&amp;gt; intIterator = list.iterator();  int sum = 0;  while (intIterator.hasNext()) {  int number = intIterator.next();  if (number &amp;gt; 5) {  sum += number;  }  }  return sum; } The above approach has the following tailbacks:</description>
         </item>
         
         <item>
             <title>Groovy - Getting Started</title>
-            <link>https://thinkuldeep.com//post/groovy-getting-started/</link>
+            <link>https://thinkuldeep.com/post/groovy-getting-started/</link>
             <pubDate>Mon, 20 May 2013 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/groovy-getting-started/</guid>
+            <guid>https://thinkuldeep.com/post/groovy-getting-started/</guid>
             <description>This article help you start with Groovy, with step by step guide and series of examples. It starts with an overview and then covers in detail examples.
 Groovy Overview Groovy is an Object Oriented Scripting Language which provides Dynamic, Easy-to-use and Integration capabilities to the Java Virtual Machine. It absorbs most of the syntax from Java and it is much powerful in terms of functionalities which is manifested in the form Closures, Dynamic Typing, Builders etc.</description>
         </item>
         
         <item>
             <title>Scala - Getting Started - Part 2</title>
-            <link>https://thinkuldeep.com//post/scala-getting-started-part2/</link>
+            <link>https://thinkuldeep.com/post/scala-getting-started-part2/</link>
             <pubDate>Sat, 18 May 2013 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/scala-getting-started-part2/</guid>
+            <guid>https://thinkuldeep.com/post/scala-getting-started-part2/</guid>
             <description>In previous article we learned basics of Scala, in this articles we will learn how to setup build scripts for scala and build applications using scala.
 We will also learn few web development frameworks for Scala and compare them with similar framework in Java.
 Building Scala Applications Below program demonstrates the use of Scala script with Maven, Ant, and logging library – LogBack.
@@ -62,10 +62,10 @@ Integration with Ant Below example shows how Scala project can be built by the a
         
         <item>
             <title>Scala - Getting Started - Part 1</title>
-            <link>https://thinkuldeep.com//post/scala-getting-started-part1/</link>
+            <link>https://thinkuldeep.com/post/scala-getting-started-part1/</link>
             <pubDate>Mon, 06 May 2013 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/scala-getting-started-part1/</guid>
+            <guid>https://thinkuldeep.com/post/scala-getting-started-part1/</guid>
             <description>This article help you to start with Scala, with step by step guide and series of examples. It starts with an overview and then covers in detail examples. In later articles, I will write about feature comparison with other languages. It article is helpful for people coming from Java background, how it is not the prerequisites.
 Scala Overview Scala is a general purpose programming language designed to express common programming patterns in a concise, elegant, and type-safe way.</description>
         </item>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>open on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/open/</link>
+        <link>https://thinkuldeep.com/tags/open/</link>
         <description>Recent content in open on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,10 +11,10 @@
         <lastBuildDate>Mon, 11 Aug 2025 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/open/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Speaker | Pre AI Impact Summit: Openness in AI</title>
-            <link>https://thinkuldeep.com//event/pre-ai-impact-summit-openess-in-ai/</link>
+            <link>https://thinkuldeep.com/event/pre-ai-impact-summit-openess-in-ai/</link>
             <pubDate>Mon, 11 Aug 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/pre-ai-impact-summit-openess-in-ai/</guid>
+            <guid>https://thinkuldeep.com/event/pre-ai-impact-summit-openess-in-ai/</guid>
             <description>India will host the AI Impact Summit 2026, reaffirming its commitment to making Artificial Intelligence (AI) accessible and beneficial for the public good. The event will explore how AI can address real-world challenges in healthcare, education, agriculture, climate change, and governance—building on the momentum of global gatherings like the AI Action Summit France, AI Seoul Summit, and AI Safety Summit.
 As part of the lead-up to the summit, OpenUK and OpenHQ have been hosting pre-summit events to spark conversations around AI openness.</description>
         </item>

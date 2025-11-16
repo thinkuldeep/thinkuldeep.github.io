@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>javascript on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/javascript/</link>
+        <link>https://thinkuldeep.com/tags/javascript/</link>
         <description>Recent content in javascript on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,10 +11,10 @@
         <lastBuildDate>Sun, 24 Aug 2025 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Implementing a Proxy for Single Sign-On (SSO) Authentication</title>
-            <link>https://thinkuldeep.com//post/sso-proxy/</link>
+            <link>https://thinkuldeep.com/post/sso-proxy/</link>
             <pubDate>Sun, 24 Aug 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/sso-proxy/</guid>
+            <guid>https://thinkuldeep.com/post/sso-proxy/</guid>
             <description>Enterprise integrations almost always require authentication and authorization. In particular, Single Sign-On (SSO) with Multi-Factor Authentication (MFA) has become a standard practice in modern enterprise applications.
 But here’s the challenge:
  When experimenting with new integrations, building spikes, or running proofs of concept (POCs), setting up a full SSO environment upfront can be cumbersome. Sometimes all you need is a way to quickly test APIs that are locked behind SSO.</description>
@@ -22,10 +22,10 @@ But here’s the challenge:
         
         <item>
             <title>Open-sources and Apps</title>
-            <link>https://thinkuldeep.com//about/open-sources/</link>
+            <link>https://thinkuldeep.com/about/open-sources/</link>
             <pubDate>Sun, 24 Aug 2025 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/open-sources/</guid>
+            <guid>https://thinkuldeep.com/about/open-sources/</guid>
             <description>Gen AI Hands On Practices Google Colab Hands-on practice for developing Gen AI applications, and understanding the concepts.
 ☞ Github ☞ Learn More
  SSO Proxy A lightweight proxy tool for accessing APIs and websites that require SSO authentication. It uses Puppeteer to open a browser window for login and then reuses the authenticated cookies to access the proxied URL.
@@ -35,20 +35,20 @@ This tool is particularly helpful for:
         
         <item>
             <title>Object Oriented JavaScript</title>
-            <link>https://thinkuldeep.com//post/oojs/</link>
+            <link>https://thinkuldeep.com/post/oojs/</link>
             <pubDate>Tue, 27 Jan 2015 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/oojs/</guid>
+            <guid>https://thinkuldeep.com/post/oojs/</guid>
             <description>JavaScript has been regarded as a functional programing language by most of the developers. This book is targeted for all the JavaScript developers to shift their thinking from the functional to the object oriented programing language.
 The course requires basic knowledge of JavaScript syntax. If you already know some JavaScript, you will find a lot of eye-openers as you go along and learn what more the JavaScript can do for you.</description>
         </item>
         
         <item>
             <title>JavaScript Plugin Framework</title>
-            <link>https://thinkuldeep.com//post/javascript-plugin-framework/</link>
+            <link>https://thinkuldeep.com/post/javascript-plugin-framework/</link>
             <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/javascript-plugin-framework/</guid>
+            <guid>https://thinkuldeep.com/post/javascript-plugin-framework/</guid>
             <description>Javascript Plugin Framework is implemented to add extra functionality in the existing Web based application without actually changing the application code. This framework is also helpful when some functionality need to control for different user profiles.
 For example, to add one extra button in a menu we can write the plugin directly, by defining what that button is going to do on click, what all events should it handle, in one javascript file rather than making changes in the application code for the same.</description>
         </item>

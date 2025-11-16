@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>mozilla on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/mozilla/</link>
+        <link>https://thinkuldeep.com/tags/mozilla/</link>
         <description>Recent content in mozilla on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,10 +11,10 @@
         <lastBuildDate>Sat, 25 Feb 2023 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/mozilla/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Judge at MOZOHACK 4.0 by the Mozilla Students Club</title>
-            <link>https://thinkuldeep.com//event/judge-mozohack4-srmkzilla-2023/</link>
+            <link>https://thinkuldeep.com/event/judge-mozohack4-srmkzilla-2023/</link>
             <pubDate>Sat, 25 Feb 2023 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/judge-mozohack4-srmkzilla-2023/</guid>
+            <guid>https://thinkuldeep.com/event/judge-mozohack4-srmkzilla-2023/</guid>
             <description>MOZOHACK is a 24-hour hackathon organized by SRMKZILLA. SRMKZILLA is a Mozilla campus club of SRM Institute of Science and Technology, Chennai(India). It is inspired by the Mozilla Learning Network, provides students an open platform to analyze and enhance their technical and non-technical skills, such as working on open-source projects, developing websites, technical fests, and workshops. The club is conducting the seventh edition of its annual flagship event – MOZOFEST&#39;23 – where they celebrate student community through technical and non-technical events.</description>
         </item>
         

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>content management on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/content-management/</link>
+        <link>https://thinkuldeep.com/tags/content-management/</link>
         <description>Recent content in content management on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,39 +11,39 @@
         <lastBuildDate>Sun, 24 Mar 2024 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/content-management/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>🤝 Making the XR content usable with AI!</title>
-            <link>https://thinkuldeep.com//post/making-the-xr-content-usable-with-ai/</link>
+            <link>https://thinkuldeep.com/post/making-the-xr-content-usable-with-ai/</link>
             <pubDate>Sun, 24 Mar 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/making-the-xr-content-usable-with-ai/</guid>
+            <guid>https://thinkuldeep.com/post/making-the-xr-content-usable-with-ai/</guid>
             <description>Generative AI is revolutionizing content generation across various mediums, disrupting traditional methods in text, images, art, movies, and music creation. XR (Extended Reality) is also undergoing this transformation. In a previous article, Raju Kandaswamy and I discussed how AI aids in generating content for XR, meeting the dynamic needs of XR and the metaverse.
 We highlighted content management as a key challenge in XR and metaverse adoption. While generative AI methods offer some solutions, the significant hurdle of content optimization remains.</description>
         </item>
         
         <item>
             <title>Generative AI for 3D content in XR and beyond</title>
-            <link>https://thinkuldeep.com//post/generative-ai-for-3d-content-in-xr-and-beyond/</link>
+            <link>https://thinkuldeep.com/post/generative-ai-for-3d-content-in-xr-and-beyond/</link>
             <pubDate>Wed, 09 Aug 2023 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/generative-ai-for-3d-content-in-xr-and-beyond/</guid>
+            <guid>https://thinkuldeep.com/post/generative-ai-for-3d-content-in-xr-and-beyond/</guid>
             <description>We touched upon Generative AI while talking about AI assisted content pipeline for XR at Thoughtworks XConf 2022. Generative AI is capable of producing outputs that closely resemble those created by humans. It is evolving in multiple forms, one of its kind is ChatGPT, a useful tool buried beneath the hype. It was touted as Google Killer, and posed a disruption to the way we search, we communicate with machines, and the way machines can respond.</description>
         </item>
         
         <item>
             <title>Speaker - Agility Today Fest 2023 - Generative AI and XR</title>
-            <link>https://thinkuldeep.com//event/agiletoday_2023_ael/</link>
+            <link>https://thinkuldeep.com/event/agiletoday_2023_ael/</link>
             <pubDate>Sat, 25 Mar 2023 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/agiletoday_2023_ael/</guid>
+            <guid>https://thinkuldeep.com/event/agiletoday_2023_ael/</guid>
             <description>Agility Today is a 2 days annual UnConference, to meet Agility needs of industry, gathered over past few years via meetups, Conferences and Webinar. This UnConference intends to give you best of Agile Psyche (Mindset Culture and Practice) and Geekery (Engineering, Tools and DevOps). This year in Agility Today Fest 2023 there are couple of programs.
 I am speaking to at Agile Engineering Lab (Technical Agility &amp;amp; Engineering Excellence), on topic of Scaling content generation for XR using AI.</description>
         </item>
         
         <item>
             <title>AI-Assisted Content Generation Pipeline for XR</title>
-            <link>https://thinkuldeep.com//post/ai-generated-xr-content/</link>
+            <link>https://thinkuldeep.com/post/ai-generated-xr-content/</link>
             <pubDate>Tue, 24 Jan 2023 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/ai-generated-xr-content/</guid>
+            <guid>https://thinkuldeep.com/post/ai-generated-xr-content/</guid>
             <description>Recently, I and Raju Kandaswamy talked at Thoughtworks XConf on how AI will play its role in content generation. We are already seeing ChatGPT, as the next revolution in textual content generation space. Let&amp;rsquo;s understand what is the need of such content generation revolution of XR space.
 With games like Second Life and the impending mainstreaming of the Metaverse, more and more individuals are embracing a virtual reality that, in some ways, mirrors our own real world and, in other ways, lets us live in our imagination or apply them on the real word.</description>
         </item>

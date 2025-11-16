@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>tcp on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/tcp/</link>
+        <link>https://thinkuldeep.com/tags/tcp/</link>
         <description>Recent content in tcp on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,20 +11,20 @@
         <lastBuildDate>Tue, 15 Apr 2025 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/tcp/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>DNS Resolution In Thread Network</title>
-            <link>https://thinkuldeep.com//post/iot-thread-dns-resolution/</link>
+            <link>https://thinkuldeep.com/post/iot-thread-dns-resolution/</link>
             <pubDate>Tue, 15 Apr 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/iot-thread-dns-resolution/</guid>
+            <guid>https://thinkuldeep.com/post/iot-thread-dns-resolution/</guid>
             <description>In previous articles, we explored communication between a Thread device and external (non-Thread) networks, primarily over TCP/HTTP using IP addresses and ports. However, in real-world applications, we rarely use raw IP addresses. Instead, we rely on hostnames — which are resolved to IP addresses using DNS (Domain Name System).
 Public DNS resolution (like Google’s 8.8.8.8) handles global domain names, typically configured at the OS or browser level. But for private, local networks — like those used in IoT and Thread-based deployments — we need a local DNS setup to resolve custom hostnames (e.</description>
         </item>
         
         <item>
             <title>External Commissioning in Thread Network</title>
-            <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-cli/</link>
+            <link>https://thinkuldeep.com/post/iot-thread-external-commissioner-cli/</link>
             <pubDate>Wed, 26 Feb 2025 11:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/iot-thread-external-commissioner-cli/</guid>
+            <guid>https://thinkuldeep.com/post/iot-thread-external-commissioner-cli/</guid>
             <description>In our previous article, we set up a commissioner within a Thread network by starting the commissioner from a thread node. However, a Thread network can also be provisioned using an external commissioner outside the thread network.
 This article will guide you through the configuration of an external commissioner for a Thread network using a Commissioner CLI setup on a mac/linux pc.
 Commissioner CLI The Commissioner CLI can be built on macOS or Linux using the following steps:</description>
@@ -32,10 +32,10 @@ Commissioner CLI The Commissioner CLI can be built on macOS or Linux using the f
         
         <item>
             <title>Implementing a TCP Client in nRF Connect</title>
-            <link>https://thinkuldeep.com//post/iot-thread-tcp-client-implementation/</link>
+            <link>https://thinkuldeep.com/post/iot-thread-tcp-client-implementation/</link>
             <pubDate>Sat, 15 Feb 2025 11:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/iot-thread-tcp-client-implementation/</guid>
+            <guid>https://thinkuldeep.com/post/iot-thread-tcp-client-implementation/</guid>
             <description>In a previous article, we implemented a Joiner that is programmatically provisioned by a Commissioner node to join a Thread network. Once an IoT device is part of the Thread network, the next step is to enable communication with other Thread nodes or external hosts. We previously discussed and tested UDP-based communication in Connecting Thread devices to Internet. In this article, we explore a similar approach with TCP OT CLI, and here we are implementing a custom TCP client that sends data to a TCP server programmatically.</description>
         </item>
         

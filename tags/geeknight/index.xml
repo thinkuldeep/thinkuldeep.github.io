@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>geeknight on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/geeknight/</link>
+        <link>https://thinkuldeep.com/tags/geeknight/</link>
         <description>Recent content in geeknight on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,10 +11,10 @@
         <lastBuildDate>Tue, 29 Sep 2020 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/geeknight/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Geeknight - XR - eXtending the Reality</title>
-            <link>https://thinkuldeep.com//event/thougthworks_geeknight_sep_2020_xr/</link>
+            <link>https://thinkuldeep.com/event/thougthworks_geeknight_sep_2020_xr/</link>
             <pubDate>Tue, 29 Sep 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/thougthworks_geeknight_sep_2020_xr/</guid>
+            <guid>https://thinkuldeep.com/event/thougthworks_geeknight_sep_2020_xr/</guid>
             <description>Geek Night is a regular event to promote the sharing of technical knowledge and increase collaboration among the geeks. It is organized by a passionate group of programmers and sponsored by ThoughtWorks.
 Sep month&amp;rsquo;s geek night has covered Extended Reality - An umbrella term covering various technologies like AR,VR and MR. I will be discussing what is XR, its usage and significance today, that is stretching beyond gaming.
 Embracing an Agile approach is essential to any successful XR implementation.</description>

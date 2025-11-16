@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>thoughtworks on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/thoughtworks/</link>
+        <link>https://thinkuldeep.com/tags/thoughtworks/</link>
         <description>Recent content in thoughtworks on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,30 +11,30 @@
         <lastBuildDate>Sat, 15 Nov 2025 01:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/thoughtworks/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>About</title>
-            <link>https://thinkuldeep.com//about/</link>
+            <link>https://thinkuldeep.com/about/</link>
             <pubDate>Sat, 15 Nov 2025 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/</guid>
+            <guid>https://thinkuldeep.com/about/</guid>
             <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
 👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
         </item>
         
         <item>
             <title>Books</title>
-            <link>https://thinkuldeep.com//about/books/</link>
+            <link>https://thinkuldeep.com/about/books/</link>
             <pubDate>Sat, 15 Nov 2025 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/books/</guid>
+            <guid>https://thinkuldeep.com/about/books/</guid>
             <description>📕 Jagjeevan  Living Larger than Life 📕 Jagjeevan: Living Larger Than Life is a heartfelt tribute to the extraordinary life and timeless wisdom of Shri Jagguram—an enlightened soul whose values shaped generations. Blending personal memories with profound life lessons, it captures the essence of a man who lived with humility, discipline, compassion, and unwavering purpose.
  Through ten insightful chapters, the book explores heritage, resilience, responsibility, inner strength, family unity, conflict resolution, gratitude, and the power of one’s actions.</description>
         </item>
         
         <item>
             <title>ITU-T Technical Report - IoT-based Perishable Goods Monitoring System</title>
-            <link>https://thinkuldeep.com//post/itu-t-sg20-2025/</link>
+            <link>https://thinkuldeep.com/post/itu-t-sg20-2025/</link>
             <pubDate>Thu, 25 Sep 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/itu-t-sg20-2025/</guid>
+            <guid>https://thinkuldeep.com/post/itu-t-sg20-2025/</guid>
             <description>Recently, I had the privilege of representing 🇮🇳 India at the International Telecommunication Union Telecommunication Standardization Sector (ITU-T) Study Group 20 (SG20) meeting in Geneva.
 I’m pleased to share that my recommendations for standardizing requirements for an IoT-based Perishable Goods Monitoring System has been accepted as an official Technical Report. Here’s a brief overview of the experience and its significance.
 About ITU-T Study Group 20 The ITU-T is a global body that develops standards for telecommunications and ICT, bringing together governments, industry leaders, and academia.</description>
@@ -42,19 +42,19 @@ About ITU-T Study Group 20 The ITU-T is a global body that develops standards fo
         
         <item>
             <title>Some moments</title>
-            <link>https://thinkuldeep.com//about/moments/</link>
+            <link>https://thinkuldeep.com/about/moments/</link>
             <pubDate>Mon, 08 Sep 2025 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/moments/</guid>
+            <guid>https://thinkuldeep.com/about/moments/</guid>
             <description>How Small, How Big - The Nature Trip - Oct, 2025  Sky Diving - An experience - Sep, 2025  18th Anniversary Ritu &amp;amp; Kuldeep - Feb, 2025  44th Anniversary of Parents - Jun, 2024  Book in parent&amp;rsquo;s Hand - May, 2024  Vrindavan - Mar, 2024  House warming ceremony and RakshyaBandhan - Aug, 2023  Jim corbett trip - Jun, 2023  Lakshya&amp;rsquo;s visit to Thoughtworks Gurugram - May, 2023  16th Wedding anniversary - Feb, 2023  Father Retirement Speech - Jun, 2022  ☞ More Details Welcoming Aarav Remotely!</description>
         </item>
         
         <item>
             <title>Open-sources and Apps</title>
-            <link>https://thinkuldeep.com//about/open-sources/</link>
+            <link>https://thinkuldeep.com/about/open-sources/</link>
             <pubDate>Sun, 24 Aug 2025 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/open-sources/</guid>
+            <guid>https://thinkuldeep.com/about/open-sources/</guid>
             <description>Gen AI Hands On Practices Google Colab Hands-on practice for developing Gen AI applications, and understanding the concepts.
 ☞ Github ☞ Learn More
  SSO Proxy A lightweight proxy tool for accessing APIs and websites that require SSO authentication. It uses Puppeteer to open a browser window for login and then reuses the authenticated cookies to access the proxied URL.
@@ -64,29 +64,29 @@ This tool is particularly helpful for:
         
         <item>
             <title>Speaker | Pre AI Impact Summit: Openness in AI</title>
-            <link>https://thinkuldeep.com//event/pre-ai-impact-summit-openess-in-ai/</link>
+            <link>https://thinkuldeep.com/event/pre-ai-impact-summit-openess-in-ai/</link>
             <pubDate>Mon, 11 Aug 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/pre-ai-impact-summit-openess-in-ai/</guid>
+            <guid>https://thinkuldeep.com/event/pre-ai-impact-summit-openess-in-ai/</guid>
             <description>India will host the AI Impact Summit 2026, reaffirming its commitment to making Artificial Intelligence (AI) accessible and beneficial for the public good. The event will explore how AI can address real-world challenges in healthcare, education, agriculture, climate change, and governance—building on the momentum of global gatherings like the AI Action Summit France, AI Seoul Summit, and AI Safety Summit.
 As part of the lead-up to the summit, OpenUK and OpenHQ have been hosting pre-summit events to spark conversations around AI openness.</description>
         </item>
         
         <item>
             <title>Livestreaming</title>
-            <link>https://thinkuldeep.com//about/streaming/</link>
+            <link>https://thinkuldeep.com/about/streaming/</link>
             <pubDate>Fri, 27 Jun 2025 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/streaming/</guid>
+            <guid>https://thinkuldeep.com/about/streaming/</guid>
             <description>Machine Gaze - What Happens When Glasses Begin to Think Gatherverse Summit 2025 - ☞ More Details   The Metaverse United : How AI and XR Can Deepen Human Connections Gatherverse Summit 2025 - ☞ More Details   Defining the AI Powered Virtual World Gatherverse Virtual World Symposium 2024 - ☞ More Details   India&amp;rsquo;s Metaverse Journey: Opportunities and Challenges XROM Postcast - ☞ More Details   Global Insights from XR Leaders in India: AI-Powered Real-Time Adaptation in XR AWE Asia 2024 - ☞ More Details   Harnessing Business Opportunity with AI Powered XR Express Computer Webinar - ☞ More Details   Azure AI Fostering Sense within XR World Season of AI - Azure Developer Community - Rekill - ☞ More Details   Evolving into Tomorrow, Today: Enter the Metaverse Gatherverse XREvolve Summit 2024 - ☞ More Details   Exploring the Metaverse: Redefining the reality in the digital age Book promo - ☞ More Details   XR in practice: the engineering challenges of extending reality Thoughtworks Podcast - ☞ More Details   AI Assisted Content Pipeline for XR Thoughtworks XConf 2022 - ☞ More Details    Using XR in building autonomous vehicles Thoughtworks MasterClass-2021 - ☞ More Details   &amp;nbsp;  The Shift from Enterprise XR to Ethical XR Thoughtworks XConf 2021 - ☞ More Details   Navigating the new normal The VRARA - ☞ More Details    eXtended Reality for Enterprise XROM Podcast - ☞ More Details   XR - Nicety to Necessity Techgig Webinars - ☞ More Details    How to get started with AR VR?</description>
         </item>
         
         <item>
             <title>💯 Celebrating Exploring the Metaverse: A Year of Insights, Impact, and Gratitude</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-acknowledgements/</link>
+            <link>https://thinkuldeep.com/post/exploring-the-metaverse-acknowledgements/</link>
             <pubDate>Fri, 23 May 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-acknowledgements/</guid>
+            <guid>https://thinkuldeep.com/post/exploring-the-metaverse-acknowledgements/</guid>
             <description>Almost a year ago, my book Exploring the Metaverse was launched globally—available at leading retailers including Amazon and BPB Online.
 With forewords and testimonials from pioneers across industries, the book aims to demystify the Metaverse and provide a thoughtful lens on its technological, business, and societal implications. It&amp;rsquo;s been incredibly fulfilling to see it resonate with readers and spark meaningful conversations.
 This milestone wouldn&amp;rsquo;t have been possible without the unwavering support of Thoughtworks, our ecosystem partners, and—above all—my family, friends, and colleagues.</description>
@@ -94,110 +94,110 @@ This milestone wouldn&amp;rsquo;t have been possible without the unwavering supp
         
         <item>
             <title>🙏 Exploring the Metaverse | Testimonial 13</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-13/</link>
+            <link>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-13/</link>
             <pubDate>Fri, 18 Apr 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-13/</guid>
+            <guid>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-13/</guid>
             <description>🚀 My Book, Exploring the Metaverse, is available in stores worldwide, including Amazon and BPB Online. It features forewords and testimonials from industry pioneers, and it aims to uncover the concept of the Metaverse, offering insights into its technological and business implications.
 One notable endorsement comes from industry veteran Mr. Pradeep Khanna, who holds multiple global roles in metaverse eco-system. It is a privilege to work with Pradeep at various front on VRARA and other emerging technologies platform.</description>
         </item>
         
         <item>
             <title>🙏 Exploring the Metaverse | Testimonial 12</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-12/</link>
+            <link>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-12/</link>
             <pubDate>Sun, 16 Mar 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-12/</guid>
+            <guid>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-12/</guid>
             <description>🚀 My Book, Exploring the Metaverse, is available in stores worldwide, including Amazon and BPB Online. It features forewords and testimonials from industry pioneers, and it aims to uncover the concept of the Metaverse, offering insights into its technological and business implications.
 One notable endorsement comes from Sumeet Gayathri Moghe — Principal Product Manager at Thoughtworks and author of The Async-First Playbook. It is a privilege collaborating with Sumeet, who challenges the notion of being &amp;ldquo;busy&amp;rdquo; and advocates for deep, meaningful work through an async-first mindset—syncing when truly necessary.</description>
         </item>
         
         <item>
             <title>Contributions to ITU-T SG-20 on IoT and Metaverse</title>
-            <link>https://thinkuldeep.com//event/itu-t-sg20-meeting/</link>
+            <link>https://thinkuldeep.com/event/itu-t-sg20-meeting/</link>
             <pubDate>Sat, 25 Jan 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/itu-t-sg20-meeting/</guid>
+            <guid>https://thinkuldeep.com/event/itu-t-sg20-meeting/</guid>
             <description>Metaverse: The Next Internet The Metaverse represents the next evolution of the internet, a digital realm where the physical and virtual worlds converge. In my book, 📕 Exploring the Metaverse, I delve into the current state of the Metaverse and how advancements in AI, IoT, networking, and cloud technologies are accelerating its development at an unprecedented pace.
 As a call to action, I emphasize the importance of collaboration among industry leaders, academia, and individuals to establish standards and practices for the responsible use of the Metaverse.</description>
         </item>
         
         <item>
             <title>🙏 Exploring the Metaverse | Testimonial 11</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-11/</link>
+            <link>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-11/</link>
             <pubDate>Fri, 24 Jan 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-11/</guid>
+            <guid>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-11/</guid>
             <description>🚀 My Book, Exploring the Metaverse, is available in stores worldwide, including Amazon and BPB Online. It features forewords and testimonials from industry pioneers, and it aims to uncover the concept of the Metaverse, offering insights into its technological and business implications.
 A notable endorsement came from Mayan Shay May-Raz — Principal Product, Amazon, who has great sense of user centric product designs, I have privilege working closely with her on Lenovo&amp;rsquo;s ThinkReality product like.</description>
         </item>
         
         <item>
             <title>🙏 Exploring the Metaverse | Testimonial 10</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-10/</link>
+            <link>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-10/</link>
             <pubDate>Tue, 07 Jan 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-10/</guid>
+            <guid>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-10/</guid>
             <description>🚀 My Book, Exploring the Metaverse, is available in stores worldwide, including Amazon and BPB Online. It features forewords and testimonials from industry pioneers, and it aims to uncover the concept of the Metaverse, offering insights into its technological and business implications.
 Want to highlight a notable endorsement from Mr. Dinkar Charak — esteemed Product Manager(#ProMa), Solutionist, and author of wonderful books on 📕Product Management and 📕Product LifeCycle. His 📕Engineering Excellence to Business Outcome (EEBO) is my personal favorite.</description>
         </item>
         
         <item>
             <title>XConf-2024 - Thoughtworks India - Takeaways</title>
-            <link>https://thinkuldeep.com//event/thoughtworks-xconf-2024/</link>
+            <link>https://thinkuldeep.com/event/thoughtworks-xconf-2024/</link>
             <pubDate>Mon, 09 Dec 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/thoughtworks-xconf-2024/</guid>
+            <guid>https://thinkuldeep.com/event/thoughtworks-xconf-2024/</guid>
             <description>November was a month filled with learning and sharing! After the inspiring XR Summit 2024 at IIT Madras, I had the privilege of attending another fantastic event—XConf 2024 by Thoughtworks India. Here are my key takeaways from this incredible gathering of technologists.
 About XConf XConf is Thoughtworks&amp;rsquo; annual technology event, designed by technologists for technologists. Sponsored this year by AWS and CockroachDB, it celebrates innovation and the transformative power of software in the real world.</description>
         </item>
         
         <item>
             <title>XR Summit 2024, IIT Madras - Takeaways</title>
-            <link>https://thinkuldeep.com//post/xr-summit-2024-takeaways/</link>
+            <link>https://thinkuldeep.com/post/xr-summit-2024-takeaways/</link>
             <pubDate>Thu, 28 Nov 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/xr-summit-2024-takeaways/</guid>
+            <guid>https://thinkuldeep.com/post/xr-summit-2024-takeaways/</guid>
             <description>I recently had the privilege of attending XR Summit 2024 at the eXperiential Technology Innovation Center (XTIC), IIT Madras. My heartfelt thanks to Prof. Mani and his team for the kind invitation and to Thoughtworks for making all the arrangements seamless.
 The event was nothing short of extraordinary – a world-class summit showcasing groundbreaking advancements, with an exciting lineup of sessions led by industry pioneers and academics. The topics covered were diverse, thought-provoking, and visionary.</description>
         </item>
         
         <item>
             <title>🙏 Exploring the Metaverse | Testimonial 9</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-9/</link>
+            <link>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-9/</link>
             <pubDate>Wed, 27 Nov 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-9/</guid>
+            <guid>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-9/</guid>
             <description>🚀 My Book, Exploring the Metaverse, is now available in stores worldwide, including Amazon and BPB Online. It features forewords and testimonials from industry pioneers, and it aims to uncover the concept of the Metaverse, offering insights into its technological and business implications.
 A special highlight is the endorsement from Mr. Ravindra Dastikop—an esteemed academician, entrepreneur, emerging technologies leader, and author of Metaverse Glossary: Your Gateway to the Future. Collaborating with him has been an incredible journey!</description>
         </item>
         
         <item>
             <title>XR Summit and AWE Nite | XR with AI, Gaming, AVGC</title>
-            <link>https://thinkuldeep.com//event/xr-summit-2024/</link>
+            <link>https://thinkuldeep.com/event/xr-summit-2024/</link>
             <pubDate>Sat, 16 Nov 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/xr-summit-2024/</guid>
+            <guid>https://thinkuldeep.com/event/xr-summit-2024/</guid>
             <description>🚀 Excited to announce that I’ll be part of the XR Summit 2024 hosted by XTIC, IIT Madras, a hub for driving innovation in XR technologies in India! 🌟
 IIT Madras, with its state-of-the-art Haptics Lab and the IoE Center for VR and Haptics, supported by the CAVE consortium (via XTIC.org), is at the forefront of advancing experiential technologies. This summit will bring together key stakeholders, industry leaders, and visionaries to shape the future of XR.</description>
         </item>
         
         <item>
             <title>🙏 Exploring the Metaverse | Testimonial 8</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-8/</link>
+            <link>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-8/</link>
             <pubDate>Wed, 06 Nov 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-8/</guid>
+            <guid>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-8/</guid>
             <description>🚀 My Book, Exploring the Metaverse, is now available in stores worldwide, including Amazon and BPB Online. It features forewords and testimonials from industry pioneers, and it aims to uncover the concept of the Metaverse, offering insights into its technological and business implications.
 One of the standout testimonials is from Mr. Hemanth Kumar Satyanarayana, Founder, CEO at Imaginate XR, an award-winning innovator, MIT TR35 Young Innovator, IIT Madras alum, and TEDx speaker, who has dedicated over two decades to building the XR ecosystem.</description>
         </item>
         
         <item>
             <title>Exploring the AI-powered Metaverse is Our Next Reality</title>
-            <link>https://thinkuldeep.com//post/exploring-ai-powered-metaverse/</link>
+            <link>https://thinkuldeep.com/post/exploring-ai-powered-metaverse/</link>
             <pubDate>Tue, 29 Oct 2024 20:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-ai-powered-metaverse/</guid>
+            <guid>https://thinkuldeep.com/post/exploring-ai-powered-metaverse/</guid>
             <description>📖 My Takeaways from Our Next Reality by Alvin Wang Graylin and Louis Rosenberg
 ☞ Buy - Exploring the Metaverse ☞ Buy - Our Next Reality 
 Our Next Reality topped my reading list for months, and travel always helps me catch up on books! After meeting Alvin at AWE Asia 2024, I was eager to dive in and finally complete it. Following recent trips to Singapore and now the US, here’s what I found worth sharing from the book.</description>
@@ -205,98 +205,98 @@ Our Next Reality topped my reading list for months, and travel always helps me c
         
         <item>
             <title>Myths and Realities of AI-Assisted Software Development</title>
-            <link>https://thinkuldeep.com//post/ai-assisted-software-development-myths/</link>
+            <link>https://thinkuldeep.com/post/ai-assisted-software-development-myths/</link>
             <pubDate>Thu, 10 Oct 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/ai-assisted-software-development-myths/</guid>
+            <guid>https://thinkuldeep.com/post/ai-assisted-software-development-myths/</guid>
             <description>AI is transforming the software development process, but there are many misconceptions about its capabilities. This article explores the common myths surrounding AI in software development and sheds light on its reality.
 In recent times, Artificial Intelligence (AI) has gained momentum across various fields, especially with the introduction of Generative AI (GenAI). AI is now widely accessible, often sparking discussions about its potential, its misuse, and, unfortunately, several myths. As the hype around AI intensifies, so does the Fear of Missing Out (FOMO), leading many to adopt it without fully understanding its true value.</description>
         </item>
         
         <item>
             <title>🙏 Exploring the Metaverse | Testimonial 7</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-7/</link>
+            <link>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-7/</link>
             <pubDate>Fri, 04 Oct 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-7/</guid>
+            <guid>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-7/</guid>
             <description>🚀 My Book, Exploring the Metaverse, is now available in stores worldwide, including Amazon and BPB Online. It features forewords and testimonials from industry pioneers, and it aims to uncover the concept of the Metaverse, offering insights into its technological and business implications.
 One of the incredible testimonials comes from Vanya Seth, Head of Technology at Thoughtworks. Vanya is a visionary tech leader, an active speaker in various tech communities, and a fellow participant in the XROS Fellowship program alongside me.</description>
         </item>
         
         <item>
             <title>India&#39;s Metaverse Journey - XROM Podcast</title>
-            <link>https://thinkuldeep.com//event/xrom-podcast-exploring-the-metaverse/</link>
+            <link>https://thinkuldeep.com/event/xrom-podcast-exploring-the-metaverse/</link>
             <pubDate>Tue, 01 Oct 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/xrom-podcast-exploring-the-metaverse/</guid>
+            <guid>https://thinkuldeep.com/event/xrom-podcast-exploring-the-metaverse/</guid>
             <description>Exciting conversation on the future of tech with Eddie Avil, where we dive into my journey of writing Exploring the Metaverse, discuss the opportunities and challenges of the digital age, and even touch on mind-bending concepts like Programmable Dreams and Time Travel. Are we ready for what’s coming?
 XROM Podcast 🎙️ XROM PODCast, hosted by serial entrepreneur and visionary Eddie Avil, is an incredible YouTube channel showcasing conversations with industry leaders in emerging tech.</description>
         </item>
         
         <item>
             <title>Featured in XTIC Chronicle, IIT Madras Newsletter</title>
-            <link>https://thinkuldeep.com//post/xtic-newsletter-sep-2024/</link>
+            <link>https://thinkuldeep.com/post/xtic-newsletter-sep-2024/</link>
             <pubDate>Mon, 23 Sep 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/xtic-newsletter-sep-2024/</guid>
+            <guid>https://thinkuldeep.com/post/xtic-newsletter-sep-2024/</guid>
             <description>I am excited to share that my article explaining my book has been featured in the recent September edition of the XTIC Chronicle, a quarterly newsletter published by XTIC (Experiential Technology Innovation Centre) at IIT Madras. As India’s first research and product innovation center dedicated to Virtual Reality, Augmented Reality, Mixed Reality, and Haptics. XTIC provides a platform for cutting-edge insights from academia, industry, startups, and CAVE members.
 XTIC Chronicle Overview The XTIC Chronicle is a valuable resource for all levels of readers interested in the latest advancements in XR technology.</description>
         </item>
         
         <item>
             <title>TW Spotlight: Going with the Flow – My Journey</title>
-            <link>https://thinkuldeep.com//event/tw-spotlight-2024/</link>
+            <link>https://thinkuldeep.com/event/tw-spotlight-2024/</link>
             <pubDate>Thu, 12 Sep 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/tw-spotlight-2024/</guid>
+            <guid>https://thinkuldeep.com/event/tw-spotlight-2024/</guid>
             <description>Thoughtworks has always amazed me—whether it&amp;rsquo;s the pioneering work we do in the industry or the contributions we make to software engineering practices. What truly inspires me is our people-centered approach. Recently, I was honored by our market leadership, who put me in the spotlight to share my journey with fellow Thoughtworkers. While I&amp;rsquo;ve learned a great deal from my colleagues, I took this opportunity to share my own experiences in the hope of inspiring others.</description>
         </item>
         
         <item>
             <title>Exploring the Metaverse is OUR NEXT REALITY - AWE Asia Day 2</title>
-            <link>https://thinkuldeep.com//post/aweasia-2024-day2/</link>
+            <link>https://thinkuldeep.com/post/aweasia-2024-day2/</link>
             <pubDate>Wed, 28 Aug 2024 20:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/aweasia-2024-day2/</guid>
+            <guid>https://thinkuldeep.com/post/aweasia-2024-day2/</guid>
             <description>AWE Asia is a flagship event of the Augmented World Expo (AWE), serving as a crucial platform to unite leading XR companies, investors, and international stakeholders to drive the growth of the XR market in Asia.
 After an exciting Day 1 at AWE Asia 2024, I’m thrilled to share my key takeaways from Day 2, where both I and my fellow Thoughtworker Arijit had the opportunity to present as speakers.</description>
         </item>
         
         <item>
             <title>AWE Asia | AI-Powered Real-Time Adaptation in XR</title>
-            <link>https://thinkuldeep.com//event/aweasia-2024/</link>
+            <link>https://thinkuldeep.com/event/aweasia-2024/</link>
             <pubDate>Wed, 28 Aug 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/aweasia-2024/</guid>
+            <guid>https://thinkuldeep.com/event/aweasia-2024/</guid>
             <description>AWE Asia is a flagship event of AWE(Augmented World Expo), dubbed as “XR’s Most Essential Conference” and “The XR Conference for Everyone”. It is the world&amp;rsquo;s leading AR/VR expo after more than 10 years of dedication, development, and high-quality events. AWE organizes three annual events (USA, Asia, EU) and holds a number of other sessions all over the world. AWE Asia is an opportunity to bring together outstanding XR companies, investors, and other international stakeholders in Asia to promote the development of the local XR market.</description>
         </item>
         
         <item>
             <title>AI ❤️ XR - AWE Asia Day 1 Takeaways</title>
-            <link>https://thinkuldeep.com//post/aweasia-2024-day1/</link>
+            <link>https://thinkuldeep.com/post/aweasia-2024-day1/</link>
             <pubDate>Tue, 27 Aug 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/aweasia-2024-day1/</guid>
+            <guid>https://thinkuldeep.com/post/aweasia-2024-day1/</guid>
             <description>AWE Asia is a flagship event of AWE(Augmented World Expo), often dubbed as “XR’s Most Essential Conference” and “The XR Conference for Everyone”. With three major annual events in the USA, Asia, and Europe, along with numerous other sessions worldwide, AWE Asia is a prime opportunity to bring together leading XR companies, investors, and international stakeholders to accelerate the growth of the XR market in Asia.
 This year, I had the privilege of attending the event in Singapore in person as a speaker.</description>
         </item>
         
         <item>
             <title>🙏 Exploring the Metaverse | Testimonial 6</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-6/</link>
+            <link>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-6/</link>
             <pubDate>Thu, 15 Aug 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-6/</guid>
+            <guid>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-6/</guid>
             <description>My book &amp;lsquo;Exploring the Metaverse&amp;rsquo;, is now available in stores globally, including Amazon and BPB Online. It features forewords and testimonials from a diverse group of industry leaders, adding valuable perspectives to the content.
 The book explores the opportunities and concerns of the metaverse, outlining a path forward that calls for collective action from academia, industry, government, and individuals. I initiated this collective effort by gathering testimonials from a diverse group of experts.</description>
         </item>
         
         <item>
             <title>🙏 Exploring the Metaverse | Testimonial 5</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-5/</link>
+            <link>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-5/</link>
             <pubDate>Wed, 14 Aug 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-5/</guid>
+            <guid>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-5/</guid>
             <description>My book &amp;lsquo;Exploring the Metaverse&amp;rsquo;, is now available in stores globally, including Amazon and BPB Online. It features forewords and testimonials from a diverse group of industry leaders, adding valuable perspectives to the content.
 One of the most distinguished endorsements comes from Prof. M Manivannan, who leads the Experiential Technologies Innovation Center (XTIC) at IIT Madras.
 Prof. Mani has spearheaded innovation at XTIC and have made India proud. His pioneering work in areas like iTad(interactive Touch Active Display) and integrating haptics into virtual reality solutions is noteworthy.</description>
@@ -304,10 +304,10 @@ Prof. Mani has spearheaded innovation at XTIC and have made India proud. His pio
         
         <item>
             <title>🙏 Exploring the Metaverse | Testimonial 4</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-4/</link>
+            <link>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-4/</link>
             <pubDate>Tue, 30 Jul 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-4/</guid>
+            <guid>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-4/</guid>
             <description>My book &amp;lsquo;Exploring the Metaverse&amp;rsquo;, is now available in stores globally, including Amazon and BPB Online. It features forewords and testimonials from a diverse group of industry leaders.
 One such testimonial comes from Venkatesh Ponniah, Global Head of Emerging Technologies at Thoughtworks.
 We call him Venki. It has been a privilege to receive guidance from Venki on technology strategy and governance. He has great insights into emerging technology businesses, particularly in AI, SDV, Digital Twins, and XR.</description>
@@ -315,19 +315,19 @@ We call him Venki. It has been a privilege to receive guidance from Venki on tec
         
         <item>
             <title>Harnessing Business Opportunity with AI Powered XR</title>
-            <link>https://thinkuldeep.com//event/ai-powered-xr/</link>
+            <link>https://thinkuldeep.com/event/ai-powered-xr/</link>
             <pubDate>Thu, 25 Jul 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/ai-powered-xr/</guid>
+            <guid>https://thinkuldeep.com/event/ai-powered-xr/</guid>
             <description>In a world where AI is ubiquitous, technologies like AR, VR, and XR often raise eyebrows, despite their vast potential. AI is not only propelling these technologies forward but also preparing them for the next stages of development. There are tremendous opportunities to leverage their potential for business transformation. I am honored to be invited by Express Computers - India Leading IT Magazine, to speak on this topic and dispel common myths.</description>
         </item>
         
         <item>
             <title>20 reflections of 20 years</title>
-            <link>https://thinkuldeep.com//post/20-of-20/</link>
+            <link>https://thinkuldeep.com/post/20-of-20/</link>
             <pubDate>Fri, 05 Jul 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/20-of-20/</guid>
+            <guid>https://thinkuldeep.com/post/20-of-20/</guid>
             <description>On July 5, 2004, I embarked on my professional journey. These past 20 years have been nothing short of adventurous and fulfilling.
  &amp;ldquo;Learning is a natural process, and it matures by sharing&amp;rdquo;
  I&amp;rsquo;ve had a wealth of learnings throughout these two decades, as I worked on over 50 projects spanning various domains and technologies. I&amp;rsquo;ve had the privilege of directly working with over a thousand individuals from diverse backgrounds across different organizations.</description>
@@ -335,19 +335,19 @@ We call him Venki. It has been a privilege to receive guidance from Venki on tec
         
         <item>
             <title>Generative XR – Space aware AI bringing new era of immersion</title>
-            <link>https://thinkuldeep.com//post/generative-xr-space-aware-ai-bringing-new-era-of-immersion/</link>
+            <link>https://thinkuldeep.com/post/generative-xr-space-aware-ai-bringing-new-era-of-immersion/</link>
             <pubDate>Thu, 27 Jun 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/generative-xr-space-aware-ai-bringing-new-era-of-immersion/</guid>
+            <guid>https://thinkuldeep.com/post/generative-xr-space-aware-ai-bringing-new-era-of-immersion/</guid>
             <description>Artificial Intelligence has made significant strides with the development of Large Language Models (LLMs) or Generative AI, which are trained to understand and respond to human language naturally. Tools like OpenAI’s ChatGPT, Google’s Gemini, and Microsoft’s Co-pilot have become the go-to resources for &amp;ldquo;Ask me anything&amp;rdquo; queries. These innovations have been touted as potential Google Search Killer, disrupting the way we search for information, communicate with machines, and receive machine responses.</description>
         </item>
         
         <item>
             <title>Harnessing the Metaverse at VRARA Energy Committee Event</title>
-            <link>https://thinkuldeep.com//event/exploring-metaverse-vrara-energy-committee/</link>
+            <link>https://thinkuldeep.com/event/exploring-metaverse-vrara-energy-committee/</link>
             <pubDate>Wed, 29 May 2024 23:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/exploring-metaverse-vrara-energy-committee/</guid>
+            <guid>https://thinkuldeep.com/event/exploring-metaverse-vrara-energy-committee/</guid>
             <description>The VRAR Association(VRARA) is an international organization designed to foster collaboration between XR, mixed reality, spatial computing, and artificial intelligence (AI) solution providers and end-users that accelerates growth, fosters research and education, helps develop industry best practices, connects member organizations and promotes the services of member companies.
 VRARA has various industry focused committees, and I am invited to speak at an event by Energy Committee.
 Thanks Hemanth Satyanarayana and Susan Spark for invitation.</description>
@@ -355,20 +355,20 @@ Thanks Hemanth Satyanarayana and Susan Spark for invitation.</description>
         
         <item>
             <title>🙏 Exploring the Metaverse | Testimonial 2</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-2/</link>
+            <link>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-2/</link>
             <pubDate>Wed, 15 May 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-2/</guid>
+            <guid>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-2/</guid>
             <description>My book &amp;lsquo;Exploring the Metaverse&amp;rsquo;, is now available in stores globally, including Amazon and BPB Online. It features forewords and testimonials from a diverse group of industry leaders.
 One such testimonial comes from Dr. Rebecca J Parsons, former Chief Technology Officer at Thoughtworks. It has been a privilege to receive guidance from Rebecca at numerous technology strategy events, where her insights on responsible technology usage and our collective responsibility towards sustainability and technological adaptation have been invaluable.</description>
         </item>
         
         <item>
             <title>MIPS kick off event, XTIC, IIT Madras</title>
-            <link>https://thinkuldeep.com//event/metaverse-india-policy-and-standards/</link>
+            <link>https://thinkuldeep.com/event/metaverse-india-policy-and-standards/</link>
             <pubDate>Mon, 06 May 2024 23:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/metaverse-india-policy-and-standards/</guid>
+            <guid>https://thinkuldeep.com/event/metaverse-india-policy-and-standards/</guid>
             <description>Metaverse India Policy and Standards (MIPS) is a pioneering initiative led by Experiential Technology Innovation Centre (XTIC), serving as India’s premier research and product innovation hub for Virtual Reality, Augmented Reality, Mixed Reality, and Haptics, hosted at IIT Madras.
 It&amp;rsquo;s an honor to be the member of MIPS and showcase my book Exploring the Metaverse: Redefining Reality in the Digital Age, which aligns closely with the initiative&amp;rsquo;s objectives.
 I extend my gratitude to Thriveni Palanivelu for orchestrating a seamless event.</description>
@@ -376,20 +376,20 @@ I extend my gratitude to Thriveni Palanivelu for orchestrating a seamless event.
         
         <item>
             <title>Exploring the Metaverse — A Synopsis</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-a-synopsis/</link>
+            <link>https://thinkuldeep.com/post/exploring-the-metaverse-a-synopsis/</link>
             <pubDate>Mon, 06 May 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-a-synopsis/</guid>
+            <guid>https://thinkuldeep.com/post/exploring-the-metaverse-a-synopsis/</guid>
             <description>My book &amp;lsquo;Exploring the Metaverse&amp;rsquo; featured on Industry4.0. It is available in stores, including Amazon and BPB Online.
  The metaverse, a loosely defined term, has gone from a virtual game world to the next internet and sparks conversations on technology’s potential. Despite eye-rolling at terms like metaverse and eXtended Reality (XR), immersive technologies are silently becoming part of our daily life through social media, virtual collaboration, and digitized experiences. We seamlessly embrace digital tools, scanning codes, engaging in virtual trials, and altering reality through digital filters.</description>
         </item>
         
         <item>
             <title>XR in India — A Whitepaper by XTIC, IIT Madras</title>
-            <link>https://thinkuldeep.com//post/xr-in-india-a-whitepaper-by-xtic-iit-madras/</link>
+            <link>https://thinkuldeep.com/post/xr-in-india-a-whitepaper-by-xtic-iit-madras/</link>
             <pubDate>Sat, 04 May 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/xr-in-india-a-whitepaper-by-xtic-iit-madras/</guid>
+            <guid>https://thinkuldeep.com/post/xr-in-india-a-whitepaper-by-xtic-iit-madras/</guid>
             <description>XTIC (Experiential Technology Innovation Centre), is India’s 1st Research &amp;amp; Product Innovation centre for Virtual Reality, Augmented Reality, Mixed Reality and Haptics at IIT Madras. It has published a white-paper and skill gap analysis for Experiential Technologies in India.
 Whitepaper - XR in India
 It was great to be a contributor in this research. It is authored by 19 industry leader from various enterprises, institutes and government body. Excursions from this research also got published in The Hindu Businessline.</description>
@@ -397,80 +397,80 @@ It was great to be a contributor in this research. It is authored by 19 industry
         
         <item>
             <title>🙏 Exploring the Metaverse | Testimonial 1</title>
-            <link>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-1/</link>
+            <link>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-1/</link>
             <pubDate>Tue, 30 Apr 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-1/</guid>
+            <guid>https://thinkuldeep.com/post/exploring-the-metaverse-testimonial-1/</guid>
             <description>My book &amp;lsquo;Exploring the Metaverse&amp;rsquo;, is now available in stores globally, including Amazon and BPB Online. It features forewords and testimonials from a diverse group of industry leaders.
 One such testimonial comes from Vishal Shah, General Manager of XR and Metaverse at Lenovo. I&amp;rsquo;ve had the pleasure of hearing Vishal speak at events like CES and AWE, where he shared invaluable insights on the metaverse and XR technology. Meeting him in person at Lenovo Tech World 2023 was a highlight, where we discussed this book, and he graciously agreed to contribute to its exploration of the metaverse.</description>
         </item>
         
         <item>
             <title>An Adventure to Remember: Making it to CareerMaker Meetup</title>
-            <link>https://thinkuldeep.com//event/careermaker-meetup-azure-developer-community/</link>
+            <link>https://thinkuldeep.com/event/careermaker-meetup-azure-developer-community/</link>
             <pubDate>Wed, 24 Apr 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/careermaker-meetup-azure-developer-community/</guid>
+            <guid>https://thinkuldeep.com/event/careermaker-meetup-azure-developer-community/</guid>
             <description>The CareerMaker meetup, hosted by the Microsoft Azure Developer Community and managed by Reskill, stands as a flagship event in empowering aspiring professionals. Recently, I had the privilege of delivering a special keynote address at Microsoft Gurugram, where I had the opportunity to guide students from various institutes and share insights from my experience in product management.
 It was an honor to accept this invitation, as engaging with the young, fresh minds of our nation is not only an opportunity to learn from them but also a responsibility to impart valuable knowledge.</description>
         </item>
         
         <item>
             <title>🤝 Why collaboration is essential for building a successful XR future?</title>
-            <link>https://thinkuldeep.com//post/why-collaboration-is-essential-for-building-a-successful-xr-future/</link>
+            <link>https://thinkuldeep.com/post/why-collaboration-is-essential-for-building-a-successful-xr-future/</link>
             <pubDate>Fri, 19 Apr 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/why-collaboration-is-essential-for-building-a-successful-xr-future/</guid>
+            <guid>https://thinkuldeep.com/post/why-collaboration-is-essential-for-building-a-successful-xr-future/</guid>
             <description>The era of isolated development and secret-keeping innovation is fading. In the past, companies, individuals could thrive by becoming subject matter experts within their own walls. However, the rise of generative AI, fueled by shared knowledge, has changed the game. AI can now imagine and generate solutions faster than ever. The future belongs to those who embrace openness, collaboration, and shared learning.
  Expertise alone isn’t enough. Today, success hinges on building strong networks, fostering partnerships, and collaborating within communities.</description>
         </item>
         
         <item>
             <title>The Future of Retail with Extended Reality (XR)</title>
-            <link>https://thinkuldeep.com//post/the-future-of-retail-with-extended-reality-xr/</link>
+            <link>https://thinkuldeep.com/post/the-future-of-retail-with-extended-reality-xr/</link>
             <pubDate>Fri, 05 Apr 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/the-future-of-retail-with-extended-reality-xr/</guid>
+            <guid>https://thinkuldeep.com/post/the-future-of-retail-with-extended-reality-xr/</guid>
             <description>eXtended Reality (XR/AR/VR) technology is changing the reality of almost every industry today by enhancing user experiences. XR adoption in the retail industry is also quite natural, let&amp;rsquo;s understand how it is shaping up the future of retail.
 In today’s retail landscape, technology is reshaping customer experiences, with XR leading the charge. Extended Reality (XR), including VR, AR, and MR, offers immersive experiences blending the physical and virtual worlds. From head-mounted displays to smart glasses and smartphones and beyond, XR is changing how we interact with retail environments.</description>
         </item>
         
         <item>
             <title>🤝 Making the XR content usable with AI!</title>
-            <link>https://thinkuldeep.com//post/making-the-xr-content-usable-with-ai/</link>
+            <link>https://thinkuldeep.com/post/making-the-xr-content-usable-with-ai/</link>
             <pubDate>Sun, 24 Mar 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/making-the-xr-content-usable-with-ai/</guid>
+            <guid>https://thinkuldeep.com/post/making-the-xr-content-usable-with-ai/</guid>
             <description>Generative AI is revolutionizing content generation across various mediums, disrupting traditional methods in text, images, art, movies, and music creation. XR (Extended Reality) is also undergoing this transformation. In a previous article, Raju Kandaswamy and I discussed how AI aids in generating content for XR, meeting the dynamic needs of XR and the metaverse.
 We highlighted content management as a key challenge in XR and metaverse adoption. While generative AI methods offer some solutions, the significant hurdle of content optimization remains.</description>
         </item>
         
         <item>
             <title>Being inclusive, being me</title>
-            <link>https://thinkuldeep.com//post/being-inclusive-being-me/</link>
+            <link>https://thinkuldeep.com/post/being-inclusive-being-me/</link>
             <pubDate>Fri, 08 Mar 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/being-inclusive-being-me/</guid>
+            <guid>https://thinkuldeep.com/post/being-inclusive-being-me/</guid>
             <description>🙋‍ ️As International Women&amp;rsquo;s Day is celebrated worldwide, efforts are underway to recognize women&amp;rsquo;s representation across diverse fields. In India, the spirit of &amp;lsquo;Nari Shakti&amp;rsquo; is alive as discussions focus on various schemes and initiatives. Increased enforcement is advocating for equal opportunities in underrepresented sectors. The promising shift towards inclusivity is shaping a future grounded in equity and equality.
 👩‍💻 Thoughtworks is synonymous with diversity and inclusion, a leading brand in this space.</description>
         </item>
         
         <item>
             <title>Immersive is the new interactive</title>
-            <link>https://thinkuldeep.com//post/thoughtworks-immersive-is-the-new-interactive/</link>
+            <link>https://thinkuldeep.com/post/thoughtworks-immersive-is-the-new-interactive/</link>
             <pubDate>Tue, 27 Feb 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/thoughtworks-immersive-is-the-new-interactive/</guid>
+            <guid>https://thinkuldeep.com/post/thoughtworks-immersive-is-the-new-interactive/</guid>
             <description>The way we interact with each other, and the world around us, is changing fast. And with consumer expectations continuing to grow, enterprises are racing to find new ways to deliver immersive experiences. I am republishing this article from Thoughtworks Insights here.
  As we discuss in the evolving interactions lens of our latest Looking Glass report, extended reality (XR) technologies offer new opportunities to engage and entertain. But what exactly is XR?</description>
         </item>
         
         <item>
             <title>Thoughtworks&#39; Looking Glass 2024 - Takeaways</title>
-            <link>https://thinkuldeep.com//post/thougthworks-looking-glass-2024/</link>
+            <link>https://thinkuldeep.com/post/thougthworks-looking-glass-2024/</link>
             <pubDate>Wed, 10 Jan 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/thougthworks-looking-glass-2024/</guid>
+            <guid>https://thinkuldeep.com/post/thougthworks-looking-glass-2024/</guid>
             <description>Thoughtworks unveils its latest tech trends report, &amp;lsquo;Looking Glass&amp;rsquo;, a comprehensive analysis of emerging technologies designed to empower organizations and leaders in making informed decisions. The 2024 edition of report, covering over 100 trends, is segmented through five lenses, each offering insights, signals, and strategic recommendations for adoption, analysis, and anticipation.
 Key takeaways: Here are my key takeaways:
  AI&amp;rsquo;s ubiquitous reach - AI is going in every facet of technology, from conversational interfaces to AI-assisted software development and software-defined vehicles.</description>
@@ -478,165 +478,165 @@ Key takeaways: Here are my key takeaways:
         
         <item>
             <title>XConf-2023 - Thoughtworks India - Takeaways</title>
-            <link>https://thinkuldeep.com//event/thoughtworks-xconf-2023/</link>
+            <link>https://thinkuldeep.com/event/thoughtworks-xconf-2023/</link>
             <pubDate>Thu, 21 Sep 2023 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/thoughtworks-xconf-2023/</guid>
+            <guid>https://thinkuldeep.com/event/thoughtworks-xconf-2023/</guid>
             <description>The XConf XConf is Thoughtworks annual technology event created by technologists. It is designed for technologists who care deeply about software and its impact on the world.
 Last year, I presented on the topic of AI Assisted Content Pipeline for XR. This year, we took it a step further by hosting an immersive experience booth. We featured cutting-edge AR/VR devices and engaged in in-depth discussions about various industrial applications. It was truly enriching to interact with participants, share our insights, and absorb their perspectives.</description>
         </item>
         
         <item>
             <title>Speaker at Rapid Prototyping Community - Products beyond software horizons!</title>
-            <link>https://thinkuldeep.com//event/products-beyond-software-horizons/</link>
+            <link>https://thinkuldeep.com/event/products-beyond-software-horizons/</link>
             <pubDate>Sat, 16 Sep 2023 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/products-beyond-software-horizons/</guid>
+            <guid>https://thinkuldeep.com/event/products-beyond-software-horizons/</guid>
             <description>🤖 Rapid Prototyping Community Rapid Prototyping is an internal community @Thoughtworks, focused on building a culture of rapid prototyping and innovation. They organise various learnings events, and I was invited to speak at one of their events.
 I talked about the importance of holistic product development and how the modern products goes beyond software. I also discussed the impact of technological evolution on products, how to stay ahead of the curve.</description>
         </item>
         
         <item>
             <title>Generative AI for 3D content in XR and beyond</title>
-            <link>https://thinkuldeep.com//post/generative-ai-for-3d-content-in-xr-and-beyond/</link>
+            <link>https://thinkuldeep.com/post/generative-ai-for-3d-content-in-xr-and-beyond/</link>
             <pubDate>Wed, 09 Aug 2023 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/generative-ai-for-3d-content-in-xr-and-beyond/</guid>
+            <guid>https://thinkuldeep.com/post/generative-ai-for-3d-content-in-xr-and-beyond/</guid>
             <description>We touched upon Generative AI while talking about AI assisted content pipeline for XR at Thoughtworks XConf 2022. Generative AI is capable of producing outputs that closely resemble those created by humans. It is evolving in multiple forms, one of its kind is ChatGPT, a useful tool buried beneath the hype. It was touted as Google Killer, and posed a disruption to the way we search, we communicate with machines, and the way machines can respond.</description>
         </item>
         
         <item>
             <title>My thoughtworkings from five thoughtful years</title>
-            <link>https://thinkuldeep.com//post/five-thoughtful-years/</link>
+            <link>https://thinkuldeep.com/post/five-thoughtful-years/</link>
             <pubDate>Sun, 06 Aug 2023 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/five-thoughtful-years/</guid>
+            <guid>https://thinkuldeep.com/post/five-thoughtful-years/</guid>
             <description>Thoughtworks is celebrating its 30th year in industry, and I have completed five years here, and to celebrate this, I have compiled thoughts from thoughtworkers, and published them as an ebook. I am grateful for the wealth of knowledge and experiences shared by my colleagues. These thoughts have resonated with me and shaped my journey within the organization and life.
 I am excited to launch the ebook with this post. I believe this compilation of thoughts will not only serve as a personal reflection but also as a valuable resource for others on their own professional journeys.</description>
         </item>
         
         <item>
             <title>Progress Review - Meta-MeitY XR Startup Hub, IIT Delhi</title>
-            <link>https://thinkuldeep.com//event/msh-progress-review-1/</link>
+            <link>https://thinkuldeep.com/event/msh-progress-review-1/</link>
             <pubDate>Sat, 20 May 2023 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/msh-progress-review-1/</guid>
+            <guid>https://thinkuldeep.com/event/msh-progress-review-1/</guid>
             <description>Extending Reality (XR) is providing experience to user where the boundaries of real and fake blur, and user believe in the new reality presented to them. In the recent years, the tech has evolved to enable extending the reality by XR (AR/VR) faster, and much more evolution still to happen. I was invited to join the Progress Review Committee as a Judge for Meta and Meity&amp;rsquo;s Startup Hub program. It is great talking to top XR startups of India.</description>
         </item>
         
         <item>
             <title>Greening Up: Key takeaways from Green Software Foundation Meetup</title>
-            <link>https://thinkuldeep.com//event/green-software-foundation-meetup-2023/</link>
+            <link>https://thinkuldeep.com/event/green-software-foundation-meetup-2023/</link>
             <pubDate>Fri, 05 May 2023 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/green-software-foundation-meetup-2023/</guid>
+            <guid>https://thinkuldeep.com/event/green-software-foundation-meetup-2023/</guid>
             <description>As technology continues to advance, electronics are getting smaller and wires are disappearing. Even electric poles, once a familiar sight on road trips, are being phased out. With the internet now ubiquitous, physical storage devices are disappearing too, and we rely more on cloud-based solutions that seem to happen over the air.
  ‘It&amp;rsquo;s no wonder we look up when we think of clouds ☁️, but should actually look down to the earth in the mines!</description>
         </item>
         
         <item>
             <title>Exploring the Potential of XR Technology for Virtual Decoration</title>
-            <link>https://thinkuldeep.com//post/xr-virtual-decoration/</link>
+            <link>https://thinkuldeep.com/post/xr-virtual-decoration/</link>
             <pubDate>Wed, 19 Apr 2023 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/xr-virtual-decoration/</guid>
+            <guid>https://thinkuldeep.com/post/xr-virtual-decoration/</guid>
             <description>In recent years, XR technology has revolutionized the way we decorate our physical environments. By utilizing AI and computer vision, XR can scan and track real-world surroundings, recognizing and remembering images and objects to enable the addition of virtual content. This technology can store and recall virtual decorations, making them visible every time someone enters the environment. While image matching is not a new concept, XR platforms like Vuforia have already implemented various mobile XR examples.</description>
         </item>
         
         <item>
             <title>Thoughtworks TWinnoFest 3.0</title>
-            <link>https://thinkuldeep.com//event/thougthworks-twinnofest3/</link>
+            <link>https://thinkuldeep.com/event/thougthworks-twinnofest3/</link>
             <pubDate>Tue, 18 Apr 2023 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/thougthworks-twinnofest3/</guid>
+            <guid>https://thinkuldeep.com/event/thougthworks-twinnofest3/</guid>
             <description>The TWiinoFest 3.0 The third edition of innovation fest, named at TWinnoFest, a month-long hackathon, was recently held by Innovation Labs at Thoughtworks. This year&amp;rsquo;s event was conducted remotely, with participants spread across different cities. I was fortunate enough to be invited to judge the finale of the event.
 The sheer variety and quality of ideas presented was truly astounding. It was incredibly difficult to compare them, as each one was unique and innovative in its own way.</description>
         </item>
         
         <item>
             <title>Community Events are the Energy Boosters!</title>
-            <link>https://thinkuldeep.com//event/gta_lets_fork_together/</link>
+            <link>https://thinkuldeep.com/event/gta_lets_fork_together/</link>
             <pubDate>Sat, 15 Apr 2023 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/gta_lets_fork_together/</guid>
+            <guid>https://thinkuldeep.com/event/gta_lets_fork_together/</guid>
             <description>Recently, I had the opportunity to contribute to an event called &amp;ldquo;GTA Ghaziabad - Let’s Fork Together&amp;rdquo;. The event was hosted by a community of working professionals and undergraduate engineers from nearby colleges in NCR, and took place at my home office, Thoughtworks Gurgaon. Participating in this event provided me with another energy boost, and in this article, I would like to share my experience and give you a glimpse of what the event was all about!</description>
         </item>
         
         <item>
             <title>Speaker - Agility Today Fest 2023 - Generative AI and XR</title>
-            <link>https://thinkuldeep.com//event/agiletoday_2023_ael/</link>
+            <link>https://thinkuldeep.com/event/agiletoday_2023_ael/</link>
             <pubDate>Sat, 25 Mar 2023 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/agiletoday_2023_ael/</guid>
+            <guid>https://thinkuldeep.com/event/agiletoday_2023_ael/</guid>
             <description>Agility Today is a 2 days annual UnConference, to meet Agility needs of industry, gathered over past few years via meetups, Conferences and Webinar. This UnConference intends to give you best of Agile Psyche (Mindset Culture and Practice) and Geekery (Engineering, Tools and DevOps). This year in Agility Today Fest 2023 there are couple of programs.
 I am speaking to at Agile Engineering Lab (Technical Agility &amp;amp; Engineering Excellence), on topic of Scaling content generation for XR using AI.</description>
         </item>
         
         <item>
             <title>Takeaways from Lenovo Techworld India Edition</title>
-            <link>https://thinkuldeep.com//event/lenovo-techworld-india-2023/</link>
+            <link>https://thinkuldeep.com/event/lenovo-techworld-india-2023/</link>
             <pubDate>Thu, 16 Mar 2023 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/lenovo-techworld-india-2023/</guid>
+            <guid>https://thinkuldeep.com/event/lenovo-techworld-india-2023/</guid>
             <description>Lenovo, the global technology leader, hosted the India edition of its flagship event, Tech World , on March 16th, 2023. Industry leaders come together and peep into the future of smarter technology, that is empowering a changing world through innovative products, solutions, and witness technological solutions.
 I get a chance to join the event, and meet and listen to the industry leaders, experience lenovo’s innovative product line, and see breakthroughs in india shaping up.</description>
         </item>
         
         <item>
             <title>Speaker at Meta-MeitY XR Startup Hub, IIT Delhi</title>
-            <link>https://thinkuldeep.com//event/meta-meity-xr-startsup-hub-2022/</link>
+            <link>https://thinkuldeep.com/event/meta-meity-xr-startsup-hub-2022/</link>
             <pubDate>Tue, 31 Jan 2023 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/meta-meity-xr-startsup-hub-2022/</guid>
+            <guid>https://thinkuldeep.com/event/meta-meity-xr-startsup-hub-2022/</guid>
             <description>Extending Reality is providing experience to user where the boundaries of real and fake blur, and use believe in the new reality presented to them. In the recent years, the tech has evolved to enable extending the reality by XR (AR/VR) faster, and much more evolution still to happen. I was invited at Meta and Meity&amp;rsquo;s Startup Hub program as an industry expert. Here I reflect on the day I spend with the few of the top startup of india, who want to solve some of the key challenges using XR and related technology.</description>
         </item>
         
         <item>
             <title>AI-Assisted Content Generation Pipeline for XR</title>
-            <link>https://thinkuldeep.com//post/ai-generated-xr-content/</link>
+            <link>https://thinkuldeep.com/post/ai-generated-xr-content/</link>
             <pubDate>Tue, 24 Jan 2023 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/ai-generated-xr-content/</guid>
+            <guid>https://thinkuldeep.com/post/ai-generated-xr-content/</guid>
             <description>Recently, I and Raju Kandaswamy talked at Thoughtworks XConf on how AI will play its role in content generation. We are already seeing ChatGPT, as the next revolution in textual content generation space. Let&amp;rsquo;s understand what is the need of such content generation revolution of XR space.
 With games like Second Life and the impending mainstreaming of the Metaverse, more and more individuals are embracing a virtual reality that, in some ways, mirrors our own real world and, in other ways, lets us live in our imagination or apply them on the real word.</description>
         </item>
         
         <item>
             <title>Corporate lessons from a Home Makeover</title>
-            <link>https://thinkuldeep.com//post/corporate-lessons-from-a-home-makeover/</link>
+            <link>https://thinkuldeep.com/post/corporate-lessons-from-a-home-makeover/</link>
             <pubDate>Thu, 17 Nov 2022 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/corporate-lessons-from-a-home-makeover/</guid>
+            <guid>https://thinkuldeep.com/post/corporate-lessons-from-a-home-makeover/</guid>
             <description>Recently I shared an article on my life lessons from my father’s work life, and mentioned that I dedicated a new home to my father’s work life, also promised that I will share some corporate lessons learned from making-over this new home. I can well relate my takeaways to the corporate experiences such as vendor selection, negotiation, solutioning, estimation, prioritization, agility and being a trusted partner and many more..
  As I keep saying “we learn every day in all situations of life, good or bad”</description>
         </item>
         
         <item>
             <title>Podcast : XR in practice: the engineering challenges of extending reality</title>
-            <link>https://thinkuldeep.com//event/xr-in-practice-engineering-challenges-extending-reality/</link>
+            <link>https://thinkuldeep.com/event/xr-in-practice-engineering-challenges-extending-reality/</link>
             <pubDate>Thu, 22 Sep 2022 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/xr-in-practice-engineering-challenges-extending-reality/</guid>
+            <guid>https://thinkuldeep.com/event/xr-in-practice-engineering-challenges-extending-reality/</guid>
             <description>Brief summary Extended Reality technology — XR — has had a lot of hype in recent years thanks to the concept of the metaverse. But bold visions of the future can obscure the reality of what engineers and organizations are doing today.
 In this episode of the Technology Podcast, the host Scott Shaw and Birgitta Boeckeler are joined by Cam Jackson and Kuldeep Singh to discuss the XR work Thoughtworks has been doing with clients.</description>
         </item>
         
         <item>
             <title>eXtending the Reality of Museum with XR</title>
-            <link>https://thinkuldeep.com//post/extending-reality-of-museum-wtih-xr/</link>
+            <link>https://thinkuldeep.com/post/extending-reality-of-museum-wtih-xr/</link>
             <pubDate>Wed, 10 Aug 2022 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/extending-reality-of-museum-wtih-xr/</guid>
+            <guid>https://thinkuldeep.com/post/extending-reality-of-museum-wtih-xr/</guid>
             <description>eXtended Reality (XR/AR/VR) technology is changing the reality of almost every industry today by enhancing user experiences. XR adoption in the museum industry is also quite natural, let&amp;rsquo;s understand how it is shaping up the Museums of Future.
 Museum is a place that displays artifacts from history, culture, science, art and more. As per International Council of Museums (ICOM), there are around 55000 museums worldwide designed with different themes serving different types of artifacts.</description>
         </item>
         
         <item>
             <title>Speaker - XConf-2022 - Thoughtworks India</title>
-            <link>https://thinkuldeep.com//event/thoughtworks-xconf-2022/</link>
+            <link>https://thinkuldeep.com/event/thoughtworks-xconf-2022/</link>
             <pubDate>Fri, 29 Jul 2022 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/thoughtworks-xconf-2022/</guid>
+            <guid>https://thinkuldeep.com/event/thoughtworks-xconf-2022/</guid>
             <description>The XConf XConf is Thoughtworks annual technology event created by technologists. It is designed for technologists who care deeply about software and its impact on the world.
 Last year XConf was virtual but this year, we are resuming to a physical one, so come meet us face to face in Bangalore at ITC Gardenia on Friday, July 29.
   &amp;nbsp; I am exited to share the stage with renowned technologists like Supriyo Ghosh, Chief Architect, Open Network for Digital Commerce (ONDC) India, our Head of Technology Bharani Subramaniam and Vanya Seth along with other techies from three streams Emerging Tech, Digital Transformation and Data.</description>
@@ -644,30 +644,30 @@ Last year XConf was virtual but this year, we are resuming to a physical one, so
         
         <item>
             <title>The VAMRR ITeS Leaders Round Table</title>
-            <link>https://thinkuldeep.com//event/leadership-roundtable-vamrr/</link>
+            <link>https://thinkuldeep.com/event/leadership-roundtable-vamrr/</link>
             <pubDate>Fri, 22 Jul 2022 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/leadership-roundtable-vamrr/</guid>
+            <guid>https://thinkuldeep.com/event/leadership-roundtable-vamrr/</guid>
             <description>The VAMRR ITeS Leaders Round Table The thoughtleadership roundtable is an exclusive event hosted by VAMRR Technologies Pvt Ltd, where they invite an elite gathering of 20 ITeS leaders focused on the areas of Design Visualization, Digital Twin and Hybrid Workspaces.
 This one is the 98th Conference/Round Table by VAMRR Technologies, and focus this roundtable would be on developments across Advanced Visualization, Remote Design Collaboration, Hybrid Workspaces, 3D Workflows, Data Integrated Digital Twins, Web3 and Metaverse are all converging.</description>
         </item>
         
         <item>
             <title>Speaker - XR and Sustainability - GSF Global Summit</title>
-            <link>https://thinkuldeep.com//event/green-software-foundation-global-summit-2022/</link>
+            <link>https://thinkuldeep.com/event/green-software-foundation-global-summit-2022/</link>
             <pubDate>Fri, 10 Jun 2022 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/green-software-foundation-global-summit-2022/</guid>
+            <guid>https://thinkuldeep.com/event/green-software-foundation-global-summit-2022/</guid>
             <description>Green Software Foundation Green Software Foundation (GSF) is building a trusted ecosystem of people, standards, tooling and best practices for Green Software. GSF works with vision to change the culture of building software across the tech industry, so sustainability becomes a core priority to software teams, just as important as performance, security, cost and accessibility. Read more here.
 GSF Global Summit 2022 The Green Software Foundation Global Summit 2022 is a series of free events organized by Green Software Foundation members all around the globe that are passionate about sustainable software development, maintenance.</description>
         </item>
         
         <item>
             <title>Speaker - Thoughtworks MasterClass-2021</title>
-            <link>https://thinkuldeep.com//event/thougthworks-masterclasses-2021/</link>
+            <link>https://thinkuldeep.com/event/thougthworks-masterclasses-2021/</link>
             <pubDate>Wed, 20 Oct 2021 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/thougthworks-masterclasses-2021/</guid>
+            <guid>https://thinkuldeep.com/event/thougthworks-masterclasses-2021/</guid>
             <description>The MasterClass This October, at Thoughtworks India, we’re celebrating our 20th anniversary! That’s 20 years of excellence in technology!
  All through the month we’re hosting 10 tech talks, delivered by some of our best-and-brightest technologists in India. Each of them will be taking you through different topics, ranging from Distributed Delivery and XR, to Security and Navigating Ambiguity.
 I am sharing stage with Raju Kandaswamy who is a robotics enthusiast and taking us through &amp;ldquo;Using XR in building autonomous vehicles&amp;rdquo;.</description>
@@ -675,10 +675,10 @@ I am sharing stage with Raju Kandaswamy who is a robotics enthusiast and taking 
         
         <item>
             <title>Managing enterprise complexity with XR</title>
-            <link>https://thinkuldeep.com//post/managing-enterprise-complexity-xr/</link>
+            <link>https://thinkuldeep.com/post/managing-enterprise-complexity-xr/</link>
             <pubDate>Mon, 11 Oct 2021 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/managing-enterprise-complexity-xr/</guid>
+            <guid>https://thinkuldeep.com/post/managing-enterprise-complexity-xr/</guid>
             <description>Modern enterprises must manage multiple layers of complexity across thousands of assets, workflows, and processes — and there’s near-zero tolerance for issues that interrupt operations, damage profitability, or put workers’ safety at risk.
 These layers of enterprise complexity create significant challenges in four key areas:
  Design and development are often slow and expensive An inability to demo and customize complex products can make them difficult to sell Users need continuously updated training to operate products effectively and safely A shortage of on-the-spot expertise endangers employee safety and increases downtime risk and cost  However, many enterprises are beginning to use extended reality (XR) technologies to overcome these challenges.</description>
@@ -686,10 +686,10 @@ These layers of enterprise complexity create significant challenges in four key 
         
         <item>
             <title>Judge - Thoughtworks iFest 2.0</title>
-            <link>https://thinkuldeep.com//event/thougthworks-ifest2/</link>
+            <link>https://thinkuldeep.com/event/thougthworks-ifest2/</link>
             <pubDate>Sun, 10 Oct 2021 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/thougthworks-ifest2/</guid>
+            <guid>https://thinkuldeep.com/event/thougthworks-ifest2/</guid>
             <description>The iFest This October, at Thoughtworks India, we’re celebrating our 20th anniversary! That’s 20 years of excellence in technology!
 Innovation Lab&amp;rsquo;s at Thoughtworks comes second edition of iFest - a month long hackathon. I got opportunity to participate in iFest as a judge.
 I was amazed to see the verity of idea. All the ideas were great and it was so hard to compare them.
@@ -698,10 +698,10 @@ Ideas were touching were reflecting the Thougthworks culture, use technology to 
         
         <item>
             <title>Speaker - XConf-2021 - Thoughtworks India</title>
-            <link>https://thinkuldeep.com//event/thoughtworks-xconf-2021/</link>
+            <link>https://thinkuldeep.com/event/thoughtworks-xconf-2021/</link>
             <pubDate>Fri, 08 Oct 2021 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/thoughtworks-xconf-2021/</guid>
+            <guid>https://thinkuldeep.com/event/thoughtworks-xconf-2021/</guid>
             <description>The XConf XConf is Thoughtworks annual technology event created by technologists. It is designed for technologists who care deeply about software and its impact on the world.
 This year, XConf will be a virtual experience available at two different time slots. October 7th and 8th will feature pre-recorded sessions and October 9th will feature live sessions. During the nine exciting talks spread across three days.
  I am exited to sharing the stage with renowned technologists like Neal Ford, Dr.</description>
@@ -709,19 +709,19 @@ This year, XConf will be a virtual experience available at two different time sl
         
         <item>
             <title>Leadership - A result of conscious and continuous effort!</title>
-            <link>https://thinkuldeep.com//post/leadership-development-takeaways/</link>
+            <link>https://thinkuldeep.com/post/leadership-development-takeaways/</link>
             <pubDate>Thu, 30 Sep 2021 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/leadership-development-takeaways/</guid>
+            <guid>https://thinkuldeep.com/post/leadership-development-takeaways/</guid>
             <description>Sep 2020, a year ago, I was excited for getting nominated for an year long Global Leadership Development Program at Thoughtworks. At the same time was little confused on what we are going to do in this program for that long. I must say it was so well executed, despite the challenges of Covid#19, where we all(participants, speakers, coaches and other enablers) are globally distributed working from their home. Expectations were set, virtual meetings were set with options to attend at per individual comfort.</description>
         </item>
         
         <item>
             <title>My impactful change stories</title>
-            <link>https://thinkuldeep.com//post/my-impactful-change-stories/</link>
+            <link>https://thinkuldeep.com/post/my-impactful-change-stories/</link>
             <pubDate>Tue, 10 Aug 2021 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/my-impactful-change-stories/</guid>
+            <guid>https://thinkuldeep.com/post/my-impactful-change-stories/</guid>
             <description>Recently, I have been invited to share my 3 years Thoughtworks Journey, at “Impact Series” by Social Change Group TW, India.
  &amp;ldquo;Striving for positive social change is at the heart of our purpose, culture and work&amp;rdquo; — /thoughtworks
  I believe an impactful change is the change that changes you, and any social change start from within, our own journey. I shared my change journey, and received number of comments, and feedbacks.</description>
@@ -729,10 +729,10 @@ This year, XConf will be a virtual experience available at two different time sl
         
         <item>
             <title>Enterprise XR to Ethical XR</title>
-            <link>https://thinkuldeep.com//post/enterprise-to-ethical-xr/</link>
+            <link>https://thinkuldeep.com/post/enterprise-to-ethical-xr/</link>
             <pubDate>Fri, 16 Jul 2021 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/enterprise-to-ethical-xr/</guid>
+            <guid>https://thinkuldeep.com/post/enterprise-to-ethical-xr/</guid>
             <description>eXtended Reality or XR is an umbrella term for scenarios where AR, VR, and MR devices interact with peripheral devices such as ambient sensors, actuators, 3D printers and internet enabled smart-devices such as home appliances, industrial connected machines, connected vehicles and more. Find here more details
 At Thoughtworks, we have been talking about Rise of XR for enterprises, and evolving human interactions thru our lens of looking glasses.
  Evolving interactions - Consumers aren’t just demanding availability and accessibility — they expect interactions to be seamless, and richer.</description>
@@ -740,30 +740,30 @@ At Thoughtworks, we have been talking about Rise of XR for enterprises, and evol
         
         <item>
             <title>Discussion - Navigating the new normal</title>
-            <link>https://thinkuldeep.com//event/thevrara-navigating-new-normal/</link>
+            <link>https://thinkuldeep.com/event/thevrara-navigating-new-normal/</link>
             <pubDate>Sat, 22 May 2021 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/thevrara-navigating-new-normal/</guid>
+            <guid>https://thinkuldeep.com/event/thevrara-navigating-new-normal/</guid>
             <description>The world is finding the ways to get out of Covid impact, some are on recovery path and some are still bettling it. At ThoughtWorks, we have recently published our insights on navigating the new normal with augmented reality. Members of Communities of Practice of The VRARA come together to discuss the topic and share the opinion on way forward for XR.
 I presented thoughtworks insights to other renowned industry leaders and VRARA members like Pradeep Sharma, Swarup Choudhury and Rajiv Madane, and technology exports like Pradeep Naik and Dhruv.</description>
         </item>
         
         <item>
             <title>Navigating the new normal with augmented reality</title>
-            <link>https://thinkuldeep.com//post/navigating-new-normal-xr/</link>
+            <link>https://thinkuldeep.com/post/navigating-new-normal-xr/</link>
             <pubDate>Sat, 01 May 2021 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/navigating-new-normal-xr/</guid>
+            <guid>https://thinkuldeep.com/post/navigating-new-normal-xr/</guid>
             <description>This article is originally published at Thoughtworks Insights, co-authored with Aileen Pistorius, Julie Woods-Moss and Anna Bäckström.
 Time was when virtual and augmented reality was regarded as simply gaming technology — the preserve of fun, consumer applications with little serious consideration for the enterprise. But that’s in the past, in the post-COVID world, remote working will be ubiquitous — forcing enterprise leaders to find innovative ways to improve collaboration. This, it transpires, is the sweet spot for what’s termed enterprise XR (extended reality) — a group of related technologies that enable us to blend the physical and digital worlds.</description>
         </item>
         
         <item>
             <title>Making pandemic-proof workplaces a reality with XR</title>
-            <link>https://thinkuldeep.com//post/making-pandemic-proof-workplaces-a-reality-xr/</link>
+            <link>https://thinkuldeep.com/post/making-pandemic-proof-workplaces-a-reality-xr/</link>
             <pubDate>Tue, 27 Apr 2021 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/making-pandemic-proof-workplaces-a-reality-xr/</guid>
+            <guid>https://thinkuldeep.com/post/making-pandemic-proof-workplaces-a-reality-xr/</guid>
             <description>The IMF called the COVID-19 crisis ‘unlike any other,’ where the global growth contraction for 2020 was estimated at -3.5 percent. Image source : Using Lenovo ThinkReality A6 Glass at Workplace
 Here is a quick overview of the biggest challenges that CXOs (and their businesses) have faced over the recent past, to better illustrate how the pandemic is affecting businesses:
  Businesses are grappling with slowing global supply chains Sales and production growth is further impacted with a subsequent dive in opportunities for partnerships and growth The flattened or negative growth market result in less manpower and resources to work with, further affecting productivity  ​The five biggest challenges that CXOs are facing today</description>
@@ -771,10 +771,10 @@ Here is a quick overview of the biggest challenges that CXOs (and their business
         
         <item>
             <title>Coaching is not what you think!</title>
-            <link>https://thinkuldeep.com//post/coaching-workshop-key-takaways/</link>
+            <link>https://thinkuldeep.com/post/coaching-workshop-key-takaways/</link>
             <pubDate>Sun, 18 Apr 2021 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/coaching-workshop-key-takaways/</guid>
+            <guid>https://thinkuldeep.com/post/coaching-workshop-key-takaways/</guid>
             <description>When the word “Coaching” comes into my mind, one name always pops up, the cricket legend Sachin Tendulkar and his coach Mr. Ramakant Achrekar who gave him cricket. This example also helps us break the myths that coaching is needed when there are performance issues or people who are under-performing need the most.
 Sachin Tendulkar with his coach — Source
 If Sachin Tendulkar needs a coach then we all need a coach in our life to get going.</description>
@@ -782,67 +782,67 @@ If Sachin Tendulkar needs a coach then we all need a coach in our life to get go
         
         <item>
             <title>Speaker - AT2020 - Agility in Enterprise XR</title>
-            <link>https://thinkuldeep.com//event/at_2020_agilexr/</link>
+            <link>https://thinkuldeep.com/event/at_2020_agilexr/</link>
             <pubDate>Sat, 06 Mar 2021 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/at_2020_agilexr/</guid>
+            <guid>https://thinkuldeep.com/event/at_2020_agilexr/</guid>
             <description>Enterprise XR is gaining good traction, and software development’s best practices like Agile principles really matters due to multitude of tooling and tech stacks used for Enterprise XR solutions
 Enterprises do face multiple challenges with the XR development lifecycle. One of them is the automation of testing XR applications. In response to this gap, ThoughtWorks has developed Arium – an open-source, lightweight, extensible, platform-agnostic framework that helps write automation tests that are built specifically for XR Applications.</description>
         </item>
         
         <item>
             <title>Training autonomous vehicles with XR simulation</title>
-            <link>https://thinkuldeep.com//post/training-autonomous-vehicles-in-xr/</link>
+            <link>https://thinkuldeep.com/post/training-autonomous-vehicles-in-xr/</link>
             <pubDate>Thu, 25 Feb 2021 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/training-autonomous-vehicles-in-xr/</guid>
+            <guid>https://thinkuldeep.com/post/training-autonomous-vehicles-in-xr/</guid>
             <description>Self driving cars are a good example of what artificial intelligence can accomplish today. Such tech-centered advances are built on the back of highly trained Machine Learning (ML) algorithms.
 These algorithms require exhaustive data that help the AI effectively model all possible scenarios. Accessing and pooling all that data needs complex and very expensive real-world hardware setups, aside from the extensive time it takes to gather the necessary training-data in the cloud (to train ML).</description>
         </item>
         
         <item>
             <title>Stories of Will Cultivation from 2020</title>
-            <link>https://thinkuldeep.com//post/will-cultivation-2020/</link>
+            <link>https://thinkuldeep.com/post/will-cultivation-2020/</link>
             <pubDate>Sun, 07 Feb 2021 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/will-cultivation-2020/</guid>
+            <guid>https://thinkuldeep.com/post/will-cultivation-2020/</guid>
             <description>The year 2020 was the year of change, it may be painful for some, but at the same time, it has taught us lessons in life. I have written about it earlier that we have to accept it, and it will be remembered and will have an impact on our whole life and after our life, no matter what we do. So it is important that we live the present fully.</description>
         </item>
         
         <item>
             <title>Best Practices for Building Spatial Solutions</title>
-            <link>https://thinkuldeep.com//post/xr-best-practices/</link>
+            <link>https://thinkuldeep.com/post/xr-best-practices/</link>
             <pubDate>Tue, 05 Jan 2021 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/xr-best-practices/</guid>
+            <guid>https://thinkuldeep.com/post/xr-best-practices/</guid>
             <description>Covid19 is forcing us into a ‘new normal’, A new normal that makes most of us work from home, and that leads to spending long hours on Zoom, or other video conferencing platforms. Meetings, inceptions, discovery workshops, conferences, and webinars are happening in the same monotonous ways. We are stuck with a screen in almost the same pose and posture. Some might use their mobile phone or tablet but that limits us to a small screen.</description>
         </item>
         
         <item>
             <title>eXtended Reality for Enterprise - a PODCast by XROM</title>
-            <link>https://thinkuldeep.com//event/xrom-podcast-enterprise-xr/</link>
+            <link>https://thinkuldeep.com/event/xrom-podcast-enterprise-xr/</link>
             <pubDate>Sun, 15 Nov 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/xrom-podcast-enterprise-xr/</guid>
+            <guid>https://thinkuldeep.com/event/xrom-podcast-enterprise-xr/</guid>
             <description>Interesting conversation on eXtended Reality (XR) with Eddie Avil, starting from my background, how I landed up in the XR space and where are we heading…
 XROM PODCast XROM PODCast is a youtube channel maintained by serial entrepreneur, dreamer &amp;amp; a believer Mr. Eddie Avil. This channel has number of interesting conversations with industry leaders in the emerging technology space. Eddie Avil, also runs a marketplace for AR VR hardware and service, visit here https://www.</description>
         </item>
         
         <item>
             <title>Speaker - GIDS - Extended Machine Learning with XR</title>
-            <link>https://thinkuldeep.com//event/gids_2020_xr4ml/</link>
+            <link>https://thinkuldeep.com/event/gids_2020_xr4ml/</link>
             <pubDate>Thu, 05 Nov 2020 06:30:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/gids_2020_xr4ml/</guid>
+            <guid>https://thinkuldeep.com/event/gids_2020_xr4ml/</guid>
             <description>Extended Reality is not only meant for humans, they can very well serve machines by producing Digital twins. Digital twins encapsulate real world elements with all important physics characteristics enabling the researcher to produce large volume of training data needed for reinforment learning and CNN based deep learning algorithms. Extended Reality environments are mature today and are capable of producing photorealistic rendering and physics emulation of real world just by using digital twins.</description>
         </item>
         
         <item>
             <title>eXtended Reality - the new norm?</title>
-            <link>https://thinkuldeep.com//post/extending_reality_new_norm/</link>
+            <link>https://thinkuldeep.com/post/extending_reality_new_norm/</link>
             <pubDate>Wed, 28 Oct 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/extending_reality_new_norm/</guid>
+            <guid>https://thinkuldeep.com/post/extending_reality_new_norm/</guid>
             <description>This article is originally published at TechTag.de, you may find the German version here too.
 The interaction between humans and technology is evolving radically. We need to develop our thinking and skills beyond the keyboard and screen. But what does this new technological reality look like? Here it is worth taking a closer look at the different forms of extended reality and how they can change our everyday lives.
 The way we interact with technology today isn&amp;rsquo;t too far from what was predicted by futuristic sci-fi pop culture.</description>
@@ -850,10 +850,10 @@ The way we interact with technology today isn&amp;rsquo;t too far from what was 
         
         <item>
             <title>Webinar - Essentials of XR Product Design and Development</title>
-            <link>https://thinkuldeep.com//event/thevrara-ppd-cop-webinar/</link>
+            <link>https://thinkuldeep.com/event/thevrara-ppd-cop-webinar/</link>
             <pubDate>Sat, 17 Oct 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/thevrara-ppd-cop-webinar/</guid>
+            <guid>https://thinkuldeep.com/event/thevrara-ppd-cop-webinar/</guid>
             <description>The VRAR Association&amp;rsquo;s Product Design and Development (PDD) Communities of Practice (COP) brings its first webinar on &amp;ldquo;Essentials of XR Product Design and Development&amp;rdquo;.
 I will be sharing the stage with industry leader Mr. Pradeep Khanna, VR AR Association, and XR innovator Mr. Raju Kandaswamy, ThoughtWorks.
 Spread the words  Registration Only Please register at the below link, and save the date Oct 17, 2020, 4:30 PM IST.
@@ -863,20 +863,20 @@ The webinar will be available at https://www.</description>
         
         <item>
             <title>XR enabled me to renovate my home!</title>
-            <link>https://thinkuldeep.com//post/xr-enabled-home-renovation/</link>
+            <link>https://thinkuldeep.com/post/xr-enabled-home-renovation/</link>
             <pubDate>Wed, 30 Sep 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/xr-enabled-home-renovation/</guid>
+            <guid>https://thinkuldeep.com/post/xr-enabled-home-renovation/</guid>
             <description>Covid19 is still unmeasurable, and we are more or less getting adjusted to this new normal. We are eagerly waiting to say goodbye to this year 2020 and welcome the coming year of hope, 2021. Read more here to know why I call this year 2020, as the year of change.
 In April this year, I explained XR development from home, and that was still near shore to office, I was less than an hour away from the office.</description>
         </item>
         
         <item>
             <title>Geeknight - XR - eXtending the Reality</title>
-            <link>https://thinkuldeep.com//event/thougthworks_geeknight_sep_2020_xr/</link>
+            <link>https://thinkuldeep.com/event/thougthworks_geeknight_sep_2020_xr/</link>
             <pubDate>Tue, 29 Sep 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/thougthworks_geeknight_sep_2020_xr/</guid>
+            <guid>https://thinkuldeep.com/event/thougthworks_geeknight_sep_2020_xr/</guid>
             <description>Geek Night is a regular event to promote the sharing of technical knowledge and increase collaboration among the geeks. It is organized by a passionate group of programmers and sponsored by ThoughtWorks.
 Sep month&amp;rsquo;s geek night has covered Extended Reality - An umbrella term covering various technologies like AR,VR and MR. I will be discussing what is XR, its usage and significance today, that is stretching beyond gaming.
 Embracing an Agile approach is essential to any successful XR implementation.</description>
@@ -884,77 +884,77 @@ Embracing an Agile approach is essential to any successful XR implementation.</d
         
         <item>
             <title>The Learning Equation</title>
-            <link>https://thinkuldeep.com//post/the-learning-equation/</link>
+            <link>https://thinkuldeep.com/post/the-learning-equation/</link>
             <pubDate>Sat, 05 Sep 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/the-learning-equation/</guid>
+            <guid>https://thinkuldeep.com/post/the-learning-equation/</guid>
             <description>Today, The world is celebrating teacher’s day. I wish Happy Teacher&amp;rsquo;s day to all of us! We all are teachers and learners as every one of us has something to learn from others and something to teach others. I am thinking of an equation of learning that defines my way of learning and hope it would be helpful for you too.  The learning equation — Learning is proportional to Sharing; Learning ∝ Sharing</description>
         </item>
         
         <item>
             <title>Two Thoughtful Years!</title>
-            <link>https://thinkuldeep.com//post/two-thoughtful-years/</link>
+            <link>https://thinkuldeep.com/post/two-thoughtful-years/</link>
             <pubDate>Thu, 06 Aug 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/two-thoughtful-years/</guid>
+            <guid>https://thinkuldeep.com/post/two-thoughtful-years/</guid>
             <description>It’s now two years since I accepted a challenging change to leave the previous organization after 13 long years, and join ThoughtWorks. Any change requires sacrifices and dedication before it becomes a positive change, but the journey becomes easy when we believe in the change and accept it. A change introduces us to a new environment and enables new thoughts, and new energy. The two years journey at ThoughtWorks is no different.</description>
         </item>
         
         <item>
             <title>The future of shopping</title>
-            <link>https://thinkuldeep.com//post/future-of-shoping/</link>
+            <link>https://thinkuldeep.com/post/future-of-shoping/</link>
             <pubDate>Wed, 24 Jun 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/future-of-shoping/</guid>
+            <guid>https://thinkuldeep.com/post/future-of-shoping/</guid>
             <description>eXtended Reality (XR) that includes AR and VR technologies have been silently disrupting the gaming industry for more than a decade. In the recent past, the tech has gained some traction in the education and training space.
 Today, however, COVID-19 with its mandates of social distancing and less to no physical interactions has accelerated adoption for XR. The tech is virtual, contactless, and delivers outstanding brand experiences - perfect for the new normal that multiple industries like retail will benefit from.</description>
         </item>
         
         <item>
             <title>eXtending reality with AR and VR - Part 2</title>
-            <link>https://thinkuldeep.com//post/extending_reality_with_ar_and_vr-2/</link>
+            <link>https://thinkuldeep.com/post/extending_reality_with_ar_and_vr-2/</link>
             <pubDate>Fri, 10 Apr 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/extending_reality_with_ar_and_vr-2/</guid>
+            <guid>https://thinkuldeep.com/post/extending_reality_with_ar_and_vr-2/</guid>
             <description>In Part I of the article, we summarized our observations of eXtended reality’s foundational blocks - AR, VR and MR. We also discussed the popular and most relevant tools and implementations of the new technology. In Part II of the article, we will be looking at a few accessible and novel implementations of the tech.
 At ThoughtWorks, we have delivered both XR solutions and components of XR SDK (Software Development Kit) on the back of which XR solutions are built.</description>
         </item>
         
         <item>
             <title>eXtending reality with AR and VR - Part 1</title>
-            <link>https://thinkuldeep.com//post/extending_reality_with_ar_and_vr-1/</link>
+            <link>https://thinkuldeep.com/post/extending_reality_with_ar_and_vr-1/</link>
             <pubDate>Sun, 05 Apr 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/extending_reality_with_ar_and_vr-1/</guid>
+            <guid>https://thinkuldeep.com/post/extending_reality_with_ar_and_vr-1/</guid>
             <description>The way we interact with technology today is not too far from what was predicted by futuristic, sci-fi pop culture. We are living in a world where sophisticated touch and gesture based interactions are collaborating with state of the art wearables, sensors, Augmented Reality (AR), Virtual Reality (VR) and Mixed Reality (MR). And, this is eXtending user experiences to be extremely immersive.
 Add to this, Gartner’s expectation that 5G and AR/VR implementation will transform not only customer engagement but brands’ entire product management cycles as well.</description>
         </item>
         
         <item>
             <title>XR development from home</title>
-            <link>https://thinkuldeep.com//post/xr-development-from-home/</link>
+            <link>https://thinkuldeep.com/post/xr-development-from-home/</link>
             <pubDate>Thu, 02 Apr 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/xr-development-from-home/</guid>
+            <guid>https://thinkuldeep.com/post/xr-development-from-home/</guid>
             <description>Covid19 has challenged the way we eat, the way we commute, the way we socialize, and the way we work. In short, it impacted the way we live. More than a million people got infected and the number is growing exponentially, it has impacted the whole world. We need to find new ways of life and change our focus and priorities to save nature and humanity. Technology can play a great role in coping with it.</description>
         </item>
         
         <item>
             <title>Speaker - XR Day - ThoughtWorks India</title>
-            <link>https://thinkuldeep.com//event/thougthworks_xrday/</link>
+            <link>https://thinkuldeep.com/event/thougthworks_xrday/</link>
             <pubDate>Thu, 27 Feb 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/thougthworks_xrday/</guid>
+            <guid>https://thinkuldeep.com/event/thougthworks_xrday/</guid>
             <description>The XR Day Organized XR Days at ThoughtWorks, India in different cities and conducted awareness sessions and ideation workshop and more..
 The talks are about  How the User interactions evolved with time? Why is it important to think beyond the tradition keyboard and screen? Where is the industry heading? How will it impact us?  Detailed Slides   Think beyond keyboard and screen xr day 2019  from Kuldeep Singh  Event Summary It was well recevied the participats.</description>
         </item>
         
         <item>
             <title>Speaker - AwayDay 2019 - SLAM Aware Applications</title>
-            <link>https://thinkuldeep.com//event/thougthworks_awayday_2019_slam_aware_apps/</link>
+            <link>https://thinkuldeep.com/event/thougthworks_awayday_2019_slam_aware_apps/</link>
             <pubDate>Thu, 19 Sep 2019 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/thougthworks_awayday_2019_slam_aware_apps/</guid>
+            <guid>https://thinkuldeep.com/event/thougthworks_awayday_2019_slam_aware_apps/</guid>
             <description>Presented At : Thoutworks&amp;rsquo;s Awayday 2019, where the entire ThoughtWorks India travelled to celebrate togetherness.
 I and my colleague Raju Kandaswamy presented this talk in the breakout sessions in category Seismic Shifts Around 2000 Thoghtworkers get together, and enjoyed fusion of technology showcases, cultural event and more. Glimpse here
  The talk is about  What is SLAM (Simultaneous Localization And Mapping)? The use cases of SLAM? How does it work?</description>
@@ -962,38 +962,38 @@ I and my colleague Raju Kandaswamy presented this talk in the breakout sessions 
         
         <item>
             <title>Inception Workshop | Key Takeaways</title>
-            <link>https://thinkuldeep.com//post/inception_workshop_key_takaways/</link>
+            <link>https://thinkuldeep.com/post/inception_workshop_key_takaways/</link>
             <pubDate>Sun, 15 Sep 2019 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/inception_workshop_key_takaways/</guid>
+            <guid>https://thinkuldeep.com/post/inception_workshop_key_takaways/</guid>
             <description>Inception exercise is very common in software development, where we gather the business requirements and define the delivery plan for the MVP(Minimum Viable Product) on a shared understanding. There are a set of tools and practices available to define the MVP requirements and its delivery plan. Famous tools are Lean Value Tree, Business Model Canvas, Plane Map, Elevator Pitch, Futurespective, Empathy Maps, Value Proposition Canvas, User Journey Map, Gamestorming, Process Diagram, MoSCoW, Communication Plan, Project Plan etc.</description>
         </item>
         
         <item>
             <title>Embibe purpose and balance in life</title>
-            <link>https://thinkuldeep.com//post/embibe_purpose_and_balance_in_life/</link>
+            <link>https://thinkuldeep.com/post/embibe_purpose_and_balance_in_life/</link>
             <pubDate>Fri, 15 Mar 2019 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/embibe_purpose_and_balance_in_life/</guid>
+            <guid>https://thinkuldeep.com/post/embibe_purpose_and_balance_in_life/</guid>
             <description>I just finished a book &amp;ldquo;Life&amp;rsquo;s Amazing Secrets&amp;rdquo; by Gaur Gopal Das. It covers the topic of balance and purpose in life nicely. Few of the concepts from the book I can very well relate to my current organization&amp;rsquo;s focus on cultivation and collaboration culture.
 It&amp;rsquo;s now more than 6 months of my journey with Thoughtworks, an organization which started as a social experiment more than 25 years ago, and believes in balancing 3 pillars in life ; sustainability, excellence and purpose.</description>
         </item>
         
         <item>
             <title>Boost your organisation agility by test-first-pair development</title>
-            <link>https://thinkuldeep.com//post/test-first-pair-development/</link>
+            <link>https://thinkuldeep.com/post/test-first-pair-development/</link>
             <pubDate>Sat, 15 Sep 2018 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/test-first-pair-development/</guid>
+            <guid>https://thinkuldeep.com/post/test-first-pair-development/</guid>
             <description>Agile software development methodology is the key selling point for most of the IT organisations, however many of the organisations have gone by the literal meaning of the word &amp;ldquo;Agile&amp;rdquo;. They follow agile practices without really being agile. If we go by Manifesto for Agile Software Development, it focus more on human factor (people, interaction, collaboration) which produces working software as per the need of time, than on processes, tools and strict planning.</description>
         </item>
         
         <item>
             <title>Accept the change!</title>
-            <link>https://thinkuldeep.com//post/accept_the_change/</link>
+            <link>https://thinkuldeep.com/post/accept_the_change/</link>
             <pubDate>Thu, 09 Aug 2018 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/accept_the_change/</guid>
+            <guid>https://thinkuldeep.com/post/accept_the_change/</guid>
             <description>The change is inevitable and constant; it is a part of our life. Sooner or later, we have to accept the change. 13 years ago, I joined a small IT organisation of around 100 people, as a developer. I have grown with the organisation; a 40 times growth journey. I really thank the organisation for giving me opportunity, and transforming me, what I am today. Now, the time has come to accept a change, and start a new journey.</description>
         </item>
         

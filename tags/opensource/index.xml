@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>opensource on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/opensource/</link>
+        <link>https://thinkuldeep.com/tags/opensource/</link>
         <description>Recent content in opensource on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,10 +11,10 @@
         <lastBuildDate>Sun, 24 Aug 2025 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/opensource/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Implementing a Proxy for Single Sign-On (SSO) Authentication</title>
-            <link>https://thinkuldeep.com//post/sso-proxy/</link>
+            <link>https://thinkuldeep.com/post/sso-proxy/</link>
             <pubDate>Sun, 24 Aug 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/sso-proxy/</guid>
+            <guid>https://thinkuldeep.com/post/sso-proxy/</guid>
             <description>Enterprise integrations almost always require authentication and authorization. In particular, Single Sign-On (SSO) with Multi-Factor Authentication (MFA) has become a standard practice in modern enterprise applications.
 But here’s the challenge:
  When experimenting with new integrations, building spikes, or running proofs of concept (POCs), setting up a full SSO environment upfront can be cumbersome. Sometimes all you need is a way to quickly test APIs that are locked behind SSO.</description>
@@ -22,30 +22,30 @@ But here’s the challenge:
         
         <item>
             <title>Speaker | Pre AI Impact Summit: Openness in AI</title>
-            <link>https://thinkuldeep.com//event/pre-ai-impact-summit-openess-in-ai/</link>
+            <link>https://thinkuldeep.com/event/pre-ai-impact-summit-openess-in-ai/</link>
             <pubDate>Mon, 11 Aug 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/pre-ai-impact-summit-openess-in-ai/</guid>
+            <guid>https://thinkuldeep.com/event/pre-ai-impact-summit-openess-in-ai/</guid>
             <description>India will host the AI Impact Summit 2026, reaffirming its commitment to making Artificial Intelligence (AI) accessible and beneficial for the public good. The event will explore how AI can address real-world challenges in healthcare, education, agriculture, climate change, and governance—building on the momentum of global gatherings like the AI Action Summit France, AI Seoul Summit, and AI Safety Summit.
 As part of the lead-up to the summit, OpenUK and OpenHQ have been hosting pre-summit events to spark conversations around AI openness.</description>
         </item>
         
         <item>
             <title>Speaker - Gatherverse XREvolve Summit 2025 | AI and XR</title>
-            <link>https://thinkuldeep.com//event/gatherverse-xrevolve-summit-2025/</link>
+            <link>https://thinkuldeep.com/event/gatherverse-xrevolve-summit-2025/</link>
             <pubDate>Wed, 25 Jun 2025 23:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/gatherverse-xrevolve-summit-2025/</guid>
+            <guid>https://thinkuldeep.com/event/gatherverse-xrevolve-summit-2025/</guid>
             <description>XREvolve Summit serves a comprehensive platform for exploring the latest advancements, applications, applied sciences and progresses within AI, AR, VR, and the broader domains of the metaverse such as spatial computing. It is backed by Gatherverse community, that advocates humanity-first standards in accessibility, education, equality, community development, safety &amp;amp; privacy, wellness, and ethics within the metaverse and emerging technologies.
 This year&amp;rsquo;s focus is AR and AI: The Intersection of the Future, that open up the extraordinary and near limitless possibilities for humanity.</description>
         </item>
         
         <item>
             <title>Speaker - Gatherverse Summit 2025</title>
-            <link>https://thinkuldeep.com//event/gatherverse-summit-2025/</link>
+            <link>https://thinkuldeep.com/event/gatherverse-summit-2025/</link>
             <pubDate>Tue, 25 Feb 2025 23:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/gatherverse-summit-2025/</guid>
+            <guid>https://thinkuldeep.com/event/gatherverse-summit-2025/</guid>
             <description>📢 Gatherverse Summit 2025: Innovating for Human Betterment Now and Forever. Climb.
  GatherVerse Summit 2025 marks the fourth annual gathering of global experts and community leaders discussing humanity-first standards in the approach to AI, the metaverse, and emerging technologies
  I&amp;rsquo;m excited to be part of the Roundtable Panel Discussion on &amp;ldquo;The Metaverse United : How AI and XR Can Deepen Human Connections&amp;rdquo; alongside industry leaders and innovators!
@@ -54,20 +54,20 @@ This year&amp;rsquo;s focus is AR and AI: The Intersection of the Future, that o
         
         <item>
             <title>Immersive AI at IPOS 2024: Transforming the Process Sector</title>
-            <link>https://thinkuldeep.com//event/ipos-dats-conference/</link>
+            <link>https://thinkuldeep.com/event/ipos-dats-conference/</link>
             <pubDate>Wed, 18 Dec 2024 23:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/ipos-dats-conference/</guid>
+            <guid>https://thinkuldeep.com/event/ipos-dats-conference/</guid>
             <description>IPOS 2024 was an inspiring technology summit focused on the innovations, digitalization, and disruptions shaping the downstream oil &amp;amp; gas, petrochemicals, fertilizers, and process manufacturing sectors. The event provided deep insights into operational excellence, optimization, Industry 4.0, sustainability, safety, and more.
 Hosted alongside the Digitalization &amp;amp; Automation Technology Summit and Expo (DATs 2024) by the Institute of Technological Excellence (ITEx), this summit brought together downstream industry leaders and technologists to exchange knowledge and ideas.</description>
         </item>
         
         <item>
             <title>Speaker - Gatherverse Virtual World Symposium 2024</title>
-            <link>https://thinkuldeep.com//event/gatherverse-virtual-world-symposium/</link>
+            <link>https://thinkuldeep.com/event/gatherverse-virtual-world-symposium/</link>
             <pubDate>Tue, 15 Oct 2024 23:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/gatherverse-virtual-world-symposium/</guid>
+            <guid>https://thinkuldeep.com/event/gatherverse-virtual-world-symposium/</guid>
             <description>📢 Virtual World Symposium: Join us as we dive deep into the future of AI-powered virtual worlds:
  What are they? Where are they headed? And why is it crucial to discuss these transformative spaces to..day?
  This symposium will also unpack spatial intelligence and its role in defining and enhancing immersive environments. As we step into a new era of digital interaction, this event will provide insights into the challenges and opportunities that virtual worlds bring to society.</description>
@@ -75,30 +75,30 @@ Hosted alongside the Digitalization &amp;amp; Automation Technology Summit and E
         
         <item>
             <title>Featured in XTIC Chronicle, IIT Madras Newsletter</title>
-            <link>https://thinkuldeep.com//post/xtic-newsletter-sep-2024/</link>
+            <link>https://thinkuldeep.com/post/xtic-newsletter-sep-2024/</link>
             <pubDate>Mon, 23 Sep 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/xtic-newsletter-sep-2024/</guid>
+            <guid>https://thinkuldeep.com/post/xtic-newsletter-sep-2024/</guid>
             <description>I am excited to share that my article explaining my book has been featured in the recent September edition of the XTIC Chronicle, a quarterly newsletter published by XTIC (Experiential Technology Innovation Centre) at IIT Madras. As India’s first research and product innovation center dedicated to Virtual Reality, Augmented Reality, Mixed Reality, and Haptics. XTIC provides a platform for cutting-edge insights from academia, industry, startups, and CAVE members.
 XTIC Chronicle Overview The XTIC Chronicle is a valuable resource for all levels of readers interested in the latest advancements in XR technology.</description>
         </item>
         
         <item>
             <title>Speaker - Gatherverse XREvolve Summit 2024</title>
-            <link>https://thinkuldeep.com//event/gatherverse-xrevolve-summit/</link>
+            <link>https://thinkuldeep.com/event/gatherverse-xrevolve-summit/</link>
             <pubDate>Wed, 22 May 2024 23:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/gatherverse-xrevolve-summit/</guid>
+            <guid>https://thinkuldeep.com/event/gatherverse-xrevolve-summit/</guid>
             <description>XREvolve Summit serves a comprehensive platform for exploring the latest advancements, applications, applied sciences and progresses within AR, VR, and the broader domains of the metaverse such as spatial computing and mixed reality. It is backed by Gatherverse community, that advocates humanity-first standards in accessibility, education, equality, community development, safety &amp;amp; privacy, wellness, and ethics within the metaverse and emerging technologies.
 This year&amp;rsquo;s focus is XR : Interface of AI, that open up the extraordinary and near limitless possibilities for humanity.</description>
         </item>
         
         <item>
             <title>MIPS kick off event, XTIC, IIT Madras</title>
-            <link>https://thinkuldeep.com//event/metaverse-india-policy-and-standards/</link>
+            <link>https://thinkuldeep.com/event/metaverse-india-policy-and-standards/</link>
             <pubDate>Mon, 06 May 2024 23:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/metaverse-india-policy-and-standards/</guid>
+            <guid>https://thinkuldeep.com/event/metaverse-india-policy-and-standards/</guid>
             <description>Metaverse India Policy and Standards (MIPS) is a pioneering initiative led by Experiential Technology Innovation Centre (XTIC), serving as India’s premier research and product innovation hub for Virtual Reality, Augmented Reality, Mixed Reality, and Haptics, hosted at IIT Madras.
 It&amp;rsquo;s an honor to be the member of MIPS and showcase my book Exploring the Metaverse: Redefining Reality in the Digital Age, which aligns closely with the initiative&amp;rsquo;s objectives.
 I extend my gratitude to Thriveni Palanivelu for orchestrating a seamless event.</description>
@@ -106,10 +106,10 @@ I extend my gratitude to Thriveni Palanivelu for orchestrating a seamless event.
         
         <item>
             <title>XR in India — A Whitepaper by XTIC, IIT Madras</title>
-            <link>https://thinkuldeep.com//post/xr-in-india-a-whitepaper-by-xtic-iit-madras/</link>
+            <link>https://thinkuldeep.com/post/xr-in-india-a-whitepaper-by-xtic-iit-madras/</link>
             <pubDate>Sat, 04 May 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/xr-in-india-a-whitepaper-by-xtic-iit-madras/</guid>
+            <guid>https://thinkuldeep.com/post/xr-in-india-a-whitepaper-by-xtic-iit-madras/</guid>
             <description>XTIC (Experiential Technology Innovation Centre), is India’s 1st Research &amp;amp; Product Innovation centre for Virtual Reality, Augmented Reality, Mixed Reality and Haptics at IIT Madras. It has published a white-paper and skill gap analysis for Experiential Technologies in India.
 Whitepaper - XR in India
 It was great to be a contributor in this research. It is authored by 19 industry leader from various enterprises, institutes and government body. Excursions from this research also got published in The Hindu Businessline.</description>

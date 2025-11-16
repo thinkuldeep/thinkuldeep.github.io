@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>extendability on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/extendability/</link>
+        <link>https://thinkuldeep.com/tags/extendability/</link>
         <description>Recent content in extendability on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,10 +11,10 @@
         <lastBuildDate>Sun, 27 May 2012 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/extendability/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>JavaScript Plugin Framework</title>
-            <link>https://thinkuldeep.com//post/javascript-plugin-framework/</link>
+            <link>https://thinkuldeep.com/post/javascript-plugin-framework/</link>
             <pubDate>Sun, 27 May 2012 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/javascript-plugin-framework/</guid>
+            <guid>https://thinkuldeep.com/post/javascript-plugin-framework/</guid>
             <description>Javascript Plugin Framework is implemented to add extra functionality in the existing Web based application without actually changing the application code. This framework is also helpful when some functionality need to control for different user profiles.
 For example, to add one extra button in a menu we can write the plugin directly, by defining what that button is going to do on click, what all events should it handle, in one javascript file rather than making changes in the application code for the same.</description>
         </item>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>mail on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/mail/</link>
+        <link>https://thinkuldeep.com/tags/mail/</link>
         <description>Recent content in mail on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,10 +11,10 @@
         <lastBuildDate>Sun, 22 Jan 2012 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/mail/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Managing Calendar and Invites in Java</title>
-            <link>https://thinkuldeep.com//post/java-calendar-and-invite/</link>
+            <link>https://thinkuldeep.com/post/java-calendar-and-invite/</link>
             <pubDate>Sun, 22 Jan 2012 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/java-calendar-and-invite/</guid>
+            <guid>https://thinkuldeep.com/post/java-calendar-and-invite/</guid>
             <description>Calendars are used to store formation for various events. Calendar viewer displays the month-date view and for each day displays the events/reminders information.
 Invites are the events in the form of email. Once the invite for an event sent to a user via email then that event will be stored in the calendar view and same can be seen in the day information of the calendar view.
 Calendars Calendar data can be stored in files; there are some standard formats for storing calendars iCalendar is a computer file format which allows Internet users to send meeting requests and tasks to other Internet users, via email, or sharing files with an extension of .</description>
@@ -22,10 +22,10 @@ Calendars Calendar data can be stored in files; there are some standard formats 
         
         <item>
             <title>Mail Merge in Java</title>
-            <link>https://thinkuldeep.com//post/java-mail-merge/</link>
+            <link>https://thinkuldeep.com/post/java-mail-merge/</link>
             <pubDate>Tue, 10 Jan 2012 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/java-mail-merge/</guid>
+            <guid>https://thinkuldeep.com/post/java-mail-merge/</guid>
             <description>MailMerge is a process to create personalized letters and pre-addressed envelopes or mailing labels for mass mailings from a word processing document (Template). A template contains placeholders (Fields) along with the actual content. The placeholders are filled by the data source which is typically a spreadsheet or a database having column for each place holders.
 This article talks about the java approach for generating multiple documents from a single MS Word template.</description>
         </item>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Node MCU on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/node-mcu/</link>
+        <link>https://thinkuldeep.com/tags/node-mcu/</link>
         <description>Recent content in Node MCU on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,10 +11,10 @@
         <lastBuildDate>Thu, 05 May 2016 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/node-mcu/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Smart bottle IOT concept</title>
-            <link>https://thinkuldeep.com//post/building-smart-bottle-concept/</link>
+            <link>https://thinkuldeep.com/post/building-smart-bottle-concept/</link>
             <pubDate>Thu, 05 May 2016 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/building-smart-bottle-concept/</guid>
+            <guid>https://thinkuldeep.com/post/building-smart-bottle-concept/</guid>
             <description>The rapid growth of Internet of Things (IoT) and miniature wearable biosensors have generated new opportunities for personalized eHealth and mHealth services. We present a case study of an intelligent cap that can measure the amount of water in the bottle, monitor activity of opening or closing of bottle cap. This paper presents a Proof of Concept implementation for such a connected smart bottle that sends measurements to the IoT Platform.</description>
         </item>
         

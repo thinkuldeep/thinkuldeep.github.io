@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>analysis on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/analysis/</link>
+        <link>https://thinkuldeep.com/tags/analysis/</link>
         <description>Recent content in analysis on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,28 +11,28 @@
         <lastBuildDate>Mon, 01 Jun 2020 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/analysis/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>The Growing List of XR Devices</title>
-            <link>https://thinkuldeep.com//post/the-growing-list-of-xr-devices/</link>
+            <link>https://thinkuldeep.com/post/the-growing-list-of-xr-devices/</link>
             <pubDate>Mon, 01 Jun 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/the-growing-list-of-xr-devices/</guid>
+            <guid>https://thinkuldeep.com/post/the-growing-list-of-xr-devices/</guid>
             <description>In my earlier article, I have explained the fundamentals of XR and the type of XR, and the popular devices in those XR types. ARVR is not the only about Head-Mounted Display(HMD) devices. There is an ever-growing list of Google ARCore supported smartphones/tablets and ARKit is being supported in recent Apple phones. But still, when when it comes to AR and VR devices, the first thing that comes in mind is head-mounted display devices (HMD), however, the newer mobile phones/tablets are now coming with AR/VR support with a minimal set of tools attached.</description>
         </item>
         
         <item>
             <title>Framework for choosing an IoT Platform</title>
-            <link>https://thinkuldeep.com//post/choosing_iot_platform/</link>
+            <link>https://thinkuldeep.com/post/choosing_iot_platform/</link>
             <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/choosing_iot_platform/</guid>
+            <guid>https://thinkuldeep.com/post/choosing_iot_platform/</guid>
             <description>As we understand “IoT Platform” is an essential building block of IoT Ecosystem . A platform essentially decouples the business application from low level details of the technology stack and required services. Thus, it makes more sense to go for an off-the-shelf platform that provide all the relevant features and required flexibility, instead of developing the whole IoT stack from scratch. Selection of an IoT Platform is a key to develop a scalable and robust IoT Solution.</description>
         </item>
         
         <item>
             <title>IOT Cloud Platforms -  A Comparative Study</title>
-            <link>https://thinkuldeep.com//post/iot_cloud_platform_comparision/</link>
+            <link>https://thinkuldeep.com/post/iot_cloud_platform_comparision/</link>
             <pubDate>Fri, 22 Aug 2014 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/iot_cloud_platform_comparision/</guid>
+            <guid>https://thinkuldeep.com/post/iot_cloud_platform_comparision/</guid>
             <description>The vision of IoT can be seen from two perspectives— ‘Internet’ centric and ‘Thing’ centric. The Internet centric architecture will involve internet services being the main focus while data is contributed by the objects. In the object centric architecture, the smart objects take the center stage.
 In order to realize the full potential of cloud computing as well as ubiquitous sensing, a combined framework with a cloud at the center seems to be most viable.</description>
         </item>

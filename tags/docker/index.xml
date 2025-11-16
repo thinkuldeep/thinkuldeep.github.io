@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>docker on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/docker/</link>
+        <link>https://thinkuldeep.com/tags/docker/</link>
         <description>Recent content in docker on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,10 +11,10 @@
         <lastBuildDate>Sat, 26 Oct 2024 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Understanding the Thread Protocol and Network</title>
-            <link>https://thinkuldeep.com//post/iot-the-thread-protocol-and-network/</link>
+            <link>https://thinkuldeep.com/post/iot-the-thread-protocol-and-network/</link>
             <pubDate>Sat, 26 Oct 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/iot-the-thread-protocol-and-network/</guid>
+            <guid>https://thinkuldeep.com/post/iot-the-thread-protocol-and-network/</guid>
             <description>In previous articles, we explored MQTT in-depth, even setting up a web-based remote controller that simulated a physical button. We did this in a “Soft IoT” way, avoiding hardware intricacies. However, in IoT, networking between devices plays a crucial role. Not all IoT devices are connected to the Internet or can communicate via MQTT over the internet, as shown in our earlier examples. These devices need a low-latency, low-power network that can auto-discover and manage device communication seamlessly.</description>
         </item>
         

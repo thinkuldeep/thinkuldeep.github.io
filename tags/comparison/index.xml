@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>comparison on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/comparison/</link>
+        <link>https://thinkuldeep.com/tags/comparison/</link>
         <description>Recent content in comparison on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,39 +11,39 @@
         <lastBuildDate>Mon, 17 Aug 2015 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/comparison/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Framework for choosing an IoT Platform</title>
-            <link>https://thinkuldeep.com//post/choosing_iot_platform/</link>
+            <link>https://thinkuldeep.com/post/choosing_iot_platform/</link>
             <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/choosing_iot_platform/</guid>
+            <guid>https://thinkuldeep.com/post/choosing_iot_platform/</guid>
             <description>As we understand “IoT Platform” is an essential building block of IoT Ecosystem . A platform essentially decouples the business application from low level details of the technology stack and required services. Thus, it makes more sense to go for an off-the-shelf platform that provide all the relevant features and required flexibility, instead of developing the whole IoT stack from scratch. Selection of an IoT Platform is a key to develop a scalable and robust IoT Solution.</description>
         </item>
         
         <item>
             <title>IOT Cloud Platforms -  A Comparative Study</title>
-            <link>https://thinkuldeep.com//post/iot_cloud_platform_comparision/</link>
+            <link>https://thinkuldeep.com/post/iot_cloud_platform_comparision/</link>
             <pubDate>Fri, 22 Aug 2014 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/iot_cloud_platform_comparision/</guid>
+            <guid>https://thinkuldeep.com/post/iot_cloud_platform_comparision/</guid>
             <description>The vision of IoT can be seen from two perspectives— ‘Internet’ centric and ‘Thing’ centric. The Internet centric architecture will involve internet services being the main focus while data is contributed by the objects. In the object centric architecture, the smart objects take the center stage.
 In order to realize the full potential of cloud computing as well as ubiquitous sensing, a combined framework with a cloud at the center seems to be most viable.</description>
         </item>
         
         <item>
             <title>Groovy - Getting Started</title>
-            <link>https://thinkuldeep.com//post/groovy-getting-started/</link>
+            <link>https://thinkuldeep.com/post/groovy-getting-started/</link>
             <pubDate>Mon, 20 May 2013 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/groovy-getting-started/</guid>
+            <guid>https://thinkuldeep.com/post/groovy-getting-started/</guid>
             <description>This article help you start with Groovy, with step by step guide and series of examples. It starts with an overview and then covers in detail examples.
 Groovy Overview Groovy is an Object Oriented Scripting Language which provides Dynamic, Easy-to-use and Integration capabilities to the Java Virtual Machine. It absorbs most of the syntax from Java and it is much powerful in terms of functionalities which is manifested in the form Closures, Dynamic Typing, Builders etc.</description>
         </item>
         
         <item>
             <title>Scala - Getting Started - Part 2</title>
-            <link>https://thinkuldeep.com//post/scala-getting-started-part2/</link>
+            <link>https://thinkuldeep.com/post/scala-getting-started-part2/</link>
             <pubDate>Sat, 18 May 2013 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/scala-getting-started-part2/</guid>
+            <guid>https://thinkuldeep.com/post/scala-getting-started-part2/</guid>
             <description>In previous article we learned basics of Scala, in this articles we will learn how to setup build scripts for scala and build applications using scala.
 We will also learn few web development frameworks for Scala and compare them with similar framework in Java.
 Building Scala Applications Below program demonstrates the use of Scala script with Maven, Ant, and logging library – LogBack.
@@ -52,10 +52,10 @@ Integration with Ant Below example shows how Scala project can be built by the a
         
         <item>
             <title>Scala - Getting Started - Part 1</title>
-            <link>https://thinkuldeep.com//post/scala-getting-started-part1/</link>
+            <link>https://thinkuldeep.com/post/scala-getting-started-part1/</link>
             <pubDate>Mon, 06 May 2013 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/scala-getting-started-part1/</guid>
+            <guid>https://thinkuldeep.com/post/scala-getting-started-part1/</guid>
             <description>This article help you to start with Scala, with step by step guide and series of examples. It starts with an overview and then covers in detail examples. In later articles, I will write about feature comparison with other languages. It article is helpful for people coming from Java background, how it is not the prerequisites.
 Scala Overview Scala is a general purpose programming language designed to express common programming patterns in a concise, elegant, and type-safe way.</description>
         </item>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Android on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/android/</link>
+        <link>https://thinkuldeep.com/tags/android/</link>
         <description>Recent content in Android on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,20 +11,20 @@
         <lastBuildDate>Sat, 01 Nov 2025 01:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Patents and Papers</title>
-            <link>https://thinkuldeep.com//about/patents/</link>
+            <link>https://thinkuldeep.com/about/patents/</link>
             <pubDate>Sat, 01 Nov 2025 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/patents/</guid>
+            <guid>https://thinkuldeep.com/about/patents/</guid>
             <description>This listing includes patent applications that are pending as well as patents that have already been granted by the United States Patent and Trademark Office (USPTO). It also includes the papers published in various conferences and journals.
  ITU-T Technical Report - Potential requirements of IoT-based Perishable Goods Monitoring System ITU-T Study Group 20 accepted my recommendation as a Technical Report. It defines key layers for IoT-based retail monitoring systems — including Sensing, Communication, Integration, Application &amp;amp; Analytics, and Management &amp;amp; Maintenance layers.</description>
         </item>
         
         <item>
             <title>Patent Granted: Spatially interact with 3D Model from a 2D app in the smart glasses</title>
-            <link>https://thinkuldeep.com//post/patent-granted-xr-4/</link>
+            <link>https://thinkuldeep.com/post/patent-granted-xr-4/</link>
             <pubDate>Sun, 10 Aug 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/patent-granted-xr-4/</guid>
+            <guid>https://thinkuldeep.com/post/patent-granted-xr-4/</guid>
             <description>💡 Innovation often starts with solving everyday problems. While working on XR solutions and building operating systems for smart glasses, we solved one such challenge.
 Earlier, with our patented AppSpace method, we enabled rendering a phone’s 2D apps in 3D on smart glasses. But we found a gap — there was no direct way for a 2D app (like Chrome) to interact with 3D spatial content.
 🏅 Thrilled to share that our solution to this is now recognized with a U.</description>
@@ -32,10 +32,10 @@ Earlier, with our patented AppSpace method, we enabled rendering a phone’s 2D 
         
         <item>
             <title>Patent Granted: Streaming of Composite Alpha Blended AR/MR Video</title>
-            <link>https://thinkuldeep.com//post/patent-granted-xr-3/</link>
+            <link>https://thinkuldeep.com/post/patent-granted-xr-3/</link>
             <pubDate>Tue, 03 Jun 2025 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/patent-granted-xr-3/</guid>
+            <guid>https://thinkuldeep.com/post/patent-granted-xr-3/</guid>
             <description>💡 Innovation Often Begins with Solving Everyday Problems
 In our daily work, we regularly develop methods, processes, features, or approaches to address specific challenges. While these may initially seem like routine solutions, some of them quietly evolve into true innovations—often without us realizing it at the time.
 🏅 I’m excited to share that one such innovation has now been recognized with a U.S. Patent!
@@ -44,10 +44,10 @@ Patent No : US 12,323,679 B2 This patent, titled _&amp;ldquo;Streaming of Compos
         
         <item>
             <title>OpenThread Commissioner Implementation in Java</title>
-            <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-java/</link>
+            <link>https://thinkuldeep.com/post/iot-thread-external-commissioner-java/</link>
             <pubDate>Mon, 10 Mar 2025 11:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/iot-thread-external-commissioner-java/</guid>
+            <guid>https://thinkuldeep.com/post/iot-thread-external-commissioner-java/</guid>
             <description>In a previous article, we explored how to build and use an Android app as an external commissioner to onboard Thread devices into a network. This article takes it a step further by demonstrating how to implement a Java-based external commissioner.
 The thread commissioning process involves the following key steps:
  Discovering the Border Router Connecting to the Border Router Adding Joiner Rules Joining the Thread Network  In this guide, we will implement these steps in a Java application, providing a clear and structured approach to external commissioning in OpenThread.</description>
@@ -55,10 +55,10 @@ The thread commissioning process involves the following key steps:
         
         <item>
             <title>Building and Using OpenThread Commissioner Mobile App</title>
-            <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-android/</link>
+            <link>https://thinkuldeep.com/post/iot-thread-external-commissioner-android/</link>
             <pubDate>Wed, 05 Mar 2025 11:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/iot-thread-external-commissioner-android/</guid>
+            <guid>https://thinkuldeep.com/post/iot-thread-external-commissioner-android/</guid>
             <description>In our previous article, we set up an external commissioner outside a Thread network using a command-line tool on a PC. However, OpenThread also provides a mobile app that can serve as an external commissioner.
 This guide will walk you through building and using the OpenThread Commissioner mobile app to provision a device onto a Thread network.
 Building the OpenThread Commissioner Mobile App OpenThread provides an Android app source, which requires Android Studio and Android NDK to build.</description>
@@ -66,69 +66,69 @@ Building the OpenThread Commissioner Mobile App OpenThread provides an Android a
         
         <item>
             <title>Patent Granted: Square orientation for stereoscopic rendering</title>
-            <link>https://thinkuldeep.com//post/patent-granted-xr-2/</link>
+            <link>https://thinkuldeep.com/post/patent-granted-xr-2/</link>
             <pubDate>Thu, 12 Sep 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/patent-granted-xr-2/</guid>
+            <guid>https://thinkuldeep.com/post/patent-granted-xr-2/</guid>
             <description>In our day-to-day work, we often create methods, processes, approaches, or features to address specific needs and challenges. Sometimes, these solutions turn into significant innovations, even if we don&amp;rsquo;t immediately recognize them as such. This is also true in our professional work setup, where we may invent without fully realizing it.
 I&amp;rsquo;m thrilled to share that a new patent has been granted to Lenovo for their groundbreaking work in the ThinkReality XR product line, and I am honored to be a co-inventor on this work.</description>
         </item>
         
         <item>
             <title>Patent Granted: Manage multiple 2D apps in a 3D layout</title>
-            <link>https://thinkuldeep.com//post/patent-granted-xr-1/</link>
+            <link>https://thinkuldeep.com/post/patent-granted-xr-1/</link>
             <pubDate>Thu, 13 Jun 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/patent-granted-xr-1/</guid>
+            <guid>https://thinkuldeep.com/post/patent-granted-xr-1/</guid>
             <description>In our day-to-day work, we often create methods, processes, approaches, or features to address specific needs and challenges. Sometimes, these solutions turn into significant innovations, even if we don&amp;rsquo;t immediately recognize them as such. This is also true in our professional work setup, where we may invent without fully realizing it.
 I&amp;rsquo;m thrilled to share that a new patent has been granted to Lenovo for their groundbreaking work in the ThinkReality XR product line, and I am honored to be a co-inventor on this work.</description>
         </item>
         
         <item>
             <title>Getting into the Metaverse — Part 2</title>
-            <link>https://thinkuldeep.com//post/getting-into-the-metaverse-part-2/</link>
+            <link>https://thinkuldeep.com/post/getting-into-the-metaverse-part-2/</link>
             <pubDate>Tue, 21 Dec 2021 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/getting-into-the-metaverse-part-2/</guid>
+            <guid>https://thinkuldeep.com/post/getting-into-the-metaverse-part-2/</guid>
             <description>Metaverse is the next Internet, that’s what we summarized it in the previous article. We discussed it’s characteristics and building blocks. In this article we will discuss some prominent use cases of the metaverse. We understand the metaverse as a trillion dollar opportunity in the next few years. It is growing at real fast speed, but without effective rules and regulations, without effective standards and practices, and we will also touch upon this concerning part of metaverse.</description>
         </item>
         
         <item>
             <title>Getting into the Metaverse — Part 1</title>
-            <link>https://thinkuldeep.com//post/getting-into-the-metaverse-part-1/</link>
+            <link>https://thinkuldeep.com/post/getting-into-the-metaverse-part-1/</link>
             <pubDate>Mon, 20 Dec 2021 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/getting-into-the-metaverse-part-1/</guid>
+            <guid>https://thinkuldeep.com/post/getting-into-the-metaverse-part-1/</guid>
             <description>Metaverse is the most enquired word after Facebook renamed itself to “Meta” to align to their metaversal vision. However, the term “metaverse” was coined 3 decade ago by Neal Stephenson, in his 1992 science-fiction novel “Snow Crash,” which envisions a virtual reality-based successor to the internet. In the novel, people use digital avatars of themselves to explore the online world, often as a way of escaping a dystopian reality.
 Today, Metaverse is being considered as a $800 billion path with double digit growth in next 5 years, where industry is trying to get most out of it by co-creating with communities, and focusing on it’s cost-effective universal acceptance.</description>
         </item>
         
         <item>
             <title>Try everything in your space - WebXR</title>
-            <link>https://thinkuldeep.com//post/try-everything-in-your-space-webxr/</link>
+            <link>https://thinkuldeep.com/post/try-everything-in-your-space-webxr/</link>
             <pubDate>Mon, 29 Nov 2021 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/try-everything-in-your-space-webxr/</guid>
+            <guid>https://thinkuldeep.com/post/try-everything-in-your-space-webxr/</guid>
             <description>Today’s websites are designed first for mobile and then for other platforms, and it is getting important to bring mobile XR functionality into the websites. Google’s scene viewer is bringing WebXR for mass adoption. Theoretically any 3D model can be tried in your space, and you can easily built AR experience for your website.
 eCommerce has already transformed into mCommerse, and now taking steps into xCommerse (XR Commerce). 3D Model viewer is very common requirement for across different domains, and it will be the basic requirement of developing for Metaverse as well as for any digital business in future.</description>
         </item>
         
         <item>
             <title>A new form of WebXR</title>
-            <link>https://thinkuldeep.com//post/a-new-form-of-webxr/</link>
+            <link>https://thinkuldeep.com/post/a-new-form-of-webxr/</link>
             <pubDate>Wed, 27 May 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/a-new-form-of-webxr/</guid>
+            <guid>https://thinkuldeep.com/post/a-new-form-of-webxr/</guid>
             <description>Accessing native XR features from the device using a web page is another form of WebXR.
 In this article, I want to share an experiment where I tried to control the android device’s native features such as controlling volume and camera torch from a web page. This use case can be really useful in the XR world, where I can control the feature access in the device from cloud services, even the whole look and feel for showing the device controls can be managed from a hosted web page.</description>
         </item>
         
         <item>
             <title>Run a 2D App in XR Container</title>
-            <link>https://thinkuldeep.com//post/run-a-2d-app-in-xr-container/</link>
+            <link>https://thinkuldeep.com/post/run-a-2d-app-in-xr-container/</link>
             <pubDate>Sat, 16 May 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/run-a-2d-app-in-xr-container/</guid>
+            <guid>https://thinkuldeep.com/post/run-a-2d-app-in-xr-container/</guid>
             <description>There are a number of Enterprise XR use cases where we have a need to open the existing 2D apps in the XR devices in a wrapper app, and this article covers a concept, have a look!
 After trying the OS level customization on an XR device, you may like to run your XR apps as a system app. Here is a simple article by Raju K
  Android System Apps development - Android Emulator Setup and guidelines to develop system applications</description>
@@ -136,59 +136,59 @@ After trying the OS level customization on an XR device, you may like to run you
         
         <item>
             <title>OS Customization for XR Device</title>
-            <link>https://thinkuldeep.com//post/os-customization-for-xr-devices/</link>
+            <link>https://thinkuldeep.com/post/os-customization-for-xr-devices/</link>
             <pubDate>Sun, 10 May 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/os-customization-for-xr-devices/</guid>
+            <guid>https://thinkuldeep.com/post/os-customization-for-xr-devices/</guid>
             <description>The Operating System of XR (AR VR) devices is mostly customized to the hardware of the device, and not just that the OS level customizations are needed to meet the enterprise needs such as integration with Enterprise MDM (Mobile Device Management) solutions (such as Intune, MobileIron and Airwatch), 3D lock screen, idle-timeout, custom home screen, custom settings, security, as so on.
 Most organizations currently using traditional hardware and software assets such as mobile devices, laptops, and desktops, and the processes and policies for managing these devices are quite stable and straightforward by now.</description>
         </item>
         
         <item>
             <title>User Account Management In XR</title>
-            <link>https://thinkuldeep.com//post/user-account-management-in-xr/</link>
+            <link>https://thinkuldeep.com/post/user-account-management-in-xr/</link>
             <pubDate>Sun, 26 Apr 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/user-account-management-in-xr/</guid>
+            <guid>https://thinkuldeep.com/post/user-account-management-in-xr/</guid>
             <description>In the previous article, we described the importance of interoperability in while building Enterprise XR solutions, In the article, we will discuss how to manage user accounts in the XR device, and implement single sign-on across the XR apps. We will use Android’s AccountManger approach to login into active directory and integrated it into Unity. Please read my earlier article on setting up the app in active directory, log in using android webview, considering a web-based company login form should appear for login, and no custom login form is allowed to capture the credentials.</description>
         </item>
         
         <item>
             <title>Enterprise XR - Interoperability</title>
-            <link>https://thinkuldeep.com//post/enterprise-xr-interoperability/</link>
+            <link>https://thinkuldeep.com/post/enterprise-xr-interoperability/</link>
             <pubDate>Sat, 28 Mar 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/enterprise-xr-interoperability/</guid>
+            <guid>https://thinkuldeep.com/post/enterprise-xr-interoperability/</guid>
             <description>In the previous article, we discussed implementing multi-factor authentication for an andorid application, and in the article we will cover another enterprise aspect, Interoperability.
 Interoperability is key aspect when we build enterprise solutions using XR technologies. The enterprises have digital assets in form of mobile apps, libraries, system APIs, and they can’t just throw away these existing investments, in fact, the XR apps must be implemented in such a way that it is interoperable with them seamlessly.</description>
         </item>
         
         <item>
             <title>Enterprise XR - Multi-Factor Authentication</title>
-            <link>https://thinkuldeep.com//post/enterprise-xr-multi-factor-authentication/</link>
+            <link>https://thinkuldeep.com/post/enterprise-xr-multi-factor-authentication/</link>
             <pubDate>Wed, 25 Mar 2020 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/enterprise-xr-multi-factor-authentication/</guid>
+            <guid>https://thinkuldeep.com/post/enterprise-xr-multi-factor-authentication/</guid>
             <description>XR use cases are growing with advancements in the devices, internet and development technologies. There is an ever-growing demand to build enterprise use cases using ARVR technology. Most enterprise use cases eventually require integration with an enterprise ecosystem such as IAM (Identity and Access Management), ERP, CRM, and single sign-on with other systems.
 Most organizations protect digital assets with a single sign-on using Multiple Factor Authentication (MFA). The MFA is generally a web-browser based authentication where the browser redirects to tenant’s authentication page where the user provides their credentials and then the user confirms another factor (PIN, OTP, SMS or mobile notifications), once it succeeds, it gets redirected back to the protected resource.</description>
         </item>
         
         <item>
             <title>Exploring the Smart Glasses</title>
-            <link>https://thinkuldeep.com//post/exploring-google-glass/</link>
+            <link>https://thinkuldeep.com/post/exploring-google-glass/</link>
             <pubDate>Mon, 20 Feb 2017 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-google-glass/</guid>
+            <guid>https://thinkuldeep.com/post/exploring-google-glass/</guid>
             <description>This article describes the fundamentals of light-weight smart glasses such as Google Glass and Vuzix M100 It also explain the development practices with pros and cons of its usage, limitation and future of these glasses in our lives.
 Google Glass Enterprise Edition Google Glass enterprise edition is a plain Android based smart glass that you can wear and performs operations just like a smartphone and with the use of a small screen located in the front of your right eye can perform a decent range of tasks.</description>
         </item>
         
         <item>
             <title>Exploring AndroidThings IoT</title>
-            <link>https://thinkuldeep.com//post/exploring-android-things/</link>
+            <link>https://thinkuldeep.com/post/exploring-android-things/</link>
             <pubDate>Sun, 10 Apr 2016 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/exploring-android-things/</guid>
+            <guid>https://thinkuldeep.com/post/exploring-android-things/</guid>
             <description>Android Things, an android based embedded operating system, is the new “it” thing in the Internet of Things(IOT) space. Developed by Google under the codename “Brillo, a.k.a. Project Brillo”, it takes the usual Android development stack—Android Studio, the official SDK, and Google Play Services—and applies it to the IOT.
 Google formally took the veils off of Brillo at its I/O 2015 conference. It is aimed to be used with low-power and memory constrained IOT devices, allowing the developers to build a smart device using Android APIs and Google Services.</description>
         </item>

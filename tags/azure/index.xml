@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>azure on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com//tags/azure/</link>
+        <link>https://thinkuldeep.com/tags/azure/</link>
         <description>Recent content in azure on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
@@ -11,40 +11,40 @@
         <lastBuildDate>Sat, 06 Jul 2024 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/azure/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Speaker - Azure AI Fostering Sense within XR World</title>
-            <link>https://thinkuldeep.com//event/azure-ai-fostering-sense-within-xr-world/</link>
+            <link>https://thinkuldeep.com/event/azure-ai-fostering-sense-within-xr-world/</link>
             <pubDate>Sat, 06 Jul 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/azure-ai-fostering-sense-within-xr-world/</guid>
+            <guid>https://thinkuldeep.com/event/azure-ai-fostering-sense-within-xr-world/</guid>
             <description>Season of AI, a virtual event series of the Microsoft Azure Developer Community by Reskill, stands as a flagship event in empowering aspiring professionals. Recently, I had the privilege of delivering a session, where I had the opportunity to guide the community and share insights from my experience in XR and AI development.
 It was an honor to accept this invitation, and special thanks to Rohit Sardana and Azkar Khan for extending the invitation.</description>
         </item>
         
         <item>
             <title>An Adventure to Remember: Making it to CareerMaker Meetup</title>
-            <link>https://thinkuldeep.com//event/careermaker-meetup-azure-developer-community/</link>
+            <link>https://thinkuldeep.com/event/careermaker-meetup-azure-developer-community/</link>
             <pubDate>Wed, 24 Apr 2024 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//event/careermaker-meetup-azure-developer-community/</guid>
+            <guid>https://thinkuldeep.com/event/careermaker-meetup-azure-developer-community/</guid>
             <description>The CareerMaker meetup, hosted by the Microsoft Azure Developer Community and managed by Reskill, stands as a flagship event in empowering aspiring professionals. Recently, I had the privilege of delivering a special keynote address at Microsoft Gurugram, where I had the opportunity to guide students from various institutes and share insights from my experience in product management.
 It was an honor to accept this invitation, as engaging with the young, fresh minds of our nation is not only an opportunity to learn from them but also a responsibility to impart valuable knowledge.</description>
         </item>
         
         <item>
             <title>Building a smart meeting room concept</title>
-            <link>https://thinkuldeep.com//post/building-smart-meeting-room-concept/</link>
+            <link>https://thinkuldeep.com/post/building-smart-meeting-room-concept/</link>
             <pubDate>Sun, 17 Apr 2016 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/building-smart-meeting-room-concept/</guid>
+            <guid>https://thinkuldeep.com/post/building-smart-meeting-room-concept/</guid>
             <description>On a usual day at office, if an employee wishes to book a meeting room, he or she first has to open their outlook account, check the calendar for its availability and then send a booking invitation. If they directly go to a meeting room, they have no way of knowing whether it is booked or not without checking the calendar.
 Smart Meeting Room is a step forward in automating the availability and booking procedure of a meeting room.</description>
         </item>
         
         <item>
             <title>IOT Cloud Platforms -  A Comparative Study</title>
-            <link>https://thinkuldeep.com//post/iot_cloud_platform_comparision/</link>
+            <link>https://thinkuldeep.com/post/iot_cloud_platform_comparision/</link>
             <pubDate>Fri, 22 Aug 2014 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//post/iot_cloud_platform_comparision/</guid>
+            <guid>https://thinkuldeep.com/post/iot_cloud_platform_comparision/</guid>
             <description>The vision of IoT can be seen from two perspectives— ‘Internet’ centric and ‘Thing’ centric. The Internet centric architecture will involve internet services being the main focus while data is contributed by the objects. In the object centric architecture, the smart objects take the center stage.
 In order to realize the full potential of cloud computing as well as ubiquitous sensing, a combined framework with a cloud at the center seems to be most viable.</description>
         </item>

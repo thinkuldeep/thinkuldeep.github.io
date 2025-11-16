@@ -8,15 +8,25 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Thu, 25 Sep 2025 10:58:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/thoughtworks/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sat, 15 Nov 2025 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/thoughtworks/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>About</title>
             <link>https://thinkuldeep.com//about/</link>
-            <pubDate>Sat, 01 Nov 2025 01:00:00 -0400</pubDate>
+            <pubDate>Sat, 15 Nov 2025 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//about/</guid>
             <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
 👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
+        </item>
+        
+        <item>
+            <title>Books</title>
+            <link>https://thinkuldeep.com//about/books/</link>
+            <pubDate>Sat, 15 Nov 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/books/</guid>
+            <description>📕 Jagjeevan  Living Larger than Life 📕 Jagjeevan: Living Larger Than Life is a heartfelt tribute to the extraordinary life and timeless wisdom of Shri Jagguram—an enlightened soul whose values shaped generations. Blending personal memories with profound life lessons, it captures the essence of a man who lived with humility, discipline, compassion, and unwavering purpose.
+ Through ten insightful chapters, the book explores heritage, resilience, responsibility, inner strength, family unity, conflict resolution, gratitude, and the power of one’s actions.</description>
         </item>
         
         <item>
@@ -60,16 +70,6 @@ This tool is particularly helpful for:
             <guid>https://thinkuldeep.com//event/pre-ai-impact-summit-openess-in-ai/</guid>
             <description>India will host the AI Impact Summit 2026, reaffirming its commitment to making Artificial Intelligence (AI) accessible and beneficial for the public good. The event will explore how AI can address real-world challenges in healthcare, education, agriculture, climate change, and governance—building on the momentum of global gatherings like the AI Action Summit France, AI Seoul Summit, and AI Safety Summit.
 As part of the lead-up to the summit, OpenUK and OpenHQ have been hosting pre-summit events to spark conversations around AI openness.</description>
-        </item>
-        
-        <item>
-            <title>Books</title>
-            <link>https://thinkuldeep.com//about/books/</link>
-            <pubDate>Sun, 06 Jul 2025 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/books/</guid>
-            <description>📕 Exploring the Metaverse  Redefining Reality in the Digital Age &amp;ldquo;Exploring the Metaverse&amp;rdquo; is a comprehensive guide to the metaverse, the future state of the internet. Prepare yourself for what&amp;rsquo;s ahead by understanding the opportunities and challenges of the metaverse. This book calls us to action, emphasizing that its evolution is in our hands. You can find a detailed synopsis of the book here.
-Available globally on Amazon and BPB Online as both paperback and eBook.</description>
         </item>
         
         <item>

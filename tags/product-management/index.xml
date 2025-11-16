@@ -8,7 +8,17 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Fri, 25 Jul 2025 11:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/product-management/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sat, 15 Nov 2025 01:00:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/product-management/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Books</title>
+            <link>https://thinkuldeep.com//about/books/</link>
+            <pubDate>Sat, 15 Nov 2025 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/books/</guid>
+            <description>📕 Jagjeevan  Living Larger than Life 📕 Jagjeevan: Living Larger Than Life is a heartfelt tribute to the extraordinary life and timeless wisdom of Shri Jagguram—an enlightened soul whose values shaped generations. Blending personal memories with profound life lessons, it captures the essence of a man who lived with humility, discipline, compassion, and unwavering purpose.
+ Through ten insightful chapters, the book explores heritage, resilience, responsibility, inner strength, family unity, conflict resolution, gratitude, and the power of one’s actions.</description>
+        </item>
+        
         <item>
             <title>Certificates</title>
             <link>https://thinkuldeep.com//about/certificates/</link>
@@ -16,16 +26,6 @@
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//about/certificates/</guid>
             <description> Microsoft Certified: Azure AI Fundamentals Generative AI Essentials 2 Expertise: Complete Concise Guide nRF Connect SDK Intermediate Bluetooth Low Energy Fundamentals nRF Connect SDK Fundamentals Building AI Elements of AI Product Management Enterprise Architecture Internet of Things (IOT) User Experience Design Taradata Certified Java Certified Programmer </description>
-        </item>
-        
-        <item>
-            <title>Books</title>
-            <link>https://thinkuldeep.com//about/books/</link>
-            <pubDate>Sun, 06 Jul 2025 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/books/</guid>
-            <description>📕 Exploring the Metaverse  Redefining Reality in the Digital Age &amp;ldquo;Exploring the Metaverse&amp;rdquo; is a comprehensive guide to the metaverse, the future state of the internet. Prepare yourself for what&amp;rsquo;s ahead by understanding the opportunities and challenges of the metaverse. This book calls us to action, emphasizing that its evolution is in our hands. You can find a detailed synopsis of the book here.
-Available globally on Amazon and BPB Online as both paperback and eBook.</description>
         </item>
         
         <item>

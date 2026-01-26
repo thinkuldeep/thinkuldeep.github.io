@@ -362,8 +362,23 @@
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
+        <loc>https://thinkuldeep.com/about/</loc>
+        <lastmod>2026-01-26T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/about/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/about/"
+        />
+    </url><url>
         <loc>https://thinkuldeep.com/tags/about/</loc>
-        <lastmod>2026-01-24T10:58:08-04:00</lastmod>
+        <lastmod>2026-01-26T01:00:00-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -375,6 +390,136 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://thinkuldeep.com/tags/about/"
+        />
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/change/</loc>
+        <lastmod>2026-01-26T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/tags/change/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/change/"
+        />
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/life/</loc>
+        <lastmod>2026-01-26T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/tags/life/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/life/"
+        />
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/me/</loc>
+        <lastmod>2026-01-26T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/tags/me/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/me/"
+        />
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/moments/</loc>
+        <lastmod>2026-01-26T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/motivational/</loc>
+        <lastmod>2026-01-26T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/tags/motivational/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/motivational/"
+        />
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/profile/</loc>
+        <lastmod>2026-01-26T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/tags/profile/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/profile/"
+        />
+    </url><url>
+        <loc>https://thinkuldeep.com/about/moments/</loc>
+        <lastmod>2026-01-26T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/about/moments/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/about/moments/"
+        />
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/thoughtworks/</loc>
+        <lastmod>2026-01-26T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/tags/thoughtworks/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com/de/tags/thoughtworks/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/thoughtworks/"
+        />
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/video/</loc>
+        <lastmod>2026-01-26T01:00:00-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/tags/video/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/video/"
         />
     </url><url>
         <loc>https://thinkuldeep.com/tags/agentic/</loc>
@@ -407,21 +552,6 @@
                 href="https://thinkuldeep.com/tags/books/"
         />
     </url><url>
-        <loc>https://thinkuldeep.com/tags/change/</loc>
-        <lastmod>2026-01-24T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/tags/change/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/change/"
-        />
-    </url><url>
         <loc>https://thinkuldeep.com/tags/development/</loc>
         <lastmod>2026-01-24T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -446,36 +576,6 @@
         <lastmod>2026-01-24T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/life/</loc>
-        <lastmod>2026-01-24T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/tags/life/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/life/"
-        />
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/motivational/</loc>
-        <lastmod>2026-01-24T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/tags/motivational/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/motivational/"
-        />
     </url><url>
         <loc>https://thinkuldeep.com/tags/platform/</loc>
         <lastmod>2026-01-24T10:58:08-04:00</lastmod>
@@ -541,26 +641,6 @@
         <lastmod>2026-01-24T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/thoughtworks/</loc>
-        <lastmod>2026-01-24T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/tags/thoughtworks/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://thinkuldeep.com/de/tags/thoughtworks/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/thoughtworks/"
-        />
     </url><url>
         <loc>https://thinkuldeep.com/post/dose-of-jagjeevan-1/</loc>
         <lastmod>2026-01-17T10:58:08-04:00</lastmod>
@@ -822,21 +902,6 @@
                 href="https://thinkuldeep.com/post/jagjeevan-avaiable-now/"
         />
     </url><url>
-        <loc>https://thinkuldeep.com/about/</loc>
-        <lastmod>2025-12-31T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/about/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/about/"
-        />
-    </url><url>
         <loc>https://thinkuldeep.com/tags/ethics/</loc>
         <lastmod>2025-12-31T01:00:00-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -852,60 +917,10 @@
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>https://thinkuldeep.com/tags/me/</loc>
-        <lastmod>2025-12-31T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/tags/me/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/me/"
-        />
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/moments/</loc>
-        <lastmod>2025-12-31T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/profile/</loc>
-        <lastmod>2025-12-31T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/tags/profile/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/profile/"
-        />
-    </url><url>
         <loc>https://thinkuldeep.com/tags/techgig/</loc>
         <lastmod>2025-12-31T01:00:00-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/video/</loc>
-        <lastmod>2025-12-31T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/tags/video/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/video/"
-        />
     </url><url>
         <loc>https://thinkuldeep.com/tags/vrara/</loc>
         <lastmod>2025-12-31T01:00:00-04:00</lastmod>
@@ -1201,21 +1216,6 @@
         <lastmod>2025-09-25T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/about/moments/</loc>
-        <lastmod>2025-09-08T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/about/moments/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/about/moments/"
-        />
     </url><url>
         <loc>https://thinkuldeep.com/post/ai-to-genai-to-agenticai/</loc>
         <lastmod>2025-09-01T10:58:08-04:00</lastmod>

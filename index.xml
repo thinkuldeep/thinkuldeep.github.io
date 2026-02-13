@@ -8,7 +8,18 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Tue, 10 Feb 2026 23:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Fri, 13 Feb 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Connecting Thread Devices to the Internet over CoAP</title>
+            <link>https://thinkuldeep.com/post/iot-thread-devices-coap/</link>
+            <pubDate>Fri, 13 Feb 2026 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/post/iot-thread-devices-coap/</guid>
+            <description>In my earlier IoT series, we explored Thread networks and protocols—how they form self-healing IPv6 mesh networks designed for low-power IoT environments.
+We looked at connectivity over UDP and TCP/HTTP protocols, and how Thread devices can reach the internet using a Border Router.
+In this article, we move one step further by implementing CoAP (Constrained Application Protocol) — a lightweight, REST-style protocol built on UDP and optimized for constrained devices and low-bandwidth networks.</description>
+        </item>
+        
         <item>
             <title>Speaker - Immersive Intelligent World - TEC-WG Meeting</title>
             <link>https://thinkuldeep.com/event/tec-wg-meeting1/</link>

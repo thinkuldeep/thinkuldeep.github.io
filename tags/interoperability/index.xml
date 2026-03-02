@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>interoperability on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com/tags/interoperability/</link>
+        <description>Recent content in interoperability on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Thu, 26 Feb 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/interoperability/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Server Driven UI with KMP - Cross Platform App Development</title>
+            <link>https://thinkuldeep.com/post/server-driven-ui-with-kmp/</link>
+            <pubDate>Thu, 26 Feb 2026 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/post/server-driven-ui-with-kmp/</guid>
+            <description>Over the years, I’ve written about interoperability and why it is essential for enterprise systems that must cross technological and business boundaries. Enterprises applications rarely live in isolation. They integrate across platforms, stacks, and ecosystems. Without proper planning, maintaining multiple platforms and technology stacks quickly becomes expensive and complex.
+This challenge becomes even more evident in cross-platform mobile development. I have previously explored solutions like Unity, PhoneGap (Now Cordova), React Native and Titanium.</description>
+        </item>
+        
+        <item>
+            <title>20 reflections of 20 years</title>
+            <link>https://thinkuldeep.com/post/20-of-20/</link>
+            <pubDate>Fri, 05 Jul 2024 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/post/20-of-20/</guid>
+            <description>On July 5, 2004, I embarked on my professional journey. These past 20 years have been nothing short of adventurous and fulfilling.
+ &amp;ldquo;Learning is a natural process, and it matures by sharing&amp;rdquo;
+ I&amp;rsquo;ve had a wealth of learnings throughout these two decades, as I worked on over 50 projects spanning various domains and technologies. I&amp;rsquo;ve had the privilege of directly working with over a thousand individuals from diverse backgrounds across different organizations.</description>
+        </item>
+        
+        <item>
+            <title>Panelist at FICCI XROS Fellowship Summit</title>
+            <link>https://thinkuldeep.com/event/ficci-xros-fellowship-summit/</link>
+            <pubDate>Tue, 21 Nov 2023 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/event/ficci-xros-fellowship-summit/</guid>
+            <description>Welcome to Internet 3.0, the transformative era where reality takes on new dimensions, driven by eXtending Reality (XR) at it&amp;rsquo;s core, along with AI, Cloud, IoT, and more. This evolution would be the product of collaborative efforts involving academia, government, industry, and individuals. I recently had the privilege of participating as a panelist at an event hosted by the pioneers shaping the future of the internet. In this article, I share my insights and a summary of this remarkable event.</description>
+        </item>
+        
+        <item>
+            <title>XR development from home</title>
+            <link>https://thinkuldeep.com/post/xr-development-from-home/</link>
+            <pubDate>Thu, 02 Apr 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/post/xr-development-from-home/</guid>
+            <description>Covid19 has challenged the way we eat, the way we commute, the way we socialize, and the way we work. In short, it impacted the way we live. More than a million people got infected and the number is growing exponentially, it has impacted the whole world. We need to find new ways of life and change our focus and priorities to save nature and humanity. Technology can play a great role in coping with it.</description>
+        </item>
+        
+        <item>
+            <title>Enterprise XR - Interoperability</title>
+            <link>https://thinkuldeep.com/post/enterprise-xr-interoperability/</link>
+            <pubDate>Sat, 28 Mar 2020 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/post/enterprise-xr-interoperability/</guid>
+            <description>In the previous article, we discussed implementing multi-factor authentication for an andorid application, and in the article we will cover another enterprise aspect, Interoperability.
+Interoperability is key aspect when we build enterprise solutions using XR technologies. The enterprises have digital assets in form of mobile apps, libraries, system APIs, and they can’t just throw away these existing investments, in fact, the XR apps must be implemented in such a way that it is interoperable with them seamlessly.</description>
+        </item>
+        
+        <item>
+            <title>Scala - Getting Started - Part 1</title>
+            <link>https://thinkuldeep.com/post/scala-getting-started-part1/</link>
+            <pubDate>Mon, 06 May 2013 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/post/scala-getting-started-part1/</guid>
+            <description>This article help you to start with Scala, with step by step guide and series of examples. It starts with an overview and then covers in detail examples. In later articles, I will write about feature comparison with other languages. It article is helpful for people coming from Java background, how it is not the prerequisites.
+Scala Overview Scala is a general purpose programming language designed to express common programming patterns in a concise, elegant, and type-safe way.</description>
+        </item>
+        
+    </channel>
+</rss>

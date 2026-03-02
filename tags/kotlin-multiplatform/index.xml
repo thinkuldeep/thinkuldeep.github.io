@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>kotlin-multiplatform on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com/tags/kotlin-multiplatform/</link>
+        <description>Recent content in kotlin-multiplatform on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Thu, 26 Feb 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/kotlin-multiplatform/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Server Driven UI with KMP - Cross Platform App Development</title>
+            <link>https://thinkuldeep.com/post/server-driven-ui-with-kmp/</link>
+            <pubDate>Thu, 26 Feb 2026 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/post/server-driven-ui-with-kmp/</guid>
+            <description>Over the years, I’ve written about interoperability and why it is essential for enterprise systems that must cross technological and business boundaries. Enterprises applications rarely live in isolation. They integrate across platforms, stacks, and ecosystems. Without proper planning, maintaining multiple platforms and technology stacks quickly becomes expensive and complex.
+This challenge becomes even more evident in cross-platform mobile development. I have previously explored solutions like Unity, PhoneGap (Now Cordova), React Native and Titanium.</description>
+        </item>
+        
+    </channel>
+</rss>

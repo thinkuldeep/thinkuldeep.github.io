@@ -8,7 +8,25 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Thu, 26 Feb 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/enterprise/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Wed, 18 Mar 2026 11:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/enterprise/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Certificates</title>
+            <link>https://thinkuldeep.com/about/certificates/</link>
+            <pubDate>Wed, 18 Mar 2026 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/about/certificates/</guid>
+            <description>The Complete Guide To Mastering Python ☞ Show Credential
+Learn Intellectual Property ☞ Show Credential
+Microsoft Certified: Azure AI Fundamentals ☞ Show Credential
+Generative AI Essentials 2 Expertise: Complete Concise Guide ☞ Show Credential
+nRF Connect SDK Intermediate ☞ Show Credential
+Bluetooth Low Energy Fundamentals ☞ Show Credential
+nRF Connect SDK Fundamentals ☞ Show Credential
+Building AI ☞ Show Credential
+Elements of AI ☞ Show Credential
+Product Management ☞ Show Credential</description>
+        </item>
+        
         <item>
             <title>Server Driven UI with KMP - Cross Platform App Development</title>
             <link>https://thinkuldeep.com/post/server-driven-ui-with-kmp/</link>
@@ -77,15 +95,6 @@ But here’s the challenge:
             <guid>https://thinkuldeep.com/event/pre-ai-impact-summit-openess-in-ai/</guid>
             <description>India will host the AI Impact Summit 2026, reaffirming its commitment to making Artificial Intelligence (AI) accessible and beneficial for the public good. The event will explore how AI can address real-world challenges in healthcare, education, agriculture, climate change, and governance—building on the momentum of global gatherings like the AI Action Summit France, AI Seoul Summit, and AI Safety Summit.
 As part of the lead-up to the summit, OpenUK and OpenHQ have been hosting pre-summit events to spark conversations around AI openness.</description>
-        </item>
-        
-        <item>
-            <title>Certificates</title>
-            <link>https://thinkuldeep.com/about/certificates/</link>
-            <pubDate>Fri, 25 Jul 2025 11:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/about/certificates/</guid>
-            <description> Microsoft Certified: Azure AI Fundamentals Generative AI Essentials 2 Expertise: Complete Concise Guide nRF Connect SDK Intermediate Bluetooth Low Energy Fundamentals nRF Connect SDK Fundamentals Building AI Elements of AI Product Management Enterprise Architecture Internet of Things (IOT) User Experience Design Taradata Certified Java Certified Programmer </description>
         </item>
         
         <item>

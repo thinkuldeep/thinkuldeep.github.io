@@ -8,7 +8,35 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Tue, 10 Mar 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Wed, 18 Mar 2026 11:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>About</title>
+            <link>https://thinkuldeep.com/about/</link>
+            <pubDate>Wed, 18 Mar 2026 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/about/</guid>
+            <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
+👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
+        </item>
+        
+        <item>
+            <title>Certificates</title>
+            <link>https://thinkuldeep.com/about/certificates/</link>
+            <pubDate>Wed, 18 Mar 2026 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/about/certificates/</guid>
+            <description>The Complete Guide To Mastering Python ☞ Show Credential
+Learn Intellectual Property ☞ Show Credential
+Microsoft Certified: Azure AI Fundamentals ☞ Show Credential
+Generative AI Essentials 2 Expertise: Complete Concise Guide ☞ Show Credential
+nRF Connect SDK Intermediate ☞ Show Credential
+Bluetooth Low Energy Fundamentals ☞ Show Credential
+nRF Connect SDK Fundamentals ☞ Show Credential
+Building AI ☞ Show Credential
+Elements of AI ☞ Show Credential
+Product Management ☞ Show Credential</description>
+        </item>
+        
         <item>
             <title>AI Integrated Development Environment - 1</title>
             <link>https://thinkuldeep.com/post/ai-integrated-development-environment/</link>
@@ -27,16 +55,6 @@ In the early days, developers interacting heavily on command-line. Formatting co
             <guid>https://thinkuldeep.com/post/server-driven-ui-with-kmp/</guid>
             <description>Over the years, I’ve written about interoperability and why it is essential for enterprise systems that must cross technological and business boundaries. Enterprises applications rarely live in isolation. They integrate across platforms, stacks, and ecosystems. Without proper planning, maintaining multiple platforms and technology stacks quickly becomes expensive and complex.
 This challenge becomes even more evident in cross-platform mobile development. I have previously explored solutions like Unity, PhoneGap (Now Cordova), React Native and Titanium.</description>
-        </item>
-        
-        <item>
-            <title>About</title>
-            <link>https://thinkuldeep.com/about/</link>
-            <pubDate>Wed, 25 Feb 2026 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/about/</guid>
-            <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
-👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
         </item>
         
         <item>
@@ -129,15 +147,6 @@ But here’s the truth: without strong fundamentals, chasing the “next big thi
             <description>Enterprise integrations almost always require authentication and authorization. In particular, Single Sign-On (SSO) with Multi-Factor Authentication (MFA) has become a standard practice in modern enterprise applications.
 But here’s the challenge:
  When experimenting with new integrations, building spikes, or running proofs of concept (POCs), setting up a full SSO environment upfront can be cumbersome. Sometimes all you need is a way to quickly test APIs that are locked behind SSO.</description>
-        </item>
-        
-        <item>
-            <title>Certificates</title>
-            <link>https://thinkuldeep.com/about/certificates/</link>
-            <pubDate>Fri, 25 Jul 2025 11:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/about/certificates/</guid>
-            <description> Microsoft Certified: Azure AI Fundamentals Generative AI Essentials 2 Expertise: Complete Concise Guide nRF Connect SDK Intermediate Bluetooth Low Energy Fundamentals nRF Connect SDK Fundamentals Building AI Elements of AI Product Management Enterprise Architecture Internet of Things (IOT) User Experience Design Taradata Certified Java Certified Programmer </description>
         </item>
         
         <item>

@@ -8,7 +8,18 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Thu, 26 Feb 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/interoperability/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Thu, 19 Mar 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/interoperability/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Mastering Python - AI Writes Code. Developers Must Understand It</title>
+            <link>https://thinkuldeep.com/post/mastering-python/</link>
+            <pubDate>Thu, 19 Mar 2026 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/post/mastering-python/</guid>
+            <description>AI can generate code in seconds. As a result, the role of developers is rapidly shifting—from writing code to reviewing, guiding, and constraining AI-generated outputs to ensure they truly fit the need.
+However, effective code review is not easy.
+ The expertise required to review AI-generated code cannot exist without first writing code yourself. First-hand experience—debugging, structuring, breaking, and fixing systems—is what builds the intuition needed to evaluate correctness, performance, and maintainability.</description>
+        </item>
+        
         <item>
             <title>Server Driven UI with KMP - Cross Platform App Development</title>
             <link>https://thinkuldeep.com/post/server-driven-ui-with-kmp/</link>

@@ -8,15 +8,28 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Wed, 18 Mar 2026 11:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/me/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Tue, 24 Mar 2026 01:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/me/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>About</title>
             <link>https://thinkuldeep.com/about/</link>
-            <pubDate>Wed, 18 Mar 2026 11:00:00 -0400</pubDate>
+            <pubDate>Tue, 24 Mar 2026 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com/about/</guid>
             <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
 👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
+        </item>
+        
+        <item>
+            <title>Open-sources and Apps</title>
+            <link>https://thinkuldeep.com/about/open-sources/</link>
+            <pubDate>Tue, 24 Mar 2026 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/about/open-sources/</guid>
+            <description>Python Hands On Practices PythonHands-on practice for developing end to end application, and understanding the language concepts.
+☞ Github ☞ Learn More
+Gen AI Hands On Practices Google Colab Hands-on practice for developing Gen AI applications, and understanding the concepts.
+☞ Github ☞ Learn More
+ SSO Proxy A lightweight proxy tool for accessing APIs and websites that require SSO authentication. It uses Puppeteer to open a browser window for login and then reuses the authenticated cookies to access the proxied URL.</description>
         </item>
         
         <item>
@@ -73,19 +86,6 @@ Product Management ☞ Show Credential</description>
             <guid>https://thinkuldeep.com/about/patents/</guid>
             <description>This listing includes patent applications that are pending as well as patents that have already been granted by the United States Patent and Trademark Office (USPTO). It also includes the papers published in various conferences and journals.
  ITU-T Technical Report - Potential requirements of IoT-based Perishable Goods Monitoring System ITU-T Study Group 20 accepted my recommendation as a Technical Report. It defines key layers for IoT-based retail monitoring systems — including Sensing, Communication, Integration, Application &amp;amp; Analytics, and Management &amp;amp; Maintenance layers.</description>
-        </item>
-        
-        <item>
-            <title>Open-sources and Apps</title>
-            <link>https://thinkuldeep.com/about/open-sources/</link>
-            <pubDate>Sun, 24 Aug 2025 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/about/open-sources/</guid>
-            <description>Gen AI Hands On Practices Google Colab Hands-on practice for developing Gen AI applications, and understanding the concepts.
-☞ Github ☞ Learn More
- SSO Proxy A lightweight proxy tool for accessing APIs and websites that require SSO authentication. It uses Puppeteer to open a browser window for login and then reuses the authenticated cookies to access the proxied URL.
-This tool is particularly helpful for:
- Showcasing integration with portal APIs that require SSO (before SSO is actually set up).</description>
         </item>
         
         <item>

@@ -8,18 +8,18 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Sun, 24 Aug 2025 01:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/arium/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Tue, 24 Mar 2026 01:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/arium/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Open-sources and Apps</title>
             <link>https://thinkuldeep.com/about/open-sources/</link>
-            <pubDate>Sun, 24 Aug 2025 01:00:00 -0400</pubDate>
+            <pubDate>Tue, 24 Mar 2026 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com/about/open-sources/</guid>
-            <description>Gen AI Hands On Practices Google Colab Hands-on practice for developing Gen AI applications, and understanding the concepts.
+            <description>Python Hands On Practices PythonHands-on practice for developing end to end application, and understanding the language concepts.
 ☞ Github ☞ Learn More
- SSO Proxy A lightweight proxy tool for accessing APIs and websites that require SSO authentication. It uses Puppeteer to open a browser window for login and then reuses the authenticated cookies to access the proxied URL.
-This tool is particularly helpful for:
- Showcasing integration with portal APIs that require SSO (before SSO is actually set up).</description>
+Gen AI Hands On Practices Google Colab Hands-on practice for developing Gen AI applications, and understanding the concepts.
+☞ Github ☞ Learn More
+ SSO Proxy A lightweight proxy tool for accessing APIs and websites that require SSO authentication. It uses Puppeteer to open a browser window for login and then reuses the authenticated cookies to access the proxied URL.</description>
         </item>
         
     </channel>

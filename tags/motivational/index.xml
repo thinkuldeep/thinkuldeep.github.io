@@ -8,7 +8,20 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Mon, 26 Jan 2026 01:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/motivational/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Tue, 24 Mar 2026 01:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/motivational/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Open-sources and Apps</title>
+            <link>https://thinkuldeep.com/about/open-sources/</link>
+            <pubDate>Tue, 24 Mar 2026 01:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/about/open-sources/</guid>
+            <description>Python Hands On Practices PythonHands-on practice for developing end to end application, and understanding the language concepts.
+☞ Github ☞ Learn More
+Gen AI Hands On Practices Google Colab Hands-on practice for developing Gen AI applications, and understanding the concepts.
+☞ Github ☞ Learn More
+ SSO Proxy A lightweight proxy tool for accessing APIs and websites that require SSO authentication. It uses Puppeteer to open a browser window for login and then reuses the authenticated cookies to access the proxied URL.</description>
+        </item>
+        
         <item>
             <title>Some moments</title>
             <link>https://thinkuldeep.com/about/moments/</link>
@@ -86,19 +99,6 @@ For me personally, 2025 was a milestone year. After reflecting on two decades in
             <guid>https://thinkuldeep.com/post/how-small-how-big-analysis/</guid>
             <description>After a few hectic months, I recently visited a camping site with my family — a truly refreshing experience being close to nature. The trip was hosted by Camp Gopika and accompanied by Astrostop, adding a unique touch to our stay.
 The serene environment gave me time to reflect on life and also work on the final touches of my upcoming book, 📕 “Jagjeevan – Living Larger than Life”, which tells the story of my great-grandfather and his belief that travel is essential for learning and introspection.</description>
-        </item>
-        
-        <item>
-            <title>Open-sources and Apps</title>
-            <link>https://thinkuldeep.com/about/open-sources/</link>
-            <pubDate>Sun, 24 Aug 2025 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/about/open-sources/</guid>
-            <description>Gen AI Hands On Practices Google Colab Hands-on practice for developing Gen AI applications, and understanding the concepts.
-☞ Github ☞ Learn More
- SSO Proxy A lightweight proxy tool for accessing APIs and websites that require SSO authentication. It uses Puppeteer to open a browser window for login and then reuses the authenticated cookies to access the proxied URL.
-This tool is particularly helpful for:
- Showcasing integration with portal APIs that require SSO (before SSO is actually set up).</description>
         </item>
         
         <item>

@@ -8,11 +8,11 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Tue, 24 Mar 2026 01:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/me/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Wed, 25 Mar 2026 01:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/me/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>About</title>
             <link>https://thinkuldeep.com/about/</link>
-            <pubDate>Tue, 24 Mar 2026 01:00:00 -0400</pubDate>
+            <pubDate>Wed, 25 Mar 2026 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com/about/</guid>
             <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
@@ -22,14 +22,15 @@
         <item>
             <title>Open-sources and Apps</title>
             <link>https://thinkuldeep.com/about/open-sources/</link>
-            <pubDate>Tue, 24 Mar 2026 01:00:00 -0400</pubDate>
+            <pubDate>Wed, 25 Mar 2026 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com/about/open-sources/</guid>
-            <description>Python Hands On Practices PythonHands-on practice for developing end to end application, and understanding the language concepts.
+            <description>Agentic AI - Hands On Practices Agentic AI Hands-on practice for developing end to end AI agent, and understanding the internals.
+☞ Github ☞ Learn More
+Python Hands On Practices Python Hands-on practice for developing end to end application, and understanding the language concepts.
 ☞ Github ☞ Learn More
 Gen AI Hands On Practices Google Colab Hands-on practice for developing Gen AI applications, and understanding the concepts.
-☞ Github ☞ Learn More
- SSO Proxy A lightweight proxy tool for accessing APIs and websites that require SSO authentication. It uses Puppeteer to open a browser window for login and then reuses the authenticated cookies to access the proxied URL.</description>
+☞ Github ☞ Learn More</description>
         </item>
         
         <item>

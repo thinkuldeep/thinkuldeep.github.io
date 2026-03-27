@@ -8,7 +8,25 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Wed, 25 Mar 2026 01:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/about/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Fri, 27 Mar 2026 11:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/about/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Certificates</title>
+            <link>https://thinkuldeep.com/about/certificates/</link>
+            <pubDate>Fri, 27 Mar 2026 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/about/certificates/</guid>
+            <description>Evaluation for LLM Applications ☞ Show Credential
+The Complete Guide To Mastering Python ☞ Show Credential
+Learn Intellectual Property ☞ Show Credential
+Microsoft Certified: Azure AI Fundamentals ☞ Show Credential
+Generative AI Essentials 2 Expertise: Complete Concise Guide ☞ Show Credential
+nRF Connect SDK Intermediate ☞ Show Credential
+Bluetooth Low Energy Fundamentals ☞ Show Credential
+nRF Connect SDK Fundamentals ☞ Show Credential
+Building AI ☞ Show Credential
+Elements of AI ☞ Show Credential</description>
+        </item>
+        
         <item>
             <title>Open-sources and Apps</title>
             <link>https://thinkuldeep.com/about/open-sources/</link>
@@ -21,24 +39,6 @@ Python Hands On Practices Python Hands-on practice for developing end to end app
 ☞ Github ☞ Learn More
 Gen AI Hands On Practices Google Colab Hands-on practice for developing Gen AI applications, and understanding the concepts.
 ☞ Github ☞ Learn More</description>
-        </item>
-        
-        <item>
-            <title>Certificates</title>
-            <link>https://thinkuldeep.com/about/certificates/</link>
-            <pubDate>Wed, 18 Mar 2026 11:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/about/certificates/</guid>
-            <description>The Complete Guide To Mastering Python ☞ Show Credential
-Learn Intellectual Property ☞ Show Credential
-Microsoft Certified: Azure AI Fundamentals ☞ Show Credential
-Generative AI Essentials 2 Expertise: Complete Concise Guide ☞ Show Credential
-nRF Connect SDK Intermediate ☞ Show Credential
-Bluetooth Low Energy Fundamentals ☞ Show Credential
-nRF Connect SDK Fundamentals ☞ Show Credential
-Building AI ☞ Show Credential
-Elements of AI ☞ Show Credential
-Product Management ☞ Show Credential</description>
         </item>
         
         <item>

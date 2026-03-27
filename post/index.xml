@@ -53,6 +53,22 @@ This challenge becomes even more evident in cross-platform mobile development. I
         </item>
         
         <item>
+            <title>Continuous Evaludation of AI Applications </title>
+            <link>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</link>
+            <pubDate>Thu, 19 Feb 2026 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</guid>
+            <description>Sensible Defaults - AI&amp;hellip;
+Stage : Draft Building trust&amp;hellip;
+Accuracy - c Helfullness - Safety - Latency -
+chlalnges
+Subjecitivyt - differet people &amp;hellip; jitne muh utni baat&amp;hellip; open-endeded ness - natual language&amp;hellip; context sensitity - depending on time, use, scalability - human eval is gold standards,, but impossible&amp;hellip;
+So even if automated evaluation is not perfect, still needed.
+Observability - in AI
+  Loging LLM inputs (promts, settings, parameters), output (result, confidence score, .</description>
+        </item>
+        
+        <item>
             <title>Connecting Thread Devices to the Internet over CoAP</title>
             <link>https://thinkuldeep.com/post/iot-thread-devices-coap/</link>
             <pubDate>Fri, 13 Feb 2026 10:58:08 -0400</pubDate>
@@ -1766,21 +1782,6 @@ This article talks about the java approach for generating multiple documents fro
             <description>Last year we have migrated one of our application from Java 5 to Java 6. The Java 6(OpenJDK) installation was done by client on a fresh system. After installing our application (under JBoss app), we found the fonts on JFreeCharts and on the images generated from AWT were not correct.
 We have solved the issue by configuring the fonts at JVM level. Let understand it better.
 How AWT / JFreeCharts shows the fonts AWT rely on native fonts, it usages default Java fonts (which best fits) if no native fonts mapping found.</description>
-        </item>
-        
-        <item>
-            <title>Continuous Evaludation of AI Applications </title>
-            <link>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</link>
-            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</guid>
-            <description>Stage : Draft Building trust&amp;hellip;
-Accuracy - c Helfullness - Safety - Latency -
-chlalnges
-Subjecitivyt - differet people &amp;hellip; jitne muh utni baat&amp;hellip; open-endeded ness - natual language&amp;hellip; context sensitity - depending on time, use, scalability - human eval is gold standards,, but impossible&amp;hellip;
-So even if automated evaluation is not perfect, still needed.
-Observability - in AI
- Loging LLM inputs (promts, settings, parameters), output (result, confidence score, .</description>
         </item>
         
     </channel>

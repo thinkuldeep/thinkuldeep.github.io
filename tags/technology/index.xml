@@ -8,7 +8,35 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Wed, 25 Mar 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Fri, 27 Mar 2026 11:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>About</title>
+            <link>https://thinkuldeep.com/about/</link>
+            <pubDate>Fri, 27 Mar 2026 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/about/</guid>
+            <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
+👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
+        </item>
+        
+        <item>
+            <title>Certificates</title>
+            <link>https://thinkuldeep.com/about/certificates/</link>
+            <pubDate>Fri, 27 Mar 2026 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/about/certificates/</guid>
+            <description>Evaluation for LLM Applications ☞ Show Credential
+The Complete Guide To Mastering Python ☞ Show Credential
+Learn Intellectual Property ☞ Show Credential
+Microsoft Certified: Azure AI Fundamentals ☞ Show Credential
+Generative AI Essentials 2 Expertise: Complete Concise Guide ☞ Show Credential
+nRF Connect SDK Intermediate ☞ Show Credential
+Bluetooth Low Energy Fundamentals ☞ Show Credential
+nRF Connect SDK Fundamentals ☞ Show Credential
+Building AI ☞ Show Credential
+Elements of AI ☞ Show Credential</description>
+        </item>
+        
         <item>
             <title>Agentic AI | Hands-on Practices – Part 1</title>
             <link>https://thinkuldeep.com/post/agentic-ai-hands-on/</link>
@@ -22,16 +50,6 @@ Today, AI Agents are everywhere. We hear about systems that:
         </item>
         
         <item>
-            <title>About</title>
-            <link>https://thinkuldeep.com/about/</link>
-            <pubDate>Wed, 25 Mar 2026 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/about/</guid>
-            <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
-👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
-        </item>
-        
-        <item>
             <title>Mastering Python - AI Writes Code. Developers Must Understand It</title>
             <link>https://thinkuldeep.com/post/mastering-python/</link>
             <pubDate>Thu, 19 Mar 2026 10:58:08 -0400</pubDate>
@@ -40,24 +58,6 @@ Today, AI Agents are everywhere. We hear about systems that:
             <description>AI can generate code in seconds. As a result, the role of developers is rapidly shifting—from writing code to reviewing, guiding, and constraining AI-generated outputs to ensure they truly fit the need.
 However, effective code review is not easy.
  The expertise required to review AI-generated code cannot exist without first writing code yourself. First-hand experience—debugging, structuring, breaking, and fixing systems—is what builds the intuition needed to evaluate correctness, performance, and maintainability.</description>
-        </item>
-        
-        <item>
-            <title>Certificates</title>
-            <link>https://thinkuldeep.com/about/certificates/</link>
-            <pubDate>Wed, 18 Mar 2026 11:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/about/certificates/</guid>
-            <description>The Complete Guide To Mastering Python ☞ Show Credential
-Learn Intellectual Property ☞ Show Credential
-Microsoft Certified: Azure AI Fundamentals ☞ Show Credential
-Generative AI Essentials 2 Expertise: Complete Concise Guide ☞ Show Credential
-nRF Connect SDK Intermediate ☞ Show Credential
-Bluetooth Low Energy Fundamentals ☞ Show Credential
-nRF Connect SDK Fundamentals ☞ Show Credential
-Building AI ☞ Show Credential
-Elements of AI ☞ Show Credential
-Product Management ☞ Show Credential</description>
         </item>
         
         <item>
@@ -78,6 +78,22 @@ In the early days, developers interacting heavily on command-line. Formatting co
             <guid>https://thinkuldeep.com/post/server-driven-ui-with-kmp/</guid>
             <description>Over the years, I’ve written about interoperability and why it is essential for enterprise systems that must cross technological and business boundaries. Enterprises applications rarely live in isolation. They integrate across platforms, stacks, and ecosystems. Without proper planning, maintaining multiple platforms and technology stacks quickly becomes expensive and complex.
 This challenge becomes even more evident in cross-platform mobile development. I have previously explored solutions like Unity, PhoneGap (Now Cordova), React Native and Titanium.</description>
+        </item>
+        
+        <item>
+            <title>Continuous Evaludation of AI Applications </title>
+            <link>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</link>
+            <pubDate>Thu, 19 Feb 2026 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</guid>
+            <description>Sensible Defaults - AI&amp;hellip;
+Stage : Draft Building trust&amp;hellip;
+Accuracy - c Helfullness - Safety - Latency -
+chlalnges
+Subjecitivyt - differet people &amp;hellip; jitne muh utni baat&amp;hellip; open-endeded ness - natual language&amp;hellip; context sensitity - depending on time, use, scalability - human eval is gold standards,, but impossible&amp;hellip;
+So even if automated evaluation is not perfect, still needed.
+Observability - in AI
+  Loging LLM inputs (promts, settings, parameters), output (result, confidence score, .</description>
         </item>
         
         <item>
@@ -1216,21 +1232,6 @@ This article talks about the java approach for generating multiple documents fro
             <description>Last year we have migrated one of our application from Java 5 to Java 6. The Java 6(OpenJDK) installation was done by client on a fresh system. After installing our application (under JBoss app), we found the fonts on JFreeCharts and on the images generated from AWT were not correct.
 We have solved the issue by configuring the fonts at JVM level. Let understand it better.
 How AWT / JFreeCharts shows the fonts AWT rely on native fonts, it usages default Java fonts (which best fits) if no native fonts mapping found.</description>
-        </item>
-        
-        <item>
-            <title>Continuous Evaludation of AI Applications </title>
-            <link>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</link>
-            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</guid>
-            <description>Stage : Draft Building trust&amp;hellip;
-Accuracy - c Helfullness - Safety - Latency -
-chlalnges
-Subjecitivyt - differet people &amp;hellip; jitne muh utni baat&amp;hellip; open-endeded ness - natual language&amp;hellip; context sensitity - depending on time, use, scalability - human eval is gold standards,, but impossible&amp;hellip;
-So even if automated evaluation is not perfect, still needed.
-Observability - in AI
- Loging LLM inputs (promts, settings, parameters), output (result, confidence score, .</description>
         </item>
         
     </channel>

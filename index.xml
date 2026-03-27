@@ -8,7 +8,25 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Wed, 25 Mar 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Fri, 27 Mar 2026 11:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Certificates</title>
+            <link>https://thinkuldeep.com/about/certificates/</link>
+            <pubDate>Fri, 27 Mar 2026 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/about/certificates/</guid>
+            <description>Evaluation for LLM Applications ☞ Show Credential
+The Complete Guide To Mastering Python ☞ Show Credential
+Learn Intellectual Property ☞ Show Credential
+Microsoft Certified: Azure AI Fundamentals ☞ Show Credential
+Generative AI Essentials 2 Expertise: Complete Concise Guide ☞ Show Credential
+nRF Connect SDK Intermediate ☞ Show Credential
+Bluetooth Low Energy Fundamentals ☞ Show Credential
+nRF Connect SDK Fundamentals ☞ Show Credential
+Building AI ☞ Show Credential
+Elements of AI ☞ Show Credential</description>
+        </item>
+        
         <item>
             <title>Agentic AI | Hands-on Practices – Part 1</title>
             <link>https://thinkuldeep.com/post/agentic-ai-hands-on/</link>
@@ -44,24 +62,6 @@ Gen AI Hands On Practices Google Colab Hands-on practice for developing Gen AI a
             <description>AI can generate code in seconds. As a result, the role of developers is rapidly shifting—from writing code to reviewing, guiding, and constraining AI-generated outputs to ensure they truly fit the need.
 However, effective code review is not easy.
  The expertise required to review AI-generated code cannot exist without first writing code yourself. First-hand experience—debugging, structuring, breaking, and fixing systems—is what builds the intuition needed to evaluate correctness, performance, and maintainability.</description>
-        </item>
-        
-        <item>
-            <title>Certificates</title>
-            <link>https://thinkuldeep.com/about/certificates/</link>
-            <pubDate>Wed, 18 Mar 2026 11:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/about/certificates/</guid>
-            <description>The Complete Guide To Mastering Python ☞ Show Credential
-Learn Intellectual Property ☞ Show Credential
-Microsoft Certified: Azure AI Fundamentals ☞ Show Credential
-Generative AI Essentials 2 Expertise: Complete Concise Guide ☞ Show Credential
-nRF Connect SDK Intermediate ☞ Show Credential
-Bluetooth Low Energy Fundamentals ☞ Show Credential
-nRF Connect SDK Fundamentals ☞ Show Credential
-Building AI ☞ Show Credential
-Elements of AI ☞ Show Credential
-Product Management ☞ Show Credential</description>
         </item>
         
         <item>
@@ -102,6 +102,22 @@ This challenge becomes even more evident in cross-platform mobile development. I
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com/about/streaming/</guid>
             <description>Human Impact: The Next Responsibilities of Innovation Gatherverse Summit 2026 - ☞ More Details   XR Symposium - User Interaction and Experience Design for Global South IIT madras hosted XR Symposium 2025 - ☞ More Details   Machine Gaze - What Happens When Glasses Begin to Think Gatherverse XR Evolve Summit 2025 - ☞ More Details   The Metaverse United : How AI and XR Can Deepen Human Connections Gatherverse Summit 2025 - ☞ More Details   Defining the AI Powered Virtual World Gatherverse Virtual World Symposium 2024 - ☞ More Details   India&amp;rsquo;s Metaverse Journey: Opportunities and Challenges XROM Postcast - ☞ More Details   Global Insights from XR Leaders in India: AI-Powered Real-Time Adaptation in XR AWE Asia 2024 - ☞ More Details   Harnessing Business Opportunity with AI Powered XR Express Computer Webinar - ☞ More Details   Azure AI Fostering Sense within XR World Season of AI - Azure Developer Community - Rekill - ☞ More Details   Evolving into Tomorrow, Today: Enter the Metaverse Gatherverse XREvolve Summit 2024 - ☞ More Details   Exploring the Metaverse: Redefining the reality in the digital age Book promo - ☞ More Details   XR in practice: the engineering challenges of extending reality Thoughtworks Podcast - ☞ More Details   AI Assisted Content Pipeline for XR Thoughtworks XConf 2022 - ☞ More Details    Using XR in building autonomous vehicles Thoughtworks MasterClass-2021 - ☞ More Details   &amp;nbsp;  The Shift from Enterprise XR to Ethical XR Thoughtworks XConf 2021 - ☞ More Details   Navigating the new normal The VRARA - ☞ More Details    eXtended Reality for Enterprise XROM Podcast - ☞ More Details   XR - Nicety to Necessity Techgig Webinars - ☞ More Details    How to get started with AR VR?</description>
+        </item>
+        
+        <item>
+            <title>Continuous Evaludation of AI Applications </title>
+            <link>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</link>
+            <pubDate>Thu, 19 Feb 2026 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</guid>
+            <description>Sensible Defaults - AI&amp;hellip;
+Stage : Draft Building trust&amp;hellip;
+Accuracy - c Helfullness - Safety - Latency -
+chlalnges
+Subjecitivyt - differet people &amp;hellip; jitne muh utni baat&amp;hellip; open-endeded ness - natual language&amp;hellip; context sensitity - depending on time, use, scalability - human eval is gold standards,, but impossible&amp;hellip;
+So even if automated evaluation is not perfect, still needed.
+Observability - in AI
+  Loging LLM inputs (promts, settings, parameters), output (result, confidence score, .</description>
         </item>
         
         <item>
@@ -2669,21 +2685,6 @@ This article talks about the java approach for generating multiple documents fro
             <description>Last year we have migrated one of our application from Java 5 to Java 6. The Java 6(OpenJDK) installation was done by client on a fresh system. After installing our application (under JBoss app), we found the fonts on JFreeCharts and on the images generated from AWT were not correct.
 We have solved the issue by configuring the fonts at JVM level. Let understand it better.
 How AWT / JFreeCharts shows the fonts AWT rely on native fonts, it usages default Java fonts (which best fits) if no native fonts mapping found.</description>
-        </item>
-        
-        <item>
-            <title>Continuous Evaludation of AI Applications </title>
-            <link>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</link>
-            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</guid>
-            <description>Stage : Draft Building trust&amp;hellip;
-Accuracy - c Helfullness - Safety - Latency -
-chlalnges
-Subjecitivyt - differet people &amp;hellip; jitne muh utni baat&amp;hellip; open-endeded ness - natual language&amp;hellip; context sensitity - depending on time, use, scalability - human eval is gold standards,, but impossible&amp;hellip;
-So even if automated evaluation is not perfect, still needed.
-Observability - in AI
- Loging LLM inputs (promts, settings, parameters), output (result, confidence score, .</description>
         </item>
         
     </channel>

@@ -32,6 +32,22 @@ In the early days, developers interacting heavily on command-line. Formatting co
         </item>
         
         <item>
+            <title>Continuous Evaludation of AI Applications </title>
+            <link>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</link>
+            <pubDate>Thu, 19 Feb 2026 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</guid>
+            <description>Sensible Defaults - AI&amp;hellip;
+Stage : Draft Building trust&amp;hellip;
+Accuracy - c Helfullness - Safety - Latency -
+chlalnges
+Subjecitivyt - differet people &amp;hellip; jitne muh utni baat&amp;hellip; open-endeded ness - natual language&amp;hellip; context sensitity - depending on time, use, scalability - human eval is gold standards,, but impossible&amp;hellip;
+So even if automated evaluation is not perfect, still needed.
+Observability - in AI
+  Loging LLM inputs (promts, settings, parameters), output (result, confidence score, .</description>
+        </item>
+        
+        <item>
             <title>Immersive AI: Transforming Reality with Intelligence and Interaction</title>
             <link>https://thinkuldeep.com/event/immersive-ai-rea-tech-fest/</link>
             <pubDate>Thu, 19 Feb 2026 10:58:08 -0400</pubDate>
@@ -291,21 +307,6 @@ DesignersX, a company specializing in software development, invited me to speak 
             <guid>https://thinkuldeep.com/post/making-the-xr-content-usable-with-ai/</guid>
             <description>Generative AI is revolutionizing content generation across various mediums, disrupting traditional methods in text, images, art, movies, and music creation. XR (Extended Reality) is also undergoing this transformation. In a previous article, Raju Kandaswamy and I discussed how AI aids in generating content for XR, meeting the dynamic needs of XR and the metaverse.
 We highlighted content management as a key challenge in XR and metaverse adoption. While generative AI methods offer some solutions, the significant hurdle of content optimization remains.</description>
-        </item>
-        
-        <item>
-            <title>Continuous Evaludation of AI Applications </title>
-            <link>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</link>
-            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</guid>
-            <description>Stage : Draft Building trust&amp;hellip;
-Accuracy - c Helfullness - Safety - Latency -
-chlalnges
-Subjecitivyt - differet people &amp;hellip; jitne muh utni baat&amp;hellip; open-endeded ness - natual language&amp;hellip; context sensitity - depending on time, use, scalability - human eval is gold standards,, but impossible&amp;hellip;
-So even if automated evaluation is not perfect, still needed.
-Observability - in AI
- Loging LLM inputs (promts, settings, parameters), output (result, confidence score, .</description>
         </item>
         
     </channel>

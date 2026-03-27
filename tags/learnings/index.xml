@@ -55,6 +55,22 @@ In the early days, developers interacting heavily on command-line. Formatting co
         </item>
         
         <item>
+            <title>Continuous Evaludation of AI Applications </title>
+            <link>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</link>
+            <pubDate>Thu, 19 Feb 2026 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</guid>
+            <description>Sensible Defaults - AI&amp;hellip;
+Stage : Draft Building trust&amp;hellip;
+Accuracy - c Helfullness - Safety - Latency -
+chlalnges
+Subjecitivyt - differet people &amp;hellip; jitne muh utni baat&amp;hellip; open-endeded ness - natual language&amp;hellip; context sensitity - depending on time, use, scalability - human eval is gold standards,, but impossible&amp;hellip;
+So even if automated evaluation is not perfect, still needed.
+Observability - in AI
+  Loging LLM inputs (promts, settings, parameters), output (result, confidence score, .</description>
+        </item>
+        
+        <item>
             <title>Immersive AI: Transforming Reality with Intelligence and Interaction</title>
             <link>https://thinkuldeep.com/event/immersive-ai-rea-tech-fest/</link>
             <pubDate>Thu, 19 Feb 2026 10:58:08 -0400</pubDate>
@@ -527,21 +543,6 @@ Time was when virtual and augmented reality was regarded as simply gaming techno
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com/post/lessons_from_microservices_development/</guid>
             <description>Microservices-based development is happening all around the industry; more than 70% are trying development of microservice-based software. Microservices simplify integration of the businesses, processes, technology, and people by breaking down the big-bang monolith problem to a smaller set that can be handled independently. However, it also comes with the problem of managing relations between these smaller sets. We used to manage fewer independent units, so there was less operation and planning effort.</description>
-        </item>
-        
-        <item>
-            <title>Continuous Evaludation of AI Applications </title>
-            <link>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</link>
-            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</guid>
-            <description>Stage : Draft Building trust&amp;hellip;
-Accuracy - c Helfullness - Safety - Latency -
-chlalnges
-Subjecitivyt - differet people &amp;hellip; jitne muh utni baat&amp;hellip; open-endeded ness - natual language&amp;hellip; context sensitity - depending on time, use, scalability - human eval is gold standards,, but impossible&amp;hellip;
-So even if automated evaluation is not perfect, still needed.
-Observability - in AI
- Loging LLM inputs (promts, settings, parameters), output (result, confidence score, .</description>
         </item>
         
     </channel>

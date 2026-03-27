@@ -8,22 +8,130 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Wed, 25 Mar 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Fri, 27 Mar 2026 11:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/index.xml" rel="self" type="application/rss+xml" />
         <item>
-            <title>agenticai</title>
-            <link>https://thinkuldeep.com/tags/agenticai/</link>
-            <pubDate>Wed, 25 Mar 2026 10:58:08 -0400</pubDate>
+            <title>about</title>
+            <link>https://thinkuldeep.com/tags/about/</link>
+            <pubDate>Fri, 27 Mar 2026 11:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/tags/agenticai/</guid>
+            <guid>https://thinkuldeep.com/tags/about/</guid>
             <description></description>
         </item>
         
         <item>
             <title>AI</title>
             <link>https://thinkuldeep.com/tags/ai/</link>
-            <pubDate>Wed, 25 Mar 2026 10:58:08 -0400</pubDate>
+            <pubDate>Fri, 27 Mar 2026 11:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com/tags/ai/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>architecture</title>
+            <link>https://thinkuldeep.com/tags/architecture/</link>
+            <pubDate>Fri, 27 Mar 2026 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/tags/architecture/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>certificates</title>
+            <link>https://thinkuldeep.com/tags/certificates/</link>
+            <pubDate>Fri, 27 Mar 2026 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/tags/certificates/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>design</title>
+            <link>https://thinkuldeep.com/tags/design/</link>
+            <pubDate>Fri, 27 Mar 2026 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/tags/design/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>enterprise</title>
+            <link>https://thinkuldeep.com/tags/enterprise/</link>
+            <pubDate>Fri, 27 Mar 2026 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/tags/enterprise/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>IOT</title>
+            <link>https://thinkuldeep.com/tags/iot/</link>
+            <pubDate>Fri, 27 Mar 2026 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/tags/iot/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>java</title>
+            <link>https://thinkuldeep.com/tags/java/</link>
+            <pubDate>Fri, 27 Mar 2026 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/tags/java/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>me</title>
+            <link>https://thinkuldeep.com/tags/me/</link>
+            <pubDate>Fri, 27 Mar 2026 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/tags/me/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>product management</title>
+            <link>https://thinkuldeep.com/tags/product-management/</link>
+            <pubDate>Fri, 27 Mar 2026 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/tags/product-management/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>profile</title>
+            <link>https://thinkuldeep.com/tags/profile/</link>
+            <pubDate>Fri, 27 Mar 2026 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/tags/profile/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>technology</title>
+            <link>https://thinkuldeep.com/tags/technology/</link>
+            <pubDate>Fri, 27 Mar 2026 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/tags/technology/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>user experience</title>
+            <link>https://thinkuldeep.com/tags/user-experience/</link>
+            <pubDate>Fri, 27 Mar 2026 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/tags/user-experience/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>agenticai</title>
+            <link>https://thinkuldeep.com/tags/agenticai/</link>
+            <pubDate>Wed, 25 Mar 2026 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/tags/agenticai/</guid>
             <description></description>
         </item>
         
@@ -118,15 +226,6 @@
         </item>
         
         <item>
-            <title>technology</title>
-            <link>https://thinkuldeep.com/tags/technology/</link>
-            <pubDate>Wed, 25 Mar 2026 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/tags/technology/</guid>
-            <description></description>
-        </item>
-        
-        <item>
             <title>tutorial</title>
             <link>https://thinkuldeep.com/tags/tutorial/</link>
             <pubDate>Wed, 25 Mar 2026 10:58:08 -0400</pubDate>
@@ -141,15 +240,6 @@
             <pubDate>Wed, 25 Mar 2026 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com/tags/3d/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>about</title>
-            <link>https://thinkuldeep.com/tags/about/</link>
-            <pubDate>Wed, 25 Mar 2026 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/tags/about/</guid>
             <description></description>
         </item>
         
@@ -172,15 +262,6 @@
         </item>
         
         <item>
-            <title>IOT</title>
-            <link>https://thinkuldeep.com/tags/iot/</link>
-            <pubDate>Wed, 25 Mar 2026 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/tags/iot/</guid>
-            <description></description>
-        </item>
-        
-        <item>
             <title>javascript</title>
             <link>https://thinkuldeep.com/tags/javascript/</link>
             <pubDate>Wed, 25 Mar 2026 01:00:00 -0400</pubDate>
@@ -199,15 +280,6 @@
         </item>
         
         <item>
-            <title>me</title>
-            <link>https://thinkuldeep.com/tags/me/</link>
-            <pubDate>Wed, 25 Mar 2026 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/tags/me/</guid>
-            <description></description>
-        </item>
-        
-        <item>
             <title>motivational</title>
             <link>https://thinkuldeep.com/tags/motivational/</link>
             <pubDate>Wed, 25 Mar 2026 01:00:00 -0400</pubDate>
@@ -222,15 +294,6 @@
             <pubDate>Wed, 25 Mar 2026 01:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com/tags/open-source/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>profile</title>
-            <link>https://thinkuldeep.com/tags/profile/</link>
-            <pubDate>Wed, 25 Mar 2026 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/tags/profile/</guid>
             <description></description>
         </item>
         
@@ -375,69 +438,6 @@
             <pubDate>Thu, 19 Mar 2026 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com/tags/xp/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>architecture</title>
-            <link>https://thinkuldeep.com/tags/architecture/</link>
-            <pubDate>Wed, 18 Mar 2026 11:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/tags/architecture/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>certificates</title>
-            <link>https://thinkuldeep.com/tags/certificates/</link>
-            <pubDate>Wed, 18 Mar 2026 11:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/tags/certificates/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>design</title>
-            <link>https://thinkuldeep.com/tags/design/</link>
-            <pubDate>Wed, 18 Mar 2026 11:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/tags/design/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>enterprise</title>
-            <link>https://thinkuldeep.com/tags/enterprise/</link>
-            <pubDate>Wed, 18 Mar 2026 11:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/tags/enterprise/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>java</title>
-            <link>https://thinkuldeep.com/tags/java/</link>
-            <pubDate>Wed, 18 Mar 2026 11:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/tags/java/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>product management</title>
-            <link>https://thinkuldeep.com/tags/product-management/</link>
-            <pubDate>Wed, 18 Mar 2026 11:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/tags/product-management/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>user experience</title>
-            <link>https://thinkuldeep.com/tags/user-experience/</link>
-            <pubDate>Wed, 18 Mar 2026 11:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/tags/user-experience/</guid>
             <description></description>
         </item>
         

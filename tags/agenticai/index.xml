@@ -31,5 +31,20 @@ Today, AI Agents are everywhere. We hear about systems that:
 But here’s the truth: without strong fundamentals, chasing the “next big thing” is like building a skyscraper on sand. A strong foundation ensures stability. That’s why, before diving deep into Generative AI, it’s critical to revisit the path that got us here.</description>
         </item>
         
+        <item>
+            <title>Continuous Evaludation of AI Applications </title>
+            <link>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</guid>
+            <description>Stage : Draft Building trust&amp;hellip;
+Accuracy - c Helfullness - Safety - Latency -
+chlalnges
+Subjecitivyt - differet people &amp;hellip; jitne muh utni baat&amp;hellip; open-endeded ness - natual language&amp;hellip; context sensitity - depending on time, use, scalability - human eval is gold standards,, but impossible&amp;hellip;
+So even if automated evaluation is not perfect, still needed.
+Observability - in AI
+ Loging LLM inputs (promts, settings, parameters), output (result, confidence score, .</description>
+        </item>
+        
     </channel>
 </rss>

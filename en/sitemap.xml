@@ -4525,6 +4525,10 @@
                 href="https://thinkuldeep.com/categories/"
         />
     </url><url>
+        <loc>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</loc>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
         <loc>https://thinkuldeep.com/tags/director/</loc>
         <changefreq>always</changefreq>
         <priority>0.5</priority>

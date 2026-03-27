@@ -39,10 +39,9 @@ In the early days, developers interacting heavily on command-line. Formatting co
             <guid>https://thinkuldeep.com/event/immersive-ai-rea-tech-fest/</guid>
             <description>Recently REA Cyber City hosted their annual flagship event Global TechFest 2026.
 I had the privilege of being invited as guest speaker along with prominent speakers there!
- I discussed on the topic of
+ During the session, I spoke on:
  “Immersive AI: Transforming Reality with Intelligence and Interaction”
- Session Highlights In my presentation, I addressed one of the biggest challenges today — the misunderstanding of the term “metaverse.”
-I shared that the metaverse is not:</description>
+ Session Highlights In my presentation, I explored how immersive intelligence is rapidly evolving around us — moving beyond virtual displays or simple digital overlays on the physical world.</description>
         </item>
         
         <item>
@@ -292,6 +291,21 @@ DesignersX, a company specializing in software development, invited me to speak 
             <guid>https://thinkuldeep.com/post/making-the-xr-content-usable-with-ai/</guid>
             <description>Generative AI is revolutionizing content generation across various mediums, disrupting traditional methods in text, images, art, movies, and music creation. XR (Extended Reality) is also undergoing this transformation. In a previous article, Raju Kandaswamy and I discussed how AI aids in generating content for XR, meeting the dynamic needs of XR and the metaverse.
 We highlighted content management as a key challenge in XR and metaverse adoption. While generative AI methods offer some solutions, the significant hurdle of content optimization remains.</description>
+        </item>
+        
+        <item>
+            <title>Continuous Evaludation of AI Applications </title>
+            <link>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</guid>
+            <description>Stage : Draft Building trust&amp;hellip;
+Accuracy - c Helfullness - Safety - Latency -
+chlalnges
+Subjecitivyt - differet people &amp;hellip; jitne muh utni baat&amp;hellip; open-endeded ness - natual language&amp;hellip; context sensitity - depending on time, use, scalability - human eval is gold standards,, but impossible&amp;hellip;
+So even if automated evaluation is not perfect, still needed.
+Observability - in AI
+ Loging LLM inputs (promts, settings, parameters), output (result, confidence score, .</description>
         </item>
         
     </channel>

@@ -107,6 +107,21 @@
                 href="https://thinkuldeep.com/hi/tags/life-lessons/"
         />
     </url><url>
+        <loc>https://thinkuldeep.com/hi/tags/motivational/</loc>
+        <lastmod>2026-01-17T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com/tags/motivational/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com/hi/tags/motivational/"
+        />
+    </url><url>
         <loc>https://thinkuldeep.com/hi/tags/</loc>
         <lastmod>2026-01-17T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -280,21 +295,6 @@
                 rel="alternate"
                 hreflang="hi"
                 href="https://thinkuldeep.com/hi/tags/life/"
-        />
-    </url><url>
-        <loc>https://thinkuldeep.com/hi/tags/motivational/</loc>
-        <lastmod>2025-12-01T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com/tags/motivational/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com/hi/tags/motivational/"
         />
     </url><url>
         <loc>https://thinkuldeep.com/hi/tags/reflection/</loc>

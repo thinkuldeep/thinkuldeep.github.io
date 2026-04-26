@@ -177,22 +177,6 @@ This challenge becomes even more evident in cross-platform mobile development. I
         </item>
         
         <item>
-            <title>Continuous Evaludation of AI Applications </title>
-            <link>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</link>
-            <pubDate>Thu, 19 Feb 2026 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/post/continous_evaluation-of-ai-solution/</guid>
-            <description>Sensible Defaults - AI&amp;hellip;
-Stage : Draft Building trust&amp;hellip;
-Accuracy - c Helfullness - Safety - Latency -
-chlalnges
-Subjecitivyt - differet people &amp;hellip; jitne muh utni baat&amp;hellip; open-endeded ness - natual language&amp;hellip; context sensitity - depending on time, use, scalability - human eval is gold standards,, but impossible&amp;hellip;
-So even if automated evaluation is not perfect, still needed.
-Observability - in AI
-  Loging LLM inputs (promts, settings, parameters), output (result, confidence score, .</description>
-        </item>
-        
-        <item>
             <title>Immersive AI: Transforming Reality with Intelligence and Interaction</title>
             <link>https://thinkuldeep.com/event/immersive-ai-rea-tech-fest/</link>
             <pubDate>Thu, 19 Feb 2026 10:58:08 -0400</pubDate>
@@ -277,16 +261,6 @@ I recently received a powerful one at the Silver Jubilee celebration of my Mille
             <guid>https://thinkuldeep.com/post/ai-that-works-is-thoughtworks/</guid>
             <description>It’s been more than eight years since I joined Thoughtworks—a company known for sharing practical, experience-driven insights on technology and business with the world.
 Thoughtworks has long stood for doing what works in the real world. From its contribution to the Agile Manifesto—which reshaped how software is built to be more adaptive, collaborative, and customer-centric—to continuously sharing learnings from the field, the focus has always been on outcomes, not theory.</description>
-        </item>
-        
-        <item>
-            <title>Dose of Jagjeevan  - Balancing the The Fourth Pillar!</title>
-            <link>https://thinkuldeep.com/post/dose-of-jagjeevan-the-4th-pillar/</link>
-            <pubDate>Sat, 17 Jan 2026 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/post/dose-of-jagjeevan-the-4th-pillar/</guid>
-            <description>Taking a break from our daily routine to spend time with family often feels harder than it should be. Busy schedules, long travel, work pressure, health concerns, distance, or even unresolved misunderstandings slowly become convenient excuses. Yet, deep down, we all know this truth: family gatherings are essential for our mental peace and happiness.
- We celebrate festivals, birthdays, anniversaries, and milestones to strengthen family bonds and create memories that last a lifetime.</description>
         </item>
         
         <item>
@@ -696,6 +670,16 @@ A notable endorsement came from Mayan Shay May-Raz — Principal Product, Amazon
             <guid>https://thinkuldeep.com/post/iot-ble/</guid>
             <description>In a previous article, we explored how to build IoT firmware applications using the nRF Connect SDK. We examined its project structure and learned how to build and flash firmware on the nRF52840 dongle. If you missed it, you can catch up here:
 For more hands-on practices, use nRF52840 Development Kit (DK), that offers advanced developer features. You need to connect this board via a high-speed data cable like this one, to get it detected on your PC.</description>
+        </item>
+        
+        <item>
+            <title>Dose of Jagjeevan  - Balancing the The Fourth Pillar!</title>
+            <link>https://thinkuldeep.com/post/dose-of-jagjeevan-the-4th-pillar/</link>
+            <pubDate>Fri, 17 Jan 2025 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/post/dose-of-jagjeevan-the-4th-pillar/</guid>
+            <description>Taking a break from our daily routine to spend time with family often feels harder than it should be. Busy schedules, long travel, work pressure, health concerns, distance, or even unresolved misunderstandings slowly become convenient excuses. Yet, deep down, we all know this truth: family gatherings are essential for our mental peace and happiness.
+ We celebrate festivals, birthdays, anniversaries, and milestones to strengthen family bonds and create memories that last a lifetime.</description>
         </item>
         
         <item>

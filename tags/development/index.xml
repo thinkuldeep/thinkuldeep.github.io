@@ -8,7 +8,19 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Wed, 25 Mar 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Mon, 27 Apr 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Agentic AI using Local LLM Setup</title>
+            <link>https://thinkuldeep.com/post/agentic-ai-hands-on-2/</link>
+            <pubDate>Mon, 27 Apr 2026 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/post/agentic-ai-hands-on-2/</guid>
+            <description>In Agentic AI Hands-On — Part 1, we built our first AI Agent and explored how a well-designed prompt can drive real-world actions — browsing websites, calling APIs, or performing calculations through tools.
+We implemented the agent using the basic architecture
+ Thought → Action → Observation → Reasoning → Answer
+ Where the agent relied on OpenAI LLMs hosted over cloud and accessed through a python SDK. While powerful, this setup requires:</description>
+        </item>
+        
         <item>
             <title>Agentic AI | Hands-on Practices – Part 1</title>
             <link>https://thinkuldeep.com/post/agentic-ai-hands-on/</link>

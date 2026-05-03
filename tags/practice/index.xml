@@ -8,7 +8,19 @@
         <language>en-us</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Mon, 27 Apr 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/practice/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Mon, 04 May 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/practice/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Claude Code for Agentic AI — From Basics to Real Agents</title>
+            <link>https://thinkuldeep.com/post/agentic-ai-hands-on-3/</link>
+            <pubDate>Mon, 04 May 2026 10:58:08 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com/post/agentic-ai-hands-on-3/</guid>
+            <description>In a previous hands-on articles, we built agents using local LLMs, and another article hands-on with AI-Integrated Development Environment using Claude Code. This article continues that journey,
+Here the focus is different:
+ 👉 How Claude Code becomes an Agent Platform — not just a coding assistant.
+ In this article, we will teach Claude how to work with us. We will progressively build: Skills, Agents, MCP tools, Plugin integrations amd by the end, Claude will act as: an About-Me agent, a Books price agent, and an externally powered MCP agent</description>
+        </item>
+        
         <item>
             <title>Agentic AI using Local LLM Setup</title>
             <link>https://thinkuldeep.com/post/agentic-ai-hands-on-2/</link>

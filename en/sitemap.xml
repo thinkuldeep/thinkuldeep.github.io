@@ -2,13 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>https://thinkuldeep.com/post/agentic-ai-hands-on-2/</loc>
-        <lastmod>2026-04-27T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
         <loc>https://thinkuldeep.com/tags/agenticai/</loc>
-        <lastmod>2026-04-27T10:58:08-04:00</lastmod>
+        <lastmod>2026-05-04T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -23,7 +18,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com/tags/ai/</loc>
-        <lastmod>2026-04-27T10:58:08-04:00</lastmod>
+        <lastmod>2026-05-04T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -37,38 +32,48 @@
                 href="https://thinkuldeep.com/tags/ai/"
         />
     </url><url>
-        <loc>https://thinkuldeep.com/tags/development/</loc>
-        <lastmod>2026-04-27T10:58:08-04:00</lastmod>
+        <loc>https://thinkuldeep.com/tags/claude/</loc>
+        <lastmod>2026-05-04T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>https://thinkuldeep.com/tags/embeddings/</loc>
-        <lastmod>2026-04-27T10:58:08-04:00</lastmod>
+        <loc>https://thinkuldeep.com/post/agentic-ai-hands-on-3/</loc>
+        <lastmod>2026-05-04T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/development/</loc>
+        <lastmod>2026-05-04T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com/tags/evolution/</loc>
-        <lastmod>2026-04-27T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/fine-tuning/</loc>
-        <lastmod>2026-04-27T10:58:08-04:00</lastmod>
+        <lastmod>2026-05-04T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com/tags/future/</loc>
-        <lastmod>2026-04-27T10:58:08-04:00</lastmod>
+        <lastmod>2026-05-04T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com/tags/genai/</loc>
-        <lastmod>2026-04-27T10:58:08-04:00</lastmod>
+        <lastmod>2026-05-04T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/ide/</loc>
+        <lastmod>2026-05-04T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/integration/</loc>
+        <lastmod>2026-05-04T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com/tags/learnings/</loc>
-        <lastmod>2026-04-27T10:58:08-04:00</lastmod>
+        <lastmod>2026-05-04T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -82,23 +87,23 @@
                 href="https://thinkuldeep.com/tags/learnings/"
         />
     </url><url>
+        <loc>https://thinkuldeep.com/tags/mcp/</loc>
+        <lastmod>2026-05-04T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
         <loc>https://thinkuldeep.com/tags/practice/</loc>
-        <lastmod>2026-04-27T10:58:08-04:00</lastmod>
+        <lastmod>2026-05-04T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com/tags/prompt/</loc>
-        <lastmod>2026-04-27T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/rag/</loc>
-        <lastmod>2026-04-27T10:58:08-04:00</lastmod>
+        <lastmod>2026-05-04T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com/tags/</loc>
-        <lastmod>2026-04-27T10:58:08-04:00</lastmod>
+        <lastmod>2026-05-04T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -118,7 +123,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com/tags/technology/</loc>
-        <lastmod>2026-04-27T10:58:08-04:00</lastmod>
+        <lastmod>2026-05-04T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -138,12 +143,12 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com/tags/tutorial/</loc>
-        <lastmod>2026-04-27T10:58:08-04:00</lastmod>
+        <lastmod>2026-05-04T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com/</loc>
-        <lastmod>2026-04-27T10:58:08-04:00</lastmod>
+        <lastmod>2026-05-04T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -161,6 +166,26 @@
                 hreflang="en"
                 href="https://thinkuldeep.com/"
         />
+    </url><url>
+        <loc>https://thinkuldeep.com/post/agentic-ai-hands-on-2/</loc>
+        <lastmod>2026-04-27T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/embeddings/</loc>
+        <lastmod>2026-04-27T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/fine-tuning/</loc>
+        <lastmod>2026-04-27T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com/tags/rag/</loc>
+        <lastmod>2026-04-27T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com/event/cxo-roundtable-cloudthat-ai-era/</loc>
         <lastmod>2026-04-10T10:58:08-04:00</lastmod>
@@ -828,21 +853,6 @@
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com/tags/aiagent/</loc>
-        <lastmod>2026-03-10T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/claude/</loc>
-        <lastmod>2026-03-10T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/ide/</loc>
-        <lastmod>2026-03-10T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com/tags/integration/</loc>
         <lastmod>2026-03-10T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>

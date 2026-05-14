@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Java 8 – Introduction to Lambda Expression">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Introduction to Java Lambda Expression" />
 <meta property="og:description" content="Java 8 – Introduction to Lambda Expression" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/java8-lambda-expression/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/jdk8-lambda.jpg" />
+<meta property="og:url" content="https://thinkuldeep.com//post/java8-lambda-expression/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/jdk8-lambda.jpg" />
 <meta property="article:published_time" content="2014-12-10T10:58:08-04:00" />
-<meta property="article:modified_time" content="2014-12-10T10:58:08-04:00" /><meta itemprop="name" content="Introduction to Java Lambda Expression">
-<meta itemprop="description" content="Java 8 – Introduction to Lambda Expression"><meta itemprop="datePublished" content="2014-12-10T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2014-12-10T10:58:08-04:00" />
-<meta itemprop="wordCount" content="749">
-<meta itemprop="keywords" content="lambda-expression,java 8,java,whatsnew,introduction,tutorial,language,technology," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Introduction to Java Lambda Expression"/>
-<meta name="twitter:description" content="Java 8 – Introduction to Lambda Expression"/>
+<meta property="article:modified_time" content="2014-12-10T10:58:08-04:00" />
+  <meta itemprop="name" content="Introduction to Java Lambda Expression">
+  <meta itemprop="description" content="Java 8 – Introduction to Lambda Expression">
+  <meta itemprop="datePublished" content="2014-12-10T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2014-12-10T10:58:08-04:00">
+  <meta itemprop="wordCount" content="749">
+  <meta itemprop="keywords" content="Lambda-Expression,Java 8,Java,Whatsnew,Introduction,Tutorial,Language,Technology"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Introduction to Java Lambda Expression">
+<meta name="twitter:description" content="Java 8 – Introduction to Lambda Expression">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -328,18 +319,18 @@ or
 <ul>
 <li>Less Lines of Code - One of the benefit of using lambda expression is reduced amount of code, see below example.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Using Anonymous class 
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>Runnable r1 <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Runnable<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Using Anonymous class </span>
+</span></span><span style="display:flex;"><span>Runnable r1 <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Runnable() {
 </span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">run</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>			System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Prior to Java 8&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">};</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">run</span>() {
+</span></span><span style="display:flex;"><span>			System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Prior to Java 8&#34;</span>);
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>	};
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// Runnable using lambda expression
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>Runnable r2 <span style="color:#f92672">=</span> <span style="color:#f92672">()</span> <span style="color:#f92672">-&gt;</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>		System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;From Java 8&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">};</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Runnable using lambda expression</span>
+</span></span><span style="display:flex;"><span>Runnable r2 <span style="color:#f92672">=</span> () <span style="color:#f92672">-&gt;</span> {
+</span></span><span style="display:flex;"><span>		System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;From Java 8&#34;</span>);
+</span></span><span style="display:flex;"><span>	};
 </span></span></code></pre></div><ul>
 <li>As we know in Java, lambda can be used only with functional interfaces. In above example Runnable is a functional interface, so we can easily apply lambda expression here.</li>
 <li>In this case we are not passing any parameter in lambda expression because the run() method of the functional interface (Runnable) takes no argument.</li>
@@ -347,40 +338,40 @@ or
 </ul>
 <h4 id="sequential-and-parallel-execution-support-by-passing-behavior-in-methods">Sequential and Parallel Execution Support by passing behavior in methods</h4>
 <p>Prior to Java 8, processing elements of any collection can be done by obtaining an iterator from the collection and then iterating over the elements and then processing each element. If the requirement is to process the elements in parallel, it should be done by client code. With the introduction of Stream API in Java 8, functions can be passed to collection methods and now it’s responsibility of collection to process the elements either in sequential or parallel manner.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>    <span style="color:#75715e">// Using for loop for iterating a list 
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">printUsingForLoop</span><span style="color:#f92672">(){</span>
-</span></span><span style="display:flex;"><span>		List<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> stringList <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ArrayList<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;();</span>
-</span></span><span style="display:flex;"><span>		stringList<span style="color:#f92672">.</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Hello&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span>String string <span style="color:#f92672">:</span> stringList<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>				System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Content of List is: &#34;</span> <span style="color:#f92672">+</span> string<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Using forEach and passing lambda expression for iteration
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">printUsingForEach</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>		List<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> stringList <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ArrayList<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;();</span>
-</span></span><span style="display:flex;"><span>		stringList<span style="color:#f92672">.</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Hello&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		stringList<span style="color:#f92672">.</span><span style="color:#a6e22e">stream</span><span style="color:#f92672">().</span><span style="color:#a6e22e">forEach</span><span style="color:#f92672">((</span>string<span style="color:#f92672">)</span> <span style="color:#f92672">-&gt;</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>			System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Content of List is: &#34;</span> <span style="color:#f92672">+</span> string<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#f92672">});</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>    <span style="color:#75715e">// Using for loop for iterating a list </span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">printUsingForLoop</span>(){
+</span></span><span style="display:flex;"><span>		List<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> stringList <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ArrayList<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span>();
+</span></span><span style="display:flex;"><span>		stringList.<span style="color:#a6e22e">add</span>(<span style="color:#e6db74">&#34;Hello&#34;</span>);
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span> (String string : stringList) {
+</span></span><span style="display:flex;"><span>				System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Content of List is: &#34;</span> <span style="color:#f92672">+</span> string);
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Using forEach and passing lambda expression for iteration</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">printUsingForEach</span>() {
+</span></span><span style="display:flex;"><span>		List<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> stringList <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ArrayList<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span>();
+</span></span><span style="display:flex;"><span>		stringList.<span style="color:#a6e22e">add</span>(<span style="color:#e6db74">&#34;Hello&#34;</span>);
+</span></span><span style="display:flex;"><span>		stringList.<span style="color:#a6e22e">stream</span>().<span style="color:#a6e22e">forEach</span>((string) <span style="color:#f92672">-&gt;</span> {
+</span></span><span style="display:flex;"><span>			System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Content of List is: &#34;</span> <span style="color:#f92672">+</span> string);
+</span></span><span style="display:flex;"><span>		});
+</span></span><span style="display:flex;"><span>	}
 </span></span></code></pre></div><h4 id="higher-efficiency-utilizing-multicore-cpus">Higher Efficiency (Utilizing Multicore CPU’s)</h4>
-<p>Using <a href="/post/java8-stream-api">Stream API</a> and lambda expression we can achieve higher efficiency (parallel execution) in case of bulk operations on collections. Also lambda expressions can help in achieving internal iteration of collections rather than external iteration as shown in above example.
+<p>Using <a href="/post/java8-stream-api/">Stream API</a> and lambda expression we can achieve higher efficiency (parallel execution) in case of bulk operations on collections. Also lambda expressions can help in achieving internal iteration of collections rather than external iteration as shown in above example.
 Now a days we have CPU’s with multicores, we can take the advantage of these multicore CPU’s by parallel processing of collections using lambda.</p>
 <h4 id="lambda-expression-and-objects">Lambda Expression and Objects</h4>
 <p>In Java any lambda expression is an object as they are instance of functional interface. We can assign a lambda expression to any variable and pass it like any other object. See below example how the lambda expression is assigned to a variable, and how it is invoked.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Functional Interface
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">@FunctionalInterface</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">TaskComparator</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>	 <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">compareTasks</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> a1<span style="color:#f92672">,</span> <span style="color:#66d9ef">int</span> a2<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Functional Interface</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@FunctionalInterface</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">TaskComparator</span> {
+</span></span><span style="display:flex;"><span>	 <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">compareTasks</span>(<span style="color:#66d9ef">int</span> a1, <span style="color:#66d9ef">int</span> a2);
+</span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">TaskComparatorImpl</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>		TaskComparator myTaskComparator <span style="color:#f92672">=</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> a1<span style="color:#f92672">,</span> <span style="color:#66d9ef">int</span> a2<span style="color:#f92672">)</span> <span style="color:#f92672">-&gt;</span> <span style="color:#f92672">{</span><span style="color:#66d9ef">return</span> a1 <span style="color:#f92672">&gt;</span> a2<span style="color:#f92672">;};</span>    
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">boolean</span> result <span style="color:#f92672">=</span> myTaskComparator<span style="color:#f92672">.</span><span style="color:#a6e22e">compareTasks</span><span style="color:#f92672">(</span>5<span style="color:#f92672">,</span> 2<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>result<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">TaskComparatorImpl</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>		TaskComparator myTaskComparator <span style="color:#f92672">=</span> (<span style="color:#66d9ef">int</span> a1, <span style="color:#66d9ef">int</span> a2) <span style="color:#f92672">-&gt;</span> {<span style="color:#66d9ef">return</span> a1 <span style="color:#f92672">&gt;</span> a2;};    
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">boolean</span> result <span style="color:#f92672">=</span> myTaskComparator.<span style="color:#a6e22e">compareTasks</span>(5, 2);
+</span></span><span style="display:flex;"><span>		System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(result);
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h4 id="where-lambdas-can-be-applied">Where Lambda’s can be applied?</h4>
 <p>Lambda expressions can be used anywhere in Java where we have a target type.
 In Java we have target type in following contexts:</p>
@@ -648,11 +639,11 @@ In Java we have target type in following contexts:</p>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
+          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
+          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
         </li>
 	    
 	     <li  class="mb2">

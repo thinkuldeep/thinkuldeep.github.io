@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="This article covers a concept implementation for an XR App Container for 2D app">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Run a 2D App in XR Container" />
 <meta property="og:description" content="This article covers a concept implementation for an XR App Container for 2D app" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/run-a-2d-app-in-xr-container/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/xr-container-3.png" />
+<meta property="og:url" content="https://thinkuldeep.com//post/run-a-2d-app-in-xr-container/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/xr-container-3.png" />
 <meta property="article:published_time" content="2020-05-16T10:58:08-04:00" />
-<meta property="article:modified_time" content="2020-05-16T10:58:08-04:00" /><meta itemprop="name" content="Run a 2D App in XR Container">
-<meta itemprop="description" content="This article covers a concept implementation for an XR App Container for 2D app"><meta itemprop="datePublished" content="2020-05-16T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2020-05-16T10:58:08-04:00" />
-<meta itemprop="wordCount" content="2592">
-<meta itemprop="keywords" content="xr,ar,vr,mr,3d,enterprise,android,system,customization,Unity,ARCore,technology," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Run a 2D App in XR Container"/>
-<meta name="twitter:description" content="This article covers a concept implementation for an XR App Container for 2D app"/>
+<meta property="article:modified_time" content="2020-05-16T10:58:08-04:00" />
+  <meta itemprop="name" content="Run a 2D App in XR Container">
+  <meta itemprop="description" content="This article covers a concept implementation for an XR App Container for 2D app">
+  <meta itemprop="datePublished" content="2020-05-16T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2020-05-16T10:58:08-04:00">
+  <meta itemprop="wordCount" content="2592">
+  <meta itemprop="keywords" content="Xr,Ar,Vr,Mr,3d,Enterprise,Android,System,Customization,Unity,ARCore,Technology"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Run a 2D App in XR Container">
+<meta name="twitter:description" content="This article covers a concept implementation for an XR App Container for 2D app">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -315,7 +306,7 @@ if (!doNotTrack) {
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>There are a number of Enterprise XR use cases where we have a need to open the existing 2D apps in the XR devices in a wrapper app, and this article covers a concept, have a look!</p>
-<p>After trying the <a href="/post/os-customization-for-xr-devices">OS level customization</a> on an XR device, you may like to run your XR apps as a system app. Here is a simple article by <a href="https://medium.com/u/6b8d20e9607d">Raju K</a></p>
+<p>After trying the <a href="/post/os-customization-for-xr-devices/">OS level customization</a> on an XR device, you may like to run your XR apps as a system app. Here is a simple article by <a href="https://medium.com/u/6b8d20e9607d">Raju K</a></p>
 <blockquote>
 <p><a href="https://medium.com/xrpractices/android-system-apps-development-d73bedfb8def">Android System Apps development</a> -  Android Emulator Setup and guidelines to develop system applications</p>
 </blockquote>
@@ -341,7 +332,7 @@ if (!doNotTrack) {
 </li>
 <li>
 <p>Create a material with add to Cube, and set shader “<code>Unlit/Texture</code>”, may choose some default image.
-<img src="/images/xr-container-1.png" alt="Project"></p>
+<img alt="Project" src="/images/xr-container-1.png"></p>
 </li>
 <li>
 <p>Go to File &gt; Build and Settings</p>
@@ -364,7 +355,7 @@ It will export the project as an android project at a path say — <code>EXPORT_
 <ul>
 <li>Open Android Studio and create an empty project.</li>
 <li>Create a module in it as a Library
-<img src="/images/xr-container-2.png" alt="Project"></li>
+<img alt="Project" src="/images/xr-container-2.png"></li>
 </ul>
 <h2 id="implement-a-2d-wrapper">Implement a 2D Wrapper</h2>
 <h4 id="copy-the-unity-generated-unity-activity">Copy the Unity Generated Unity Activity</h4>
@@ -384,128 +375,128 @@ It will export the project as an android project at a path say — <code>EXPORT_
 <li>
 <p>Now let the <code>UnityPlayerActivity</code> extend from <code>ActivityGroup</code> instead <code>Activity</code>, I know it is deprecated, there are other ways in the latest Android API using fragments, etc, but let&rsquo;s go with it until I try other ways. Don&rsquo;t change anything else in this class.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UnityPlayerActivity</span> <span style="color:#66d9ef">extends</span> ActivityGroup
-</span></span><span style="display:flex;"><span><span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> UnityPlayer mUnityPlayer<span style="color:#f92672">;</span> <span style="color:#75715e">// don&#39;t change the name of this variable; referenced from native code
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// Setup activity layout
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">@Override</span> <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>Bundle savedInstanceState<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        requestWindowFeature<span style="color:#f92672">(</span>Window<span style="color:#f92672">.</span><span style="color:#a6e22e">FEATURE_NO_TITLE</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>savedInstanceState<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        mUnityPlayer <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> UnityPlayer<span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        setContentView<span style="color:#f92672">(</span>mUnityPlayer<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        mUnityPlayer<span style="color:#f92672">.</span><span style="color:#a6e22e">requestFocus</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> UnityPlayer mUnityPlayer; <span style="color:#75715e">// don&#39;t change the name of this variable; referenced from native code</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Setup activity layout</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span> <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span>(Bundle savedInstanceState)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        requestWindowFeature(Window.<span style="color:#a6e22e">FEATURE_NO_TITLE</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span>.<span style="color:#a6e22e">onCreate</span>(savedInstanceState);
+</span></span><span style="display:flex;"><span>        mUnityPlayer <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> UnityPlayer(<span style="color:#66d9ef">this</span>);
+</span></span><span style="display:flex;"><span>        setContentView(mUnityPlayer);
+</span></span><span style="display:flex;"><span>        mUnityPlayer.<span style="color:#a6e22e">requestFocus</span>();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div></li>
 </ul>
 <h4 id="implement-an-app-container">Implement an App Container</h4>
 <p>The app container loads the given activity as a view in a given ActivityGroup. It gets initialized with an instance of an Activity Group.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AppContainer</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> AppContainer instance<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> ActivityGroup context<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> <span style="color:#a6e22e">AppContainer</span><span style="color:#f92672">(</span>ActivityGroup context<span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">context</span> <span style="color:#f92672">=</span> context<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AppContainer</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> AppContainer instance;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> ActivityGroup context;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> <span style="color:#a6e22e">AppContainer</span>(ActivityGroup context){
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">context</span> <span style="color:#f92672">=</span> context;
+</span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">synchronized</span> AppContainer  
-</span></span><span style="display:flex;"><span>     <span style="color:#a6e22e">createInstance</span><span style="color:#f92672">(</span>ActivityGroup context<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>instance <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>         instance <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> AppContainer<span style="color:#f92672">(</span>context<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>       <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">return</span> instance<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> AppContainer <span style="color:#a6e22e">getInstance</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> instance<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span> <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#a6e22e">createInstance</span>(ActivityGroup context) {
+</span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">if</span>(instance <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span>){
+</span></span><span style="display:flex;"><span>         instance <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> AppContainer(context);
+</span></span><span style="display:flex;"><span>       }
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">return</span> instance;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> AppContainer <span style="color:#a6e22e">getInstance</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> instance;
+</span></span><span style="display:flex;"><span> }
+</span></span><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><ul>
 <li>
 <p>Add a method to start a given activity by a <code>LocalActivityManager</code> and add it to the activity group. It runs in the UI thread, and avoid certain exceptions (not listing them here)</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">addActivityView</span><span style="color:#f92672">(</span><span style="color:#66d9ef">final</span> Class activityClass<span style="color:#f92672">,</span> <span style="color:#66d9ef">final</span> <span style="color:#66d9ef">int</span> viewportWidth<span style="color:#f92672">,</span> <span style="color:#66d9ef">final</span> <span style="color:#66d9ef">int</span> viewportHeight<span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>  context<span style="color:#f92672">.</span><span style="color:#a6e22e">runOnUiThread</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Runnable<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">addActivityView</span>(<span style="color:#66d9ef">final</span> Class activityClass, <span style="color:#66d9ef">final</span> <span style="color:#66d9ef">int</span> viewportWidth, <span style="color:#66d9ef">final</span> <span style="color:#66d9ef">int</span> viewportHeight){
+</span></span><span style="display:flex;"><span>  context.<span style="color:#a6e22e">runOnUiThread</span>(<span style="color:#66d9ef">new</span> Runnable() {
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">run</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      Intent intent <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Intent<span style="color:#f92672">(</span>context<span style="color:#f92672">,</span> activityClass<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>      LocalActivityManager mgr <span style="color:#f92672">=</span> context<span style="color:#f92672">.</span><span style="color:#a6e22e">getLocalActivityManager</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>      Window w <span style="color:#f92672">=</span> mgr<span style="color:#f92672">.</span><span style="color:#a6e22e">startActivity</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;MyIntentID&#34;</span><span style="color:#f92672">,</span> intent<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>      activityView <span style="color:#f92672">=</span> w <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">?</span> w<span style="color:#f92672">.</span><span style="color:#a6e22e">getDecorView</span><span style="color:#f92672">()</span> <span style="color:#f92672">:</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>      activityView<span style="color:#f92672">.</span><span style="color:#a6e22e">requestFocus</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>      addActivityToLayout<span style="color:#f92672">(</span>context<span style="color:#f92672">,</span> viewportWidth<span style="color:#f92672">,</span> viewportHeight<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">});</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">run</span>() {
+</span></span><span style="display:flex;"><span>      Intent intent <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Intent(context, activityClass);
+</span></span><span style="display:flex;"><span>      LocalActivityManager mgr <span style="color:#f92672">=</span> context.<span style="color:#a6e22e">getLocalActivityManager</span>();
+</span></span><span style="display:flex;"><span>      Window w <span style="color:#f92672">=</span> mgr.<span style="color:#a6e22e">startActivity</span>(<span style="color:#e6db74">&#34;MyIntentID&#34;</span>, intent);
+</span></span><span style="display:flex;"><span>      activityView <span style="color:#f92672">=</span> w <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">?</span> w.<span style="color:#a6e22e">getDecorView</span>() : <span style="color:#66d9ef">null</span>;
+</span></span><span style="display:flex;"><span>      activityView.<span style="color:#a6e22e">requestFocus</span>();
+</span></span><span style="display:flex;"><span>      addActivityToLayout(context, viewportWidth, viewportHeight);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  });
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div></li>
 <li>
 <p>Add the activity to Layout — this will add the activity to a lower layer so it is not visible in the foreground.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">addActivityToLayout</span><span style="color:#f92672">(</span>Activity context<span style="color:#f92672">,</span> <span style="color:#66d9ef">int</span> viewPortWidth<span style="color:#f92672">,</span> <span style="color:#66d9ef">int</span> viewPortHeight<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  Rect rect <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Rect<span style="color:#f92672">(</span>0<span style="color:#f92672">,</span> 0<span style="color:#f92672">,</span> viewPortWidth<span style="color:#f92672">,</span> viewPortHeight<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  FrameLayout<span style="color:#f92672">.</span><span style="color:#a6e22e">LayoutParams</span> layoutParams <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> FrameLayout<span style="color:#f92672">.</span><span style="color:#a6e22e">LayoutParams</span><span style="color:#f92672">(</span>rect<span style="color:#f92672">.</span><span style="color:#a6e22e">width</span><span style="color:#f92672">(),</span> rect<span style="color:#f92672">.</span><span style="color:#a6e22e">height</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>  layoutParams<span style="color:#f92672">.</span><span style="color:#a6e22e">setMargins</span><span style="color:#f92672">(</span>rect<span style="color:#f92672">.</span><span style="color:#a6e22e">left</span><span style="color:#f92672">,</span> rect<span style="color:#f92672">.</span><span style="color:#a6e22e">top</span><span style="color:#f92672">,</span> 0<span style="color:#f92672">,</span> 0<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  activityView<span style="color:#f92672">.</span><span style="color:#a6e22e">setLayoutParams</span><span style="color:#f92672">(</span>layoutParams<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  activityView<span style="color:#f92672">.</span><span style="color:#a6e22e">measure</span><span style="color:#f92672">(</span>viewPortWidth<span style="color:#f92672">,</span> viewPortHeight<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  ViewGroup viewGroup <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>ViewGroup<span style="color:#f92672">)</span> context<span style="color:#f92672">.</span><span style="color:#a6e22e">getWindow</span><span style="color:#f92672">().</span><span style="color:#a6e22e">getDecorView</span><span style="color:#f92672">().</span><span style="color:#a6e22e">getRootView</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>  viewGroup<span style="color:#f92672">.</span><span style="color:#a6e22e">setFocusable</span><span style="color:#f92672">(</span><span style="color:#66d9ef">true</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  viewGroup<span style="color:#f92672">.</span><span style="color:#a6e22e">setFocusableInTouchMode</span><span style="color:#f92672">(</span><span style="color:#66d9ef">true</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  initBitmapBuffer<span style="color:#f92672">(</span>viewPortWidth<span style="color:#f92672">,</span> viewPortHeight<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  viewGroup<span style="color:#f92672">.</span><span style="color:#a6e22e">addView</span><span style="color:#f92672">(</span>activityView<span style="color:#f92672">,</span> 0<span style="color:#f92672">);</span> <span style="color:#75715e">//Add at lower layer
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">addActivityToLayout</span>(Activity context, <span style="color:#66d9ef">int</span> viewPortWidth, <span style="color:#66d9ef">int</span> viewPortHeight) {
+</span></span><span style="display:flex;"><span>  Rect rect <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Rect(0, 0, viewPortWidth, viewPortHeight);
+</span></span><span style="display:flex;"><span>  FrameLayout.<span style="color:#a6e22e">LayoutParams</span> layoutParams <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> FrameLayout.<span style="color:#a6e22e">LayoutParams</span>(rect.<span style="color:#a6e22e">width</span>(), rect.<span style="color:#a6e22e">height</span>());
+</span></span><span style="display:flex;"><span>  layoutParams.<span style="color:#a6e22e">setMargins</span>(rect.<span style="color:#a6e22e">left</span>, rect.<span style="color:#a6e22e">top</span>, 0, 0);
+</span></span><span style="display:flex;"><span>  activityView.<span style="color:#a6e22e">setLayoutParams</span>(layoutParams);
+</span></span><span style="display:flex;"><span>  activityView.<span style="color:#a6e22e">measure</span>(viewPortWidth, viewPortHeight);
+</span></span><span style="display:flex;"><span>  ViewGroup viewGroup <span style="color:#f92672">=</span> (ViewGroup) context.<span style="color:#a6e22e">getWindow</span>().<span style="color:#a6e22e">getDecorView</span>().<span style="color:#a6e22e">getRootView</span>();
+</span></span><span style="display:flex;"><span>  viewGroup.<span style="color:#a6e22e">setFocusable</span>(<span style="color:#66d9ef">true</span>);
+</span></span><span style="display:flex;"><span>  viewGroup.<span style="color:#a6e22e">setFocusableInTouchMode</span>(<span style="color:#66d9ef">true</span>);
+</span></span><span style="display:flex;"><span>  initBitmapBuffer(viewPortWidth, viewPortHeight);
+</span></span><span style="display:flex;"><span>  viewGroup.<span style="color:#a6e22e">addView</span>(activityView, 0); <span style="color:#75715e">//Add at lower layer</span>
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>What? are you serious, if this is not visible in the foreground, how would you see it.
 Well, we will render the bitmap of this activity view. Remember the screen we created in Unity, we will render this bitmap there, wait and watch!</p>
 </li>
 <li>
 <p>Let’s initialize a bitmap as follows</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">private</span> Bitmap bitmap<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> Canvas canvas<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> ByteBuffer buffer<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">initBitmapBuffer</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> viewPortWidth<span style="color:#f92672">,</span> <span style="color:#66d9ef">int</span> viewPortHeight<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  bitmap <span style="color:#f92672">=</span> Bitmap<span style="color:#f92672">.</span><span style="color:#a6e22e">createBitmap</span><span style="color:#f92672">(</span>viewPortWidth<span style="color:#f92672">,</span> viewPortHeight<span style="color:#f92672">,</span> Bitmap<span style="color:#f92672">.</span><span style="color:#a6e22e">Config</span><span style="color:#f92672">.</span><span style="color:#a6e22e">ARGB_8888</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  canvas <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Canvas<span style="color:#f92672">(</span>bitmap<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  buffer <span style="color:#f92672">=</span> ByteBuffer<span style="color:#f92672">.</span><span style="color:#a6e22e">allocate</span><span style="color:#f92672">(</span>bitmap<span style="color:#f92672">.</span><span style="color:#a6e22e">getByteCount</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">private</span> Bitmap bitmap;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> Canvas canvas;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> ByteBuffer buffer;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">initBitmapBuffer</span>(<span style="color:#66d9ef">int</span> viewPortWidth, <span style="color:#66d9ef">int</span> viewPortHeight) {
+</span></span><span style="display:flex;"><span>  bitmap <span style="color:#f92672">=</span> Bitmap.<span style="color:#a6e22e">createBitmap</span>(viewPortWidth, viewPortHeight, Bitmap.<span style="color:#a6e22e">Config</span>.<span style="color:#a6e22e">ARGB_8888</span>);
+</span></span><span style="display:flex;"><span>  canvas <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Canvas(bitmap);
+</span></span><span style="display:flex;"><span>  buffer <span style="color:#f92672">=</span> ByteBuffer.<span style="color:#a6e22e">allocate</span>(bitmap.<span style="color:#a6e22e">getByteCount</span>());
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>Now the buffer is ready and ready to be consumed. let&rsquo;s expose a consumption method.</p>
 </li>
 <li>
 <p>Render the texture — Here comes the magic method which renders a given native texture pointer using OpenGL (Don’t ask me details, some help from here). It draws the activity views on a canvas (which has bitmap) and then copies the bitmap’s pixel to the buffer, then it magically writes the row pixel data against the native texture pointer.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">renderTexture</span><span style="color:#f92672">(</span><span style="color:#66d9ef">final</span> <span style="color:#66d9ef">int</span> texturePointer<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">byte</span><span style="color:#f92672">[]</span> imageBuffer<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>  imageBuffer <span style="color:#f92672">=</span> getOutputBuffer<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>imageBuffer<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span> <span style="color:#f92672">&gt;</span> 1<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    Log<span style="color:#f92672">.</span><span style="color:#a6e22e">d</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;d&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;render texture&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//activityView.requestFocus();
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    GLES20<span style="color:#f92672">.</span><span style="color:#a6e22e">glBindTexture</span><span style="color:#f92672">(</span>GLES20<span style="color:#f92672">.</span><span style="color:#a6e22e">GL_TEXTURE_2D</span><span style="color:#f92672">,</span> texturePointer<span style="color:#f92672">);</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">renderTexture</span>(<span style="color:#66d9ef">final</span> <span style="color:#66d9ef">int</span> texturePointer) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">byte</span><span style="color:#f92672">[]</span> imageBuffer;
+</span></span><span style="display:flex;"><span>  imageBuffer <span style="color:#f92672">=</span> getOutputBuffer();
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (imageBuffer.<span style="color:#a6e22e">length</span> <span style="color:#f92672">&gt;</span> 1) {
+</span></span><span style="display:flex;"><span>    Log.<span style="color:#a6e22e">d</span>(<span style="color:#e6db74">&#34;d&#34;</span>, <span style="color:#e6db74">&#34;render texture&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//activityView.requestFocus();</span>
+</span></span><span style="display:flex;"><span>    GLES20.<span style="color:#a6e22e">glBindTexture</span>(GLES20.<span style="color:#a6e22e">GL_TEXTURE_2D</span>, texturePointer);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    GLES20<span style="color:#f92672">.</span><span style="color:#a6e22e">glTexSubImage2D</span><span style="color:#f92672">(</span>GLES20<span style="color:#f92672">.</span><span style="color:#a6e22e">GL_TEXTURE_2D</span><span style="color:#f92672">,</span> 0<span style="color:#f92672">,</span> 0<span style="color:#f92672">,</span> 0<span style="color:#f92672">,</span> activityView<span style="color:#f92672">.</span><span style="color:#a6e22e">getWidth</span><span style="color:#f92672">(),</span>
-</span></span><span style="display:flex;"><span>      activityView<span style="color:#f92672">.</span><span style="color:#a6e22e">getHeight</span><span style="color:#f92672">(),</span> GLES20<span style="color:#f92672">.</span><span style="color:#a6e22e">GL_RGBA</span><span style="color:#f92672">,</span> GLES20<span style="color:#f92672">.</span><span style="color:#a6e22e">GL_UNSIGNED_BYTE</span><span style="color:#f92672">,</span>
-</span></span><span style="display:flex;"><span>      ByteBuffer<span style="color:#f92672">.</span><span style="color:#a6e22e">wrap</span><span style="color:#f92672">(</span>imageBuffer<span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    GLES20.<span style="color:#a6e22e">glTexSubImage2D</span>(GLES20.<span style="color:#a6e22e">GL_TEXTURE_2D</span>, 0, 0, 0, activityView.<span style="color:#a6e22e">getWidth</span>(),
+</span></span><span style="display:flex;"><span>      activityView.<span style="color:#a6e22e">getHeight</span>(), GLES20.<span style="color:#a6e22e">GL_RGBA</span>, GLES20.<span style="color:#a6e22e">GL_UNSIGNED_BYTE</span>,
+</span></span><span style="display:flex;"><span>      ByteBuffer.<span style="color:#a6e22e">wrap</span>(imageBuffer));
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">byte</span><span style="color:#f92672">[]</span> <span style="color:#a6e22e">getOutputBuffer</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>canvas <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      canvas<span style="color:#f92672">.</span><span style="color:#a6e22e">drawColor</span><span style="color:#f92672">(</span>0<span style="color:#f92672">,</span> PorterDuff<span style="color:#f92672">.</span><span style="color:#a6e22e">Mode</span><span style="color:#f92672">.</span><span style="color:#a6e22e">CLEAR</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>      activityView<span style="color:#f92672">.</span><span style="color:#a6e22e">draw</span><span style="color:#f92672">(</span>canvas<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>      bitmap<span style="color:#f92672">.</span><span style="color:#a6e22e">copyPixelsToBuffer</span><span style="color:#f92672">(</span>buffer<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>      buffer<span style="color:#f92672">.</span><span style="color:#a6e22e">rewind</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span> buffer<span style="color:#f92672">.</span><span style="color:#a6e22e">array</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span><span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>Exception e<span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>      Log<span style="color:#f92672">.</span><span style="color:#a6e22e">w</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;AppContainer&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;getOutputBuffer&#34;</span><span style="color:#f92672">,</span> e<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">byte</span><span style="color:#f92672">[</span>0<span style="color:#f92672">];</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">byte</span><span style="color:#f92672">[</span>0<span style="color:#f92672">];</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">byte</span><span style="color:#f92672">[]</span> <span style="color:#a6e22e">getOutputBuffer</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (canvas <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> ) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>      canvas.<span style="color:#a6e22e">drawColor</span>(0, PorterDuff.<span style="color:#a6e22e">Mode</span>.<span style="color:#a6e22e">CLEAR</span>);
+</span></span><span style="display:flex;"><span>      activityView.<span style="color:#a6e22e">draw</span>(canvas);
+</span></span><span style="display:flex;"><span>      bitmap.<span style="color:#a6e22e">copyPixelsToBuffer</span>(buffer);
+</span></span><span style="display:flex;"><span>      buffer.<span style="color:#a6e22e">rewind</span>();
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span> buffer.<span style="color:#a6e22e">array</span>();
+</span></span><span style="display:flex;"><span>    }<span style="color:#66d9ef">catch</span> (Exception e){
+</span></span><span style="display:flex;"><span>      Log.<span style="color:#a6e22e">w</span>(<span style="color:#e6db74">&#34;AppContainer&#34;</span>, <span style="color:#e6db74">&#34;getOutputBuffer&#34;</span>, e);
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">byte</span><span style="color:#f92672">[</span>0<span style="color:#f92672">]</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">byte</span><span style="color:#f92672">[</span>0<span style="color:#f92672">]</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div></li>
 </ul>
 <h4 id="using-the-app-container">Using The App Container</h4>
 <p>Add just line at the end of <code>UnityPlayerActivity.OnCreate</code> method, and initialize the app container. No more changes here.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#a6e22e">@Override</span> <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>Bundle savedInstanceState<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>   
-</span></span><span style="display:flex;"><span>    AppContainer<span style="color:#f92672">.</span><span style="color:#a6e22e">createInstance</span><span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span><span style="color:#960050;background-color:#1e0010">`</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#a6e22e">@Override</span> <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span>(Bundle savedInstanceState)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>...   
+</span></span><span style="display:flex;"><span>    AppContainer.<span style="color:#a6e22e">createInstance</span>(<span style="color:#66d9ef">this</span>);
+</span></span><span style="display:flex;"><span>}<span style="color:#960050;background-color:#1e0010">`</span>
 </span></span></code></pre></div><p>Ok, enough of Java, let’s get back to Unity. A 3D screen is waiting to consume the texture.</p>
 <h4 id="using-activitywrapper-library">Using ActivityWrapper Library</h4>
 <p>Before we go, let&rsquo;s build this library, so that it can be included in Unity Project.</p>
@@ -544,7 +535,7 @@ Well, we will render the bitmap of this activity view. Remember the screen we cr
 </span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;/application&gt;</span>
 </span></span></code></pre></div><p>Now, this newly implemented activity will act as a Main Player Activity and on the start of the unity app, it will start the app container.</p>
 <p>But when you try to run this, you will see multiple Manifest merger conflicts, use User the “<code>tools: replace</code>” at the <code>&lt;application&gt;</code> as well as <code>&lt;activity&gt;</code> level wherever it is required. You can always see merge conflicts in the Android Manifest Viewer of Android Studio.</p>
-<p><img src="/images/xr-container-4.png" alt="Project"></p>
+<p><img alt="Project" src="/images/xr-container-4.png"></p>
 <p>Other issues will be related to <code>unity-classes.jar</code> which somehow gets packages in the generated library as well as supplied by Unity itself. You need one copy,</p>
 <p>Somehow “<code>provided</code>” and “<code>compileOnly</code>” wasn&rsquo;t working for me while generating library, so I did a quick workaround, please find some better solution for it. I have to exclude <code>unity-classes.jar</code> from the main Gradle file of unity project, here is a way to do that.</p>
 </li>
@@ -565,7 +556,7 @@ Well, we will render the bitmap of this activity view. Remember the screen we cr
 </ul>
 <h2 id="implement-xr-activity-loader">Implement XR Activity Loader</h2>
 <p>Let&rsquo;s add more components in the scene, label, and a Load button in Unity.
-<img src="/images/xr-container-3.png" alt="Project"></p>
+<img alt="Project" src="/images/xr-container-3.png"></p>
 <h4 id="render-the-activity-in-a-3d-screen">Render the Activity in a 3D Screen</h4>
 <p>Let&rsquo;s create a script to render the activity on the screen.</p>
 <ul>
@@ -638,7 +629,7 @@ Well, we will render the bitmap of this activity view. Remember the screen we cr
 </ul>
 <h2 id="the-2d-app">The 2D App</h2>
 <p>Let&rsquo;s build a 2D app that we want to render in the unity 3D container. Go back to the Android Studio, Choose Login Activity while project creation.
-<img src="/images/xr-container-5.png" alt="Project"></p>
+<img alt="Project" src="/images/xr-container-5.png"></p>
 <p>It generates a full login app and input fields and so.</p>
 <p>Try to run this app. Just make and deploy to the phone or emulator. and see how it runs.
 <img src ="/images/xr-container-6.png" style="width:50%; height:50%"/></p>
@@ -722,7 +713,7 @@ Or we can include this app in Unity as a library. Let&rsquo;s go with this.</p>
 <ul>
 <li>
 <p>Go to Unity and give this name in the Script of the Screen Game Object.
-<img src="/images/xr-container-7.png" alt="Project"></p>
+<img alt="Project" src="/images/xr-container-7.png"></p>
 </li>
 <li>
 <p>Connect your android phone via USB and Go to File &gt; Build and Run. Wait for the build to complete and here you go.
@@ -780,7 +771,7 @@ Or we can include this app in Unity as a library. Let&rsquo;s go with this.</p>
 </span></span></code></pre></div></li>
 <li>
 <p>Change shader for the material of Screen GameObject select this newly created shader. Check Mirror Y, and rotation 180.
-<img src="/images/xr-container-9.png" alt="Project"></p>
+<img alt="Project" src="/images/xr-container-9.png"></p>
 </li>
 </ul>
 <h2 id="xr-container-in-action">XR Container in Action</h2>
@@ -1674,11 +1665,11 @@ Or we can include this app in Unity as a library. Let&rsquo;s go with this.</p>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
+          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
+          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
         </li>
 	    
 	     <li  class="mb2">

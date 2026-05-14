@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="XR devices need OS customization to support the enterprise&#39;s needs. Sharing my experience of building a custom android image.">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="OS Customization for XR Device" />
 <meta property="og:description" content="XR devices need OS customization to support the enterprise&#39;s needs. Sharing my experience of building a custom android image." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/os-customization-for-xr-devices/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/os_cutomization.png" />
+<meta property="og:url" content="https://thinkuldeep.com//post/os-customization-for-xr-devices/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/os_cutomization.png" />
 <meta property="article:published_time" content="2020-05-10T10:58:08-04:00" />
-<meta property="article:modified_time" content="2020-05-10T10:58:08-04:00" /><meta itemprop="name" content="OS Customization for XR Device">
-<meta itemprop="description" content="XR devices need OS customization to support the enterprise&#39;s needs. Sharing my experience of building a custom android image."><meta itemprop="datePublished" content="2020-05-10T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2020-05-10T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1631">
-<meta itemprop="keywords" content="xr,customization,enterprise,android,aosp,os,technology," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="OS Customization for XR Device"/>
-<meta name="twitter:description" content="XR devices need OS customization to support the enterprise&#39;s needs. Sharing my experience of building a custom android image."/>
+<meta property="article:modified_time" content="2020-05-10T10:58:08-04:00" />
+  <meta itemprop="name" content="OS Customization for XR Device">
+  <meta itemprop="description" content="XR devices need OS customization to support the enterprise&#39;s needs. Sharing my experience of building a custom android image.">
+  <meta itemprop="datePublished" content="2020-05-10T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2020-05-10T10:58:08-04:00">
+  <meta itemprop="wordCount" content="1631">
+  <meta itemprop="keywords" content="Xr,Customization,Enterprise,Android,Aosp,Os,Technology"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="OS Customization for XR Device">
+<meta name="twitter:description" content="XR devices need OS customization to support the enterprise&#39;s needs. Sharing my experience of building a custom android image.">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -317,7 +308,7 @@ if (!doNotTrack) {
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>The Operating System of XR (AR VR) devices is mostly customized to the hardware of the device, and not just that the OS level customizations are needed to meet the enterprise needs such as integration with Enterprise MDM (Mobile Device Management) solutions (such as <a href="https://www.microsoft.com/en-us/microsoft-365/enterprise-mobility-security/microsoft-intune">Intune</a>, <a href="https://www.mobileiron.com/en">MobileIron</a> and <a href="https://www.air-watch.com/">Airwatch</a>), 3D lock screen, idle-timeout, custom home screen, custom settings, security, as so on.</p>
 <p>Most organizations currently using traditional hardware and software assets such as mobile devices, laptops, and desktops, and the processes and policies for managing these devices are quite stable and straightforward by now. Now the expectation is to follow the same/similar process for managing the organization’s XR devices. Most enterprise MDM supports standard OS (Windows, Mac, Linux, and Android), but mostly these are not well aligned to 3D user experience.</p>
 <p>There are a number of XR devices based on Android, eg <a href="https://www.oculus.com/?locale=en_US">Oculus</a>,<a href="https://www.google.com/glass/start/">Google Glass</a>, <a href="https://www.vuzix.com/">Vuzix</a>, and <a href="https://developers.google.com/ar/discover/supported-devices">ARCore/VR supported Smart Phones</a>. This article is a first step toward building a custom Android OS and small customizations. We will use the Android Open Source Project (AOSP) to build the custom image as per our needs.</p>
-<p><img src="/images/os_cutomization.png" alt="Image">
+<p><img alt="Image" src="/images/os_cutomization.png">
 Take a deep breath, this will be a lengthy task, you need to wait for hours and hours to finish the steps, and plan your time ahead.</p>
 <p>Let&rsquo;s start …</p>
 <h2 id="before-you-start">Before you start</h2>
@@ -337,7 +328,7 @@ Take a deep breath, this will be a lengthy task, you need to wait for hours and 
 </li>
 <li>
 <p>Create a Bootable image — Download Rufus from <a href="https://rufus.ie/">https://rufus.ie/</a>, insert a USB pen drive (I used one of size 8GB), select the downloaded Ubuntu ISO image, and start creating the image bootable image.
-<img src="https://miro.medium.com/max/836/0*SDVaQBZSgqnC6ori.png" alt="Bootable Image"></p>
+<img alt="Bootable Image" src="https://miro.medium.com/max/836/0*SDVaQBZSgqnC6ori.png"></p>
 </li>
 <li>
 <p>It will some minutes and once you see “Ready” eject the USB safely.</p>
@@ -347,7 +338,7 @@ Take a deep breath, this will be a lengthy task, you need to wait for hours and 
 </li>
 <li>
 <p>Setup Ubuntu — During installation, it will reboot, and choose Ubuntu option from the boot menu, and then choose the timezone, language, and set up a user account (remember credentials please for later login). You will see the Ubuntu home screen, and see keyboard shortcuts. Remember these.
-<img src="https://miro.medium.com/max/1000/0*9w5PuFPrY1MP6sEk.jpg" alt="Ubuntu"></p>
+<img alt="Ubuntu" src="https://miro.medium.com/max/1000/0*9w5PuFPrY1MP6sEk.jpg"></p>
 </li>
 </ul>
 <p>Congratulations! it&rsquo;s ready now.</p>
@@ -467,7 +458,7 @@ Take a deep breath, this will be a lengthy task, you need to wait for hours and 
 </span></span><span style="display:flex;"><span>  - Click <span style="color:#e6db74">&#34;SDK Tools&#34;</span> tab
 </span></span><span style="display:flex;"><span>  - Check <span style="color:#e6db74">&#34;Android Emulator&#34;</span> checkbox
 </span></span><span style="display:flex;"><span>  - Click <span style="color:#e6db74">&#34;OK&#34;</span>
-</span></span></code></pre></div><p><img src="https://miro.medium.com/max/962/1*XC1CopXwIMY2wVe4GEwZ-g.png" alt="Emulator">
+</span></span></code></pre></div><p><img alt="Emulator" src="https://miro.medium.com/max/962/1*XC1CopXwIMY2wVe4GEwZ-g.png">
 Your fresh android image is running. Congratulations. You should see it in the list of connected devices in ADB.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>arvr@arvr-pc:~/aosp$ adb devices
 </span></span><span style="display:flex;"><span>List of devices attached
@@ -478,7 +469,7 @@ Your fresh android image is running. Congratulations. You should see it in the l
 <h2 id="customizing-the-settings-app">Customizing the Settings App</h2>
 <p>Let&rsquo;s assume, we want to customize the Settings app for our XR need. Let&rsquo;s open the settings I wanted to customize a settings app.</p>
 <p>Oops! the settings app is failing to load.
-<img src="https://miro.medium.com/max/974/1*VpIfGoQBeIYIotqFb_g3ew.png" alt="Failed to load"></p>
+<img alt="Failed to load" src="https://miro.medium.com/max/974/1*VpIfGoQBeIYIotqFb_g3ew.png"></p>
 <p>Logcat tied to look through the logs using logcat.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>arvr@arvr-pc:~/aosp$ adb logcat
 </span></span><span style="display:flex;"><span>05–10 11:21:10.091 <span style="color:#ae81ff">1640</span> <span style="color:#ae81ff">1651</span> I ActivityManager: START u0 <span style="color:#f92672">{</span>act<span style="color:#f92672">=</span>android.intent.action.MAIN cat<span style="color:#f92672">=[</span>android.intent.category.LAUNCHER<span style="color:#f92672">]</span> flg<span style="color:#f92672">=</span>0x10200000 cmp<span style="color:#f92672">=</span>com.android.settings/.Settings <span style="color:#f92672">(</span>has extras<span style="color:#f92672">)}</span> from uid <span style="color:#ae81ff">10015</span> 
@@ -497,17 +488,17 @@ stackoverflow.com</p>
 <p>Now I got two suggestions, change <code>WifiDisplaySettings.java</code> in the AOSP packages or just clean build with the <code>user-debug</code> target. I will go with the first option.</p>
 <h4 id="open-the-settings-app-in-android-studio">Open the Settings App in Android Studio</h4>
 <p>Locate the settings in <code>/packages/apps/Settings</code> and open in Android Studio.
-<img src="https://miro.medium.com/max/852/1*25IpyJMab5uwHm9ruxgxTg.png" alt=""></p>
+<img src="https://miro.medium.com/max/852/1*25IpyJMab5uwHm9ruxgxTg.png"></p>
 <p>Open class - <code>/src/com/android/settings/wfd/WifiDisplaySettings.java</code>
 and Change the code snippet</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">isAvailable</span><span style="color:#f92672">(</span>Context context<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">return</span> context<span style="color:#f92672">.</span><span style="color:#a6e22e">getSystemService</span><span style="color:#f92672">(</span>Context<span style="color:#f92672">.</span><span style="color:#a6e22e">DISPLAY_SERVICE</span><span style="color:#f92672">)</span> <span style="color:#f92672">!=</span> 
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> context<span style="color:#f92672">.</span><span style="color:#a6e22e">getSystemService</span><span style="color:#f92672">(</span>Context<span style="color:#f92672">.</span><span style="color:#a6e22e">WIFI_P2P_SERVICE</span><span style="color:#f92672">)</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">isAvailable</span>(Context context) {
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">return</span> context.<span style="color:#a6e22e">getSystemService</span>(Context.<span style="color:#a6e22e">DISPLAY_SERVICE</span>) <span style="color:#f92672">!=</span> 
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> context.<span style="color:#a6e22e">getSystemService</span>(Context.<span style="color:#a6e22e">WIFI_P2P_SERVICE</span>) <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span>;
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>To</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">isAvailable</span><span style="color:#f92672">(</span>Context context<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">isAvailable</span>(Context context) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span>;
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>Let’s build again, another few hours? No, don&rsquo;t worry this time it won’t take long, it will build just what you have changed. Run the make command again.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>arvr@arvr-pc:~/aosp$ m -j16
 </span></span><span style="display:flex;"><span>The operation has completed successfully.
@@ -516,14 +507,14 @@ and Change the code snippet</p>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">#### build completed successfully (02:44 (mm:ss)) ####</span>
 </span></span><span style="display:flex;"><span>arvr@arvr-pc:~/aosp$ emulator &amp;
 </span></span></code></pre></div><p>The emulator is now built with changes, run the emulator now. And here you go, Settings app is working!
-<img src="https://miro.medium.com/max/950/1*Bm2aDgODmExcRbrZ7JAf3A.png" alt=""></p>
+<img src="https://miro.medium.com/max/950/1*Bm2aDgODmExcRbrZ7JAf3A.png"></p>
 <h4 id="customize-the-settings-app">Customize the Settings App</h4>
 <p>Hay! you know, you have already customized the android image. Not excited enough, let&rsquo;s do one more exercise to customize the Settings Menu options.</p>
 <p>Open <code>/res/values/strings.xml</code> and change some menu titles eg. change “<em>Battery</em>” title to “<code>Kuldeep Power</code>” and “<code>Network &amp; Internet</code>” to “<code>K Network &amp; Internet</code>”.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-xml" data-lang="xml"><span style="display:flex;"><span><span style="color:#f92672">&lt;string</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;power_usage_summary_title&#34;</span><span style="color:#f92672">&gt;</span>Kuldeep Power<span style="color:#f92672">&lt;/string&gt;</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;string</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;network_dashboard_title&#34;</span><span style="color:#f92672">&gt;</span>K Network &amp;amp; Internet<span style="color:#f92672">&lt;/string&gt;</span>
 </span></span></code></pre></div><p>Build the image (remember the <code>m</code> command) and run the emulator as described in the last step, wait for a few minutes and you have your customized android menu.
-<img src="https://miro.medium.com/max/1400/1*pxHwIFA1OY21RzGM2yGOyw.png" alt="custom image"></p>
+<img alt="custom image" src="https://miro.medium.com/max/1400/1*pxHwIFA1OY21RzGM2yGOyw.png"></p>
 <p>With this, your custom settings app is ready and available in the Andorid Image, and now I would like to close the article, and say you good Night.</p>
 <p>I will write about flashing this image to a device later, the spare phone for which I am building this image, is now not working, looks like my son has experimented with that old phone.</p>
 <p>In the future, we will also discuss how to customize native users managements in android based XR devices, and also how to handle device-specific options that are not supported in the regular phone.</p>
@@ -945,11 +936,11 @@ and Change the code snippet</p>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
+          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
+          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
         </li>
 	    
 	     <li  class="mb2">
@@ -1385,11 +1376,11 @@ and Change the code snippet</p>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
+          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
+          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
         </li>
 	    
 	     <li  class="mb2">

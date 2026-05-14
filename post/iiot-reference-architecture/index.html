@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="A architecture reference specially designed for the IIoT">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Industrial IoT (IIOT) Reference Architecture" />
 <meta property="og:description" content="A architecture reference specially designed for the IIoT" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/iiot-reference-architecture/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/IIOT.png" />
+<meta property="og:url" content="https://thinkuldeep.com//post/iiot-reference-architecture/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/IIOT.png" />
 <meta property="article:published_time" content="2016-08-16T10:58:08-04:00" />
-<meta property="article:modified_time" content="2016-08-16T10:58:08-04:00" /><meta itemprop="name" content="Industrial IoT (IIOT) Reference Architecture">
-<meta itemprop="description" content="A architecture reference specially designed for the IIoT"><meta itemprop="datePublished" content="2016-08-16T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2016-08-16T10:58:08-04:00" />
-<meta itemprop="wordCount" content="886">
-<meta itemprop="keywords" content="architecture,IOT,industrial,Cloud,smart factory,Industry 4.0,enterprise,technology," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Industrial IoT (IIOT) Reference Architecture"/>
-<meta name="twitter:description" content="A architecture reference specially designed for the IIoT"/>
+<meta property="article:modified_time" content="2016-08-16T10:58:08-04:00" />
+  <meta itemprop="name" content="Industrial IoT (IIOT) Reference Architecture">
+  <meta itemprop="description" content="A architecture reference specially designed for the IIoT">
+  <meta itemprop="datePublished" content="2016-08-16T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2016-08-16T10:58:08-04:00">
+  <meta itemprop="wordCount" content="886">
+  <meta itemprop="keywords" content="Architecture,IOT,Industrial,Cloud,Smart Factory,Industry 4.0,Enterprise,Technology"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Industrial IoT (IIOT) Reference Architecture">
+<meta name="twitter:description" content="A architecture reference specially designed for the IIoT">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -316,7 +307,7 @@ if (!doNotTrack) {
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>The industry has been going through an evolution. Industry 4.0 is the fourth industrial revolution where the key will be on digital transformation.
 Industry 4.0 creates what has been called a &ldquo;smart factory&rdquo;. Within the modular structured smart factories, cyber-physical systems monitor physical processes, create a virtual copy of the physical world and make decentralized decisions. Over the Internet of Things, cyber-physical systems communicate and cooperate with each other and with humans in real time, and via the Internet of Services, both internal and cross-organizational services are offered and used by participants of the value chain.
-<img src="/images/IIOT.png" alt=""></p>
+<img src="/images/IIOT.png"></p>
 <p>The core of industry 4.0 is technology. Digital trust and data analytics are the foundation of this.  Focus will be on people and culture to drive transformation. All this is achieved through Industrial Internet of Things (IIoT) which falls under the ecosystem of IoT. But the industry is in complex of itself, where there is a need to connect different kind of heterogeneous systems, high availability and scalability without compromising on the security aspect of the system. Hence there a need to have a specific architecture reference specially designed for the IIoT. This document is all about the architecture reference for IIoT.</p>
 <h2 id="foundation-principle-and-concept">Foundation Principle and Concept</h2>
 <h4 id="agility">Agility</h4>
@@ -333,7 +324,7 @@ In order for a company’s IoT strategy to be a competitive advantage, the IT or
 <p>This perspective addresses two quality properties that are closely related: Performance and Scalability. Both are, compared to traditional information systems, even harder to cope with in a highly distributed scenario as we have it in IIoT. The ability of the system to predictably execute within its mandated performance profile and to handle increased processing volumes in the future if required. Any system with complex, unclear, or ambitious performance requirements; systems whose architecture includes elements whose performance is unknown; and systems where future expansion is likely to be significant.</p>
 <h2 id="architecture-components">Architecture Components</h2>
 <p>Below is the high level architecture of a IIoT System.</p>
-<p><img src="/images/IIOT_arch.png" alt=""></p>
+<p><img src="/images/IIOT_arch.png"></p>
 <h4 id="protocols-device-connectivity">Protocols (Device Connectivity)</h4>
 <p>One of the issues encountered in the transition to the IIoT is the fact that different edge-of-network devices have historically used different protocols for sending and receiving data. While there are a number of different communication protocols currently in use, such as OPC-UA, the Message Queueing Telemetry Transport (MQTT) transfer protocol is quickly emerging as the standard for IIoT, due to its lightweight overhead, publish/subscribe model, and bidirectional capabilities.</p>
 <h4 id="service-orchestration">Service Orchestration</h4>
@@ -940,11 +931,11 @@ The services are more of the nature of event based and it is based out the princ
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
+          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
+          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
         </li>
 	    
 	     <li  class="mb2">

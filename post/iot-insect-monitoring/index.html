@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -10,7 +10,7 @@
     <meta name="description" content="Insects are the most diverse species of animals found on earth. While every species is required to maintain the balance of nature, excessive accumulation of any one type can have devastating effects on humans and environment.
 Insect management relies on the early detection and accuracy of insect population monitoring techniquessensors-12-15801. Integrated data gathering about insect population together with the ecological factors like temperature, humidity, light etc., makes it possible to execute appropriate pest control at the right time in the right place.">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -27,9 +27,7 @@ Insect management relies on the early detection and accuracy of insect populatio
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -46,30 +44,23 @@ Insect management relies on the early detection and accuracy of insect populatio
 <meta property="og:description" content="Insects are the most diverse species of animals found on earth. While every species is required to maintain the balance of nature, excessive accumulation of any one type can have devastating effects on humans and environment.
 Insect management relies on the early detection and accuracy of insect population monitoring techniquessensors-12-15801. Integrated data gathering about insect population together with the ecological factors like temperature, humidity, light etc., makes it possible to execute appropriate pest control at the right time in the right place." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/iot-insect-monitoring/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/insect_detection.png" />
+<meta property="og:url" content="https://thinkuldeep.com//post/iot-insect-monitoring/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/insect_detection.png" />
 <meta property="article:published_time" content="2016-12-16T10:58:08-04:00" />
-<meta property="article:modified_time" content="2016-12-16T10:58:08-04:00" /><meta itemprop="name" content="IoT based insect monitoring concept">
-<meta itemprop="description" content="Insects are the most diverse species of animals found on earth. While every species is required to maintain the balance of nature, excessive accumulation of any one type can have devastating effects on humans and environment.
-Insect management relies on the early detection and accuracy of insect population monitoring techniquessensors-12-15801. Integrated data gathering about insect population together with the ecological factors like temperature, humidity, light etc., makes it possible to execute appropriate pest control at the right time in the right place."><meta itemprop="datePublished" content="2016-12-16T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2016-12-16T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1593">
-<meta itemprop="keywords" content="insect monitoring,IOT,raspberry pi,concept,c&#43;&#43;,opencv,python,MQTT,nagarro,technology," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="IoT based insect monitoring concept"/>
+<meta property="article:modified_time" content="2016-12-16T10:58:08-04:00" />
+  <meta itemprop="name" content="IoT based insect monitoring concept">
+  <meta itemprop="description" content="Insects are the most diverse species of animals found on earth. While every species is required to maintain the balance of nature, excessive accumulation of any one type can have devastating effects on humans and environment.
+Insect management relies on the early detection and accuracy of insect population monitoring techniquessensors-12-15801. Integrated data gathering about insect population together with the ecological factors like temperature, humidity, light etc., makes it possible to execute appropriate pest control at the right time in the right place.">
+  <meta itemprop="datePublished" content="2016-12-16T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2016-12-16T10:58:08-04:00">
+  <meta itemprop="wordCount" content="1593">
+  <meta itemprop="keywords" content="Insect Monitoring,IOT,Raspberry Pi,Concept,C&#43;&#43;,Opencv,Python,MQTT,Nagarro,Technology"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="IoT based insect monitoring concept">
 <meta name="twitter:description" content="Insects are the most diverse species of animals found on earth. While every species is required to maintain the balance of nature, excessive accumulation of any one type can have devastating effects on humans and environment.
-Insect management relies on the early detection and accuracy of insect population monitoring techniquessensors-12-15801. Integrated data gathering about insect population together with the ecological factors like temperature, humidity, light etc., makes it possible to execute appropriate pest control at the right time in the right place."/>
+Insect management relies on the early detection and accuracy of insect population monitoring techniquessensors-12-15801. Integrated data gathering about insect population together with the ecological factors like temperature, humidity, light etc., makes it possible to execute appropriate pest control at the right time in the right place.">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -319,7 +310,7 @@ if (!doNotTrack) {
 <p>A well-known technique to perform pest control monitoring is based on the use of insect traps conveniently spread over the specified control area. Human operators typically performs periodical surveys of the traps disseminated through the field. This is a labour, time and cost-consuming activity. This paper proposes an affordable, autonomous monitoring system that uses image processing to detect insect population at regular intervals and sends that data to a web server via an IOT protocol (MQTT in this case). A web dashboard visualises the insect density at different time instances, with a warning system if the density crosses a set threshold value.</p>
 <h2 id="solution-concept">Solution Concept</h2>
 <p>Due to the rapid development of digital technology, there is an opportunity for image processing technology to be used for the automation of insect detection. This paper illustrates a system based on a low cost, low power imaging and processing device operated through a wireless sensor network that is able to automatically acquire images of the trapping area and process them to count the insect density. The data is then sent to a web server where it gets stored in a database. The web server hosts a web dashboard through which human operators can remotely monitor the insect traps.
-<img src="/images/insect-monitoring-arch.png" alt=""></p>
+<img src="/images/insect-monitoring-arch.png"></p>
 <p>The insect monitoring system is developed using open source software on a Linux based machine. The app runs on a small device like Raspberry Pi 2 with the help of Raspbian Jessie OS. The work flow is as such that the application running on the raspberry pi 2 captures few seconds worth of video footage at regular intervals. The frames captured are then processed using openCV image processing library to calculate the insect density during that time frame. Once the data is available, it is then to a web server using the IoT protocol MQTT (Message Queuing Telemetry Transport). The web server receives the data sent and stores it in the database. We have a web dashboard hosted on the web server. It retrieves the data from the database and visualises the insect density at different time instances, with a warning system if the density crosses a set threshold value.</p>
 <h4 id="here-are-the-key-components-of-the-system-">Here are the key components of the system :</h4>
 <ul>
@@ -342,7 +333,7 @@ if (!doNotTrack) {
 <h4 id="implementation-strategy">Implementation Strategy</h4>
 <p>Our webcam will be located inside the trap, fixed at the top so that it faces the bottom of the trap. It will be connected to the raspberry pi (located somewhere outside the trap) with a USB cable.</p>
 <p>The C++ application deployed in the raspberry pi accesses the webcam to capture the images of the trap and process them using opencv library to calculate the insect count. When the program is first initialised, it captures initial video frames of the empty insect trap to be used as a reference. After that it captures the change in the scene at regular intervals. The image frames captured are then processed using the opencv functions. In our system, we use their background subtraction algorithm to generate the foreground masks that clearly show the insects trapped. Following figure shows the image captured by the webcam and the foreground mask generated.
-<img src="/images/insect_detection.png" alt=""></p>
+<img src="/images/insect_detection.png"></p>
 <p>The foreground masks generated are then processed to calculate the number of insects trapped. A JSON string is created with current timestamp and the insect count. This string is then sent to the web server by publishing it using the Mosquitto broker and its corresponding mosquito_pub client.
 A python script is executing on the web server that receives this json message we have sent. It uses the paho mqtt client to subscribe to the same topic as our c++ application. The json data received is parsed and stored in the sqlite database on the server.
 The SQLite database contains only a single table called insect_density. It contains two columns.</p>

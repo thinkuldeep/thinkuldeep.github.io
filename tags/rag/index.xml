@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>RAG on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com/tags/rag/</link>
+        <link>https://thinkuldeep.com//tags/rag/</link>
         <description>Recent content in RAG on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
+        <language>en</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Mon, 27 Apr 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/rag/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Agentic AI using Local LLM Setup</title>
-            <link>https://thinkuldeep.com/post/agentic-ai-hands-on-2/</link>
+            <link>https://thinkuldeep.com//post/agentic-ai-hands-on-2/</link>
             <pubDate>Mon, 27 Apr 2026 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/post/agentic-ai-hands-on-2/</guid>
+            <guid>https://thinkuldeep.com//post/agentic-ai-hands-on-2/</guid>
             <description>In Agentic AI Hands-On — Part 1, we built our first AI Agent and explored how a well-designed prompt can drive real-world actions — browsing websites, calling APIs, or performing calculations through tools.
 We implemented the agent using the basic architecture
- Thought → Action → Observation → Reasoning → Answer
- Where the agent relied on OpenAI LLMs hosted over cloud and accessed through a python SDK. While powerful, this setup requires:</description>
+Thought → Action → Observation → Reasoning → Answer
+Where the agent relied on OpenAI LLMs hosted over cloud and accessed through a python SDK. While powerful, this setup requires:</description>
         </item>
         
         <item>
             <title>Agentic AI | Hands-on Practices – Part 1</title>
-            <link>https://thinkuldeep.com/post/agentic-ai-hands-on/</link>
+            <link>https://thinkuldeep.com//post/agentic-ai-hands-on/</link>
             <pubDate>Wed, 25 Mar 2026 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/post/agentic-ai-hands-on/</guid>
+            <guid>https://thinkuldeep.com//post/agentic-ai-hands-on/</guid>
             <description>In my previous article, I explored the journey from AI → GenAI → Agentic AI and also emphasized why being hands-on still matters, even when AI can generate code in seconds.
 The role of developers is clearly evolving—from pure builders to reviewers, orchestrators, and system designers.
 Today, AI Agents are everywhere. We hear about systems that:
- Generate code, review, test and deploy it Perform tasks autonomously Integrate seamlessly with applications  But there’s a gap.</description>
+Generate code, review, test and deploy it Perform tasks autonomously Integrate seamlessly with applications But there’s a gap.</description>
         </item>
         
     </channel>

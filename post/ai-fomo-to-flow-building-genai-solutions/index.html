@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="From confusion to confidence — start your Gen AI journey here">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="FOMO to Flow: Building Gen AI Solutions" />
 <meta property="og:description" content="From confusion to confidence — start your Gen AI journey here" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/ai-fomo-to-flow-building-genai-solutions/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/genai2.jpg" />
+<meta property="og:url" content="https://thinkuldeep.com//post/ai-fomo-to-flow-building-genai-solutions/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/genai2.jpg" />
 <meta property="article:published_time" content="2025-05-17T10:58:08-04:00" />
-<meta property="article:modified_time" content="2025-05-17T10:58:08-04:00" /><meta itemprop="name" content="FOMO to Flow: Building Gen AI Solutions">
-<meta itemprop="description" content="From confusion to confidence — start your Gen AI journey here"><meta itemprop="datePublished" content="2025-05-17T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2025-05-17T10:58:08-04:00" />
-<meta itemprop="wordCount" content="2716">
-<meta itemprop="keywords" content="evolution,ai,genai,technology,prompt,tutorial,learnings,fine-tuning,development,embeddings,similarity search,vector,database,tools," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="FOMO to Flow: Building Gen AI Solutions"/>
-<meta name="twitter:description" content="From confusion to confidence — start your Gen AI journey here"/>
+<meta property="article:modified_time" content="2025-05-17T10:58:08-04:00" />
+  <meta itemprop="name" content="FOMO to Flow: Building Gen AI Solutions">
+  <meta itemprop="description" content="From confusion to confidence — start your Gen AI journey here">
+  <meta itemprop="datePublished" content="2025-05-17T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2025-05-17T10:58:08-04:00">
+  <meta itemprop="wordCount" content="2718">
+  <meta itemprop="keywords" content="Evolution,AI,GenAI,Technology,Prompt,Tutorial,Learnings,Fine-Tuning,Development,Embeddings,Similarity Search,Vector,Database,Tools"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="FOMO to Flow: Building Gen AI Solutions">
+<meta name="twitter:description" content="From confusion to confidence — start your Gen AI journey here">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -311,11 +302,11 @@ if (!doNotTrack) {
       
       
         <span class="f6 mv4 dib tracked"> - 13 minutes read </span>
-        <span class="f6 mv4 dib tracked"> - 2716 words </span>
+        <span class="f6 mv4 dib tracked"> - 2718 words </span>
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><strong><em>Unlock the power of Generative AI by learning to interact with large language models programmatically—and take it further with fine-tuning for customized responses.</em></strong></p>
-<p><img src="/images/genai2.jpg" alt="Image"></p>
+<p><img alt="Image" src="/images/genai2.jpg"></p>
 <p>If you’re a <strong>software maker</strong> feeling the fear of missing out (FOMO) on the <strong>Gen AI revolution</strong>, you’re not alone. The way we build and interact with software is evolving rapidly. “Google it” or “check Stack Overflow” is no longer the go-to approach — <a href="/ai-assisted-software-development-myths/">AI-first</a>, conversational tools are becoming the new standard across development, design, and decision-making. Simply using tools like <a href="https://chatgpt.com/">ChatGPT</a> or <a href="https://gemini.google.com/">Gemini</a> as chatbots isn’t enough anymore. When even the biggest tech paradigms are being disrupted, what does that mean for traditional development roles?</p>
 <p>Here’s the good news: <strong>it’s not too late to get started</strong> — and this guide will take you from FOMO to flow, introducing you to Gen AI concepts and showing you how to start building with confidence.</p>
 <p>Let’s start by exploring the gen AI architecture that brings it all Gen AI concept together, and then we will get into developing Gen AI applications and practice these core concepts.</p>
@@ -329,7 +320,7 @@ if (!doNotTrack) {
 </blockquote>
 <p>They don’t remember what happened a moment ago, they <em>don’t keep track of ongoing conversations</em> or your specific context between interactions.</p>
 <p>To build <em>smart, conversational, and personalized Gen AI</em> applications, you need more than just an LLM. You need a <em>supporting architecture</em> — a set of layers that provide memory, knowledge, and prompt optimization to help the AI feel more intelligent and useful. Here’s a quick look:</p>
-<p><img src="/images/genai-artchitecture.jpg" alt="Image"></p>
+<p><img alt="Image" src="/images/genai-artchitecture.jpg"></p>
 <h3 id="1-user-interface-front-end">1. User Interface (Front End)</h3>
 <p>This is where the magic starts — from the user’s point of view. It might be a <strong>chat window</strong>, <strong>voice assistant</strong>, or a <strong>smart feature</strong> inside your app. The frontend <strong>captures input</strong> (text, images, voice) and <strong>displays responses</strong> in a way that suits your use case.</p>
 <p>In tools like ChatGPT, users are expected to write clear prompts. That’s because LLMs — though incredibly knowledgeable — can’t read your mind. They respond best when you ask precisely. This is often called <strong>Prompt Engineering</strong>, but honestly, it’s more of a <strong>Prompting Art</strong> — knowing how to talk to the model so it truly understands what you want.</p>
@@ -429,7 +420,7 @@ thinkuldeep: Thanks! That helps narrow it down…
 <h2 id="-implementing-basic-rag">🧠 Implementing Basic RAG</h2>
 <p>Large Language Models (LLMs) like Gemini are powerful, but they aren’t all-knowing. They might not have the latest information about specific people, use cases, or private knowledge.</p>
 <p>That’s where <strong>RAG</strong> comes in — <strong>Retrieval-Augmented Generation</strong> is a technique that fetches relevant information from an external source (like a website or document) and <strong>augments the prompt</strong> with this context before sending it to the LLM.</p>
-<p>Let’s walk through a simple RAG implementation that pulls data from <a href="/about">Kuldeep’s About page</a> and uses it to generate accurate responses.</p>
+<p>Let’s walk through a simple RAG implementation that pulls data from <a href="/about/">Kuldeep’s About page</a> and uses it to generate accurate responses.</p>
 <p>👉 Notebook: <a href="https://github.com/aipractices/genai-application-collab-excercise/blob/main/Implementing_Basic_RAG.ipynb">Implementing Basic RAG</a></p>
 <h3 id="-1-retrieve">🧩 1: Retrieve</h3>
 <p>Pull relevant information from the source page:</p>
@@ -772,11 +763,11 @@ thinkuldeep: Goodbye!
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
+          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
+          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
         </li>
 	    
 	     <li  class="mb2">
@@ -1332,11 +1323,11 @@ thinkuldeep: Goodbye!
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jsp-compilation-issues/">Strange JSP Compilation Issue </a>
+          <a href="/post/javascript-plugin-framework/">JavaScript Plugin Framework</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/javascript-plugin-framework/">JavaScript Plugin Framework</a>
+          <a href="/post/jsp-compilation-issues/">Strange JSP Compilation Issue </a>
         </li>
 	    
 	     <li  class="mb2">

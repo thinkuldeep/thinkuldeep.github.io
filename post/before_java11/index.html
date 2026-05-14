@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Are you ready for Java 11? In this post, we will discuss some of the useful features of Java 8, 9, and 10 that you need to know before jumping into Java11.">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="A Quick Catch up Before Java 11" />
 <meta property="og:description" content="Are you ready for Java 11? In this post, we will discuss some of the useful features of Java 8, 9, and 10 that you need to know before jumping into Java11." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/before_java11/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/Pope-Edouard-de-Beaumont-1844.jpg" />
+<meta property="og:url" content="https://thinkuldeep.com//post/before_java11/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/Pope-Edouard-de-Beaumont-1844.jpg" />
 <meta property="article:published_time" content="2018-08-29T10:58:08-04:00" />
-<meta property="article:modified_time" content="2018-08-29T10:58:08-04:00" /><meta itemprop="name" content="A Quick Catch up Before Java 11">
-<meta itemprop="description" content="Are you ready for Java 11? In this post, we will discuss some of the useful features of Java 8, 9, and 10 that you need to know before jumping into Java11."><meta itemprop="datePublished" content="2018-08-29T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2018-08-29T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1744">
-<meta itemprop="keywords" content="upgrade,java,java 11,java 8,java 9,java 10,technology," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="A Quick Catch up Before Java 11"/>
-<meta name="twitter:description" content="Are you ready for Java 11? In this post, we will discuss some of the useful features of Java 8, 9, and 10 that you need to know before jumping into Java11."/>
+<meta property="article:modified_time" content="2018-08-29T10:58:08-04:00" />
+  <meta itemprop="name" content="A Quick Catch up Before Java 11">
+  <meta itemprop="description" content="Are you ready for Java 11? In this post, we will discuss some of the useful features of Java 8, 9, and 10 that you need to know before jumping into Java11.">
+  <meta itemprop="datePublished" content="2018-08-29T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2018-08-29T10:58:08-04:00">
+  <meta itemprop="wordCount" content="1744">
+  <meta itemprop="keywords" content="Upgrade,Java,Java 11,Java 8,Java 9,Java 10,Technology"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="A Quick Catch up Before Java 11">
+<meta name="twitter:description" content="Are you ready for Java 11? In this post, we will discuss some of the useful features of Java 8, 9, and 10 that you need to know before jumping into Java11.">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -322,19 +313,19 @@ if (!doNotTrack) {
 <h4 id="a-quick-recap">A Quick Recap</h4>
 <h5 id="lambda-expression-parameters---body">Lambda Expression: <code>(parameters) -&gt; {body}</code></h5>
 <p>Lambda expressions opened the gates for the functional programming lovers to keep using Java. Lambda expressions expect zero or more parameters, which can be accessed in the expression body and returned with the evaluated result.</p>
-<p>Read my earlier article on <a href="/post/java8-lambda-expression">Introduction to Lambda Expressions</a></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>Comparator<span style="color:#f92672">&lt;</span>Integer<span style="color:#f92672">&gt;</span> comparator <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>a<span style="color:#f92672">,</span> b<span style="color:#f92672">)</span> <span style="color:#f92672">-&gt;</span> a<span style="color:#f92672">-</span>b<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>comparator<span style="color:#f92672">.</span><span style="color:#a6e22e">compare</span><span style="color:#f92672">(</span>3<span style="color:#f92672">,</span> 4<span style="color:#f92672">));</span> <span style="color:#75715e">// -1
-</span></span></span></code></pre></div><h5 id="functional-interface-an-interface-with-only-one-method">Functional Interface: an Interface With Only one Method</h5>
+<p>Read my earlier article on <a href="/post/java8-lambda-expression/">Introduction to Lambda Expressions</a></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>Comparator<span style="color:#f92672">&lt;</span>Integer<span style="color:#f92672">&gt;</span> comparator <span style="color:#f92672">=</span> (a, b) <span style="color:#f92672">-&gt;</span> a<span style="color:#f92672">-</span>b;
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(comparator.<span style="color:#a6e22e">compare</span>(3, 4)); <span style="color:#75715e">// -1</span>
+</span></span></code></pre></div><h5 id="functional-interface-an-interface-with-only-one-method">Functional Interface: an Interface With Only one Method</h5>
 <p>The lambda expression is, itself, treated as a function interface that can be assigned to the functional interface, as shown above. Java 8 has also provided a new functional construct shown below:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>BiFunction<span style="color:#f92672">&lt;</span>Integer<span style="color:#f92672">,</span> Integer<span style="color:#f92672">,</span> Integer<span style="color:#f92672">&gt;</span> comparator <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>a<span style="color:#f92672">,</span> b<span style="color:#f92672">)</span> <span style="color:#f92672">-&gt;</span> a<span style="color:#f92672">-</span>b<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>comparator<span style="color:#f92672">.</span><span style="color:#a6e22e">apply</span><span style="color:#f92672">(</span>3<span style="color:#f92672">,</span> 4<span style="color:#f92672">));</span> <span style="color:#75715e">// -1
-</span></span></span></code></pre></div><p>Refer to the package <code>java.util.function</code> for more functional constructs: Function, Supplier, Consumer, Predicate, etc. One can also define the functional interface using <code>@FunctionalInterface</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>BiFunction<span style="color:#f92672">&lt;</span>Integer, Integer, Integer<span style="color:#f92672">&gt;</span> comparator <span style="color:#f92672">=</span> (a, b) <span style="color:#f92672">-&gt;</span> a<span style="color:#f92672">-</span>b;
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(comparator.<span style="color:#a6e22e">apply</span>(3, 4)); <span style="color:#75715e">// -1</span>
+</span></span></code></pre></div><p>Refer to the package <code>java.util.function</code> for more functional constructs: Function, Supplier, Consumer, Predicate, etc. One can also define the functional interface using <code>@FunctionalInterface</code>.</p>
 <p>Interfaces may also have one or more default implementations for a method and may still remain as a functional interface. It helps avoid unnecessary abstract base classes for default implementation.</p>
 <p>Static and instance methods can be accessed with  <code>:: operator</code>, and constructors may be accessed with <code>::new</code>, and they can be passed as a functional parameter, e.g. <code>System.out::println</code>.</p>
 <h5 id="streams-much-more-than-iterations">Streams: Much More Than Iterations</h5>
 <p>Streams are a sequence of objects and operations. A lot of default methods have been added in the interfaces to support  <code>forEach</code>, <code>filter</code>, <code>map</code> , and reduce constructs of the streams. Java libraries, which were providing collections, now support the streams. e.g. <code>BufferredReader.lines()</code>. All the collections can be easily converted to streams. Parallel stream operations are also supported, which distributes the operations on the multiple CPUs internally.</p>
-<p>Read my earlier article on <a href="/post/java8-stream-api">Introduction to Steam APIs</a></p>
+<p>Read my earlier article on <a href="/post/java8-stream-api/">Introduction to Steam APIs</a></p>
 <h5 id="intermediate-operations-the-lazy-operation">Intermediate Operations: the Lazy Operation</h5>
 <p>For intermediate operations performed lazily, nothing happens until the terminating operation is called.</p>
 <ul>
@@ -355,7 +346,7 @@ if (!doNotTrack) {
 <p>Some combinations of GCs has deprecated. GC is allocated automatically based on the environment configurations.</p>
 <p>There were other changes in NIO, DateTime, Security, compact JDK profiles, and tools like jDeps, jjs, the JavaScript Engine, etc.</p>
 <h4 id="hashmap-improvements">HashMap Improvements</h4>
-<p>Java 8 has improved the HashMap collisions, have a look the <a href="/post/java8-hashmap-performance-improvement">HashMap Performance benchmarking</a></p>
+<p>Java 8 has improved the HashMap collisions, have a look the <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance benchmarking</a></p>
 <h2 id="java-9-continue-the-tradition">Java 9: Continue the Tradition</h2>
 <p>Java 9 has been around us for more than a year now. Its key feature module system is still not well adapted. In my opinion, it will take more time to really adopt such features in the mainstream. It challenges developers in the way they design classes. They now need to think more in terms of application modules than just a group of classes. Anyway, it is a similar challenge to what a traditional developer faces through microservice-based development.  Java 9 continued adding functional programming features to keep Java alive and also improved JVM internals.</p>
 <h4 id="java-platform-module-system-small-is-big">Java Platform Module System: Small Is Big</h4>
@@ -382,32 +373,32 @@ if (!doNotTrack) {
 </li>
 <li>
 <p>Create a Java class in /first.module/src</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.test.modules.print<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Printer</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">print</span><span style="color:#f92672">(</span>String input<span style="color:#f92672">){</span>   
-</span></span><span style="display:flex;"><span>    System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>input<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.test.modules.print;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Printer</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">print</span>(String input){   
+</span></span><span style="display:flex;"><span>    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(input);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div></li>
 <li>
 <p>Add module-info.java : /first.module/src &gt; New &gt; package
-<img src="/images/java_module.png" alt="javamodule"></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>module first<span style="color:#f92672">.</span><span style="color:#a6e22e">module</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    exports com<span style="color:#f92672">.</span><span style="color:#a6e22e">test</span><span style="color:#f92672">.</span><span style="color:#a6e22e">modules</span><span style="color:#f92672">.</span><span style="color:#a6e22e">print</span><span style="color:#f92672">;</span> <span style="color:#75715e">// exports public apis of the package.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#f92672">}</span>
+<img alt="javamodule" src="/images/java_module.png"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>module first.<span style="color:#a6e22e">module</span> {
+</span></span><span style="display:flex;"><span>    exports com.<span style="color:#a6e22e">test</span>.<span style="color:#a6e22e">modules</span>.<span style="color:#a6e22e">print</span>; <span style="color:#75715e">// exports public apis of the package.</span>
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div></li>
 <li>
 <p>Similarly, you need to create another module <code>main.module</code> and  <code>Main.java</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>module main<span style="color:#f92672">.</span><span style="color:#a6e22e">module</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  requires first<span style="color:#f92672">.</span><span style="color:#a6e22e">module</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.test.modules.main<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> com.test.modules.print.Printer<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Main</span> <span style="color:#f92672">{</span>    
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>        
-</span></span><span style="display:flex;"><span>      Printer<span style="color:#f92672">.</span><span style="color:#a6e22e">print</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Hello World&#34;</span><span style="color:#f92672">);</span>    
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>module main.<span style="color:#a6e22e">module</span> {
+</span></span><span style="display:flex;"><span>  requires first.<span style="color:#a6e22e">module</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.test.modules.main;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> com.test.modules.print.Printer;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Main</span> {    
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {        
+</span></span><span style="display:flex;"><span>      Printer.<span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;Hello World&#34;</span>);    
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div></li>
 <li>
 <p>IntelliJ automatically compiles it and keeps a record of dependencies and  <code>--module-source-path</code></p>
@@ -440,8 +431,8 @@ if (!doNotTrack) {
 <p>One Java program may contain classes compatible with multiple versions. To be honest, I am not sure how useful this feature might be.</p>
 <h2 id="java-10-getting-closer-to-the-functional-languages">Java 10: Getting Closer to the Functional Languages</h2>
 <p>Java 10 comes with the old favorite <code>var</code> of JavaScript. You can not only declare types of free variables but you can also construct the collection type free. The following are valid in Java:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>var test <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;9&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>var set <span style="color:#f92672">=</span> Set<span style="color:#f92672">.</span><span style="color:#a6e22e">of</span><span style="color:#f92672">(</span>5<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;X&#34;</span><span style="color:#f92672">,</span> 6<span style="color:#f92672">.</span><span style="color:#a6e22e">5</span><span style="color:#f92672">,</span> <span style="color:#66d9ef">new</span> Object<span style="color:#f92672">());</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> test <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;9&#34;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> set <span style="color:#f92672">=</span> Set.<span style="color:#a6e22e">of</span>(5, <span style="color:#e6db74">&#34;X&#34;</span>, 6.<span style="color:#a6e22e">5</span>, <span style="color:#66d9ef">new</span> Object());
 </span></span></code></pre></div><p>The code is getting less verbose and the magic of scripting languages is getting added in Java. It will definitely bring the negatives of these features to Java, but it has given a lot of power to the developer.</p>
 <h2 id="more-powerful-jvm">More Powerful JVM</h2>
 <p>This was introduced in parallelism in the case that full GC happens for G1 to improve the overall performance.</p>
@@ -484,11 +475,11 @@ if (!doNotTrack) {
     <ul class="pa0 list">
 	   
 	     <li  class="mb2">
-          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
+          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
+          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
         </li>
 	    
 	     <li  class="mb2">

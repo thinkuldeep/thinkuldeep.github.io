@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Lets understand Groovy language construct and write first few programs">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Groovy - Getting Started" />
 <meta property="og:description" content="Lets understand Groovy language construct and write first few programs" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/groovy-getting-started/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/groovy.png" />
+<meta property="og:url" content="https://thinkuldeep.com//post/groovy-getting-started/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/groovy.png" />
 <meta property="article:published_time" content="2013-05-20T10:58:08-04:00" />
-<meta property="article:modified_time" content="2013-05-20T10:58:08-04:00" /><meta itemprop="name" content="Groovy - Getting Started">
-<meta itemprop="description" content="Lets understand Groovy language construct and write first few programs"><meta itemprop="datePublished" content="2013-05-20T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2013-05-20T10:58:08-04:00" />
-<meta itemprop="wordCount" content="3162">
-<meta itemprop="keywords" content="groovy,java,introduction,language,comparison,technology," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Groovy - Getting Started"/>
-<meta name="twitter:description" content="Lets understand Groovy language construct and write first few programs"/>
+<meta property="article:modified_time" content="2013-05-20T10:58:08-04:00" />
+  <meta itemprop="name" content="Groovy - Getting Started">
+  <meta itemprop="description" content="Lets understand Groovy language construct and write first few programs">
+  <meta itemprop="datePublished" content="2013-05-20T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2013-05-20T10:58:08-04:00">
+  <meta itemprop="wordCount" content="3162">
+  <meta itemprop="keywords" content="Groovy,Java,Introduction,Language,Comparison,Technology"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Groovy - Getting Started">
+<meta name="twitter:description" content="Lets understand Groovy language construct and write first few programs">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -604,48 +595,48 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
 </span></span></code></pre></div><p><strong>Java Class:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.groovy.poc.java<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> groovy.lang.GroovyClassLoader<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.io.File<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.io.IOException<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.lang.reflect.InvocationTargetException<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> org.codehaus.groovy.control.CompilationFailedException<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> com.nagarro.groovy.poc.groovy.GroovyLearner<span style="color:#f92672">;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.groovy.poc.java;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> groovy.lang.GroovyClassLoader;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.io.File;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.io.IOException;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.lang.reflect.InvocationTargetException;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> org.codehaus.groovy.control.CompilationFailedException;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> com.nagarro.groovy.poc.groovy.GroovyLearner;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * The Class JavaLearner.
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">JavaLearner</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">JavaLearner</span> {
 </span></span><span style="display:flex;"><span>	<span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">	 * Prints the java.
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">	 */</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">printJava</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>		System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;I am a java learner&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">printJava</span>() {
+</span></span><span style="display:flex;"><span>		System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;I am a java learner&#34;</span>);
+</span></span><span style="display:flex;"><span>	}
 </span></span><span style="display:flex;"><span>	<span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">	 * The main method.
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">	 * 
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">	 * @param args
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">	 *            the arguments
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">	 */</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#75715e">// using GroovyCloassLoader class
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		String relativeGroovyClassPath <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;src\\com\\tk\\groovy\\poc\\groovy\\GroovyLearner.groovy&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>			Class groovyClass <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GroovyClassLoader<span style="color:#f92672">().</span><span style="color:#a6e22e">parseClass</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> File<span style="color:#f92672">(</span>relativeGroovyClassPath<span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>			Object groovyClassInstance <span style="color:#f92672">=</span> groovyClass<span style="color:#f92672">.</span><span style="color:#a6e22e">newInstance</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>			groovyClass<span style="color:#f92672">.</span><span style="color:#a6e22e">getDeclaredMethod</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;printGroovy&#34;</span><span style="color:#f92672">,</span> <span style="color:#66d9ef">new</span> Class<span style="color:#f92672">[]</span> <span style="color:#f92672">{}).</span><span style="color:#a6e22e">invoke</span><span style="color:#f92672">(</span>groovyClassInstance<span style="color:#f92672">,</span> <span style="color:#66d9ef">new</span> Object<span style="color:#f92672">[]</span> <span style="color:#f92672">{});</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>CompilationFailedException <span style="color:#f92672">|</span> IOException <span style="color:#f92672">|</span> InstantiationException <span style="color:#f92672">|</span> IllegalAccessException
-</span></span><span style="display:flex;"><span>				<span style="color:#f92672">|</span> IllegalArgumentException <span style="color:#f92672">|</span> InvocationTargetException <span style="color:#f92672">|</span> NoSuchMethodException <span style="color:#f92672">|</span> SecurityException e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>			e<span style="color:#f92672">.</span><span style="color:#a6e22e">printStackTrace</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#75715e">// directly calling groovy class in java
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		<span style="color:#75715e">// this work on the fact that both groovy and java are compiled to
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		<span style="color:#75715e">// .class file
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		GroovyLearner groovyLearner <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GroovyLearner<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>		groovyLearner<span style="color:#f92672">.</span><span style="color:#a6e22e">printGroovy</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e">// using GroovyCloassLoader class</span>
+</span></span><span style="display:flex;"><span>		String relativeGroovyClassPath <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;src\\com\\tk\\groovy\\poc\\groovy\\GroovyLearner.groovy&#34;</span>;
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>			Class groovyClass <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GroovyClassLoader().<span style="color:#a6e22e">parseClass</span>(<span style="color:#66d9ef">new</span> File(relativeGroovyClassPath));
+</span></span><span style="display:flex;"><span>			Object groovyClassInstance <span style="color:#f92672">=</span> groovyClass.<span style="color:#a6e22e">newInstance</span>();
+</span></span><span style="display:flex;"><span>			groovyClass.<span style="color:#a6e22e">getDeclaredMethod</span>(<span style="color:#e6db74">&#34;printGroovy&#34;</span>, <span style="color:#66d9ef">new</span> Class<span style="color:#f92672">[]</span> {}).<span style="color:#a6e22e">invoke</span>(groovyClassInstance, <span style="color:#66d9ef">new</span> Object<span style="color:#f92672">[]</span> {});
+</span></span><span style="display:flex;"><span>		} <span style="color:#66d9ef">catch</span> (CompilationFailedException <span style="color:#f92672">|</span> IOException <span style="color:#f92672">|</span> InstantiationException <span style="color:#f92672">|</span> IllegalAccessException
+</span></span><span style="display:flex;"><span>				<span style="color:#f92672">|</span> IllegalArgumentException <span style="color:#f92672">|</span> InvocationTargetException <span style="color:#f92672">|</span> NoSuchMethodException <span style="color:#f92672">|</span> SecurityException e) {
+</span></span><span style="display:flex;"><span>			e.<span style="color:#a6e22e">printStackTrace</span>();
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e">// directly calling groovy class in java</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e">// this work on the fact that both groovy and java are compiled to</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e">// .class file</span>
+</span></span><span style="display:flex;"><span>		GroovyLearner groovyLearner <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GroovyLearner();
+</span></span><span style="display:flex;"><span>		groovyLearner.<span style="color:#a6e22e">printGroovy</span>();
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p> </p>
 <h2 id="building-groovy-applications">Building Groovy Applications</h2>
 <p>Below section demonstrates the use of Groovy script with Maven, Ant, and logging library –log4j.</p>
@@ -816,41 +807,41 @@ if (!doNotTrack) {
 <p>All measurements were done on an Intel Core i7-3720QM CPU 2.60 GHz using JDK7u6 running on Windows 7 with Service Pack 1. I used Eclipse Juno with the Groovy plugin using the Groovy compiler version 1.8.6.xx-20121219-0800-e42-RELEASE.</p>
 <h4 id="fibonacci-algorithm">Fibonacci Algorithm</h4>
 <p><strong>Java Program</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.nagarro.groovy.poc<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">JavaFibonacci</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">fibStaticTernary</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> n<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> <span style="color:#f92672">(</span>n <span style="color:#f92672">&gt;=</span> 2<span style="color:#f92672">)</span> <span style="color:#f92672">?</span> fibStaticTernary<span style="color:#f92672">(</span>n <span style="color:#f92672">-</span> 1<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> fibStaticTernary<span style="color:#f92672">(</span>n <span style="color:#f92672">-</span> 2<span style="color:#f92672">)</span> <span style="color:#f92672">:</span> 1<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">fibStaticIf</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> n<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>n <span style="color:#f92672">&gt;=</span> 2<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">return</span> fibStaticIf<span style="color:#f92672">(</span>n <span style="color:#f92672">-</span> 1<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> fibStaticIf<span style="color:#f92672">(</span>n <span style="color:#f92672">-</span> 2<span style="color:#f92672">);</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.nagarro.groovy.poc;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">JavaFibonacci</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">fibStaticTernary</span>(<span style="color:#66d9ef">int</span> n) {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> (n <span style="color:#f92672">&gt;=</span> 2) <span style="color:#f92672">?</span> fibStaticTernary(n <span style="color:#f92672">-</span> 1) <span style="color:#f92672">+</span> fibStaticTernary(n <span style="color:#f92672">-</span> 2) : 1;
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">fibStaticIf</span>(<span style="color:#66d9ef">int</span> n) {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span> (n <span style="color:#f92672">&gt;=</span> 2)
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">return</span> fibStaticIf(n <span style="color:#f92672">-</span> 1) <span style="color:#f92672">+</span> fibStaticIf(n <span style="color:#f92672">-</span> 2);
 </span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">else</span>
-</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">return</span> 1<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">fibTernary</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> n<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> <span style="color:#f92672">(</span>n <span style="color:#f92672">&gt;=</span> 2<span style="color:#f92672">)</span> <span style="color:#f92672">?</span> fibStaticTernary<span style="color:#f92672">(</span>n <span style="color:#f92672">-</span> 1<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> fibStaticTernary<span style="color:#f92672">(</span>n <span style="color:#f92672">-</span> 2<span style="color:#f92672">)</span> <span style="color:#f92672">:</span> 1<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">fibIf</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> n<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>n <span style="color:#f92672">&gt;=</span> 2<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">return</span> fibIf<span style="color:#f92672">(</span>n <span style="color:#f92672">-</span> 1<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> fibIf<span style="color:#f92672">(</span>n <span style="color:#f92672">-</span> 2<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">return</span> 1;
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">fibTernary</span>(<span style="color:#66d9ef">int</span> n) {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> (n <span style="color:#f92672">&gt;=</span> 2) <span style="color:#f92672">?</span> fibStaticTernary(n <span style="color:#f92672">-</span> 1) <span style="color:#f92672">+</span> fibStaticTernary(n <span style="color:#f92672">-</span> 2) : 1;
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">fibIf</span>(<span style="color:#66d9ef">int</span> n) {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span> (n <span style="color:#f92672">&gt;=</span> 2)
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">return</span> fibIf(n <span style="color:#f92672">-</span> 1) <span style="color:#f92672">+</span> fibIf(n <span style="color:#f92672">-</span> 2);
 </span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">else</span>
-</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">return</span> 1<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">long</span> start <span style="color:#f92672">=</span> System<span style="color:#f92672">.</span><span style="color:#a6e22e">currentTimeMillis</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>		JavaFibonacci<span style="color:#f92672">.</span><span style="color:#a6e22e">fibStaticTernary</span><span style="color:#f92672">(</span>40<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Java(static ternary): &#34;</span> <span style="color:#f92672">+</span> <span style="color:#f92672">(</span>System<span style="color:#f92672">.</span><span style="color:#a6e22e">currentTimeMillis</span><span style="color:#f92672">()</span> <span style="color:#f92672">-</span> start<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;ms&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		start <span style="color:#f92672">=</span> System<span style="color:#f92672">.</span><span style="color:#a6e22e">currentTimeMillis</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>		JavaFibonacci<span style="color:#f92672">.</span><span style="color:#a6e22e">fibStaticIf</span><span style="color:#f92672">(</span>40<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Java(static if): &#34;</span> <span style="color:#f92672">+</span> <span style="color:#f92672">(</span>System<span style="color:#f92672">.</span><span style="color:#a6e22e">currentTimeMillis</span><span style="color:#f92672">()</span> <span style="color:#f92672">-</span> start<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;ms&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		start <span style="color:#f92672">=</span> System<span style="color:#f92672">.</span><span style="color:#a6e22e">currentTimeMillis</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">new</span> JavaFibonacci<span style="color:#f92672">().</span><span style="color:#a6e22e">fibTernary</span><span style="color:#f92672">(</span>40<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Java(instance ternary): &#34;</span> <span style="color:#f92672">+</span> <span style="color:#f92672">(</span>System<span style="color:#f92672">.</span><span style="color:#a6e22e">currentTimeMillis</span><span style="color:#f92672">()</span> <span style="color:#f92672">-</span> start<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;ms&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		start <span style="color:#f92672">=</span> System<span style="color:#f92672">.</span><span style="color:#a6e22e">currentTimeMillis</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">new</span> JavaFibonacci<span style="color:#f92672">().</span><span style="color:#a6e22e">fibIf</span><span style="color:#f92672">(</span>40<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Java(instance if): &#34;</span> <span style="color:#f92672">+</span> <span style="color:#f92672">(</span>System<span style="color:#f92672">.</span><span style="color:#a6e22e">currentTimeMillis</span><span style="color:#f92672">()</span> <span style="color:#f92672">-</span> start<span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;ms&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">return</span> 1;
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">long</span> start <span style="color:#f92672">=</span> System.<span style="color:#a6e22e">currentTimeMillis</span>();
+</span></span><span style="display:flex;"><span>		JavaFibonacci.<span style="color:#a6e22e">fibStaticTernary</span>(40);
+</span></span><span style="display:flex;"><span>		System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Java(static ternary): &#34;</span> <span style="color:#f92672">+</span> (System.<span style="color:#a6e22e">currentTimeMillis</span>() <span style="color:#f92672">-</span> start) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;ms&#34;</span>);
+</span></span><span style="display:flex;"><span>		start <span style="color:#f92672">=</span> System.<span style="color:#a6e22e">currentTimeMillis</span>();
+</span></span><span style="display:flex;"><span>		JavaFibonacci.<span style="color:#a6e22e">fibStaticIf</span>(40);
+</span></span><span style="display:flex;"><span>		System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Java(static if): &#34;</span> <span style="color:#f92672">+</span> (System.<span style="color:#a6e22e">currentTimeMillis</span>() <span style="color:#f92672">-</span> start) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;ms&#34;</span>);
+</span></span><span style="display:flex;"><span>		start <span style="color:#f92672">=</span> System.<span style="color:#a6e22e">currentTimeMillis</span>();
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">new</span> JavaFibonacci().<span style="color:#a6e22e">fibTernary</span>(40);
+</span></span><span style="display:flex;"><span>		System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Java(instance ternary): &#34;</span> <span style="color:#f92672">+</span> (System.<span style="color:#a6e22e">currentTimeMillis</span>() <span style="color:#f92672">-</span> start) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;ms&#34;</span>);
+</span></span><span style="display:flex;"><span>		start <span style="color:#f92672">=</span> System.<span style="color:#a6e22e">currentTimeMillis</span>();
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">new</span> JavaFibonacci().<span style="color:#a6e22e">fibIf</span>(40);
+</span></span><span style="display:flex;"><span>		System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Java(instance if): &#34;</span> <span style="color:#f92672">+</span> (System.<span style="color:#a6e22e">currentTimeMillis</span>() <span style="color:#f92672">-</span> start) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;ms&#34;</span>);
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><strong>Groovy Program</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-groovy" data-lang="groovy"><span style="display:flex;"><span><span style="color:#f92672">package</span> com<span style="color:#f92672">.</span><span style="color:#a6e22e">tk</span><span style="color:#f92672">.</span><span style="color:#a6e22e">groovy</span><span style="color:#f92672">.</span><span style="color:#a6e22e">poc</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">GroovyFibonacci</span> <span style="color:#f92672">{</span>
@@ -922,34 +913,34 @@ if (!doNotTrack) {
 No of Lines- 5492493
 Size of File- 243 Mega Bytes</p>
 <p><strong>Java File Read</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.groovy.poc<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ReadFileJava</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> String FILE_NAME<span style="color:#f92672">=</span>LICENCE<span style="color:#f92672">.</span><span style="color:#a6e22e">txt</span><span style="color:#f92672">;</span> 
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">readFile</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>		BufferedReader br <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>			File file<span style="color:#f92672">=</span><span style="color:#66d9ef">new</span> File<span style="color:#f92672">(</span>FILE_NAME<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">double</span> bytes <span style="color:#f92672">=</span> file<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">double</span> kilobytes <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>bytes <span style="color:#f92672">/</span> 1024<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">double</span> megabytes <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>kilobytes <span style="color:#f92672">/</span> 1024<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>			br <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> BufferedReader<span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> FileReader<span style="color:#f92672">(</span>file<span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">int</span> count <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">while</span> <span style="color:#f92672">(</span>br<span style="color:#f92672">.</span><span style="color:#a6e22e">readLine</span><span style="color:#f92672">()</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>				count<span style="color:#f92672">++;</span>
-</span></span><span style="display:flex;"><span>			<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>FileNotFoundException e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>			e<span style="color:#f92672">.</span><span style="color:#a6e22e">printStackTrace</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>IOException e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>			e<span style="color:#f92672">.</span><span style="color:#a6e22e">printStackTrace</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">long</span> start <span style="color:#f92672">=</span> System<span style="color:#f92672">.</span><span style="color:#a6e22e">currentTimeMillis</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>		readFile<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">long</span> end <span style="color:#f92672">=</span> System<span style="color:#f92672">.</span><span style="color:#a6e22e">currentTimeMillis</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>		System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Time Consumed------&gt;&gt;&gt;&gt;&#34;</span> <span style="color:#f92672">+</span> <span style="color:#f92672">(</span>end <span style="color:#f92672">-</span> start<span style="color:#f92672">)+</span><span style="color:#e6db74">&#34;ms&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.groovy.poc;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ReadFileJava</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> String FILE_NAME<span style="color:#f92672">=</span>LICENCE.<span style="color:#a6e22e">txt</span>; 
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">readFile</span>() {
+</span></span><span style="display:flex;"><span>		BufferedReader br <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span>;
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>			File file<span style="color:#f92672">=</span><span style="color:#66d9ef">new</span> File(FILE_NAME);
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">double</span> bytes <span style="color:#f92672">=</span> file.<span style="color:#a6e22e">length</span>();
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">double</span> kilobytes <span style="color:#f92672">=</span> (bytes <span style="color:#f92672">/</span> 1024);
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">double</span> megabytes <span style="color:#f92672">=</span> (kilobytes <span style="color:#f92672">/</span> 1024);
+</span></span><span style="display:flex;"><span>			br <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> BufferedReader(<span style="color:#66d9ef">new</span> FileReader(file));
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">int</span> count <span style="color:#f92672">=</span> 0;
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">while</span> (br.<span style="color:#a6e22e">readLine</span>() <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span>) {
+</span></span><span style="display:flex;"><span>				count<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>			}
+</span></span><span style="display:flex;"><span>		} <span style="color:#66d9ef">catch</span> (FileNotFoundException e) {
+</span></span><span style="display:flex;"><span>			e.<span style="color:#a6e22e">printStackTrace</span>();
+</span></span><span style="display:flex;"><span>		} <span style="color:#66d9ef">catch</span> (IOException e) {
+</span></span><span style="display:flex;"><span>			e.<span style="color:#a6e22e">printStackTrace</span>();
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">long</span> start <span style="color:#f92672">=</span> System.<span style="color:#a6e22e">currentTimeMillis</span>();
+</span></span><span style="display:flex;"><span>		readFile();
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">long</span> end <span style="color:#f92672">=</span> System.<span style="color:#a6e22e">currentTimeMillis</span>();
+</span></span><span style="display:flex;"><span>		System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Time Consumed------&gt;&gt;&gt;&gt;&#34;</span> <span style="color:#f92672">+</span> (end <span style="color:#f92672">-</span> start)<span style="color:#f92672">+</span><span style="color:#e6db74">&#34;ms&#34;</span>);
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><strong>Groovy File Read</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-groovy" data-lang="groovy"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">package</span> com<span style="color:#f92672">.</span><span style="color:#a6e22e">tk</span><span style="color:#f92672">.</span><span style="color:#a6e22e">groovy</span><span style="color:#f92672">.</span><span style="color:#a6e22e">poc</span>
@@ -1124,11 +1115,11 @@ Code in Groovy (and other similar languages) often may be much shorter or concis
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
+          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
+          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
         </li>
 	    
 	     <li  class="mb2">
@@ -1216,11 +1207,11 @@ Code in Groovy (and other similar languages) often may be much shorter or concis
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
+          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
+          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
         </li>
 	    
 	     <li  class="mb2">

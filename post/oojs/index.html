@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="A course on object oriented javascript">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Object Oriented JavaScript" />
 <meta property="og:description" content="A course on object oriented javascript" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/oojs/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/oojs.png" />
+<meta property="og:url" content="https://thinkuldeep.com//post/oojs/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/oojs.png" />
 <meta property="article:published_time" content="2015-01-27T10:58:08-04:00" />
-<meta property="article:modified_time" content="2015-01-27T10:58:08-04:00" /><meta itemprop="name" content="Object Oriented JavaScript">
-<meta itemprop="description" content="A course on object oriented javascript"><meta itemprop="datePublished" content="2015-01-27T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2015-01-27T10:58:08-04:00" />
-<meta itemprop="wordCount" content="8019">
-<meta itemprop="keywords" content="oops,object oriented,javascript,js,course,practice,language,technology," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Object Oriented JavaScript"/>
-<meta name="twitter:description" content="A course on object oriented javascript"/>
+<meta property="article:modified_time" content="2015-01-27T10:58:08-04:00" />
+  <meta itemprop="name" content="Object Oriented JavaScript">
+  <meta itemprop="description" content="A course on object oriented javascript">
+  <meta itemprop="datePublished" content="2015-01-27T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2015-01-27T10:58:08-04:00">
+  <meta itemprop="wordCount" content="8019">
+  <meta itemprop="keywords" content="Oops,Object Oriented,Javascript,Js,Course,Practice,Language,Technology"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Object Oriented JavaScript">
+<meta name="twitter:description" content="A course on object oriented javascript">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -320,7 +311,7 @@ if (!doNotTrack) {
 <p>This course covers the JavaScript OOP concepts in comparison with the well-known Object Oriented Programing language Java. You will have the comparative code in Java and JavaScript and the use of the famous IDE Eclipse.</p>
 <p>The usage of JavaScript has been changed a lot since its invention. Earlier it was used only as the language for the web browser for the client-side scripting, but now it is also being used for server-side scripting, desktop applications, mobile apps, gaming, graphics, charting-reporting, etc.
 The following diagram depicts its usages:
-<img src="/images/oojs.png" alt="OOJS"></p>
+<img alt="OOJS" src="/images/oojs.png"></p>
 <h2 id="programming-in-javascript">Programming in JavaScript</h2>
 <p>Let’s recall the JavaScript language, this section covers the very basics of JavaScript, but it may be an eye opener for some developers, so try the examples given below and learn the flexibility of the JavaScript programming language. I hope you know how to run the example given below, just add these in <code>&lt;script&gt;</code> tag on a HTML page.</p>
 <h4 id="general-statements">General Statements</h4>
@@ -1815,7 +1806,7 @@ Let’s change the classes created so far to follow the module pattern.</p>
 Download <code>require.js</code> from here, and include it in HTML, remove the other included script tags.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">data-main</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34; resources/main.js&#34;</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;resources/require.js&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt; 
 </span></span></code></pre></div><p>We have refactored javascript code in following structure
-<img src="/images/oojs-1.png" alt="image"></p>
+<img alt="image" src="/images/oojs-1.png"></p>
 <p>The syntax for defining a module</p>
 <pre><code>  define (&lt;array of dependencies&gt;, function (Dependency1, Dependency1 …) {
   });
@@ -1955,7 +1946,7 @@ Let’s define the modules created so far in AMD syntax.</p>
   class: Employee extending class: Person 
 </code></pre>
 <p>Also, see the snap of JS loading sequence given below, the timelines human.js and ifactory.js are loaded almost in parallel.
-<img src="/images/oojs-2.png" alt="image"></p>
+<img alt="image" src="/images/oojs-2.png"></p>
 </li>
 </ul>
 <h2 id="documentation">Documentation</h2>
@@ -2110,11 +2101,11 @@ The syntax and the semantics of JSDoc are similar to those of the Javadoc scheme
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
+          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
+          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
         </li>
 	    
 	     <li  class="mb2">
@@ -2146,11 +2137,11 @@ The syntax and the semantics of JSDoc are similar to those of the Javadoc scheme
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
+          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
+          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
         </li>
 	    
 	     <li  class="mb2">

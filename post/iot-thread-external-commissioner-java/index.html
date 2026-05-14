@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="A step-by-step guide to building a pure Java application for OpenThread external commissioning">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="OpenThread Commissioner Implementation in Java" />
 <meta property="og:description" content="A step-by-step guide to building a pure Java application for OpenThread external commissioning" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/iot-thread-external-commissioner-java/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/iot-26.jpg" />
+<meta property="og:url" content="https://thinkuldeep.com//post/iot-thread-external-commissioner-java/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/iot-26.jpg" />
 <meta property="article:published_time" content="2025-03-10T11:58:08-04:00" />
-<meta property="article:modified_time" content="2025-03-10T11:58:08-04:00" /><meta itemprop="name" content="OpenThread Commissioner Implementation in Java">
-<meta itemprop="description" content="A step-by-step guide to building a pure Java application for OpenThread external commissioning"><meta itemprop="datePublished" content="2025-03-10T11:58:08-04:00" />
-<meta itemprop="dateModified" content="2025-03-10T11:58:08-04:00" />
-<meta itemprop="wordCount" content="1156">
-<meta itemprop="keywords" content="IOT,network,cloud,getting started,learning,technology,fundamentals,thread,openthread,commissioner,android,java,nRF,SDK,open source," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="OpenThread Commissioner Implementation in Java"/>
-<meta name="twitter:description" content="A step-by-step guide to building a pure Java application for OpenThread external commissioning"/>
+<meta property="article:modified_time" content="2025-03-10T11:58:08-04:00" />
+  <meta itemprop="name" content="OpenThread Commissioner Implementation in Java">
+  <meta itemprop="description" content="A step-by-step guide to building a pure Java application for OpenThread external commissioning">
+  <meta itemprop="datePublished" content="2025-03-10T11:58:08-04:00">
+  <meta itemprop="dateModified" content="2025-03-10T11:58:08-04:00">
+  <meta itemprop="wordCount" content="1156">
+  <meta itemprop="keywords" content="IOT,Network,Cloud,Getting Started,Learning,Technology,Fundamentals,Thread,Openthread,Commissioner,Android,Java,NRF,SDK,Open Source"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="OpenThread Commissioner Implementation in Java">
+<meta name="twitter:description" content="A step-by-step guide to building a pure Java application for OpenThread external commissioning">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -315,7 +306,7 @@ if (!doNotTrack) {
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In a <a href="/post/iot-thread-external-commissioner-android/">previous article</a>, we explored how to build and use an Android app as an external commissioner to onboard Thread devices into a network. This article takes it a step further by demonstrating how to implement a Java-based external commissioner.</p>
-<p><img src="/images/iot-26.jpg" alt="iot"></p>
+<p><img alt="iot" src="/images/iot-26.jpg"></p>
 <p>The thread commissioning process involves the following key steps:</p>
 <ol>
 <li>Discovering the Border Router</li>
@@ -328,49 +319,49 @@ if (!doNotTrack) {
 <p>We can use <a href="https://github.com/jmdns/jmdns">JmDNS</a> for DNS resolution of border router. Border router service is registered at “<code>_meshcop._udp.local.</code>” and we can resolve it in the network where mdns is enabled.</p>
 <h3 id="dns-service-listener">DNS Service Listener</h3>
 <p>DNS Service Listener listens to the callbacks whenever it finds a service added/remove and resolved.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">OTBRDiscoverer</span> <span style="color:#66d9ef">implements</span> ServiceListener<span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">serviceAdded</span><span style="color:#f92672">(</span>ServiceEvent serviceEvent<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    logger<span style="color:#f92672">.</span><span style="color:#a6e22e">debug</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Service added: {}&#34;</span><span style="color:#f92672">,</span> serviceEvent<span style="color:#f92672">.</span><span style="color:#a6e22e">getInfo</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">OTBRDiscoverer</span> <span style="color:#66d9ef">implements</span> ServiceListener{
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">serviceAdded</span>(ServiceEvent serviceEvent) {
+</span></span><span style="display:flex;"><span>    logger.<span style="color:#a6e22e">debug</span>(<span style="color:#e6db74">&#34;Service added: {}&#34;</span>, serviceEvent.<span style="color:#a6e22e">getInfo</span>());
+</span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>  
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">serviceRemoved</span><span style="color:#f92672">(</span>ServiceEvent serviceEvent<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    logger<span style="color:#f92672">.</span><span style="color:#a6e22e">debug</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Service removed: {}&#34;</span><span style="color:#f92672">,</span> serviceEvent<span style="color:#f92672">.</span><span style="color:#a6e22e">getInfo</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">serviceRemoved</span>(ServiceEvent serviceEvent) {
+</span></span><span style="display:flex;"><span>    logger.<span style="color:#a6e22e">debug</span>(<span style="color:#e6db74">&#34;Service removed: {}&#34;</span>, serviceEvent.<span style="color:#a6e22e">getInfo</span>());
+</span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>  
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">serviceResolved</span><span style="color:#f92672">(</span>ServiceEvent serviceEvent<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    logger<span style="color:#f92672">.</span><span style="color:#a6e22e">debug</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Service resolved: {}&#34;</span><span style="color:#f92672">,</span> serviceEvent<span style="color:#f92672">.</span><span style="color:#a6e22e">getInfo</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      String networkName <span style="color:#f92672">=</span> serviceEvent<span style="color:#f92672">.</span><span style="color:#a6e22e">getInfo</span><span style="color:#f92672">().</span><span style="color:#a6e22e">getPropertyString</span><span style="color:#f92672">(</span>KEY_NETWORK_NAME<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">int</span> otbrPort <span style="color:#f92672">=</span> serviceEvent<span style="color:#f92672">.</span><span style="color:#a6e22e">getInfo</span><span style="color:#f92672">().</span><span style="color:#a6e22e">getPort</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>      String extPanId <span style="color:#f92672">=</span> Utils<span style="color:#f92672">.</span><span style="color:#a6e22e">getHexString</span><span style="color:#f92672">(</span>serviceEvent<span style="color:#f92672">.</span><span style="color:#a6e22e">getInfo</span><span style="color:#f92672">().</span><span style="color:#a6e22e">getPropertyBytes</span><span style="color:#f92672">(</span>KEY_EXTENDED_PAN_ID<span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>serviceEvent<span style="color:#f92672">.</span><span style="color:#a6e22e">getInfo</span><span style="color:#f92672">().</span><span style="color:#a6e22e">getInet4Addresses</span><span style="color:#f92672">().</span><span style="color:#a6e22e">length</span><span style="color:#f92672">&gt;</span>0<span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>        String otbrAddress <span style="color:#f92672">=</span> serviceEvent<span style="color:#f92672">.</span><span style="color:#a6e22e">getInfo</span><span style="color:#f92672">().</span><span style="color:#a6e22e">getInet4Addresses</span><span style="color:#f92672">()[</span>0<span style="color:#f92672">].</span><span style="color:#a6e22e">getHostAddress</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>        otbrInfo <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> OTBRInfo<span style="color:#f92672">(</span>networkName<span style="color:#f92672">,</span> extPanId<span style="color:#f92672">,</span> otbrAddress<span style="color:#f92672">,</span> otbrPort<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        logger<span style="color:#f92672">.</span><span style="color:#a6e22e">info</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Service resolved: {}:{} {} {}&#34;</span><span style="color:#f92672">,</span> otbrAddress<span style="color:#f92672">,</span> otbrPort<span style="color:#f92672">,</span> networkName<span style="color:#f92672">,</span> extPanId<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>Exception e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      logger<span style="color:#f92672">.</span><span style="color:#a6e22e">error</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Failed to resolve service: {}&#34;</span><span style="color:#f92672">,</span> e<span style="color:#f92672">.</span><span style="color:#a6e22e">getMessage</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span> <span style="color:#66d9ef">finally</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        jmdns<span style="color:#f92672">.</span><span style="color:#a6e22e">close</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>IOException e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        logger<span style="color:#f92672">.</span><span style="color:#a6e22e">error</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Failed to close JNS service: {}&#34;</span><span style="color:#f92672">,</span> e<span style="color:#f92672">.</span><span style="color:#a6e22e">getMessage</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">serviceResolved</span>(ServiceEvent serviceEvent) {
+</span></span><span style="display:flex;"><span>    logger.<span style="color:#a6e22e">debug</span>(<span style="color:#e6db74">&#34;Service resolved: {}&#34;</span>, serviceEvent.<span style="color:#a6e22e">getInfo</span>());
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>      String networkName <span style="color:#f92672">=</span> serviceEvent.<span style="color:#a6e22e">getInfo</span>().<span style="color:#a6e22e">getPropertyString</span>(KEY_NETWORK_NAME);
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">int</span> otbrPort <span style="color:#f92672">=</span> serviceEvent.<span style="color:#a6e22e">getInfo</span>().<span style="color:#a6e22e">getPort</span>();
+</span></span><span style="display:flex;"><span>      String extPanId <span style="color:#f92672">=</span> Utils.<span style="color:#a6e22e">getHexString</span>(serviceEvent.<span style="color:#a6e22e">getInfo</span>().<span style="color:#a6e22e">getPropertyBytes</span>(KEY_EXTENDED_PAN_ID));
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span>(serviceEvent.<span style="color:#a6e22e">getInfo</span>().<span style="color:#a6e22e">getInet4Addresses</span>().<span style="color:#a6e22e">length</span><span style="color:#f92672">&gt;</span>0){
+</span></span><span style="display:flex;"><span>        String otbrAddress <span style="color:#f92672">=</span> serviceEvent.<span style="color:#a6e22e">getInfo</span>().<span style="color:#a6e22e">getInet4Addresses</span>()<span style="color:#f92672">[</span>0<span style="color:#f92672">]</span>.<span style="color:#a6e22e">getHostAddress</span>();
+</span></span><span style="display:flex;"><span>        otbrInfo <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> OTBRInfo(networkName, extPanId, otbrAddress, otbrPort);
+</span></span><span style="display:flex;"><span>        logger.<span style="color:#a6e22e">info</span>(<span style="color:#e6db74">&#34;Service resolved: {}:{} {} {}&#34;</span>, otbrAddress, otbrPort, networkName, extPanId);
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">catch</span> (Exception e) {
+</span></span><span style="display:flex;"><span>      logger.<span style="color:#a6e22e">error</span>(<span style="color:#e6db74">&#34;Failed to resolve service: {}&#34;</span>, e.<span style="color:#a6e22e">getMessage</span>());
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">finally</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>        jmdns.<span style="color:#a6e22e">close</span>();
+</span></span><span style="display:flex;"><span>      } <span style="color:#66d9ef">catch</span> (IOException e) {
+</span></span><span style="display:flex;"><span>        logger.<span style="color:#a6e22e">error</span>(<span style="color:#e6db74">&#34;Failed to close JNS service: {}&#34;</span>, e.<span style="color:#a6e22e">getMessage</span>());
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>In <code>serviceResolved</code> we can get border router details like IP Address, Port and other network information that we would need later to connect with it.</p>
 <h3 id="add-dns-service-listener">Add DNS Service Listener</h3>
 <p>Add listener for ‘<code>_meshcop._udp.local.</code>” service type.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  jmdns <span style="color:#f92672">=</span> JmDNS<span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">(</span>getLocalHostIP<span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>  jmdns<span style="color:#f92672">.</span><span style="color:#a6e22e">addServiceListener</span><span style="color:#f92672">(</span>MDNS_SERVICE_TYPE<span style="color:#f92672">,</span> <span style="color:#66d9ef">new</span> OTBRDiscoverer<span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>  logger<span style="color:#f92672">.</span><span style="color:#a6e22e">info</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Discovering Border Router at {}&#34;</span><span style="color:#f92672">,</span> MDNS_SERVICE_TYPE<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>IOException e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    logger<span style="color:#f92672">.</span><span style="color:#a6e22e">warn</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Failed to create JmDNS {}&#34;</span><span style="color:#f92672">,</span> e<span style="color:#f92672">.</span><span style="color:#a6e22e">getMessage</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>  jmdns <span style="color:#f92672">=</span> JmDNS.<span style="color:#a6e22e">create</span>(getLocalHostIP());
+</span></span><span style="display:flex;"><span>  jmdns.<span style="color:#a6e22e">addServiceListener</span>(MDNS_SERVICE_TYPE, <span style="color:#66d9ef">new</span> OTBRDiscoverer());
+</span></span><span style="display:flex;"><span>  logger.<span style="color:#a6e22e">info</span>(<span style="color:#e6db74">&#34;Discovering Border Router at {}&#34;</span>, MDNS_SERVICE_TYPE);
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">catch</span> (IOException e) {
+</span></span><span style="display:flex;"><span>    logger.<span style="color:#a6e22e">warn</span>(<span style="color:#e6db74">&#34;Failed to create JmDNS {}&#34;</span>, e.<span style="color:#a6e22e">getMessage</span>());
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><blockquote>
 <p>Note:- Get local IP address instead of localhost, sometime “localhost”/127.0.0.1 does not work.</p>
 </blockquote>
@@ -383,80 +374,80 @@ if (!doNotTrack) {
 done
 $
 </code></pre><p>If we don’t have access to Border Router’s CLI then we can generate it programming</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>pskc <span style="color:#f92672">=</span> commissioner<span style="color:#f92672">.</span><span style="color:#a6e22e">computePskc</span><span style="color:#f92672">(</span>passphrase<span style="color:#f92672">,</span> otbrInfo<span style="color:#f92672">.</span><span style="color:#a6e22e">getNetworkName</span><span style="color:#f92672">(),</span> <span style="color:#66d9ef">new</span> ByteArray<span style="color:#f92672">(</span>Utils<span style="color:#f92672">.</span><span style="color:#a6e22e">getByteArray</span><span style="color:#f92672">(</span>otbrInfo<span style="color:#f92672">.</span><span style="color:#a6e22e">getExtendedPanId</span><span style="color:#f92672">())));</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>pskc <span style="color:#f92672">=</span> commissioner.<span style="color:#a6e22e">computePskc</span>(passphrase, otbrInfo.<span style="color:#a6e22e">getNetworkName</span>(), <span style="color:#66d9ef">new</span> ByteArray(Utils.<span style="color:#a6e22e">getByteArray</span>(otbrInfo.<span style="color:#a6e22e">getExtendedPanId</span>())));
 </span></span></code></pre></div><p>Where <code>passphrase</code>, <code>network name</code>, <code>extended pan id</code> are defined in OpenThread Border Router.</p>
 <h3 id="connecting-commissioner-with-border-router">Connecting Commissioner with Border Router</h3>
 <p>Connecting commissioner with border router at discovered address, port and pckc.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>  commissioner<span style="color:#f92672">.</span><span style="color:#a6e22e">connect</span><span style="color:#f92672">(</span>pskc<span style="color:#f92672">,</span> otbrInfo<span style="color:#f92672">.</span><span style="color:#a6e22e">getOtbrAddress</span><span style="color:#f92672">(),</span> otbrInfo<span style="color:#f92672">.</span><span style="color:#a6e22e">getOtbrPort</span><span style="color:#f92672">())</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">.</span><span style="color:#a6e22e">thenRun</span><span style="color:#f92672">(()</span> <span style="color:#f92672">-&gt;</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            logger<span style="color:#f92672">.</span><span style="color:#a6e22e">info</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Commissioner connected successfully!&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">})</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">.</span><span style="color:#a6e22e">exceptionally</span><span style="color:#f92672">(</span>
-</span></span><span style="display:flex;"><span>            ex <span style="color:#f92672">-&gt;</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                logger<span style="color:#f92672">.</span><span style="color:#a6e22e">error</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Commissioner failed to connect : {}&#34;</span><span style="color:#f92672">,</span> String<span style="color:#f92672">.</span><span style="color:#a6e22e">valueOf</span><span style="color:#f92672">(</span>ex<span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">});</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>  commissioner.<span style="color:#a6e22e">connect</span>(pskc, otbrInfo.<span style="color:#a6e22e">getOtbrAddress</span>(), otbrInfo.<span style="color:#a6e22e">getOtbrPort</span>())
+</span></span><span style="display:flex;"><span>        .<span style="color:#a6e22e">thenRun</span>(() <span style="color:#f92672">-&gt;</span> {
+</span></span><span style="display:flex;"><span>            logger.<span style="color:#a6e22e">info</span>(<span style="color:#e6db74">&#34;Commissioner connected successfully!&#34;</span>);
+</span></span><span style="display:flex;"><span>        })
+</span></span><span style="display:flex;"><span>        .<span style="color:#a6e22e">exceptionally</span>(
+</span></span><span style="display:flex;"><span>            ex <span style="color:#f92672">-&gt;</span> {
+</span></span><span style="display:flex;"><span>                logger.<span style="color:#a6e22e">error</span>(<span style="color:#e6db74">&#34;Commissioner failed to connect : {}&#34;</span>, String.<span style="color:#a6e22e">valueOf</span>(ex));
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">null</span>;
+</span></span><span style="display:flex;"><span>            });
 </span></span></code></pre></div><p>It would start <strong>petitioning</strong> in native commissioner. At a time only one commissioner can be active in thread network.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> Error <span style="color:#a6e22e">connect</span><span style="color:#f92672">(</span>String borderAgentAddress<span style="color:#f92672">,</span> <span style="color:#66d9ef">int</span> borderAgentPort<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Petition to be the active commissioner in the Thread Network.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">return</span> nativeCommissioner<span style="color:#f92672">.</span><span style="color:#a6e22e">petition</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> String<span style="color:#f92672">[</span>1<span style="color:#f92672">],</span> borderAgentAddress<span style="color:#f92672">,</span> borderAgentPort<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> Error <span style="color:#a6e22e">connect</span>(String borderAgentAddress, <span style="color:#66d9ef">int</span> borderAgentPort) {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Petition to be the active commissioner in the Thread Network.</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> nativeCommissioner.<span style="color:#a6e22e">petition</span>(<span style="color:#66d9ef">new</span> String<span style="color:#f92672">[</span>1<span style="color:#f92672">]</span>, borderAgentAddress, borderAgentPort);
+</span></span><span style="display:flex;"><span>  }
 </span></span></code></pre></div><h2 id="3-add-joiner-rules">3. Add Joiner Rules</h2>
 <p>Once commissioner is connected to Border Router, we can now add joiner rules. Here we are enabling all joiners with Pre-Shared Key for Device (PSKd) or also called joiner key.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>  commissioner<span style="color:#f92672">.</span><span style="color:#a6e22e">enableAllJoiners</span><span style="color:#f92672">(</span>pskd<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">.</span><span style="color:#a6e22e">thenRun</span><span style="color:#f92672">(()</span> <span style="color:#f92672">-&gt;</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        logger<span style="color:#f92672">.</span><span style="color:#a6e22e">info</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;All Joiners are accepted at PSKD:{}&#34;</span><span style="color:#f92672">,</span> pskd<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">})</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">.</span><span style="color:#a6e22e">exceptionally</span><span style="color:#f92672">(</span>
-</span></span><span style="display:flex;"><span>        ex <span style="color:#f92672">-&gt;</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            logger<span style="color:#f92672">.</span><span style="color:#a6e22e">error</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Failed to add Joiner :{}&#34;</span><span style="color:#f92672">,</span> ex<span style="color:#f92672">.</span><span style="color:#a6e22e">getMessage</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">});</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>  commissioner.<span style="color:#a6e22e">enableAllJoiners</span>(pskd)
+</span></span><span style="display:flex;"><span>    .<span style="color:#a6e22e">thenRun</span>(() <span style="color:#f92672">-&gt;</span> {
+</span></span><span style="display:flex;"><span>        logger.<span style="color:#a6e22e">info</span>(<span style="color:#e6db74">&#34;All Joiners are accepted at PSKD:{}&#34;</span>, pskd);
+</span></span><span style="display:flex;"><span>    })
+</span></span><span style="display:flex;"><span>    .<span style="color:#a6e22e">exceptionally</span>(
+</span></span><span style="display:flex;"><span>        ex <span style="color:#f92672">-&gt;</span> {
+</span></span><span style="display:flex;"><span>            logger.<span style="color:#a6e22e">error</span>(<span style="color:#e6db74">&#34;Failed to add Joiner :{}&#34;</span>, ex.<span style="color:#a6e22e">getMessage</span>());
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">null</span>;
+</span></span><span style="display:flex;"><span>        });
 </span></span></code></pre></div><p>This would add joiner with ‘<code>0xFF</code>’ steering data and ‘<code>0x00</code>&rsquo; as joiner id.</p>
 <blockquote>
 <p>Joiner ID is generally a sha256 hash of the EUI64 of device trying to join.</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>Commissioner<span style="color:#f92672">.</span><span style="color:#a6e22e">addJoiner</span><span style="color:#f92672">(</span>steeringData<span style="color:#f92672">,</span> joinerId<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>CommissionerDataset commDataset <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> CommissionerDataset<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>commDataset<span style="color:#f92672">.</span><span style="color:#a6e22e">setPresentFlags</span><span style="color:#f92672">(</span>commDataset<span style="color:#f92672">.</span><span style="color:#a6e22e">getPresentFlags</span><span style="color:#f92672">()</span> <span style="color:#f92672">&amp;</span> <span style="color:#f92672">~</span>CommissionerDataset<span style="color:#f92672">.</span><span style="color:#a6e22e">kSessionIdBit</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>commDataset<span style="color:#f92672">.</span><span style="color:#a6e22e">setPresentFlags</span><span style="color:#f92672">(</span>commDataset<span style="color:#f92672">.</span><span style="color:#a6e22e">getPresentFlags</span><span style="color:#f92672">()</span> <span style="color:#f92672">&amp;</span> <span style="color:#f92672">~</span>CommissionerDataset<span style="color:#f92672">.</span><span style="color:#a6e22e">kBorderAgentLocatorBit</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>commDataset<span style="color:#f92672">.</span><span style="color:#a6e22e">setPresentFlags</span><span style="color:#f92672">(</span>commDataset<span style="color:#f92672">.</span><span style="color:#a6e22e">getPresentFlags</span><span style="color:#f92672">()</span> <span style="color:#f92672">|</span> CommissionerDataset<span style="color:#f92672">.</span><span style="color:#a6e22e">kSteeringDataBit</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>commDataset<span style="color:#f92672">.</span><span style="color:#a6e22e">setSteeringData</span><span style="color:#f92672">(</span>steeringData<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>nativeCommissioner<span style="color:#f92672">.</span><span style="color:#a6e22e">setCommissionerDataset</span><span style="color:#f92672">(</span>commDataset<span style="color:#f92672">);</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>Commissioner.<span style="color:#a6e22e">addJoiner</span>(steeringData, joinerId);
+</span></span><span style="display:flex;"><span>CommissionerDataset commDataset <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> CommissionerDataset();
+</span></span><span style="display:flex;"><span>commDataset.<span style="color:#a6e22e">setPresentFlags</span>(commDataset.<span style="color:#a6e22e">getPresentFlags</span>() <span style="color:#f92672">&amp;</span> <span style="color:#f92672">~</span>CommissionerDataset.<span style="color:#a6e22e">kSessionIdBit</span>);
+</span></span><span style="display:flex;"><span>commDataset.<span style="color:#a6e22e">setPresentFlags</span>(commDataset.<span style="color:#a6e22e">getPresentFlags</span>() <span style="color:#f92672">&amp;</span> <span style="color:#f92672">~</span>CommissionerDataset.<span style="color:#a6e22e">kBorderAgentLocatorBit</span>);
+</span></span><span style="display:flex;"><span>commDataset.<span style="color:#a6e22e">setPresentFlags</span>(commDataset.<span style="color:#a6e22e">getPresentFlags</span>() <span style="color:#f92672">|</span> CommissionerDataset.<span style="color:#a6e22e">kSteeringDataBit</span>);
+</span></span><span style="display:flex;"><span>commDataset.<span style="color:#a6e22e">setSteeringData</span>(steeringData);
+</span></span><span style="display:flex;"><span>nativeCommissioner.<span style="color:#a6e22e">setCommissionerDataset</span>(commDataset);
 </span></span></code></pre></div><p>We are also maintaining a local map for Joiner id and PSKd in CommissionerHandler, where we put any new joiner into it with a registered PSKd.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ThreadCommissioner</span> <span style="color:#66d9ef">extends</span> CommissionerHandler <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">final</span> Map<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">,</span> String<span style="color:#f92672">&gt;</span> joiners <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> HashMap<span style="color:#f92672">&lt;&gt;();</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ThreadCommissioner</span> <span style="color:#66d9ef">extends</span> CommissionerHandler {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">final</span> Map<span style="color:#f92672">&lt;</span>String, String<span style="color:#f92672">&gt;</span> joiners <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> HashMap<span style="color:#f92672">&lt;&gt;</span>();
 </span></span><span style="display:flex;"><span>  
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> CompletableFuture<span style="color:#f92672">&lt;</span>Void<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">enableAllJoiners</span><span style="color:#f92672">(</span>String pskd<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> CompletableFuture<span style="color:#f92672">.</span><span style="color:#a6e22e">runAsync</span><span style="color:#f92672">(</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">()</span> <span style="color:#f92672">-&gt;</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            throwIfFail<span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">enableAllJoiners</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>            joiners<span style="color:#f92672">.</span><span style="color:#a6e22e">put</span><span style="color:#f92672">(</span>Utils<span style="color:#f92672">.</span><span style="color:#a6e22e">getHexString</span><span style="color:#f92672">(</span>computeJoinerIdAll<span style="color:#f92672">()),</span> pskd<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">});</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> CompletableFuture<span style="color:#f92672">&lt;</span>Void<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">enableAllJoiners</span>(String pskd) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> CompletableFuture.<span style="color:#a6e22e">runAsync</span>(
+</span></span><span style="display:flex;"><span>        () <span style="color:#f92672">-&gt;</span> {
+</span></span><span style="display:flex;"><span>            throwIfFail(<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">enableAllJoiners</span>());
+</span></span><span style="display:flex;"><span>            joiners.<span style="color:#a6e22e">put</span>(Utils.<span style="color:#a6e22e">getHexString</span>(computeJoinerIdAll()), pskd);
+</span></span><span style="display:flex;"><span>        });
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h2 id="4-join-thread-network">4. Join Thread Network</h2>
 <p>When a Thread End Device initiate the joining process, CommissionerHandler defined in Java application would receive callbacks. On <code>onJoinerRequest</code>, where we return pskd for the joiner trying to join. This would allow joining the thread network.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">onJoinerRequest</span><span style="color:#f92672">(</span>ByteArray joinerId<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  String joinerIdStr <span style="color:#f92672">=</span> Utils<span style="color:#f92672">.</span><span style="color:#a6e22e">getHexString</span><span style="color:#f92672">(</span>joinerId<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  logger<span style="color:#f92672">.</span><span style="color:#a6e22e">info</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;A joiner (ID={}) is requesting commissioning&#34;</span><span style="color:#f92672">,</span> joinerIdStr<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  String pskd <span style="color:#f92672">=</span> joiners<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span>joinerIdStr<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>pskd <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Check is JOINER ID All is registered
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    pskd <span style="color:#f92672">=</span> joiners<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span>Utils<span style="color:#f92672">.</span><span style="color:#a6e22e">getHexString</span><span style="color:#f92672">(</span>computeJoinerIdAll<span style="color:#f92672">()));</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> pskd<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">onJoinerRequest</span>(ByteArray joinerId) {
+</span></span><span style="display:flex;"><span>  String joinerIdStr <span style="color:#f92672">=</span> Utils.<span style="color:#a6e22e">getHexString</span>(joinerId);
+</span></span><span style="display:flex;"><span>  logger.<span style="color:#a6e22e">info</span>(<span style="color:#e6db74">&#34;A joiner (ID={}) is requesting commissioning&#34;</span>, joinerIdStr);
+</span></span><span style="display:flex;"><span>  String pskd <span style="color:#f92672">=</span> joiners.<span style="color:#a6e22e">get</span>(joinerIdStr);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (pskd <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Check is JOINER ID All is registered</span>
+</span></span><span style="display:flex;"><span>    pskd <span style="color:#f92672">=</span> joiners.<span style="color:#a6e22e">get</span>(Utils.<span style="color:#a6e22e">getHexString</span>(computeJoinerIdAll()));
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> pskd;
+</span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onJoinerConnected</span><span style="color:#f92672">(</span>ByteArray joinerId<span style="color:#f92672">,</span> Error error<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    logger<span style="color:#f92672">.</span><span style="color:#a6e22e">info</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;A joiner (ID={}) is connected with {}&#34;</span><span style="color:#f92672">,</span> Utils<span style="color:#f92672">.</span><span style="color:#a6e22e">getHexString</span><span style="color:#f92672">(</span>joinerId<span style="color:#f92672">),</span> error<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onJoinerConnected</span>(ByteArray joinerId, Error error) {
+</span></span><span style="display:flex;"><span>    logger.<span style="color:#a6e22e">info</span>(<span style="color:#e6db74">&#34;A joiner (ID={}) is connected with {}&#34;</span>, Utils.<span style="color:#a6e22e">getHexString</span>(joinerId), error);
+</span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">onJoinerFinalize</span><span style="color:#f92672">(</span>ByteArray joinerId<span style="color:#f92672">,</span>String vendorName<span style="color:#f92672">,</span>String vendorModel<span style="color:#f92672">,</span>String vendorSwVersion<span style="color:#f92672">,</span>ByteArray vendorStackVersion<span style="color:#f92672">,</span>String provisioningUrl<span style="color:#f92672">,</span>ByteArray vendorData<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    logger<span style="color:#f92672">.</span><span style="color:#a6e22e">info</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;A joiner (ID={}) is finalizing&#34;</span><span style="color:#f92672">,</span> Utils<span style="color:#f92672">.</span><span style="color:#a6e22e">getHexString</span><span style="color:#f92672">(</span>joinerId<span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//Allow all joiner.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">onJoinerFinalize</span>(ByteArray joinerId,String vendorName,String vendorModel,String vendorSwVersion,ByteArray vendorStackVersion,String provisioningUrl,ByteArray vendorData) {
+</span></span><span style="display:flex;"><span>    logger.<span style="color:#a6e22e">info</span>(<span style="color:#e6db74">&#34;A joiner (ID={}) is finalizing&#34;</span>, Utils.<span style="color:#a6e22e">getHexString</span>(joinerId));
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//Allow all joiner.</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span>;
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><hr>
 <h1 id="openthread-commissioner-java-project">OpenThread Commissioner Java Project</h1>
 <p>We have open sourced complete java application here, follow the read me to build the java application.</p>
@@ -785,11 +776,11 @@ INFO  c.t.commissioner.ThreadCommissioner - A joiner (ID=ca666d7873988c66) is fi
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
+          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
+          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
         </li>
 	    
 	     <li  class="mb2">

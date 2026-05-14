@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Parse the OLE object in documents usign Java, Apache POI">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Working with Embedded OLE Objects in Java" />
 <meta property="og:description" content="Parse the OLE object in documents usign Java, Apache POI" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/java-working-with-ole-objects/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/java.jpg" />
+<meta property="og:url" content="https://thinkuldeep.com//post/java-working-with-ole-objects/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/java.jpg" />
 <meta property="article:published_time" content="2012-09-29T10:58:08-04:00" />
-<meta property="article:modified_time" content="2012-09-29T10:58:08-04:00" /><meta itemprop="name" content="Working with Embedded OLE Objects in Java">
-<meta itemprop="description" content="Parse the OLE object in documents usign Java, Apache POI"><meta itemprop="datePublished" content="2012-09-29T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2012-09-29T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1860">
-<meta itemprop="keywords" content="ole,java,apache poi,embedded,RIF,XML,IBM DOORS,technology," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Working with Embedded OLE Objects in Java"/>
-<meta name="twitter:description" content="Parse the OLE object in documents usign Java, Apache POI"/>
+<meta property="article:modified_time" content="2012-09-29T10:58:08-04:00" />
+  <meta itemprop="name" content="Working with Embedded OLE Objects in Java">
+  <meta itemprop="description" content="Parse the OLE object in documents usign Java, Apache POI">
+  <meta itemprop="datePublished" content="2012-09-29T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2012-09-29T10:58:08-04:00">
+  <meta itemprop="wordCount" content="1860">
+  <meta itemprop="keywords" content="Ole,Java,Apache Poi,Embedded,RIF,XML,IBM DOORS,Technology"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Working with Embedded OLE Objects in Java">
+<meta name="twitter:description" content="Parse the OLE object in documents usign Java, Apache POI">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -401,146 +392,146 @@ So we will only be taking care of classId “<code>00020906-0000-0000-c000000000
 <li>Sample XML in RIF format.</li>
 </ul>
 <p>The constants file</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.poc<span style="color:#f92672">;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.poc;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Constants</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String CLASS_ID_OFFICE <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;00020906-0000-0000-c000000000000046&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String ATTR_NAME <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;name&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String ATTR_CLASS_ID <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;classid&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String TAG_OLE <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;rif-xhtml:object&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Constants</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String CLASS_ID_OFFICE <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;00020906-0000-0000-c000000000000046&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String ATTR_NAME <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;name&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String ATTR_CLASS_ID <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;classid&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String TAG_OLE <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;rif-xhtml:object&#34;</span>;
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h4 id="parser">Parser</h4>
 <p>Use SAX parser to parse the given XML to get content from tag “<code>rif-xhtml:object</code>”. This will parse the given xml and generate the separate file for each rif-xhtml:object tag having <code>classid “00020906-0000-0000-c000000000000046”</code>. It also decode the content before writing to files.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.poc<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Parser</span> <span style="color:#66d9ef">extends</span> DefaultHandler <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> StringBuilder stringBuilder<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> String name<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> List<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> generatedFiles <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ArrayList<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;(</span>10<span style="color:#f92672">);</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.poc;
+</span></span><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Parser</span> <span style="color:#66d9ef">extends</span> DefaultHandler {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> StringBuilder stringBuilder;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> String name;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> List<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> generatedFiles <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ArrayList<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span>(10);
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * Parse the xml file. and return the name of the files generated files
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * 
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * @param filePath
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">     *            for the xml.
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">     */</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> List<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">parseXML</span><span style="color:#f92672">(</span>String filePath<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        stringBuilder <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> StringBuilder<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>        SAXParserFactory factory <span style="color:#f92672">=</span> SAXParserFactory<span style="color:#f92672">.</span><span style="color:#a6e22e">newInstance</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            SAXParser parser <span style="color:#f92672">=</span> factory<span style="color:#f92672">.</span><span style="color:#a6e22e">newSAXParser</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>            parser<span style="color:#f92672">.</span><span style="color:#a6e22e">parse</span><span style="color:#f92672">(</span>filePath<span style="color:#f92672">,</span> <span style="color:#66d9ef">this</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>ParserConfigurationException e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;ParserConfig error&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>SAXException e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;SAXException : xml not well formed&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>IOException e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;IO error&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> generatedFiles<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> List<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">parseXML</span>(String filePath) {
+</span></span><span style="display:flex;"><span>        stringBuilder <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> StringBuilder();
+</span></span><span style="display:flex;"><span>        SAXParserFactory factory <span style="color:#f92672">=</span> SAXParserFactory.<span style="color:#a6e22e">newInstance</span>();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>            SAXParser parser <span style="color:#f92672">=</span> factory.<span style="color:#a6e22e">newSAXParser</span>();
+</span></span><span style="display:flex;"><span>            parser.<span style="color:#a6e22e">parse</span>(filePath, <span style="color:#66d9ef">this</span>);
+</span></span><span style="display:flex;"><span>        } <span style="color:#66d9ef">catch</span> (ParserConfigurationException e) {
+</span></span><span style="display:flex;"><span>            System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;ParserConfig error&#34;</span>);
+</span></span><span style="display:flex;"><span>        } <span style="color:#66d9ef">catch</span> (SAXException e) {
+</span></span><span style="display:flex;"><span>            System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;SAXException : xml not well formed&#34;</span>);
+</span></span><span style="display:flex;"><span>        } <span style="color:#66d9ef">catch</span> (IOException e) {
+</span></span><span style="display:flex;"><span>            System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;IO error&#34;</span>);
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> generatedFiles;
+</span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">startElement</span><span style="color:#f92672">(</span>String uri<span style="color:#f92672">,</span> String localName<span style="color:#f92672">,</span> String qName<span style="color:#f92672">,</span> Attributes attributes<span style="color:#f92672">)</span> <span style="color:#66d9ef">throws</span> SAXException <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        name <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>Constants<span style="color:#f92672">.</span><span style="color:#a6e22e">TAG_OLE</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equalsIgnoreCase</span><span style="color:#f92672">(</span>qName<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#f92672">&amp;&amp;</span> Constants<span style="color:#f92672">.</span><span style="color:#a6e22e">CLASS_ID_OFFICE</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equals</span><span style="color:#f92672">(</span>attributes<span style="color:#f92672">.</span><span style="color:#a6e22e">getValue</span><span style="color:#f92672">(</span>Constants<span style="color:#f92672">.</span><span style="color:#a6e22e">ATTR_CLASS_ID</span><span style="color:#f92672">)))</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            stringBuilder <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> StringBuilder<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>            name <span style="color:#f92672">=</span> attributes<span style="color:#f92672">.</span><span style="color:#a6e22e">getValue</span><span style="color:#f92672">(</span>Constants<span style="color:#f92672">.</span><span style="color:#a6e22e">ATTR_NAME</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">startElement</span>(String uri, String localName, String qName, Attributes attributes) <span style="color:#66d9ef">throws</span> SAXException {
+</span></span><span style="display:flex;"><span>        name <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (Constants.<span style="color:#a6e22e">TAG_OLE</span>.<span style="color:#a6e22e">equalsIgnoreCase</span>(qName)
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">&amp;&amp;</span> Constants.<span style="color:#a6e22e">CLASS_ID_OFFICE</span>.<span style="color:#a6e22e">equals</span>(attributes.<span style="color:#a6e22e">getValue</span>(Constants.<span style="color:#a6e22e">ATTR_CLASS_ID</span>))) {
+</span></span><span style="display:flex;"><span>            stringBuilder <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> StringBuilder();
+</span></span><span style="display:flex;"><span>            name <span style="color:#f92672">=</span> attributes.<span style="color:#a6e22e">getValue</span>(Constants.<span style="color:#a6e22e">ATTR_NAME</span>);
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">characters</span><span style="color:#f92672">(</span><span style="color:#66d9ef">char</span><span style="color:#f92672">[]</span> ch<span style="color:#f92672">,</span> <span style="color:#66d9ef">int</span> start<span style="color:#f92672">,</span> <span style="color:#66d9ef">int</span> length<span style="color:#f92672">)</span> <span style="color:#66d9ef">throws</span> SAXException <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        stringBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">append</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> String<span style="color:#f92672">(</span>ch<span style="color:#f92672">,</span> start<span style="color:#f92672">,</span> length<span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">characters</span>(<span style="color:#66d9ef">char</span><span style="color:#f92672">[]</span> ch, <span style="color:#66d9ef">int</span> start, <span style="color:#66d9ef">int</span> length) <span style="color:#66d9ef">throws</span> SAXException {
+</span></span><span style="display:flex;"><span>        stringBuilder.<span style="color:#a6e22e">append</span>(<span style="color:#66d9ef">new</span> String(ch, start, length));
+</span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">endElement</span><span style="color:#f92672">(</span>String uri<span style="color:#f92672">,</span> String localName<span style="color:#f92672">,</span> String qName<span style="color:#f92672">)</span> <span style="color:#66d9ef">throws</span> SAXException <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>name <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> Constants<span style="color:#f92672">.</span><span style="color:#a6e22e">TAG_OLE</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equalsIgnoreCase</span><span style="color:#f92672">(</span>qName<span style="color:#f92672">))</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            FileOutputStream outputStream <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                String filePath <span style="color:#f92672">=</span> name<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>                outputStream <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> FileOutputStream<span style="color:#f92672">(</span>filePath<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">byte</span><span style="color:#f92672">[]</span> base64 <span style="color:#f92672">=</span> Base64<span style="color:#f92672">.</span><span style="color:#a6e22e">decodeBase64</span><span style="color:#f92672">(</span>stringBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>                outputStream<span style="color:#f92672">.</span><span style="color:#a6e22e">write</span><span style="color:#f92672">(</span>base64<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>                generatedFiles<span style="color:#f92672">.</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>filePath<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>FileNotFoundException e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;File not found : &#34;</span> <span style="color:#f92672">+</span> name<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>IOException e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                e<span style="color:#f92672">.</span><span style="color:#a6e22e">printStackTrace</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span> <span style="color:#66d9ef">finally</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>outputStream <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                        outputStream<span style="color:#f92672">.</span><span style="color:#a6e22e">close</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>IOException e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                    e<span style="color:#f92672">.</span><span style="color:#a6e22e">printStackTrace</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">endElement</span>(String uri, String localName, String qName) <span style="color:#66d9ef">throws</span> SAXException {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (name <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> Constants.<span style="color:#a6e22e">TAG_OLE</span>.<span style="color:#a6e22e">equalsIgnoreCase</span>(qName)) {
+</span></span><span style="display:flex;"><span>            FileOutputStream outputStream <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>                String filePath <span style="color:#f92672">=</span> name;
+</span></span><span style="display:flex;"><span>                outputStream <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> FileOutputStream(filePath);
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">byte</span><span style="color:#f92672">[]</span> base64 <span style="color:#f92672">=</span> Base64.<span style="color:#a6e22e">decodeBase64</span>(stringBuilder.<span style="color:#a6e22e">toString</span>());
+</span></span><span style="display:flex;"><span>                outputStream.<span style="color:#a6e22e">write</span>(base64);
+</span></span><span style="display:flex;"><span>                generatedFiles.<span style="color:#a6e22e">add</span>(filePath);
+</span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">catch</span> (FileNotFoundException e) {
+</span></span><span style="display:flex;"><span>                System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;File not found : &#34;</span> <span style="color:#f92672">+</span> name);
+</span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">catch</span> (IOException e) {
+</span></span><span style="display:flex;"><span>                e.<span style="color:#a6e22e">printStackTrace</span>();
+</span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">finally</span> {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">if</span> (outputStream <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span>) {
+</span></span><span style="display:flex;"><span>                        outputStream.<span style="color:#a6e22e">close</span>();
+</span></span><span style="display:flex;"><span>                    }
+</span></span><span style="display:flex;"><span>                } <span style="color:#66d9ef">catch</span> (IOException e) {
+</span></span><span style="display:flex;"><span>                    e.<span style="color:#a6e22e">printStackTrace</span>();
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h4 id="reading-ole-object-using-apache-poi">Reading OLE Object Using Apache POI</h4>
 <ul>
 <li>You can reach the OLE attachment content by following command</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>java -classpath poi-3.8-20120326.jar org.apache.poi.poifs.dev.POIFSDump &lt;filename&gt;
 </span></span></code></pre></div><p>It generates following structure for the ole object generated from above xml.
-<img src="/images/java-ole1.png" alt="image"></p>
+<img alt="image" src="/images/java-ole1.png"></p>
 <ul>
 <li>
 <p>You can read/write OLE object properties. Here is example to read and print the properties</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">...</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">OLEReader</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span> <span style="color:#66d9ef">throws</span> FileNotFoundException<span style="color:#f92672">,</span> IOException <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">final</span> String filename <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;1797c9be9d034d8f907239afb20d6547&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>        POIFSReader r <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> POIFSReader<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>        r<span style="color:#f92672">.</span><span style="color:#a6e22e">registerListener</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> MyPOIFSReaderListener<span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>        r<span style="color:#f92672">.</span><span style="color:#a6e22e">read</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> FileInputStream<span style="color:#f92672">(</span>filename<span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyPOIFSReaderListener</span> <span style="color:#66d9ef">implements</span> POIFSReaderListener <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">processPOIFSReaderEvent</span><span style="color:#f92672">(</span>POIFSReaderEvent event<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            PropertySet ps <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                ps <span style="color:#f92672">=</span> PropertySetFactory<span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">(</span>event<span style="color:#f92672">.</span><span style="color:#a6e22e">getStream</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>NoPropertySetStreamException ex<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;No property set stream: \&#34;&#34;</span> <span style="color:#f92672">+</span> event<span style="color:#f92672">.</span><span style="color:#a6e22e">getPath</span><span style="color:#f92672">()</span> <span style="color:#f92672">+</span>  
-</span></span><span style="display:flex;"><span>                    event<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">()</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;\&#34;&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>Exception ex<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> RuntimeException<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Property set stream \&#34;&#34;</span> <span style="color:#f92672">+</span> event<span style="color:#f92672">.</span><span style="color:#a6e22e">getPath</span><span style="color:#f92672">()</span> <span style="color:#f92672">+</span> 
-</span></span><span style="display:flex;"><span>                  event<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">()</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;\&#34;: &#34;</span> <span style="color:#f92672">+</span> ex<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">OLEReader</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) <span style="color:#66d9ef">throws</span> FileNotFoundException, IOException {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">final</span> String filename <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;1797c9be9d034d8f907239afb20d6547&#34;</span>;
+</span></span><span style="display:flex;"><span>        POIFSReader r <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> POIFSReader();
+</span></span><span style="display:flex;"><span>        r.<span style="color:#a6e22e">registerListener</span>(<span style="color:#66d9ef">new</span> MyPOIFSReaderListener());
+</span></span><span style="display:flex;"><span>        r.<span style="color:#a6e22e">read</span>(<span style="color:#66d9ef">new</span> FileInputStream(filename));
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyPOIFSReaderListener</span> <span style="color:#66d9ef">implements</span> POIFSReaderListener {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">processPOIFSReaderEvent</span>(POIFSReaderEvent event) {
+</span></span><span style="display:flex;"><span>            PropertySet ps <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>                ps <span style="color:#f92672">=</span> PropertySetFactory.<span style="color:#a6e22e">create</span>(event.<span style="color:#a6e22e">getStream</span>());
+</span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">catch</span> (NoPropertySetStreamException ex) {
+</span></span><span style="display:flex;"><span>                System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;No property set stream: \&#34;&#34;</span> <span style="color:#f92672">+</span> event.<span style="color:#a6e22e">getPath</span>() <span style="color:#f92672">+</span>  
+</span></span><span style="display:flex;"><span>                    event.<span style="color:#a6e22e">getName</span>() <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;\&#34;&#34;</span>);
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">catch</span> (Exception ex) {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> RuntimeException(<span style="color:#e6db74">&#34;Property set stream \&#34;&#34;</span> <span style="color:#f92672">+</span> event.<span style="color:#a6e22e">getPath</span>() <span style="color:#f92672">+</span> 
+</span></span><span style="display:flex;"><span>                  event.<span style="color:#a6e22e">getName</span>() <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;\&#34;: &#34;</span> <span style="color:#f92672">+</span> ex);
+</span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>            <span style="color:#75715e">/* Print the name of the property set stream: */</span>
-</span></span><span style="display:flex;"><span>            System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Property set stream \&#34;&#34;</span> <span style="color:#f92672">+</span> event<span style="color:#f92672">.</span><span style="color:#a6e22e">getPath</span><span style="color:#f92672">()</span> <span style="color:#f92672">+</span> event<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">()</span> <span style="color:#f92672">+</span> 
-</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;\&#34;:&#34;</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>            System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Property set stream \&#34;&#34;</span> <span style="color:#f92672">+</span> event.<span style="color:#a6e22e">getPath</span>() <span style="color:#f92672">+</span> event.<span style="color:#a6e22e">getName</span>() <span style="color:#f92672">+</span> 
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;\&#34;:&#34;</span>);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">final</span> <span style="color:#66d9ef">long</span> sectionCount <span style="color:#f92672">=</span> ps<span style="color:#f92672">.</span><span style="color:#a6e22e">getSectionCount</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>            System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;   No. of sections: &#34;</span> <span style="color:#f92672">+</span> sectionCount<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">final</span> <span style="color:#66d9ef">long</span> sectionCount <span style="color:#f92672">=</span> ps.<span style="color:#a6e22e">getSectionCount</span>();
+</span></span><span style="display:flex;"><span>            System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;   No. of sections: &#34;</span> <span style="color:#f92672">+</span> sectionCount);
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>            <span style="color:#75715e">/* Print the list of sections: */</span>
-</span></span><span style="display:flex;"><span>            List<span style="color:#f92672">&lt;</span>Section<span style="color:#f92672">&gt;</span> sections <span style="color:#f92672">=</span> ps<span style="color:#f92672">.</span><span style="color:#a6e22e">getSections</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> nr <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span>Section section <span style="color:#f92672">:</span> sections<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;   Section &#34;</span> <span style="color:#f92672">+</span> nr<span style="color:#f92672">++</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;:&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>                String s <span style="color:#f92672">=</span> section<span style="color:#f92672">.</span><span style="color:#a6e22e">getFormatID</span><span style="color:#f92672">().</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>                System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;      Format ID: &#34;</span> <span style="color:#f92672">+</span> s<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>            List<span style="color:#f92672">&lt;</span>Section<span style="color:#f92672">&gt;</span> sections <span style="color:#f92672">=</span> ps.<span style="color:#a6e22e">getSections</span>();
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">int</span> nr <span style="color:#f92672">=</span> 0;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> (Section section : sections) {
+</span></span><span style="display:flex;"><span>                System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;   Section &#34;</span> <span style="color:#f92672">+</span> nr<span style="color:#f92672">++</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;:&#34;</span>);
+</span></span><span style="display:flex;"><span>                String s <span style="color:#f92672">=</span> section.<span style="color:#a6e22e">getFormatID</span>().<span style="color:#a6e22e">toString</span>();
+</span></span><span style="display:flex;"><span>                System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;      Format ID: &#34;</span> <span style="color:#f92672">+</span> s);
 </span></span><span style="display:flex;"><span>                <span style="color:#75715e">/* Print the number of properties in this section. */</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">int</span> propertyCount <span style="color:#f92672">=</span> section<span style="color:#f92672">.</span><span style="color:#a6e22e">getPropertyCount</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>                System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;      No. of properties: &#34;</span> <span style="color:#f92672">+</span> propertyCount<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">int</span> propertyCount <span style="color:#f92672">=</span> section.<span style="color:#a6e22e">getPropertyCount</span>();
+</span></span><span style="display:flex;"><span>                System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;      No. of properties: &#34;</span> <span style="color:#f92672">+</span> propertyCount);
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>                <span style="color:#75715e">/* Print the properties: */</span>
-</span></span><span style="display:flex;"><span>                Property<span style="color:#f92672">[]</span> properties <span style="color:#f92672">=</span> section<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i2 <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span> i2 <span style="color:#f92672">&lt;</span> properties<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">;</span> i2<span style="color:#f92672">++)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>                Property<span style="color:#f92672">[]</span> properties <span style="color:#f92672">=</span> section.<span style="color:#a6e22e">getProperties</span>();
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i2 <span style="color:#f92672">=</span> 0; i2 <span style="color:#f92672">&lt;</span> properties.<span style="color:#a6e22e">length</span>; i2<span style="color:#f92672">++</span>) {
 </span></span><span style="display:flex;"><span>                    <span style="color:#75715e">/* Print a single property: */</span>
-</span></span><span style="display:flex;"><span>                    Property p <span style="color:#f92672">=</span> properties<span style="color:#f92672">[</span>i2<span style="color:#f92672">];</span>
-</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">long</span> id <span style="color:#f92672">=</span> p<span style="color:#f92672">.</span><span style="color:#a6e22e">getID</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">long</span> type <span style="color:#f92672">=</span> p<span style="color:#f92672">.</span><span style="color:#a6e22e">getType</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>                    Object value <span style="color:#f92672">=</span> p<span style="color:#f92672">.</span><span style="color:#a6e22e">getValue</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>                    System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;      Property ID: &#34;</span> <span style="color:#f92672">+</span> id <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;, type: &#34;</span> <span style="color:#f92672">+</span> type <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;, value:  
-</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                       &#34;</span> <span style="color:#f92672">+</span> value<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>                    Property p <span style="color:#f92672">=</span> properties<span style="color:#f92672">[</span>i2<span style="color:#f92672">]</span>;
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">long</span> id <span style="color:#f92672">=</span> p.<span style="color:#a6e22e">getID</span>();
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">long</span> type <span style="color:#f92672">=</span> p.<span style="color:#a6e22e">getType</span>();
+</span></span><span style="display:flex;"><span>                    Object value <span style="color:#f92672">=</span> p.<span style="color:#a6e22e">getValue</span>();
+</span></span><span style="display:flex;"><span>                    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;      Property ID: &#34;</span> <span style="color:#f92672">+</span> id <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;, type: &#34;</span> <span style="color:#f92672">+</span> type <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;, value:  
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                       &#34;</span> <span style="color:#f92672">+</span> value);
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>It will print something like below</p>
 <pre><code>  No property set stream: &quot;\0,4,2540,19841Table&quot;
   No property set stream: &quot;\0,4,2540,1984_OlePres000&quot;
@@ -590,82 +581,82 @@ So we will only be taking care of classId “<code>00020906-0000-0000-c000000000
 </ul>
 <h4 id="wring-ole-object-to-viewable-format">Wring OLE Object to viewable format</h4>
 <p>OLE object can be identified by the class id and its properties. We have noticed that OLE object present in the stream parsed from xml contained inside one folder under ROOT folder also noticed that the OLE object is actually MSWord document. Here is program which converts the OLE object stream to MS Word document.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.poc<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.poc;
+</span></span><span style="display:flex;"><span>...
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * This file read the OLE document and convert to document.
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * 
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * @author kuldeep
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * 
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">OLE2DocConvertor</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">OLE2DocConvertor</span> {
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * 
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * @param filePath
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * @return path of generated document
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">     */</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> String <span style="color:#a6e22e">convert</span><span style="color:#f92672">(</span>String filePath<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        String output <span style="color:#f92672">=</span> filePath <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;.doc&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>        FileInputStream is <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>        FileOutputStream out <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            is <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> FileInputStream<span style="color:#f92672">(</span>filePath<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>            POIFSFileSystem fs <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> POIFSFileSystem<span style="color:#f92672">(</span>is<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Assuming there is one folder under root which is an OLE object
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#75715e">// such as &#34;/0,1,13204,13811&#34; , &#34;/0,1,16267,7627&#34;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            DirectoryNode firstFolder <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>DirectoryNode<span style="color:#f92672">)</span> fs<span style="color:#f92672">.</span><span style="color:#a6e22e">getRoot</span><span style="color:#f92672">().</span><span style="color:#a6e22e">getEntries</span><span style="color:#f92672">().</span><span style="color:#a6e22e">next</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>            HWPFDocument embeddedWordDocument <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> HWPFDocument<span style="color:#f92672">(</span>firstFolder<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>            out <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> FileOutputStream<span style="color:#f92672">(</span>output<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>            embeddedWordDocument<span style="color:#f92672">.</span><span style="color:#a6e22e">write</span><span style="color:#f92672">(</span>out<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> String <span style="color:#a6e22e">convert</span>(String filePath) {
+</span></span><span style="display:flex;"><span>        String output <span style="color:#f92672">=</span> filePath <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;.doc&#34;</span>;
+</span></span><span style="display:flex;"><span>        FileInputStream is <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span>;
+</span></span><span style="display:flex;"><span>        FileOutputStream out <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>            is <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> FileInputStream(filePath);
+</span></span><span style="display:flex;"><span>            POIFSFileSystem fs <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> POIFSFileSystem(is);
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Assuming there is one folder under root which is an OLE object</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// such as &#34;/0,1,13204,13811&#34; , &#34;/0,1,16267,7627&#34;</span>
+</span></span><span style="display:flex;"><span>            DirectoryNode firstFolder <span style="color:#f92672">=</span> (DirectoryNode) fs.<span style="color:#a6e22e">getRoot</span>().<span style="color:#a6e22e">getEntries</span>().<span style="color:#a6e22e">next</span>();
+</span></span><span style="display:flex;"><span>            HWPFDocument embeddedWordDocument <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> HWPFDocument(firstFolder);
+</span></span><span style="display:flex;"><span>            out <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> FileOutputStream(output);
+</span></span><span style="display:flex;"><span>            embeddedWordDocument.<span style="color:#a6e22e">write</span>(out);
 </span></span><span style="display:flex;"><span>        
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>FileNotFoundException e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;File paths are not correct: &#34;</span> <span style="color:#f92672">+</span> e<span style="color:#f92672">.</span><span style="color:#a6e22e">getMessage</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>IOException e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Error in coverting ole to doc&#34;</span> <span style="color:#f92672">+</span> e<span style="color:#f92672">.</span><span style="color:#a6e22e">getMessage</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span> <span style="color:#66d9ef">finally</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>is <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                    is<span style="color:#f92672">.</span><span style="color:#a6e22e">close</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>out <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                    out<span style="color:#f92672">.</span><span style="color:#a6e22e">close</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>IOException e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                e<span style="color:#f92672">.</span><span style="color:#a6e22e">printStackTrace</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> output<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>        } <span style="color:#66d9ef">catch</span> (FileNotFoundException e) {
+</span></span><span style="display:flex;"><span>            System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;File paths are not correct: &#34;</span> <span style="color:#f92672">+</span> e.<span style="color:#a6e22e">getMessage</span>());
+</span></span><span style="display:flex;"><span>        } <span style="color:#66d9ef">catch</span> (IOException e) {
+</span></span><span style="display:flex;"><span>            System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Error in coverting ole to doc&#34;</span> <span style="color:#f92672">+</span> e.<span style="color:#a6e22e">getMessage</span>());
+</span></span><span style="display:flex;"><span>        } <span style="color:#66d9ef">finally</span> {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (is <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span>) {
+</span></span><span style="display:flex;"><span>                    is.<span style="color:#a6e22e">close</span>();
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (out <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span>) {
+</span></span><span style="display:flex;"><span>                    out.<span style="color:#a6e22e">close</span>();
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">catch</span> (IOException e) {
+</span></span><span style="display:flex;"><span>                e.<span style="color:#a6e22e">printStackTrace</span>();
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> output;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>On the similar lines you can get actual content as well like image, excel, or any other.</p>
 <ul>
 <li>The Main - Here is the executor program which takes XML(RIF) as input and generate separate document for each embedded elements.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.poc<span style="color:#f92672">;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.poc;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.List<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.List;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Main class
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * @author kuldeep
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Main</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>	    String xmlFileName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Export_Muster.xml&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>args<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">&gt;</span>0<span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>		    xmlFileName <span style="color:#f92672">=</span> args<span style="color:#f92672">[</span>0<span style="color:#f92672">];</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>	    Parser parser <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Parser<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>		System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Input file : &#34;</span> <span style="color:#f92672">+</span> xmlFileName<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		List<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> generatedFiles <span style="color:#f92672">=</span> parser<span style="color:#f92672">.</span><span style="color:#a6e22e">parseXML</span><span style="color:#f92672">(</span>xmlFileName<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		String outputFile <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span>String fileName <span style="color:#f92672">:</span> generatedFiles<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>		    outputFile <span style="color:#f92672">=</span> OLE2DocConvertor<span style="color:#f92672">.</span><span style="color:#a6e22e">convert</span><span style="color:#f92672">(</span>fileName<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		    System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Embeded OLE object converted to document :  &#34;</span> <span style="color:#f92672">+</span> outputFile<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>	
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Main</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>	    String xmlFileName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Export_Muster.xml&#34;</span>;
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span>(args.<span style="color:#a6e22e">length</span><span style="color:#f92672">&gt;</span>0){
+</span></span><span style="display:flex;"><span>		    xmlFileName <span style="color:#f92672">=</span> args<span style="color:#f92672">[</span>0<span style="color:#f92672">]</span>;
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>	    Parser parser <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Parser();
+</span></span><span style="display:flex;"><span>		System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Input file : &#34;</span> <span style="color:#f92672">+</span> xmlFileName);
+</span></span><span style="display:flex;"><span>		List<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> generatedFiles <span style="color:#f92672">=</span> parser.<span style="color:#a6e22e">parseXML</span>(xmlFileName);
+</span></span><span style="display:flex;"><span>		String outputFile <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span>;
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span> (String fileName : generatedFiles) {
+</span></span><span style="display:flex;"><span>		    outputFile <span style="color:#f92672">=</span> OLE2DocConvertor.<span style="color:#a6e22e">convert</span>(fileName);
+</span></span><span style="display:flex;"><span>		    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Embeded OLE object converted to document :  &#34;</span> <span style="color:#f92672">+</span> outputFile);
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>	}	
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h2 id="conclusion">Conclusion</h2>
 <p>We were able to parse the RIF XML and able to separate out the embedded attachments in individual viewable/browsable files.</p>
 <h2 id="references">References</h2>
@@ -791,11 +782,11 @@ So we will only be taking care of classId “<code>00020906-0000-0000-c000000000
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
+          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
+          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
         </li>
 	    
 	     <li  class="mb2">
@@ -867,11 +858,11 @@ So we will only be taking care of classId “<code>00020906-0000-0000-c000000000
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
+          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
+          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
         </li>
 	    
 	     <li  class="mb2">

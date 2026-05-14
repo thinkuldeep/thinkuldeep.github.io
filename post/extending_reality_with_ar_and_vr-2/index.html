@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Use cases of XR">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="eXtending reality with AR and VR - Part 2" />
 <meta property="og:description" content="Use cases of XR" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/extending_reality_with_ar_and_vr-2/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/OfficeExplorer.gif" />
+<meta property="og:url" content="https://thinkuldeep.com//post/extending_reality_with_ar_and_vr-2/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/OfficeExplorer.gif" />
 <meta property="article:published_time" content="2020-04-10T10:58:08-04:00" />
-<meta property="article:modified_time" content="2020-04-10T10:58:08-04:00" /><meta itemprop="name" content="eXtending reality with AR and VR - Part 2">
-<meta itemprop="description" content="Use cases of XR"><meta itemprop="datePublished" content="2020-04-10T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2020-04-10T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1410">
-<meta itemprop="keywords" content="xr,ar,vr,mr,usecases,thoughtworks,technology," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="eXtending reality with AR and VR - Part 2"/>
-<meta name="twitter:description" content="Use cases of XR"/>
+<meta property="article:modified_time" content="2020-04-10T10:58:08-04:00" />
+  <meta itemprop="name" content="eXtending reality with AR and VR - Part 2">
+  <meta itemprop="description" content="Use cases of XR">
+  <meta itemprop="datePublished" content="2020-04-10T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2020-04-10T10:58:08-04:00">
+  <meta itemprop="wordCount" content="1410">
+  <meta itemprop="keywords" content="Xr,Ar,Vr,Mr,Usecases,Thoughtworks,Technology"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="eXtending reality with AR and VR - Part 2">
+<meta name="twitter:description" content="Use cases of XR">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -314,7 +305,7 @@ if (!doNotTrack) {
         <span class="f6 mv4 dib tracked"> - 1410 words </span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In <a href="/post/extending_reality_with_ar_and_vr-1">Part I</a> of the article, we summarized our observations of eXtended reality’s foundational blocks - AR, VR and MR. We also discussed the popular and most relevant tools and implementations of the new technology. In Part II of the article, we will be looking at a few accessible and novel implementations of the tech.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In <a href="/post/extending_reality_with_ar_and_vr-1/">Part I</a> of the article, we summarized our observations of eXtended reality’s foundational blocks - AR, VR and MR. We also discussed the popular and most relevant tools and implementations of the new technology. In Part II of the article, we will be looking at a few accessible and novel implementations of the tech.</p>
 <p>At <a href="www.thoughtworks.com">ThoughtWorks</a>, we have delivered both XR solutions and components of XR SDK (Software Development Kit) on the back of which XR solutions are built. We have explored Unity 3D technology beyond the gaming bucket. Infact, <a href="https://www.thoughtworks.com/radar/platforms/unity-beyond-gaming">ThoughtWorks’ Technology Radar</a> states,</p>
 <blockquote>
 <p>“&hellip;Unity has become the platform of choice for VR and AR application development because it provides the abstractions and tooling of a mature platform&hellip;Yet, we feel that many teams, especially those without deep experience in building games, will benefit from using an abstraction such as Unity&hellip; it offers a solution for the huge number of devices.”</p>
@@ -330,7 +321,7 @@ if (!doNotTrack) {
 <p>Autonomous vehicles leverage techniques like Simultaneous Localization and Mapping (SLAM) to build virtual maps and locate objects in an environment. Similar technology empowers XR-enabled devices to detect unique environments and track device positions within.</p>
 <p>This Virtual Positioning System can help build indoor positioning applications for large premises like airports, train stations, warehouses, factories and more. Such a system also allows users to mark, locate and navigate to specific target points.</p>
 <p>At ThoughtWorks, we recently implemented a concept for indoor positioning at our offices. It’s a mobile app called Office Explorer, and when used with an AR-enabled smartphone or tablet, configures the entire office on a 2D map that visitors can use to explore the space.</p>
-<p><img src="/images/OfficeExplorer.gif" alt="AR enabled Office Explorer app in use at the ThoughtWorks office"></p>
+<p><img alt="AR enabled Office Explorer app in use at the ThoughtWorks office" src="/images/OfficeExplorer.gif"></p>
 <p>This usecase was also quoted at Google DevFest</p>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We have built office-explorer <a href="https://twitter.com/hashtag/DevFest2019?src=hash&amp;ref_src=twsrc%5Etfw">#DevFest2019</a> <a href="https://t.co/0yRz7Euo8J">pic.twitter.com/0yRz7Euo8J</a></p>&mdash; Kuldeep Singh (@thinkuldeep) <a href="https://twitter.com/thinkuldeep/status/1171299067516768256?ref_src=twsrc%5Etfw">September 10, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <p>Visitors or new ThoughtWorkers can follow the augmented path on the app to reach meeting rooms and work stations. This app was built using Unity 3D, ARCore and ARKit. The backend services and web portal were built on React, Kotlin, MongoDB and Micronaut.</p>
@@ -338,7 +329,7 @@ if (!doNotTrack) {
 <p>Virtual, CAD models or paper-drawn prototypes usually precede final physical products. What’s more, the former also allows for affordable customizations in an XR environment. Consumers have an opportunity to try 3D models of products before they buy it.</p>
 <p>Below is a quick concept that was created at ThoughtWorks, where one could customize a particular virtual model of a vehicle with respect to colour, interiors and fabrics. They could also step inside the virtual car and experience the personalizations, evaluate how their car looks and fits in their garage or in front of the house.</p>
 <p>ThoughtWorkers experimenting with AR-enabled customization of a vehicle.
-<img src="/images/CarConfiguratorGif.gif" alt="Image"></p>
+<img alt="Image" src="/images/CarConfiguratorGif.gif"></p>
 <p>Our app used Unity 3D and ARCore to detect the plane surface and place the product’s 3D model before commencing customizations. The same technology can be used to build an entire driving experience - a great sales tool! An additional benefit of this approach is one of the most popular features when demonstrating a product; the complete 360° visualization of it.</p>
 <p>Here is how Thoughtworks helped Daimler build <a href="https://www.thoughtworks.com/clients/daimler">innovative tools to support the latters’ futuristic sales experience</a>.</p>
 <h2 id="use-case-4-contextual-experiences">Use case 4: contextual experiences</h2>
@@ -346,11 +337,11 @@ if (!doNotTrack) {
 <p>Businesses are being disrupted by both the sheer amount of data they have at their disposal and the way they engage with that date. This data is in the form of buying history, product reviews, product-health, recommendations, usages statistics, features level analysis, comparative studies, social sentiment analysis for the product and more.</p>
 <p>A lot of customers look to such data as they make decisions they can trust and be confident in. This gives businesses to present (hopefully unbiased) data within the right context, empowering consumers to make their decisions quickly.</p>
 <p>ThoughtWorks’ TellMeMore app displays relevant data for a book
-<img src="https://miro.medium.com/max/800/0*bMDLLsNBAJRG45LF.png" alt="book"></p>
+<img alt="book" src="https://miro.medium.com/max/800/0*bMDLLsNBAJRG45LF.png"></p>
 <p>An implementation called TellMeMore is an app that we designed at ThoughtWorks. It aims at providing a better in-store product experience by overlaying information like book reviews, number of pages and comparative prices on/beside the product. This app was created using Vuforia and Unity3D.</p>
 <p>This is illustrative of opportunities to enhance customer experiences to the extent that without opening a product, customers have access to product insights and even experience detailed 3D models of the same. Add to this, the option of amplifying seemingly boring static objects such as event posters or product advertisements when viewed through an AR companion app.</p>
 <p>ThoughtWorks XR day’s paper poster turned into an AR experience:
-<img src="https://miro.medium.com/max/800/0*cB6YlaxF0E8z6dT9.png" alt="poster"></p>
+<img alt="poster" src="https://miro.medium.com/max/800/0*cB6YlaxF0E8z6dT9.png"></p>
 <h2 id="use-case-5-customer-engagement">Use case 5: customer engagement</h2>
 <p>2016’s fad, Pokémon GO is perhaps AR’s most famous champion. Historically, <a href="https://www.inc.com/john-hall/4-vr-marketing-trends-that-are-gaining-traction-in-2020.html">gamification and VR</a> have proven to better engage users. Today, shopping malls and business conferences leverage VR experience studios to engage kids and customers alike. Today, we have kids riding a <a href="https://www.forbes.com/sites/bernardmarr/2019/09/11/the-best-and-most-thrilling-virtual-reality-vr-theme-park-rides-in-the-world/#217460451aae">roller coaster</a> without even sitting on the actual structure.</p>
 <p>ThoughtWorkers have implemented a smartphone-based AR concept called LookARound that can involve visitors at expos and events. The flow of activity is this -</p>
@@ -362,7 +353,7 @@ if (!doNotTrack) {
 </ul>
 <p>LookARound was a huge hit at a two day internal office-wide event, ‘India Away Day 2019.’ 1700 ThoughtWorkers explored different points of interests at the venue, such as break-out sessions, tech stalls and event areas while engaging with AR.</p>
 <p>Snapshot of the LookAround App at ThoughtWorks India Away Day 2019
-<img src="https://miro.medium.com/max/1400/0*rch28KmHwkbTA8li.png" alt="Image"></p>
+<img alt="Image" src="https://miro.medium.com/max/1400/0*rch28KmHwkbTA8li.png"></p>
 <p>At the Away Day, 500 ThoughtWorkers competed with each other at a time. They were encouraged by 3D leaderboards showcased on Microsoft Hololens and Oculus Quest.</p>
 <h1 id="conclusion">Conclusion</h1>
 <p>XR tech is evolving at such a rate that the untapped potential boggles the mind. And, we believe the software’s evolution should be matched by the hardware. The latter needs to be user-friendly in terms of field of view and lightweight with immense processing and battery power.</p>
@@ -1032,11 +1023,11 @@ if (!doNotTrack) {
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
+          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
+          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
         </li>
 	    
 	     <li  class="mb2">
@@ -1272,11 +1263,11 @@ if (!doNotTrack) {
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
+          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
+          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
         </li>
 	    
 	     <li  class="mb2">

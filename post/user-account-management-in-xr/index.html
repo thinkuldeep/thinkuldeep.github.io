@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="In the previous article, we described the importance of interoperability in while building Enterprise XR solutions, In the article, we will discuss how to manage user accounts in the XR device, and implement single sign-on across the XR apps. We will use Android’s AccountManger approach to login into active directory and integrated it into Unity. Please read my earlier article on setting up the app in active directory, log in using android webview, considering a web-based company login form should appear for login, and no custom login form is allowed to capture the credentials.">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="User Account Management In XR" />
 <meta property="og:description" content="In the previous article, we described the importance of interoperability in while building Enterprise XR solutions, In the article, we will discuss how to manage user accounts in the XR device, and implement single sign-on across the XR apps. We will use Android’s AccountManger approach to login into active directory and integrated it into Unity. Please read my earlier article on setting up the app in active directory, log in using android webview, considering a web-based company login form should appear for login, and no custom login form is allowed to capture the credentials." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/user-account-management-in-xr/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/user-account-xr-1.png" />
+<meta property="og:url" content="https://thinkuldeep.com//post/user-account-management-in-xr/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/user-account-xr-1.png" />
 <meta property="article:published_time" content="2020-04-26T10:58:08-04:00" />
-<meta property="article:modified_time" content="2020-04-26T10:58:08-04:00" /><meta itemprop="name" content="User Account Management In XR">
-<meta itemprop="description" content="In the previous article, we described the importance of interoperability in while building Enterprise XR solutions, In the article, we will discuss how to manage user accounts in the XR device, and implement single sign-on across the XR apps. We will use Android’s AccountManger approach to login into active directory and integrated it into Unity. Please read my earlier article on setting up the app in active directory, log in using android webview, considering a web-based company login form should appear for login, and no custom login form is allowed to capture the credentials."><meta itemprop="datePublished" content="2020-04-26T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2020-04-26T10:58:08-04:00" />
-<meta itemprop="wordCount" content="2064">
-<meta itemprop="keywords" content="xr,ar,vr,mr,enterprise,android,unity,tutorial,technology," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="User Account Management In XR"/>
-<meta name="twitter:description" content="In the previous article, we described the importance of interoperability in while building Enterprise XR solutions, In the article, we will discuss how to manage user accounts in the XR device, and implement single sign-on across the XR apps. We will use Android’s AccountManger approach to login into active directory and integrated it into Unity. Please read my earlier article on setting up the app in active directory, log in using android webview, considering a web-based company login form should appear for login, and no custom login form is allowed to capture the credentials."/>
+<meta property="article:modified_time" content="2020-04-26T10:58:08-04:00" />
+  <meta itemprop="name" content="User Account Management In XR">
+  <meta itemprop="description" content="In the previous article, we described the importance of interoperability in while building Enterprise XR solutions, In the article, we will discuss how to manage user accounts in the XR device, and implement single sign-on across the XR apps. We will use Android’s AccountManger approach to login into active directory and integrated it into Unity. Please read my earlier article on setting up the app in active directory, log in using android webview, considering a web-based company login form should appear for login, and no custom login form is allowed to capture the credentials.">
+  <meta itemprop="datePublished" content="2020-04-26T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2020-04-26T10:58:08-04:00">
+  <meta itemprop="wordCount" content="2064">
+  <meta itemprop="keywords" content="Xr,Ar,Vr,Mr,Enterprise,Android,Unity,Tutorial,Technology"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="User Account Management In XR">
+<meta name="twitter:description" content="In the previous article, we described the importance of interoperability in while building Enterprise XR solutions, In the article, we will discuss how to manage user accounts in the XR device, and implement single sign-on across the XR apps. We will use Android’s AccountManger approach to login into active directory and integrated it into Unity. Please read my earlier article on setting up the app in active directory, log in using android webview, considering a web-based company login form should appear for login, and no custom login form is allowed to capture the credentials.">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -316,58 +307,58 @@ Please read my earlier article on setting up the app in active directory, log in
 <p>We will continue from the last section of the previous article, which has WebViewActivity which launch webview for logon.</p>
 <h3 id="webview-login-activity">Webview Login Activity</h3>
 <p>Let’s add a method to launch a webview activity.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">WebViewActivity</span> <span style="color:#66d9ef">extends</span> AppCompatActivity <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> WebView webView<span style="color:#f92672">;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">WebViewActivity</span> <span style="color:#66d9ef">extends</span> AppCompatActivity {
+</span></span><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> WebView webView;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">launchActivity</span><span style="color:#f92672">(</span>Activity activity<span style="color:#f92672">,</span> String url<span style="color:#f92672">,</span> String redirectURI<span style="color:#f92672">,</span> IResponseCallBack callBack<span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>    Intent intent <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Intent<span style="color:#f92672">(</span>activity<span style="color:#f92672">,</span> WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    intent<span style="color:#f92672">.</span><span style="color:#a6e22e">putExtra</span><span style="color:#f92672">(</span>INTENT_INPUT_INTERCEPT_SCHEME<span style="color:#f92672">,</span> redirectURI<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    intent<span style="color:#f92672">.</span><span style="color:#a6e22e">putExtra</span><span style="color:#f92672">(</span>INTENT_INPUT_URL<span style="color:#f92672">,</span> url<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    intent<span style="color:#f92672">.</span><span style="color:#a6e22e">putExtra</span><span style="color:#f92672">(</span>INTENT_RESPONSE_CALLBACK<span style="color:#f92672">,</span> <span style="color:#66d9ef">new</span> CustomReceiver<span style="color:#f92672">(</span>callBack<span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>    activity<span style="color:#f92672">.</span><span style="color:#a6e22e">startActivity</span><span style="color:#f92672">(</span>intent<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CustomReceiver</span> <span style="color:#66d9ef">extends</span> ResultReceiver<span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span> <span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">launchActivity</span>(Activity activity, String url, String redirectURI, IResponseCallBack callBack){
+</span></span><span style="display:flex;"><span>    Intent intent <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Intent(activity, WebViewActivity.<span style="color:#a6e22e">class</span>);
+</span></span><span style="display:flex;"><span>    intent.<span style="color:#a6e22e">putExtra</span>(INTENT_INPUT_INTERCEPT_SCHEME, redirectURI);
+</span></span><span style="display:flex;"><span>    intent.<span style="color:#a6e22e">putExtra</span>(INTENT_INPUT_URL, url);
+</span></span><span style="display:flex;"><span>    intent.<span style="color:#a6e22e">putExtra</span>(INTENT_RESPONSE_CALLBACK, <span style="color:#66d9ef">new</span> CustomReceiver(callBack));
+</span></span><span style="display:flex;"><span>    activity.<span style="color:#a6e22e">startActivity</span>(intent);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CustomReceiver</span> <span style="color:#66d9ef">extends</span> ResultReceiver{
+</span></span><span style="display:flex;"><span> ...
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onReceiveResult</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> resultCode<span style="color:#f92672">,</span> Bundle resultData<span style="color:#f92672">)</span> <span style="color:#f92672">{</span> 
-</span></span><span style="display:flex;"><span>     String code <span style="color:#f92672">=</span> resultData<span style="color:#f92672">.</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>INTENT_RESULT_PARAM_NAME<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>     callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnSuccess</span><span style="color:#f92672">(</span>code<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onReceiveResult</span>(<span style="color:#66d9ef">int</span> resultCode, Bundle resultData) { 
+</span></span><span style="display:flex;"><span>     String code <span style="color:#f92672">=</span> resultData.<span style="color:#a6e22e">getString</span>(INTENT_RESULT_PARAM_NAME);
+</span></span><span style="display:flex;"><span>     callBack.<span style="color:#a6e22e">OnSuccess</span>(code);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h3 id="create-binding-service-for-custom-account-type">Create binding service for custom Account Type</h3>
 <ul>
 <li>Create a custom authenticator, extending AbstractAccountAuthenticator, implement all abstract methods as follows.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AccountAuthenticator</span> <span style="color:#66d9ef">extends</span> AbstractAccountAuthenticator <span style="color:#f92672">{</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AccountAuthenticator</span> <span style="color:#66d9ef">extends</span> AbstractAccountAuthenticator {
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">AccountAuthenticator</span><span style="color:#f92672">(</span>Context context<span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">super</span><span style="color:#f92672">(</span>context<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">AccountAuthenticator</span>(Context context){
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">super</span>(context);
+</span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span> 
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> Bundle <span style="color:#a6e22e">addAccount</span><span style="color:#f92672">(</span>AccountAuthenticatorResponse accountAuthenticatorResponse<span style="color:#f92672">,</span> String s<span style="color:#f92672">,</span> String s1<span style="color:#f92672">,</span> String<span style="color:#f92672">[]</span> strings<span style="color:#f92672">,</span> Bundle bundle<span style="color:#f92672">)</span> <span style="color:#66d9ef">throws</span> NetworkErrorException <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// do all the validations, call AccountAuthenticatorResponse for   
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">//any failures.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">return</span> bundle<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span> <span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> Bundle <span style="color:#a6e22e">addAccount</span>(AccountAuthenticatorResponse accountAuthenticatorResponse, String s, String s1, String<span style="color:#f92672">[]</span> strings, Bundle bundle) <span style="color:#66d9ef">throws</span> NetworkErrorException {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// do all the validations, call AccountAuthenticatorResponse for   </span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//any failures.</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> bundle;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span> ...
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> Bundle <span style="color:#a6e22e">getAuthToken</span><span style="color:#f92672">(</span>AccountAuthenticatorResponse accountAuthenticatorResponse<span style="color:#f92672">,</span> Account account<span style="color:#f92672">,</span> String s<span style="color:#f92672">,</span> Bundle bundle<span style="color:#f92672">)</span> <span style="color:#66d9ef">throws</span> NetworkErrorException <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> bundle<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">...</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> Bundle <span style="color:#a6e22e">getAuthToken</span>(AccountAuthenticatorResponse accountAuthenticatorResponse, Account account, String s, Bundle bundle) <span style="color:#66d9ef">throws</span> NetworkErrorException {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> bundle;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  ...
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><ul>
 <li>Create a service to bind the custom authenticator</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyAuthenticatorService</span> <span style="color:#66d9ef">extends</span> Service <span style="color:#f92672">{</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyAuthenticatorService</span> <span style="color:#66d9ef">extends</span> Service {
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> IBinder <span style="color:#a6e22e">onBind</span><span style="color:#f92672">(</span>Intent intent<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    AccountAuthenticator authenticator <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> AccountAuthenticator<span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> authenticator<span style="color:#f92672">.</span><span style="color:#a6e22e">getIBinder</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> IBinder <span style="color:#a6e22e">onBind</span>(Intent intent) {
+</span></span><span style="display:flex;"><span>    AccountAuthenticator authenticator <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> AccountAuthenticator(<span style="color:#66d9ef">this</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> authenticator.<span style="color:#a6e22e">getIBinder</span>();
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><ul>
 <li>Add the service in Android Manifest in the application tag</li>
 </ul>
@@ -394,102 +385,102 @@ Please read my earlier article on setting up the app in active directory, log in
 <ul>
 <li><strong>Add User Account</strong> — This method adds an account to android AccountManager. Since we are trying to add an account of type “com.tw.user”, binder service will call our AccountAuthenticator.addAccount. We may do data validation there, however, we are currently returning the same bundle there. After this, it will call AccountManagerCallback which we have provided in the addAccount call below.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">addAccount</span><span style="color:#f92672">(</span>Context context<span style="color:#f92672">,</span> String bundleData<span style="color:#f92672">,</span> <span style="color:#66d9ef">final</span> IResponseCallBack callback<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">final</span> AccountManager accountManager <span style="color:#f92672">=</span> AccountManager<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span>context<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  Bundle bundle <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Bundle<span style="color:#f92672">();</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">addAccount</span>(Context context, String bundleData, <span style="color:#66d9ef">final</span> IResponseCallBack callback) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">final</span> AccountManager accountManager <span style="color:#f92672">=</span> AccountManager.<span style="color:#a6e22e">get</span>(context);
+</span></span><span style="display:flex;"><span>  Bundle bundle <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Bundle();
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    JSONObject jsonObject <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> JSONObject<span style="color:#f92672">(</span>bundleData<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    bundle<span style="color:#f92672">.</span><span style="color:#a6e22e">putString</span><span style="color:#f92672">(</span>KEY_ACCOUNT_TYPE<span style="color:#f92672">,</span> ACCOUNT_TYPE<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    bundle<span style="color:#f92672">.</span><span style="color:#a6e22e">putString</span><span style="color:#f92672">(</span>KEY_ACCOUNT_NAME<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;MyAccount&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#f92672">...</span> <span style="color:#75715e">//prepare bundle
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span>   accountManager<span style="color:#f92672">.</span><span style="color:#a6e22e">addAccount</span><span style="color:#f92672">(</span>ACCOUNT_TYPE<span style="color:#f92672">,</span> authTokenType<span style="color:#f92672">,</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">,</span>
-</span></span><span style="display:flex;"><span>      bundle<span style="color:#f92672">,</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">(</span>Activity<span style="color:#f92672">)</span> context<span style="color:#f92672">,</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">new</span> AccountManagerCallback<span style="color:#f92672">&lt;</span>Bundle<span style="color:#f92672">&gt;()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>    JSONObject jsonObject <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> JSONObject(bundleData);
+</span></span><span style="display:flex;"><span>    bundle.<span style="color:#a6e22e">putString</span>(KEY_ACCOUNT_TYPE, ACCOUNT_TYPE);
+</span></span><span style="display:flex;"><span>    bundle.<span style="color:#a6e22e">putString</span>(KEY_ACCOUNT_NAME, <span style="color:#e6db74">&#34;MyAccount&#34;</span>);
+</span></span><span style="display:flex;"><span>   ... <span style="color:#75715e">//prepare bundle</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>   accountManager.<span style="color:#a6e22e">addAccount</span>(ACCOUNT_TYPE, authTokenType, <span style="color:#66d9ef">null</span>,
+</span></span><span style="display:flex;"><span>      bundle,
+</span></span><span style="display:flex;"><span>      (Activity) context,
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">new</span> AccountManagerCallback<span style="color:#f92672">&lt;</span>Bundle<span style="color:#f92672">&gt;</span>() {
 </span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">run</span><span style="color:#f92672">(</span>AccountManagerFuture<span style="color:#f92672">&lt;</span>Bundle<span style="color:#f92672">&gt;</span> future<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>          Bundle udata <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            udata <span style="color:#f92672">=</span> future <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">?</span> future<span style="color:#f92672">.</span><span style="color:#a6e22e">getResult</span><span style="color:#f92672">()</span> <span style="color:#f92672">:</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>udata <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>              String accountName <span style="color:#f92672">=</span>udata<span style="color:#f92672">.</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>KEY_ACCOUNT_NAME<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>              String accountType<span style="color:#f92672">=</span> udata<span style="color:#f92672">.</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>KEY_ACCOUNT_TYPE<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>              Account account<span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Account<span style="color:#f92672">(</span>accountName<span style="color:#f92672">,</span>accountType<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>              <span style="color:#66d9ef">boolean</span> result<span style="color:#f92672">=</span> accountManager<span style="color:#f92672">.</span><span style="color:#a6e22e">addAccountExplicitly</span><span style="color:#f92672">(</span>             
-</span></span><span style="display:flex;"><span>                    account<span style="color:#f92672">,</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">,</span> udata<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>              <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>result<span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>               callback<span style="color:#f92672">.</span><span style="color:#a6e22e">OnSuccess</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Account Added Successfully&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>             <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>               callback<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Account can not be added&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>             <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>              callback<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Error! No user added&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>          <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>Exception e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            callback<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Error! &#34;</span> <span style="color:#f92672">+</span> e<span style="color:#f92672">.</span><span style="color:#a6e22e">getMessage</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>          <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">},</span> <span style="color:#66d9ef">new</span> Handler<span style="color:#f92672">(</span>Looper<span style="color:#f92672">.</span><span style="color:#a6e22e">getMainLooper</span><span style="color:#f92672">()));</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>Exception e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    callback<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Error!  &#34;</span> <span style="color:#f92672">+</span> e<span style="color:#f92672">.</span><span style="color:#a6e22e">getMessage</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">run</span>(AccountManagerFuture<span style="color:#f92672">&lt;</span>Bundle<span style="color:#f92672">&gt;</span> future) {
+</span></span><span style="display:flex;"><span>          Bundle udata <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span>;
+</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>            udata <span style="color:#f92672">=</span> future <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">?</span> future.<span style="color:#a6e22e">getResult</span>() : <span style="color:#66d9ef">null</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (udata <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span>) {
+</span></span><span style="display:flex;"><span>              String accountName <span style="color:#f92672">=</span>udata.<span style="color:#a6e22e">getString</span>(KEY_ACCOUNT_NAME);
+</span></span><span style="display:flex;"><span>              String accountType<span style="color:#f92672">=</span> udata.<span style="color:#a6e22e">getString</span>(KEY_ACCOUNT_TYPE);
+</span></span><span style="display:flex;"><span>              Account account<span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Account(accountName,accountType);
+</span></span><span style="display:flex;"><span>              <span style="color:#66d9ef">boolean</span> result<span style="color:#f92672">=</span> accountManager.<span style="color:#a6e22e">addAccountExplicitly</span>(             
+</span></span><span style="display:flex;"><span>                    account, <span style="color:#66d9ef">null</span>, udata);
+</span></span><span style="display:flex;"><span>              <span style="color:#66d9ef">if</span>(result){
+</span></span><span style="display:flex;"><span>               callback.<span style="color:#a6e22e">OnSuccess</span>(<span style="color:#e6db74">&#34;Account Added Successfully&#34;</span>);
+</span></span><span style="display:flex;"><span>             } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>               callback.<span style="color:#a6e22e">OnFailure</span>(<span style="color:#e6db74">&#34;Account can not be added&#34;</span>);
+</span></span><span style="display:flex;"><span>             }
+</span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>              callback.<span style="color:#a6e22e">OnFailure</span>(<span style="color:#e6db74">&#34;Error! No user added&#34;</span>);
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>          } <span style="color:#66d9ef">catch</span> (Exception e) {
+</span></span><span style="display:flex;"><span>            callback.<span style="color:#a6e22e">OnFailure</span>(<span style="color:#e6db74">&#34;Error! &#34;</span> <span style="color:#f92672">+</span> e.<span style="color:#a6e22e">getMessage</span>());
+</span></span><span style="display:flex;"><span>          }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>      }, <span style="color:#66d9ef">new</span> Handler(Looper.<span style="color:#a6e22e">getMainLooper</span>()));
+</span></span><span style="display:flex;"><span>  } <span style="color:#66d9ef">catch</span> (Exception e) {
+</span></span><span style="display:flex;"><span>    callback.<span style="color:#a6e22e">OnFailure</span>(<span style="color:#e6db74">&#34;Error!  &#34;</span> <span style="color:#f92672">+</span> e.<span style="color:#a6e22e">getMessage</span>());
+</span></span><span style="display:flex;"><span>  }
 </span></span></code></pre></div><p>}</p>
 <ul>
 <li><strong>Remove User Account</strong> — This method removes an account from android AccountManager.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">removeAccount</span><span style="color:#f92672">(</span>Context context<span style="color:#f92672">,</span> <span style="color:#66d9ef">final</span> IResponseCallBack callnack<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">final</span> AccountManager accountManager <span style="color:#f92672">=</span> AccountManager<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span>context<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  Account<span style="color:#f92672">[]</span> accounts <span style="color:#f92672">=</span> accountManager<span style="color:#f92672">.</span><span style="color:#a6e22e">getAccountsByType</span><span style="color:#f92672">(</span>ACCOUNT_TYPE<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>accounts<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span> <span style="color:#f92672">&gt;</span> 0<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    Account account <span style="color:#f92672">=</span> accounts<span style="color:#f92672">[</span>0<span style="color:#f92672">];</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">boolean</span> result <span style="color:#f92672">=</span> accountManager<span style="color:#f92672">.</span><span style="color:#a6e22e">removeAccountExplicitly</span><span style="color:#f92672">(</span> 
-</span></span><span style="display:flex;"><span>           account<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>result<span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>        callnack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnSuccess</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Account removed successfully!&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        callnack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Error! Could not remove account&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>Exception e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      callnack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Error! +&#34;</span> <span style="color:#f92672">+</span> e<span style="color:#f92672">.</span><span style="color:#a6e22e">getMessage</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    callnack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Error! No account found&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">removeAccount</span>(Context context, <span style="color:#66d9ef">final</span> IResponseCallBack callnack) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">final</span> AccountManager accountManager <span style="color:#f92672">=</span> AccountManager.<span style="color:#a6e22e">get</span>(context);
+</span></span><span style="display:flex;"><span>  Account<span style="color:#f92672">[]</span> accounts <span style="color:#f92672">=</span> accountManager.<span style="color:#a6e22e">getAccountsByType</span>(ACCOUNT_TYPE);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(accounts.<span style="color:#a6e22e">length</span> <span style="color:#f92672">&gt;</span> 0) {
+</span></span><span style="display:flex;"><span>    Account account <span style="color:#f92672">=</span> accounts<span style="color:#f92672">[</span>0<span style="color:#f92672">]</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">boolean</span> result <span style="color:#f92672">=</span> accountManager.<span style="color:#a6e22e">removeAccountExplicitly</span>( 
+</span></span><span style="display:flex;"><span>           account);
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span>(result){
+</span></span><span style="display:flex;"><span>        callnack.<span style="color:#a6e22e">OnSuccess</span>(<span style="color:#e6db74">&#34;Account removed successfully!&#34;</span>);
+</span></span><span style="display:flex;"><span>      } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>        callnack.<span style="color:#a6e22e">OnFailure</span>(<span style="color:#e6db74">&#34;Error! Could not remove account&#34;</span>);
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">catch</span> (Exception e) {
+</span></span><span style="display:flex;"><span>      callnack.<span style="color:#a6e22e">OnFailure</span>(<span style="color:#e6db74">&#34;Error! +&#34;</span> <span style="color:#f92672">+</span> e.<span style="color:#a6e22e">getMessage</span>());
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>    callnack.<span style="color:#a6e22e">OnFailure</span>(<span style="color:#e6db74">&#34;Error! No account found&#34;</span>);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><ul>
 <li><strong>Get Login In User Account</strong> — This method fetches logged in user data.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">getLoggedInUser</span><span style="color:#f92672">(</span>Context context<span style="color:#f92672">,</span> <span style="color:#66d9ef">final</span> IResponseCallBack responseCallBack<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">final</span> AccountManager accountManager <span style="color:#f92672">=</span> AccountManager<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span>context<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  Account<span style="color:#f92672">[]</span> accounts <span style="color:#f92672">=</span> accountManager<span style="color:#f92672">.</span><span style="color:#a6e22e">getAccountsByType</span><span style="color:#f92672">(</span>ACCOUNT_TYPE<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>accounts<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span> <span style="color:#f92672">&gt;</span> 0<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      Account account <span style="color:#f92672">=</span> accounts<span style="color:#f92672">[</span>0<span style="color:#f92672">];</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">final</span> JSONObject jsonObject <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> JSONObject<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>      jsonObject<span style="color:#f92672">.</span><span style="color:#a6e22e">put</span><span style="color:#f92672">(</span>KEY_USER_NAME<span style="color:#f92672">,</span> accountManager<span style="color:#f92672">.</span><span style="color:#a6e22e">getUserData</span><span style="color:#f92672">(</span>account<span style="color:#f92672">,</span> KEY_USER_NAME<span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>     <span style="color:#f92672">...</span> prepare the response<span style="color:#f92672">.</span>
-</span></span><span style="display:flex;"><span>      responseCallBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnSuccess</span><span style="color:#f92672">(</span>jsonObject<span style="color:#f92672">.</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      responseCallBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Error! No logged user of the type&#34;</span> <span style="color:#f92672">+</span> ACCOUNT_TYPE<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>Exception e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    responseCallBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Error!&#34;</span> <span style="color:#f92672">+</span> e<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">getLoggedInUser</span>(Context context, <span style="color:#66d9ef">final</span> IResponseCallBack responseCallBack) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">final</span> AccountManager accountManager <span style="color:#f92672">=</span> AccountManager.<span style="color:#a6e22e">get</span>(context);
+</span></span><span style="display:flex;"><span>  Account<span style="color:#f92672">[]</span> accounts <span style="color:#f92672">=</span> accountManager.<span style="color:#a6e22e">getAccountsByType</span>(ACCOUNT_TYPE);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span>(accounts.<span style="color:#a6e22e">length</span> <span style="color:#f92672">&gt;</span> 0) {
+</span></span><span style="display:flex;"><span>      Account account <span style="color:#f92672">=</span> accounts<span style="color:#f92672">[</span>0<span style="color:#f92672">]</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">final</span> JSONObject jsonObject <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> JSONObject();
+</span></span><span style="display:flex;"><span>      jsonObject.<span style="color:#a6e22e">put</span>(KEY_USER_NAME, accountManager.<span style="color:#a6e22e">getUserData</span>(account, KEY_USER_NAME));
+</span></span><span style="display:flex;"><span>     ... prepare the response.
+</span></span><span style="display:flex;"><span>      responseCallBack.<span style="color:#a6e22e">OnSuccess</span>(jsonObject.<span style="color:#a6e22e">toString</span>());
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>      responseCallBack.<span style="color:#a6e22e">OnFailure</span>(<span style="color:#e6db74">&#34;Error! No logged user of the type&#34;</span> <span style="color:#f92672">+</span> ACCOUNT_TYPE);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  } <span style="color:#66d9ef">catch</span> (Exception e) {
+</span></span><span style="display:flex;"><span>    responseCallBack.<span style="color:#a6e22e">OnFailure</span>(<span style="color:#e6db74">&#34;Error!&#34;</span> <span style="color:#f92672">+</span> e);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>Source code for android library can be found at <a href="https://github.com/thinkuldeep/xr-user-authentication">https://github.com/thinkuldeep/xr-user-authentication</a></p>
 <h2 id="unity-authenticator-app">Unity Authenticator App</h2>
 <p>Let’s customize the unity app that we have created in the last article, as follows, build the android library and include it in the unity project.</p>
-<p><img src="https://miro.medium.com/max/1400/1*2i1jjmj9Y2A0BHHuwbsZNg.png" alt="fddf"></p>
+<p><img alt="fddf" src="https://miro.medium.com/max/1400/1*2i1jjmj9Y2A0BHHuwbsZNg.png"></p>
 <p>Add methods to ButtonController.cs</p>
 <h3 id="login--launch-webview-for-login">Login — Launch WebView for Login</h3>
 <p>On clicking Login button, the following logic opens the WebViewActivity implemented in the Android library and load the provided URL.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c#" data-lang="c#"><span style="display:flex;"><span><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> OnLoginClicked()
 </span></span><span style="display:flex;"><span>{
 </span></span><span style="display:flex;"><span>  AndroidJavaClass WebViewActivity = <span style="color:#66d9ef">new</span> AndroidJavaClass(<span style="color:#e6db74">&#34;package.WebViewActivity&#34;</span>);
-</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">_</span>statusLabel = <span style="color:#e6db74">&#34;&#34;</span>;
+</span></span><span style="display:flex;"><span>  _statusLabel = <span style="color:#e6db74">&#34;&#34;</span>;
 </span></span><span style="display:flex;"><span>  AndroidJavaObject context = getUnityContext();
 </span></span><span style="display:flex;"><span>  WebViewActivity.CallStatic(<span style="color:#e6db74">&#34;launchActivity&#34;</span>, context, authUri, redirectUri,
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">new</span> LoginResponseCallback( <span style="color:#66d9ef">this</span>));
@@ -497,21 +488,21 @@ Please read my earlier article on setting up the app in active directory, log in
 </span></span></code></pre></div><p>make sure of the redirectURI. The webview will intercept this redirectURI and return code, which we use for getting the access_token.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c#" data-lang="c#"><span style="display:flex;"><span><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">LoginResponseCallback</span> : AndroidJavaProxy
 </span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> ButtonController <span style="color:#ae81ff">_</span>controller;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> ButtonController _controller;
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> LoginResponseCallback(ButtonController controller) : <span style="color:#66d9ef">base</span>(<span style="color:#e6db74">&#34;package.IResponseCallBack&#34;</span>)
 </span></span><span style="display:flex;"><span>  {
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_</span>controller = controller;
+</span></span><span style="display:flex;"><span>    _controller = controller;
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> OnSuccess(<span style="color:#66d9ef">string</span> result)
 </span></span><span style="display:flex;"><span>  {
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_</span>statusLabel = <span style="color:#e6db74">&#34;Code received&#34;</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_</span>statusColor = Color.black;
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_</span>controller.startCoroutineGetToken(result);
+</span></span><span style="display:flex;"><span>    _statusLabel = <span style="color:#e6db74">&#34;Code received&#34;</span>;
+</span></span><span style="display:flex;"><span>    _statusColor = Color.black;
+</span></span><span style="display:flex;"><span>    _controller.startCoroutineGetToken(result);
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> OnFailure(<span style="color:#66d9ef">string</span> errorMessage)
 </span></span><span style="display:flex;"><span>  {
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_</span>statusLabel = errorMessage;
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_</span>statusColor = Color.red;
+</span></span><span style="display:flex;"><span>    _statusLabel = errorMessage;
+</span></span><span style="display:flex;"><span>    _statusColor = Color.red;
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h3 id="login--fetch-the-access-token">Login — Fetch the Access Token</h3>
@@ -534,14 +525,14 @@ Please read my earlier article on setting up the app in active directory, log in
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">yield</span> <span style="color:#66d9ef">return</span> tokenRequest.SendWebRequest();
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (tokenRequest.isNetworkError || tokenRequest.isHttpError)
 </span></span><span style="display:flex;"><span>  {
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_</span>statusLabel = <span style="color:#e6db74">&#34;Login failed - &#34;</span> + tokenRequest.error;
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_</span>statusColor = Color.red;
+</span></span><span style="display:flex;"><span>    _statusLabel = <span style="color:#e6db74">&#34;Login failed - &#34;</span> + tokenRequest.error;
+</span></span><span style="display:flex;"><span>    _statusColor = Color.red;
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">else</span>
 </span></span><span style="display:flex;"><span>  {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> response = JsonUtility.FromJson&lt;TokenResponse&gt;(tokenRequest.downloadHandler.text);
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_</span>statusLabel = <span style="color:#e6db74">&#34;Login successful! &#34;</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_</span>statusColor = Color.black;
+</span></span><span style="display:flex;"><span>    _statusLabel = <span style="color:#e6db74">&#34;Login successful! &#34;</span>;
+</span></span><span style="display:flex;"><span>    _statusColor = Color.black;
 </span></span><span style="display:flex;"><span>     TokenUserData userData = decodeToken(response.access_token);
 </span></span><span style="display:flex;"><span>     AddAccount(userData, tokenResponse);
 </span></span><span style="display:flex;"><span>  }
@@ -638,17 +629,17 @@ In the next section, we will try to access the logged-in user outside of this au
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">yield</span> <span style="color:#66d9ef">return</span> request.SendWebRequest();
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (request.isNetworkError || request.isHttpError)
 </span></span><span style="display:flex;"><span>  {
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_l</span>abels[indexGetProfile] = <span style="color:#e6db74">&#34;Failed to get profile&#34;</span> + request.error;
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_</span>colors[indexGetProfile] = Color.red;
+</span></span><span style="display:flex;"><span>    _labels[indexGetProfile] = <span style="color:#e6db74">&#34;Failed to get profile&#34;</span> + request.error;
+</span></span><span style="display:flex;"><span>    _colors[indexGetProfile] = Color.red;
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">else</span>
 </span></span><span style="display:flex;"><span>  {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> userProfile = JsonUtility.FromJson&lt;UserProfileData&gt;(request.downloadHandler.text);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_l</span>abels[indexGetProfile] = <span style="color:#e6db74">&#34;DisplayName: &#34;</span> + userProfile.displayName + <span style="color:#e6db74">&#34;\nMail: &#34;</span> + userProfile.mail
+</span></span><span style="display:flex;"><span>    _labels[indexGetProfile] = <span style="color:#e6db74">&#34;DisplayName: &#34;</span> + userProfile.displayName + <span style="color:#e6db74">&#34;\nMail: &#34;</span> + userProfile.mail
 </span></span><span style="display:flex;"><span>+ <span style="color:#e6db74">&#34;\nDepartment: &#34;</span> + userProfile.department
 </span></span><span style="display:flex;"><span>+ <span style="color:#e6db74">&#34;\nCreated Date: &#34;</span> + userProfile.createdDateTime;
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_</span>colors[indexGetProfile] = Color.black;
+</span></span><span style="display:flex;"><span>    _colors[indexGetProfile] = Color.black;
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h3 id="check-if-a-user-is-logged">Check if a user is logged</h3>
@@ -666,28 +657,28 @@ In the next section, we will try to access the logged-in user outside of this au
 </span></span><span style="display:flex;"><span>  UserAccountData data = GetLoggedInAccount();
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (data == <span style="color:#66d9ef">null</span>)
 </span></span><span style="display:flex;"><span>  {
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_</span>isUserLoggedIn = <span style="color:#66d9ef">false</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_l</span>abels[indexWelcome] = <span style="color:#e6db74">&#34;Welcome Guest!&#34;</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_l</span>abels[indexGetProfile] = <span style="color:#e6db74">&#34;&#34;</span>;
+</span></span><span style="display:flex;"><span>    _isUserLoggedIn = <span style="color:#66d9ef">false</span>;
+</span></span><span style="display:flex;"><span>    _labels[indexWelcome] = <span style="color:#e6db74">&#34;Welcome Guest!&#34;</span>;
+</span></span><span style="display:flex;"><span>    _labels[indexGetProfile] = <span style="color:#e6db74">&#34;&#34;</span>;
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">else</span>
 </span></span><span style="display:flex;"><span>  {
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_</span>isUserLoggedIn = <span style="color:#66d9ef">true</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_l</span>abels[indexWelcome] = <span style="color:#e6db74">&#34;Welcome &#34;</span> + data.userName + <span style="color:#e6db74">&#34;!&#34;</span>;
+</span></span><span style="display:flex;"><span>    _isUserLoggedIn = <span style="color:#66d9ef">true</span>;
+</span></span><span style="display:flex;"><span>    _labels[indexWelcome] = <span style="color:#e6db74">&#34;Welcome &#34;</span> + data.userName + <span style="color:#e6db74">&#34;!&#34;</span>;
 </span></span><span style="display:flex;"><span>    StartCoroutine(getProfile(data));
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>On update make sure you rotate the cube only if a user is logged in.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c#" data-lang="c#"><span style="display:flex;"><span><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> Update()
 </span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (<span style="color:#ae81ff">_</span>isUserLoggedIn)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (_isUserLoggedIn)
 </span></span><span style="display:flex;"><span>  {
-</span></span><span style="display:flex;"><span>      cube.transform.Rotate(Time.deltaTime * <span style="color:#ae81ff">2</span> * <span style="color:#ae81ff">_</span>rotateAmount);
+</span></span><span style="display:flex;"><span>      cube.transform.Rotate(Time.deltaTime * <span style="color:#ae81ff">2</span> * _rotateAmount);
 </span></span><span style="display:flex;"><span>  }
-</span></span><span style="display:flex;"><span>  requestLoginButton.gameObject.SetActive(!<span style="color:#ae81ff">_</span>isUserLoggedIn);
-</span></span><span style="display:flex;"><span>  welcomeText.text = <span style="color:#ae81ff">_l</span>abels[indexWelcome];
-</span></span><span style="display:flex;"><span>  getProfileResponse.text = <span style="color:#ae81ff">_l</span>abels[indexGetProfile];
-</span></span><span style="display:flex;"><span>  getProfileResponse.color = <span style="color:#ae81ff">_</span>colors[indexGetProfile];
+</span></span><span style="display:flex;"><span>  requestLoginButton.gameObject.SetActive(!_isUserLoggedIn);
+</span></span><span style="display:flex;"><span>  welcomeText.text = _labels[indexWelcome];
+</span></span><span style="display:flex;"><span>  getProfileResponse.text = _labels[indexGetProfile];
+</span></span><span style="display:flex;"><span>  getProfileResponse.color = _colors[indexGetProfile];
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h3 id="run-and-test-1">Run and test</h3>
 <p>Login on the Account Authenticator XR App, as in the last step.
@@ -727,8 +718,8 @@ If the intent is available, means the XR authenticator app is installed in the d
 </span></span><span style="display:flex;"><span>    String text = intent.Call&lt;String&gt;(<span style="color:#e6db74">&#34;getStringExtra&#34;</span>, <span style="color:#e6db74">&#34;external_request&#34;</span>);
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (text != <span style="color:#66d9ef">null</span> &amp;&amp; !inProcessExternalLogin)
 </span></span><span style="display:flex;"><span>    {
-</span></span><span style="display:flex;"><span>      <span style="color:#ae81ff">_</span>statusLabel = <span style="color:#e6db74">&#34;Login action received externally&#34;</span>;
-</span></span><span style="display:flex;"><span>      <span style="color:#ae81ff">_</span>statusColor = Color.black;
+</span></span><span style="display:flex;"><span>      _statusLabel = <span style="color:#e6db74">&#34;Login action received externally&#34;</span>;
+</span></span><span style="display:flex;"><span>      _statusColor = Color.black;
 </span></span><span style="display:flex;"><span>      inProcessExternalLogin = <span style="color:#66d9ef">true</span>;
 </span></span><span style="display:flex;"><span>      OnLoginClicked();
 </span></span><span style="display:flex;"><span>    }
@@ -740,9 +731,9 @@ If the intent is available, means the XR authenticator app is installed in the d
 </span></span><span style="display:flex;"><span>  ...
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">void</span> OnSuccess(<span style="color:#66d9ef">string</span> result)
 </span></span><span style="display:flex;"><span>  {
-</span></span><span style="display:flex;"><span>   <span style="color:#ae81ff">_</span>statusLabel = result;
-</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">_</span>statusColor = Color.black;
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#ae81ff">_</span>controller.inProcessExternalLogin)
+</span></span><span style="display:flex;"><span>   _statusLabel = result;
+</span></span><span style="display:flex;"><span>  _statusColor = Color.black;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (_controller.inProcessExternalLogin)
 </span></span><span style="display:flex;"><span>    {
 </span></span><span style="display:flex;"><span>      Application.Quit();
 </span></span><span style="display:flex;"><span>    }
@@ -758,7 +749,7 @@ If the intent is available, means the XR authenticator app is installed in the d
 <li>Now go back to the Account Authenticator app, and logout (ie remove the account).</li>
 <li>On the Account Viewer app, the cube is no more rotating, and no user profile data is shown.</li>
 </ul>
-<p><img src="/images/user-account-management-in-xr1.gif" alt="Test"></p>
+<p><img alt="Test" src="/images/user-account-management-in-xr1.gif"></p>
 <p>This completes the tests. You can found complete source code here :</p>
 <ul>
 <li>Android Library: <a href="https://github.com/thinkuldeep/xr-user-authentication">https://github.com/thinkuldeep/xr-user-authentication</a></li>
@@ -1616,11 +1607,11 @@ If the intent is available, means the XR authenticator app is installed in the d
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
+          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
+          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
         </li>
 	    
 	     <li  class="mb2">
@@ -1664,11 +1655,11 @@ If the intent is available, means the XR authenticator app is installed in the d
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jsp-compilation-issues/">Strange JSP Compilation Issue </a>
+          <a href="/post/javascript-plugin-framework/">JavaScript Plugin Framework</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/javascript-plugin-framework/">JavaScript Plugin Framework</a>
+          <a href="/post/jsp-compilation-issues/">Strange JSP Compilation Issue </a>
         </li>
 	    
 	     <li  class="mb2">

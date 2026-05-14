@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="This article explores advanced practices for working with the nRF Connect SDK">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="nRF Connect SDK Advanced Practices" />
 <meta property="og:description" content="This article explores advanced practices for working with the nRF Connect SDK" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/iot-nrf-connect-sdk-advanced/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/iot-22.jpg" />
+<meta property="og:url" content="https://thinkuldeep.com//post/iot-nrf-connect-sdk-advanced/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/iot-22.jpg" />
 <meta property="article:published_time" content="2025-02-09T10:58:08-04:00" />
-<meta property="article:modified_time" content="2025-02-09T10:58:08-04:00" /><meta itemprop="name" content="nRF Connect SDK Advanced Practices">
-<meta itemprop="description" content="This article explores advanced practices for working with the nRF Connect SDK"><meta itemprop="datePublished" content="2025-02-09T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2025-02-09T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1020">
-<meta itemprop="keywords" content="IOT,network,cloud,getting started,learning,technology,fundamentals,thread,openthread,nRF,SDK,OTA,DFU,OS," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="nRF Connect SDK Advanced Practices"/>
-<meta name="twitter:description" content="This article explores advanced practices for working with the nRF Connect SDK"/>
+<meta property="article:modified_time" content="2025-02-09T10:58:08-04:00" />
+  <meta itemprop="name" content="nRF Connect SDK Advanced Practices">
+  <meta itemprop="description" content="This article explores advanced practices for working with the nRF Connect SDK">
+  <meta itemprop="datePublished" content="2025-02-09T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2025-02-09T10:58:08-04:00">
+  <meta itemprop="wordCount" content="1021">
+  <meta itemprop="keywords" content="IOT,Network,Cloud,Getting Started,Learning,Technology,Fundamentals,Thread,Openthread,NRF,SDK,OTA,DFU,Os"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="nRF Connect SDK Advanced Practices">
+<meta name="twitter:description" content="This article explores advanced practices for working with the nRF Connect SDK">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -311,11 +302,11 @@ if (!doNotTrack) {
       
       
         <span class="f6 mv4 dib tracked"> - 5 minutes read </span>
-        <span class="f6 mv4 dib tracked"> - 1020 words </span>
+        <span class="f6 mv4 dib tracked"> - 1021 words </span>
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In our <a href="/post/iot-nrf-connect-sdk/">previous article</a>, we provided a brief overview of the nRF Connect SDK and demonstrated how to build a simple application. This article explores advanced practices for working with the nRF Connect SDK, focusing on Zephyr OS internals, including timers, schedulers, bootloading, DFU, and FOTA concepts. It builds on our previous introduction to the nRF Connect SDK and provides insights into developing multi-threaded firmware, troubleshooting, and deploying firmware over the air (OTA).</p>
-<p><img src="/images/iot-22.jpg" alt="IOT"></p>
+<p><img alt="IOT" src="/images/iot-22.jpg"></p>
 <p>This article is inspired from the <a href="https://academy.nordicsemi.com/courses/nrf-connect-sdk-intermediate/">detailed course</a>, and covers the advanced concept in brief here.</p>
 <blockquote>
 <p><strong>Practice Note</strong> : IoT devices are resource-constrained, and every additional component impacts memory, CPU, and battery usage. The nRF Connect SDK includes numerous configuration options to optimize resource utilization.</p>
@@ -373,7 +364,7 @@ Use memory-efficient structures like union within a struct to optimize memory us
 <li><strong>Remote Debugging:</strong> Supported via GDB.</li>
 <li><strong>Core Dumps:</strong> Useful for debugging field issues without remote access.</li>
 </ul>
-<p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*nAET4K55l_tUkb_iKbB11g.png" alt="view"></p>
+<p><img alt="view" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*nAET4K55l_tUkb_iKbB11g.png"></p>
 <blockquote>
 <p><strong>Practice Note:</strong> Implement both local debugging and core dump capabilities for production devices. Core dump support is not enabled by default in Zephyr and requires additional configuration.</p>
 </blockquote>

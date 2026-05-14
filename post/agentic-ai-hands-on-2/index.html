@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Building Agentic AI locally using Ollama and open-source LLMs">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Agentic AI using Local LLM Setup" />
 <meta property="og:description" content="Building Agentic AI locally using Ollama and open-source LLMs" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/agentic-ai-hands-on-2/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/aiagent2.jpg" />
+<meta property="og:url" content="https://thinkuldeep.com//post/agentic-ai-hands-on-2/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/aiagent2.jpg" />
 <meta property="article:published_time" content="2026-04-27T10:58:08-04:00" />
-<meta property="article:modified_time" content="2026-04-27T10:58:08-04:00" /><meta itemprop="name" content="Agentic AI using Local LLM Setup">
-<meta itemprop="description" content="Building Agentic AI locally using Ollama and open-source LLMs"><meta itemprop="datePublished" content="2026-04-27T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2026-04-27T10:58:08-04:00" />
-<meta itemprop="wordCount" content="881">
-<meta itemprop="keywords" content="evolution,ai,genai,technology,prompt,tutorial,learnings,RAG,fine-tuning,development,embeddings,agenticai,future,practice," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Agentic AI using Local LLM Setup"/>
-<meta name="twitter:description" content="Building Agentic AI locally using Ollama and open-source LLMs"/>
+<meta property="article:modified_time" content="2026-04-27T10:58:08-04:00" />
+  <meta itemprop="name" content="Agentic AI using Local LLM Setup">
+  <meta itemprop="description" content="Building Agentic AI locally using Ollama and open-source LLMs">
+  <meta itemprop="datePublished" content="2026-04-27T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2026-04-27T10:58:08-04:00">
+  <meta itemprop="wordCount" content="881">
+  <meta itemprop="keywords" content="Evolution,AI,GenAI,Technology,Prompt,Tutorial,Learnings,RAG,Fine-Tuning,Development,Embeddings,Agenticai,Future,Practice"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Agentic AI using Local LLM Setup">
+<meta name="twitter:description" content="Building Agentic AI locally using Ollama and open-source LLMs">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -314,7 +305,7 @@ if (!doNotTrack) {
         <span class="f6 mv4 dib tracked"> - 881 words </span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In <a href="/post/agentic-ai-hands-on">Agentic AI Hands-On — Part 1</a>, we built our first AI Agent and explored how <strong>a well-designed prompt can drive real-world actions</strong> — browsing websites, calling APIs, or performing calculations through tools.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In <a href="/post/agentic-ai-hands-on/">Agentic AI Hands-On — Part 1</a>, we built our first AI Agent and explored how <strong>a well-designed prompt can drive real-world actions</strong> — browsing websites, calling APIs, or performing calculations through tools.</p>
 <p>We <a href="https://github.com/aipractices/ai-agents">implemented the agent</a> using the basic architecture</p>
 <blockquote>
 <p>Thought → Action → Observation → Reasoning → Answer</p>
@@ -327,7 +318,7 @@ if (!doNotTrack) {
 </ul>
 <p>In this article, we will build <strong>the same Agentic AI system using local open-source models</strong> — running entirely on your machine</p>
 <p>Following the below architecture.</p>
-<p><img src="/images/aiagent2.jpg" alt="Agent"></p>
+<p><img alt="Agent" src="/images/aiagent2.jpg"></p>
 <h2 id="hosting-local-llms-with-ollama">Hosting Local LLMs with Ollama</h2>
 <p><strong>Ollama</strong> allows you to run Large Language Models locally, similar to ChatGPT, OpenAI — but without cloud dependency.</p>
 <blockquote>
@@ -361,7 +352,7 @@ like <code>phi3</code>, <code>deepseek-coder</code>, <code>gemma:2b</code>, <cod
 <li>Ollama exposes a local HTTP API: <a href="http://localhost:11434">http://localhost:11434</a></li>
 </ul>
 <h2 id="-using-ollama-in-the-about-me-agent">👤 Using Ollama in the About-Me Agent</h2>
-<p>In the <a href="/post/agentic-ai-hands-on">previous hands-on</a>, we created an agent that answers questions about a person (in this case, <a href="/about/">me</a>
+<p>In the <a href="/post/agentic-ai-hands-on/">previous hands-on</a>, we created an agent that answers questions about a person (in this case, <a href="/about/">me</a>
 ) by fetching real data from <a href="/about/">a source</a> instead of hallucinating.</p>
 <p>Example query:</p>
 <blockquote>
@@ -534,7 +525,7 @@ Tool Name: calculate
 </span></span><span style="display:flex;"><span> $ pip install open-webui
 </span></span><span style="display:flex;"><span> $ open-webui serve
 </span></span></code></pre></div><p>Web UI available at <a href="http://localhost:8080">http://localhost:8080</a></p>
-<p><img src="/images/aiagent2-1.jpg" alt="WebUI"></p>
+<p><img alt="WebUI" src="/images/aiagent2-1.jpg"></p>
 </li>
 <li>
 <p><a href="https://lmstudio.ai/">LM Studio</a></p>
@@ -713,11 +704,11 @@ Tool Name: calculate
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
+          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
+          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
         </li>
 	    
 	     <li  class="mb2">
@@ -1301,11 +1292,11 @@ Tool Name: calculate
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
+          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
+          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
         </li>
 	    
 	     <li  class="mb2">

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Build and configure a Android App as an External Commissioner for a Thread Network">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Building and Using OpenThread Commissioner Mobile App" />
 <meta property="og:description" content="Build and configure a Android App as an External Commissioner for a Thread Network" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/iot-thread-external-commissioner-android/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/iot-25.jpg" />
+<meta property="og:url" content="https://thinkuldeep.com//post/iot-thread-external-commissioner-android/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/iot-25.jpg" />
 <meta property="article:published_time" content="2025-03-05T11:58:08-04:00" />
-<meta property="article:modified_time" content="2025-03-05T11:58:08-04:00" /><meta itemprop="name" content="Building and Using OpenThread Commissioner Mobile App">
-<meta itemprop="description" content="Build and configure a Android App as an External Commissioner for a Thread Network"><meta itemprop="datePublished" content="2025-03-05T11:58:08-04:00" />
-<meta itemprop="dateModified" content="2025-03-05T11:58:08-04:00" />
-<meta itemprop="wordCount" content="525">
-<meta itemprop="keywords" content="IOT,network,cloud,getting started,learning,technology,fundamentals,thread,openthread,commissioner,android,java,nRF,SDK," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Building and Using OpenThread Commissioner Mobile App"/>
-<meta name="twitter:description" content="Build and configure a Android App as an External Commissioner for a Thread Network"/>
+<meta property="article:modified_time" content="2025-03-05T11:58:08-04:00" />
+  <meta itemprop="name" content="Building and Using OpenThread Commissioner Mobile App">
+  <meta itemprop="description" content="Build and configure a Android App as an External Commissioner for a Thread Network">
+  <meta itemprop="datePublished" content="2025-03-05T11:58:08-04:00">
+  <meta itemprop="dateModified" content="2025-03-05T11:58:08-04:00">
+  <meta itemprop="wordCount" content="525">
+  <meta itemprop="keywords" content="IOT,Network,Cloud,Getting Started,Learning,Technology,Fundamentals,Thread,Openthread,Commissioner,Android,Java,NRF,SDK"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Building and Using OpenThread Commissioner Mobile App">
+<meta name="twitter:description" content="Build and configure a Android App as an External Commissioner for a Thread Network">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -316,7 +307,7 @@ if (!doNotTrack) {
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In our <a href="/post/iot-thread-external-commissioner-cli/">previous article</a>, we set up an <strong>external commissioner</strong> outside a Thread network using a command-line tool on a PC. However, OpenThread also provides a <strong>mobile app</strong> that can serve as an external commissioner.</p>
 <p>This guide will walk you through <strong>building and using the OpenThread Commissioner mobile app</strong> to provision a device onto a Thread network.</p>
-<p><img src="/images/iot-25.jpg" alt="iot"></p>
+<p><img alt="iot" src="/images/iot-25.jpg"></p>
 <h1 id="building-the-openthread-commissioner-mobile-app">Building the OpenThread Commissioner Mobile App</h1>
 <p>OpenThread provides an <a href="https://github.com/openthread/ot-commissioner/tree/main/android">Android app source</a>, which requires <strong>Android Studio</strong> and <strong>Android NDK</strong> to build. The official OpenThread documentation provides <a href="https://github.com/openthread/ot-commissioner/blob/main/android/BUILDING.md">step-by-step instructions</a> for building the app, as follows.</p>
 <h2 id="build-commissioner-native-libraries">Build Commissioner Native Libraries</h2>
@@ -357,9 +348,9 @@ drwxr-xr-x  14 thw8316  staff   448B Mar  5 13:29 openthread_commissioner
 <p>Ensure the <strong>mobile device</strong> is connected to the same wifi network as the <strong>Thread Border Router</strong> and follow steps below :</p>
 <h3 id="select-a-thread-network">Select a Thread Network</h3>
 <p>The app will <strong>discover border routers</strong> over DNS. Select one from the list.</p>
-<p><img src="https://miro.medium.com/v2/resize:fit:490/format:webp/1*RY0QtC6ge8zDjkOZ_k9VEA.png" alt="Select a network"></p>
+<p><img alt="Select a network" src="https://miro.medium.com/v2/resize:fit:490/format:webp/1*RY0QtC6ge8zDjkOZ_k9VEA.png"></p>
 <p>In will ask a password — Enter the <strong>Commissioner Passphrase/Credentials</strong> defined in the <strong>Border Router</strong></p>
-<p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*tykRosilbFJ6JYxUgDBihQ.png" alt="Border router settings"></p>
+<p><img alt="Border router settings" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*tykRosilbFJ6JYxUgDBihQ.png"></p>
 <h3 id="add-a-joiner-device-rule">Add a Joiner Device Rule</h3>
 <p>Next, it we add a <strong>Joiner device rule</strong>, Tap “<strong>ADD DEVICE</strong>” — this will open a <strong>QR Code Scanner</strong> to scan the device <em>EUI64</em> and <em>PSKd</em> (Joiner Key).</p>
 <ul>
@@ -371,7 +362,7 @@ done
 </code></pre></li>
 <li>Generate a QR Code with a string like this “<code>eui=f4ce3601fbe48430&amp;cc=J01NME</code>”</li>
 </ul>
-<p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*FBBsvFwMUhDJZnsEiDFlHA.jpeg" alt="IOT"></p>
+<p><img alt="IOT" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*FBBsvFwMUhDJZnsEiDFlHA.jpeg"></p>
 <p>This registers the device ID (<strong>EUI64</strong>) and the Joiner Key (<strong>PSKd</strong>) in the Commissioner, waiting for the Joiner device to connect.</p>
 <h3 id="joining-the-thread-network">Joining the Thread Network</h3>
 <p>On a Thread End Device, initiate the joining process with the following command:</p>
@@ -380,7 +371,7 @@ joiner success
 Done
 &gt;
 </code></pre><p>The Commissioner Mobile App will receive the Joiner request and approve it.</p>
-<p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*xNxmw5-4Q__mqoo_klZbqQ.jpeg" alt="Mobile"></p>
+<p><img alt="Mobile" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*xNxmw5-4Q__mqoo_klZbqQ.jpeg"></p>
 <blockquote>
 <p>📝 Note: The Joiner ID is the SHA256 hash of the EUI64.</p>
 </blockquote>
@@ -652,11 +643,11 @@ Done
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
+          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
+          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
         </li>
 	    
 	     <li  class="mb2">

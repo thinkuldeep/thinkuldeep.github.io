@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Lets understand how to build web applications using scala">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Scala - Getting Started - Part 2" />
 <meta property="og:description" content="Lets understand how to build web applications using scala" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/scala-getting-started-part2/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/scala.png" />
+<meta property="og:url" content="https://thinkuldeep.com//post/scala-getting-started-part2/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/scala.png" />
 <meta property="article:published_time" content="2013-05-18T10:58:08-04:00" />
-<meta property="article:modified_time" content="2013-05-18T10:58:08-04:00" /><meta itemprop="name" content="Scala - Getting Started - Part 2">
-<meta itemprop="description" content="Lets understand how to build web applications using scala"><meta itemprop="datePublished" content="2013-05-18T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2013-05-18T10:58:08-04:00" />
-<meta itemprop="wordCount" content="2771">
-<meta itemprop="keywords" content="scala,java,introduction,language,play,lift,spring,comparison,technology," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Scala - Getting Started - Part 2"/>
-<meta name="twitter:description" content="Lets understand how to build web applications using scala"/>
+<meta property="article:modified_time" content="2013-05-18T10:58:08-04:00" />
+  <meta itemprop="name" content="Scala - Getting Started - Part 2">
+  <meta itemprop="description" content="Lets understand how to build web applications using scala">
+  <meta itemprop="datePublished" content="2013-05-18T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2013-05-18T10:58:08-04:00">
+  <meta itemprop="wordCount" content="2771">
+  <meta itemprop="keywords" content="Scala,Java,Introduction,Language,Play,Lift,Spring,Comparison,Technology"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Scala - Getting Started - Part 2">
+<meta name="twitter:description" content="Lets understand how to build web applications using scala">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -314,7 +305,7 @@ if (!doNotTrack) {
         <span class="f6 mv4 dib tracked"> - 2771 words </span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In <a href="/post/scala-getting-started-part1">previous article</a> we learned basics of Scala, in this articles we will learn how to setup build scripts for scala and build applications using scala.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In <a href="/post/scala-getting-started-part1/">previous article</a> we learned basics of Scala, in this articles we will learn how to setup build scripts for scala and build applications using scala.</p>
 <p>We will also learn few web development frameworks for Scala and compare them with similar framework in Java.</p>
 <h2 id="building-scala-applications">Building Scala Applications</h2>
 <p>Below program demonstrates the use of Scala script with Maven, Ant, and logging library – LogBack.</p>
@@ -624,26 +615,26 @@ For maven to compile and understand the Scala class files, we should follow the 
 <p><strong>Web Servlet Program</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.servlet.scala
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> javax.servlet.http.<span style="color:#f92672">{</span> HttpServlet<span style="color:#f92672">,</span> HttpServletRequest<span style="color:#f92672">,</span> HttpServletResponse <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> javax.servlet.http.{ HttpServlet, HttpServletRequest, HttpServletResponse }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ScalaServlet</span> <span style="color:#66d9ef">extends</span> HttpServlet <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ScalaServlet</span> <span style="color:#66d9ef">extends</span> HttpServlet {
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>  <span style="color:#75715e">/* (non-Javadoc)
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * @see javax.servlet.http.HttpServlet#doGet(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   */</span>
-</span></span><span style="display:flex;"><span>  override def <span style="color:#a6e22e">doGet</span><span style="color:#f92672">(</span>req<span style="color:#f92672">:</span> HttpServletRequest<span style="color:#f92672">,</span> resp<span style="color:#f92672">:</span> HttpServletResponse<span style="color:#f92672">)</span> <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    resp<span style="color:#f92672">.</span><span style="color:#a6e22e">getWriter</span><span style="color:#f92672">().</span><span style="color:#a6e22e">print</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;&lt;HTML&gt;&#34;</span> <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  override def <span style="color:#a6e22e">doGet</span>(req: HttpServletRequest, resp: HttpServletResponse) <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    resp.<span style="color:#a6e22e">getWriter</span>().<span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;&lt;HTML&gt;&#34;</span> <span style="color:#f92672">+</span>
 </span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;&lt;HEAD&gt;&lt;TITLE&gt;Hello, Scala!&lt;/TITLE&gt;&lt;/HEAD&gt;&#34;</span> <span style="color:#f92672">+</span>
 </span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;&lt;BODY&gt;Hello, Scala! This is a servlet.&lt;/BODY&gt;&#34;</span> <span style="color:#f92672">+</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;&lt;/HTML&gt;&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;&lt;/HTML&gt;&#34;</span>)
+</span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>  <span style="color:#75715e">/* (non-Javadoc)
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * @see javax.servlet.http.HttpServlet#doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   */</span>
-</span></span><span style="display:flex;"><span>  override def <span style="color:#a6e22e">doPost</span><span style="color:#f92672">(</span>req<span style="color:#f92672">:</span> HttpServletRequest<span style="color:#f92672">,</span> resp<span style="color:#f92672">:</span> HttpServletResponse<span style="color:#f92672">)</span> <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>  override def <span style="color:#a6e22e">doPost</span>(req: HttpServletRequest, resp: HttpServletResponse) <span style="color:#f92672">=</span> {
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><strong>Web.xml</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-xml" data-lang="xml"><span style="display:flex;"><span><span style="color:#75715e">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;web-app</span> <span style="color:#a6e22e">xmlns:xsi=</span><span style="color:#e6db74">&#34;http://www.w3.org/2001/XMLSchema-instance&#34;</span> <span style="color:#a6e22e">xmlns=</span><span style="color:#e6db74">&#34;http://java.sun.com/xml/ns/javaee&#34;</span> <span style="color:#a6e22e">xmlns:web=</span><span style="color:#e6db74">&#34;http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd&#34;</span> <span style="color:#a6e22e">xsi:schemaLocation=</span><span style="color:#e6db74">&#34;http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd&#34;</span> <span style="color:#a6e22e">id=</span><span style="color:#e6db74">&#34;WebApp_ID&#34;</span> <span style="color:#a6e22e">version=</span><span style="color:#e6db74">&#34;3.0&#34;</span><span style="color:#f92672">&gt;</span>
@@ -716,30 +707,30 @@ As Scala program code executes within the Java virtual machine (JVM), any existi
 <ul>
 <li>
 <p>Default Hello world snippet - <code>HelloWorld.scala</code></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.lift.poc <span style="color:#f92672">{</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.lift.poc {
 </span></span><span style="display:flex;"><span>  <span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * declaring package for snippet classes
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   */</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">package</span> snippet <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">package</span> snippet {
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">import</span> _root_.scala.xml.NodeSeq
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">import</span> _root_.net.liftweb.util.Helpers
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">import</span> Helpers._
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * Defining snippet class HelloWorld
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">     */</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HelloWorld</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HelloWorld</span> {
 </span></span><span style="display:flex;"><span>      <span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">       * defining snippet with name &#39;howdy&#39;
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">       */</span>
-</span></span><span style="display:flex;"><span>      def <span style="color:#a6e22e">howdy</span><span style="color:#f92672">(</span>in<span style="color:#f92672">:</span> NodeSeq<span style="color:#f92672">):</span> NodeSeq <span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>      def <span style="color:#a6e22e">howdy</span>(in: NodeSeq): NodeSeq <span style="color:#f92672">=</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">         * This snippet will replace &#39;&lt;b:time/&gt; in html file
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">         * with current date string&#39;
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">         */</span>
-</span></span><span style="display:flex;"><span>        Helpers<span style="color:#f92672">.</span><span style="color:#a6e22e">bind</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;b&#34;</span><span style="color:#f92672">,</span> in<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;time&#34;</span> <span style="color:#f92672">-&gt;</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> _root_<span style="color:#f92672">.</span><span style="color:#a6e22e">java</span><span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Date</span><span style="color:#f92672">).</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>        Helpers.<span style="color:#a6e22e">bind</span>(<span style="color:#e6db74">&#34;b&#34;</span>, in, <span style="color:#e6db74">&#34;time&#34;</span> <span style="color:#f92672">-&gt;</span> (<span style="color:#66d9ef">new</span> _root_.<span style="color:#a6e22e">java</span>.<span style="color:#a6e22e">util</span>.<span style="color:#a6e22e">Date</span>).<span style="color:#a6e22e">toString</span>)
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div></li>
 <li>
 <p>Default html page - <code>index.html</code></p>
@@ -767,17 +758,17 @@ As Scala program code executes within the Java virtual machine (JVM), any existi
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * A class that&#39;s instantiated early and run.  It allows the application
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * to modify lift&#39;s environment
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Boot</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  def boot <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// where to search snippet
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    LiftRules<span style="color:#f92672">.</span><span style="color:#a6e22e">addToPackages</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;com.nagarro.lift.poc&#34;</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Boot</span> {
+</span></span><span style="display:flex;"><span>  def boot {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// where to search snippet</span>
+</span></span><span style="display:flex;"><span>    LiftRules.<span style="color:#a6e22e">addToPackages</span>(<span style="color:#e6db74">&#34;com.nagarro.lift.poc&#34;</span>)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// This piece of code build SiteMap on thie index.html page
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// we will see listing with &#39;home&#39; attribute there
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    val entries <span style="color:#f92672">=</span> Menu<span style="color:#f92672">(</span>Loc<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Home&#34;</span><span style="color:#f92672">,</span> List<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;index&#34;</span><span style="color:#f92672">),</span> <span style="color:#e6db74">&#34;Home&#34;</span><span style="color:#f92672">))</span> <span style="color:#f92672">::</span> Nil
-</span></span><span style="display:flex;"><span>    LiftRules<span style="color:#f92672">.</span><span style="color:#a6e22e">setSiteMap</span><span style="color:#f92672">(</span>SiteMap<span style="color:#f92672">(</span>entries<span style="color:#f92672">:</span> _<span style="color:#f92672">*))</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// This piece of code build SiteMap on thie index.html page</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// we will see listing with &#39;home&#39; attribute there</span>
+</span></span><span style="display:flex;"><span>    val entries <span style="color:#f92672">=</span> Menu(Loc(<span style="color:#e6db74">&#34;Home&#34;</span>, List(<span style="color:#e6db74">&#34;index&#34;</span>), <span style="color:#e6db74">&#34;Home&#34;</span>)) :: Nil
+</span></span><span style="display:flex;"><span>    LiftRules.<span style="color:#a6e22e">setSiteMap</span>(SiteMap(entries: _<span style="color:#f92672">*</span>))
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><ul>
 <li>Running default web application
 To run this webapp
@@ -808,7 +799,7 @@ To run this webapp
 <li>It will prompt you for the application full name. Type Hello world.</li>
 <li>The play new command creates a new directory <code>helloworld/</code> and populates it with a series of files and directories, the most important being:</li>
 </ul>
-<p><img src="/images/scala_1.png" alt="Image"></p>
+<p><img alt="Image" src="/images/scala_1.png"></p>
 <h4 id="play-project-structure">Play Project Structure</h4>
 <pre><code>    app/ contains the application’s core. It contains all the application *.scala files. You see that the default is a single controllers.scala file. You can of course use more files and organize them in several folders for more complex applications. Also the app/viewsdirectory is where template files live. A template file is generally a simple text, xml or html file with dynamic placeholders.
     conf/ contains all the application’s configuration files, especially the main application.conf file, the routes definition files and the messages files used for internationalization.
@@ -829,13 +820,13 @@ Application.index is a shortcut for <code>controllers.Application.index</code>, 
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> controllers
 </span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> play._
 </span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> play.mvc._
-</span></span><span style="display:flex;"><span>object Application <span style="color:#66d9ef">extends</span> Controller <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>object Application <span style="color:#66d9ef">extends</span> Controller {
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">import</span> views.Application._
-</span></span><span style="display:flex;"><span>    def index <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        html<span style="color:#f92672">.</span><span style="color:#a6e22e">index</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Your new Scala application is ready!&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    def index <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>        html.<span style="color:#a6e22e">index</span>(<span style="color:#e6db74">&#34;Your new Scala application is ready!&#34;</span>)
+</span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div></li>
 <li>
 <p>The default <code>index</code> action is simple: it invoke the <code>views.Application.html.index</code> template and returns the generated HTML. Using a template is the most common way (but not the only one) to generate the HTTP response. Templates are special Scala source files that live in the <code>/app/views</code> directory.</p>
@@ -1110,11 +1101,11 @@ View First: View first simply means the view is what drives the creation or disc
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
+          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
+          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
         </li>
 	    
 	     <li  class="mb2">

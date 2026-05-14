@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Interoperability is the key aspect in building enterprise XR solutions">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Enterprise XR - Interoperability" />
 <meta property="og:description" content="Interoperability is the key aspect in building enterprise XR solutions" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/enterprise-xr-interoperability/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/interoperability.jpg" />
+<meta property="og:url" content="https://thinkuldeep.com//post/enterprise-xr-interoperability/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/interoperability.jpg" />
 <meta property="article:published_time" content="2020-03-28T10:58:08-04:00" />
-<meta property="article:modified_time" content="2020-03-28T10:58:08-04:00" /><meta itemprop="name" content="Enterprise XR - Interoperability">
-<meta itemprop="description" content="Interoperability is the key aspect in building enterprise XR solutions"><meta itemprop="datePublished" content="2020-03-28T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2020-03-28T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1741">
-<meta itemprop="keywords" content="xr,ar,vr,mr,integration,enterprise,android,unity,tutorial,technology,interoperability," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Enterprise XR - Interoperability"/>
-<meta name="twitter:description" content="Interoperability is the key aspect in building enterprise XR solutions"/>
+<meta property="article:modified_time" content="2020-03-28T10:58:08-04:00" />
+  <meta itemprop="name" content="Enterprise XR - Interoperability">
+  <meta itemprop="description" content="Interoperability is the key aspect in building enterprise XR solutions">
+  <meta itemprop="datePublished" content="2020-03-28T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2020-03-28T10:58:08-04:00">
+  <meta itemprop="wordCount" content="1741">
+  <meta itemprop="keywords" content="Xr,Ar,Vr,Mr,Integration,Enterprise,Android,Unity,Tutorial,Technology,Interoperability"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Enterprise XR - Interoperability">
+<meta name="twitter:description" content="Interoperability is the key aspect in building enterprise XR solutions">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -314,7 +305,7 @@ if (!doNotTrack) {
         <span class="f6 mv4 dib tracked"> - 1741 words </span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In the <a href="/post/enterprise-xr-multi-factor-authentication">previous article</a>, we discussed implementing multi-factor authentication for an andorid application, and in the article we will cover another enterprise aspect, Interoperability.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In the <a href="/post/enterprise-xr-multi-factor-authentication/">previous article</a>, we discussed implementing multi-factor authentication for an andorid application, and in the article we will cover another enterprise aspect, Interoperability.</p>
 <p><strong>Interoperability</strong> is key aspect when we build enterprise solutions using XR technologies. The enterprises have digital assets in form of mobile apps, libraries, system APIs, and they can’t just throw away these existing investments, in fact, the XR apps must be implemented in such a way that it is interoperable with them seamlessly.
 This article describes interoperability between XR apps and other native apps. It takes Unity as the XR app development platform and explains how a Unity-based app can be interoperable with the existing Java-based android libraries.</p>
 <p>Read the below article by <a href="https://medium.com/@raju.kandasamy">Raju Kandaswamy</a>, it describes steps to integrate the XR app built using Unity into any android app.</p>
@@ -325,41 +316,41 @@ medium.com</p>
 </blockquote>
 <p>The article below describes interoperability in the opposite of what Raju has described, we will try to integrate an existing Android Library into the Unity-based XR App.</p>
 <h2 id="build-an-android-library">Build an Android Library</h2>
-<p>In the <a href="/post/enterprise-xr-multi-factor-authentication">last article</a>, we have implemented a user authenticator. Let’s now expose a simple user authenticator implementation as an android library.</p>
+<p>In the <a href="/post/enterprise-xr-multi-factor-authentication/">last article</a>, we have implemented a user authenticator. Let’s now expose a simple user authenticator implementation as an android library.</p>
 <ul>
 <li>
 <p>goto <code>File &gt; New &gt; New Module &gt; Select Android Library</code>
-<img src="https://miro.medium.com/max/1400/1*4x9Nw6h6vpGOwJKoPW7F0Q.png" alt="Image"></p>
+<img alt="Image" src="https://miro.medium.com/max/1400/1*4x9Nw6h6vpGOwJKoPW7F0Q.png"></p>
 </li>
 <li>
 <p>Implement a UserAuthenticator with simple authentication logic. Each method is accepting an argument context, but currently, it is not being used so you may ignore it for now.</p>
 </li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UserAuthenticator</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> UserAuthenticator instance <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> UserAuthenticator<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> String loggedInUserName<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#a6e22e">UserAuthenticator</span><span style="color:#f92672">(){</span> <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> UserAuthenticator <span style="color:#a6e22e">getInstance</span><span style="color:#f92672">(){</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> instance<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">login</span><span style="color:#f92672">(</span>String name<span style="color:#f92672">,</span> Context context<span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>loggedInUserName <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> loggedInUserName<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
-</span></span><span style="display:flex;"><span>           loggedInUserName <span style="color:#f92672">=</span> name<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">return</span> name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; Logged-In successfully &#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>       <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;A user is already logged in&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">logout</span><span style="color:#f92672">(</span>Context context<span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>loggedInUserName <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span>loggedInUserName<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
-</span></span><span style="display:flex;"><span>            loggedInUserName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Logged-Out successfully &#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;No user is logged in!&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">getLoggedInUser</span><span style="color:#f92672">(</span>Context context<span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> loggedInUserName<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UserAuthenticator</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> UserAuthenticator instance <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> UserAuthenticator();
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> String loggedInUserName;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#a6e22e">UserAuthenticator</span>(){ }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> UserAuthenticator <span style="color:#a6e22e">getInstance</span>(){
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> instance;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">login</span>(String name, Context context){
+</span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">if</span>(loggedInUserName <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> loggedInUserName.<span style="color:#a6e22e">isEmpty</span>()){
+</span></span><span style="display:flex;"><span>           loggedInUserName <span style="color:#f92672">=</span> name;
+</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">return</span> name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; Logged-In successfully &#34;</span>;
+</span></span><span style="display:flex;"><span>       }
+</span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;A user is already logged in&#34;</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">logout</span>(Context context){
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(loggedInUserName <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span>loggedInUserName.<span style="color:#a6e22e">isEmpty</span>()){
+</span></span><span style="display:flex;"><span>            loggedInUserName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Logged-Out successfully &#34;</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;No user is logged in!&#34;</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">getLoggedInUser</span>(Context context){
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> loggedInUserName;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><ul>
 <li>Go to <code>Build &gt; Make Module “userauthenticator”</code>  — It will generate aar file. under <code>build/outputs/aar</code></li>
 </ul>
@@ -369,11 +360,11 @@ medium.com</p>
 <ul>
 <li>
 <p>Create unity project
-<img src="https://miro.medium.com/max/1400/1*AJiQfKMOZENulDaYWTyL1A.png" alt="Unity Project"></p>
+<img alt="Unity Project" src="https://miro.medium.com/max/1400/1*AJiQfKMOZENulDaYWTyL1A.png"></p>
 </li>
 <li>
 <p>We have 3 APIs in <code>UserAuthenticator</code> of the android library, let&rsquo;s build a 3D UI layout with buttons, text elements. as follows. The source code is shared at the end of the article.
-<img src="https://miro.medium.com/max/1400/1*SgSFhI4bHWj9iYgpcrwxBg.png" alt="UI Layout"></p>
+<img alt="UI Layout" src="https://miro.medium.com/max/1400/1*SgSFhI4bHWj9iYgpcrwxBg.png"></p>
 </li>
 <li>
 <p>Add a script <code>ButtonController</code>. This script describes the ways to access java classes.</p>
@@ -384,27 +375,27 @@ medium.com</p>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c#" data-lang="c#"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ButtonController</span> : MonoBehaviour
 </span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> AndroidJavaObject <span style="color:#ae81ff">_</span>userAuthenticator;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> AndroidJavaObject _userAuthenticator;
 </span></span><span style="display:flex;"><span>...
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> Start()
 </span></span><span style="display:flex;"><span>    {
 </span></span><span style="display:flex;"><span>        AndroidJavaClass userAuthenticatorClass = <span style="color:#66d9ef">new</span> AndroidJavaClass(<span style="color:#e6db74">&#34;com.tw.userauthenticator.UserAuthenticator&#34;</span>);
-</span></span><span style="display:flex;"><span>        <span style="color:#ae81ff">_</span>userAuthenticator = userAuthenticatorClass.CallStatic&lt;AndroidJavaObject&gt;(<span style="color:#e6db74">&#34;getInstance&#34;</span>);
+</span></span><span style="display:flex;"><span>        _userAuthenticator = userAuthenticatorClass.CallStatic&lt;AndroidJavaObject&gt;(<span style="color:#e6db74">&#34;getInstance&#34;</span>);
 </span></span><span style="display:flex;"><span>        loginButton.onClick.AddListener(OnLoginClicked);
 </span></span><span style="display:flex;"><span>        logoutButton.onClick.AddListener(OnLogoutClicked);
 </span></span><span style="display:flex;"><span>        getLoggedInUserButton.onClick.AddListener( OnGetLoggedUserClicked);
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> OnLoginClicked()
 </span></span><span style="display:flex;"><span>    {
-</span></span><span style="display:flex;"><span>        loginResponse.text = <span style="color:#ae81ff">_</span>userAuthenticator.Call&lt;<span style="color:#66d9ef">string</span>&gt;(<span style="color:#e6db74">&#34;login&#34;</span>, inputFieldUserName.text, getUnityContext());
+</span></span><span style="display:flex;"><span>        loginResponse.text = _userAuthenticator.Call&lt;<span style="color:#66d9ef">string</span>&gt;(<span style="color:#e6db74">&#34;login&#34;</span>, inputFieldUserName.text, getUnityContext());
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> OnLogoutClicked()
 </span></span><span style="display:flex;"><span>    {
-</span></span><span style="display:flex;"><span>        logoutResponse.text = <span style="color:#ae81ff">_</span>userAuthenticator.Call&lt;<span style="color:#66d9ef">string</span>&gt;(<span style="color:#e6db74">&#34;logout&#34;</span>, getUnityContext());
+</span></span><span style="display:flex;"><span>        logoutResponse.text = _userAuthenticator.Call&lt;<span style="color:#66d9ef">string</span>&gt;(<span style="color:#e6db74">&#34;logout&#34;</span>, getUnityContext());
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> OnGetLoggedUserClicked()
 </span></span><span style="display:flex;"><span>    {
-</span></span><span style="display:flex;"><span>        getLoggerInUserResponse.text = <span style="color:#ae81ff">_</span>userAuthenticator.Call&lt;<span style="color:#66d9ef">string</span>&gt;(<span style="color:#e6db74">&#34;getLoggedInUser&#34;</span>, getUnityContext());
+</span></span><span style="display:flex;"><span>        getLoggerInUserResponse.text = _userAuthenticator.Call&lt;<span style="color:#66d9ef">string</span>&gt;(<span style="color:#e6db74">&#34;getLoggedInUser&#34;</span>, getUnityContext());
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> AndroidJavaObject getUnityContext()
 </span></span><span style="display:flex;"><span>    {
@@ -416,11 +407,11 @@ medium.com</p>
 </span></span></code></pre></div><ul>
 <li>
 <p>Attached the ButtonController script to an empty game object. Link all the buttons, texts, and input field components.
-<img src="https://miro.medium.com/max/1400/1*chchUCwOi-PRRYgf-64GlA.png" alt="Attach"></p>
+<img alt="Attach" src="https://miro.medium.com/max/1400/1*chchUCwOi-PRRYgf-64GlA.png"></p>
 </li>
 <li>
 <p>Copy the android library in /Assets/Plugins/Android folder.
-<img src="https://miro.medium.com/max/1400/1*78v5b4tTg83E_cRo3gl2mg.png" alt="Copy AAR"></p>
+<img alt="Copy AAR" src="https://miro.medium.com/max/1400/1*78v5b4tTg83E_cRo3gl2mg.png"></p>
 </li>
 <li>
 <p>Switch to Android as a Platform if not already done. — Go to <code>File &gt; Build Settings &gt; Select Android as a Platform &gt; Click of Switch Platform</code>.</p>
@@ -441,68 +432,68 @@ medium.com</p>
 <ul>
 <li>Let’s implement a callback interface in the android library.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">IResponseCallBack</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">OnSuccess</span><span style="color:#f92672">(</span>String result<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span>String erorrmessage<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">IResponseCallBack</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">OnSuccess</span>(String result);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">OnFailure</span>(String erorrmessage);
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><ul>
 <li>Update the UserAuthenticator implementation to call the OnSuccess and OnFailure Callbacks.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UserAuthenticator</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">login</span><span style="color:#f92672">(</span>String name<span style="color:#f92672">,</span> IResponseCallBack callBack<span style="color:#f92672">,</span> Context context<span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>loggedInUserName <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> loggedInUserName<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
-</span></span><span style="display:flex;"><span>       loggedInUserName <span style="color:#f92672">=</span> name<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>       callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnSuccess</span> <span style="color:#f92672">(</span>loggedInUserName <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; Logged-In successfully &#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>       callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;A user is already logged in&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">logout</span><span style="color:#f92672">(</span>IResponseCallBack callBack<span style="color:#f92672">,</span> Context context<span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>loggedInUserName <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span>loggedInUserName<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
-</span></span><span style="display:flex;"><span>        loggedInUserName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>        callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnSuccess</span> <span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Logged-Out successfully &#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;No user is logged in!&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UserAuthenticator</span> {
+</span></span><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">login</span>(String name, IResponseCallBack callBack, Context context){
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">if</span>(loggedInUserName <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> loggedInUserName.<span style="color:#a6e22e">isEmpty</span>()){
+</span></span><span style="display:flex;"><span>       loggedInUserName <span style="color:#f92672">=</span> name;
+</span></span><span style="display:flex;"><span>       callBack.<span style="color:#a6e22e">OnSuccess</span> (loggedInUserName <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; Logged-In successfully &#34;</span>);
+</span></span><span style="display:flex;"><span>   } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>       callBack.<span style="color:#a6e22e">OnFailure</span>(<span style="color:#e6db74">&#34;A user is already logged in&#34;</span>);
+</span></span><span style="display:flex;"><span>   }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">logout</span>(IResponseCallBack callBack, Context context){
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span>(loggedInUserName <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span>loggedInUserName.<span style="color:#a6e22e">isEmpty</span>()){
+</span></span><span style="display:flex;"><span>        loggedInUserName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;
+</span></span><span style="display:flex;"><span>        callBack.<span style="color:#a6e22e">OnSuccess</span> (<span style="color:#e6db74">&#34;Logged-Out successfully &#34;</span>);
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>        callBack.<span style="color:#a6e22e">OnFailure</span>(<span style="color:#e6db74">&#34;No user is logged in!&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><ul>
 <li>Build the Android library again and replace it in Unity project Assets/Plugins/Android</li>
 <li>Update corresponding in <code>ButtonController</code> of Unity. Implement the Java interface using <code>UnityEngine.AndroidJavaProxy</code>.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c#" data-lang="c#"><span style="display:flex;"><span><span style="color:#66d9ef">private</span> AuthResponseCallback <span style="color:#ae81ff">_l</span>oginCallback;
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> AuthResponseCallback <span style="color:#ae81ff">_l</span>ogoutCallback;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c#" data-lang="c#"><span style="display:flex;"><span><span style="color:#66d9ef">private</span> AuthResponseCallback _loginCallback;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> AuthResponseCallback _logoutCallback;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> Start()
 </span></span><span style="display:flex;"><span>{
 </span></span><span style="display:flex;"><span>   ...
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_l</span>oginCallback = <span style="color:#66d9ef">new</span> AuthResponseCallback(loginResponse);
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_l</span>ogoutCallback = <span style="color:#66d9ef">new</span> AuthResponseCallback(logoutResponse);
+</span></span><span style="display:flex;"><span>    _loginCallback = <span style="color:#66d9ef">new</span> AuthResponseCallback(loginResponse);
+</span></span><span style="display:flex;"><span>    _logoutCallback = <span style="color:#66d9ef">new</span> AuthResponseCallback(logoutResponse);
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AuthResponseCallback</span> : AndroidJavaProxy
 </span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> Text <span style="color:#ae81ff">_</span>reponseText;
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> AuthResponseCallback(Text <span style="color:#ae81ff">_</span>reponseText) : <span style="color:#66d9ef">base</span>(<span style="color:#e6db74">&#34;com.tw.userauthenticator.IResponseCallBack&#34;</span>) { }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> Text _reponseText;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> AuthResponseCallback(Text _reponseText) : <span style="color:#66d9ef">base</span>(<span style="color:#e6db74">&#34;com.tw.userauthenticator.IResponseCallBack&#34;</span>) { }
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> OnSuccess(<span style="color:#66d9ef">string</span> result)
 </span></span><span style="display:flex;"><span>    {
-</span></span><span style="display:flex;"><span>        <span style="color:#ae81ff">_</span>reponseText.text = result;
-</span></span><span style="display:flex;"><span>        <span style="color:#ae81ff">_</span>reponseText.color = Color.black;
+</span></span><span style="display:flex;"><span>        _reponseText.text = result;
+</span></span><span style="display:flex;"><span>        _reponseText.color = Color.black;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> OnFailure(<span style="color:#66d9ef">string</span> errorMessage)
 </span></span><span style="display:flex;"><span>    {
-</span></span><span style="display:flex;"><span>        <span style="color:#ae81ff">_</span>reponseText.text = errorMessage;
-</span></span><span style="display:flex;"><span>        <span style="color:#ae81ff">_</span>reponseText.color = Color.red;
+</span></span><span style="display:flex;"><span>        _reponseText.text = errorMessage;
+</span></span><span style="display:flex;"><span>        _reponseText.color = Color.red;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> OnLoginClicked()
 </span></span><span style="display:flex;"><span>{ 
-</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_</span>userAuthenticator.Call(<span style="color:#e6db74">&#34;login&#34;</span>, <span style="color:#ae81ff">_l</span>oginCallback, inputFieldUserName.text, getUnityContext());
+</span></span><span style="display:flex;"><span>    _userAuthenticator.Call(<span style="color:#e6db74">&#34;login&#34;</span>, _loginCallback, inputFieldUserName.text, getUnityContext());
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> OnLogoutClicked()
 </span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>   <span style="color:#ae81ff">_</span>userAuthenticator.Call(<span style="color:#e6db74">&#34;logout&#34;</span>, <span style="color:#ae81ff">_l</span>ogoutCallback, getUnityContext());
+</span></span><span style="display:flex;"><span>   _userAuthenticator.Call(<span style="color:#e6db74">&#34;logout&#34;</span>, _logoutCallback, getUnityContext());
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>here is the demo to show the failure response in red color.</p>
 <p>The response callback implementation sets the color in the text fields.</p>
@@ -512,107 +503,107 @@ medium.com</p>
 <h2 id="single-sign-on-integration-using-device-native-webview">Single Sign-On Integration using device native WebView</h2>
 <p>In this section, we will integrate the android&rsquo;s web view with the unity app, and also see invocation using Intents.</p>
 <h4 id="refactor-android-library">Refactor Android Library</h4>
-<p>Let’s refactor the android app we have implemented the <a href="/post/enterprise-xr-multi-factor-authentication">last article</a>, and use it as a library. Also, learn to pass the arguments to Intent and gets the response from it.</p>
+<p>Let’s refactor the android app we have implemented the <a href="/post/enterprise-xr-multi-factor-authentication/">last article</a>, and use it as a library. Also, learn to pass the arguments to Intent and gets the response from it.</p>
 <ul>
 <li>Wrap the WebView invocation in an activity — It takes URL, returnURI as input. It intercepts the returnURI and parse the “code” from it and returns in a ResultReceiver callback.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">WebViewActivity</span> <span style="color:#66d9ef">extends</span> AppCompatActivity <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">...</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">WebViewActivity</span> <span style="color:#66d9ef">extends</span> AppCompatActivity {
+</span></span><span style="display:flex;"><span>    ...
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>Bundle savedInstanceState<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>savedInstanceState<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">final</span> String interceptScheme <span style="color:#f92672">=</span> getIntent<span style="color:#f92672">().</span><span style="color:#a6e22e">getStringExtra</span><span style="color:#f92672">(</span>INTENT_INPUT_INTERCEPT_SCHEME<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">final</span> String url <span style="color:#f92672">=</span> getIntent<span style="color:#f92672">().</span><span style="color:#a6e22e">getStringExtra</span><span style="color:#f92672">(</span>INTENT_INPUT_URL<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        webView <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> WebView<span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span>(Bundle savedInstanceState) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span>.<span style="color:#a6e22e">onCreate</span>(savedInstanceState);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">final</span> String interceptScheme <span style="color:#f92672">=</span> getIntent().<span style="color:#a6e22e">getStringExtra</span>(INTENT_INPUT_INTERCEPT_SCHEME);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">final</span> String url <span style="color:#f92672">=</span> getIntent().<span style="color:#a6e22e">getStringExtra</span>(INTENT_INPUT_URL);
+</span></span><span style="display:flex;"><span>        webView <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> WebView(<span style="color:#66d9ef">this</span>);
 </span></span><span style="display:flex;"><span>        
-</span></span><span style="display:flex;"><span>        webView<span style="color:#f92672">.</span><span style="color:#a6e22e">setWebViewClient</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> WebViewClient<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">shouldOverrideUrlLoading</span><span style="color:#f92672">(</span>WebView view<span style="color:#f92672">,</span> String url<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                Uri uri <span style="color:#f92672">=</span> Uri<span style="color:#f92672">.</span><span style="color:#a6e22e">parse</span><span style="color:#f92672">(</span>url<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>interceptScheme <span style="color:#f92672">!=</span><span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> interceptScheme<span style="color:#f92672">.</span><span style="color:#a6e22e">equalsIgnoreCase</span><span style="color:#f92672">(</span>uri<span style="color:#f92672">.</span><span style="color:#a6e22e">getScheme</span><span style="color:#f92672">()</span> <span style="color:#f92672">+</span><span style="color:#e6db74">&#34;://&#34;</span> <span style="color:#f92672">+</span>uri<span style="color:#f92672">.</span><span style="color:#a6e22e">getHost</span><span style="color:#f92672">()))</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                    String code <span style="color:#f92672">=</span> uri<span style="color:#f92672">.</span><span style="color:#a6e22e">getQueryParameter</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;code&#34;</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        webView.<span style="color:#a6e22e">setWebViewClient</span>(<span style="color:#66d9ef">new</span> WebViewClient() {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">shouldOverrideUrlLoading</span>(WebView view, String url) {
+</span></span><span style="display:flex;"><span>                Uri uri <span style="color:#f92672">=</span> Uri.<span style="color:#a6e22e">parse</span>(url);
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (interceptScheme <span style="color:#f92672">!=</span><span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> interceptScheme.<span style="color:#a6e22e">equalsIgnoreCase</span>(uri.<span style="color:#a6e22e">getScheme</span>() <span style="color:#f92672">+</span><span style="color:#e6db74">&#34;://&#34;</span> <span style="color:#f92672">+</span>uri.<span style="color:#a6e22e">getHost</span>())) {
+</span></span><span style="display:flex;"><span>                    String code <span style="color:#f92672">=</span> uri.<span style="color:#a6e22e">getQueryParameter</span>(<span style="color:#e6db74">&#34;code&#34;</span>);
 </span></span><span style="display:flex;"><span>        
-</span></span><span style="display:flex;"><span>                    ResultReceiver resultReceiver <span style="color:#f92672">=</span> getIntent<span style="color:#f92672">().</span><span style="color:#a6e22e">getParcelableExtra</span><span style="color:#f92672">(</span>INTENT_RESPONSE_CALLBACK<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>resultReceiver<span style="color:#f92672">!=</span><span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                        Bundle bundle <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Bundle<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>                        bundle<span style="color:#f92672">.</span><span style="color:#a6e22e">putString</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;code&#34;</span><span style="color:#f92672">,</span> code<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>                        resultReceiver<span style="color:#f92672">.</span><span style="color:#a6e22e">send</span><span style="color:#f92672">(</span>INTENT_RESULT_CODE<span style="color:#f92672">,</span> bundle<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>                   <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>                    finish<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>                view<span style="color:#f92672">.</span><span style="color:#a6e22e">loadUrl</span><span style="color:#f92672">(</span>url<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">});</span>
-</span></span><span style="display:flex;"><span>        WebSettings settings <span style="color:#f92672">=</span> webView<span style="color:#f92672">.</span><span style="color:#a6e22e">getSettings</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>        settings<span style="color:#f92672">.</span><span style="color:#a6e22e">setJavaScriptEnabled</span><span style="color:#f92672">(</span><span style="color:#66d9ef">true</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        setContentView<span style="color:#f92672">(</span>webView<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        webView<span style="color:#f92672">.</span><span style="color:#a6e22e">loadUrl</span><span style="color:#f92672">(</span>url<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">...</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>                    ResultReceiver resultReceiver <span style="color:#f92672">=</span> getIntent().<span style="color:#a6e22e">getParcelableExtra</span>(INTENT_RESPONSE_CALLBACK);
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">if</span>(resultReceiver<span style="color:#f92672">!=</span><span style="color:#66d9ef">null</span>) {
+</span></span><span style="display:flex;"><span>                        Bundle bundle <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Bundle();
+</span></span><span style="display:flex;"><span>                        bundle.<span style="color:#a6e22e">putString</span>(<span style="color:#e6db74">&#34;code&#34;</span>, code);
+</span></span><span style="display:flex;"><span>                        resultReceiver.<span style="color:#a6e22e">send</span>(INTENT_RESULT_CODE, bundle);
+</span></span><span style="display:flex;"><span>                   }
+</span></span><span style="display:flex;"><span>                    finish();
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span>;
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>                view.<span style="color:#a6e22e">loadUrl</span>(url);
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        });
+</span></span><span style="display:flex;"><span>        WebSettings settings <span style="color:#f92672">=</span> webView.<span style="color:#a6e22e">getSettings</span>();
+</span></span><span style="display:flex;"><span>        settings.<span style="color:#a6e22e">setJavaScriptEnabled</span>(<span style="color:#66d9ef">true</span>);
+</span></span><span style="display:flex;"><span>        setContentView(webView);
+</span></span><span style="display:flex;"><span>        webView.<span style="color:#a6e22e">loadUrl</span>(url);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    ...
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><ul>
 <li>User Authenticators Login method invokes the web-view activity with an SSO URL, and callback.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">login</span><span style="color:#f92672">(</span>IResponseCallBack callBack<span style="color:#f92672">,</span> Context context<span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>accessToken <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> accessToken<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
-</span></span><span style="display:flex;"><span>       Intent intent <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Intent<span style="color:#f92672">(</span>context<span style="color:#f92672">,</span> WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>      intent<span style="color:#f92672">.</span><span style="color:#a6e22e">putExtra</span><span style="color:#f92672">(</span>WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">INTENT_INPUT_INTERCEPT_SCHEME</span><span style="color:#f92672">,</span>  
-</span></span><span style="display:flex;"><span>       HttpAuth<span style="color:#f92672">.</span><span style="color:#a6e22e">REDIRECT_URI</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>       intent<span style="color:#f92672">.</span><span style="color:#a6e22e">putExtra</span><span style="color:#f92672">(</span>WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">INTENT_INPUT_URL</span><span style="color:#f92672">,</span> 
-</span></span><span style="display:flex;"><span>       HttpAuth<span style="color:#f92672">.</span><span style="color:#a6e22e">AD_AUTH_URL</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>       intent<span style="color:#f92672">.</span><span style="color:#a6e22e">putExtra</span><span style="color:#f92672">(</span>WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">INTENT_RESPONSE_CALLBACK</span><span style="color:#f92672">,</span> <span style="color:#66d9ef">new</span> 
-</span></span><span style="display:flex;"><span>       CustomReceiver<span style="color:#f92672">(</span>callBack<span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>       context<span style="color:#f92672">.</span><span style="color:#a6e22e">startActivity</span><span style="color:#f92672">(</span>intent<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>       callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;A user is already signed in&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">login</span>(IResponseCallBack callBack, Context context){
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">if</span>(accessToken <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> accessToken.<span style="color:#a6e22e">isEmpty</span>()){
+</span></span><span style="display:flex;"><span>       Intent intent <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Intent(context, WebViewActivity.<span style="color:#a6e22e">class</span>);
+</span></span><span style="display:flex;"><span>      intent.<span style="color:#a6e22e">putExtra</span>(WebViewActivity.<span style="color:#a6e22e">INTENT_INPUT_INTERCEPT_SCHEME</span>,  
+</span></span><span style="display:flex;"><span>       HttpAuth.<span style="color:#a6e22e">REDIRECT_URI</span>);
+</span></span><span style="display:flex;"><span>       intent.<span style="color:#a6e22e">putExtra</span>(WebViewActivity.<span style="color:#a6e22e">INTENT_INPUT_URL</span>, 
+</span></span><span style="display:flex;"><span>       HttpAuth.<span style="color:#a6e22e">AD_AUTH_URL</span>);
+</span></span><span style="display:flex;"><span>       intent.<span style="color:#a6e22e">putExtra</span>(WebViewActivity.<span style="color:#a6e22e">INTENT_RESPONSE_CALLBACK</span>, <span style="color:#66d9ef">new</span> 
+</span></span><span style="display:flex;"><span>       CustomReceiver(callBack));
+</span></span><span style="display:flex;"><span>       context.<span style="color:#a6e22e">startActivity</span>(intent);
+</span></span><span style="display:flex;"><span>   } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>       callBack.<span style="color:#a6e22e">OnFailure</span>(<span style="color:#e6db74">&#34;A user is already signed in&#34;</span>);
+</span></span><span style="display:flex;"><span>   }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><ul>
 <li><code>CustomReceiver.OnReceivedResult</code> gets an access_token using the <code>code</code> returned by the web-view activity. <code>access_token</code> is then saved in the <code>UserAuthenticator</code>.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CustomReceiver</span> <span style="color:#66d9ef">extends</span> ResultReceiver<span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span>  IResponseCallBack callBack<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    CustomReceiver<span style="color:#f92672">(</span>IResponseCallBack responseCallBack<span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span><span style="color:#f92672">(</span><span style="color:#66d9ef">null</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        callBack <span style="color:#f92672">=</span> responseCallBack<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CustomReceiver</span> <span style="color:#66d9ef">extends</span> ResultReceiver{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span>  IResponseCallBack callBack;
+</span></span><span style="display:flex;"><span>    CustomReceiver(IResponseCallBack responseCallBack){
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span>(<span style="color:#66d9ef">null</span>);
+</span></span><span style="display:flex;"><span>        callBack <span style="color:#f92672">=</span> responseCallBack;
+</span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onReceiveResult</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> resultCode<span style="color:#f92672">,</span> Bundle resultData<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>WebViewActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">INTENT_RESULT_CODE</span> <span style="color:#f92672">==</span> resultCode<span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>            String code <span style="color:#f92672">=</span> resultData<span style="color:#f92672">.</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>INTENT_RESULT_PARAM_NAME<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>            AsyncTask<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">,</span> Void<span style="color:#f92672">,</span> String<span style="color:#f92672">&gt;</span> getToken <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GetTokenAsyncTask<span style="color:#f92672">(</span>callBack<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>            getToken<span style="color:#f92672">.</span><span style="color:#a6e22e">execute</span><span style="color:#f92672">(</span>code<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Not a valid code&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onReceiveResult</span>(<span style="color:#66d9ef">int</span> resultCode, Bundle resultData) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(WebViewActivity.<span style="color:#a6e22e">INTENT_RESULT_CODE</span> <span style="color:#f92672">==</span> resultCode){
+</span></span><span style="display:flex;"><span>            String code <span style="color:#f92672">=</span> resultData.<span style="color:#a6e22e">getString</span>(INTENT_RESULT_PARAM_NAME);
+</span></span><span style="display:flex;"><span>            AsyncTask<span style="color:#f92672">&lt;</span>String, Void, String<span style="color:#f92672">&gt;</span> getToken <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GetTokenAsyncTask(callBack);
+</span></span><span style="display:flex;"><span>            getToken.<span style="color:#a6e22e">execute</span>(code);
+</span></span><span style="display:flex;"><span>        } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>            callBack.<span style="color:#a6e22e">OnFailure</span>(<span style="color:#e6db74">&#34;Not a valid code&#34;</span>);
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><ul>
 <li>The <code>access_token</code> is used in getting the user name from the Azure Graph API. This completes the refactoring. The source code is attached at the end.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">getUser</span><span style="color:#f92672">(</span>IResponseCallBack callBack<span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>loggedInUserName <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> loggedInUserName<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>accessToken <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span>accessToken<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">()){</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">new</span> GetProfileAsyncTask<span style="color:#f92672">(</span>callBack<span style="color:#f92672">).</span><span style="color:#a6e22e">execute</span><span style="color:#f92672">(</span>accessToken<span style="color:#f92672">).</span><span style="color:#a6e22e">get</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>Exception e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Failure:&#34;</span> <span style="color:#f92672">+</span> e<span style="color:#f92672">.</span><span style="color:#a6e22e">getMessage</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnFailure</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;No active user!&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        callBack<span style="color:#f92672">.</span><span style="color:#a6e22e">OnSuccess</span><span style="color:#f92672">(</span>loggedInUserName<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">getUser</span>(IResponseCallBack callBack){
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span>(loggedInUserName <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> loggedInUserName.<span style="color:#a6e22e">isEmpty</span>()){
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(accessToken <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span>accessToken.<span style="color:#a6e22e">isEmpty</span>()){
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">new</span> GetProfileAsyncTask(callBack).<span style="color:#a6e22e">execute</span>(accessToken).<span style="color:#a6e22e">get</span>();
+</span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">catch</span> (Exception e) {
+</span></span><span style="display:flex;"><span>                callBack.<span style="color:#a6e22e">OnFailure</span>(<span style="color:#e6db74">&#34;Failure:&#34;</span> <span style="color:#f92672">+</span> e.<span style="color:#a6e22e">getMessage</span>());
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>            callBack.<span style="color:#a6e22e">OnFailure</span>(<span style="color:#e6db74">&#34;No active user!&#34;</span>);
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>        callBack.<span style="color:#a6e22e">OnSuccess</span>(loggedInUserName);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>All the HTTP communications are wrapped in a utility class <code>HttpAuth</code>, this completes the refactoring of the android library. Since we have added a new activity don’t forget to add it in the android manifest.</p>
 <h4 id="unity-app-invoking-native-webview-in-android-libary">Unity App Invoking Native WebView in Android Libary</h4>
 <p>This example is now doing SSO with the organization’s active directory (AD), the username and password will be accepted at the organization’s AD page.</p>
 <ul>
 <li>
 <p>Let’s change the layout a bit. We don’t need an input field now.
-<img src="https://miro.medium.com/max/1400/1*wSnUGY-hksydNA9IlsHunA.png" alt="look"></p>
+<img alt="look" src="https://miro.medium.com/max/1400/1*wSnUGY-hksydNA9IlsHunA.png"></p>
 </li>
 <li>
 <p>There is no major change in <code>ButtonContoller</code>, expect the signature change for the library APIs. Now android handles the intent in a separate thread, and callback in unity may not access the game object elements as they may be disabled when another activity spawned on. Status of unity element may be checked in the main thread. The callbacks now updating few helper variables and the update method updates the unity elements in main there whenever there is any change in the state.</p>
@@ -644,9 +635,9 @@ medium.com</p>
 </span></span></code></pre></div><ul>
 <li>Since the Android library now have an Activity, and it requires a dependency <code>“androidx.appcompat:appcompat:1.1.0”</code> in Gradle build.
 We need to use a custom Gradle template in Unity, Go to <code>File &gt; Build Settings &gt; Player Settings &gt; Publishing Settings</code>. Choose <code>Custom Gradle Template</code>. It will generate a template file in Plugins.
-<img src="https://miro.medium.com/max/1236/1*CQU5p0zL2bZWR0T9qI4rww.png" alt="CustomGradle template">
+<img alt="CustomGradle template" src="https://miro.medium.com/max/1236/1*CQU5p0zL2bZWR0T9qI4rww.png">
 Add the following dependency in the Gradle template. Make sure don’t change <code>**DEPS**</code>
-<img src="https://miro.medium.com/max/1400/1*_5-pm64f2GmOFbBR8Vt4Nw.png" alt="Deps">
+<img alt="Deps" src="https://miro.medium.com/max/1400/1*_5-pm64f2GmOFbBR8Vt4Nw.png">
 Build/Export the project and run on Android. You have completed the native integration. Here is a demo of integrated SSO in Unity.</li>
 </ul>
 <p><img src="https://miro.medium.com/max/534/1*wYjYmDMf1mduqnACwJjyqQ.gif" style="height:50%; width:50%"></img></p>

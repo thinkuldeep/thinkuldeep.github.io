@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Introduction to Apache Service Mix (Fuse ESB)">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Working with Enterprise Service Bus" />
 <meta property="og:description" content="Introduction to Apache Service Mix (Fuse ESB)" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/esb-introduction-part1/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/esb_1.png" />
+<meta property="og:url" content="https://thinkuldeep.com//post/esb-introduction-part1/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/esb_1.png" />
 <meta property="article:published_time" content="2012-01-15T10:58:08-04:00" />
-<meta property="article:modified_time" content="2012-01-15T10:58:08-04:00" /><meta itemprop="name" content="Working with Enterprise Service Bus">
-<meta itemprop="description" content="Introduction to Apache Service Mix (Fuse ESB)"><meta itemprop="datePublished" content="2012-01-15T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2012-01-15T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1579">
-<meta itemprop="keywords" content="ESB,java,Apache Service Mix,OSGi,FuseESB,XML,Apache Camel,enterprise,integration,technology," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Working with Enterprise Service Bus"/>
-<meta name="twitter:description" content="Introduction to Apache Service Mix (Fuse ESB)"/>
+<meta property="article:modified_time" content="2012-01-15T10:58:08-04:00" />
+  <meta itemprop="name" content="Working with Enterprise Service Bus">
+  <meta itemprop="description" content="Introduction to Apache Service Mix (Fuse ESB)">
+  <meta itemprop="datePublished" content="2012-01-15T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2012-01-15T10:58:08-04:00">
+  <meta itemprop="wordCount" content="1579">
+  <meta itemprop="keywords" content="ESB,Java,Apache Service Mix,OSGi,FuseESB,XML,Apache Camel,Enterprise,Integration,Technology"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Working with Enterprise Service Bus">
+<meta name="twitter:description" content="Introduction to Apache Service Mix (Fuse ESB)">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -322,7 +313,7 @@ if (!doNotTrack) {
 <h4 id="osgi">OSGi</h4>
 <p>The <a href="http://en.wikipedia.org/wiki/OSGi">Open Services Gateway initiative (OSGi)</a> framework is a module system and service platform for the Java programming language that implements a complete and dynamic component model.</p>
 <p>Applications or components (coming in the form of bundles for deployment) can be remotely installed, started, stopped, updated and uninstalled without requiring a reboot; management of Java packages/classes is specified in great detail.
-<img src="/images/esb_2.png" alt="image">
+<img alt="image" src="/images/esb_2.png">
 Application life cycle management (start, stop, install, etc.) is done via APIs that allow for remote downloading of management policies. The service registry allows bundles to detect the addition of new services, or the removal of services, and adapt accordingly.</p>
 <p><code>MANIFEST.MF</code> file with <a href="http://www.osgi.org/Specifications/ReferenceHeaders">OSGi Headers</a>:</p>
 <ul>
@@ -395,7 +386,7 @@ Key points of Karaf, Hot deployment, Dynamic configuration, Logging System, Prov
 <li>Go to FUSE_ESB_HOME/bin</li>
 <li>Run following command to start FuseESB console</li>
 </ul>
-<p><img src="/images/esb_1.png" alt="image"></p>
+<p><img alt="image" src="/images/esb_1.png"></p>
 </li>
 <li>
 <p>Run following command to start FuseESB console in background</p>
@@ -447,22 +438,22 @@ Key points of Karaf, Hot deployment, Dynamic configuration, Logging System, Prov
 <li>Now create a class for Bundle Activator, Right click on Project and Select New &gt; Class</li>
 <li>Name the class and package, say MyActivator under package com.tk.bundle and implement it from org.osgi.framework.BundleActivator , click finish</li>
 <li>Provide implementation for unimplemented methods
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.bundle<span style="color:#f92672">;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.bundle;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> org.osgi.framework.BundleActivator
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyActivator</span> <span style="color:#66d9ef">implements</span> BundleActivator <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyActivator</span> <span style="color:#66d9ef">implements</span> BundleActivator {
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">start</span><span style="color:#f92672">(</span>BundleContext ctx<span style="color:#f92672">)</span> <span style="color:#66d9ef">throws</span> Exception <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;MyActivator.start()&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">start</span>(BundleContext ctx) <span style="color:#66d9ef">throws</span> Exception {
+</span></span><span style="display:flex;"><span>    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;MyActivator.start()&#34;</span>);
+</span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">start</span><span style="color:#f92672">(</span>BundleContext ctx<span style="color:#f92672">)</span> <span style="color:#66d9ef">throws</span> Exception <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;MyActivator.stop()&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">start</span>(BundleContext ctx) <span style="color:#66d9ef">throws</span> Exception {
+</span></span><span style="display:flex;"><span>    System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;MyActivator.stop()&#34;</span>);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div></li>
 </ul>
 </li>
@@ -627,7 +618,7 @@ It will invoke the Bundle Activator’s Start method. See the console log</p>
 <p>After you see above message, try to access following URL in browser</p>
 <p>http://localhost:8181/ESB_Test/</p>
 <p>It will open the web application deployed here.</p>
-<p><img src="/images/esb_3.png" alt="WebApp"></p>
+<p><img alt="WebApp" src="/images/esb_3.png"></p>
 </li>
 </ul>
 <p>You may also try <code>osgi:update</code>, <code>osgi:uninstall</code>, <code>osgi.stop</code> commands.</p>
@@ -886,11 +877,11 @@ It will invoke the Bundle Activator’s Start method. See the console log</p>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
+          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
+          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
         </li>
 	    
 	     <li  class="mb2">

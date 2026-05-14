@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Building first application using Android Things">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Exploring AndroidThings IoT" />
 <meta property="og:description" content="Building first application using Android Things" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/exploring-android-things/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images//androidthings_os.png" />
+<meta property="og:url" content="https://thinkuldeep.com//post/exploring-android-things/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images//androidthings_os.png" />
 <meta property="article:published_time" content="2016-04-10T10:58:08-04:00" />
-<meta property="article:modified_time" content="2016-04-10T10:58:08-04:00" /><meta itemprop="name" content="Exploring AndroidThings IoT">
-<meta itemprop="description" content="Building first application using Android Things"><meta itemprop="datePublished" content="2016-04-10T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2016-04-10T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1929">
-<meta itemprop="keywords" content="androidthings,IOT,android,os,tutorial,nagarro,raspberry pi,technology," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Exploring AndroidThings IoT"/>
-<meta name="twitter:description" content="Building first application using Android Things"/>
+<meta property="article:modified_time" content="2016-04-10T10:58:08-04:00" />
+  <meta itemprop="name" content="Exploring AndroidThings IoT">
+  <meta itemprop="description" content="Building first application using Android Things">
+  <meta itemprop="datePublished" content="2016-04-10T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2016-04-10T10:58:08-04:00">
+  <meta itemprop="wordCount" content="1929">
+  <meta itemprop="keywords" content="Androidthings,IOT,Android,Os,Tutorial,Nagarro,Raspberry Pi,Technology"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Exploring AndroidThings IoT">
+<meta name="twitter:description" content="Building first application using Android Things">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -318,7 +309,7 @@ if (!doNotTrack) {
 <p>Google formally took the veils off of Brillo at its I/O 2015 conference. It is aimed to be used with low-power and memory constrained IOT devices, allowing the developers to build a smart device using Android APIs and Google Services. Google released the first developer preview version in December 2016 with an aim to roll out updates every 6-8 weeks.</p>
 <p>Android Things provides a turnkey solution to start building on development boards like Intel Edison, Intel Joule, NXP Pico, NXP Argon i.IMX6UL, and Raspberry Pi 3. At its core, it supports a System-On-Module (SoM) architecture, where a core computing module can be initially used with development boards and then easily scaled to large production runs with custom designs, while continuing to use the same Board Support Package (BSP) from Google.</p>
 <p>It provides support for Bluetooth low energy and Wi-Fi. Like the OTA updates for Android Phones, developers can push Google-provided OS updates and custom app updates using the same OTA infrastructure that Google uses for its products and services. It takes advantage of regular best-in-class security updates by building on top of the Android OS. Support for Weave, Google’s IoT communications platform, is on the roadmap and will come in a later developer preview.</p>
-<p><img src="/images//androidthings_arch.png" alt=""></p>
+<p><img src="/images//androidthings_arch.png"></p>
 <p>Android Things makes developing connected embedded devices easy by providing the same Android development tools, best-in-class Android framework, and Google APIs that make developers successful on mobile. It extends the core Android framework with additional APIs provided by the Things Support Library.</p>
 <h2 id="difference-between-android-and-android-things-development">Difference between Android and Android Things Development</h2>
 <p>Major differences between the core Android development and Android Things.</p>
@@ -352,7 +343,7 @@ Once Android Things OS has been installed on the device, it can be accessed like
 </span></span><span style="display:flex;"><span>Edion61aa    device
 </span></span><span style="display:flex;"><span>AP0C52890C device
 </span></span></code></pre></div><p>Boot your device. When the boot process finishes, the result is shown below (if your device is attached to a display):
-<img src="/images/androidthings_os.png" alt=""></p>
+<img src="/images/androidthings_os.png"></p>
 <p>If you get this screenshot it means that Android Internet of things is running successfully. The Android Things Launcher shows information about the board on the display, including the IP address.
 After flashing your board, it is strongly recommended to connect it to the internet. This allows your device to deliver crash reports and receive updates.</p>
 <p>To connect your board to Wi-Fi using adb:</p>
@@ -441,15 +432,15 @@ Let’s start building our very first app for Android Things. Use a development 
 <li>The system service responsible for managing peripheral connections is PeripheralManagerService</li>
 <li>Use this service to list the available ports for all known peripheral types.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HomeActivity</span> <span style="color:#66d9ef">extends</span> Activity <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String TAG <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;HomeActivity&#34;</span><span style="color:#f92672">;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HomeActivity</span> <span style="color:#66d9ef">extends</span> Activity {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String TAG <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;HomeActivity&#34;</span>;
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>Bundle savedInstanceState<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>savedInstanceState<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        PeripheralManagerService service <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> PeripheralManagerService<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>        Log<span style="color:#f92672">.</span><span style="color:#a6e22e">d</span><span style="color:#f92672">(</span>TAG<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Available GPIO: &#34;</span> <span style="color:#f92672">+</span> service<span style="color:#f92672">.</span><span style="color:#a6e22e">getGpioList</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span>(Bundle savedInstanceState) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span>.<span style="color:#a6e22e">onCreate</span>(savedInstanceState);
+</span></span><span style="display:flex;"><span>        PeripheralManagerService service <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> PeripheralManagerService();
+</span></span><span style="display:flex;"><span>        Log.<span style="color:#a6e22e">d</span>(TAG, <span style="color:#e6db74">&#34;Available GPIO: &#34;</span> <span style="color:#f92672">+</span> service.<span style="color:#a6e22e">getGpioList</span>());
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>To receive events when a button connected to GPIO is pressed:</p>
 <ul>
 <li>Use PeripheralManagerService to open a connection with the GPIO port wired to the button.</li>
@@ -459,107 +450,107 @@ Let’s start building our very first app for Android Things. Use a development 
 <li>Return true within onGpioEdge() to continue receiving future edge trigger events.</li>
 <li>When the application no longer needs the GPIO connection, close the Gpio resource.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HomeActivity</span> <span style="color:#66d9ef">extends</span> Activity <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String TAG <span style="color:#f92672">=</span>HomeActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">.</span><span style="color:#a6e22e">getSimpleName</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String GPIO_PIN_NAME <span style="color:#f92672">=</span> <span style="color:#960050;background-color:#1e0010">“</span>BCM23<span style="color:#960050;background-color:#1e0010">”</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> Gpio mButtonGpio<span style="color:#f92672">;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HomeActivity</span> <span style="color:#66d9ef">extends</span> Activity {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String TAG <span style="color:#f92672">=</span>HomeActivity.<span style="color:#a6e22e">class</span>.<span style="color:#a6e22e">getSimpleName</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String GPIO_PIN_NAME <span style="color:#f92672">=</span> <span style="color:#960050;background-color:#1e0010">“</span>BCM23<span style="color:#960050;background-color:#1e0010">”</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> Gpio mButtonGpio;
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>Bundle savedInstanceState<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>savedInstanceState<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        PeripheralManagerService service <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> PeripheralManagerService<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>	 Log<span style="color:#f92672">.</span><span style="color:#a6e22e">d</span><span style="color:#f92672">(</span>TAG<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Available GPIO: &#34;</span> <span style="color:#f92672">+</span> service<span style="color:#f92672">.</span><span style="color:#a6e22e">getGpioList</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Step 1. Create GPIO connection.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            mButtonGpio <span style="color:#f92672">=</span> service<span style="color:#f92672">.</span><span style="color:#a6e22e">openGpio</span><span style="color:#f92672">(</span>GPIO_PIN_NAME<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Step 2. Configure as an input.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            mButtonGpio<span style="color:#f92672">.</span><span style="color:#a6e22e">setDirection</span><span style="color:#f92672">(</span>Gpio<span style="color:#f92672">.</span><span style="color:#a6e22e">DIRECTION_IN</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Step 3. Enable edge trigger events.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            mButtonGpio<span style="color:#f92672">.</span><span style="color:#a6e22e">setEdgeTriggerType</span><span style="color:#f92672">(</span>Gpio<span style="color:#f92672">.</span><span style="color:#a6e22e">EDGE_FALLING</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Step 4. Register an event callback.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            mButtonGpio<span style="color:#f92672">.</span><span style="color:#a6e22e">registerGpioCallback</span><span style="color:#f92672">(</span>mCallback<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>IOException e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            Log<span style="color:#f92672">.</span><span style="color:#a6e22e">e</span><span style="color:#f92672">(</span>TAG<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Error on PeripheralIO API&#34;</span><span style="color:#f92672">,</span> e<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Step 4. Register an event callback.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">private</span> GpioCallback mCallback <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GpioCallback<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span>(Bundle savedInstanceState) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span>.<span style="color:#a6e22e">onCreate</span>(savedInstanceState);
+</span></span><span style="display:flex;"><span>        PeripheralManagerService service <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> PeripheralManagerService();
+</span></span><span style="display:flex;"><span>	 Log.<span style="color:#a6e22e">d</span>(TAG, <span style="color:#e6db74">&#34;Available GPIO: &#34;</span> <span style="color:#f92672">+</span> service.<span style="color:#a6e22e">getGpioList</span>());
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Step 1. Create GPIO connection.</span>
+</span></span><span style="display:flex;"><span>            mButtonGpio <span style="color:#f92672">=</span> service.<span style="color:#a6e22e">openGpio</span>(GPIO_PIN_NAME);
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Step 2. Configure as an input.</span>
+</span></span><span style="display:flex;"><span>            mButtonGpio.<span style="color:#a6e22e">setDirection</span>(Gpio.<span style="color:#a6e22e">DIRECTION_IN</span>);
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Step 3. Enable edge trigger events.</span>
+</span></span><span style="display:flex;"><span>            mButtonGpio.<span style="color:#a6e22e">setEdgeTriggerType</span>(Gpio.<span style="color:#a6e22e">EDGE_FALLING</span>);
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Step 4. Register an event callback.</span>
+</span></span><span style="display:flex;"><span>            mButtonGpio.<span style="color:#a6e22e">registerGpioCallback</span>(mCallback);
+</span></span><span style="display:flex;"><span>        } <span style="color:#66d9ef">catch</span> (IOException e) {
+</span></span><span style="display:flex;"><span>            Log.<span style="color:#a6e22e">e</span>(TAG, <span style="color:#e6db74">&#34;Error on PeripheralIO API&#34;</span>, e);
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Step 4. Register an event callback.</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> GpioCallback mCallback <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GpioCallback() {
 </span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">onGpioEdge</span><span style="color:#f92672">(</span>Gpio gpio<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            Log<span style="color:#f92672">.</span><span style="color:#a6e22e">i</span><span style="color:#f92672">(</span>TAG<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;GPIO changed, button pressed&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Step 5. Return true to keep callback active.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">};</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">onGpioEdge</span>(Gpio gpio) {
+</span></span><span style="display:flex;"><span>            Log.<span style="color:#a6e22e">i</span>(TAG, <span style="color:#e6db74">&#34;GPIO changed, button pressed&#34;</span>);
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Step 5. Return true to keep callback active.</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    };
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onDestroy</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">onDestroy</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Step 6. Close the resource
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>mButtonGpio <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            mButtonGpio<span style="color:#f92672">.</span><span style="color:#a6e22e">unregisterGpioCallback</span><span style="color:#f92672">(</span>mCallback<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                mButtonGpio<span style="color:#f92672">.</span><span style="color:#a6e22e">close</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>IOException e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                Log<span style="color:#f92672">.</span><span style="color:#a6e22e">e</span><span style="color:#f92672">(</span>TAG<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Error on PeripheralIO API&#34;</span><span style="color:#f92672">,</span> e<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onDestroy</span>() {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span>.<span style="color:#a6e22e">onDestroy</span>();
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Step 6. Close the resource</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (mButtonGpio <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span>) {
+</span></span><span style="display:flex;"><span>            mButtonGpio.<span style="color:#a6e22e">unregisterGpioCallback</span>(mCallback);
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>                mButtonGpio.<span style="color:#a6e22e">close</span>();
+</span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">catch</span> (IOException e) {
+</span></span><span style="display:flex;"><span>                Log.<span style="color:#a6e22e">e</span>(TAG, <span style="color:#e6db74">&#34;Error on PeripheralIO API&#34;</span>, e);
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h6 id="deploy-the-app">Deploy the app</h6>
 <p>It’s time to deploy the app to the device. Connect to the device using adb. Deploy the app to the device by clicking on the Run button on the android studio and selecting the device. Press the button on the button sensor. The result can be seen on the logcat tab on the android studio.
 This app can be extended to include a LED sensor. Connect the LED to an output GPIO pin. Whenever the button press event is received, call the PeripheralManagerService to toggle the state of the LED.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">BlinkActivity</span> <span style="color:#66d9ef">extends</span> Activity <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String TAG <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;BlinkActivity&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> <span style="color:#66d9ef">int</span> INTERVAL_BETWEEN_BLINKS_MS <span style="color:#f92672">=</span> 1000<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String GPIO_PIN_NAME <span style="color:#f92672">=</span> <span style="color:#f92672">...;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> Handler mHandler <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Handler<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> Gpio mLedGpio<span style="color:#f92672">;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">BlinkActivity</span> <span style="color:#66d9ef">extends</span> Activity {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String TAG <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;BlinkActivity&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> <span style="color:#66d9ef">int</span> INTERVAL_BETWEEN_BLINKS_MS <span style="color:#f92672">=</span> 1000;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String GPIO_PIN_NAME <span style="color:#f92672">=</span> ...;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> Handler mHandler <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Handler();
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> Gpio mLedGpio;
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>Bundle savedInstanceState<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>savedInstanceState<span style="color:#f92672">);</span><span style="color:#960050;background-color:#1e0010">\</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Step 1. Create GPIO connection.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        PeripheralManagerService service <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> PeripheralManagerService<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            mLedGpio <span style="color:#f92672">=</span> service<span style="color:#f92672">.</span><span style="color:#a6e22e">openGpio</span><span style="color:#f92672">(</span>GPIO_PIN_NAME<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Step 2. Configure as an output.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            mLedGpio<span style="color:#f92672">.</span><span style="color:#a6e22e">setDirection</span><span style="color:#f92672">(</span>Gpio<span style="color:#f92672">.</span><span style="color:#a6e22e">DIRECTION_OUT_INITIALLY_LOW</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Step 4. Repeat using a handler.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            mHandler<span style="color:#f92672">.</span><span style="color:#a6e22e">post</span><span style="color:#f92672">(</span>mBlinkRunnable<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>IOException e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            Log<span style="color:#f92672">.</span><span style="color:#a6e22e">e</span><span style="color:#f92672">(</span>TAG<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Error on PeripheralIO API&#34;</span><span style="color:#f92672">,</span> e<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span>(Bundle savedInstanceState) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span>.<span style="color:#a6e22e">onCreate</span>(savedInstanceState);<span style="color:#960050;background-color:#1e0010">\</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Step 1. Create GPIO connection.</span>
+</span></span><span style="display:flex;"><span>        PeripheralManagerService service <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> PeripheralManagerService();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>            mLedGpio <span style="color:#f92672">=</span> service.<span style="color:#a6e22e">openGpio</span>(GPIO_PIN_NAME);
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Step 2. Configure as an output.</span>
+</span></span><span style="display:flex;"><span>            mLedGpio.<span style="color:#a6e22e">setDirection</span>(Gpio.<span style="color:#a6e22e">DIRECTION_OUT_INITIALLY_LOW</span>);
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Step 4. Repeat using a handler.</span>
+</span></span><span style="display:flex;"><span>            mHandler.<span style="color:#a6e22e">post</span>(mBlinkRunnable);
+</span></span><span style="display:flex;"><span>        } <span style="color:#66d9ef">catch</span> (IOException e) {
+</span></span><span style="display:flex;"><span>            Log.<span style="color:#a6e22e">e</span>(TAG, <span style="color:#e6db74">&#34;Error on PeripheralIO API&#34;</span>, e);
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onDestroy</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">onDestroy</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Step 4. Remove handler events on close.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        mHandler<span style="color:#f92672">.</span><span style="color:#a6e22e">removeCallbacks</span><span style="color:#f92672">(</span>mBlinkRunnable<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Step 5. Close the resource.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>mLedGpio <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                mLedGpio<span style="color:#f92672">.</span><span style="color:#a6e22e">close</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>IOException e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                Log<span style="color:#f92672">.</span><span style="color:#a6e22e">e</span><span style="color:#f92672">(</span>TAG<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Error on PeripheralIO API&#34;</span><span style="color:#f92672">,</span> e<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> Runnable mBlinkRunnable <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Runnable<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onDestroy</span>() {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span>.<span style="color:#a6e22e">onDestroy</span>();
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Step 4. Remove handler events on close.</span>
+</span></span><span style="display:flex;"><span>        mHandler.<span style="color:#a6e22e">removeCallbacks</span>(mBlinkRunnable);
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Step 5. Close the resource.</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (mLedGpio <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>                mLedGpio.<span style="color:#a6e22e">close</span>();
+</span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">catch</span> (IOException e) {
+</span></span><span style="display:flex;"><span>                Log.<span style="color:#a6e22e">e</span>(TAG, <span style="color:#e6db74">&#34;Error on PeripheralIO API&#34;</span>, e);
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> Runnable mBlinkRunnable <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Runnable() {
 </span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">run</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Exit if the GPIO is already closed
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>mLedGpio <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#75715e">// Step 3. Toggle the LED state
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                mLedGpio<span style="color:#f92672">.</span><span style="color:#a6e22e">setValue</span><span style="color:#f92672">(!</span>mLedGpio<span style="color:#f92672">.</span><span style="color:#a6e22e">getValue</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#75715e">// Step 4. Schedule another event after delay.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                mHandler<span style="color:#f92672">.</span><span style="color:#a6e22e">postDelayed</span><span style="color:#f92672">(</span>mBlinkRunnable<span style="color:#f92672">,</span> INTERVAL_BETWEEN_BLINKS_MS<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>IOException e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>                Log<span style="color:#f92672">.</span><span style="color:#a6e22e">e</span><span style="color:#f92672">(</span>TAG<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Error on PeripheralIO API&#34;</span><span style="color:#f92672">,</span> e<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">};</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">run</span>() {
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Exit if the GPIO is already closed</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (mLedGpio <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span>) {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e">// Step 3. Toggle the LED state</span>
+</span></span><span style="display:flex;"><span>                mLedGpio.<span style="color:#a6e22e">setValue</span>(<span style="color:#f92672">!</span>mLedGpio.<span style="color:#a6e22e">getValue</span>());
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e">// Step 4. Schedule another event after delay.</span>
+</span></span><span style="display:flex;"><span>                mHandler.<span style="color:#a6e22e">postDelayed</span>(mBlinkRunnable, INTERVAL_BETWEEN_BLINKS_MS);
+</span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">catch</span> (IOException e) {
+</span></span><span style="display:flex;"><span>                Log.<span style="color:#a6e22e">e</span>(TAG, <span style="color:#e6db74">&#34;Error on PeripheralIO API&#34;</span>, e);
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    };
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h2 id="conclusion">Conclusion</h2>
 <p>This completes the hello world, and trying out the Raspberry PI with AndroidThings. We can utilise standard andorid concepts and still enjoy the IOT.</p>
 <ul>

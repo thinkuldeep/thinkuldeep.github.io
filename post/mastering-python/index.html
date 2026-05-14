@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Mastering Python in the Age of AI: Why Hands-On Development Still Matters">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Mastering Python - AI Writes Code. Developers Must Understand It" />
 <meta property="og:description" content="Mastering Python in the Age of AI: Why Hands-On Development Still Matters" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/mastering-python/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/python0.jpg" />
+<meta property="og:url" content="https://thinkuldeep.com//post/mastering-python/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/python0.jpg" />
 <meta property="article:published_time" content="2026-03-19T10:58:08-04:00" />
-<meta property="article:modified_time" content="2026-03-19T10:58:08-04:00" /><meta itemprop="name" content="Mastering Python - AI Writes Code. Developers Must Understand It">
-<meta itemprop="description" content="Mastering Python in the Age of AI: Why Hands-On Development Still Matters"><meta itemprop="datePublished" content="2026-03-19T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2026-03-19T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1589">
-<meta itemprop="keywords" content="python,introduction,language,tdd,xp,technology,interoperability,web app,jagjeevan,books,ai,code review,hands-on,practices," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Mastering Python - AI Writes Code. Developers Must Understand It"/>
-<meta name="twitter:description" content="Mastering Python in the Age of AI: Why Hands-On Development Still Matters"/>
+<meta property="article:modified_time" content="2026-03-19T10:58:08-04:00" />
+  <meta itemprop="name" content="Mastering Python - AI Writes Code. Developers Must Understand It">
+  <meta itemprop="description" content="Mastering Python in the Age of AI: Why Hands-On Development Still Matters">
+  <meta itemprop="datePublished" content="2026-03-19T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2026-03-19T10:58:08-04:00">
+  <meta itemprop="wordCount" content="1589">
+  <meta itemprop="keywords" content="Python,Introduction,Language,Tdd,Xp,Technology,Interoperability,Web App,Jagjeevan,Books,AI,Code Review,Hands-On,Practices"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Mastering Python - AI Writes Code. Developers Must Understand It">
+<meta name="twitter:description" content="Mastering Python in the Age of AI: Why Hands-On Development Still Matters">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -330,7 +321,7 @@ if (!doNotTrack) {
 <p>That said, if you already have experience with another programming language, you can directly start with the project below and learn Python along the way.</p>
 <h2 id="learn-by-building-a-book-store-application">Learn by Building: A Book Store Application</h2>
 <p>We will build a full-stack web application using Python.</p>
-<p><img src="/images/python0.jpg" alt="image"></p>
+<p><img alt="image" src="/images/python0.jpg"></p>
 <p>The application will:</p>
 <ul>
 <li>Maintain a collection of books</li>
@@ -371,7 +362,7 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span>app <span style="color:#f92672">=</span> FastAPI()
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_health_status</span>(): 
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Healthy&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app</span><span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;/status&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app.get</span>(<span style="color:#e6db74">&#34;/status&#34;</span>)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">status_page</span>(request: Request):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> templates<span style="color:#f92672">.</span>TemplateResponse(request,<span style="color:#e6db74">&#39;status.html&#39;</span>, {<span style="color:#e6db74">&#34;health_status&#34;</span>: get_health_status() }  )
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
@@ -402,7 +393,7 @@ if (!doNotTrack) {
 <p>Let&rsquo;s add a separate route for APIs for <code>&quot;/books&quot;</code> in <code>books.py</code></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>router <span style="color:#f92672">=</span> APIRouter(prefix<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/books&#34;</span>, tags<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#34;Books&#34;</span>])
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@router</span><span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;/&#34;</span>, status_code<span style="color:#f92672">=</span>status<span style="color:#f92672">.</span>HTTP_200_OK)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@router.get</span>(<span style="color:#e6db74">&#34;/&#34;</span>, status_code<span style="color:#f92672">=</span>status<span style="color:#f92672">.</span>HTTP_200_OK)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_books</span>():
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> []
 </span></span></code></pre></div><p>include it in <code>main.py</code></p>
@@ -441,7 +432,7 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>db_dependency <span style="color:#f92672">=</span> Annotated[Session, Depends(get_db)]
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@router</span><span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;/&#34;</span>, status_code<span style="color:#f92672">=</span>status<span style="color:#f92672">.</span>HTTP_200_OK)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@router.get</span>(<span style="color:#e6db74">&#34;/&#34;</span>, status_code<span style="color:#f92672">=</span>status<span style="color:#f92672">.</span>HTTP_200_OK)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_books</span>(db: db_dependency):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> db<span style="color:#f92672">.</span>query(Books)<span style="color:#f92672">.</span>all()
 </span></span></code></pre></div><h2 id="step-4-testing-with-a-database">Step 4: Testing with a Database</h2>
@@ -458,7 +449,7 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">finally</span>:
 </span></span><span style="display:flex;"><span>        db<span style="color:#f92672">.</span>close()
 </span></span></code></pre></div><p>add <code>fixture</code> that executes on every declared parameter annotation.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#a6e22e">@pytest</span><span style="color:#f92672">.</span>fixture
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#a6e22e">@pytest.fixture</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">test_books</span>():
 </span></span><span style="display:flex;"><span>    book <span style="color:#f92672">=</span> Books( title <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Jagjeevan&#34;</span>, sub_title <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Living Larger Than Life&#34;</span>, author <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Kuldeep Singh&#34;</span>, image_link <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;https://thinkuldeep.com/images/jagjeevan_books_b.jpg&#34;</span>, buy_link <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;https://thinkuldeep.com/jagjeevan&#34;</span>, publish_type <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Authored&#34;</span>, publish_year <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;2024&#34;</span>)
 </span></span><span style="display:flex;"><span>    db <span style="color:#f92672">=</span> TestingSessionLocal()
@@ -521,7 +512,7 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span>  {% endfor %}
 </span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">div</span>&gt;
 </span></span></code></pre></div><h3 id="add-liting-api">Add Liting API</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#a6e22e">@router</span><span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;/listing-page&#34;</span>, status_code<span style="color:#f92672">=</span>status<span style="color:#f92672">.</span>HTTP_200_OK)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#a6e22e">@router.get</span>(<span style="color:#e6db74">&#34;/listing-page&#34;</span>, status_code<span style="color:#f92672">=</span>status<span style="color:#f92672">.</span>HTTP_200_OK)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_books_page</span>(db: db_dependency, request: Request):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> templates<span style="color:#f92672">.</span>TemplateResponse(request,<span style="color:#e6db74">&#39;books.html&#39;</span>,{<span style="color:#e6db74">&#34;books&#34;</span>: db<span style="color:#f92672">.</span>query(Books)<span style="color:#f92672">.</span>all() })
 </span></span></code></pre></div><h2 id="step-6-authentication--authorization">Step 6: Authentication &amp; Authorization</h2>
@@ -551,7 +542,7 @@ install <a href="https://pypi.org/project/passlib/">passlib</a> and <code>bcrypt
 </span></span><span style="display:flex;"><span>    last_name: str
 </span></span><span style="display:flex;"><span>    password:str <span style="color:#f92672">=</span> Field(<span style="color:#f92672">...</span>, min_length<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@router</span><span style="color:#f92672">.</span>post(<span style="color:#e6db74">&#34;/register&#34;</span>, status_code<span style="color:#f92672">=</span>status<span style="color:#f92672">.</span>HTTP_201_CREATED)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@router.post</span>(<span style="color:#e6db74">&#34;/register&#34;</span>, status_code<span style="color:#f92672">=</span>status<span style="color:#f92672">.</span>HTTP_201_CREATED)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">register_author</span>(db: db_dependency, author:AuthorRequest):
 </span></span><span style="display:flex;"><span>    author_model <span style="color:#f92672">=</span> Authors(<span style="color:#f92672">**</span>author<span style="color:#f92672">.</span>model_dump(mode<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;json&#34;</span>))
 </span></span><span style="display:flex;"><span>    author_model<span style="color:#f92672">.</span>password <span style="color:#f92672">=</span> b_context<span style="color:#f92672">.</span>hash(author_model<span style="color:#f92672">.</span>password)
@@ -560,7 +551,7 @@ install <a href="https://pypi.org/project/passlib/">passlib</a> and <code>bcrypt
 </span></span></code></pre></div><p>This would store author and hash.</p>
 <h3 id="token-generation-and-user-role">Token Generation and User Role</h3>
 <p>Install <code>python-jose</code>, <code>python-multipart</code>, and generate JWT token.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#a6e22e">@router</span><span style="color:#f92672">.</span>post(<span style="color:#e6db74">&#34;/token&#34;</span>, status_code<span style="color:#f92672">=</span>status<span style="color:#f92672">.</span>HTTP_200_OK)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#a6e22e">@router.post</span>(<span style="color:#e6db74">&#34;/token&#34;</span>, status_code<span style="color:#f92672">=</span>status<span style="color:#f92672">.</span>HTTP_200_OK)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_access_token</span>(form : Annotated[OAuth2PasswordRequestForm , Depends()], db:db_dependency):
 </span></span><span style="display:flex;"><span>    author <span style="color:#f92672">=</span> authenticate_author(form<span style="color:#f92672">.</span>username, form<span style="color:#f92672">.</span>password, db)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> author:
@@ -586,7 +577,7 @@ install <a href="https://pypi.org/project/passlib/">passlib</a> and <code>bcrypt
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> {<span style="color:#e6db74">&#39;name&#39;</span>: name, <span style="color:#e6db74">&#39;role&#39;</span>: role}
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">except</span> JWTError:
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">raise</span> HTTPException(status_code<span style="color:#f92672">=</span>status<span style="color:#f92672">.</span>HTTP_401_UNAUTHORIZED, detail<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Could not validate user.&#39;</span>)
-</span></span></code></pre></div><p><img src="/images/python2.jpg" alt="iamge"></p>
+</span></span></code></pre></div><p><img alt="iamge" src="/images/python2.jpg"></p>
 <h2 id="step-7-secure-apis">Step 7: Secure APIs</h2>
 <p>Only authenticated users can:</p>
 <ul>
@@ -605,13 +596,13 @@ install <a href="https://pypi.org/project/passlib/">passlib</a> and <code>bcrypt
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>author_dependency <span style="color:#f92672">=</span> Annotated[dict, Depends(get_current_user)]
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@router</span><span style="color:#f92672">.</span>post(<span style="color:#e6db74">&#34;/books&#34;</span>, status_code<span style="color:#f92672">=</span>status<span style="color:#f92672">.</span>HTTP_201_CREATED)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@router.post</span>(<span style="color:#e6db74">&#34;/books&#34;</span>, status_code<span style="color:#f92672">=</span>status<span style="color:#f92672">.</span>HTTP_201_CREATED)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">create_book</span>(author : author_dependency,db: db_dependency, book:BookRequest):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> author <span style="color:#f92672">is</span> <span style="color:#66d9ef">None</span>: <span style="color:#66d9ef">raise</span> HTTPException(status_code<span style="color:#f92672">=</span><span style="color:#ae81ff">401</span>, detail<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Not authorized to add book&#39;</span>)
 </span></span><span style="display:flex;"><span>    db<span style="color:#f92672">.</span>add(Books(<span style="color:#f92672">**</span>book<span style="color:#f92672">.</span>model_dump(mode<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;json&#34;</span>)))
 </span></span><span style="display:flex;"><span>    db<span style="color:#f92672">.</span>commit()
 </span></span></code></pre></div><p>Allow authenticated auther or user with admin role to update/delete the book.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#a6e22e">@router</span><span style="color:#f92672">.</span>put(<span style="color:#e6db74">&#34;/books&#34;</span>, status_code<span style="color:#f92672">=</span>status<span style="color:#f92672">.</span>HTTP_202_ACCEPTED)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#a6e22e">@router.put</span>(<span style="color:#e6db74">&#34;/books&#34;</span>, status_code<span style="color:#f92672">=</span>status<span style="color:#f92672">.</span>HTTP_202_ACCEPTED)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">update_book</span>(author : author_dependency, db: db_dependency, book:BookRequest):
 </span></span><span style="display:flex;"><span>    book_model <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> author <span style="color:#f92672">is</span> <span style="color:#66d9ef">None</span>: <span style="color:#66d9ef">raise</span> HTTPException(status_code<span style="color:#f92672">=</span><span style="color:#ae81ff">401</span>, detail<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Not authorized to update a book&#39;</span>)
@@ -632,7 +623,7 @@ install <a href="https://pypi.org/project/passlib/">passlib</a> and <code>bcrypt
 </span></span><span style="display:flex;"><span>    db<span style="color:#f92672">.</span>refresh(book_model)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@router</span><span style="color:#f92672">.</span>delete(<span style="color:#e6db74">&#34;/books&#34;</span>, status_code<span style="color:#f92672">=</span>status<span style="color:#f92672">.</span>HTTP_204_NO_CONTENT)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@router.delete</span>(<span style="color:#e6db74">&#34;/books&#34;</span>, status_code<span style="color:#f92672">=</span>status<span style="color:#f92672">.</span>HTTP_204_NO_CONTENT)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">delete_book</span>(author : author_dependency, db: db_dependency, title: str):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> author <span style="color:#f92672">is</span> <span style="color:#66d9ef">None</span>: <span style="color:#66d9ef">raise</span> HTTPException(status_code<span style="color:#f92672">=</span><span style="color:#ae81ff">401</span>, detail<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Not authorized to delete a book&#39;</span>)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> author<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;role&#39;</span>) <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;admin&#34;</span>:
@@ -641,9 +632,9 @@ install <a href="https://pypi.org/project/passlib/">passlib</a> and <code>bcrypt
 </span></span><span style="display:flex;"><span>        (db<span style="color:#f92672">.</span>query(Books)<span style="color:#f92672">.</span>filter(book<span style="color:#f92672">.</span>title <span style="color:#f92672">==</span> Books<span style="color:#f92672">.</span>title,  author<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;name&#39;</span>) <span style="color:#f92672">==</span> Books<span style="color:#f92672">.</span>author))<span style="color:#f92672">.</span>delete()
 </span></span><span style="display:flex;"><span>    db<span style="color:#f92672">.</span>commit()
 </span></span></code></pre></div><h2 id="step-8-ui--auth-integration">Step 8: UI + Auth Integration</h2>
-<p><img src="/images/python3.jpg" alt="image"></p>
+<p><img alt="image" src="/images/python3.jpg"></p>
 <p>Update listing page API to pass the user context if user token exists in request cookies.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#a6e22e">@router</span><span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;/listing-page&#34;</span>, status_code<span style="color:#f92672">=</span>status<span style="color:#f92672">.</span>HTTP_200_OK)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#a6e22e">@router.get</span>(<span style="color:#e6db74">&#34;/listing-page&#34;</span>, status_code<span style="color:#f92672">=</span>status<span style="color:#f92672">.</span>HTTP_200_OK)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_books_page</span>(db: db_dependency, request: Request):
 </span></span><span style="display:flex;"><span>    user <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
 </span></span><span style="display:flex;"><span>    token <span style="color:#f92672">=</span> request<span style="color:#f92672">.</span>cookies<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;access_token&#39;</span>)

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Using SonarQube as static code analysis with Unity, and using rider and IDE">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Static Code Analysis for Unity3D — Part 2" />
 <meta property="og:description" content="Using SonarQube as static code analysis with Unity, and using rider and IDE" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/static_code_analysis_unity_2/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.comhttps://miro.medium.com/max/1400/1*9KRcZpjNXsWDJkOWwV8J4A.png" />
+<meta property="og:url" content="https://thinkuldeep.com//post/static_code_analysis_unity_2/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com/https://miro.medium.com/max/1400/1*9KRcZpjNXsWDJkOWwV8J4A.png" />
 <meta property="article:published_time" content="2019-10-30T10:58:08-04:00" />
-<meta property="article:modified_time" content="2019-10-30T10:58:08-04:00" /><meta itemprop="name" content="Static Code Analysis for Unity3D — Part 2">
-<meta itemprop="description" content="Using SonarQube as static code analysis with Unity, and using rider and IDE"><meta itemprop="datePublished" content="2019-10-30T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2019-10-30T10:58:08-04:00" />
-<meta itemprop="wordCount" content="410">
-<meta itemprop="keywords" content="xr,unity,sonarqube,static code analysis,ide,tutorial,practice,technology," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Static Code Analysis for Unity3D — Part 2"/>
-<meta name="twitter:description" content="Using SonarQube as static code analysis with Unity, and using rider and IDE"/>
+<meta property="article:modified_time" content="2019-10-30T10:58:08-04:00" />
+  <meta itemprop="name" content="Static Code Analysis for Unity3D — Part 2">
+  <meta itemprop="description" content="Using SonarQube as static code analysis with Unity, and using rider and IDE">
+  <meta itemprop="datePublished" content="2019-10-30T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2019-10-30T10:58:08-04:00">
+  <meta itemprop="wordCount" content="410">
+  <meta itemprop="keywords" content="Xr,Unity,Sonarqube,Static Code Analysis,Ide,Tutorial,Practice,Technology"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Static Code Analysis for Unity3D — Part 2">
+<meta name="twitter:description" content="Using SonarQube as static code analysis with Unity, and using rider and IDE">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -314,28 +305,28 @@ if (!doNotTrack) {
         <span class="f6 mv4 dib tracked"> - 410 words </span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>This article is in continuation of <a href="/post/static_code_analysis_unity_1">Static Code Analysis for Unity3D — Part 1</a> where we talked about setting up a local sonar server, sonar scanner and running the analysis for a Unity3D project.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>This article is in continuation of <a href="/post/static_code_analysis_unity_1/">Static Code Analysis for Unity3D — Part 1</a> where we talked about setting up a local sonar server, sonar scanner and running the analysis for a Unity3D project.</p>
 <p>It this article, we will discuss setting up the Static Code Analysis with SonarCube in IDE — <a href="https://www.jetbrains.com/rider/">Rider</a>. We are using Rider as the “External Script Editor” in Unity. Configure Rider here in Unity&gt; Preferences &gt; External Tools &gt; External Script Editor.</p>
 <h2 id="install-sonarcube-plugin-for-rider">Install SonarCube Plugin For Rider</h2>
 <ul>
 <li>Go to JetBrains Rider &gt; Preferences &gt; Plugins &gt; Marketplace &gt; Search SonarQube</li>
 <li>You will find “SonarCube Community Plugin” &gt; Click Install.</li>
 <li>It will ask you to restart the IDE to complete the installation. On successful restart you should see it installed.
-<img src="https://miro.medium.com/max/1400/1*4G5lFe43LQa5TkmwEmXsKQ.png" alt=""></li>
+<img src="https://miro.medium.com/max/1400/1*4G5lFe43LQa5TkmwEmXsKQ.png"></li>
 </ul>
 <h2 id="configure-sonarcube-plugin">Configure SonarCube Plugin</h2>
 <p>We need to connect to the sonar server, to perform local analysis. Here are the steps to follow.</p>
 <ul>
 <li>
 <p>Go to JetBrains Rider &gt; Preferences &gt; SonarQube — Click Add and provide details of the local sonar server. Ref to the previous post for more details.
-<img src="https://miro.medium.com/max/1400/1*srWzoQhVjjczozUxZxR4_g.png" alt=""></p>
+<img src="https://miro.medium.com/max/1400/1*srWzoQhVjjczozUxZxR4_g.png"></p>
 </li>
 <li>
 <p>Click on +icon for SonarQube resources</p>
 </li>
 <li>
 <p>Click Download Resources and Select the Sonar Project that we have added. — UnityFirst
-<img src="https://miro.medium.com/max/1400/1*zkt7eAZvREvqvHsG3h-h7A.png" alt=""></p>
+<img src="https://miro.medium.com/max/1400/1*zkt7eAZvREvqvHsG3h-h7A.png"></p>
 </li>
 <li>
 <p>For local analysis, we need to provide local script that will be called when ‘Inspect Code’ is performed on IDE. So create a script as follows covering all 3 steps that we discussed in the last post.</p>
@@ -343,34 +334,34 @@ if (!doNotTrack) {
 </li>
 <li>
 <p>Add Local analysis script — give it a name, path of script and output file.
-<img src="https://miro.medium.com/max/1400/1*auzshSY0DcaeUNgF8k03MA.png" alt=""></p>
+<img src="https://miro.medium.com/max/1400/1*auzshSY0DcaeUNgF8k03MA.png"></p>
 </li>
 </ul>
 <p>We are now ready to analysis the code.</p>
 <h2 id="static-code-analysis-in-rider">Static Code Analysis in Rider</h2>
-<p>Open the unity project in Rider. We have <a href="https://github.com/thinkuldeep/ShowMe/blob/master/Assets/Scripts/ButtonController.cs">ButtonController.cs</a> created in <a href="/post/static_code_analysis_unity_1">last post</a>, let’s analyze that.</p>
+<p>Open the unity project in Rider. We have <a href="https://github.com/thinkuldeep/ShowMe/blob/master/Assets/Scripts/ButtonController.cs">ButtonController.cs</a> created in <a href="/post/static_code_analysis_unity_1/">last post</a>, let’s analyze that.</p>
 <ul>
 <li>
 <p>Go to JetBrains Rider &gt; Code &gt; Run Inspection By Name (Option+Command+Shift+I) &gt; Search for Sonar</p>
 </li>
 <li>
 <p>Select “SonarQube (new Issues)” &gt; Select Inspection Scope as Whole Project
-<img src="https://miro.medium.com/max/1400/1*DM5GSdBySJje2pJFGot2Rw.png" alt="">
-<img src="https://miro.medium.com/max/1400/1*WDQp9ejp_RdvfIoLMzWqcQ.png" alt=""></p>
+<img src="https://miro.medium.com/max/1400/1*DM5GSdBySJje2pJFGot2Rw.png">
+<img src="https://miro.medium.com/max/1400/1*WDQp9ejp_RdvfIoLMzWqcQ.png"></p>
 </li>
 <li>
 <p>It will run the code analysis. Just like we did in from the command line in the last post.
-<img src="https://miro.medium.com/max/1400/1*q_HQSBxtZ42spEO7Dv9Mrw.png" alt=""></p>
+<img src="https://miro.medium.com/max/1400/1*q_HQSBxtZ42spEO7Dv9Mrw.png"></p>
 </li>
 <li>
 <p>To analyze the issues inline in the files, Go to JetBrains Rider &gt; Code &gt; Run Inspection By Name (Option+Command+Shift+I) &gt; Select “SonarQube” &gt; Select Inspection Scope as Whole Project
-<img src="https://miro.medium.com/max/1400/1*NmGbHgZkBN0IRYI3DWQvyA.png" alt=""></p>
+<img src="https://miro.medium.com/max/1400/1*NmGbHgZkBN0IRYI3DWQvyA.png"></p>
 </li>
 <li>
 <p>Issues are available in Sonar Inspection windows and inline.
-<img src="https://miro.medium.com/max/1400/1*dZ42pLSi1tuOXWyTGVOILg.png" alt="">
+<img src="https://miro.medium.com/max/1400/1*dZ42pLSi1tuOXWyTGVOILg.png">
 We can further configure rules on sonar to include and exclude files and much more. Each of the analysis is also getting pushed to local sonar server
-<img src="https://miro.medium.com/max/1400/1*Ox52WC6NkX5xOeQ_6XpSnQ.png" alt=""></p>
+<img src="https://miro.medium.com/max/1400/1*Ox52WC6NkX5xOeQ_6XpSnQ.png"></p>
 </li>
 </ul>
 <h2 id="conclusion">Conclusion</h2>
@@ -1102,11 +1093,11 @@ We can further configure rules on sonar to include and exclude files and much mo
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/training-autonomous-vehicles-in-xr/">Training autonomous vehicles with XR simulation</a>
+          <a href="/event/nasscom-smcc/">Juror - SMCC Startup Challenge by Nasscom</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/event/nasscom-smcc/">Juror - SMCC Startup Challenge by Nasscom</a>
+          <a href="/post/training-autonomous-vehicles-in-xr/">Training autonomous vehicles with XR simulation</a>
         </li>
 	    
 	     <li  class="mb2">
@@ -1210,11 +1201,11 @@ We can further configure rules on sonar to include and exclude files and much mo
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
+          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
+          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
         </li>
 	    
 	     <li  class="mb2">
@@ -1258,11 +1249,11 @@ We can further configure rules on sonar to include and exclude files and much mo
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jsp-compilation-issues/">Strange JSP Compilation Issue </a>
+          <a href="/post/javascript-plugin-framework/">JavaScript Plugin Framework</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/javascript-plugin-framework/">JavaScript Plugin Framework</a>
+          <a href="/post/jsp-compilation-issues/">Strange JSP Compilation Issue </a>
         </li>
 	    
 	     <li  class="mb2">

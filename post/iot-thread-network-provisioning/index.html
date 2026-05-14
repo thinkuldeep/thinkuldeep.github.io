@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Hands on practice for Thread Network provisioning, and understand role of Joiner and Commissioner.">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Simplifying Thread Network Provisioning with Joiner and Commissioner" />
 <meta property="og:description" content="Hands on practice for Thread Network provisioning, and understand role of Joiner and Commissioner." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/iot-thread-network-provisioning/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/iot-20.jpg" />
+<meta property="og:url" content="https://thinkuldeep.com//post/iot-thread-network-provisioning/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/iot-20.jpg" />
 <meta property="article:published_time" content="2025-02-08T10:58:08-04:00" />
-<meta property="article:modified_time" content="2025-02-08T10:58:08-04:00" /><meta itemprop="name" content="Simplifying Thread Network Provisioning with Joiner and Commissioner">
-<meta itemprop="description" content="Hands on practice for Thread Network provisioning, and understand role of Joiner and Commissioner."><meta itemprop="datePublished" content="2025-02-08T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2025-02-08T10:58:08-04:00" />
-<meta itemprop="wordCount" content="870">
-<meta itemprop="keywords" content="IOT,network,cloud,getting started,learning,technology,fundamentals,thread,openthread,security,nRF," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Simplifying Thread Network Provisioning with Joiner and Commissioner"/>
-<meta name="twitter:description" content="Hands on practice for Thread Network provisioning, and understand role of Joiner and Commissioner."/>
+<meta property="article:modified_time" content="2025-02-08T10:58:08-04:00" />
+  <meta itemprop="name" content="Simplifying Thread Network Provisioning with Joiner and Commissioner">
+  <meta itemprop="description" content="Hands on practice for Thread Network provisioning, and understand role of Joiner and Commissioner.">
+  <meta itemprop="datePublished" content="2025-02-08T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2025-02-08T10:58:08-04:00">
+  <meta itemprop="wordCount" content="870">
+  <meta itemprop="keywords" content="IOT,Network,Cloud,Getting Started,Learning,Technology,Fundamentals,Thread,Openthread,Security,NRF"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Simplifying Thread Network Provisioning with Joiner and Commissioner">
+<meta name="twitter:description" content="Hands on practice for Thread Network provisioning, and understand role of Joiner and Commissioner.">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -315,7 +306,7 @@ if (!doNotTrack) {
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In previous articles, we explored <a href="/post/iot-the-thread-protocol-and-network/">the Thread protocol</a> and connected <a href="/post/iot-thread-devices-internet/">Thread devices to the internet</a> using a Border Router. We joined the Thread network by manually configuring each node with a full dataset containing network credentials such as the PAN ID, Network Key, Network Name, and more (refer to <a href="/post/iot-thread-devices-internet/#step-6-joining-the-thread-network">Step 6.1: Access Network Credentials</a>). While this method works, it becomes impractical when provisioning hundreds of Thread devices in real-world scenarios.</p>
-<p><img src="/images/iot-20.jpg" alt="iot"></p>
+<p><img alt="iot" src="/images/iot-20.jpg"></p>
 <p>To address this challenge, the Thread protocol introduces the concepts of <em>Joiner</em> and <a href="https://openthread.io/guides/commissioner">Commissioner</a>. A <em>Joiner</em> node can request network credentials, and a <em>Commissioner</em> node in the network can approve the request if the <em>Joiner</em> provides a valid <em>Pre-Shared Key for Device (PSKd)</em>. Once approved, the Joiner can start the Thread network using the provided credentials.</p>
 <p>In this guide, we’ll walk through the process of setting up a Joiner and Commissioner using two nRF52840 Dongles. Let’s get started!</p>
 <h2 id="step-1-build-the-joiner-and-commissioner-firmware">Step 1: Build the Joiner and Commissioner Firmware</h2>
@@ -336,9 +327,9 @@ if (!doNotTrack) {
 <h2 id="step-2-flash-the-firmware">Step 2: Flash the Firmware</h2>
 <ol>
 <li>Put the nRF52840 Dongle into <em>DFU mode</em> by pressing the small button next to the white button.
-<img src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*wj3Fh_kh4hap3rBqe3XfTQ.gif" alt="dfu"></li>
+<img alt="dfu" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*wj3Fh_kh4hap3rBqe3XfTQ.gif"></li>
 <li>Open the <em>nRF Programmer App,</em> select device and and flash the <code>ot-cli-ftd.hex</code> firmware.
-<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*OtJN7Hj97apKT9PVTdmBIg.png" alt="programmer"></li>
+<img alt="programmer" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*OtJN7Hj97apKT9PVTdmBIg.png"></li>
 <li>Verify that the Dongle’s LED stops blinking, indicating a successful flash.</li>
 </ol>
 <h2 id="step-3--start-a-thread-network">Step 3 — Start a Thread Network</h2>
@@ -369,7 +360,7 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span>Done
 </span></span><span style="display:flex;"><span>&gt; thread start
 </span></span><span style="display:flex;"><span>Done
-</span></span></code></pre></div><p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*2UcBLLXGBTz3TNbVK51L6w.png" alt="programmer"></p>
+</span></span></code></pre></div><p><img alt="programmer" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*2UcBLLXGBTz3TNbVK51L6w.png"></p>
 <p>This would start new thread network, and this device would become a leader after some time.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>&gt; state
 </span></span><span style="display:flex;"><span>leader
@@ -963,11 +954,11 @@ if (!doNotTrack) {
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
+          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
+          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
         </li>
 	    
 	     <li  class="mb2">
@@ -1003,11 +994,11 @@ if (!doNotTrack) {
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jsp-compilation-issues/">Strange JSP Compilation Issue </a>
+          <a href="/post/javascript-plugin-framework/">JavaScript Plugin Framework</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/javascript-plugin-framework/">JavaScript Plugin Framework</a>
+          <a href="/post/jsp-compilation-issues/">Strange JSP Compilation Issue </a>
         </li>
 	    
 	     <li  class="mb2">

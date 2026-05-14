@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>claude on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com/tags/claude/</link>
-        <description>Recent content in claude on Kuldeep Singh</description>
+        <title>Claude on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/claude/</link>
+        <description>Recent content in Claude on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
+        <language>en</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Mon, 04 May 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/claude/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Claude Code for Agentic AI: From Foundations to Real Agents</title>
-            <link>https://thinkuldeep.com/post/agentic-ai-hands-on-3/</link>
+            <link>https://thinkuldeep.com//post/agentic-ai-hands-on-3/</link>
             <pubDate>Mon, 04 May 2026 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/post/agentic-ai-hands-on-3/</guid>
+            <guid>https://thinkuldeep.com//post/agentic-ai-hands-on-3/</guid>
             <description>In a previous hands-on articles, we built agents using local LLMs, and another article hands-on with AI-Integrated Development Environment using Claude Code. This article continues that journey,
 Here the focus is different:
- 👉 How Claude Code becomes an Agent Platform — not just a coding assistant.
- In this article, we will teach Claude how to work with us. We will progressively build: Skills, Agents, MCP tools, Plugin integrations amd by the end, Claude will act as: an About-Me agent, a Books price agent, and an externally powered MCP agent</description>
+👉 How Claude Code becomes an Agent Platform — not just a coding assistant.
+In this article, we will teach Claude how to work with us. We will progressively build: Skills, Agents, MCP tools, Plugin integrations amd by the end, Claude will act as: an About-Me agent, a Books price agent, and an externally powered MCP agent</description>
         </item>
         
         <item>
             <title>AI Integrated Development Environment - 1</title>
-            <link>https://thinkuldeep.com/post/ai-integrated-development-environment/</link>
+            <link>https://thinkuldeep.com//post/ai-integrated-development-environment/</link>
             <pubDate>Tue, 10 Mar 2026 10:58:08 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/post/ai-integrated-development-environment/</guid>
+            <guid>https://thinkuldeep.com//post/ai-integrated-development-environment/</guid>
             <description>Integrated Development Environments (IDEs) have played a crucial role in shaping the way software is developed. Engineering Practices such as Agile development, eXtreme Programming, Test-Driven Development (TDD), became practical largely because IDEs provided a visual and integrated workflow for writing and managing code.
 In the early days, developers interacting heavily on command-line. Formatting code, navigating files, searching references, and refactoring logic were mostly manual tasks. Over time, IDEs transformed this experience.</description>
         </item>

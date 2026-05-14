@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Thoughtworks Podcast on XR in practice: the engineering challenges of extending reality">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="AI-Assisted Content Generation Pipeline for XR" />
 <meta property="og:description" content="Thoughtworks Podcast on XR in practice: the engineering challenges of extending reality" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/ai-generated-xr-content/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/xrai1.png" />
+<meta property="og:url" content="https://thinkuldeep.com//post/ai-generated-xr-content/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/xrai1.png" />
 <meta property="article:published_time" content="2023-01-24T10:58:08-04:00" />
-<meta property="article:modified_time" content="2023-01-24T10:58:08-04:00" /><meta itemprop="name" content="AI-Assisted Content Generation Pipeline for XR">
-<meta itemprop="description" content="Thoughtworks Podcast on XR in practice: the engineering challenges of extending reality"><meta itemprop="datePublished" content="2023-01-24T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2023-01-24T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1536">
-<meta itemprop="keywords" content="xr,ar,vr,mr,metaverse,evolution,ai,content management,technology,thoughtworks,insights,xr content," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="AI-Assisted Content Generation Pipeline for XR"/>
-<meta name="twitter:description" content="Thoughtworks Podcast on XR in practice: the engineering challenges of extending reality"/>
+<meta property="article:modified_time" content="2023-01-24T10:58:08-04:00" />
+  <meta itemprop="name" content="AI-Assisted Content Generation Pipeline for XR">
+  <meta itemprop="description" content="Thoughtworks Podcast on XR in practice: the engineering challenges of extending reality">
+  <meta itemprop="datePublished" content="2023-01-24T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2023-01-24T10:58:08-04:00">
+  <meta itemprop="wordCount" content="1536">
+  <meta itemprop="keywords" content="Xr,Ar,Vr,Mr,Metaverse,Evolution,AI,Content Management,Technology,Thoughtworks,Insights,Xr Content"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="AI-Assisted Content Generation Pipeline for XR">
+<meta name="twitter:description" content="Thoughtworks Podcast on XR in practice: the engineering challenges of extending reality">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -314,15 +305,15 @@ if (!doNotTrack) {
         <span class="f6 mv4 dib tracked"> - 1536 words </span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><img src="/images/xrai1.png" alt="Image"></p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><img alt="Image" src="/images/xrai1.png"></p>
 <p>Recently, I and <a href="https://www.linkedin.com/in/rajukandasamy/">Raju Kandaswamy</a> talked at <a href="/event/thougthworks-xconf-2022/">Thoughtworks XConf</a> on how AI will play its role in content generation. We are already seeing
 <a href="https://en.wikipedia.org/wiki/ChatGPT">ChatGPT</a>, as <a href="https://timesofindia.indiatimes.com/tech-news/chatgpt-seems-to-be-starting-a-google-search-like-revolution/articleshow/97077916.cms">the next revolution</a> in textual content generation space.
 Let&rsquo;s understand what is the need of such content generation revolution of XR space.</p>
 <p>With games like <a href="https://secondlife.com/">Second Life</a> and the impending mainstreaming of the Metaverse, more and more individuals are embracing a virtual reality that, in some ways, mirrors our own real world and, in other ways, lets us live in our imagination or apply them on the real word. This rise of the Metaverse is simply the next level in a journey that began long ago.
 For instance, on Facebook, many of us have 1000s of virtual friends. While playing games, we regularly trade in virtual currencies. We already have handles and usernames that serve as our virtual identities. As an extension, <a href="https://www.victoryxr.com/metaversity/">Metaversity</a> are quite near like <a href="https://yourstory.com/2022/08/invact-metaversity-relaunch">Invact</a>, where students join virtual classes as their virtual selves. A virtual car might soon get more expensive than a real one.</p>
 <p>In my previous article, I described <a href="/post/metaverse-a-technological-evolution/">metaverse as technological evolution</a> of many digital technologies,
-<img src="/images/metaverse-evolution.png" alt="Metaverse">
-Some primary ones are IoT, Blockchain, 5G/6G, cloud and AI, where central to this is eXtended Reality or XR. More we evolve/adopt XR More we will be closer to future state of the metaverse. XR is one of the most exciting and most-hyped emerging technologies. It’s important to note that XR comes in a number of <a href="/post/extending_reality_with_ar_and_vr-1">different forms</a> and implementations.
+<img alt="Metaverse" src="/images/metaverse-evolution.png">
+Some primary ones are IoT, Blockchain, 5G/6G, cloud and AI, where central to this is eXtended Reality or XR. More we evolve/adopt XR More we will be closer to future state of the metaverse. XR is one of the most exciting and most-hyped emerging technologies. It’s important to note that XR comes in a number of <a href="/post/extending_reality_with_ar_and_vr-1/">different forms</a> and implementations.
 This can often create confusion, so it’s worth clarifying. The key ways in which XR is implemented in real-world products are:</p>
 <ul>
 <li><strong>Augmented reality (AR)</strong> which overlays digital content in the live environment.</li>
@@ -338,7 +329,7 @@ a key challenge is content creation. Nothing, after all, can be extended without
 <p>The journey toward creating 3D content for XR is filled with speed bumps. At the content generation level, there are several siloes. These can lead to content being created that isn’t shareable and usable. Even if we do manage to create content for XR applications, questions about management, access control and versioning still remain.</p>
 <p>There are a number of reasons for this, but the main issue is that most devices today are bulky and heavy, which makes consumption difficult for end-users. Publishing protocols like HTTP, streaming or WebRTC, moreover, just aren’t sufficient.</p>
 <p>The diagram below demonstrates the extent of the complexity of an XR content development pipeline:
-<img src="/images/xrai2.png" alt="XR content management: a typical flow"></p>
+<img alt="XR content management: a typical flow" src="/images/xrai2.png"></p>
 <ul>
 <li><strong>Content generation</strong>  - The basic unit of a 3D model’s construction is a point, defined by three dimensions: x, y and z. Hundreds or thousands of points brought together make a <a href="https://en.wikipedia.org/wiki/Point_cloud">“point cloud”</a>. These are then meshed using triangulation or a mesh generation algorithm. A typical model has millions of points and polygons that aren’t ready for consumption by consumer XR devices. This is why they need to be optimized.</li>
 <li><strong>Optimization</strong> - With XR content editing tools, such as <a href="https://www.blender.org/">Blender</a>, <a href="https://www.autodesk.in/products/3ds-max/overview">Max</a> or <a href="https://www.autodesk.in/products/maya/overview">Maya</a> developers reduce the size of the content, slicing it based on the level of detail a given application needs.</li>
@@ -363,7 +354,7 @@ a key challenge is content creation. Nothing, after all, can be extended without
 <p>A large scale library of richly annotated 3D shapes is offered by <a href="https://shapenet.org/">ShapeNet</a> to train ML models. This library contains roughly 50,000 unique 3D models in 50 different categories for deep learning.</p>
 <h4 id="ai-assisted-3d-modeling">AI-assisted 3D modeling</h4>
 <p>If we bring AI into the XR content pipeline, the possible steps might include handling various inputs (sketches, photographs etc.) and using advanced processing capabilities (driven by edge/5G/cloud) to generate content. Humans or an AI system could review that content, with any further optimizations as the process is extended. Once the design is deemed acceptable it can be published.</p>
-<p><img src="/images/xrai3.png" alt="AI assisted content pipeline for 3D modeling"></p>
+<p><img alt="AI assisted content pipeline for 3D modeling" src="/images/xrai3.png"></p>
 <p>If XR and metaverse is to become truly mainstream — and deliver significant business value — we artificial intelligence will play a vital role. As we have demonstrated, this is already happening; however as research and applications progress, we will see new opportunities and possibilities emerge. It will be up to us all in the industry to seize them and build extraordinary experiences.
 Metaverse needs XR content at scale, and AI generated media is the way to go, find &ldquo;AI generated media&rdquo; in <a href="https://www.thoughtworks.com/en-ca/insights/looking-glass/making-the-metaverse">Thooughtworks Looking Glass | Making the metaverse</a>.</p>
 <p>A variation of this article is originally published at <a href="https://www.thoughtworks.com/en-ca/insights/blog/machine-learning-and-ai/ai-content-xr">Thoughtworks Insights</a></p>
@@ -1277,11 +1268,11 @@ Metaverse needs XR content at scale, and AI generated media is the way to go, fi
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
+          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
+          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
         </li>
 	    
 	     <li  class="mb2">
@@ -1297,11 +1288,11 @@ Metaverse needs XR content at scale, and AI generated media is the way to go, fi
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
+          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
+          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
         </li>
 	    
 	     <li  class="mb2">

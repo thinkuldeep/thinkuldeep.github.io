@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Check out my experience developing blockchain-based platforms with Quorum.">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Lessons Learned From Blockchain-Based Development" />
 <meta property="og:description" content="Check out my experience developing blockchain-based platforms with Quorum." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/learnings-from-blockchain-based-development/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/blockchain.png" />
+<meta property="og:url" content="https://thinkuldeep.com//post/learnings-from-blockchain-based-development/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/blockchain.png" />
 <meta property="article:published_time" content="2019-02-15T10:58:08-04:00" />
-<meta property="article:modified_time" content="2019-02-15T10:58:08-04:00" /><meta itemprop="name" content="Lessons Learned From Blockchain-Based Development">
-<meta itemprop="description" content="Check out my experience developing blockchain-based platforms with Quorum."><meta itemprop="datePublished" content="2019-02-15T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2019-02-15T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1731">
-<meta itemprop="keywords" content="blockchain,java,experience,learnings,micro-services,architecture,spring boot,technology," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Lessons Learned From Blockchain-Based Development"/>
-<meta name="twitter:description" content="Check out my experience developing blockchain-based platforms with Quorum."/>
+<meta property="article:modified_time" content="2019-02-15T10:58:08-04:00" />
+  <meta itemprop="name" content="Lessons Learned From Blockchain-Based Development">
+  <meta itemprop="description" content="Check out my experience developing blockchain-based platforms with Quorum.">
+  <meta itemprop="datePublished" content="2019-02-15T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2019-02-15T10:58:08-04:00">
+  <meta itemprop="wordCount" content="1731">
+  <meta itemprop="keywords" content="Blockchain,Java,Experience,Learnings,Micro-Services,Architecture,Spring Boot,Technology"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Lessons Learned From Blockchain-Based Development">
+<meta name="twitter:description" content="Check out my experience developing blockchain-based platforms with Quorum.">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -317,9 +308,9 @@ if (!doNotTrack) {
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Blockchain or DLT (Distributed Ledger Technology) is getting good traction in the IT world these days. Earlier, this technology was being mostly explored by banks and other finance-related institutions, such as Bitcoin and Ethereum. Now, it is getting explored for other use cases for building distributed applications. Blockchain technology comes with a decentralized and immutable data structure that maintains a connected block of information. Each block is connected using a hash of the previous block, and every new block on the chain is validated (mined) before adding and replicating it. This post is about my learnings and challenges while building an enterprise blockchain platform based on <a href="https://www.jpmorgan.com/global/Quorum">Quorum blockchain technology</a>.</p>
 <h2 id="blockchain-based-enterprise-platform">Blockchain-Based Enterprise Platform</h2>
 <p>We have built a commodity trading platform that matches the trades from different parties and store-related trade data on smart contracts. Trade operations are private to the counterparties; however, packaging and delivery operations are performed privately to all the blockchain network partners. The delivery operation involves multiple delivery partners and approval processes, which are safely recorded in the blockchain environment. The platform acts as a trusted single source of truth and, at the same time, keeping data distributed in the client&rsquo;s autonomy.</p>
-<p>The platform built on Quorum, which is an Ethereum-based blockchain technology supporting private transactions on top of Ethereum. A React-based GUI is backed by the API layer of <a href="">Spring Boot + Web3J</a>. Smart contracts are written in Solidity. Read more <a href="https://dzone.com/articles/intro-to-blockchain-with-ethereum-web3j-and-spring">here</a> to start on a similar technology stack and know the blockchain.</p>
+<p>The platform built on Quorum, which is an Ethereum-based blockchain technology supporting private transactions on top of Ethereum. A React-based GUI is backed by the API layer of <a href="/">Spring Boot + Web3J</a>. Smart contracts are written in Solidity. Read more <a href="https://dzone.com/articles/intro-to-blockchain-with-ethereum-web3j-and-spring">here</a> to start on a similar technology stack and know the blockchain.</p>
 <h4 id="the-following-diagram-represents-the-reference-architecture">The following diagram represents the reference architecture:</h4>
-<p><img src="/images/blockchain.png" alt="Architecture"></p>
+<p><img alt="Architecture" src="/images/blockchain.png"></p>
 <h2 id="blockchain-development-learnings">Blockchain Development Learnings</h2>
 <p>Blockchain comes with a lot of promises to safely perform distributed operations on a peer-to-peer network. It keeps data secure and makes them immutable so that data written on a blockchain can be trusted as the source of truth. However, it comes with its own challenges; we have learned a lot while solving the challenges and making the platform production-ready. These learnings are based on the technology we used; however, it can be co-related any of the similar DLT solutions.</p>
 <h4 id="the-product-business-and-technology-alignment">The Product, Business, and Technology Alignment</h4>
@@ -574,11 +565,11 @@ if (!doNotTrack) {
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
+          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
+          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
         </li>
 	    
 	     <li  class="mb2">
@@ -1158,11 +1149,11 @@ if (!doNotTrack) {
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
+          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
+          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
         </li>
 	    
 	     <li  class="mb2">

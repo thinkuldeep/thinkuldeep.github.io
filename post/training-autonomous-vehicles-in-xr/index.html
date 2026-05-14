@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="XR simulation for training the machines">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Training autonomous vehicles with XR simulation" />
 <meta property="og:description" content="XR simulation for training the machines" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/training-autonomous-vehicles-in-xr/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/xr-simulation-1.gif" />
+<meta property="og:url" content="https://thinkuldeep.com//post/training-autonomous-vehicles-in-xr/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/xr-simulation-1.gif" />
 <meta property="article:published_time" content="2021-02-25T10:58:08-04:00" />
-<meta property="article:modified_time" content="2021-02-25T10:58:08-04:00" /><meta itemprop="name" content="Training autonomous vehicles with XR simulation">
-<meta itemprop="description" content="XR simulation for training the machines"><meta itemprop="datePublished" content="2021-02-25T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2021-02-25T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1057">
-<meta itemprop="keywords" content="xr,ar,vr,simulation,autonomous,vehicle,thoughtworks,enterprise," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Training autonomous vehicles with XR simulation"/>
-<meta name="twitter:description" content="XR simulation for training the machines"/>
+<meta property="article:modified_time" content="2021-02-25T10:58:08-04:00" />
+  <meta itemprop="name" content="Training autonomous vehicles with XR simulation">
+  <meta itemprop="description" content="XR simulation for training the machines">
+  <meta itemprop="datePublished" content="2021-02-25T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2021-02-25T10:58:08-04:00">
+  <meta itemprop="wordCount" content="1057">
+  <meta itemprop="keywords" content="Xr,Ar,Vr,Simulation,Autonomous,Vehicle,Thoughtworks,Enterprise"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Training autonomous vehicles with XR simulation">
+<meta name="twitter:description" content="XR simulation for training the machines">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -314,16 +305,16 @@ if (!doNotTrack) {
         <span class="f6 mv4 dib tracked"> - 1057 words </span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><img src="/images/xr-simulation-1.gif" alt="Image"></p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><img alt="Image" src="/images/xr-simulation-1.gif"></p>
 <p>Self driving cars are a good example of what artificial intelligence can accomplish today. Such tech-centered advances are built on the back of highly trained Machine Learning (ML) algorithms.</p>
 <p>These algorithms require exhaustive data that help the AI effectively model all possible scenarios. Accessing and pooling all that data needs complex and very expensive real-world hardware setups, aside from the extensive time it takes to gather the necessary training-data in the cloud (to train ML). Additionally during the learning process, hardware is prone to accidents, wear and tear which raises the cost and lead time in training the AI.</p>
 <p>Technology leaders like <a href="https://www.ge.com/research/offering/digital-twin-creation">GE</a> have side stepped this hurdle by simulating real world scenarios using controlled-environment setups. This controlled environment simulations coined the term ‘<a href="https://www.forbes.com/sites/bernardmarr/2017/03/06/what-is-digital-twin-technology-and-why-is-it-so-important/#41dba0a22e2a">Digital Twins</a>’.
 A digital twin can model a physical object, process, or person with abstractions that might be necessary to bring the real world behaviour in digital simulation. This is useful to data scientists who model and generate the needed data to train complex AI in a cost effective way.</p>
 <p>An example is GE’s <a href="https://www.ge.com/digital/blog/what-digital-twin">Asset Digital Twin</a> – the software representation of a physical asset (like turbines). Infact, GE was able to demonstrate a savings of $<a href="https://www.ge.com/digital/industrial-managed-services-remote-monitoring-for-iiot/">1.6 billion</a> by using digital twins for remote monitoring.
-<img src="/images/xr-simulation-2.png" alt="Image"></p>
+<img alt="Image" src="/images/xr-simulation-2.png"></p>
 <p>Research predicts the digital twin market will hit $<a href="https://www.grandviewresearch.com/industry-analysis/digital-twin-market">26 billion</a> by 2025, and major consumers of this technology being the automotive and manufacturing sector.</p>
 <h2 id="tools-at-hand-for-digital-twins">Tools at hand for digital twins</h2>
-<p>Through experimentation, <a href="/post/extending_reality_with_ar_and_vr-1">Extended Reality (XR)</a> and tools used to create XR have been found best suited to leverage digital twins with ease. Also, one of the most popular tools used to create digital twins is [Unity3D[(https://unity.com/)], also mentioned in <a href="https://www.thoughtworks.com/radar/platforms/unity-beyond-gaming">ThoughtWorks Technology Radar</a>.</p>
+<p>Through experimentation, <a href="/post/extending_reality_with_ar_and_vr-1/">Extended Reality (XR)</a> and tools used to create XR have been found best suited to leverage digital twins with ease. Also, one of the most popular tools used to create digital twins is [Unity3D[(https://unity.com/)], also mentioned in <a href="https://www.thoughtworks.com/radar/platforms/unity-beyond-gaming">ThoughtWorks Technology Radar</a>.</p>
 <p>Unity3D ensures an easier production of AI for prototyping in robotics, autonomous vehicles and other industrial applications.</p>
 <h2 id="use-case-autonomous-vehicle-parking">Use case: autonomous vehicle parking</h2>
 <p>Self driving cars have a wide domain of variables to consider — lane detection, lane following, signal detection, obstacle detection etc. In our experiment at ThoughtWorks, we attempted to solve one of the problems; train a typical sedan-like-car to autonomously park itself in a parking lot through XR simulation.</p>
@@ -340,9 +331,9 @@ A digital twin can model a physical object, process, or person with abstractions
 <li>Ray cast sensors (rays projecting out from the car body for obstacle detection) in all four directions of the car. In the real world, ray cast sensors would be the <a href="https://en.wikipedia.org/wiki/Lidar">LIDAR</a>-like vision sensors.</li>
 </ul>
 <p>The picture below, displays the ray cast sensors attached to the car:</p>
-<p><img src="/images/xr-simulation-3.gif" alt="Image">
+<p><img alt="Image" src="/images/xr-simulation-3.gif">
 Raycast sensors in all sides of the car to detect obstacles</p>
-<p><img src="/images/xr-simulation-1.gif" alt="Image">
+<p><img alt="Image" src="/images/xr-simulation-1.gif">
 Ray cast sensors in action during simulation</p>
 <p>The car’s digital twin was set up in the learning environment. A neural network configuration of four hidden layers and 512 neurons per hidden layer was configured. The reinforcement training was configured to run 10 million cycles.</p>
 <p>The Reinforcement Learning (RL) was set up to run in episodes that would end or re-start based on the following parameters:</p>
@@ -365,18 +356,18 @@ Ray cast sensors in action during simulation</p>
 </li>
 </ul>
 <p>A training farm was set up with 16 agents to speed up the learning process. A simulation manager randomized the training environment with parking lots having varying lot occupancy and the agent was placed at random spots in the parking area between episodes - to ensure the learning covered a wide array of scenarios.</p>
-<p><img src="/images/xr-simulation-4.gif" alt="Image">
+<p><img alt="Image" src="/images/xr-simulation-4.gif">
 Reinforcement learning with multiple agents parallelly</p>
 <p>The tensor graph after 5 million cycles looked like this:
-<img src="/images/xr-simulation-5.png" alt="Image"></p>
+<img alt="Image" src="/images/xr-simulation-5.png"></p>
 <p>Not only had the agent increased its reward, it had also optimized the number of steps to reach the optimal solution (right hand side of graph). On an average it took 40 signals (like accelerate, steer, brake) to take the agent from the entrance to the empty parking lot.</p>
 <p>Here are some interesting captures taken during training:
 ​
-<img src="/images/xr-simulation-6.gif" alt="Image">
+<img alt="Image" src="/images/xr-simulation-6.gif">
 Agent has leant to park both side of the parking lot</p>
-<p><img src="/images/xr-simulation-7.gif" alt="Image">
+<p><img alt="Image" src="/images/xr-simulation-7.gif">
 Agent learnt to take elegant maneuvers by reversing</p>
-<p><img src="/images/xr-simulation-8.gif" alt="Image">
+<p><img alt="Image" src="/images/xr-simulation-8.gif">
 Agent learnt to park from random locations of the lot</p>
 <h2 id="way-forward">Way forward</h2>
 <p>We’ve just looked at how digital twins can effectively fast track production of artificial intelligence for use in autonomous vehicles at a prototyping stage. This applies to the industrial robotics space as well.</p>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Lets understand Scala Language construct and write first few programs">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Scala - Getting Started - Part 1" />
 <meta property="og:description" content="Lets understand Scala Language construct and write first few programs" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/scala-getting-started-part1/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/scala.png" />
+<meta property="og:url" content="https://thinkuldeep.com//post/scala-getting-started-part1/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/scala.png" />
 <meta property="article:published_time" content="2013-05-06T10:58:08-04:00" />
-<meta property="article:modified_time" content="2013-05-06T10:58:08-04:00" /><meta itemprop="name" content="Scala - Getting Started - Part 1">
-<meta itemprop="description" content="Lets understand Scala Language construct and write first few programs"><meta itemprop="datePublished" content="2013-05-06T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2013-05-06T10:58:08-04:00" />
-<meta itemprop="wordCount" content="3687">
-<meta itemprop="keywords" content="scala,java,introduction,language,comparison,technology,interoperability," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Scala - Getting Started - Part 1"/>
-<meta name="twitter:description" content="Lets understand Scala Language construct and write first few programs"/>
+<meta property="article:modified_time" content="2013-05-06T10:58:08-04:00" />
+  <meta itemprop="name" content="Scala - Getting Started - Part 1">
+  <meta itemprop="description" content="Lets understand Scala Language construct and write first few programs">
+  <meta itemprop="datePublished" content="2013-05-06T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2013-05-06T10:58:08-04:00">
+  <meta itemprop="wordCount" content="3687">
+  <meta itemprop="keywords" content="Scala,Java,Introduction,Language,Comparison,Technology,Interoperability"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Scala - Getting Started - Part 1">
+<meta name="twitter:description" content="Lets understand Scala Language construct and write first few programs">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -368,7 +359,7 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * There is nothing called &#39;static&#39; in scala, This way we are creating singleton object
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span>object MainClass <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>object MainClass {
 </span></span><span style="display:flex;"><span>  <span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * args is a method parameter of type Array[String].
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * That is to say, args is a string array.
@@ -376,19 +367,19 @@ if (!doNotTrack) {
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * &#39;:Unit&#39; defines the return type of the main function
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   *  Unit is like void but its more than that.
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   */</span>
-</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>args<span style="color:#f92672">:</span>Array<span style="color:#f92672">[</span>String<span style="color:#f92672">]):</span>Unit <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//declaration of String variable firstName
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    var firstName<span style="color:#f92672">:</span> String <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Kuldeep&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// similar declaration as above String. However, we don’t explicitly
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// specify any type.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// This is because we’re taking advantage of Scala’s type inference mechanism
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    var lastName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Singh&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// val represents the declaration of constant
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// Think of it like a shorter form of Java’s final modifier
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    val greeting<span style="color:#f92672">:</span>String <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello&#34;</span>
-</span></span><span style="display:flex;"><span>    println<span style="color:#f92672">(</span>greeting <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> firstName <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> lastName<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">main</span>(args:Array<span style="color:#f92672">[</span>String<span style="color:#f92672">]</span>):Unit <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//declaration of String variable firstName</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> firstName: String <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Kuldeep&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// similar declaration as above String. However, we don’t explicitly</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// specify any type.</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// This is because we’re taking advantage of Scala’s type inference mechanism</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> lastName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Singh&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// val represents the declaration of constant</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Think of it like a shorter form of Java’s final modifier</span>
+</span></span><span style="display:flex;"><span>    val greeting:String <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello&#34;</span>
+</span></span><span style="display:flex;"><span>    println(greeting <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> firstName <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> lastName)
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h4 id="hello-world--with-application-class">Hello World ( with Application class)</h4>
 <p>Below program show the use of <code>Application</code> class (trait) in Scala. Inspite of declaring main function in above example we can take advantage of ‘Application’ class.</p>
 <ul>
@@ -396,43 +387,43 @@ if (!doNotTrack) {
 <li>Drawback of using Application  class to make program executable is that there is no way to obtain the command-line arguments because all code in body of an object extending Application is run as part of the static initialization which occurs before Application&rsquo;s main method even begins execution.</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.scala
-</span></span><span style="display:flex;"><span>object MainClass <span style="color:#66d9ef">extends</span> Application <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//declaration of String variable firstName
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    var firstName<span style="color:#f92672">:</span> String <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Kuldeep&#34;</span><span style="color:#f92672">;</span>    
-</span></span><span style="display:flex;"><span>    var lastName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Singh&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    val greeting<span style="color:#f92672">:</span>String <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello&#34;</span>
-</span></span><span style="display:flex;"><span>    println<span style="color:#f92672">(</span>greeting <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> firstName <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> lastName<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>object MainClass <span style="color:#66d9ef">extends</span> Application {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//declaration of String variable firstName</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> firstName: String <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Kuldeep&#34;</span>;    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> lastName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Singh&#34;</span>;
+</span></span><span style="display:flex;"><span>    val greeting:String <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello&#34;</span>
+</span></span><span style="display:flex;"><span>    println(greeting <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> firstName <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> lastName)
 </span></span><span style="display:flex;"><span>  
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p> </p>
 <h6 id="byte-code-generation">Byte code generation</h6>
 <p><code>.Scala</code> file is converted into <code>.class</code> file as JVM only understands byte code. This is how ‘.class’ look file when decompiled with the java decompiler.
 We can see here the singleton class MainClass as mentioned above ‘Object’ keyword in Scala in equivalent to singleton class in java.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.scala<span style="color:#f92672">;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.scala;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> scala.Predef.<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> scala.collection.mutable.StringBuilder<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// Singleton class
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">final</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MainClass$</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span>  MODULE$<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> scala.Predef.;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> scala.collection.mutable.StringBuilder;
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Singleton class</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">final</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MainClass$</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span>  MODULE$;
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">static</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">new</span> <span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    String firstName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Kuldeep&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    String lastName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Singh&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    String greeting <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    Predef<span style="color:#f92672">..</span><span style="color:#a6e22e">MODULE$</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> StringBuilder<span style="color:#f92672">().</span><span style="color:#a6e22e">append</span><span style="color:#f92672">(</span>greeting<span style="color:#f92672">).</span><span style="color:#a6e22e">append</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34; &#34;</span><span style="color:#f92672">).</span><span style="color:#a6e22e">append</span><span style="color:#f92672">(</span>firstName<span style="color:#f92672">).</span><span style="color:#a6e22e">append</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34; &#34;</span><span style="color:#f92672">).</span><span style="color:#a6e22e">append</span><span style="color:#f92672">(</span>lastName<span style="color:#f92672">).</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e">// private constructor of singleton class
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">private</span> <span style="color:#a6e22e">MainClass$</span><span style="color:#f92672">()</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    MODULE$ <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">new</span> ();
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args)
+</span></span><span style="display:flex;"><span>  {
+</span></span><span style="display:flex;"><span>    String firstName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Kuldeep&#34;</span>;
+</span></span><span style="display:flex;"><span>    String lastName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Singh&#34;</span>;
+</span></span><span style="display:flex;"><span>    String greeting <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello&#34;</span>;
+</span></span><span style="display:flex;"><span>    Predef..<span style="color:#a6e22e">MODULE$</span>.<span style="color:#a6e22e">println</span>(<span style="color:#66d9ef">new</span> StringBuilder().<span style="color:#a6e22e">append</span>(greeting).<span style="color:#a6e22e">append</span>(<span style="color:#e6db74">&#34; &#34;</span>).<span style="color:#a6e22e">append</span>(firstName).<span style="color:#a6e22e">append</span>(<span style="color:#e6db74">&#34; &#34;</span>).<span style="color:#a6e22e">append</span>(lastName).<span style="color:#a6e22e">toString</span>());
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>   <span style="color:#75715e">// private constructor of singleton class</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> <span style="color:#a6e22e">MainClass$</span>()
+</span></span><span style="display:flex;"><span>  {
+</span></span><span style="display:flex;"><span>    MODULE$ <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p> </p>
 <h4 id="encapsulation-in-scala">Encapsulation in Scala</h4>
 <p>This example demonstrate simple encapsulation concept using Scala program</p>
@@ -440,67 +431,67 @@ We can see here the singleton class MainClass as mentioned above ‘Object’ ke
 <li>Declaration of private member in scala and defining its setter getter</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.scala
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Product</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// declaration of private Int variable price
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#66d9ef">private</span> var _price<span style="color:#f92672">:</span> Int <span style="color:#f92672">=</span> 0
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// definition of getter method for price
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// method name price returning Int variable price
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  def price <span style="color:#f92672">=</span> _price
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// above declaration is same as
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// def price:Int = {_price};
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// definition of setter method
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// here underscore is acting like a reserve keyword
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  def price_<span style="color:#f92672">=(</span>value<span style="color:#f92672">:</span> Int<span style="color:#f92672">):</span> Unit <span style="color:#f92672">=</span> _price <span style="color:#f92672">=</span> value
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Product</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// declaration of private Int variable price</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">var</span> _price: Int <span style="color:#f92672">=</span> 0
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// definition of getter method for price</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// method name price returning Int variable price</span>
+</span></span><span style="display:flex;"><span>  def price <span style="color:#f92672">=</span> _price
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// above declaration is same as</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// def price:Int = {_price};</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// definition of setter method</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// here underscore is acting like a reserve keyword</span>
+</span></span><span style="display:flex;"><span>  def price_<span style="color:#f92672">=</span>(value: Int): Unit <span style="color:#f92672">=</span> _price <span style="color:#f92672">=</span> value
+</span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Main object
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span>object AppMainClass <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>args<span style="color:#f92672">:</span> Array<span style="color:#f92672">[</span>String<span style="color:#f92672">])</span> <span style="color:#f92672">=</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      var product <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Product<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#75715e">// calling setter to set value
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      product<span style="color:#f92672">.</span><span style="color:#a6e22e">price</span> <span style="color:#f92672">=</span> 12<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>      print<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Price of product is: &#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>      println<span style="color:#f92672">(</span>product<span style="color:#f92672">.</span><span style="color:#a6e22e">price</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>object AppMainClass {
+</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">main</span>(args: Array<span style="color:#f92672">[</span>String<span style="color:#f92672">]</span>) <span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">var</span> product <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Product();
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">// calling setter to set value</span>
+</span></span><span style="display:flex;"><span>      product.<span style="color:#a6e22e">price</span> <span style="color:#f92672">=</span> 12;
+</span></span><span style="display:flex;"><span>      print(<span style="color:#e6db74">&#34;Price of product is: &#34;</span>)
+</span></span><span style="display:flex;"><span>      println(product.<span style="color:#a6e22e">price</span>)
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h6 id="byte-code">Byte code</h6>
 <p>This is how .class looks when decompiled with java decompiler.
  </p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Product</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">int</span> _price <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">_price</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span> <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">_price</span><span style="color:#f92672">;</span> <span style="color:#f92672">}</span> 
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">_price_$eq</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> x$1<span style="color:#f92672">)</span> <span style="color:#f92672">{</span> <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">_price</span> <span style="color:#f92672">=</span> x$1<span style="color:#f92672">;</span> <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">price</span><span style="color:#f92672">()</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> _price<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">price_$eq</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> value<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    _price_$eq<span style="color:#f92672">(</span>value<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">int</span> _price <span style="color:#f92672">=</span> 0;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">_price</span>() { <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">_price</span>; } 
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">_price_$eq</span>(<span style="color:#66d9ef">int</span> x$1) { <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">_price</span> <span style="color:#f92672">=</span> x$1; }
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">price</span>()
+</span></span><span style="display:flex;"><span>  {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> _price();
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">price_$eq</span>(<span style="color:#66d9ef">int</span> value)
+</span></span><span style="display:flex;"><span>  {
+</span></span><span style="display:flex;"><span>    _price_$eq(value);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">final</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AppMainFx$</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span>  MODULE$<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span>  MODULE$;
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">static</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">new</span> <span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    Product product <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Product<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>    product<span style="color:#f92672">.</span><span style="color:#a6e22e">price_$eq</span><span style="color:#f92672">(</span>12<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    Predef<span style="color:#f92672">..</span><span style="color:#a6e22e">MODULE$</span><span style="color:#f92672">.</span><span style="color:#a6e22e">print</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Price of product is: &#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    Predef<span style="color:#f92672">..</span><span style="color:#a6e22e">MODULE$</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>BoxesRunTime<span style="color:#f92672">.</span><span style="color:#a6e22e">boxToInteger</span><span style="color:#f92672">(</span>product<span style="color:#f92672">.</span><span style="color:#a6e22e">price</span><span style="color:#f92672">()));</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> <span style="color:#a6e22e">AppMainFx$</span><span style="color:#f92672">()</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    MODULE$ <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">new</span> ();
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args)
+</span></span><span style="display:flex;"><span>  {
+</span></span><span style="display:flex;"><span>    Product product <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Product();
+</span></span><span style="display:flex;"><span>    product.<span style="color:#a6e22e">price_$eq</span>(12);
+</span></span><span style="display:flex;"><span>    Predef..<span style="color:#a6e22e">MODULE$</span>.<span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;Price of product is: &#34;</span>);
+</span></span><span style="display:flex;"><span>    Predef..<span style="color:#a6e22e">MODULE$</span>.<span style="color:#a6e22e">println</span>(BoxesRunTime.<span style="color:#a6e22e">boxToInteger</span>(product.<span style="color:#a6e22e">price</span>()));
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> <span style="color:#a6e22e">AppMainFx$</span>()
+</span></span><span style="display:flex;"><span>  {
+</span></span><span style="display:flex;"><span>    MODULE$ <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p> </p>
 <h4 id="general-oops-in-scala">General OOPs in Scala</h4>
 <p>This example demonstrate simple OOPS concept using Scala program</p>
@@ -514,9 +505,9 @@ We can see here the singleton class MainClass as mentioned above ‘Object’ ke
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Abstract Class declaration
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Person</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// constant declaration of type string using keyword ‘val’
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  val SPACE<span style="color:#f92672">:</span> String <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34; &#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Person</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// constant declaration of type string using keyword ‘val’</span>
+</span></span><span style="display:flex;"><span>  val SPACE: String <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34; &#34;</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * These are a public variable (Scala elements are public by default)
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * 
@@ -524,11 +515,11 @@ We can see here the singleton class MainClass as mentioned above ‘Object’ ke
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * less verbose than Java’s. Effectively, all public variables become instance 
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * properties.
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   */</span>
-</span></span><span style="display:flex;"><span>  var firstName<span style="color:#f92672">:</span> String <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span>
-</span></span><span style="display:flex;"><span>  var lastName<span style="color:#f92672">:</span> String <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// abstract method
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  def <span style="color:#a6e22e">getDetails</span><span style="color:#f92672">():</span> Unit
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">var</span> firstName: String <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">var</span> lastName: String <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// abstract method</span>
+</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">getDetails</span>(): Unit
+</span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Concrete Employee class extending person class
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * 
@@ -537,12 +528,12 @@ We can see here the singleton class MainClass as mentioned above ‘Object’ ke
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * The constructor isn’t a special method syntactically like in java,
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * it is the body of the class itself.
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Employee</span><span style="color:#f92672">(</span>firstName<span style="color:#f92672">:</span> String<span style="color:#f92672">,</span> lastName<span style="color:#f92672">:</span> String<span style="color:#f92672">)</span> <span style="color:#66d9ef">extends</span> Person <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  val profession<span style="color:#f92672">:</span>String <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Employee&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// implementation of abstract methods
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  def <span style="color:#a6e22e">getDetails</span><span style="color:#f92672">()</span> <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Personal Details: &#34;</span> <span style="color:#f92672">+</span> firstName <span style="color:#f92672">+</span> SPACE <span style="color:#f92672">+</span> lastName<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Employee</span>(firstName: String, lastName: String) <span style="color:#66d9ef">extends</span> Person {
+</span></span><span style="display:flex;"><span>  val profession:String <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Employee&#34;</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// implementation of abstract methods</span>
+</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">getDetails</span>() <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Personal Details: &#34;</span> <span style="color:#f92672">+</span> firstName <span style="color:#f92672">+</span> SPACE <span style="color:#f92672">+</span> lastName)
+</span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>  <span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * Override is actually a keyword.
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * It is a mandatory method modifier for any method with a signature which
@@ -550,27 +541,27 @@ We can see here the singleton class MainClass as mentioned above ‘Object’ ke
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * Thus overriding in Scala isn’t implicit (as in Java, Ruby, C++, etc), but explicitly declared.
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   */</span>
 </span></span><span style="display:flex;"><span>  override def toString <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;[&#34;</span> <span style="color:#f92672">+</span> profession <span style="color:#f92672">+</span><span style="color:#e6db74">&#34;: firstName=&#34;</span> <span style="color:#f92672">+</span> firstName <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; lastName=&#34;</span> <span style="color:#f92672">+</span> lastName <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;]&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Concrete Teacher class extending person class
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Teacher</span><span style="color:#f92672">(</span>firstName<span style="color:#f92672">:</span> String<span style="color:#f92672">,</span> lastName<span style="color:#f92672">:</span> String<span style="color:#f92672">)</span> <span style="color:#66d9ef">extends</span> Person <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  val profession<span style="color:#f92672">:</span>String <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Teacher&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">getDetails</span><span style="color:#f92672">()</span> <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Personal Details: &#34;</span> <span style="color:#f92672">+</span> firstName <span style="color:#f92672">+</span> SPACE <span style="color:#f92672">+</span> lastName<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Teacher</span>(firstName: String, lastName: String) <span style="color:#66d9ef">extends</span> Person {
+</span></span><span style="display:flex;"><span>  val profession:String <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Teacher&#34;</span>;
+</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">getDetails</span>() <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Personal Details: &#34;</span> <span style="color:#f92672">+</span> firstName <span style="color:#f92672">+</span> SPACE <span style="color:#f92672">+</span> lastName)
+</span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>  override def toString <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;[&#34;</span> <span style="color:#f92672">+</span> profession <span style="color:#f92672">+</span><span style="color:#e6db74">&#34;: firstName=&#34;</span> <span style="color:#f92672">+</span> firstName <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; lastName=&#34;</span> <span style="color:#f92672">+</span> lastName <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;]&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>object App <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>args<span style="color:#f92672">:</span> Array<span style="color:#f92672">[</span>String<span style="color:#f92672">])</span> <span style="color:#f92672">=</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      var emp <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Employee<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Kuldeep&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Singh&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>      println<span style="color:#f92672">(</span>emp<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>      var teacher <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Teacher<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Kuldeep&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Thinker&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>      println<span style="color:#f92672">(</span>teacher<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>object App {
+</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">main</span>(args: Array<span style="color:#f92672">[</span>String<span style="color:#f92672">]</span>) <span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">var</span> emp <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Employee(<span style="color:#e6db74">&#34;Kuldeep&#34;</span>, <span style="color:#e6db74">&#34;Singh&#34;</span>);
+</span></span><span style="display:flex;"><span>      println(emp);
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">var</span> teacher <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Teacher(<span style="color:#e6db74">&#34;Kuldeep&#34;</span>, <span style="color:#e6db74">&#34;Thinker&#34;</span>)
+</span></span><span style="display:flex;"><span>      println(teacher)
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h4 id="collections-in-scala">Collections in Scala</h4>
 <p>This example demonstrates some Collections in scala.</p>
 <ul>
@@ -592,16 +583,16 @@ We can see here the singleton class MainClass as mentioned above ‘Object’ ke
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Class demonstrating list
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ScalaList</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ScalaList</span> {
 </span></span><span style="display:flex;"><span>  <span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * Creation list of types string
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   */</span>
-</span></span><span style="display:flex;"><span>  val fruit1<span style="color:#f92672">:</span> List<span style="color:#f92672">[</span>String<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> List<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;apples&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;oranges&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;pears&#34;</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>  val fruit1: List<span style="color:#f92672">[</span>String<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> List(<span style="color:#e6db74">&#34;apples&#34;</span>, <span style="color:#e6db74">&#34;oranges&#34;</span>, <span style="color:#e6db74">&#34;pears&#34;</span>)
 </span></span><span style="display:flex;"><span>  <span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * All lists can be defined using two fundamental building blocks,
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * a tail Nil and :: which is pronounced cons. Nil also represents the empty list.
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   */</span>
-</span></span><span style="display:flex;"><span>  val fruit2 <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;apples&#34;</span> <span style="color:#f92672">::</span> <span style="color:#f92672">(</span><span style="color:#e6db74">&#34;oranges&#34;</span> <span style="color:#f92672">::</span> <span style="color:#f92672">(</span><span style="color:#e6db74">&#34;pears&#34;</span> <span style="color:#f92672">::</span> Nil<span style="color:#f92672">))</span>
+</span></span><span style="display:flex;"><span>  val fruit2 <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;apples&#34;</span> :: (<span style="color:#e6db74">&#34;oranges&#34;</span> :: (<span style="color:#e6db74">&#34;pears&#34;</span> :: Nil))
 </span></span><span style="display:flex;"><span>  val empty <span style="color:#f92672">=</span> Nil
 </span></span><span style="display:flex;"><span>  <span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * Operations supported on list
@@ -609,110 +600,110 @@ We can see here the singleton class MainClass as mentioned above ‘Object’ ke
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   *
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * Some operations
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   */</span>
-</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">Operations</span><span style="color:#f92672">():</span> Unit <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Head of fruit : &#34;</span> <span style="color:#f92672">+</span> fruit1<span style="color:#f92672">.</span><span style="color:#a6e22e">head</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Tail of fruit : &#34;</span> <span style="color:#f92672">+</span> fruit1<span style="color:#f92672">.</span><span style="color:#a6e22e">tail</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Check if fruit is empty : &#34;</span> <span style="color:#f92672">+</span> fruit1<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Check if nums is empty : &#34;</span> <span style="color:#f92672">+</span> fruit1<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Check if nums is empty : &#34;</span> <span style="color:#f92672">+</span> empty<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">Operations</span>(): Unit <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Head of fruit : &#34;</span> <span style="color:#f92672">+</span> fruit1.<span style="color:#a6e22e">head</span>)
+</span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Tail of fruit : &#34;</span> <span style="color:#f92672">+</span> fruit1.<span style="color:#a6e22e">tail</span>)
+</span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Check if fruit is empty : &#34;</span> <span style="color:#f92672">+</span> fruit1.<span style="color:#a6e22e">isEmpty</span>)
+</span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Check if nums is empty : &#34;</span> <span style="color:#f92672">+</span> fruit1.<span style="color:#a6e22e">isEmpty</span>)
+</span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Check if nums is empty : &#34;</span> <span style="color:#f92672">+</span> empty.<span style="color:#a6e22e">isEmpty</span>)
 </span></span><span style="display:flex;"><span>    traverseList
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">traverseList</span><span style="color:#f92672">()</span> <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    val iterator <span style="color:#f92672">=</span> fruit1<span style="color:#f92672">.</span><span style="color:#a6e22e">iterator</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> <span style="color:#f92672">(</span>iterator<span style="color:#f92672">.</span><span style="color:#a6e22e">hasNext</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      print<span style="color:#f92672">(</span>iterator<span style="color:#f92672">.</span><span style="color:#a6e22e">next</span><span style="color:#f92672">())</span>
-</span></span><span style="display:flex;"><span>      print<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;-&gt;&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">traverseList</span>() <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    val iterator <span style="color:#f92672">=</span> fruit1.<span style="color:#a6e22e">iterator</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> (iterator.<span style="color:#a6e22e">hasNext</span>) {
+</span></span><span style="display:flex;"><span>      print(iterator.<span style="color:#a6e22e">next</span>())
+</span></span><span style="display:flex;"><span>      print(<span style="color:#e6db74">&#34;-&gt;&#34;</span>)
+</span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>    println
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Class demonstrating sets
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ScalaSet</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Empty set of integer type
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  var emptySet<span style="color:#f92672">:</span> Set<span style="color:#f92672">[</span>Int<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> Set<span style="color:#f92672">()</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Set of integer type
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  var oddIntegerSet<span style="color:#f92672">:</span> Set<span style="color:#f92672">[</span>Int<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> Set<span style="color:#f92672">(</span>1<span style="color:#f92672">,</span> 3<span style="color:#f92672">,</span> 5<span style="color:#f92672">,</span> 7<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>  var evenIntegerSet<span style="color:#f92672">:</span> Set<span style="color:#f92672">[</span>Int<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> Set<span style="color:#f92672">(</span>2<span style="color:#f92672">,</span> 4<span style="color:#f92672">,</span> 6<span style="color:#f92672">,</span> 8<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">operations</span><span style="color:#f92672">():</span> Unit <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Head of fruit : &#34;</span> <span style="color:#f92672">+</span> oddIntegerSet<span style="color:#f92672">.</span><span style="color:#a6e22e">head</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Tail of fruit : &#34;</span> <span style="color:#f92672">+</span> oddIntegerSet<span style="color:#f92672">.</span><span style="color:#a6e22e">tail</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Check if fruit is empty : &#34;</span> <span style="color:#f92672">+</span> oddIntegerSet<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Check if nums is empty : &#34;</span> <span style="color:#f92672">+</span> oddIntegerSet<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Check if nums is empty : &#34;</span> <span style="color:#f92672">+</span> emptySet<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//Concatenating Sets
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    var concatinatedList <span style="color:#f92672">=</span> oddIntegerSet <span style="color:#f92672">++</span> evenIntegerSet
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Concatinated List : &#34;</span> <span style="color:#f92672">+</span> concatinatedList<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ScalaSet</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Empty set of integer type</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">var</span> emptySet: Set<span style="color:#f92672">[</span>Int<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> Set()
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Set of integer type</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">var</span> oddIntegerSet: Set<span style="color:#f92672">[</span>Int<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> Set(1, 3, 5, 7)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">var</span> evenIntegerSet: Set<span style="color:#f92672">[</span>Int<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> Set(2, 4, 6, 8)
+</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">operations</span>(): Unit <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Head of fruit : &#34;</span> <span style="color:#f92672">+</span> oddIntegerSet.<span style="color:#a6e22e">head</span>)
+</span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Tail of fruit : &#34;</span> <span style="color:#f92672">+</span> oddIntegerSet.<span style="color:#a6e22e">tail</span>)
+</span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Check if fruit is empty : &#34;</span> <span style="color:#f92672">+</span> oddIntegerSet.<span style="color:#a6e22e">isEmpty</span>)
+</span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Check if nums is empty : &#34;</span> <span style="color:#f92672">+</span> oddIntegerSet.<span style="color:#a6e22e">isEmpty</span>)
+</span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Check if nums is empty : &#34;</span> <span style="color:#f92672">+</span> emptySet.<span style="color:#a6e22e">isEmpty</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//Concatenating Sets</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> concatinatedList <span style="color:#f92672">=</span> oddIntegerSet <span style="color:#f92672">++</span> evenIntegerSet
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Concatinated List : &#34;</span> <span style="color:#f92672">+</span> concatinatedList)
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Class demonstrating maps
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ScalaMap</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Empty hash table whose keys are strings and values are integers:
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">/**
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ScalaMap</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Empty hash table whose keys are strings and values are integers:</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * Note: While defining empty map, the type annotation is necessary
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * as the system needs to assign a concrete type to variable.
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   */</span>
-</span></span><span style="display:flex;"><span>  var emptyMap<span style="color:#f92672">:</span> Map<span style="color:#f92672">[</span>Char<span style="color:#f92672">,</span> Int<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> Map<span style="color:#f92672">()</span>
-</span></span><span style="display:flex;"><span>  val colors <span style="color:#f92672">=</span> Map<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;red&#34;</span> <span style="color:#f92672">-&gt;</span> <span style="color:#e6db74">&#34;#FF0000&#34;</span><span style="color:#f92672">,</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;azure&#34;</span> <span style="color:#f92672">-&gt;</span> <span style="color:#e6db74">&#34;#F0FFFF&#34;</span><span style="color:#f92672">,</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;peru&#34;</span> <span style="color:#f92672">-&gt;</span> <span style="color:#e6db74">&#34;#CD853F&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">operations</span><span style="color:#f92672">()</span> <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Keys in colors : &#34;</span> <span style="color:#f92672">+</span> colors<span style="color:#f92672">.</span><span style="color:#a6e22e">keys</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Values in colors : &#34;</span> <span style="color:#f92672">+</span> colors<span style="color:#f92672">.</span><span style="color:#a6e22e">values</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Check if colors is empty : &#34;</span> <span style="color:#f92672">+</span> colors<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Check if nums is empty : &#34;</span> <span style="color:#f92672">+</span> emptyMap<span style="color:#f92672">.</span><span style="color:#a6e22e">isEmpty</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">var</span> emptyMap: Map<span style="color:#f92672">[</span>Char, Int<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> Map()
+</span></span><span style="display:flex;"><span>  val colors <span style="color:#f92672">=</span> Map(<span style="color:#e6db74">&#34;red&#34;</span> <span style="color:#f92672">-&gt;</span> <span style="color:#e6db74">&#34;#FF0000&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;azure&#34;</span> <span style="color:#f92672">-&gt;</span> <span style="color:#e6db74">&#34;#F0FFFF&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;peru&#34;</span> <span style="color:#f92672">-&gt;</span> <span style="color:#e6db74">&#34;#CD853F&#34;</span>)
+</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">operations</span>() <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Keys in colors : &#34;</span> <span style="color:#f92672">+</span> colors.<span style="color:#a6e22e">keys</span>)
+</span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Values in colors : &#34;</span> <span style="color:#f92672">+</span> colors.<span style="color:#a6e22e">values</span>)
+</span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Check if colors is empty : &#34;</span> <span style="color:#f92672">+</span> colors.<span style="color:#a6e22e">isEmpty</span>)
+</span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Check if nums is empty : &#34;</span> <span style="color:#f92672">+</span> emptyMap.<span style="color:#a6e22e">isEmpty</span>)
 </span></span><span style="display:flex;"><span>    tranverseMap
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">tranverseMap</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Printing key value pair for map:::&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e">// using for each loop to traverse map
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    colors<span style="color:#f92672">.</span><span style="color:#a6e22e">keys</span><span style="color:#f92672">.</span><span style="color:#a6e22e">foreach</span> <span style="color:#f92672">{</span> i <span style="color:#f92672">=&gt;</span>
-</span></span><span style="display:flex;"><span>      print<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Key = &#34;</span> <span style="color:#f92672">+</span> i<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>      println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34; Value = &#34;</span> <span style="color:#f92672">+</span> colors<span style="color:#f92672">(</span>i<span style="color:#f92672">))</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">tranverseMap</span>() {
+</span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Printing key value pair for map:::&#34;</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#75715e">// using for each loop to traverse map</span>
+</span></span><span style="display:flex;"><span>    colors.<span style="color:#a6e22e">keys</span>.<span style="color:#a6e22e">foreach</span> { i <span style="color:#f92672">=&gt;</span>
+</span></span><span style="display:flex;"><span>      print(<span style="color:#e6db74">&#34;Key = &#34;</span> <span style="color:#f92672">+</span> i)
+</span></span><span style="display:flex;"><span>      println(<span style="color:#e6db74">&#34; Value = &#34;</span> <span style="color:#f92672">+</span> colors(i))
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Class demonstrating tuples
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">scalaTuple</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  val t <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Tuple3<span style="color:#f92672">(</span>1<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;hello&#34;</span><span style="color:#f92672">,</span> Console<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">//same tuple can be declared as
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  val t1 <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>1<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;hello&#34;</span><span style="color:#f92672">,</span> Console<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>  val intergerTuple <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>4<span style="color:#f92672">,</span> 3<span style="color:#f92672">,</span> 2<span style="color:#f92672">,</span> 1<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">operations</span><span style="color:#f92672">()</span> <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Print sum of elements in integer tuples&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    val sum <span style="color:#f92672">=</span> intergerTuple<span style="color:#f92672">.</span><span style="color:#a6e22e">_1</span> <span style="color:#f92672">+</span> intergerTuple<span style="color:#f92672">.</span><span style="color:#a6e22e">_2</span> <span style="color:#f92672">+</span> intergerTuple<span style="color:#f92672">.</span><span style="color:#a6e22e">_3</span> <span style="color:#f92672">+</span> intergerTuple<span style="color:#f92672">.</span><span style="color:#a6e22e">_4</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">scalaTuple</span> {
+</span></span><span style="display:flex;"><span>  val t <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Tuple3(1, <span style="color:#e6db74">&#34;hello&#34;</span>, Console)
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">//same tuple can be declared as</span>
+</span></span><span style="display:flex;"><span>  val t1 <span style="color:#f92672">=</span> (1, <span style="color:#e6db74">&#34;hello&#34;</span>, Console)
+</span></span><span style="display:flex;"><span>  val intergerTuple <span style="color:#f92672">=</span> (4, 3, 2, 1)
+</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">operations</span>() <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Print sum of elements in integer tuples&#34;</span>)
+</span></span><span style="display:flex;"><span>    val sum <span style="color:#f92672">=</span> intergerTuple.<span style="color:#a6e22e">_1</span> <span style="color:#f92672">+</span> intergerTuple.<span style="color:#a6e22e">_2</span> <span style="color:#f92672">+</span> intergerTuple.<span style="color:#a6e22e">_3</span> <span style="color:#f92672">+</span> intergerTuple.<span style="color:#a6e22e">_4</span>
 </span></span><span style="display:flex;"><span>    transverseTuple
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>  def transverseTuple <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Printing elements in tuples:::&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    intergerTuple<span style="color:#f92672">.</span><span style="color:#a6e22e">productIterator</span><span style="color:#f92672">.</span><span style="color:#a6e22e">foreach</span> <span style="color:#f92672">{</span> i <span style="color:#f92672">=&gt;</span> println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Value = &#34;</span> <span style="color:#f92672">+</span> i<span style="color:#f92672">)</span> <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>object CollectionMain <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>args<span style="color:#f92672">:</span> Array<span style="color:#f92672">[</span>String<span style="color:#f92672">])</span> <span style="color:#f92672">=</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      var scalaList <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ScalaList<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>      println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Printing operations on list::::&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>      scalaList<span style="color:#f92672">.</span><span style="color:#a6e22e">Operations</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>      var scalaSet <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ScalaSet<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>      println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>      println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Printing operations on Set::::&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>      scalaSet<span style="color:#f92672">.</span><span style="color:#a6e22e">operations</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>      var scalaMap <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ScalaMap<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>      println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>      println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Printing operations on Map::::&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>      scalaMap<span style="color:#f92672">.</span><span style="color:#a6e22e">operations</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>      var scalaTuple <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> scalaTuple<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>      println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>      println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Printing operations on Tuple::::&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>      scalaTuple<span style="color:#f92672">.</span><span style="color:#a6e22e">operations</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>	
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  def transverseTuple {
+</span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Printing elements in tuples:::&#34;</span>)
+</span></span><span style="display:flex;"><span>    intergerTuple.<span style="color:#a6e22e">productIterator</span>.<span style="color:#a6e22e">foreach</span> { i <span style="color:#f92672">=&gt;</span> println(<span style="color:#e6db74">&#34;Value = &#34;</span> <span style="color:#f92672">+</span> i) }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>object CollectionMain {
+</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">main</span>(args: Array<span style="color:#f92672">[</span>String<span style="color:#f92672">]</span>) <span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">var</span> scalaList <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ScalaList();
+</span></span><span style="display:flex;"><span>      println(<span style="color:#e6db74">&#34;Printing operations on list::::&#34;</span>)
+</span></span><span style="display:flex;"><span>      scalaList.<span style="color:#a6e22e">Operations</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">var</span> scalaSet <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ScalaSet();
+</span></span><span style="display:flex;"><span>      println(<span style="color:#e6db74">&#34;&#34;</span>);
+</span></span><span style="display:flex;"><span>      println(<span style="color:#e6db74">&#34;Printing operations on Set::::&#34;</span>)
+</span></span><span style="display:flex;"><span>      scalaSet.<span style="color:#a6e22e">operations</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">var</span> scalaMap <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ScalaMap();
+</span></span><span style="display:flex;"><span>      println(<span style="color:#e6db74">&#34;&#34;</span>);
+</span></span><span style="display:flex;"><span>      println(<span style="color:#e6db74">&#34;Printing operations on Map::::&#34;</span>)
+</span></span><span style="display:flex;"><span>      scalaMap.<span style="color:#a6e22e">operations</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">var</span> scalaTuple <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> scalaTuple();
+</span></span><span style="display:flex;"><span>      println(<span style="color:#e6db74">&#34;&#34;</span>);
+</span></span><span style="display:flex;"><span>      println(<span style="color:#e6db74">&#34;Printing operations on Tuple::::&#34;</span>)
+</span></span><span style="display:flex;"><span>      scalaTuple.<span style="color:#a6e22e">operations</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}	
 </span></span></code></pre></div><h4 id="file-operations--exception-handling">File operations &amp; Exception handling</h4>
 <ul>
 <li>Exceptions in Scala: Scala doesn&rsquo;t actually have checked exceptions. Scala allows you to try/catch any exception in a single block and then perform pattern matching against it using case blocks as shown below</li>
@@ -728,7 +719,7 @@ We can see here the singleton class MainClass as mentioned above ‘Object’ ke
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Scala example to show read and write operations on file
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">FileOperations</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">FileOperations</span> {
 </span></span><span style="display:flex;"><span>  
 </span></span><span style="display:flex;"><span>  <span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * create and add content to file
@@ -736,56 +727,56 @@ We can see here the singleton class MainClass as mentioned above ‘Object’ ke
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * This example depicts how we use java API in scala
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * We can use any java class/API in scala
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   */</span>
-</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">writeFile</span><span style="color:#f92672">(</span>filePath<span style="color:#f92672">:</span>String<span style="color:#f92672">,</span> content<span style="color:#f92672">:</span>String<span style="color:#f92672">)</span> <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// using java file object to create a file
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    var file<span style="color:#f92672">:</span>File <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> File<span style="color:#f92672">(</span>filePath<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>file<span style="color:#f92672">.</span><span style="color:#a6e22e">createNewFile</span><span style="color:#f92672">())</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;New file created&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;File alredy exists&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// using java print writer object to add content in file
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    var writer<span style="color:#f92672">:</span>PrintWriter <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> PrintWriter<span style="color:#f92672">(</span>file<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>content <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    	writer<span style="color:#f92672">.</span><span style="color:#a6e22e">write</span><span style="color:#f92672">(</span>content<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    writer<span style="color:#f92672">.</span><span style="color:#a6e22e">close</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">writeFile</span>(filePath:String, content:String) <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// using java file object to create a file</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> file:File <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> File(filePath);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (file.<span style="color:#a6e22e">createNewFile</span>()) {
+</span></span><span style="display:flex;"><span>      println(<span style="color:#e6db74">&#34;New file created&#34;</span>)
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>      println(<span style="color:#e6db74">&#34;File alredy exists&#34;</span>)
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// using java print writer object to add content in file</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> writer:PrintWriter <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> PrintWriter(file);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (content <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span>)
+</span></span><span style="display:flex;"><span>    	writer.<span style="color:#a6e22e">write</span>(content)
+</span></span><span style="display:flex;"><span>    writer.<span style="color:#a6e22e">close</span>();
+</span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>  <span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * reads the given file are return the content
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * of that file
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   */</span>
-</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">readFile</span><span style="color:#f92672">(</span>filePath<span style="color:#f92672">:</span> String<span style="color:#f92672">):</span> String <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// here is scala io class to readfrom file
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    var lines<span style="color:#f92672">:</span> String <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// there is no checked exception in scala
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      lines <span style="color:#f92672">=</span> scala<span style="color:#f92672">.</span><span style="color:#a6e22e">io</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Source</span><span style="color:#f92672">.</span><span style="color:#a6e22e">fromFile</span><span style="color:#f92672">(</span>filePath<span style="color:#f92672">).</span><span style="color:#a6e22e">mkString</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#75715e">// catch block for exception handing
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">case</span> ex<span style="color:#f92672">:</span> FileNotFoundException <span style="color:#f92672">=&gt;</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Missing file exception&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">case</span> ex<span style="color:#f92672">:</span> IOException <span style="color:#f92672">=&gt;</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;IO Exception&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span> <span style="color:#66d9ef">finally</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Exiting finally...&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// returning content of the file
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    lines
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">readFile</span>(filePath: String): String <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// here is scala io class to readfrom file</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> lines: String <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// there is no checked exception in scala</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>      lines <span style="color:#f92672">=</span> scala.<span style="color:#a6e22e">io</span>.<span style="color:#a6e22e">Source</span>.<span style="color:#a6e22e">fromFile</span>(filePath).<span style="color:#a6e22e">mkString</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">// catch block for exception handing</span>
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">catch</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">case</span> ex: FileNotFoundException <span style="color:#f92672">=&gt;</span> {
+</span></span><span style="display:flex;"><span>        println(<span style="color:#e6db74">&#34;Missing file exception&#34;</span>)
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">case</span> ex: IOException <span style="color:#f92672">=&gt;</span> {
+</span></span><span style="display:flex;"><span>        println(<span style="color:#e6db74">&#34;IO Exception&#34;</span>)
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">finally</span> {
+</span></span><span style="display:flex;"><span>      println(<span style="color:#e6db74">&#34;Exiting finally...&#34;</span>)
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// returning content of the file</span>
+</span></span><span style="display:flex;"><span>    lines
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Main object
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span>object FileOperationMain <span style="color:#66d9ef">extends</span> Application  <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>object FileOperationMain <span style="color:#66d9ef">extends</span> Application  {
 </span></span><span style="display:flex;"><span>  val filePath <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;e:\\test.txt&#34;</span>
-</span></span><span style="display:flex;"><span>  var fileOpts<span style="color:#f92672">:</span> FileOperations <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> FileOperations<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// calling api to create/write file
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  fileOpts<span style="color:#f92672">.</span><span style="color:#a6e22e">writeFile</span><span style="color:#f92672">(</span>filePath<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;File operation example for scala&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// calling api to read file
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  println<span style="color:#f92672">(</span>fileOpts<span style="color:#f92672">.</span><span style="color:#a6e22e">readFile</span><span style="color:#f92672">(</span>filePath<span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">var</span> fileOpts: FileOperations <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> FileOperations;
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// calling api to create/write file</span>
+</span></span><span style="display:flex;"><span>  fileOpts.<span style="color:#a6e22e">writeFile</span>(filePath, <span style="color:#e6db74">&#34;File operation example for scala&#34;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// calling api to read file</span>
+</span></span><span style="display:flex;"><span>  println(fileOpts.<span style="color:#a6e22e">readFile</span>(filePath));
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h4 id="triat">Triat</h4>
 <ul>
 <li>A trait encapsulates method and field definitions, which can then be reused by mixing them into classes. Unlike class inheritance, in which each class must inherit from just one superclass, a class can mix in any number of traits.
@@ -801,26 +792,26 @@ We can see here the singleton class MainClass as mentioned above ‘Object’ ke
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Trait can have abstract method as well
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * as well as concrete method
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span>trait Swimming <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">swim</span><span style="color:#f92672">()</span> <span style="color:#f92672">=</span> println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;I can swim&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>trait Swimming {
+</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">swim</span>() <span style="color:#f92672">=</span> println(<span style="color:#e6db74">&#34;I can swim&#34;</span>)
+</span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * fly trait
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span>trait Fly <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">fly</span><span style="color:#f92672">()</span> <span style="color:#f92672">=</span> println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;I can fly&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>trait Fly {
+</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">fly</span>() <span style="color:#f92672">=</span> println(<span style="color:#e6db74">&#34;I can fly&#34;</span>)
+</span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * abstract class bird
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Bird</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">//abstract method
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  def defineMe<span style="color:#f92672">:</span> String
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Bird</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">//abstract method</span>
+</span></span><span style="display:flex;"><span>  def defineMe: String
+</span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * class having bird as well as trait properties
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Penguin</span> <span style="color:#66d9ef">extends</span> Bird with Swimming <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Penguin</span> <span style="color:#66d9ef">extends</span> Bird with Swimming {
 </span></span><span style="display:flex;"><span>  <span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * Short hand syntax of function defination
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * Following line means function flyMessage is
@@ -835,67 +826,67 @@ We can see here the singleton class MainClass as mentioned above ‘Object’ ke
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">    // returning string value (No return keyword required)
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">    str
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">  }*/</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * class having all the traits
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Pigeon</span> <span style="color:#66d9ef">extends</span> Bird with Swimming with Fly <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Pigeon</span> <span style="color:#66d9ef">extends</span> Bird with Swimming with Fly {
 </span></span><span style="display:flex;"><span>  <span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * defining defineMe function
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   */</span>
 </span></span><span style="display:flex;"><span>  def defineMe <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;I am a Pigeon&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * AppMain class with main function
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span>object AppMain <span style="color:#66d9ef">extends</span> Application <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// penguin instance have on swim trait
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  var penguin <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Penguin
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>penguin<span style="color:#f92672">.</span><span style="color:#a6e22e">defineMe</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>  penguin<span style="color:#f92672">.</span><span style="color:#a6e22e">swim</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// pigeon instance have all traits
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  var pigeon <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Pigeon
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>pigeon<span style="color:#f92672">.</span><span style="color:#a6e22e">defineMe</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>  pigeon<span style="color:#f92672">.</span><span style="color:#a6e22e">fly</span>
-</span></span><span style="display:flex;"><span>  pigeon<span style="color:#f92672">.</span><span style="color:#a6e22e">swim</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>object AppMain <span style="color:#66d9ef">extends</span> Application {
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// penguin instance have on swim trait</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">var</span> penguin <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Penguin
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">println</span>(penguin.<span style="color:#a6e22e">defineMe</span>)
+</span></span><span style="display:flex;"><span>  penguin.<span style="color:#a6e22e">swim</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// pigeon instance have all traits</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">var</span> pigeon <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Pigeon
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">println</span>(pigeon.<span style="color:#a6e22e">defineMe</span>)
+</span></span><span style="display:flex;"><span>  pigeon.<span style="color:#a6e22e">fly</span>
+</span></span><span style="display:flex;"><span>  pigeon.<span style="color:#a6e22e">swim</span>
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h2 id="scala-and-java-interoperability">Scala and Java Interoperability</h2>
 <p>This example shows how we can use scala program with java programs and vice versa.</p>
 <ul>
 <li>As we know the Scala classes also get compiled to .class file and generates the same bytecode as java class. Thus the interoperability is smooth between two languages.</li>
 </ul>
 <p><strong>Java Class</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.java<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> com.tk.scala.ScalaLearner<span style="color:#f92672">;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.java;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> com.tk.scala.ScalaLearner;
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * The Class JavaLearner.
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">JavaLearner</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">private</span> String firstName<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">private</span> String lastName<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#a6e22e">JavaLearner</span><span style="color:#f92672">(</span>String firstName<span style="color:#f92672">,</span> String lastName<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">firstName</span> <span style="color:#f92672">=</span> firstName<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">lastName</span> <span style="color:#f92672">=</span> lastName<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">consoleAppender</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>		System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>firstName <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> lastName <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; is a java learner&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>		JavaLearner printJava <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> JavaLearner<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Kuldeep&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Singh&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		printJava<span style="color:#f92672">.</span><span style="color:#a6e22e">consoleAppender</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#75715e">// create instance of scala class
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		ScalaLearner printScala <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ScalaLearner<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Dhruv&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Bansal&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		printScala<span style="color:#f92672">.</span><span style="color:#a6e22e">consoleAppender</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">JavaLearner</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">private</span> String firstName;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">private</span> String lastName;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#a6e22e">JavaLearner</span>(String firstName, String lastName) {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">firstName</span> <span style="color:#f92672">=</span> firstName;
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">lastName</span> <span style="color:#f92672">=</span> lastName;
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">consoleAppender</span>() {
+</span></span><span style="display:flex;"><span>		System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(firstName <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> lastName <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; is a java learner&#34;</span>);
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>		JavaLearner printJava <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> JavaLearner(<span style="color:#e6db74">&#34;Kuldeep&#34;</span>, <span style="color:#e6db74">&#34;Singh&#34;</span>);
+</span></span><span style="display:flex;"><span>		printJava.<span style="color:#a6e22e">consoleAppender</span>();
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e">// create instance of scala class</span>
+</span></span><span style="display:flex;"><span>		ScalaLearner printScala <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ScalaLearner(<span style="color:#e6db74">&#34;Dhruv&#34;</span>, <span style="color:#e6db74">&#34;Bansal&#34;</span>);
+</span></span><span style="display:flex;"><span>		printScala.<span style="color:#a6e22e">consoleAppender</span>();
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><strong>Scala Class</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.scala
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ScalaLearner</span><span style="color:#f92672">(</span>firstName<span style="color:#f92672">:</span> String<span style="color:#f92672">,</span> lastName<span style="color:#f92672">:</span> String<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ScalaLearner</span>(firstName: String, lastName: String) {
 </span></span><span style="display:flex;"><span>  <span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * Scala API prints message on console
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">   */</span>
-</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">consoleAppender</span><span style="color:#f92672">()</span> <span style="color:#f92672">=</span> println<span style="color:#f92672">(</span>firstName <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> lastName <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;i am in scala learner&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">consoleAppender</span>() <span style="color:#f92672">=</span> println(firstName <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> lastName <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;i am in scala learner&#34;</span>)
+</span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * This Object is java representation of singleton object
@@ -903,117 +894,117 @@ We can see here the singleton class MainClass as mentioned above ‘Object’ ke
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * AppMain having singleton class AppMain having public
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * static void main method
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span>object AppMain <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>args<span style="color:#f92672">:</span> Array<span style="color:#f92672">[</span>String<span style="color:#f92672">]):</span> Unit <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    var scalaLearner <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ScalaLearner<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Kuldeep&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Singh&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    scalaLearner<span style="color:#f92672">.</span><span style="color:#a6e22e">consoleAppender</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>object AppMain {
+</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">main</span>(args: Array<span style="color:#f92672">[</span>String<span style="color:#f92672">]</span>): Unit <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> scalaLearner <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ScalaLearner(<span style="color:#e6db74">&#34;Kuldeep&#34;</span>, <span style="color:#e6db74">&#34;Singh&#34;</span>);
+</span></span><span style="display:flex;"><span>    scalaLearner.<span style="color:#a6e22e">consoleAppender</span>;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// import class in the scope of another class only
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">import</span> com.nagarro.jsag.java.JavaLearner
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// creating instance of java class file
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    var javaLearner <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> JavaLearner<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Dhruv&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Bansal&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    javaLearner<span style="color:#f92672">.</span><span style="color:#a6e22e">consoleAppender</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// import class in the scope of another class only</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">import</span> com.nagarro.jsag.java.JavaLearner
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// creating instance of java class file</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> javaLearner <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> JavaLearner(<span style="color:#e6db74">&#34;Dhruv&#34;</span>, <span style="color:#e6db74">&#34;Bansal&#34;</span>);
+</span></span><span style="display:flex;"><span>    javaLearner.<span style="color:#a6e22e">consoleAppender</span>;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>##Performance comparison of Scala with Java
 The performance measurement we did bubble sort on revert order array with same code in Scala script and Java Class file.
 All measurements were done on an Intel Core i7-3720QM CPU 2.60 GHz using JDK7u7 running on Windows 7 with Service Pack 1. I used Eclipse Juno with the Scala plugin and mentioned above.</p>
 <h4 id="java-bubble-sort-implementation">Java Bubble Sort Implementation</h4>
 <p><strong>Java Program</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.scala<span style="color:#f92672">;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.scala;
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * The Class SortAlgo.
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">SortAlgo</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">SortAlgo</span> {
 </span></span><span style="display:flex;"><span>	<span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">	 * Implementation of bubble sort algorithm.
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">	 * 
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">	 * @param inputArray
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">	 *            the input array
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">	 */</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">bubbleSort</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> inputArray<span style="color:#f92672">[])</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">int</span> i<span style="color:#f92672">,</span> j<span style="color:#f92672">,</span> t <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">int</span> arryLength <span style="color:#f92672">=</span> inputArray<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span>i <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span> i <span style="color:#f92672">&lt;</span> arryLength<span style="color:#f92672">;</span> i<span style="color:#f92672">++)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span>j <span style="color:#f92672">=</span> 1<span style="color:#f92672">;</span> j <span style="color:#f92672">&lt;</span> <span style="color:#f92672">(</span>arryLength <span style="color:#f92672">-</span> i<span style="color:#f92672">);</span> j<span style="color:#f92672">++)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>				<span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>inputArray<span style="color:#f92672">[</span>j <span style="color:#f92672">-</span> 1<span style="color:#f92672">]</span> <span style="color:#f92672">&gt;</span> inputArray<span style="color:#f92672">[</span>j<span style="color:#f92672">])</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>					t <span style="color:#f92672">=</span> inputArray<span style="color:#f92672">[</span>j <span style="color:#f92672">-</span> 1<span style="color:#f92672">];</span>
-</span></span><span style="display:flex;"><span>					inputArray<span style="color:#f92672">[</span>j <span style="color:#f92672">-</span> 1<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> inputArray<span style="color:#f92672">[</span>j<span style="color:#f92672">];</span>
-</span></span><span style="display:flex;"><span>					inputArray<span style="color:#f92672">[</span>j<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> t<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>				<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>			<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">bubbleSort</span>(<span style="color:#66d9ef">int</span> inputArray<span style="color:#f92672">[]</span>) {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">int</span> i, j, t <span style="color:#f92672">=</span> 0;
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">int</span> arryLength <span style="color:#f92672">=</span> inputArray.<span style="color:#a6e22e">length</span>;
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span> (i <span style="color:#f92672">=</span> 0; i <span style="color:#f92672">&lt;</span> arryLength; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">for</span> (j <span style="color:#f92672">=</span> 1; j <span style="color:#f92672">&lt;</span> (arryLength <span style="color:#f92672">-</span> i); j<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>				<span style="color:#66d9ef">if</span> (inputArray<span style="color:#f92672">[</span>j <span style="color:#f92672">-</span> 1<span style="color:#f92672">]</span> <span style="color:#f92672">&gt;</span> inputArray<span style="color:#f92672">[</span>j<span style="color:#f92672">]</span>) {
+</span></span><span style="display:flex;"><span>					t <span style="color:#f92672">=</span> inputArray<span style="color:#f92672">[</span>j <span style="color:#f92672">-</span> 1<span style="color:#f92672">]</span>;
+</span></span><span style="display:flex;"><span>					inputArray<span style="color:#f92672">[</span>j <span style="color:#f92672">-</span> 1<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> inputArray<span style="color:#f92672">[</span>j<span style="color:#f92672">]</span>;
+</span></span><span style="display:flex;"><span>					inputArray<span style="color:#f92672">[</span>j<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> t;
+</span></span><span style="display:flex;"><span>				}
+</span></span><span style="display:flex;"><span>			}
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.scala<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.scala;
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * The Class AppMain.
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AppMain</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">long</span> start <span style="color:#f92672">=</span> System<span style="color:#f92672">.</span><span style="color:#a6e22e">currentTimeMillis</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>		consoleAppender<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Sort algo start time: &#34;</span> <span style="color:#f92672">+</span> start<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		Integer arraySize <span style="color:#f92672">=</span> 10000<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>		consoleAppender<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Population array...&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">int</span><span style="color:#f92672">[]</span> array <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">int</span><span style="color:#f92672">[</span>arraySize<span style="color:#f92672">];</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span> i <span style="color:#f92672">&lt;</span> arraySize<span style="color:#f92672">;</span> i<span style="color:#f92672">++)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>			array<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> arraySize <span style="color:#f92672">-</span> i<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>		consoleAppender<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Sorting array...&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		SortAlgo sortAlgo <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> SortAlgo<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>		sortAlgo<span style="color:#f92672">.</span><span style="color:#a6e22e">bubbleSort</span><span style="color:#f92672">(</span>array<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">long</span> end <span style="color:#f92672">=</span> System<span style="color:#f92672">.</span><span style="color:#a6e22e">currentTimeMillis</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>		consoleAppender<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Sort algo end time: &#34;</span> <span style="color:#f92672">+</span> end<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		consoleAppender<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Total time taken: &#34;</span> <span style="color:#f92672">+</span> <span style="color:#f92672">(</span>end <span style="color:#f92672">-</span> start<span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">consoleAppender</span><span style="color:#f92672">(</span>String strValue<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>		System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>strValue<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AppMain</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">long</span> start <span style="color:#f92672">=</span> System.<span style="color:#a6e22e">currentTimeMillis</span>();
+</span></span><span style="display:flex;"><span>		consoleAppender(<span style="color:#e6db74">&#34;Sort algo start time: &#34;</span> <span style="color:#f92672">+</span> start);
+</span></span><span style="display:flex;"><span>		Integer arraySize <span style="color:#f92672">=</span> 10000;
+</span></span><span style="display:flex;"><span>		consoleAppender(<span style="color:#e6db74">&#34;Population array...&#34;</span>);
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">int</span><span style="color:#f92672">[]</span> array <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">int</span><span style="color:#f92672">[</span>arraySize<span style="color:#f92672">]</span>;
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0; i <span style="color:#f92672">&lt;</span> arraySize; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>			array<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> arraySize <span style="color:#f92672">-</span> i;
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>		consoleAppender(<span style="color:#e6db74">&#34;Sorting array...&#34;</span>);
+</span></span><span style="display:flex;"><span>		SortAlgo sortAlgo <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> SortAlgo();
+</span></span><span style="display:flex;"><span>		sortAlgo.<span style="color:#a6e22e">bubbleSort</span>(array);
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">long</span> end <span style="color:#f92672">=</span> System.<span style="color:#a6e22e">currentTimeMillis</span>();
+</span></span><span style="display:flex;"><span>		consoleAppender(<span style="color:#e6db74">&#34;Sort algo end time: &#34;</span> <span style="color:#f92672">+</span> end);
+</span></span><span style="display:flex;"><span>		consoleAppender(<span style="color:#e6db74">&#34;Total time taken: &#34;</span> <span style="color:#f92672">+</span> (end <span style="color:#f92672">-</span> start));
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">consoleAppender</span>(String strValue) {
+</span></span><span style="display:flex;"><span>		System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(strValue);
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><strong>Scala program</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.scala
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">SortAlgo</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// implementation of bubble sort
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  def <span style="color:#a6e22e">bubbleSort</span><span style="color:#f92672">(</span>a<span style="color:#f92672">:</span> Array<span style="color:#f92672">[</span>Int<span style="color:#f92672">]):</span> Unit <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    var i<span style="color:#f92672">:</span>Int <span style="color:#f92672">=</span> 1<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span>i <span style="color:#f92672">&lt;-</span> 0 <span style="color:#a6e22e">to</span> <span style="color:#f92672">(</span>a<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span> <span style="color:#f92672">-</span> 1<span style="color:#f92672">))</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span>j <span style="color:#f92672">&lt;-</span> <span style="color:#f92672">(</span>i <span style="color:#f92672">-</span> 1<span style="color:#f92672">)</span> to 0 by <span style="color:#f92672">-</span>1<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>a<span style="color:#f92672">(</span>j<span style="color:#f92672">)</span> <span style="color:#f92672">&gt;</span> a<span style="color:#f92672">(</span>j <span style="color:#f92672">+</span> 1<span style="color:#f92672">))</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>          val temp <span style="color:#f92672">=</span> a<span style="color:#f92672">(</span>j <span style="color:#f92672">+</span> 1<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>          a<span style="color:#f92672">(</span>j <span style="color:#f92672">+</span> 1<span style="color:#f92672">)</span> <span style="color:#f92672">=</span> a<span style="color:#f92672">(</span>j<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>          a<span style="color:#f92672">(</span>j<span style="color:#f92672">)</span> <span style="color:#f92672">=</span> temp
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">SortAlgo</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// implementation of bubble sort</span>
+</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">bubbleSort</span>(a: Array<span style="color:#f92672">[</span>Int<span style="color:#f92672">]</span>): Unit <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> i:Int <span style="color:#f92672">=</span> 1;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (i <span style="color:#f92672">&lt;-</span> 0 <span style="color:#a6e22e">to</span> (a.<span style="color:#a6e22e">length</span> <span style="color:#f92672">-</span> 1)) {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">for</span> (j <span style="color:#f92672">&lt;-</span> (i <span style="color:#f92672">-</span> 1) to 0 by <span style="color:#f92672">-</span>1) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (a(j) <span style="color:#f92672">&gt;</span> a(j <span style="color:#f92672">+</span> 1)) {
+</span></span><span style="display:flex;"><span>          val temp <span style="color:#f92672">=</span> a(j <span style="color:#f92672">+</span> 1)
+</span></span><span style="display:flex;"><span>          a(j <span style="color:#f92672">+</span> 1) <span style="color:#f92672">=</span> a(j)
+</span></span><span style="display:flex;"><span>          a(j) <span style="color:#f92672">=</span> temp
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.scala
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Bubble sort singleton class with main method
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span>object BubbleSort <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>object BubbleSort {
 </span></span><span style="display:flex;"><span>  
-</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>args <span style="color:#f92672">:</span> Array<span style="color:#f92672">[</span>String<span style="color:#f92672">])</span> <span style="color:#f92672">:</span> Unit <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e">// declaring and initiating local variable for performance measure
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   var startTime<span style="color:#f92672">:</span>Long <span style="color:#f92672">=</span>  java<span style="color:#f92672">.</span><span style="color:#a6e22e">lang</span><span style="color:#f92672">.</span><span style="color:#a6e22e">System</span><span style="color:#f92672">.</span><span style="color:#a6e22e">currentTimeMillis</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>   println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Sorting start time: &#34;</span> <span style="color:#f92672">+</span> startTime<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>   val arraySize <span style="color:#f92672">=</span> 10000<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e">// declaring Integer array
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   var arry <span style="color:#f92672">:</span> Array<span style="color:#f92672">[</span>Int<span style="color:#f92672">]</span> <span style="color:#f92672">=</span>  <span style="color:#66d9ef">new</span> Array<span style="color:#f92672">[</span>Int<span style="color:#f92672">](</span>arraySize<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>   println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Populating array...&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">for</span><span style="color:#f92672">(</span>i<span style="color:#f92672">&lt;-</span> 0 <span style="color:#a6e22e">to</span> <span style="color:#f92672">(</span>arraySize <span style="color:#f92672">-</span> 1<span style="color:#f92672">)){</span>
-</span></span><span style="display:flex;"><span>     arry<span style="color:#f92672">(</span>i<span style="color:#f92672">)</span> <span style="color:#f92672">=</span> arraySize <span style="color:#f92672">-</span> i<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>   println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Sorting array...&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>   var algo<span style="color:#f92672">:</span>SortAlgo <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> SortAlgo<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e">// calling sort API
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   algo<span style="color:#f92672">.</span><span style="color:#a6e22e">bubbleSort</span><span style="color:#f92672">(</span>arry<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>   var endTime<span style="color:#f92672">:</span>Long <span style="color:#f92672">=</span>  java<span style="color:#f92672">.</span><span style="color:#a6e22e">lang</span><span style="color:#f92672">.</span><span style="color:#a6e22e">System</span><span style="color:#f92672">.</span><span style="color:#a6e22e">currentTimeMillis</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>   println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Sorting end time: &#34;</span> <span style="color:#f92672">+</span> endTime<span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>   println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Total time taken:&#34;</span> <span style="color:#f92672">+</span> <span style="color:#f92672">(</span>endTime <span style="color:#f92672">-</span> startTime<span style="color:#f92672">))</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  def <span style="color:#a6e22e">main</span>(args : Array<span style="color:#f92672">[</span>String<span style="color:#f92672">]</span>) : Unit <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>   <span style="color:#75715e">// declaring and initiating local variable for performance measure</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">var</span> startTime:Long <span style="color:#f92672">=</span>  java.<span style="color:#a6e22e">lang</span>.<span style="color:#a6e22e">System</span>.<span style="color:#a6e22e">currentTimeMillis</span>();
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;Sorting start time: &#34;</span> <span style="color:#f92672">+</span> startTime)
+</span></span><span style="display:flex;"><span>   val arraySize <span style="color:#f92672">=</span> 10000;
+</span></span><span style="display:flex;"><span>   <span style="color:#75715e">// declaring Integer array</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">var</span> arry : Array<span style="color:#f92672">[</span>Int<span style="color:#f92672">]</span> <span style="color:#f92672">=</span>  <span style="color:#66d9ef">new</span> Array<span style="color:#f92672">[</span>Int<span style="color:#f92672">]</span>(arraySize)
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;Populating array...&#34;</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">for</span>(i<span style="color:#f92672">&lt;-</span> 0 <span style="color:#a6e22e">to</span> (arraySize <span style="color:#f92672">-</span> 1)){
+</span></span><span style="display:flex;"><span>     arry(i) <span style="color:#f92672">=</span> arraySize <span style="color:#f92672">-</span> i;
+</span></span><span style="display:flex;"><span>   }
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;Sorting array...&#34;</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">var</span> algo:SortAlgo <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> SortAlgo;
+</span></span><span style="display:flex;"><span>   <span style="color:#75715e">// calling sort API</span>
+</span></span><span style="display:flex;"><span>   algo.<span style="color:#a6e22e">bubbleSort</span>(arry)
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">var</span> endTime:Long <span style="color:#f92672">=</span>  java.<span style="color:#a6e22e">lang</span>.<span style="color:#a6e22e">System</span>.<span style="color:#a6e22e">currentTimeMillis</span>();
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;Sorting end time: &#34;</span> <span style="color:#f92672">+</span> endTime)
+</span></span><span style="display:flex;"><span>   println(<span style="color:#e6db74">&#34;Total time taken:&#34;</span> <span style="color:#f92672">+</span> (endTime <span style="color:#f92672">-</span> startTime))
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h4 id="comparison">Comparison</h4>
 <p>See below table for performance metric s of above two programs:</p>
 <table>
@@ -1064,7 +1055,7 @@ but it is slower in certain cases in comparison to java.</p>
 <li><a href="http://www.tutorialspoint.com/scala/scala_lists.htm">http://www.tutorialspoint.com/scala/scala_lists.htm</a></li>
 <li><a href="http://joelabrahamsson.com/learning-scala-part-seven-traits/">http://joelabrahamsson.com/learning-scala-part-seven-traits/</a></li>
 </ul>
-<p>In the <a href="/post/scala-getting-started-part2">next article</a> we will see how to build web applications using Scala.</p>
+<p>In the <a href="/post/scala-getting-started-part2/">next article</a> we will see how to build web applications using Scala.</p>
 
 <a href="/tags/scala"  class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1" >＃scala</a>
 
@@ -1277,11 +1268,11 @@ but it is slower in certain cases in comparison to java.</p>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
+          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
+          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
         </li>
 	    
 	     <li  class="mb2">

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="A lightweight proxy implementation for showcasing SSO-protected APIs using Node.js and Puppeteer.">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Implementing a Proxy for Single Sign-On (SSO) Authentication" />
 <meta property="og:description" content="A lightweight proxy implementation for showcasing SSO-protected APIs using Node.js and Puppeteer." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/sso-proxy/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/sso-proxy.jpg" />
+<meta property="og:url" content="https://thinkuldeep.com//post/sso-proxy/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/sso-proxy.jpg" />
 <meta property="article:published_time" content="2025-08-24T10:58:08-04:00" />
-<meta property="article:modified_time" content="2025-08-24T10:58:08-04:00" /><meta itemprop="name" content="Implementing a Proxy for Single Sign-On (SSO) Authentication">
-<meta itemprop="description" content="A lightweight proxy implementation for showcasing SSO-protected APIs using Node.js and Puppeteer."><meta itemprop="datePublished" content="2025-08-24T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2025-08-24T10:58:08-04:00" />
-<meta itemprop="wordCount" content="677">
-<meta itemprop="keywords" content="cloud,integration,enterprise,sso,mfa,tutorial,technology,javascript,nodejs,puppeteer,proxy,authentication,opensource,practice," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Implementing a Proxy for Single Sign-On (SSO) Authentication"/>
-<meta name="twitter:description" content="A lightweight proxy implementation for showcasing SSO-protected APIs using Node.js and Puppeteer."/>
+<meta property="article:modified_time" content="2025-08-24T10:58:08-04:00" />
+  <meta itemprop="name" content="Implementing a Proxy for Single Sign-On (SSO) Authentication">
+  <meta itemprop="description" content="A lightweight proxy implementation for showcasing SSO-protected APIs using Node.js and Puppeteer.">
+  <meta itemprop="datePublished" content="2025-08-24T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2025-08-24T10:58:08-04:00">
+  <meta itemprop="wordCount" content="678">
+  <meta itemprop="keywords" content="Cloud,Integration,Enterprise,Sso,Mfa,Tutorial,Technology,Javascript,Nodejs,Puppeteer,Proxy,Authentication,Opensource,Practice"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Implementing a Proxy for Single Sign-On (SSO) Authentication">
+<meta name="twitter:description" content="A lightweight proxy implementation for showcasing SSO-protected APIs using Node.js and Puppeteer.">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -311,7 +302,7 @@ if (!doNotTrack) {
       
       
         <span class="f6 mv4 dib tracked"> - 4 minutes read </span>
-        <span class="f6 mv4 dib tracked"> - 677 words </span>
+        <span class="f6 mv4 dib tracked"> - 678 words </span>
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Enterprise integrations almost always require <strong>authentication and authorization</strong>. In particular, Single Sign-On (SSO) with Multi-Factor Authentication (MFA) has become a standard practice in modern enterprise applications.</p>
@@ -334,7 +325,7 @@ if (!doNotTrack) {
 <hr>
 <h2 id="sso-proxy-architecture">SSO Proxy Architecture</h2>
 <p>We will use Node.js with Express to create a simple web server that listens for incoming requests to proxy. When a request is made to the proxy endpoint, the server will:</p>
-<p><img src="/images/sso-proxy.jpg" alt="sso-proxy"></p>
+<p><img alt="sso-proxy" src="/images/sso-proxy.jpg"></p>
 <ol>
 <li>Launch a browser with Puppeteer.</li>
 <li>Navigate to the SSO login page.</li>
@@ -1062,11 +1053,11 @@ if (!doNotTrack) {
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jsp-compilation-issues/">Strange JSP Compilation Issue </a>
+          <a href="/post/javascript-plugin-framework/">JavaScript Plugin Framework</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/javascript-plugin-framework/">JavaScript Plugin Framework</a>
+          <a href="/post/jsp-compilation-issues/">Strange JSP Compilation Issue </a>
         </li>
 	    
 	     <li  class="mb2">

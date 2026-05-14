@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Overview and hands on practices of Server Driven UI development using Kotlin Multiplatform">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Server Driven UI with KMP - Cross Platform App Development" />
 <meta property="og:description" content="Overview and hands on practices of Server Driven UI development using Kotlin Multiplatform" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/server-driven-ui-with-kmp/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/kmp-0.jpg" />
+<meta property="og:url" content="https://thinkuldeep.com//post/server-driven-ui-with-kmp/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/kmp-0.jpg" />
 <meta property="article:published_time" content="2026-02-26T10:58:08-04:00" />
-<meta property="article:modified_time" content="2026-02-26T10:58:08-04:00" /><meta itemprop="name" content="Server Driven UI with KMP - Cross Platform App Development">
-<meta itemprop="description" content="Overview and hands on practices of Server Driven UI development using Kotlin Multiplatform"><meta itemprop="datePublished" content="2026-02-26T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2026-02-26T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1744">
-<meta itemprop="keywords" content="kotlin-multiplatform,kotlin,enterprise,integration,technology,interoperability,mobile,android,iOS,Unity," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Server Driven UI with KMP - Cross Platform App Development"/>
-<meta name="twitter:description" content="Overview and hands on practices of Server Driven UI development using Kotlin Multiplatform"/>
+<meta property="article:modified_time" content="2026-02-26T10:58:08-04:00" />
+  <meta itemprop="name" content="Server Driven UI with KMP - Cross Platform App Development">
+  <meta itemprop="description" content="Overview and hands on practices of Server Driven UI development using Kotlin Multiplatform">
+  <meta itemprop="datePublished" content="2026-02-26T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2026-02-26T10:58:08-04:00">
+  <meta itemprop="wordCount" content="1744">
+  <meta itemprop="keywords" content="Kotlin-Multiplatform,Kotlin,Enterprise,Integration,Technology,Interoperability,Mobile,Android,IOS,Unity"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Server Driven UI with KMP - Cross Platform App Development">
+<meta name="twitter:description" content="Overview and hands on practices of Server Driven UI development using Kotlin Multiplatform">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -314,7 +305,7 @@ if (!doNotTrack) {
         <span class="f6 mv4 dib tracked"> - 1744 words </span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Over the years, I’ve written about <a href="/tags/interoperability">interoperability</a> and why it is essential for enterprise systems that must cross technological and business boundaries. Enterprises applications rarely live in isolation. They integrate across platforms, stacks, and ecosystems. Without proper planning, maintaining multiple platforms and technology stacks quickly becomes expensive and complex.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Over the years, I’ve written about <a href="/tags/interoperability/">interoperability</a> and why it is essential for enterprise systems that must cross technological and business boundaries. Enterprises applications rarely live in isolation. They integrate across platforms, stacks, and ecosystems. Without proper planning, maintaining multiple platforms and technology stacks quickly becomes expensive and complex.</p>
 <p>This challenge becomes even more evident in cross-platform mobile development.  I have previously explored solutions like <a href="https://unity.com/">Unity</a>, <a href="https://cordova.apache.org/">PhoneGap (Now Cordova)</a>, <a href="https://reactnative.dev/">React Native</a> and <a href="https://github.com/tidev/titanium-sdk">Titanium</a>. Each promised “write once, run everywhere.” Yet, there has always been a trade-off:</p>
 <ul>
 <li>Native performance vs. wrapper-based rendering</li>
@@ -323,7 +314,7 @@ if (!doNotTrack) {
 </ul>
 <p>Recently, I explored <strong>Kotlin Multiplatform (KMP)</strong>, which provides a powerful alternative:
 <em>sharing logic (and even UI with Compose Multiplatform) while still rendering natively.</em></p>
-<p><img src="/images/kmp-0.jpg" alt="KMP0"></p>
+<p><img alt="KMP0" src="/images/kmp-0.jpg"></p>
 <p>When combined with <strong>Server Driven UI (SDUI)</strong>, we unlock something even more powerful:</p>
 <blockquote>
 <p>Define UI on the server → deliver as JSON → render natively on Android &amp; iOS → change UI without redeploying apps.</p>
@@ -371,7 +362,7 @@ if (!doNotTrack) {
 </span></span></code></pre></div><p><em>Access:</em>  <a href="http://localhost:8080">http://localhost:8080</a></p>
 <h3 id="12-kotlin-multiplatform-client-setup">1.2 Kotlin Multiplatform Client Setup</h3>
 <p><em>Create a new project:</em> <code>File → New → Project → Kotlin Multiplatform</code> - select Android and iOS.</p>
-<p><img src="/images/kmp-2-.jpg" alt="kmp"></p>
+<p><img alt="kmp" src="/images/kmp-2-.jpg"></p>
 <p>Follow the official <a href="https://kotlinlang.org/docs/multiplatform/compose-multiplatform-create-first-app.html">Compose Multiplatform guide</a> to verify Android and iOS run successfully.</p>
 <p>If you encounter version issues:</p>
 <ul>
@@ -388,7 +379,7 @@ if (!doNotTrack) {
 <li>Featured items</li>
 <li>Button-driven interaction</li>
 </ul>
-<p><img src="/images/kmp-3.jpg" alt="kmp"></p>
+<p><img alt="kmp" src="/images/kmp-3.jpg"></p>
 <h3 id="21-define-server-side-ui-model">2.1 Define Server-Side UI Model</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span><span style="color:#66d9ef">sealed</span> <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">UiComponent</span> { <span style="color:#66d9ef">val</span> type: String }
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">data</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Column</span>(<span style="color:#66d9ef">override</span> <span style="color:#66d9ef">val</span> type: String = <span style="color:#e6db74">&#34;column&#34;</span>,  <span style="color:#66d9ef">val</span> children: List&lt;UiComponent&gt;) : UiComponent
@@ -401,10 +392,10 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">LandingPageController</span> {
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@GetMapping</span>(<span style="color:#e6db74">&#34;/api/ui/landing&#34;</span>)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">landingPage</span>(): UiComponent {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">val</span> title = Text( value = <span style="color:#e6db74">&#34;Welcome to Kuldeep&#39;s Space&#34;</span>, size = <span style="color:#e6db74">&#34;large&#34;</span>, weight = <span style="color:#e6db74">&#34;bold&#34;</span>)
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">val</span> subtitle = Text( value = <span style="color:#e6db74">&#34;The world of learning, sharing, and caring&#34;</span>,  size = <span style="color:#e6db74">&#34;medium&#34;</span>, weight = <span style="color:#e6db74">&#34;medium&#34;</span>)
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">val</span> books = FeaturedItems( button=Button(id= <span style="color:#e6db74">&#34;books&#34;</span>, value = <span style="color:#e6db74">&#34;Books - Click for more!&#34;</span>, action = <span style="color:#e6db74">&#34;load_next_feature&#34;</span>), children = listOf(
-</span></span><span style="display:flex;"><span>            Column(children = listOf(Text( value = <span style="color:#e6db74">&#34;Jagjeevan - Living Larger Than Life&#34;</span>,  size = <span style="color:#e6db74">&#34;medium&#34;</span>, weight = <span style="color:#e6db74">&#34;bold&#34;</span>), Image( url = <span style="color:#e6db74">&#34;https://thinkuldeep.com/images/Jagjeevan_book.png&#34;</span>, width = <span style="color:#ae81ff">488</span>, height = <span style="color:#ae81ff">503</span>))),
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">val</span> title = Text( <span style="color:#66d9ef">value</span> = <span style="color:#e6db74">&#34;Welcome to Kuldeep&#39;s Space&#34;</span>, size = <span style="color:#e6db74">&#34;large&#34;</span>, weight = <span style="color:#e6db74">&#34;bold&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">val</span> subtitle = Text( <span style="color:#66d9ef">value</span> = <span style="color:#e6db74">&#34;The world of learning, sharing, and caring&#34;</span>,  size = <span style="color:#e6db74">&#34;medium&#34;</span>, weight = <span style="color:#e6db74">&#34;medium&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">val</span> books = FeaturedItems( button=Button(id= <span style="color:#e6db74">&#34;books&#34;</span>, <span style="color:#66d9ef">value</span> = <span style="color:#e6db74">&#34;Books - Click for more!&#34;</span>, action = <span style="color:#e6db74">&#34;load_next_feature&#34;</span>), children = listOf(
+</span></span><span style="display:flex;"><span>            Column(children = listOf(Text( <span style="color:#66d9ef">value</span> = <span style="color:#e6db74">&#34;Jagjeevan - Living Larger Than Life&#34;</span>,  size = <span style="color:#e6db74">&#34;medium&#34;</span>, weight = <span style="color:#e6db74">&#34;bold&#34;</span>), Image( url = <span style="color:#e6db74">&#34;https://thinkuldeep.com/images/Jagjeevan_book.png&#34;</span>, width = <span style="color:#ae81ff">488</span>, height = <span style="color:#ae81ff">503</span>))),
 </span></span><span style="display:flex;"><span>            Image(url = <span style="color:#e6db74">&#34;https://thinkuldeep.com/images/exploring-the-metaverse-books.png&#34;</span>, width = <span style="color:#ae81ff">465</span>, height = <span style="color:#ae81ff">503</span>),
 </span></span><span style="display:flex;"><span>            Image(url = <span style="color:#e6db74">&#34;https://thinkuldeep.com/images/MyThoughtworkings.jpg&#34;</span>, width = <span style="color:#ae81ff">893</span>, height = <span style="color:#ae81ff">503</span>),))
 </span></span><span style="display:flex;"><span>
@@ -442,7 +433,7 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">suspend</span> <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">fetchLanding</span>(): UiComponent {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span> {
 </span></span><span style="display:flex;"><span>      println(<span style="color:#e6db74">&#34;🔥 fetchLanding - </span><span style="color:#e6db74">${PlatformConfig.baseUrl}</span><span style="color:#e6db74">/api/ui/landing&#34;</span> )
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span>  HttpClientFactory.client.<span style="color:#66d9ef">get</span>(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${PlatformConfig.baseUrl}</span><span style="color:#e6db74">/api/ui/landing&#34;</span>).body();
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span>  <span style="color:#a6e22e">HttpClientFactory</span>.client.<span style="color:#66d9ef">get</span>(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${PlatformConfig.baseUrl}</span><span style="color:#e6db74">/api/ui/landing&#34;</span>).body();
 </span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">catch</span> (e: Exception) {
 </span></span><span style="display:flex;"><span>      println(<span style="color:#e6db74">&#34;❌ ERROR: </span><span style="color:#e6db74">${e.message}</span><span style="color:#e6db74">&#34;</span>)
 </span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">throw</span> e
@@ -457,37 +448,37 @@ if (!doNotTrack) {
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span><span style="color:#a6e22e">@Composable</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">Render</span>(component: UiComponent, viewModel: LandingViewModel) {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">when</span> (component) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">is</span> UiComponent.Column <span style="color:#f92672">-&gt;</span> {
-</span></span><span style="display:flex;"><span>            Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxSize().padding(<span style="color:#ae81ff">16.</span>dp)) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">is</span> <span style="color:#a6e22e">UiComponent</span>.Column <span style="color:#f92672">-&gt;</span> {
+</span></span><span style="display:flex;"><span>            Column(horizontalAlignment = <span style="color:#a6e22e">Alignment</span>.CenterHorizontally, modifier = <span style="color:#a6e22e">Modifier</span>.fillMaxSize().padding(<span style="color:#ae81ff">16.</span>dp)) {
 </span></span><span style="display:flex;"><span>                component.children.forEach { Render(<span style="color:#66d9ef">it</span>, viewModel) }
 </span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">is</span> UiComponent.Text <span style="color:#f92672">-&gt;</span> { 
-</span></span><span style="display:flex;"><span>            Text( text = component.value,  fontSize = <span style="color:#66d9ef">when</span> (component.size) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">is</span> <span style="color:#a6e22e">UiComponent</span>.Text <span style="color:#f92672">-&gt;</span> { 
+</span></span><span style="display:flex;"><span>            Text( text = component.<span style="color:#66d9ef">value</span>,  fontSize = <span style="color:#66d9ef">when</span> (component.size) {
 </span></span><span style="display:flex;"><span>                    <span style="color:#e6db74">&#34;large&#34;</span> <span style="color:#f92672">-&gt;</span> <span style="color:#ae81ff">24.</span>sp
 </span></span><span style="display:flex;"><span>                    <span style="color:#e6db74">&#34;medium&#34;</span> <span style="color:#f92672">-&gt;</span> <span style="color:#ae81ff">18.</span>sp
 </span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">else</span> <span style="color:#f92672">-&gt;</span> <span style="color:#ae81ff">14.</span>sp
 </span></span><span style="display:flex;"><span>                },
 </span></span><span style="display:flex;"><span>                fontWeight = <span style="color:#66d9ef">when</span> (component.weight) {
-</span></span><span style="display:flex;"><span>                    <span style="color:#e6db74">&#34;bold&#34;</span> <span style="color:#f92672">-&gt;</span> FontWeight.Bold
-</span></span><span style="display:flex;"><span>                    <span style="color:#e6db74">&#34;medium&#34;</span> <span style="color:#f92672">-&gt;</span> FontWeight.Medium
-</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">else</span> <span style="color:#f92672">-&gt;</span> FontWeight.Normal
+</span></span><span style="display:flex;"><span>                    <span style="color:#e6db74">&#34;bold&#34;</span> <span style="color:#f92672">-&gt;</span> <span style="color:#a6e22e">FontWeight</span>.Bold
+</span></span><span style="display:flex;"><span>                    <span style="color:#e6db74">&#34;medium&#34;</span> <span style="color:#f92672">-&gt;</span> <span style="color:#a6e22e">FontWeight</span>.Medium
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">else</span> <span style="color:#f92672">-&gt;</span> <span style="color:#a6e22e">FontWeight</span>.Normal
 </span></span><span style="display:flex;"><span>                },
-</span></span><span style="display:flex;"><span>                modifier = Modifier.padding(<span style="color:#ae81ff">8.</span>dp))
+</span></span><span style="display:flex;"><span>                modifier = <span style="color:#a6e22e">Modifier</span>.padding(<span style="color:#ae81ff">8.</span>dp))
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">is</span> UiComponent.Image <span style="color:#f92672">-&gt;</span> { 
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">is</span> <span style="color:#a6e22e">UiComponent</span>.Image <span style="color:#f92672">-&gt;</span> { 
 </span></span><span style="display:flex;"><span>            KamelImage( resource = asyncPainterResource(component.url), contentDescription = <span style="color:#66d9ef">null</span>,
-</span></span><span style="display:flex;"><span>                modifier = Modifier.padding(<span style="color:#ae81ff">8.</span>dp).then(
+</span></span><span style="display:flex;"><span>                modifier = <span style="color:#a6e22e">Modifier</span>.padding(<span style="color:#ae81ff">8.</span>dp).then(
 </span></span><span style="display:flex;"><span>                        <span style="color:#66d9ef">if</span> (component.width <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> component.height <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span>)
-</span></span><span style="display:flex;"><span>                            Modifier.size(component.width.dp, component.height.dp)
+</span></span><span style="display:flex;"><span>                            <span style="color:#a6e22e">Modifier</span>.size(component.width.dp, component.height.dp)
 </span></span><span style="display:flex;"><span>                        <span style="color:#66d9ef">else</span> Modifier))
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">is</span> UiComponent.Button <span style="color:#f92672">-&gt;</span> { 
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">is</span> <span style="color:#a6e22e">UiComponent</span>.Button <span style="color:#f92672">-&gt;</span> { 
 </span></span><span style="display:flex;"><span>            Button( onClick = { viewModel.dispatch(component.action, component.id) }, 
-</span></span><span style="display:flex;"><span>              modifier = Modifier.padding(<span style="color:#ae81ff">8.</span>dp)) { Text(component.value) } 
+</span></span><span style="display:flex;"><span>              modifier = <span style="color:#a6e22e">Modifier</span>.padding(<span style="color:#ae81ff">8.</span>dp)) { Text(component.<span style="color:#66d9ef">value</span>) } 
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">is</span> UiComponent.FeaturedItems <span style="color:#f92672">-&gt;</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">is</span> <span style="color:#a6e22e">UiComponent</span>.FeaturedItems <span style="color:#f92672">-&gt;</span> {
 </span></span><span style="display:flex;"><span>            Render(component.button, viewModel)
 </span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">val</span> firstChild = component.children.firstOrNull()
 </span></span><span style="display:flex;"><span>            firstChild<span style="color:#f92672">?.</span>let {
@@ -509,7 +500,7 @@ if (!doNotTrack) {
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">LandingViewModel</span> {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">val</span> repository = UiRepository()
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">val</span> scope = CoroutineScope(Dispatchers.Default)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">val</span> scope = CoroutineScope(<span style="color:#a6e22e">Dispatchers</span>.Default)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">val</span> uiState: StateFlow&lt;UiComponent?&gt; = MutableStateFlow&lt;UiComponent?&gt;(<span style="color:#66d9ef">null</span>)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">val</span> featureIndexes = mutableMapOf&lt;String, Int&gt;()
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">var</span> originalTree: UiComponent? = <span style="color:#66d9ef">null</span>
@@ -524,7 +515,7 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">try</span> {
 </span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">val</span> root = repository.fetchLanding()
 </span></span><span style="display:flex;"><span>                originalTree = root
-</span></span><span style="display:flex;"><span>                uiState.value = applyFeatureFilter(root)
+</span></span><span style="display:flex;"><span>                uiState.<span style="color:#66d9ef">value</span> = applyFeatureFilter(root)
 </span></span><span style="display:flex;"><span>            } <span style="color:#66d9ef">catch</span> (e: Exception) {
 </span></span><span style="display:flex;"><span>                println(<span style="color:#e6db74">&#34;❌ ViewModel error: </span><span style="color:#e6db74">${e.message}</span><span style="color:#e6db74">&#34;</span>)
 </span></span><span style="display:flex;"><span>            }
@@ -537,7 +528,7 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">val</span> current = featureIndexes[id] <span style="color:#f92672">?:</span> <span style="color:#ae81ff">0</span>
 </span></span><span style="display:flex;"><span>                    featureIndexes[id] = current + <span style="color:#ae81ff">1</span>
 </span></span><span style="display:flex;"><span>                    originalTree<span style="color:#f92672">?.</span>let {
-</span></span><span style="display:flex;"><span>                        uiState.value = applyFeatureFilter(<span style="color:#66d9ef">it</span>)
+</span></span><span style="display:flex;"><span>                        uiState.<span style="color:#66d9ef">value</span> = applyFeatureFilter(<span style="color:#66d9ef">it</span>)
 </span></span><span style="display:flex;"><span>                    }
 </span></span><span style="display:flex;"><span>                }
 </span></span><span style="display:flex;"><span>            }
@@ -546,14 +537,14 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">applyFeatureFilter</span>(component: UiComponent): UiComponent {
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">when</span> (component) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">is</span> UiComponent.Column <span style="color:#f92672">-&gt;</span> {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">is</span> <span style="color:#a6e22e">UiComponent</span>.Column <span style="color:#f92672">-&gt;</span> {
 </span></span><span style="display:flex;"><span>                component.copy(
 </span></span><span style="display:flex;"><span>                    children = component.children.map {
 </span></span><span style="display:flex;"><span>                        applyFeatureFilter(<span style="color:#66d9ef">it</span>)
 </span></span><span style="display:flex;"><span>                    }
 </span></span><span style="display:flex;"><span>                )
 </span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">is</span> UiComponent.FeaturedItems <span style="color:#f92672">-&gt;</span> {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">is</span> <span style="color:#a6e22e">UiComponent</span>.FeaturedItems <span style="color:#f92672">-&gt;</span> {
 </span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">val</span> items = component.children
 </span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (items.isEmpty()) <span style="color:#66d9ef">return</span> component
 </span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">val</span> index = featureIndexes[component.button.id] <span style="color:#f92672">?:</span> <span style="color:#ae81ff">0</span>
@@ -577,7 +568,7 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span>        setContent {
 </span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">val</span> vm = remember { LandingViewModel() }
 </span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">val</span> state = vm.uiState.collectAsState()
-</span></span><span style="display:flex;"><span>            state.value<span style="color:#f92672">?.</span>let {
+</span></span><span style="display:flex;"><span>            state.<span style="color:#66d9ef">value</span><span style="color:#f92672">?.</span>let {
 </span></span><span style="display:flex;"><span>                Render(<span style="color:#66d9ef">it</span>, vm)
 </span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>        }
@@ -616,7 +607,7 @@ if (!doNotTrack) {
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span><span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">MainViewController</span>() = ComposeUIViewController {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">val</span> vm = remember { LandingViewModel() }
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">val</span> state = vm.uiState.collectAsState()
-</span></span><span style="display:flex;"><span>    state.value<span style="color:#f92672">?.</span>let {
+</span></span><span style="display:flex;"><span>    state.<span style="color:#66d9ef">value</span><span style="color:#f92672">?.</span>let {
 </span></span><span style="display:flex;"><span>        Render(<span style="color:#66d9ef">it</span>, vm)
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
@@ -675,7 +666,7 @@ if (!doNotTrack) {
 </span></span></code></pre></div><h3 id="run-android-and-ios-app">Run Android and iOS App</h3>
 <p>Run android and iOS App as described in the <a href="https://kotlinlang.org/docs/multiplatform/compose-multiplatform-create-first-app.html#run-your-application">KMP guide</a>.</p>
 <p>Here is a demo of this app.
-<img src="/images/KMP.gif" alt="KMP"></p>
+<img alt="KMP" src="/images/KMP.gif"></p>
 <blockquote>
 <p>Try changing server side response and reload the app, and the changes in respective app without any redeployment. That’s the power of Server Driven UI.</p>
 </blockquote>
@@ -1205,11 +1196,11 @@ if (!doNotTrack) {
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
+          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
+          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
         </li>
 	    
 	     <li  class="mb2">
@@ -1305,11 +1296,11 @@ if (!doNotTrack) {
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/about/recognitions/">Recognitions</a>
+          <a href="/about/open-sources/">Open-sources and Apps</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/about/open-sources/">Open-sources and Apps</a>
+          <a href="/about/recognitions/">Recognitions</a>
         </li>
 	    
 	     <li  class="mb2">

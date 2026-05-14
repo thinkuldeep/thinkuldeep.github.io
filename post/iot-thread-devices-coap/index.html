@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="A step-by-step guide to implementing COAP server and COAP client Thread network devices">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Connecting Thread Devices to the Internet over CoAP" />
 <meta property="og:description" content="A step-by-step guide to implementing COAP server and COAP client Thread network devices" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/iot-thread-devices-coap/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/iot-28.jpg" />
+<meta property="og:url" content="https://thinkuldeep.com//post/iot-thread-devices-coap/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/iot-28.jpg" />
 <meta property="article:published_time" content="2026-02-13T10:58:08-04:00" />
-<meta property="article:modified_time" content="2026-02-13T10:58:08-04:00" /><meta itemprop="name" content="Connecting Thread Devices to the Internet over CoAP">
-<meta itemprop="description" content="A step-by-step guide to implementing COAP server and COAP client Thread network devices"><meta itemprop="datePublished" content="2026-02-13T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2026-02-13T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1063">
-<meta itemprop="keywords" content="IOT,network,cloud,getting started,learning,technology,fundamentals,thread,openthread,nRF,router,coap," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Connecting Thread Devices to the Internet over CoAP"/>
-<meta name="twitter:description" content="A step-by-step guide to implementing COAP server and COAP client Thread network devices"/>
+<meta property="article:modified_time" content="2026-02-13T10:58:08-04:00" />
+  <meta itemprop="name" content="Connecting Thread Devices to the Internet over CoAP">
+  <meta itemprop="description" content="A step-by-step guide to implementing COAP server and COAP client Thread network devices">
+  <meta itemprop="datePublished" content="2026-02-13T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2026-02-13T10:58:08-04:00">
+  <meta itemprop="wordCount" content="1063">
+  <meta itemprop="keywords" content="IOT,Network,Cloud,Getting Started,Learning,Technology,Fundamentals,Thread,Openthread,NRF,Router,Coap"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Connecting Thread Devices to the Internet over CoAP">
+<meta name="twitter:description" content="A step-by-step guide to implementing COAP server and COAP client Thread network devices">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -314,10 +305,10 @@ if (!doNotTrack) {
         <span class="f6 mv4 dib tracked"> - 1063 words </span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In my earlier <a href="/tags/iot">IoT series</a>, we explored <a href="/post/iot-the-thread-protocol-and-network/">Thread networks and protocols</a>—how they form self-healing IPv6 mesh networks designed for low-power IoT environments.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In my earlier <a href="/tags/iot/">IoT series</a>, we explored <a href="/post/iot-the-thread-protocol-and-network/">Thread networks and protocols</a>—how they form self-healing IPv6 mesh networks designed for low-power IoT environments.</p>
 <p>We looked at connectivity over <a href="/post/iot-thread-devices-internet/">UDP</a> and <a href="/post/iot-thread-tcp-client-implementation/">TCP/HTTP protocols</a>, and how Thread devices can reach the internet using a Border Router.</p>
 <p>In this article, we move one step further by implementing CoAP (Constrained Application Protocol) — a lightweight, REST-style protocol built on UDP and optimized for constrained devices and low-bandwidth networks.</p>
-<p><img src="/images/iot-28.jpg" alt="iot"></p>
+<p><img alt="iot" src="/images/iot-28.jpg"></p>
 <p>CoAP is a natural fit for Thread.</p>
 <ul>
 <li>By the end of this guide, you’ll have:</li>
@@ -342,47 +333,47 @@ if (!doNotTrack) {
 </span></span></code></pre></div><h4 id="step-2---coap-server-setup">Step 2 - CoAP Server Setup</h4>
 <p>Start the coap server in a spring boot application. Create a configuration class <code>CoAPServerConfig</code> and add the following code to it:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#a6e22e">@Configuration</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CoAPServerConfig</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> Integer COAP_PORT <span style="color:#f92672">=</span> 5683<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CoAPServerConfig</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> Integer COAP_PORT <span style="color:#f92672">=</span> 5683;
 </span></span><span style="display:flex;"><span>   
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@PostConstruct</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">start</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        CoapConfig<span style="color:#f92672">.</span><span style="color:#a6e22e">register</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>        var config <span style="color:#f92672">=</span> org<span style="color:#f92672">.</span><span style="color:#a6e22e">eclipse</span><span style="color:#f92672">.</span><span style="color:#a6e22e">californium</span><span style="color:#f92672">.</span><span style="color:#a6e22e">elements</span><span style="color:#f92672">.</span><span style="color:#a6e22e">config</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Configuration</span><span style="color:#f92672">.</span><span style="color:#a6e22e">getStandard</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>        config<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>CoapConfig<span style="color:#f92672">.</span><span style="color:#a6e22e">MAX_MESSAGE_SIZE</span><span style="color:#f92672">,</span> 2048<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        config<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>CoapConfig<span style="color:#f92672">.</span><span style="color:#a6e22e">PREFERRED_BLOCK_SIZE</span><span style="color:#f92672">,</span> 512<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        config<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>CoapConfig<span style="color:#f92672">.</span><span style="color:#a6e22e">COAP_PORT</span><span style="color:#f92672">,</span> COAP_PORT<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">start</span>() {
+</span></span><span style="display:flex;"><span>        CoapConfig.<span style="color:#a6e22e">register</span>();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">var</span> config <span style="color:#f92672">=</span> org.<span style="color:#a6e22e">eclipse</span>.<span style="color:#a6e22e">californium</span>.<span style="color:#a6e22e">elements</span>.<span style="color:#a6e22e">config</span>.<span style="color:#a6e22e">Configuration</span>.<span style="color:#a6e22e">getStandard</span>();
+</span></span><span style="display:flex;"><span>        config.<span style="color:#a6e22e">set</span>(CoapConfig.<span style="color:#a6e22e">MAX_MESSAGE_SIZE</span>, 2048);
+</span></span><span style="display:flex;"><span>        config.<span style="color:#a6e22e">set</span>(CoapConfig.<span style="color:#a6e22e">PREFERRED_BLOCK_SIZE</span>, 512);
+</span></span><span style="display:flex;"><span>        config.<span style="color:#a6e22e">set</span>(CoapConfig.<span style="color:#a6e22e">COAP_PORT</span>, COAP_PORT);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        CoapServer server <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> CoapServer<span style="color:#f92672">(</span>config<span style="color:#f92672">);</span> <span style="color:#75715e">// default CoAP port
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        server<span style="color:#f92672">.</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> ReadingsController<span style="color:#f92672">());</span>
+</span></span><span style="display:flex;"><span>        CoapServer server <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> CoapServer(config); <span style="color:#75715e">// default CoAP port</span>
+</span></span><span style="display:flex;"><span>        server.<span style="color:#a6e22e">add</span>(<span style="color:#66d9ef">new</span> ReadingsController());
 </span></span><span style="display:flex;"><span>        
-</span></span><span style="display:flex;"><span>        server<span style="color:#f92672">.</span><span style="color:#a6e22e">start</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>        logger<span style="color:#f92672">.</span><span style="color:#a6e22e">info</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;CoAP server started on port: {}&#34;</span> <span style="color:#f92672">,</span> coapPort<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>        server.<span style="color:#a6e22e">start</span>();
+</span></span><span style="display:flex;"><span>        logger.<span style="color:#a6e22e">info</span>(<span style="color:#e6db74">&#34;CoAP server started on port: {}&#34;</span> , coapPort);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h4 id="step-3--create-resource-endpoint">Step 3 – Create Resource Endpoint</h4>
 <p>Create a resource class <code>ReadingsController</code> that extends <code>CoapResource</code> and add the following code to it. This resource will handle POST requests to the <code>/readings</code> endpoint and log the received payload,
 and respond with <strong>status ok</strong>.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ReadingsController</span> <span style="color:#66d9ef">extends</span> CoapResource <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">ReadingsController</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;readings&#34;</span><span style="color:#f92672">);</span>   <span style="color:#75715e">// coap://gateway/readings
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ReadingsController</span> <span style="color:#66d9ef">extends</span> CoapResource {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">ReadingsController</span>() {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">super</span>(<span style="color:#e6db74">&#34;readings&#34;</span>);   <span style="color:#75715e">// coap://gateway/readings</span>
+</span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Override</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">handlePOST</span><span style="color:#f92672">(</span>CoapExchange exchange<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">byte</span><span style="color:#f92672">[]</span> payload <span style="color:#f92672">=</span> exchange<span style="color:#f92672">.</span><span style="color:#a6e22e">getRequestPayload</span><span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">handlePOST</span>(CoapExchange exchange) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">byte</span><span style="color:#f92672">[]</span> payload <span style="color:#f92672">=</span> exchange.<span style="color:#a6e22e">getRequestPayload</span>();
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>payload <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> payload<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span> <span style="color:#f92672">==</span> 0<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            exchange<span style="color:#f92672">.</span><span style="color:#a6e22e">respond</span><span style="color:#f92672">(</span>CoAP<span style="color:#f92672">.</span><span style="color:#a6e22e">ResponseCode</span><span style="color:#f92672">.</span><span style="color:#a6e22e">BAD_REQUEST</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (payload <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> payload.<span style="color:#a6e22e">length</span> <span style="color:#f92672">==</span> 0) {
+</span></span><span style="display:flex;"><span>            exchange.<span style="color:#a6e22e">respond</span>(CoAP.<span style="color:#a6e22e">ResponseCode</span>.<span style="color:#a6e22e">BAD_REQUEST</span>);
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        String readings <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> String<span style="color:#f92672">(</span>payload<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        logger<span style="color:#f92672">.</span><span style="color:#a6e22e">info</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Received: {}&#34;</span> <span style="color:#f92672">,</span> readings<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        String readings <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> String(payload);
+</span></span><span style="display:flex;"><span>        logger.<span style="color:#a6e22e">info</span>(<span style="color:#e6db74">&#34;Received: {}&#34;</span> , readings);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        exchange<span style="color:#f92672">.</span><span style="color:#a6e22e">respond</span><span style="color:#f92672">(</span>CoAP<span style="color:#f92672">.</span><span style="color:#a6e22e">ResponseCode</span><span style="color:#f92672">.</span><span style="color:#a6e22e">CONTENT</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;{\&#34;status\&#34;:\&#34;ok\&#34;}&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>        exchange.<span style="color:#a6e22e">respond</span>(CoAP.<span style="color:#a6e22e">ResponseCode</span>.<span style="color:#a6e22e">CONTENT</span>, <span style="color:#e6db74">&#34;{\&#34;status\&#34;:\&#34;ok\&#34;}&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h4 id="step-4---run-coap-server">Step 4 - Run CoAP Server</h4>
 <p>Build your project and run the spring boot application. You should see the log message indicating that the CoAP server has started on port 5683.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>
@@ -425,14 +416,14 @@ and respond with <strong>status ok</strong>.</p>
 </span></span></code></pre></div><p>This will generate <code>ot-cli-ftd.hex</code>, which we’ll flash onto the nRF52840 dongle to make it a CoAP client. Flash Firmware to nRF52840 Dongle</p>
 <ul>
 <li>Put the dongle in <strong>DFU mode</strong> by pressing the small button next to the white button.
-<img src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*wj3Fh_kh4hap3rBqe3XfTQ.gif" alt="dfu"></li>
+<img alt="dfu" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*wj3Fh_kh4hap3rBqe3XfTQ.gif"></li>
 <li>Open the Programmer App, select device and and flash the <code>ot-cli-ftd.hex</code> firmware.
-<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*OtJN7Hj97apKT9PVTdmBIg.png" alt="programmer"></li>
+<img alt="programmer" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*OtJN7Hj97apKT9PVTdmBIg.png"></li>
 <li>Verify the dongle is no longer blinking, indicating successful flashing</li>
 </ul>
 <h4 id="step-2---join-the-thread-network">Step 2 - Join the Thread Network</h4>
-<p>Make sure commissioner is running on the border router. Border router is running in Raspberry Pi <a href="">https://BRHost</a>, on the web interface we can start commissioner</p>
-<p><img src="/images/iot-29.png" alt="commission"></p>
+<p>Make sure commissioner is running on the border router. Border router is running in Raspberry Pi <a href="/">https://BRHost</a>, on the web interface we can start commissioner</p>
+<p><img alt="commission" src="/images/iot-29.png"></p>
 <p>Then connect to the dongle using <code>screen</code> command and run the following commands to join the thread network as a child device.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>&gt; ifconfig up
 </span></span><span style="display:flex;"><span>Done

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Build and configure Commissioner CLI as an External Commissioner for a Thread Network">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="External Commissioning in Thread Network" />
 <meta property="og:description" content="Build and configure Commissioner CLI as an External Commissioner for a Thread Network" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/iot-thread-external-commissioner-cli/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/iot-24.jpg" />
+<meta property="og:url" content="https://thinkuldeep.com//post/iot-thread-external-commissioner-cli/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/iot-24.jpg" />
 <meta property="article:published_time" content="2025-02-26T11:58:08-04:00" />
-<meta property="article:modified_time" content="2025-02-26T11:58:08-04:00" /><meta itemprop="name" content="External Commissioning in Thread Network">
-<meta itemprop="description" content="Build and configure Commissioner CLI as an External Commissioner for a Thread Network"><meta itemprop="datePublished" content="2025-02-26T11:58:08-04:00" />
-<meta itemprop="dateModified" content="2025-02-26T11:58:08-04:00" />
-<meta itemprop="wordCount" content="736">
-<meta itemprop="keywords" content="IOT,network,cloud,getting started,learning,technology,fundamentals,thread,openthread,tcp,nRF,SDK," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="External Commissioning in Thread Network"/>
-<meta name="twitter:description" content="Build and configure Commissioner CLI as an External Commissioner for a Thread Network"/>
+<meta property="article:modified_time" content="2025-02-26T11:58:08-04:00" />
+  <meta itemprop="name" content="External Commissioning in Thread Network">
+  <meta itemprop="description" content="Build and configure Commissioner CLI as an External Commissioner for a Thread Network">
+  <meta itemprop="datePublished" content="2025-02-26T11:58:08-04:00">
+  <meta itemprop="dateModified" content="2025-02-26T11:58:08-04:00">
+  <meta itemprop="wordCount" content="736">
+  <meta itemprop="keywords" content="IOT,Network,Cloud,Getting Started,Learning,Technology,Fundamentals,Thread,Openthread,Tcp,NRF,SDK"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="External Commissioning in Thread Network">
+<meta name="twitter:description" content="Build and configure Commissioner CLI as an External Commissioner for a Thread Network">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -316,7 +307,7 @@ if (!doNotTrack) {
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In our <a href="/post/iot-thread-network-provisioning/">previous article</a>, we set up a <strong>commissioner within a Thread network</strong> by starting the commissioner from a thread node. However, a Thread network can also be provisioned using an <strong>external commissioner</strong> outside the thread network.</p>
 <p>This article will guide you through the <strong>configuration of an external commissioner</strong> for a Thread network using a <strong>Commissioner CLI setup</strong> on a mac/linux pc.</p>
-<p><img src="/images/iot-24.jpg" alt="iot"></p>
+<p><img alt="iot" src="/images/iot-24.jpg"></p>
 <h2 id="commissioner-cli">Commissioner CLI</h2>
 <p>The <a href="https://openthread.io/guides/commissioner/build.md">Commissioner CLI</a> can be built on macOS or Linux using the following steps:</p>
 <h3 id="build-commissioner-cli">Build Commissioner CLI</h3>
@@ -364,7 +355,7 @@ $ ninja -j1
 </code></pre><h2 id="connecting-with-border-router">Connecting with Border Router</h2>
 <p>In a <a href="/post/iot-thread-devices-internet/">previous article</a>, we set up a <strong>Border Router</strong> on a <strong>Raspberry Pi</strong>, where we could start and manage a <strong>Thread network</strong> through a web interface as well.</p>
 <p>Find the <a href="https://medium.com/iotpractices">IoT Practices Publication</a> for more details.</p>
-<p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*tws9Z-pN99b6qbS4FnUA1A.png" alt=""></p>
+<p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*tws9Z-pN99b6qbS4FnUA1A.png"></p>
 <p>To connect an <strong>external commissioner</strong> to the Border Router, we need:</p>
 <ul>
 <li>Border Router Agent Address</li>
@@ -390,7 +381,7 @@ DATE: ---Fri 28 Feb 2025---
 <li>Address: <code>kuldeep.local.</code> (or the IPv4/IPv6 address of the Raspberry Pi)</li>
 <li>Port: <code>49154</code></li>
 </ul>
-<p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*SNnpvw-DYcLggIOciVPf0A.png" alt=""></p>
+<p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*SNnpvw-DYcLggIOciVPf0A.png"></p>
 <h3 id="getting-pskc">Getting PSKc</h3>
 <p>If the PSKc is already set on the Border Router, retrieve it by running following on border router (Raspberry Pi terminal):</p>
 <pre tabindex="0"><code class="language-commandline" data-lang="commandline">kuldeep@kuldeep:~ $ sudo ot-ctl pskc
@@ -1009,11 +1000,11 @@ active
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jsp-compilation-issues/">Strange JSP Compilation Issue </a>
+          <a href="/post/javascript-plugin-framework/">JavaScript Plugin Framework</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/javascript-plugin-framework/">JavaScript Plugin Framework</a>
+          <a href="/post/jsp-compilation-issues/">Strange JSP Compilation Issue </a>
         </li>
 	    
 	     <li  class="mb2">

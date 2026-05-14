@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="AI Integrated Development Environment - Claude Code in IntelliJ IDEA">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="AI Integrated Development Environment - 1" />
 <meta property="og:description" content="AI Integrated Development Environment - Claude Code in IntelliJ IDEA" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/ai-integrated-development-environment/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/aiide.jpg" />
+<meta property="og:url" content="https://thinkuldeep.com//post/ai-integrated-development-environment/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/aiide.jpg" />
 <meta property="article:published_time" content="2026-03-10T10:58:08-04:00" />
-<meta property="article:modified_time" content="2026-03-10T10:58:08-04:00" /><meta itemprop="name" content="AI Integrated Development Environment - 1">
-<meta itemprop="description" content="AI Integrated Development Environment - Claude Code in IntelliJ IDEA"><meta itemprop="datePublished" content="2026-03-10T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2026-03-10T10:58:08-04:00" />
-<meta itemprop="wordCount" content="990">
-<meta itemprop="keywords" content="evolution,ai,genai,technology,prompt,tutorial,learnings,development,ide,integration,assistant,aiagent,claude," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="AI Integrated Development Environment - 1"/>
-<meta name="twitter:description" content="AI Integrated Development Environment - Claude Code in IntelliJ IDEA"/>
+<meta property="article:modified_time" content="2026-03-10T10:58:08-04:00" />
+  <meta itemprop="name" content="AI Integrated Development Environment - 1">
+  <meta itemprop="description" content="AI Integrated Development Environment - Claude Code in IntelliJ IDEA">
+  <meta itemprop="datePublished" content="2026-03-10T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2026-03-10T10:58:08-04:00">
+  <meta itemprop="wordCount" content="991">
+  <meta itemprop="keywords" content="Evolution,AI,GenAI,Technology,Prompt,Tutorial,Learnings,Development,Ide,Integration,Assistant,Aiagent,Claude"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="AI Integrated Development Environment - 1">
+<meta name="twitter:description" content="AI Integrated Development Environment - Claude Code in IntelliJ IDEA">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -311,7 +302,7 @@ if (!doNotTrack) {
       
       
         <span class="f6 mv4 dib tracked"> - 5 minutes read </span>
-        <span class="f6 mv4 dib tracked"> - 990 words </span>
+        <span class="f6 mv4 dib tracked"> - 991 words </span>
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Integrated Development Environments (IDEs) have played a crucial role in shaping the way software is developed. Engineering Practices such as Agile development, <a href="https://www.thoughtworks.com/en-in/insights/blog/testing/xp-tdd">eXtreme Programming, Test-Driven Development (TDD)</a>, became practical largely because IDEs provided a visual and integrated workflow for writing and managing code.</p>
@@ -320,8 +311,8 @@ if (!doNotTrack) {
 <blockquote>
 <p>Without IDEs, many engineering practices would have remained theoretical rather than widely adopted. IDEs bring together various aspects of development into one unified workspace — editors, database viewers, debuggers, test runners, and more — along with visualizations that help developers reason about their systems.</p>
 </blockquote>
-<p>This is why, even though we talk extensively about <strong><a href="/post/ai-assisted-software-development-myths">AI-assisted software development</a></strong>, the real impact will only emerge when AI is deeply integrated into the IDE itself.</p>
-<p><img src="/images/aiide.jpg" alt="AI IDE"></p>
+<p>This is why, even though we talk extensively about <strong><a href="/post/ai-assisted-software-development-myths/">AI-assisted software development</a></strong>, the real impact will only emerge when AI is deeply integrated into the IDE itself.</p>
+<p><img alt="AI IDE" src="/images/aiide.jpg"></p>
 <p>Over the past few years, AI integrations within IDEs have improved rapidly. Developers can now chat with their IDEs, generate code, refactor existing logic, diagnose issues, and automate tasks directly from within the development environment.</p>
 <p>In this article, we will explore how to integrate <strong>Claude Code with IntelliJ IDEA</strong> and see how it can assist with refactoring, bug fixing, and developer productivity.</p>
 <h2 id="install-claude-code">Install Claude Code</h2>
@@ -378,7 +369,7 @@ If the file does not exist, you can ask Claude to generate one automatically:</p
 <li>Integrated code coverage tooling</li>
 <li>Produced a coverage report</li>
 </ul>
-<p><img src="/images/aiide1.jpg" alt="aiIDE1"></p>
+<p><img alt="aiIDE1" src="/images/aiide1.jpg"></p>
 <p>Not just that, I asked it to commit the code and push the changes, and it did wonder.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>❯ commit the changes                                                                                                                                                                                       
 </span></span><span style="display:flex;"><span>⏺ Bash<span style="color:#f92672">(</span>git status <span style="color:#f92672">&amp;&amp;</span> git diff --stat<span style="color:#f92672">)</span>
@@ -600,11 +591,11 @@ If the file does not exist, you can ask Claude to generate one automatically:</p
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
+          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
+          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
         </li>
 	    
 	     <li  class="mb2">
@@ -1184,11 +1175,11 @@ If the file does not exist, you can ask Claude to generate one automatically:</p
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jsp-compilation-issues/">Strange JSP Compilation Issue </a>
+          <a href="/post/javascript-plugin-framework/">JavaScript Plugin Framework</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/javascript-plugin-framework/">JavaScript Plugin Framework</a>
+          <a href="/post/jsp-compilation-issues/">Strange JSP Compilation Issue </a>
         </li>
 	    
 	     <li  class="mb2">

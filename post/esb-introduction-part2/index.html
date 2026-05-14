@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Build components using Apache CFX and Apache Camel and deploy the applications on Apache Service Mix (Fuse ESB)">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Using Apache CFX and Apache Camel in ESB" />
 <meta property="og:description" content="Build components using Apache CFX and Apache Camel and deploy the applications on Apache Service Mix (Fuse ESB)" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/esb-introduction-part2/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/esb_1.png" />
+<meta property="og:url" content="https://thinkuldeep.com//post/esb-introduction-part2/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/esb_1.png" />
 <meta property="article:published_time" content="2012-01-30T10:58:08-04:00" />
-<meta property="article:modified_time" content="2012-01-30T10:58:08-04:00" /><meta itemprop="name" content="Using Apache CFX and Apache Camel in ESB">
-<meta itemprop="description" content="Build components using Apache CFX and Apache Camel and deploy the applications on Apache Service Mix (Fuse ESB)"><meta itemprop="datePublished" content="2012-01-30T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2012-01-30T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1609">
-<meta itemprop="keywords" content="ESB,java,Apache Service Mix,Apache CFX,FuseESB,XML,Apache Camel,enterprise,integration,technology," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Using Apache CFX and Apache Camel in ESB"/>
-<meta name="twitter:description" content="Build components using Apache CFX and Apache Camel and deploy the applications on Apache Service Mix (Fuse ESB)"/>
+<meta property="article:modified_time" content="2012-01-30T10:58:08-04:00" />
+  <meta itemprop="name" content="Using Apache CFX and Apache Camel in ESB">
+  <meta itemprop="description" content="Build components using Apache CFX and Apache Camel and deploy the applications on Apache Service Mix (Fuse ESB)">
+  <meta itemprop="datePublished" content="2012-01-30T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2012-01-30T10:58:08-04:00">
+  <meta itemprop="wordCount" content="1609">
+  <meta itemprop="keywords" content="ESB,Java,Apache Service Mix,Apache CFX,FuseESB,XML,Apache Camel,Enterprise,Integration,Technology"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Using Apache CFX and Apache Camel in ESB">
+<meta name="twitter:description" content="Build components using Apache CFX and Apache Camel and deploy the applications on Apache Service Mix (Fuse ESB)">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -314,7 +305,7 @@ if (!doNotTrack) {
         <span class="f6 mv4 dib tracked"> - 1609 words </span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In the <a href="/post/esb-introduction-part1">previous article</a>, we learned about ESB and deployed our first OSGi bundle on FuseESB.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In the <a href="/post/esb-introduction-part1/">previous article</a>, we learned about ESB and deployed our first OSGi bundle on FuseESB.</p>
 <p>In this article, we will learn how to build Apache CXF and Apache Camel component and deploy them on FuseESB.</p>
 <p>Lets understand what are these components :</p>
 <h4 id="apache-camel-">Apache Camel ™</h4>
@@ -343,28 +334,28 @@ Run Following command.</p>
 <li>
 <p>Brief discussion about the main files:</p>
 <p><code>Person.java</code>  - This is the main web service interface. Interface is written under <code>@WebService</code> to make it JAX-WS webservice.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.example.cxf<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> javax.jws.WebMethod<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> javax.jws.WebParam<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> javax.jws.WebService<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> javax.xml.bind.annotation.XmlSeeAlso<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> javax.xml.ws.RequestWrapper<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> javax.xml.ws.ResponseWrapper<span style="color:#f92672">;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.example.cxf;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> javax.jws.WebMethod;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> javax.jws.WebParam;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> javax.jws.WebService;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> javax.xml.bind.annotation.XmlSeeAlso;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> javax.xml.ws.RequestWrapper;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> javax.xml.ws.ResponseWrapper;
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">@WebService</span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@XmlSeeAlso</span><span style="color:#f92672">({</span>com<span style="color:#f92672">.</span><span style="color:#a6e22e">nagarro</span><span style="color:#f92672">.</span><span style="color:#a6e22e">example</span><span style="color:#f92672">.</span><span style="color:#a6e22e">cxf</span><span style="color:#f92672">.</span><span style="color:#a6e22e">types</span><span style="color:#f92672">.</span><span style="color:#a6e22e">ObjectFactory</span><span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">})</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">Person</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@RequestWrapper</span><span style="color:#f92672">(</span>localName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;GetPerson&#34;</span><span style="color:#f92672">,</span> className <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;com.nagarro.example.cxf.types.GetPerson&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@ResponseWrapper</span><span style="color:#f92672">(</span>localName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;GetPersonResponse&#34;</span><span style="color:#f92672">,</span> className <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;com.tk.example.cxf.types.GetPersonResponse&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@WebMethod</span><span style="color:#f92672">(</span>operationName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;GetPerson&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">getPerson</span><span style="color:#f92672">(</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@WebParam</span><span style="color:#f92672">(</span>mode <span style="color:#f92672">=</span> WebParam<span style="color:#f92672">.</span><span style="color:#a6e22e">Mode</span><span style="color:#f92672">.</span><span style="color:#a6e22e">INOUT</span><span style="color:#f92672">,</span> name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;personId&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>        javax<span style="color:#f92672">.</span><span style="color:#a6e22e">xml</span><span style="color:#f92672">.</span><span style="color:#a6e22e">ws</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Holder</span><span style="color:#f92672">&lt;</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">lang</span><span style="color:#f92672">.</span><span style="color:#a6e22e">String</span><span style="color:#f92672">&gt;</span> personId<span style="color:#f92672">,</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@WebParam</span><span style="color:#f92672">(</span>mode <span style="color:#f92672">=</span> WebParam<span style="color:#f92672">.</span><span style="color:#a6e22e">Mode</span><span style="color:#f92672">.</span><span style="color:#a6e22e">OUT</span><span style="color:#f92672">,</span> name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;ssn&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>        javax<span style="color:#f92672">.</span><span style="color:#a6e22e">xml</span><span style="color:#f92672">.</span><span style="color:#a6e22e">ws</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Holder</span><span style="color:#f92672">&lt;</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">lang</span><span style="color:#f92672">.</span><span style="color:#a6e22e">String</span><span style="color:#f92672">&gt;</span> ssn<span style="color:#f92672">,</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@WebParam</span><span style="color:#f92672">(</span>mode <span style="color:#f92672">=</span> WebParam<span style="color:#f92672">.</span><span style="color:#a6e22e">Mode</span><span style="color:#f92672">.</span><span style="color:#a6e22e">OUT</span><span style="color:#f92672">,</span> name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;name&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span>        javax<span style="color:#f92672">.</span><span style="color:#a6e22e">xml</span><span style="color:#f92672">.</span><span style="color:#a6e22e">ws</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Holder</span><span style="color:#f92672">&lt;</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">lang</span><span style="color:#f92672">.</span><span style="color:#a6e22e">String</span><span style="color:#f92672">&gt;</span> name
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">)</span> <span style="color:#66d9ef">throws</span> UnknownPersonFault<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@XmlSeeAlso</span>({com.<span style="color:#a6e22e">nagarro</span>.<span style="color:#a6e22e">example</span>.<span style="color:#a6e22e">cxf</span>.<span style="color:#a6e22e">types</span>.<span style="color:#a6e22e">ObjectFactory</span>.<span style="color:#a6e22e">class</span>})
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">Person</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@RequestWrapper</span>(localName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;GetPerson&#34;</span>, className <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;com.nagarro.example.cxf.types.GetPerson&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@ResponseWrapper</span>(localName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;GetPersonResponse&#34;</span>, className <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;com.tk.example.cxf.types.GetPersonResponse&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@WebMethod</span>(operationName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;GetPerson&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">getPerson</span>(
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@WebParam</span>(mode <span style="color:#f92672">=</span> WebParam.<span style="color:#a6e22e">Mode</span>.<span style="color:#a6e22e">INOUT</span>, name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;personId&#34;</span>)
+</span></span><span style="display:flex;"><span>        javax.<span style="color:#a6e22e">xml</span>.<span style="color:#a6e22e">ws</span>.<span style="color:#a6e22e">Holder</span><span style="color:#f92672">&lt;</span>java.<span style="color:#a6e22e">lang</span>.<span style="color:#a6e22e">String</span><span style="color:#f92672">&gt;</span> personId,
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@WebParam</span>(mode <span style="color:#f92672">=</span> WebParam.<span style="color:#a6e22e">Mode</span>.<span style="color:#a6e22e">OUT</span>, name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;ssn&#34;</span>)
+</span></span><span style="display:flex;"><span>        javax.<span style="color:#a6e22e">xml</span>.<span style="color:#a6e22e">ws</span>.<span style="color:#a6e22e">Holder</span><span style="color:#f92672">&lt;</span>java.<span style="color:#a6e22e">lang</span>.<span style="color:#a6e22e">String</span><span style="color:#f92672">&gt;</span> ssn,
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@WebParam</span>(mode <span style="color:#f92672">=</span> WebParam.<span style="color:#a6e22e">Mode</span>.<span style="color:#a6e22e">OUT</span>, name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;name&#34;</span>)
+</span></span><span style="display:flex;"><span>        javax.<span style="color:#a6e22e">xml</span>.<span style="color:#a6e22e">ws</span>.<span style="color:#a6e22e">Holder</span><span style="color:#f92672">&lt;</span>java.<span style="color:#a6e22e">lang</span>.<span style="color:#a6e22e">String</span><span style="color:#f92672">&gt;</span> name
+</span></span><span style="display:flex;"><span>    ) <span style="color:#66d9ef">throws</span> UnknownPersonFault;
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><code>PersonImpl.java</code> – This is the implementation class of the Person interface.</p>
 <p><code>beans.xml</code> – Spring bean class define the service end point.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-xml" data-lang="xml"><span style="display:flex;"><span><span style="color:#f92672">&lt;jaxws:endpoint</span> <span style="color:#a6e22e">id=</span><span style="color:#e6db74">&#34;HTTPEndpoint&#34;</span>
@@ -411,37 +402,37 @@ Right click on pom.xml and select Run As &gt; Maven clean and then again Run As 
 <ul>
 <li><code>HelloWorldWS.java</code></li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.example.hellowrold<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> javax.jws.WebService<span style="color:#f92672">;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.example.hellowrold;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> javax.jws.WebService;
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * HelloWorld Web Service.
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * @author kuldeep
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">@WebService</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">HelloWorldWS</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">HelloWorldWS</span> {
 </span></span><span style="display:flex;"><span>	<span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">	 * Method to say Hi
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">	 * @param text
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">	 * @return Hello text :)
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">	 */</span>
-</span></span><span style="display:flex;"><span>	String <span style="color:#a6e22e">sayHi</span><span style="color:#f92672">(</span>String text<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>	String <span style="color:#a6e22e">sayHi</span>(String text);
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><ul>
 <li>HelloWorldWSImpl.java</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.example.hellowrold<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> javax.jws.WebService<span style="color:#f92672">;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.example.hellowrold;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> javax.jws.WebService;
 </span></span><span style="display:flex;"><span><span style="color:#75715e">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * HelloWorld Web Service implementation
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * @author kuldeep
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@WebService</span><span style="color:#f92672">(</span>endpointInterface <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;com.tk.example.hellowrold.HelloWorldWS&#34;</span><span style="color:#f92672">)</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HelloWorldWSImpl</span> <span style="color:#66d9ef">implements</span> HelloWorldWS <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">sayHi</span><span style="color:#f92672">(</span>String text<span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>		System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Inside say Hi&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Hello &#34;</span> <span style="color:#f92672">+</span> text <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;:)&#34;</span><span style="color:#f92672">;</span>		
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@WebService</span>(endpointInterface <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;com.tk.example.hellowrold.HelloWorldWS&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HelloWorldWSImpl</span> <span style="color:#66d9ef">implements</span> HelloWorldWS {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">sayHi</span>(String text){
+</span></span><span style="display:flex;"><span>		System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Inside say Hi&#34;</span>);
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Hello &#34;</span> <span style="color:#f92672">+</span> text <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;:)&#34;</span>;		
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><ul>
 <li>Define service end point in beans.xml</li>
 </ul>
@@ -453,19 +444,19 @@ Right click on pom.xml and select Run As &gt; Maven clean and then again Run As 
 <li>Open URL http://localhost:8181/cxf/HelloWorld?wsdl to see the wsdl</li>
 <li>Let create a test class to consume the HelloWorld web service</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.example.hellowrold.test<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> org.apache.cxf.jaxws.JaxWsProxyFactoryBean<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> com.nagarro.tk.hellowrold.HelloWorldWS<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">WSTest</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>	 	JaxWsProxyFactoryBean factory <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> JaxWsProxyFactoryBean<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>        	factory<span style="color:#f92672">.</span><span style="color:#a6e22e">setServiceClass</span><span style="color:#f92672">(</span>HelloWorldWS<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        	factory<span style="color:#f92672">.</span><span style="color:#a6e22e">setAddress</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;http://localhost:8181/cxf/HelloWorld&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        	HelloWorldWS client <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>HelloWorldWS<span style="color:#f92672">)</span>factory<span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>        	String response <span style="color:#f92672">=</span> client<span style="color:#f92672">.</span><span style="color:#a6e22e">sayHi</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;User&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        	System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>response<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.example.hellowrold.test;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> org.apache.cxf.jaxws.JaxWsProxyFactoryBean;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> com.nagarro.tk.hellowrold.HelloWorldWS;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">WSTest</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>	 	JaxWsProxyFactoryBean factory <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> JaxWsProxyFactoryBean();
+</span></span><span style="display:flex;"><span>        	factory.<span style="color:#a6e22e">setServiceClass</span>(HelloWorldWS.<span style="color:#a6e22e">class</span>);
+</span></span><span style="display:flex;"><span>        	factory.<span style="color:#a6e22e">setAddress</span>(<span style="color:#e6db74">&#34;http://localhost:8181/cxf/HelloWorld&#34;</span>);
+</span></span><span style="display:flex;"><span>        	HelloWorldWS client <span style="color:#f92672">=</span> (HelloWorldWS)factory.<span style="color:#a6e22e">create</span>();
+</span></span><span style="display:flex;"><span>        	String response <span style="color:#f92672">=</span> client.<span style="color:#a6e22e">sayHi</span>(<span style="color:#e6db74">&#34;User&#34;</span>);
+</span></span><span style="display:flex;"><span>        	System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(response);
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><ul>
 <li>Run this class.</li>
 </ul>
@@ -490,36 +481,36 @@ and It should create following structure.</p>
 <p>Brief discussion about the main files:
 <code>MyTransform.java</code>  - This class will act as log generator, Its will log the message
 “&raquo;&gt; <Prefix> set body : <Timestamp></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.example.camel<span style="color:#f92672">;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.tk.example.camel;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.Date<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.logging.Logger<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.Date;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.logging.Logger;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyTransform</span>  <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> <span style="color:#66d9ef">transient</span> Logger LOGGER <span style="color:#f92672">=</span> Logger<span style="color:#f92672">.</span><span style="color:#a6e22e">getLogger</span><span style="color:#f92672">(</span>MyTransform<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">boolean</span> verbose <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> String prefix <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;MyTransform&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> Object <span style="color:#a6e22e">transform</span><span style="color:#f92672">(</span>Object body<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        String answer <span style="color:#f92672">=</span> prefix <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; set body:  &#34;</span> <span style="color:#f92672">+</span> <span style="color:#66d9ef">new</span> Date<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>verbose<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>            System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;&gt;&gt;&gt;&gt; &#34;</span> <span style="color:#f92672">+</span> answer<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>        LOGGER<span style="color:#f92672">.</span><span style="color:#a6e22e">info</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;&gt;&gt;&gt;&gt; &#34;</span> <span style="color:#f92672">+</span> answer<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> answer<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">isVerbose</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> verbose<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setVerbose</span><span style="color:#f92672">(</span><span style="color:#66d9ef">boolean</span> verbose<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">verbose</span> <span style="color:#f92672">=</span> verbose<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">getPrefix</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> prefix<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setPrefix</span><span style="color:#f92672">(</span>String prefix<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">prefix</span> <span style="color:#f92672">=</span> prefix<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyTransform</span>  {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> <span style="color:#66d9ef">transient</span> Logger LOGGER <span style="color:#f92672">=</span> Logger.<span style="color:#a6e22e">getLogger</span>(MyTransform.<span style="color:#a6e22e">class</span>.<span style="color:#a6e22e">getName</span>());
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">boolean</span> verbose <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> String prefix <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;MyTransform&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> Object <span style="color:#a6e22e">transform</span>(Object body) {
+</span></span><span style="display:flex;"><span>        String answer <span style="color:#f92672">=</span> prefix <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; set body:  &#34;</span> <span style="color:#f92672">+</span> <span style="color:#66d9ef">new</span> Date();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (verbose) {
+</span></span><span style="display:flex;"><span>            System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;&gt;&gt;&gt;&gt; &#34;</span> <span style="color:#f92672">+</span> answer);
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        LOGGER.<span style="color:#a6e22e">info</span>(<span style="color:#e6db74">&#34;&gt;&gt;&gt;&gt; &#34;</span> <span style="color:#f92672">+</span> answer);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> answer;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">isVerbose</span>() {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> verbose;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setVerbose</span>(<span style="color:#66d9ef">boolean</span> verbose) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">verbose</span> <span style="color:#f92672">=</span> verbose;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">getPrefix</span>() {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> prefix;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setPrefix</span>(String prefix) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">prefix</span> <span style="color:#f92672">=</span> prefix;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><code>camel-context.xml</code> – This file is a spring configuration file, it define the camel routing.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-xml" data-lang="xml"><span style="display:flex;"><span><span style="color:#75715e">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- Generated by Apache ServiceMix Archetype --&gt;</span>
@@ -964,11 +955,11 @@ Change from</p>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
+          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/2025-reflections-2026-anticipation/">Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</a>
+          <a href="/post/jagjeevan-avaiable-now/">📕 Available Now! Jagjeevan : Living Larger than Life</a>
         </li>
 	    
 	     <li  class="mb2">
@@ -1276,11 +1267,11 @@ Change from</p>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
+          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
+          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
         </li>
 	    
 	     <li  class="mb2">

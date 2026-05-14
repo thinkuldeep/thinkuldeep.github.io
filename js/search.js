@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
     return content;
   }
 
-  axios.get("/search")
+  axios.get("/index.json")
     .then(function (result) {
       const searchContent = result.data;
       const searchIndex = lunr(function () {
@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (searchResults.length > 0) {
           searchResultElement.innerHTML = searchResults.map(function (match) {
             let item = searchContent.find(function(e) {
-              return e.id == parseInt(match.ref);
+               return String(e.id) === String(match.ref);;
             });
             return "<li>" +
               "<div class=\"relative w-100 mb4 bg-white nested-copy-line-height\">\n" +

@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>director on Kuldeep Singh</title>
-        <link>https://thinkuldeep.com/tags/director/</link>
-        <description>Recent content in director on Kuldeep Singh</description>
+        <title>Director on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/director/</link>
+        <description>Recent content in Director on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
+        <language>en</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
-        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster><atom:link href="https://thinkuldeep.com/tags/director/index.xml" rel="self" type="application/rss+xml" />
+        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
+        <lastBuildDate>Fri, 27 Mar 2026 11:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/director/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>About</title>
-            <link>https://thinkuldeep.com/about/</link>
+            <link>https://thinkuldeep.com//about/</link>
             <pubDate>Fri, 27 Mar 2026 11:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com/about/</guid>
+            <guid>https://thinkuldeep.com//about/</guid>
             <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
 👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
         </item>

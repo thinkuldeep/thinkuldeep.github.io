@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Microsoft Exchange calendar integration in Java">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Managing Calendar and Invites in Java" />
 <meta property="og:description" content="Microsoft Exchange calendar integration in Java" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/java-calendar-and-invite/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/java-ms-exchange.png" />
+<meta property="og:url" content="https://thinkuldeep.com//post/java-calendar-and-invite/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/java-ms-exchange.png" />
 <meta property="article:published_time" content="2012-01-22T10:58:08-04:00" />
-<meta property="article:modified_time" content="2012-01-22T10:58:08-04:00" /><meta itemprop="name" content="Managing Calendar and Invites in Java">
-<meta itemprop="description" content="Microsoft Exchange calendar integration in Java"><meta itemprop="datePublished" content="2012-01-22T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2012-01-22T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1071">
-<meta itemprop="keywords" content="microsoft,java,exchange,integration,mail,enterprise,technology," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Managing Calendar and Invites in Java"/>
-<meta name="twitter:description" content="Microsoft Exchange calendar integration in Java"/>
+<meta property="article:modified_time" content="2012-01-22T10:58:08-04:00" />
+  <meta itemprop="name" content="Managing Calendar and Invites in Java">
+  <meta itemprop="description" content="Microsoft Exchange calendar integration in Java">
+  <meta itemprop="datePublished" content="2012-01-22T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2012-01-22T10:58:08-04:00">
+  <meta itemprop="wordCount" content="1071">
+  <meta itemprop="keywords" content="Microsoft,Java,Exchange,Integration,Mail,Enterprise,Technology"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Managing Calendar and Invites in Java">
+<meta name="twitter:description" content="Microsoft Exchange calendar integration in Java">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -340,68 +331,68 @@ iCalendar is a computer file format which allows Internet users to send meeting 
 <p><code>iCalendar</code> is used and supported by a large number of products, including Google Calendar, Apple iCal, GoDaddy Online Group Calendar, IBM Lotus Notes, Yahoo! Calendar, Evolution (software) , KeepandShare, Lightning extension for Mozilla Thunderbird and SeaMonkey, and by Microsoft Outlook.</p>
 <h2 id="java-solution">Java Solution</h2>
 <p>We can export events information in a <code>.ics</code> file as per the <code>iCalendar</code> format, using Java File IO apis. Similarly Invites/Meeting requests can be sent as email using Java Mail API. Here is flow diagram.</p>
-<p><img src="/images/java-ms-exchange.png" alt="image"></p>
+<p><img alt="image" src="/images/java-ms-exchange.png"></p>
 <h4 id="implementation-steps-for-sending-email-invites">Implementation steps for Sending Email Invites</h4>
 <ul>
 <li>
 <p>Register calendar mime type in java</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// register the text/calendar mime type
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>MimetypesFileTypeMap mimetypes <span style="color:#f92672">=</span> 	<span style="color:#f92672">(</span>MimetypesFileTypeMap<span style="color:#f92672">)</span>MimetypesFileTypeMap<span style="color:#f92672">.</span><span style="color:#a6e22e">getDefaultFileTypeMap</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>mimetypes<span style="color:#f92672">.</span><span style="color:#a6e22e">addMimeTypes</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;text/calendar ics ICS&#34;</span><span style="color:#f92672">);</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// register the text/calendar mime type</span>
+</span></span><span style="display:flex;"><span>MimetypesFileTypeMap mimetypes <span style="color:#f92672">=</span> 	(MimetypesFileTypeMap)MimetypesFileTypeMap.<span style="color:#a6e22e">getDefaultFileTypeMap</span>();
+</span></span><span style="display:flex;"><span>mimetypes.<span style="color:#a6e22e">addMimeTypes</span>(<span style="color:#e6db74">&#34;text/calendar ics ICS&#34;</span>);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// register the handling of text/calendar mime type
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>MailcapCommandMap mailcap <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>MailcapCommandMap<span style="color:#f92672">)</span> 	MailcapCommandMap<span style="color:#f92672">.</span><span style="color:#a6e22e">getDefaultCommandMap</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>mailcap<span style="color:#f92672">.</span><span style="color:#a6e22e">addMailcap</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;text/calendar;;x-java-content-handler=com.sun.mail.handlers.text_plain&#34;</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// register the handling of text/calendar mime type</span>
+</span></span><span style="display:flex;"><span>MailcapCommandMap mailcap <span style="color:#f92672">=</span> (MailcapCommandMap) 	MailcapCommandMap.<span style="color:#a6e22e">getDefaultCommandMap</span>();
+</span></span><span style="display:flex;"><span>mailcap.<span style="color:#a6e22e">addMailcap</span>(<span style="color:#e6db74">&#34;text/calendar;;x-java-content-handler=com.sun.mail.handlers.text_plain&#34;</span>);
 </span></span></code></pre></div></li>
 <li>
 <p>Create message and assign recipients and sender.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// create a message
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>MimeMessage msg <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> MimeMessage<span style="color:#f92672">(</span>session<span style="color:#f92672">);</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// create a message</span>
+</span></span><span style="display:flex;"><span>MimeMessage msg <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> MimeMessage(session);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// set the from and to address
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>InternetAddress addressFrom <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> InternetAddress<span style="color:#f92672">(</span>from<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>msg<span style="color:#f92672">.</span><span style="color:#a6e22e">setFrom</span><span style="color:#f92672">(</span>addressFrom<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>InternetAddress<span style="color:#f92672">[]</span> addressTo <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> InternetAddress<span style="color:#f92672">[</span>recipients<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">];</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span> i <span style="color:#f92672">&lt;</span> recipients<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">;</span> i<span style="color:#f92672">++)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    addressTo<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> InternetAddress<span style="color:#f92672">(</span>recipients<span style="color:#f92672">[</span>i<span style="color:#f92672">]);</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>msg<span style="color:#f92672">.</span><span style="color:#a6e22e">setRecipients</span><span style="color:#f92672">(</span>Message<span style="color:#f92672">.</span><span style="color:#a6e22e">RecipientType</span><span style="color:#f92672">.</span><span style="color:#a6e22e">TO</span><span style="color:#f92672">,</span> addressTo<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// set the from and to address</span>
+</span></span><span style="display:flex;"><span>InternetAddress addressFrom <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> InternetAddress(from);
+</span></span><span style="display:flex;"><span>msg.<span style="color:#a6e22e">setFrom</span>(addressFrom);
+</span></span><span style="display:flex;"><span>InternetAddress<span style="color:#f92672">[]</span> addressTo <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> InternetAddress<span style="color:#f92672">[</span>recipients.<span style="color:#a6e22e">length</span><span style="color:#f92672">]</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0; i <span style="color:#f92672">&lt;</span> recipients.<span style="color:#a6e22e">length</span>; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>    addressTo<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> InternetAddress(recipients<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>msg.<span style="color:#a6e22e">setRecipients</span>(Message.<span style="color:#a6e22e">RecipientType</span>.<span style="color:#a6e22e">TO</span>, addressTo);
 </span></span></code></pre></div></li>
 <li>
 <p>Create an alternative body part.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Create an alternative Multipart
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>Multipart multipart <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> MimeMultipart<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;alternative&#34;</span><span style="color:#f92672">);</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Create an alternative Multipart</span>
+</span></span><span style="display:flex;"><span>Multipart multipart <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> MimeMultipart(<span style="color:#e6db74">&#34;alternative&#34;</span>);
 </span></span></code></pre></div></li>
 <li>
 <p>Set body of invite.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// part 1, html text
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>MimeBodyPart descriptionPart <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> MimeBodyPart<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>String content <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&lt;font size=&#39;\&#39;2\&#39;&#39;&gt;&#34;</span> <span style="color:#f92672">+</span> emailMsgTxt <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;&lt;/font&gt;&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>descriptionPart<span style="color:#f92672">.</span><span style="color:#a6e22e">setContent</span><span style="color:#f92672">(</span>content<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;text/html; charset=utf-8&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>multipart<span style="color:#f92672">.</span><span style="color:#a6e22e">addBodyPart</span><span style="color:#f92672">(</span>descriptionPart<span style="color:#f92672">);</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// part 1, html text</span>
+</span></span><span style="display:flex;"><span>MimeBodyPart descriptionPart <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> MimeBodyPart();
+</span></span><span style="display:flex;"><span>String content <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&lt;font size=&#39;\&#39;2\&#39;&#39;&gt;&#34;</span> <span style="color:#f92672">+</span> emailMsgTxt <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;&lt;/font&gt;&#34;</span>;
+</span></span><span style="display:flex;"><span>descriptionPart.<span style="color:#a6e22e">setContent</span>(content, <span style="color:#e6db74">&#34;text/html; charset=utf-8&#34;</span>);
+</span></span><span style="display:flex;"><span>multipart.<span style="color:#a6e22e">addBodyPart</span>(descriptionPart);
 </span></span></code></pre></div></li>
 <li>
 <p>Add Calendar part</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Add part two, the calendar
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>BodyPart calendarPart <span style="color:#f92672">=</span> buildCalendarPart<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>multipart<span style="color:#f92672">.</span><span style="color:#a6e22e">addBodyPart</span><span style="color:#f92672">(</span>calendarPart<span style="color:#f92672">);</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Add part two, the calendar</span>
+</span></span><span style="display:flex;"><span>BodyPart calendarPart <span style="color:#f92672">=</span> buildCalendarPart();
+</span></span><span style="display:flex;"><span>multipart.<span style="color:#a6e22e">addBodyPart</span>(calendarPart);
 </span></span></code></pre></div><p>The method calendar part can be generated in following ways.</p>
 <ul>
 <li>Using Plain Text</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>SimpleDateFormat iCalendarDateFormat <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> SimpleDateFormat<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;yyyyMMdd&#39;T&#39;HHmm&#39;00&#39;&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>BodyPart calendarPart <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> MimeBodyPart<span style="color:#f92672">();</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>SimpleDateFormat iCalendarDateFormat <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> SimpleDateFormat(<span style="color:#e6db74">&#34;yyyyMMdd&#39;T&#39;HHmm&#39;00&#39;&#34;</span>);
+</span></span><span style="display:flex;"><span>BodyPart calendarPart <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> MimeBodyPart();
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>String calendarContent <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;BEGIN:VCALENDAR\n&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;METHOD:REQUEST\n&#34;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;PRODID: BCP - Meeting\n&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;VERSION:2.0\n&#34;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;BEGIN:VEVENT\n&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;DTSTAMP:&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">+</span> iCalendarDateFormat<span style="color:#f92672">.</span><span style="color:#a6e22e">format</span><span style="color:#f92672">(</span>currentdate<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">+</span> iCalendarDateFormat.<span style="color:#a6e22e">format</span>(currentdate)
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;\n&#34;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;DTSTART:&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">+</span> iCalendarDateFormat<span style="color:#f92672">.</span><span style="color:#a6e22e">format</span><span style="color:#f92672">(</span>startdatetime<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">+</span> iCalendarDateFormat.<span style="color:#a6e22e">format</span>(startdatetime)
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;\n&#34;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;DTEND:&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">+</span> iCalendarDateFormat<span style="color:#f92672">.</span><span style="color:#a6e22e">format</span><span style="color:#f92672">(</span>enddatetime<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">+</span> iCalendarDateFormat.<span style="color:#a6e22e">format</span>(enddatetime)
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;\n&#34;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;SUMMARY:Test 123\n&#34;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;UID:324\n&#34;</span>
@@ -419,84 +410,84 @@ iCalendar is a computer file format which allows Internet users to send meeting 
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;DESCRIPTION:REMINDER\n&#34;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;TRIGGER;RELATED=START:-PT00H15M00S\n&#34;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;END:VALARM\n&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;END:VEVENT\n&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;END:VCALENDAR&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>calendarPart<span style="color:#f92672">.</span><span style="color:#a6e22e">addHeader</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Content-Class&#34;</span><span style="color:#f92672">,</span><span style="color:#e6db74">&#34;urn:content-classes:calendarmessage&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>calendarPart<span style="color:#f92672">.</span><span style="color:#a6e22e">setContent</span><span style="color:#f92672">(</span>calendarContent<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;text/calendar;method=CANCEL&#34;</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;END:VEVENT\n&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;END:VCALENDAR&#34;</span>;
+</span></span><span style="display:flex;"><span>calendarPart.<span style="color:#a6e22e">addHeader</span>(<span style="color:#e6db74">&#34;Content-Class&#34;</span>,<span style="color:#e6db74">&#34;urn:content-classes:calendarmessage&#34;</span>);
+</span></span><span style="display:flex;"><span>calendarPart.<span style="color:#a6e22e">setContent</span>(calendarContent, <span style="color:#e6db74">&#34;text/calendar;method=CANCEL&#34;</span>);
 </span></span></code></pre></div><ul>
 <li>Using ICal4J Library ( Ref to Next section for more detail on ICal4J)</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Create a TimeZone
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>TimeZoneRegistry registry <span style="color:#f92672">=</span> TimeZoneRegistryFactory<span style="color:#f92672">.</span><span style="color:#a6e22e">getInstance</span><span style="color:#f92672">().</span><span style="color:#a6e22e">createRegistry</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>TimeZone timezone <span style="color:#f92672">=</span> registry<span style="color:#f92672">.</span><span style="color:#a6e22e">getTimeZone</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;America/Mexico_City&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span> startDate <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GregorianCalendar<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>startDate<span style="color:#f92672">.</span><span style="color:#a6e22e">setTimeZone</span><span style="color:#f92672">(</span>timezone<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>startDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">MONTH</span><span style="color:#f92672">,</span> java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">JANUARY</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>startDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">DAY_OF_MONTH</span><span style="color:#f92672">,</span> 18<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>startDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">YEAR</span><span style="color:#f92672">,</span> 2012<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>startDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">HOUR_OF_DAY</span><span style="color:#f92672">,</span> 9<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>startDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">MINUTE</span><span style="color:#f92672">,</span> 0<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>startDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">SECOND</span><span style="color:#f92672">,</span> 0<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// End Date is on: April 1, 2008, 13:00
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span> endDate <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GregorianCalendar<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>endDate<span style="color:#f92672">.</span><span style="color:#a6e22e">setTimeZone</span><span style="color:#f92672">(</span>timezone<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>endDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">MONTH</span><span style="color:#f92672">,</span> java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">JANUARY</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>endDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">DAY_OF_MONTH</span><span style="color:#f92672">,</span> 18<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>endDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">YEAR</span><span style="color:#f92672">,</span> 2012<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>endDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">HOUR_OF_DAY</span><span style="color:#f92672">,</span> 13<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>endDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">MINUTE</span><span style="color:#f92672">,</span> 0<span style="color:#f92672">);</span>	
-</span></span><span style="display:flex;"><span>endDate<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">SECOND</span><span style="color:#f92672">,</span> 0<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// Create the event
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>String eventName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Progress Meeting&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>DateTime start <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> DateTime<span style="color:#f92672">(</span>startDate<span style="color:#f92672">.</span><span style="color:#a6e22e">getTime</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>DateTime end <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> DateTime<span style="color:#f92672">(</span>endDate<span style="color:#f92672">.</span><span style="color:#a6e22e">getTime</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>VEvent meeting <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> VEvent<span style="color:#f92672">(</span>start<span style="color:#f92672">,</span> end<span style="color:#f92672">,</span> eventName<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// add attendees..
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>Attendee dev1 <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Attendee<span style="color:#f92672">(</span>URI<span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;mailto:dev1@mycompany.com&#34;</span><span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>dev1<span style="color:#f92672">.</span><span style="color:#a6e22e">getParameters</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>Role<span style="color:#f92672">.</span><span style="color:#a6e22e">REQ_PARTICIPANT</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>dev1<span style="color:#f92672">.</span><span style="color:#a6e22e">getParameters</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Cn<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Developer 1&#34;</span><span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>meeting<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>dev1<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>Attendee dev2 <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Attendee<span style="color:#f92672">(</span>URI<span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;mailto:dev2@mycompany.com&#34;</span><span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>dev2<span style="color:#f92672">.</span><span style="color:#a6e22e">getParameters</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>Role<span style="color:#f92672">.</span><span style="color:#a6e22e">OPT_PARTICIPANT</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>dev2<span style="color:#f92672">.</span><span style="color:#a6e22e">getParameters</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Cn<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Developer 2&#34;</span><span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>meeting<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>dev2<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>VAlarm reminder <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> VAlarm<span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Dur<span style="color:#f92672">(</span>0<span style="color:#f92672">,</span> <span style="color:#f92672">-</span>1<span style="color:#f92672">,</span> 0<span style="color:#f92672">,</span> 0<span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// repeat reminder four (4) more times every fifteen (15) minutes..
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>reminder<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Repeat<span style="color:#f92672">(</span>4<span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>reminder<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Duration<span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Dur<span style="color:#f92672">(</span>0<span style="color:#f92672">,</span> 0<span style="color:#f92672">,</span> 15<span style="color:#f92672">,</span> 0<span style="color:#f92672">)));</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// display a message..
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>reminder<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>Action<span style="color:#f92672">.</span><span style="color:#a6e22e">DISPLAY</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>reminder<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Description<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Progress Meeting&#34;</span><span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>reminder<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Trigger<span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Dur<span style="color:#f92672">(</span>0<span style="color:#f92672">,</span> 0<span style="color:#f92672">,</span> 15<span style="color:#f92672">,</span> 0<span style="color:#f92672">)));</span>
-</span></span><span style="display:flex;"><span>Transp transp <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Transp<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;OPAQUE&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>meeting<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>transp<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>Location loc <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Location<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Gurgaon&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>meeting<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>loc<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>meeting<span style="color:#f92672">.</span><span style="color:#a6e22e">getAlarms</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>reminder<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// Create a calendar
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>net<span style="color:#f92672">.</span><span style="color:#a6e22e">fortuna</span><span style="color:#f92672">.</span><span style="color:#a6e22e">ical4j</span><span style="color:#f92672">.</span><span style="color:#a6e22e">model</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span> icsCalendar <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> net<span style="color:#f92672">.</span><span style="color:#a6e22e">fortuna</span><span style="color:#f92672">.</span><span style="color:#a6e22e">ical4j</span><span style="color:#f92672">.</span><span style="color:#a6e22e">model</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>icsCalendar<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> ProdId<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;-//Events Calendar//iCal4j 1.0//EN&#34;</span><span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>icsCalendar<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Method<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;REQUEST&#34;</span><span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>icsCalendar<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Sequence<span style="color:#f92672">(</span>0<span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>icsCalendar<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Priority<span style="color:#f92672">(</span>5<span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>icsCalendar<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Status<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;CONFIRMED&#34;</span><span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>icsCalendar<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Uid<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;324&#34;</span><span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// Add the event and print
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>icsCalendar<span style="color:#f92672">.</span><span style="color:#a6e22e">getComponents</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>meeting<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>String calendarContent <span style="color:#f92672">=</span> icsCalendar<span style="color:#f92672">.</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>calendarPart<span style="color:#f92672">.</span><span style="color:#a6e22e">addHeader</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Content-Class&#34;</span><span style="color:#f92672">,</span><span style="color:#e6db74">&#34;urn:content-classes:calendarmessage&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>calendarPart<span style="color:#f92672">.</span><span style="color:#a6e22e">setContent</span><span style="color:#f92672">(</span>calendarContent<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;text/calendar;method=CANCEL&#34;</span><span style="color:#f92672">);</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Create a TimeZone</span>
+</span></span><span style="display:flex;"><span>TimeZoneRegistry registry <span style="color:#f92672">=</span> TimeZoneRegistryFactory.<span style="color:#a6e22e">getInstance</span>().<span style="color:#a6e22e">createRegistry</span>();
+</span></span><span style="display:flex;"><span>TimeZone timezone <span style="color:#f92672">=</span> registry.<span style="color:#a6e22e">getTimeZone</span>(<span style="color:#e6db74">&#34;America/Mexico_City&#34;</span>);
+</span></span><span style="display:flex;"><span>java.<span style="color:#a6e22e">util</span>.<span style="color:#a6e22e">Calendar</span> startDate <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GregorianCalendar();
+</span></span><span style="display:flex;"><span>startDate.<span style="color:#a6e22e">setTimeZone</span>(timezone);
+</span></span><span style="display:flex;"><span>startDate.<span style="color:#a6e22e">set</span>(java.<span style="color:#a6e22e">util</span>.<span style="color:#a6e22e">Calendar</span>.<span style="color:#a6e22e">MONTH</span>, java.<span style="color:#a6e22e">util</span>.<span style="color:#a6e22e">Calendar</span>.<span style="color:#a6e22e">JANUARY</span>);
+</span></span><span style="display:flex;"><span>startDate.<span style="color:#a6e22e">set</span>(java.<span style="color:#a6e22e">util</span>.<span style="color:#a6e22e">Calendar</span>.<span style="color:#a6e22e">DAY_OF_MONTH</span>, 18);
+</span></span><span style="display:flex;"><span>startDate.<span style="color:#a6e22e">set</span>(java.<span style="color:#a6e22e">util</span>.<span style="color:#a6e22e">Calendar</span>.<span style="color:#a6e22e">YEAR</span>, 2012);
+</span></span><span style="display:flex;"><span>startDate.<span style="color:#a6e22e">set</span>(java.<span style="color:#a6e22e">util</span>.<span style="color:#a6e22e">Calendar</span>.<span style="color:#a6e22e">HOUR_OF_DAY</span>, 9);
+</span></span><span style="display:flex;"><span>startDate.<span style="color:#a6e22e">set</span>(java.<span style="color:#a6e22e">util</span>.<span style="color:#a6e22e">Calendar</span>.<span style="color:#a6e22e">MINUTE</span>, 0);
+</span></span><span style="display:flex;"><span>startDate.<span style="color:#a6e22e">set</span>(java.<span style="color:#a6e22e">util</span>.<span style="color:#a6e22e">Calendar</span>.<span style="color:#a6e22e">SECOND</span>, 0);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// End Date is on: April 1, 2008, 13:00</span>
+</span></span><span style="display:flex;"><span>java.<span style="color:#a6e22e">util</span>.<span style="color:#a6e22e">Calendar</span> endDate <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GregorianCalendar();
+</span></span><span style="display:flex;"><span>endDate.<span style="color:#a6e22e">setTimeZone</span>(timezone);
+</span></span><span style="display:flex;"><span>endDate.<span style="color:#a6e22e">set</span>(java.<span style="color:#a6e22e">util</span>.<span style="color:#a6e22e">Calendar</span>.<span style="color:#a6e22e">MONTH</span>, java.<span style="color:#a6e22e">util</span>.<span style="color:#a6e22e">Calendar</span>.<span style="color:#a6e22e">JANUARY</span>);
+</span></span><span style="display:flex;"><span>endDate.<span style="color:#a6e22e">set</span>(java.<span style="color:#a6e22e">util</span>.<span style="color:#a6e22e">Calendar</span>.<span style="color:#a6e22e">DAY_OF_MONTH</span>, 18);
+</span></span><span style="display:flex;"><span>endDate.<span style="color:#a6e22e">set</span>(java.<span style="color:#a6e22e">util</span>.<span style="color:#a6e22e">Calendar</span>.<span style="color:#a6e22e">YEAR</span>, 2012);
+</span></span><span style="display:flex;"><span>endDate.<span style="color:#a6e22e">set</span>(java.<span style="color:#a6e22e">util</span>.<span style="color:#a6e22e">Calendar</span>.<span style="color:#a6e22e">HOUR_OF_DAY</span>, 13);
+</span></span><span style="display:flex;"><span>endDate.<span style="color:#a6e22e">set</span>(java.<span style="color:#a6e22e">util</span>.<span style="color:#a6e22e">Calendar</span>.<span style="color:#a6e22e">MINUTE</span>, 0);	
+</span></span><span style="display:flex;"><span>endDate.<span style="color:#a6e22e">set</span>(java.<span style="color:#a6e22e">util</span>.<span style="color:#a6e22e">Calendar</span>.<span style="color:#a6e22e">SECOND</span>, 0);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Create the event</span>
+</span></span><span style="display:flex;"><span>String eventName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Progress Meeting&#34;</span>;
+</span></span><span style="display:flex;"><span>DateTime start <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> DateTime(startDate.<span style="color:#a6e22e">getTime</span>());
+</span></span><span style="display:flex;"><span>DateTime end <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> DateTime(endDate.<span style="color:#a6e22e">getTime</span>());
+</span></span><span style="display:flex;"><span>VEvent meeting <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> VEvent(start, end, eventName);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// add attendees..</span>
+</span></span><span style="display:flex;"><span>Attendee dev1 <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Attendee(URI.<span style="color:#a6e22e">create</span>(<span style="color:#e6db74">&#34;mailto:dev1@mycompany.com&#34;</span>));
+</span></span><span style="display:flex;"><span>dev1.<span style="color:#a6e22e">getParameters</span>().<span style="color:#a6e22e">add</span>(Role.<span style="color:#a6e22e">REQ_PARTICIPANT</span>);
+</span></span><span style="display:flex;"><span>dev1.<span style="color:#a6e22e">getParameters</span>().<span style="color:#a6e22e">add</span>(<span style="color:#66d9ef">new</span> Cn(<span style="color:#e6db74">&#34;Developer 1&#34;</span>));
+</span></span><span style="display:flex;"><span>meeting.<span style="color:#a6e22e">getProperties</span>().<span style="color:#a6e22e">add</span>(dev1);
+</span></span><span style="display:flex;"><span>Attendee dev2 <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Attendee(URI.<span style="color:#a6e22e">create</span>(<span style="color:#e6db74">&#34;mailto:dev2@mycompany.com&#34;</span>));
+</span></span><span style="display:flex;"><span>dev2.<span style="color:#a6e22e">getParameters</span>().<span style="color:#a6e22e">add</span>(Role.<span style="color:#a6e22e">OPT_PARTICIPANT</span>);
+</span></span><span style="display:flex;"><span>dev2.<span style="color:#a6e22e">getParameters</span>().<span style="color:#a6e22e">add</span>(<span style="color:#66d9ef">new</span> Cn(<span style="color:#e6db74">&#34;Developer 2&#34;</span>));
+</span></span><span style="display:flex;"><span>meeting.<span style="color:#a6e22e">getProperties</span>().<span style="color:#a6e22e">add</span>(dev2);
+</span></span><span style="display:flex;"><span>VAlarm reminder <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> VAlarm(<span style="color:#66d9ef">new</span> Dur(0, <span style="color:#f92672">-</span>1, 0, 0));
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// repeat reminder four (4) more times every fifteen (15) minutes..</span>
+</span></span><span style="display:flex;"><span>reminder.<span style="color:#a6e22e">getProperties</span>().<span style="color:#a6e22e">add</span>(<span style="color:#66d9ef">new</span> Repeat(4));
+</span></span><span style="display:flex;"><span>reminder.<span style="color:#a6e22e">getProperties</span>().<span style="color:#a6e22e">add</span>(<span style="color:#66d9ef">new</span> Duration(<span style="color:#66d9ef">new</span> Dur(0, 0, 15, 0)));
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// display a message..</span>
+</span></span><span style="display:flex;"><span>reminder.<span style="color:#a6e22e">getProperties</span>().<span style="color:#a6e22e">add</span>(Action.<span style="color:#a6e22e">DISPLAY</span>);
+</span></span><span style="display:flex;"><span>reminder.<span style="color:#a6e22e">getProperties</span>().<span style="color:#a6e22e">add</span>(<span style="color:#66d9ef">new</span> Description(<span style="color:#e6db74">&#34;Progress Meeting&#34;</span>));
+</span></span><span style="display:flex;"><span>reminder.<span style="color:#a6e22e">getProperties</span>().<span style="color:#a6e22e">add</span>(<span style="color:#66d9ef">new</span> Trigger(<span style="color:#66d9ef">new</span> Dur(0, 0, 15, 0)));
+</span></span><span style="display:flex;"><span>Transp transp <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Transp(<span style="color:#e6db74">&#34;OPAQUE&#34;</span>);
+</span></span><span style="display:flex;"><span>meeting.<span style="color:#a6e22e">getProperties</span>().<span style="color:#a6e22e">add</span>(transp);
+</span></span><span style="display:flex;"><span>Location loc <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Location(<span style="color:#e6db74">&#34;Gurgaon&#34;</span>);
+</span></span><span style="display:flex;"><span>meeting.<span style="color:#a6e22e">getProperties</span>().<span style="color:#a6e22e">add</span>(loc);
+</span></span><span style="display:flex;"><span>meeting.<span style="color:#a6e22e">getAlarms</span>().<span style="color:#a6e22e">add</span>(reminder);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Create a calendar</span>
+</span></span><span style="display:flex;"><span>net.<span style="color:#a6e22e">fortuna</span>.<span style="color:#a6e22e">ical4j</span>.<span style="color:#a6e22e">model</span>.<span style="color:#a6e22e">Calendar</span> icsCalendar <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> net.<span style="color:#a6e22e">fortuna</span>.<span style="color:#a6e22e">ical4j</span>.<span style="color:#a6e22e">model</span>.<span style="color:#a6e22e">Calendar</span>();
+</span></span><span style="display:flex;"><span>icsCalendar.<span style="color:#a6e22e">getProperties</span>().<span style="color:#a6e22e">add</span>(<span style="color:#66d9ef">new</span> ProdId(<span style="color:#e6db74">&#34;-//Events Calendar//iCal4j 1.0//EN&#34;</span>));
+</span></span><span style="display:flex;"><span>icsCalendar.<span style="color:#a6e22e">getProperties</span>().<span style="color:#a6e22e">add</span>(<span style="color:#66d9ef">new</span> Method(<span style="color:#e6db74">&#34;REQUEST&#34;</span>));
+</span></span><span style="display:flex;"><span>icsCalendar.<span style="color:#a6e22e">getProperties</span>().<span style="color:#a6e22e">add</span>(<span style="color:#66d9ef">new</span> Sequence(0));
+</span></span><span style="display:flex;"><span>icsCalendar.<span style="color:#a6e22e">getProperties</span>().<span style="color:#a6e22e">add</span>(<span style="color:#66d9ef">new</span> Priority(5));
+</span></span><span style="display:flex;"><span>icsCalendar.<span style="color:#a6e22e">getProperties</span>().<span style="color:#a6e22e">add</span>(<span style="color:#66d9ef">new</span> Status(<span style="color:#e6db74">&#34;CONFIRMED&#34;</span>));
+</span></span><span style="display:flex;"><span>icsCalendar.<span style="color:#a6e22e">getProperties</span>().<span style="color:#a6e22e">add</span>(<span style="color:#66d9ef">new</span> Uid(<span style="color:#e6db74">&#34;324&#34;</span>));
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Add the event and print</span>
+</span></span><span style="display:flex;"><span>icsCalendar.<span style="color:#a6e22e">getComponents</span>().<span style="color:#a6e22e">add</span>(meeting);
+</span></span><span style="display:flex;"><span>String calendarContent <span style="color:#f92672">=</span> icsCalendar.<span style="color:#a6e22e">toString</span>();
+</span></span><span style="display:flex;"><span>calendarPart.<span style="color:#a6e22e">addHeader</span>(<span style="color:#e6db74">&#34;Content-Class&#34;</span>,<span style="color:#e6db74">&#34;urn:content-classes:calendarmessage&#34;</span>);
+</span></span><span style="display:flex;"><span>calendarPart.<span style="color:#a6e22e">setContent</span>(calendarContent, <span style="color:#e6db74">&#34;text/calendar;method=CANCEL&#34;</span>);
 </span></span></code></pre></div></li>
 <li>
 <p>Put above multipart content in message</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Put the multipart in message
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>msg<span style="color:#f92672">.</span><span style="color:#a6e22e">setContent</span><span style="color:#f92672">(</span>multipart<span style="color:#f92672">);</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Put the multipart in message</span>
+</span></span><span style="display:flex;"><span>msg.<span style="color:#a6e22e">setContent</span>(multipart);
 </span></span></code></pre></div></li>
 <li>
 <p>And finally send above Mime message as email</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>Transport transport <span style="color:#f92672">=</span> session<span style="color:#f92672">.</span><span style="color:#a6e22e">getTransport</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;smtp&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>transport<span style="color:#f92672">.</span><span style="color:#a6e22e">connect</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>transport<span style="color:#f92672">.</span><span style="color:#a6e22e">sendMessage</span><span style="color:#f92672">(</span>msg<span style="color:#f92672">,</span> msg<span style="color:#f92672">.</span><span style="color:#a6e22e">getAllRecipients</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>transport<span style="color:#f92672">.</span><span style="color:#a6e22e">close</span><span style="color:#f92672">();</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>Transport transport <span style="color:#f92672">=</span> session.<span style="color:#a6e22e">getTransport</span>(<span style="color:#e6db74">&#34;smtp&#34;</span>);
+</span></span><span style="display:flex;"><span>transport.<span style="color:#a6e22e">connect</span>();
+</span></span><span style="display:flex;"><span>transport.<span style="color:#a6e22e">sendMessage</span>(msg, msg.<span style="color:#a6e22e">getAllRecipients</span>());
+</span></span><span style="display:flex;"><span>transport.<span style="color:#a6e22e">close</span>();
 </span></span></code></pre></div></li>
 </ul>
 <p>Follow the references for more detail on creating email session and using java Mail API.</p>
@@ -505,18 +496,18 @@ iCalendar is a computer file format which allows Internet users to send meeting 
 <ul>
 <li>
 <p>Parsing an iCalendar file - Support for parsing and building an iCalendar object model is provided by the <code>CalendarParser</code> and <code>ContentHandler</code> interfaces. You can provide your own implementations of either of these, or just use the default implementations as provided by the <code>CalendarBuilder</code> class</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>FileInputStream fin <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> FileInputStream<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;mycalendar.ics&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>CalendarBuilder builder <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> CalendarBuilder<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>Calendar calendar <span style="color:#f92672">=</span> builder<span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">(</span>fin<span style="color:#f92672">);</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>FileInputStream fin <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> FileInputStream(<span style="color:#e6db74">&#34;mycalendar.ics&#34;</span>);
+</span></span><span style="display:flex;"><span>CalendarBuilder builder <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> CalendarBuilder();
+</span></span><span style="display:flex;"><span>Calendar calendar <span style="color:#f92672">=</span> builder.<span style="color:#a6e22e">build</span>(fin);
 </span></span></code></pre></div></li>
 <li>
 <p>Creating a new Calendar -  Creating a new calendar is quite straight-forward, in that all you need to remember is that a Calendar contains a list of Properties and Components. A calendar must contain certain standard properties and at least one component to be valid. You can verify that a calendar is valid via the method <code>Calendar.validate()</code>. All <code>iCal4j</code> objects also override<code> Object.toString()</code>, so you can verify the resulting calendar data via this mechanism.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>Calendar calendar <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Calendar<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>calendar<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> ProdId<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;-//Ben Fortuna//iCal4j 1.0//EN&#34;</span><span style="color:#f92672">));</span>
-</span></span><span style="display:flex;"><span>calendar<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>Version<span style="color:#f92672">.</span><span style="color:#a6e22e">VERSION_2_0</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>calendar<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>CalScale<span style="color:#f92672">.</span><span style="color:#a6e22e">GREGORIAN</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// Add events, etc..
-</span></span></span></code></pre></div><pre><code>  Output
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>Calendar calendar <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Calendar();
+</span></span><span style="display:flex;"><span>calendar.<span style="color:#a6e22e">getProperties</span>().<span style="color:#a6e22e">add</span>(<span style="color:#66d9ef">new</span> ProdId(<span style="color:#e6db74">&#34;-//Ben Fortuna//iCal4j 1.0//EN&#34;</span>));
+</span></span><span style="display:flex;"><span>calendar.<span style="color:#a6e22e">getProperties</span>().<span style="color:#a6e22e">add</span>(Version.<span style="color:#a6e22e">VERSION_2_0</span>);
+</span></span><span style="display:flex;"><span>calendar.<span style="color:#a6e22e">getProperties</span>().<span style="color:#a6e22e">add</span>(CalScale.<span style="color:#a6e22e">GREGORIAN</span>);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Add events, etc..</span>
+</span></span></code></pre></div><pre><code>  Output
   BEGIN:VCALENDAR
   PRODID:-//Ben Fortuna//iCal4j 1.0//EN
   VERSION:2.0
@@ -526,13 +517,13 @@ iCalendar is a computer file format which allows Internet users to send meeting 
 </li>
 <li>
 <p>Creating an Event - One of the more commonly used components is a <code>VEvent</code>. To create a VEvent you can either set the date value and properties manually or you can make use of the convenience constructors to initialise standard values.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span> cal <span style="color:#f92672">=</span> java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">getInstance</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>cal<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">MONTH</span><span style="color:#f92672">,</span> java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">DECEMBER</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>cal<span style="color:#f92672">.</span><span style="color:#a6e22e">set</span><span style="color:#f92672">(</span>java<span style="color:#f92672">.</span><span style="color:#a6e22e">util</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Calendar</span><span style="color:#f92672">.</span><span style="color:#a6e22e">DAY_OF_MONTH</span><span style="color:#f92672">,</span> 25<span style="color:#f92672">);</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>java.<span style="color:#a6e22e">util</span>.<span style="color:#a6e22e">Calendar</span> cal <span style="color:#f92672">=</span> java.<span style="color:#a6e22e">util</span>.<span style="color:#a6e22e">Calendar</span>.<span style="color:#a6e22e">getInstance</span>();
+</span></span><span style="display:flex;"><span>cal.<span style="color:#a6e22e">set</span>(java.<span style="color:#a6e22e">util</span>.<span style="color:#a6e22e">Calendar</span>.<span style="color:#a6e22e">MONTH</span>, java.<span style="color:#a6e22e">util</span>.<span style="color:#a6e22e">Calendar</span>.<span style="color:#a6e22e">DECEMBER</span>);
+</span></span><span style="display:flex;"><span>cal.<span style="color:#a6e22e">set</span>(java.<span style="color:#a6e22e">util</span>.<span style="color:#a6e22e">Calendar</span>.<span style="color:#a6e22e">DAY_OF_MONTH</span>, 25);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>VEvent christmas <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> VEvent<span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> Date<span style="color:#f92672">(</span>cal<span style="color:#f92672">.</span><span style="color:#a6e22e">getTime</span><span style="color:#f92672">()),</span> <span style="color:#e6db74">&#34;Christmas Day&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// initialise as an all-day event..
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>christmas<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperties</span><span style="color:#f92672">().</span><span style="color:#a6e22e">getProperty</span><span style="color:#f92672">(</span>Property<span style="color:#f92672">.</span><span style="color:#a6e22e">DTSTART</span><span style="color:#f92672">).</span><span style="color:#a6e22e">getParameters</span><span style="color:#f92672">().</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span>Value<span style="color:#f92672">.</span><span style="color:#a6e22e">DATE</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>VEvent christmas <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> VEvent(<span style="color:#66d9ef">new</span> Date(cal.<span style="color:#a6e22e">getTime</span>()), <span style="color:#e6db74">&#34;Christmas Day&#34;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// initialise as an all-day event..</span>
+</span></span><span style="display:flex;"><span>christmas.<span style="color:#a6e22e">getProperties</span>().<span style="color:#a6e22e">getProperty</span>(Property.<span style="color:#a6e22e">DTSTART</span>).<span style="color:#a6e22e">getParameters</span>().<span style="color:#a6e22e">add</span>(Value.<span style="color:#a6e22e">DATE</span>);
 </span></span></code></pre></div><pre><code>  Output:
   BEGIN:VEVENT
   DTSTAMP:20050222T044240Z
@@ -543,9 +534,9 @@ iCalendar is a computer file format which allows Internet users to send meeting 
 </li>
 <li>
 <p>Saving an iCalendar File - When saving an <code>iCalendar</code> file <code>iCal4j</code> will automatically validate your calendar object model to ensure it complies with the <code>RFC2445</code> specification. If you would prefer not to validate your calendar data you can disable the validation by calling <code>CalendarOutputter.setValidating(false)</code>.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>FileOutputStream fout <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> FileOutputStream<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;mycalendar.ics&#34;</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>CalendarOutputter outputter <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> CalendarOutputter<span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>outputter<span style="color:#f92672">.</span><span style="color:#a6e22e">output</span><span style="color:#f92672">(</span>calendar<span style="color:#f92672">,</span> fout<span style="color:#f92672">);</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>FileOutputStream fout <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> FileOutputStream(<span style="color:#e6db74">&#34;mycalendar.ics&#34;</span>);
+</span></span><span style="display:flex;"><span>CalendarOutputter outputter <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> CalendarOutputter();
+</span></span><span style="display:flex;"><span>outputter.<span style="color:#a6e22e">output</span>(calendar, fout);
 </span></span></code></pre></div></li>
 </ul>
 <h2 id="references">References</h2>

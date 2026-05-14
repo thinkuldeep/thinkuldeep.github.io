@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Get started with IoT without diving deep into hardware complexities">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Getting Started with Soft IoT" />
 <meta property="og:description" content="Get started with IoT without diving deep into hardware complexities" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/soft-iot/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/iot-5.jpg" />
+<meta property="og:url" content="https://thinkuldeep.com//post/soft-iot/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/iot-5.jpg" />
 <meta property="article:published_time" content="2024-10-09T10:58:08-04:00" />
-<meta property="article:modified_time" content="2024-10-09T10:58:08-04:00" /><meta itemprop="name" content="Getting Started with Soft IoT">
-<meta itemprop="description" content="Get started with IoT without diving deep into hardware complexities"><meta itemprop="datePublished" content="2024-10-09T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2024-10-09T10:58:08-04:00" />
-<meta itemprop="wordCount" content="985">
-<meta itemprop="keywords" content="IOT,raspberry pi,rebooting,cloud,getting started,learning,technology,fundamentals," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Getting Started with Soft IoT"/>
-<meta name="twitter:description" content="Get started with IoT without diving deep into hardware complexities"/>
+<meta property="article:modified_time" content="2024-10-09T10:58:08-04:00" />
+  <meta itemprop="name" content="Getting Started with Soft IoT">
+  <meta itemprop="description" content="Get started with IoT without diving deep into hardware complexities">
+  <meta itemprop="datePublished" content="2024-10-09T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2024-10-09T10:58:08-04:00">
+  <meta itemprop="wordCount" content="985">
+  <meta itemprop="keywords" content="IOT,Raspberry Pi,Rebooting,Cloud,Getting Started,Learning,Technology,Fundamentals"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Getting Started with Soft IoT">
+<meta name="twitter:description" content="Get started with IoT without diving deep into hardware complexities">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -315,18 +306,18 @@ if (!doNotTrack) {
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><strong><em>Learning IoT doesn’t have to be complex, especially when starting out. In this post, we’ll explore how to get started with IoT without diving deep into hardware complexities like wiring or understanding intricate sensor details.</em></strong></p>
-<p><img src="/images/iot-5.jpg" alt=""></p>
-<p>In an <a href="/post/iot-rebooting">earlier article</a>, we set up a Raspberry Pi. My son initially saw it as just another, albeit slower, computer. There was no “IoT” in it yet, just a basic device. But <a href="/post/iot_simplified">IoT</a> is about more than just the device itself; it’s about integrating sensors and actuators.</p>
+<p><img src="/images/iot-5.jpg"></p>
+<p>In an <a href="/post/iot-rebooting/">earlier article</a>, we set up a Raspberry Pi. My son initially saw it as just another, albeit slower, computer. There was no “IoT” in it yet, just a basic device. But <a href="/post/iot_simplified/">IoT</a> is about more than just the device itself; it’s about integrating sensors and actuators.</p>
 <p>In this article, we’ll take the first step to transform the Raspberry Pi into a functional IoT device — using the Grove Pi+ board to add sensors and actuators — without getting bogged down by hardware details. I call it <strong>Soft IoT</strong> — focusing on the software side of things. We’ll delve into the hardware later.</p>
 <h2 id="what-youll-need">What You’ll Need:</h2>
-<p>In addition to what we used in the <a href="/post/iot-rebooting#what-you-need">last article</a>, you’ll need:</p>
+<p>In addition to what we used in the <a href="/post/iot-rebooting/#what-you-need">last article</a>, you’ll need:</p>
 <ul>
 <li>Grove Pi+ Board (more details <a href="https://wiki.seeedstudio.com/GrovePi_Plus/">here</a>)</li>
 <li>Grove LED and Universal 4-pin cable (can be found <a href="https://robu.in/product/grove-multi-color-flash-led-5-mm/">here</a>)</li>
 </ul>
 <h2 id="-setting-up-the-grove-pi-board">⚙️ Setting up the Grove Pi+ Board</h2>
-<p>If you have already setup Raspberry Pi with an OS as mentioned <a href="/post/iot-rebooting#get-the-os-image-ready">earlier</a>, then you may choose to <a href="https://www.dexterindustries.com/BrickPi/brickpi-tutorials-documentation/getting-started/pi-prep/">manually configure firmware and software for Grove PI</a>. ❌ But I don’t recommend that as it can be tedious and prone to errors (I faced many issues with my older PI, and I gave up later!).</p>
-<p>✅ It is better we use a pre-built OS image provided by Dexter Industries, the makers of the Grove Pi+ board. This simplifies the process — <a href="https://www.dexterindustries.com/download/r4r_stretch">just download the image from here</a>, use the <a href="/post/iot-rebooting#get-the-os-image-ready">Raspberry Pi Imager</a> and choose the downloaded zip in Operating System section to write it to SD card, and you’re ready to go with new OS image. Insert the SD card to your Raspberry Pi and boot up on new OS.</p>
+<p>If you have already setup Raspberry Pi with an OS as mentioned <a href="/post/iot-rebooting/#get-the-os-image-ready">earlier</a>, then you may choose to <a href="https://www.dexterindustries.com/BrickPi/brickpi-tutorials-documentation/getting-started/pi-prep/">manually configure firmware and software for Grove PI</a>. ❌ But I don’t recommend that as it can be tedious and prone to errors (I faced many issues with my older PI, and I gave up later!).</p>
+<p>✅ It is better we use a pre-built OS image provided by Dexter Industries, the makers of the Grove Pi+ board. This simplifies the process — <a href="https://www.dexterindustries.com/download/r4r_stretch">just download the image from here</a>, use the <a href="/post/iot-rebooting/#get-the-os-image-ready">Raspberry Pi Imager</a> and choose the downloaded zip in Operating System section to write it to SD card, and you’re ready to go with new OS image. Insert the SD card to your Raspberry Pi and boot up on new OS.</p>
 <h2 id="-connecting-the-grove-pi-board">🎮 Connecting the Grove Pi+ Board</h2>
 <p>Once the OS is ready, everything is pre-installed. Now, it’s time to connect the board to the Raspberry Pi. Align the Grove Pi+ board’s pins with the Raspberry Pi’s, ensuring the pins match the right corners. The Grove Pi+ board has <a href="https://wiki.seeedstudio.com/GrovePi_Plus/#features">multiple ports</a> (D1 to D7 for digital input/output and A1 to A3 for analog input/output).</p>
 <p>Next, connect the Grove LED to one of the digital sockets (for instance, D4). Power up the Raspberry Pi, and you should see a green light on the Grove Pi+ board, indicating that it’s ready for use.</p>
@@ -383,7 +374,7 @@ if (!doNotTrack) {
 <p>This is just the beginning of your IoT journey. The <a href="https://www.dexterindustries.com/grovepi/">Grove Pi+</a> significantly simplifies the complexity of interfacing with hardware and firmware by providing a range of plug-and-play sensors. From building <a href="https://www.dexterindustries.com/GrovePi/projects-for-the-raspberry-pi/">projects</a> like weather stations, alarms, rain sensors, and more. Grove Pi+ makes it easy for beginners and enthusiasts to dive into IoT without getting overwhelmed by technical details.</p>
 <p>Note that IoT is much more than just connecting sensors. To create an end-to-end IoT solution, you’ll need to integrate these devices with the cloud, edge computing, and advanced technologies like AI and XR. Ref : <a href="https://medium.com/iotpractices/controlling-an-iot-device-by-sending-mqtt-messages-in-unity-after-detecting-the-image-target-using-6ce79b9087c4">Touchless IoT</a> by <a href="https://medium.com/@ssrivishnu">Sri Vishnu S</a></p>
 <p>In future articles, we’ll explore how IoT connects with the broader internet ecosystem, and shaping up it’s practices, and its role in the emerging metaverse. In Chapter 4 of my book <a href="https://thinkuldeep.com/about/books/#exploring-the-metaverse">📕Exploring the Metaverse</a>, I discuss how IoT will shape our connected future, and <strong>XR devices are the evolved IoT</strong>.</p>
-<p><img src="/images/exploring-the-metaverse-books.png" alt="Image"></p>
+<p><img alt="Image" src="/images/exploring-the-metaverse-books.png"></p>
 <p><a href="https://thinkuldeep.com/post/exploring-the-metaverse-available-globally/" class="ba b--moon-black bg-light-gray br2 color-inherit dib f9 hover-bg-moon-gray link mt2 ph2 pv1">☞ Click here for availability and discounts in your region</a></p>
 <p><a href="/post/exploring-the-metaverse-a-synopsis/" class="ba b--moon-black bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">☞ Read: <em>Exploring the Metaverse</em> - Synopsis</a></p>
 <p>Stay tuned for more! Keep learning, keep experimenting, and keep sharing.</p>
@@ -962,11 +953,11 @@ if (!doNotTrack) {
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jsp-compilation-issues/">Strange JSP Compilation Issue </a>
+          <a href="/post/javascript-plugin-framework/">JavaScript Plugin Framework</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/javascript-plugin-framework/">JavaScript Plugin Framework</a>
+          <a href="/post/jsp-compilation-issues/">Strange JSP Compilation Issue </a>
         </li>
 	    
 	     <li  class="mb2">
@@ -1026,11 +1017,11 @@ if (!doNotTrack) {
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/event/tw-spotlight-2024/">TW Spotlight: Going with the Flow – My Journey</a>
+          <a href="/post/patent-granted-xr-2/">Patent Granted: Square orientation for stereoscopic rendering</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/patent-granted-xr-2/">Patent Granted: Square orientation for stereoscopic rendering</a>
+          <a href="/event/tw-spotlight-2024/">TW Spotlight: Going with the Flow – My Journey</a>
         </li>
 	    
 	     <li  class="mb2">

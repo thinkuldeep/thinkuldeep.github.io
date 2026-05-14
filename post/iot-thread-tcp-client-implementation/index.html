@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Developing custom TCP client using nRF Connect SDK and native APIs, and communicate with TCP Server in Thread network and outside.">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Implementing a TCP Client in nRF Connect" />
 <meta property="og:description" content="Developing custom TCP client using nRF Connect SDK and native APIs, and communicate with TCP Server in Thread network and outside." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/iot-thread-tcp-client-implementation/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/iot-23.jpg" />
+<meta property="og:url" content="https://thinkuldeep.com//post/iot-thread-tcp-client-implementation/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/iot-23.jpg" />
 <meta property="article:published_time" content="2025-02-15T11:58:08-04:00" />
-<meta property="article:modified_time" content="2025-02-15T11:58:08-04:00" /><meta itemprop="name" content="Implementing a TCP Client in nRF Connect">
-<meta itemprop="description" content="Developing custom TCP client using nRF Connect SDK and native APIs, and communicate with TCP Server in Thread network and outside."><meta itemprop="datePublished" content="2025-02-15T11:58:08-04:00" />
-<meta itemprop="dateModified" content="2025-02-15T11:58:08-04:00" />
-<meta itemprop="wordCount" content="1496">
-<meta itemprop="keywords" content="IOT,network,cloud,getting started,learning,technology,fundamentals,thread,openthread,tcp,nRF,SDK," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Implementing a TCP Client in nRF Connect"/>
-<meta name="twitter:description" content="Developing custom TCP client using nRF Connect SDK and native APIs, and communicate with TCP Server in Thread network and outside."/>
+<meta property="article:modified_time" content="2025-02-15T11:58:08-04:00" />
+  <meta itemprop="name" content="Implementing a TCP Client in nRF Connect">
+  <meta itemprop="description" content="Developing custom TCP client using nRF Connect SDK and native APIs, and communicate with TCP Server in Thread network and outside.">
+  <meta itemprop="datePublished" content="2025-02-15T11:58:08-04:00">
+  <meta itemprop="dateModified" content="2025-02-15T11:58:08-04:00">
+  <meta itemprop="wordCount" content="1508">
+  <meta itemprop="keywords" content="IOT,Network,Cloud,Getting Started,Learning,Technology,Fundamentals,Thread,Openthread,Tcp,NRF,SDK"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Implementing a TCP Client in nRF Connect">
+<meta name="twitter:description" content="Developing custom TCP client using nRF Connect SDK and native APIs, and communicate with TCP Server in Thread network and outside.">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -311,14 +302,14 @@ if (!doNotTrack) {
       
       
         <span class="f6 mv4 dib tracked"> - 8 minutes read </span>
-        <span class="f6 mv4 dib tracked"> - 1496 words </span>
+        <span class="f6 mv4 dib tracked"> - 1508 words </span>
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In a <a href="/post/iot-thread-joiner-implementation/">previous article</a>, we implemented a <em>Joiner</em> that is programmatically provisioned by a
 <em>Commissioner</em> node to join a <em>Thread</em> network. Once an IoT device is part of the Thread network, the next step is to enable communication with other Thread nodes or external hosts.
 We previously discussed and tested UDP-based communication in <a href="/post/iot-thread-devices-internet/">Connecting Thread devices to Internet</a>.
 In this article, we explore a similar approach with <a href="https://openthread.io/reference/cli/concepts/tcp">TCP OT CLI</a>, and here we are implementing a custom TCP client that sends data to a TCP server programmatically.</p>
-<p><img src="/images/iot-23.jpg" alt="iot"></p>
+<p><img alt="iot" src="/images/iot-23.jpg"></p>
 <h2 id="tcp-client-concept">TCP Client Concept</h2>
 <p>The TCP client implementation involves the following key steps:</p>
 <ul>
@@ -356,30 +347,30 @@ In this article, we explore a similar approach with <a href="https://openthread.
 <p>Initialize the TCP endpoint and register callbacks to handle connection, disconnection, and data reception.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">tcpDisconnected</span>(otTcpEndpoint <span style="color:#f92672">*</span>aEndpoint, otTcpDisconnectedReason aReason)
 </span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    LOG_INF(<span style="color:#e6db74">&#34;TCP connection closed. Reason: %d&#34;</span>, aReason);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">LOG_INF</span>(<span style="color:#e6db74">&#34;TCP connection closed. Reason: %d&#34;</span>, aReason);
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">tcpDataReceived</span>(otTcpEndpoint <span style="color:#f92672">*</span>aEndpoint,size_t aBytesAvailable,<span style="color:#66d9ef">bool</span> aEndOfStream, size_t aBytesRemaining)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">tcpDataReceived</span>(otTcpEndpoint <span style="color:#f92672">*</span>aEndpoint,<span style="color:#66d9ef">size_t</span> aBytesAvailable,<span style="color:#66d9ef">bool</span> aEndOfStream, <span style="color:#66d9ef">size_t</span> aBytesRemaining)
 </span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    LOG_INF(<span style="color:#e6db74">&#34;Received data!&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">LOG_INF</span>(<span style="color:#e6db74">&#34;Received data!&#34;</span>);
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">tcpConnectionEstablished</span>(otTcpEndpoint <span style="color:#f92672">*</span>aEndpoint)
 </span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    LOG_INF(<span style="color:#e6db74">&#34;ConnectionEstablished!&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">LOG_INF</span>(<span style="color:#e6db74">&#34;ConnectionEstablished!&#34;</span>);
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">tcpSendDone</span>(otTcpEndpoint <span style="color:#f92672">*</span>aEndpoint, otLinkedBuffer <span style="color:#f92672">*</span>aData){
-</span></span><span style="display:flex;"><span>  LOG_INF(<span style="color:#e6db74">&#34;Send done data&#34;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">LOG_INF</span>(<span style="color:#e6db74">&#34;Send done data&#34;</span>);
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">startTcpClient</span>(<span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span> ipv6_host, <span style="color:#66d9ef">uint16_t</span> port_no)
 </span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    LOG_DBG(<span style="color:#e6db74">&#34;Starting TCP Client for - %s:%d&#34;</span>,ipv6_host,port_no)  
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">LOG_DBG</span>(<span style="color:#e6db74">&#34;Starting TCP Client for - %s:%d&#34;</span>,ipv6_host,port_no)  
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">static</span> otTcpEndpoint sEndpoint;
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">uint8_t</span> sReceiveBuffer[OT_TCP_RECEIVE_BUFFER_SIZE_FEW_HOPS];
 </span></span><span style="display:flex;"><span>    otTcpEndpointInitializeArgs clientArgs;
-</span></span><span style="display:flex;"><span>    memset(<span style="color:#f92672">&amp;</span>clientArgs, <span style="color:#ae81ff">0</span>, <span style="color:#66d9ef">sizeof</span>(args));
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">memset</span>(<span style="color:#f92672">&amp;</span>clientArgs, <span style="color:#ae81ff">0</span>, <span style="color:#66d9ef">sizeof</span>(args));
 </span></span><span style="display:flex;"><span>    clientArgs.mDisconnectedCallback <span style="color:#f92672">=</span> tcpDisconnected;
 </span></span><span style="display:flex;"><span>    clientArgs.mReceiveAvailableCallback <span style="color:#f92672">=</span> tcpDataReceived;
 </span></span><span style="display:flex;"><span>    clientArgs.mReceiveBuffer <span style="color:#f92672">=</span> sReceiveBuffer;
@@ -388,71 +379,71 @@ In this article, we explore a similar approach with <a href="https://openthread.
 </span></span><span style="display:flex;"><span>    clientArgs.mSendDoneCallback <span style="color:#f92672">=</span> tcpSendDone;
 </span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Initialize TCP
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">if</span> (otTcpEndpointInitialize(openthread_get_default_instance(), <span style="color:#f92672">&amp;</span>sEndpoint, <span style="color:#f92672">&amp;</span>clientArgs) <span style="color:#f92672">==</span> OT_ERROR_NONE)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">otTcpEndpointInitialize</span>(<span style="color:#a6e22e">openthread_get_default_instance</span>(), <span style="color:#f92672">&amp;</span>sEndpoint, <span style="color:#f92672">&amp;</span>clientArgs) <span style="color:#f92672">==</span> OT_ERROR_NONE)
 </span></span><span style="display:flex;"><span>    {
-</span></span><span style="display:flex;"><span>        LOG_DBG(<span style="color:#e6db74">&#34;TCP Endpoint initialized.&#34;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">LOG_DBG</span>(<span style="color:#e6db74">&#34;TCP Endpoint initialized.&#34;</span>);
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h4 id="32-establish-a-tcp-connection">3.2 Establish a TCP Connection</h4>
 <p>After initializing TCP, establish a connection to the TCP server.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span>otSockAddr serverAddr;
-</span></span><span style="display:flex;"><span>memset(<span style="color:#f92672">&amp;</span>serverAddr, <span style="color:#ae81ff">0</span>, <span style="color:#66d9ef">sizeof</span>(serverAddr));
-</span></span><span style="display:flex;"><span>otIp6AddressFromString(ipv6_host, <span style="color:#f92672">&amp;</span>serverAddr.mAddress);
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">memset</span>(<span style="color:#f92672">&amp;</span>serverAddr, <span style="color:#ae81ff">0</span>, <span style="color:#66d9ef">sizeof</span>(serverAddr));
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">otIp6AddressFromString</span>(ipv6_host, <span style="color:#f92672">&amp;</span>serverAddr.mAddress);
 </span></span><span style="display:flex;"><span>serverAddr.mPort <span style="color:#f92672">=</span> port_no;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">// Connect to the tcp server
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">if</span>(otTcpConnect(<span style="color:#f92672">&amp;</span>sEndpoint, <span style="color:#f92672">&amp;</span>serverAddr, OT_TCP_CONNECT_NO_FAST_OPEN) <span style="color:#f92672">!=</span> OT_ERROR_NONE)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">otTcpConnect</span>(<span style="color:#f92672">&amp;</span>sEndpoint, <span style="color:#f92672">&amp;</span>serverAddr, OT_TCP_CONNECT_NO_FAST_OPEN) <span style="color:#f92672">!=</span> OT_ERROR_NONE)
 </span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    LOG_ERR(<span style="color:#e6db74">&#34;Could not connect tcp&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">LOG_ERR</span>(<span style="color:#e6db74">&#34;Could not connect tcp&#34;</span>);
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>Upon successful connection, the <code>mEstablishedCallback</code> function is triggered, but when it is called with <code>OT_TCP_CONNECT_NO_FAST_OPEN</code> option, else it would just try make connection, but there is no guarantee that callback get’s called.</p>
 <h4 id="33-send-data-over-tcp">3.3 Send Data Over TCP</h4>
 <p>Implement data transmission logic in the <code>tcpConnectionEstablished</code> callback.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">tcpConnectionEstablished</span>(otTcpEndpoint <span style="color:#f92672">*</span>aEndpoint)
 </span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>LOG_DBG(<span style="color:#e6db74">&#34;Connection Established!&#34;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">LOG_DBG</span>(<span style="color:#e6db74">&#34;Connection Established!&#34;</span>);
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">char</span> payload[<span style="color:#ae81ff">50</span>];
-</span></span><span style="display:flex;"><span>    snprintf(payload,<span style="color:#66d9ef">sizeof</span>(payload), <span style="color:#e6db74">&#34;{</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">data</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">: %s}&#34;</span>, rand());
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">snprintf</span>(payload,<span style="color:#66d9ef">sizeof</span>(payload), <span style="color:#e6db74">&#34;{</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">data</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">: %s}&#34;</span>, <span style="color:#a6e22e">rand</span>());
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">static</span> otLinkedBuffer linkedBuffer;
 </span></span><span style="display:flex;"><span>    linkedBuffer.mNext <span style="color:#f92672">=</span> NULL;
 </span></span><span style="display:flex;"><span>    linkedBuffer.mData <span style="color:#f92672">=</span> (<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">uint8_t</span> <span style="color:#f92672">*</span>)payload;
-</span></span><span style="display:flex;"><span>    linkedBuffer.mLength <span style="color:#f92672">=</span> strlen(payload);
+</span></span><span style="display:flex;"><span>    linkedBuffer.mLength <span style="color:#f92672">=</span> <span style="color:#a6e22e">strlen</span>(payload);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (otTcpSendByReference(aEndpoint, <span style="color:#f92672">&amp;</span>linkedBuffer, <span style="color:#ae81ff">0</span>) <span style="color:#f92672">==</span> OT_ERROR_NONE)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">otTcpSendByReference</span>(aEndpoint, <span style="color:#f92672">&amp;</span>linkedBuffer, <span style="color:#ae81ff">0</span>) <span style="color:#f92672">==</span> OT_ERROR_NONE)
 </span></span><span style="display:flex;"><span>    {
-</span></span><span style="display:flex;"><span>        LOG_DBG(<span style="color:#e6db74">&#34;Payload sent! %s&#34;</span>, payload);
-</span></span><span style="display:flex;"><span>        otTcpSendEndOfStream(aEndpoint)
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">LOG_DBG</span>(<span style="color:#e6db74">&#34;Payload sent! %s&#34;</span>, payload);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">otTcpSendEndOfStream</span>(aEndpoint)
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>
 </span></span><span style="display:flex;"><span>    {
-</span></span><span style="display:flex;"><span>        LOG_ERR(<span style="color:#e6db74">&#34;Error sending data&#34;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">LOG_ERR</span>(<span style="color:#e6db74">&#34;Error sending data&#34;</span>);
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>If we connect TCP with FAST mode enabled like — <code>otTcpConnect(&amp;sEndpoint, &amp;serverAddr, 0)</code> then we need to manually call the callback after successful connection.
 As said earlier this is not guaranteed that this data will be sent to server. Not that No error will be reported if data is send before a connection is fully
 established. Example shown below.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">if</span>(otTcpConnect(<span style="color:#f92672">&amp;</span>sEndpoint, <span style="color:#f92672">&amp;</span>serverAddr, OT_TCP_CONNECT_NO_FAST_OPEN) <span style="color:#f92672">!=</span> OT_ERROR_NONE)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">otTcpConnect</span>(<span style="color:#f92672">&amp;</span>sEndpoint, <span style="color:#f92672">&amp;</span>serverAddr, OT_TCP_CONNECT_NO_FAST_OPEN) <span style="color:#f92672">!=</span> OT_ERROR_NONE)
 </span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>LOG_ERR(<span style="color:#e6db74">&#34;Could not connect tcp&#34;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">LOG_ERR</span>(<span style="color:#e6db74">&#34;Could not connect tcp&#34;</span>);
 </span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>tcpConnectionEstablished(<span style="color:#f92672">&amp;</span>sEndpoint)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">tcpConnectionEstablished</span>(<span style="color:#f92672">&amp;</span>sEndpoint)
 </span></span></code></pre></div><h4 id="34-invoke-tcp-client">3.4 Invoke TCP Client</h4>
 <p>Invoke the TCP client when the device joins the Thread network as a child. In <code>thread_joiner.c</code> do following</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">otStateChangeCallback</span>(otChangedFlags flags, <span style="color:#66d9ef">struct</span> openthread_context <span style="color:#f92672">*</span>ot_context, <span style="color:#66d9ef">void</span> <span style="color:#f92672">*</span>user_data)
 </span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    LOG_INF(<span style="color:#e6db74">&#34;Thread state changed(0x%08&#34;</span> PRIx32 <span style="color:#e6db74">&#34;)&#34;</span>, flags );
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">LOG_INF</span>(<span style="color:#e6db74">&#34;Thread state changed(0x%08&#34;</span> PRIx32 <span style="color:#e6db74">&#34;)&#34;</span>, flags );
 </span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (flags <span style="color:#f92672">&amp;</span> OT_CHANGED_THREAD_ROLE)
 </span></span><span style="display:flex;"><span>    {
-</span></span><span style="display:flex;"><span>        otDeviceRole currentRole <span style="color:#f92672">=</span> otThreadGetDeviceRole(openthread_get_default_instance());
+</span></span><span style="display:flex;"><span>        otDeviceRole currentRole <span style="color:#f92672">=</span> <span style="color:#a6e22e">otThreadGetDeviceRole</span>(<span style="color:#a6e22e">openthread_get_default_instance</span>());
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(currentRole <span style="color:#f92672">==</span> OT_DEVICE_ROLE_CHILD)
 </span></span><span style="display:flex;"><span>        {
-</span></span><span style="display:flex;"><span>            LOG_INF(<span style="color:#e6db74">&#34;Device joined as clild successfully!&#34;</span>);
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">LOG_INF</span>(<span style="color:#e6db74">&#34;Device joined as clild successfully!&#34;</span>);
 </span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span> ipv6_host <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;fd50:a5e0:d15f:2:0:0:adf:c59d&#34;</span>;
 </span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">uint16_t</span> port_no <span style="color:#f92672">=</span> <span style="color:#ae81ff">8083</span>;
-</span></span><span style="display:flex;"><span>            startTcpClient(ipv6_host, port_no);
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">startTcpClient</span>(ipv6_host, port_no);
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
@@ -556,29 +547,29 @@ TCP: Reached end of stream
 waiting for a connection
 </code></pre><h4 id="63-receive-data-over-tcp">6.3 Receive Data over TCP</h4>
 <p>Implement data receive logic in the <code>tcpConnectionEstablished</code> callback. Make sure of calling  <code>otTcpCommitReceive</code> to confirm tcp stack about state of data received.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">tcpReceived</span>(otTcpEndpoint <span style="color:#f92672">*</span>aEndpoint,size_t aBytesAvailable,<span style="color:#66d9ef">bool</span> aEndOfStream, size_t aBytesRemaining)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">tcpReceived</span>(otTcpEndpoint <span style="color:#f92672">*</span>aEndpoint,<span style="color:#66d9ef">size_t</span> aBytesAvailable,<span style="color:#66d9ef">bool</span> aEndOfStream, <span style="color:#66d9ef">size_t</span> aBytesRemaining)
 </span></span><span style="display:flex;"><span>{
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (aBytesAvailable <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>)
 </span></span><span style="display:flex;"><span>    {
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">const</span> otLinkedBuffer <span style="color:#f92672">*</span>data;
-</span></span><span style="display:flex;"><span>        size_t totalReceived <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">size_t</span> totalReceived <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
 </span></span><span style="display:flex;"><span>          
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (otTcpReceiveByReference(aEndpoint, <span style="color:#f92672">&amp;</span>data) <span style="color:#f92672">==</span> OT_ERROR_NONE){
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">otTcpReceiveByReference</span>(aEndpoint, <span style="color:#f92672">&amp;</span>data) <span style="color:#f92672">==</span> OT_ERROR_NONE){
 </span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> (; data <span style="color:#f92672">!=</span> NULL; data <span style="color:#f92672">=</span> data<span style="color:#f92672">-&gt;</span>mNext)
 </span></span><span style="display:flex;"><span>            {
-</span></span><span style="display:flex;"><span>                LOG_INF(<span style="color:#e6db74">&#34;Received %.*s&#34;</span>, data<span style="color:#f92672">-&gt;</span>mLength, data<span style="color:#f92672">-&gt;</span>mData);
+</span></span><span style="display:flex;"><span>                <span style="color:#a6e22e">LOG_INF</span>(<span style="color:#e6db74">&#34;Received %.*s&#34;</span>, data<span style="color:#f92672">-&gt;</span>mLength, data<span style="color:#f92672">-&gt;</span>mData);
 </span></span><span style="display:flex;"><span>                totalReceived <span style="color:#f92672">+=</span> data<span style="color:#f92672">-&gt;</span>mLength;
 </span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(aBytesAvailable <span style="color:#f92672">!=</span> totalReceived){
-</span></span><span style="display:flex;"><span>                LOG_ERR(<span style="color:#e6db74">&#34;bytes available not matching with total received&#34;</span>);
+</span></span><span style="display:flex;"><span>                <span style="color:#a6e22e">LOG_ERR</span>(<span style="color:#e6db74">&#34;bytes available not matching with total received&#34;</span>);
 </span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>            otTcpCommitReceive(aEndpoint, totalReceived, <span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">otTcpCommitReceive</span>(aEndpoint, totalReceived, <span style="color:#ae81ff">0</span>);
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (aEndOfStream)
 </span></span><span style="display:flex;"><span>    {
-</span></span><span style="display:flex;"><span>        LOG_INF(<span style="color:#e6db74">&#34;Closing connection...&#34;</span>);
-</span></span><span style="display:flex;"><span>        otTcpEndpointDeinitialize(aEndpoint);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">LOG_INF</span>(<span style="color:#e6db74">&#34;Closing connection...&#34;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">otTcpEndpointDeinitialize</span>(aEndpoint);
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h4 id="64-synthesize-ipv4-to-ipv6">6.4 Synthesize IPv4 to IPv6</h4>
@@ -589,18 +580,18 @@ waiting for a connection
 </span></span><span style="display:flex;"><span>otIp6Address ipv6Addr;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Convert IPv4 string to otIp4Address
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    otIp4AddressFromString(ip4host, <span style="color:#f92672">&amp;</span>ipv4Addr);
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">otIp4AddressFromString</span>(ip4host, <span style="color:#f92672">&amp;</span>ipv4Addr);
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Convert IPv4 to NAT64-mapped IPv6 address
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">if</span>(otNat64SynthesizeIp6Address(openthread_get_default_instance(), <span style="color:#f92672">&amp;</span>ipv4Addr, <span style="color:#f92672">&amp;</span>ipv6Addr)<span style="color:#f92672">!=</span>OT_ERROR_NONE){
-</span></span><span style="display:flex;"><span>        LOG_ERR(<span style="color:#e6db74">&#34;Could not get synthesizeIPv6 Address for IPv4:%s&#34;</span>, ip4host);
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">otNat64SynthesizeIp6Address</span>(<span style="color:#a6e22e">openthread_get_default_instance</span>(), <span style="color:#f92672">&amp;</span>ipv4Addr, <span style="color:#f92672">&amp;</span>ipv6Addr)<span style="color:#f92672">!=</span>OT_ERROR_NONE){
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">LOG_ERR</span>(<span style="color:#e6db74">&#34;Could not get synthesizeIPv6 Address for IPv4:%s&#34;</span>, ip4host);
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;&#34;</span>;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">char</span> ip6host[<span style="color:#ae81ff">40</span>];
 </span></span><span style="display:flex;"><span>   
-</span></span><span style="display:flex;"><span>    otIp6AddressToString(<span style="color:#f92672">&amp;</span>ipv6Addr, ip6host, <span style="color:#66d9ef">sizeof</span>(ip6host));
-</span></span><span style="display:flex;"><span>    LOG_INF(<span style="color:#e6db74">&#34;IPv4(%s) ==&gt; IPv6(%s)&#34;</span>,ip4host, ip6host);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">otIp6AddressToString</span>(<span style="color:#f92672">&amp;</span>ipv6Addr, ip6host, <span style="color:#66d9ef">sizeof</span>(ip6host));
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">LOG_INF</span>(<span style="color:#e6db74">&#34;IPv4(%s) ==&gt; IPv6(%s)&#34;</span>,ip4host, ip6host);
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> ip6host;
 </span></span><span style="display:flex;"><span>}
@@ -1192,11 +1183,11 @@ waiting for a connection
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
+          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
+          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
         </li>
 	    
 	     <li  class="mb2">
@@ -1232,11 +1223,11 @@ waiting for a connection
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/jsp-compilation-issues/">Strange JSP Compilation Issue </a>
+          <a href="/post/javascript-plugin-framework/">JavaScript Plugin Framework</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/javascript-plugin-framework/">JavaScript Plugin Framework</a>
+          <a href="/post/jsp-compilation-issues/">Strange JSP Compilation Issue </a>
         </li>
 	    
 	     <li  class="mb2">

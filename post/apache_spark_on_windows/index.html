@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="If you were confused by Spark&#39;s quick-start guide, this article contains resolutions to the more common errors encountered by developers.">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Apache Spark on Windows" />
 <meta property="og:description" content="If you were confused by Spark&#39;s quick-start guide, this article contains resolutions to the more common errors encountered by developers." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/apache_spark_on_windows/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/apche-spark.png" />
+<meta property="og:url" content="https://thinkuldeep.com//post/apache_spark_on_windows/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/apche-spark.png" />
 <meta property="article:published_time" content="2018-01-08T10:58:08-04:00" />
-<meta property="article:modified_time" content="2018-01-08T10:58:08-04:00" /><meta itemprop="name" content="Apache Spark on Windows">
-<meta itemprop="description" content="If you were confused by Spark&#39;s quick-start guide, this article contains resolutions to the more common errors encountered by developers."><meta itemprop="datePublished" content="2018-01-08T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2018-01-08T10:58:08-04:00" />
-<meta itemprop="wordCount" content="1842">
-<meta itemprop="keywords" content="spark,troubleshooting,windows,apache,java,scala,technology," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Apache Spark on Windows"/>
-<meta name="twitter:description" content="If you were confused by Spark&#39;s quick-start guide, this article contains resolutions to the more common errors encountered by developers."/>
+<meta property="article:modified_time" content="2018-01-08T10:58:08-04:00" />
+  <meta itemprop="name" content="Apache Spark on Windows">
+  <meta itemprop="description" content="If you were confused by Spark&#39;s quick-start guide, this article contains resolutions to the more common errors encountered by developers.">
+  <meta itemprop="datePublished" content="2018-01-08T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2018-01-08T10:58:08-04:00">
+  <meta itemprop="wordCount" content="1842">
+  <meta itemprop="keywords" content="Spark,Troubleshooting,Windows,Apache,Java,Scala,Technology"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Apache Spark on Windows">
+<meta name="twitter:description" content="If you were confused by Spark&#39;s quick-start guide, this article contains resolutions to the more common errors encountered by developers.">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -320,7 +311,7 @@ if (!doNotTrack) {
 <h4 id="download-and-install-spark">Download and Install Spark</h4>
 <ul>
 <li>Download Spark from <a href="https://spark.apache.org/downloads.html">https://spark.apache.org/downloads.html</a> and choose &ldquo;Pre-built for Apache Hadoop 2.7 and later&rdquo;
-<img src="/images/apche-spark.png" alt="Image"></li>
+<img alt="Image" src="/images/apche-spark.png"></li>
 <li>Unpack download artifact - spark-2.3.0-bin-hadoop2.7.tgz  in a directory.</li>
 </ul>
 <h2 id="clearing-the-startup-hurdles">Clearing the Startup Hurdles</h2>
@@ -351,7 +342,7 @@ if (!doNotTrack) {
 </li>
 <li>
 <p>Now set <code>HADOOP_HOME = C:\Installations\Hadoop environment</code> variables.
-<img src="/images/spark-env.png" alt="image"></p>
+<img alt="image" src="/images/spark-env.png"></p>
 </li>
 </ul>
 <p>Now start the Windows shell; you may get few warnings, which you may ignore for now.</p>
@@ -443,17 +434,17 @@ if (!doNotTrack) {
 </span></span></span></code></pre></div><h2 id="run-spark-application-on-spark-submit">Run Spark Application on spark-submit</h2>
 <p>In the last example, we ran the Windows application as Scala script on &lsquo;spark-shell&rsquo;, now we will run a Spark application built in Java. Unlike spark-shell, we need to first create a <code>SparkSession</code> and at the end, the <code>SparkSession</code> must be stopped programmatically.</p>
 <p>Look at the below <code>SparkApp.Java</code> it read a text file and then count the number of lines.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.korg.spark.test<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> org.apache.spark.sql.Dataset<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> org.apache.spark.sql.SparkSession<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">SparkApp</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>        SparkSession spark <span style="color:#f92672">=</span> SparkSession<span style="color:#f92672">.</span><span style="color:#a6e22e">builder</span><span style="color:#f92672">().</span><span style="color:#a6e22e">appName</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;SparkApp&#34;</span><span style="color:#f92672">).</span><span style="color:#a6e22e">config</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;spark.master&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;local&#34;</span><span style="color:#f92672">).</span><span style="color:#a6e22e">getOrCreate</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>        Dataset<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> textFile <span style="color:#f92672">=</span> spark<span style="color:#f92672">.</span><span style="color:#a6e22e">read</span><span style="color:#f92672">().</span><span style="color:#a6e22e">textFile</span><span style="color:#f92672">(</span>args<span style="color:#f92672">[</span>0<span style="color:#f92672">]);</span>
-</span></span><span style="display:flex;"><span>        System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Number of lines &#34;</span> <span style="color:#f92672">+</span> textFile<span style="color:#f92672">.</span><span style="color:#a6e22e">count</span><span style="color:#f92672">());</span>
-</span></span><span style="display:flex;"><span>        spark<span style="color:#f92672">.</span><span style="color:#a6e22e">stop</span><span style="color:#f92672">();</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> com.korg.spark.test;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> org.apache.spark.sql.Dataset;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> org.apache.spark.sql.SparkSession;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">SparkApp</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>        SparkSession spark <span style="color:#f92672">=</span> SparkSession.<span style="color:#a6e22e">builder</span>().<span style="color:#a6e22e">appName</span>(<span style="color:#e6db74">&#34;SparkApp&#34;</span>).<span style="color:#a6e22e">config</span>(<span style="color:#e6db74">&#34;spark.master&#34;</span>, <span style="color:#e6db74">&#34;local&#34;</span>).<span style="color:#a6e22e">getOrCreate</span>();
+</span></span><span style="display:flex;"><span>        Dataset<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span> textFile <span style="color:#f92672">=</span> spark.<span style="color:#a6e22e">read</span>().<span style="color:#a6e22e">textFile</span>(args<span style="color:#f92672">[</span>0<span style="color:#f92672">]</span>);
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Number of lines &#34;</span> <span style="color:#f92672">+</span> textFile.<span style="color:#a6e22e">count</span>());
+</span></span><span style="display:flex;"><span>        spark.<span style="color:#a6e22e">stop</span>();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>Create above Java file in a Maven project with following pom dependencies :</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-xml" data-lang="xml"><span style="display:flex;"><span><span style="color:#f92672">&lt;project</span> <span style="color:#a6e22e">xmlns=</span><span style="color:#e6db74">&#34;http://maven.apache.org/POM/4.0.0&#34;</span> <span style="color:#a6e22e">xmlns:xsi=</span><span style="color:#e6db74">&#34;http://www.w3.org/2001/XMLSchema-instance&#34;</span> <span style="color:#a6e22e">xsi:schemaLocation=</span><span style="color:#e6db74">&#34;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&#34;</span><span style="color:#f92672">&gt;</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;modelVersion&gt;</span>4.0.0<span style="color:#f92672">&lt;/modelVersion&gt;</span>
@@ -1012,11 +1003,11 @@ if (!doNotTrack) {
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
+          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
+          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
         </li>
 	    
 	     <li  class="mb2">

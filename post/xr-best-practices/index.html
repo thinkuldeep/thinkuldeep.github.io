@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <meta name="description" content="Software development practices for spatial solution are growing, we are sharing our experience and best practices for building spatial solutions using eXtended Reality (XR)">
     <meta name="author" content="Kuldeep Singh">
-    <meta name="generator" content="Hugo 0.96.0" />
+    <meta name="generator" content="Hugo 0.125.7">
     
     
     
@@ -26,9 +26,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-
-<script src="/js/axios.min.js"></script>
+    <script src="/js/axios.min.js"></script>
 <script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
     
@@ -44,28 +42,21 @@
     <meta property="og:title" content="Best Practices for Building Spatial Solutions" />
 <meta property="og:description" content="Software development practices for spatial solution are growing, we are sharing our experience and best practices for building spatial solutions using eXtended Reality (XR)" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thinkuldeep.com/post/xr-best-practices/" /><meta property="article:section" content="post" />
-<meta property="og:image" content="https://thinkuldeep.com/images/xr-practices-gif.gif" />
+<meta property="og:url" content="https://thinkuldeep.com//post/xr-best-practices/" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://thinkuldeep.com//images/xr-practices-gif.gif" />
 <meta property="article:published_time" content="2021-01-05T10:58:08-04:00" />
-<meta property="article:modified_time" content="2021-01-05T10:58:08-04:00" /><meta itemprop="name" content="Best Practices for Building Spatial Solutions">
-<meta itemprop="description" content="Software development practices for spatial solution are growing, we are sharing our experience and best practices for building spatial solutions using eXtended Reality (XR)"><meta itemprop="datePublished" content="2021-01-05T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2021-01-05T10:58:08-04:00" />
-<meta itemprop="wordCount" content="3949">
-<meta itemprop="keywords" content="xr,thoughtworks,technology,ar,vr,mr,best practices,experience,learnings,covid19," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Best Practices for Building Spatial Solutions"/>
-<meta name="twitter:description" content="Software development practices for spatial solution are growing, we are sharing our experience and best practices for building spatial solutions using eXtended Reality (XR)"/>
+<meta property="article:modified_time" content="2021-01-05T10:58:08-04:00" />
+  <meta itemprop="name" content="Best Practices for Building Spatial Solutions">
+  <meta itemprop="description" content="Software development practices for spatial solution are growing, we are sharing our experience and best practices for building spatial solutions using eXtended Reality (XR)">
+  <meta itemprop="datePublished" content="2021-01-05T10:58:08-04:00">
+  <meta itemprop="dateModified" content="2021-01-05T10:58:08-04:00">
+  <meta itemprop="wordCount" content="3949">
+  <meta itemprop="keywords" content="Xr,Thoughtworks,Technology,Ar,Vr,Mr,Best Practices,Experience,Learnings,Covid19"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Best Practices for Building Spatial Solutions">
+<meta name="twitter:description" content="Software development practices for spatial solution are growing, we are sharing our experience and best practices for building spatial solutions using eXtended Reality (XR)">
 
       
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-165124840-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
 
     
 	<script data-ad-client="ca-pub-3553149792674448" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -317,7 +308,7 @@ if (!doNotTrack) {
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Covid19 is forcing us into a ‘new normal’, A new normal that makes most of us work from home, and that leads to spending long hours on Zoom, or other video conferencing platforms. Meetings, inceptions, discovery workshops, conferences, and webinars are happening in the same monotonous ways. We are stuck with a screen in almost the same pose and posture. Some might use their mobile phone or tablet but that limits us to a small screen. We do miss our office days and face to face meetings; the brainstorming, retrospectives, daily stand-ups or other important workshops exercises. Using physical boards, whole office walls and seeing our colleagues and clients body language was so normal pre-covid. Now, even when offices are re-opening, it will be difficult to go back to business as usual, while maintaining the social distancing norms. We have to face it, there is no other option than shaping what the ‘new normal’ means to our ways of working and interactions. We need touchless and contactless experiences that lead to the same results, and great digital products as well as customer experiences.</p>
 <h4 id="can-xr-help-here-xr-moving-from-nicety-to-necessity">Can XR help here? XR moving from nicety to necessity.</h4>
 <p>At <a href="https://www.thoughtworks.com/">ThoughtWorks</a>, we brainstormed on new ways of working that may be more engaging, interesting and productive could look like. One of those experiments is ThoughtArena, where users can collaborate in 3D space. It is an augmented reality-based mobile app, that allows the users to create a space with virtual boards in it.</p>
-<p><img src="/images/xr-practices-gif.gif" alt="ThoughtArena — A Spatial Collaboration Platform"></p>
+<p><img alt="ThoughtArena — A Spatial Collaboration Platform" src="/images/xr-practices-gif.gif"></p>
 <p>ThoughtArena allows its users to extend traditional 2D workspaces to real world environments. Users can place virtual whiteboards in the 3D environment and use them like physical boards. They can place those broadcasts in their comfort and in real-time with other users. In addition, users can add audio and video notes and may vote on the notes.</p>
 <p>This article explains our learnings around building spatial applications and also presents the results from the user experience and behavior analysis using the XR applications. We have done a couple of experiments and project deliveries in XR, learnings from them can also be found here.</p>
 <h2 id="best-practices-for-product-definition">Best Practices for Product Definition</h2>
@@ -1491,11 +1482,11 @@ XRPractices</p>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
+          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/choosing_iot_platform/">Framework for choosing an IoT Platform</a>
+          <a href="/post/sigfox-an-introduction/">SIGFOX - An Introduction</a>
         </li>
 	    
 	     <li  class="mb2">
@@ -1511,11 +1502,11 @@ XRPractices</p>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
+          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="/post/java8-hashmap-performance-improvement/">HashMap Performance Improvement in Java 8</a>
+          <a href="/post/java8-lambda-expression/">Introduction to Java Lambda Expression</a>
         </li>
 	    
 	     <li  class="mb2">

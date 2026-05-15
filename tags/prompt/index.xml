@@ -75,5 +75,21 @@ But here’s the truth: without strong fundamentals, chasing the “next big thi
 If you’re a software maker feeling the fear of missing out (FOMO) on the Gen AI revolution, you’re not alone. The way we build and interact with software is evolving rapidly. “Google it” or “check Stack Overflow” is no longer the go-to approach — AI-first, conversational tools are becoming the new standard across development, design, and decision-making.</description>
         </item>
         
+        <item>
+            <title>Claude Code for Agentic AI: From Foundations to Real Agents</title>
+            <link>https://thinkuldeep.com//post/agentic-ai-hands-on-4/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/agentic-ai-hands-on-4/</guid>
+            <description>In a previous hands-on articles, we built agents using local LLMs, and another article hands-on with AI-Integrated Development Environment using Claude Code. This article continues that journey,
+Skills, Cloud.md
+allowed_tools - Read, Grep, Glob, Bash
+GOlden rules Keep under 500 character. Evals and extendedign thinkings..
+Promt Caching.. user progressive disclosuer.
+Skills references scripts, - run without loading its content in memory. only output consumes the token
+references, assests.
+CLAUDE.md loads into every conversation and is best for always-on project standards.</description>
+        </item>
+        
     </channel>
 </rss>

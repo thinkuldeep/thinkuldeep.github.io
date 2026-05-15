@@ -8,7 +8,31 @@
         <language>en</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Mon, 04 May 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Fri, 15 May 2026 11:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>About</title>
+            <link>https://thinkuldeep.com//about/</link>
+            <pubDate>Fri, 15 May 2026 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/</guid>
+            <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
+👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
+        </item>
+        
+        <item>
+            <title>Certificates</title>
+            <link>https://thinkuldeep.com//about/certificates/</link>
+            <pubDate>Fri, 15 May 2026 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/certificates/</guid>
+            <description>Anthropic - Building with the Claude API This browser does not support PDFs. Please download the PDF to view it: Download PDF.
+☞ Show Credential ☞ Course Details
+Anthropic - Introduction to agent skills This browser does not support PDFs. Please download the PDF to view it: Download PDF.
+☞ Show Credential ☞ Course Details
+Evaluation for LLM Applications ☞ Show Credential
+The Complete Guide To Mastering Python ☞ Show Credential</description>
+        </item>
+        
         <item>
             <title>Claude Code for Agentic AI: From Foundations to Real Agents</title>
             <link>https://thinkuldeep.com//post/agentic-ai-hands-on-3/</link>
@@ -31,34 +55,6 @@ In this article, we will teach Claude how to work with us. We will progressively
 We implemented the agent using the basic architecture
 Thought → Action → Observation → Reasoning → Answer
 Where the agent relied on OpenAI LLMs hosted over cloud and accessed through a python SDK. While powerful, this setup requires:</description>
-        </item>
-        
-        <item>
-            <title>About</title>
-            <link>https://thinkuldeep.com//about/</link>
-            <pubDate>Fri, 27 Mar 2026 11:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/</guid>
-            <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
-👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
-        </item>
-        
-        <item>
-            <title>Certificates</title>
-            <link>https://thinkuldeep.com//about/certificates/</link>
-            <pubDate>Fri, 27 Mar 2026 11:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/certificates/</guid>
-            <description>Evaluation for LLM Applications ☞ Show Credential
-The Complete Guide To Mastering Python ☞ Show Credential
-Learn Intellectual Property ☞ Show Credential
-Microsoft Certified: Azure AI Fundamentals ☞ Show Credential
-Generative AI Essentials 2 Expertise: Complete Concise Guide ☞ Show Credential
-nRF Connect SDK Intermediate ☞ Show Credential
-Bluetooth Low Energy Fundamentals ☞ Show Credential
-nRF Connect SDK Fundamentals ☞ Show Credential
-Building AI ☞ Show Credential
-Elements of AI ☞ Show Credential</description>
         </item>
         
         <item>
@@ -1243,6 +1239,22 @@ This article talks about the java approach for generating multiple documents fro
             <description>Last year we have migrated one of our application from Java 5 to Java 6. The Java 6(OpenJDK) installation was done by client on a fresh system. After installing our application (under JBoss app), we found the fonts on JFreeCharts and on the images generated from AWT were not correct.
 We have solved the issue by configuring the fonts at JVM level. Let understand it better.
 How AWT / JFreeCharts shows the fonts AWT rely on native fonts, it usages default Java fonts (which best fits) if no native fonts mapping found.</description>
+        </item>
+        
+        <item>
+            <title>Claude Code for Agentic AI: From Foundations to Real Agents</title>
+            <link>https://thinkuldeep.com//post/agentic-ai-hands-on-4/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/agentic-ai-hands-on-4/</guid>
+            <description>In a previous hands-on articles, we built agents using local LLMs, and another article hands-on with AI-Integrated Development Environment using Claude Code. This article continues that journey,
+Skills, Cloud.md
+allowed_tools - Read, Grep, Glob, Bash
+GOlden rules Keep under 500 character. Evals and extendedign thinkings..
+Promt Caching.. user progressive disclosuer.
+Skills references scripts, - run without loading its content in memory. only output consumes the token
+references, assests.
+CLAUDE.md loads into every conversation and is best for always-on project standards.</description>
         </item>
         
     </channel>

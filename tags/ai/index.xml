@@ -8,7 +8,21 @@
         <language>en</language>
         <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
         <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
-        <lastBuildDate>Sun, 10 May 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Fri, 15 May 2026 11:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Certificates</title>
+            <link>https://thinkuldeep.com//about/certificates/</link>
+            <pubDate>Fri, 15 May 2026 11:00:00 -0400</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//about/certificates/</guid>
+            <description>Anthropic - Building with the Claude API This browser does not support PDFs. Please download the PDF to view it: Download PDF.
+☞ Show Credential ☞ Course Details
+Anthropic - Introduction to agent skills This browser does not support PDFs. Please download the PDF to view it: Download PDF.
+☞ Show Credential ☞ Course Details
+Evaluation for LLM Applications ☞ Show Credential
+The Complete Guide To Mastering Python ☞ Show Credential</description>
+        </item>
+        
         <item>
             <title>Dose of Jagjeevan – Balancing the Fourth Pillar of Life!</title>
             <link>https://thinkuldeep.com//post/dose-of-jagjeevan-the-4th-pillar/</link>
@@ -66,24 +80,6 @@ In the AI era, change is no longer gradual — it is accelerated.
 Today, AI agents assist us in writing, thinking, researching, and even making personal decisions. Many of us now do something unimaginable a few years ago:
 We even confirm what our doctors say… with AI.
 AI explains reports. AI answers late-night doubts. AI reassures us when anxiety grows. It is that second opinion!</description>
-        </item>
-        
-        <item>
-            <title>Certificates</title>
-            <link>https://thinkuldeep.com//about/certificates/</link>
-            <pubDate>Fri, 27 Mar 2026 11:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
-            <guid>https://thinkuldeep.com//about/certificates/</guid>
-            <description>Evaluation for LLM Applications ☞ Show Credential
-The Complete Guide To Mastering Python ☞ Show Credential
-Learn Intellectual Property ☞ Show Credential
-Microsoft Certified: Azure AI Fundamentals ☞ Show Credential
-Generative AI Essentials 2 Expertise: Complete Concise Guide ☞ Show Credential
-nRF Connect SDK Intermediate ☞ Show Credential
-Bluetooth Low Energy Fundamentals ☞ Show Credential
-nRF Connect SDK Fundamentals ☞ Show Credential
-Building AI ☞ Show Credential
-Elements of AI ☞ Show Credential</description>
         </item>
         
         <item>
@@ -996,6 +992,22 @@ Around 150 teams signed up across multiple tracks (Healthcare, Open Innovation, 
             <description>We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
 How to write a JNI program. jni_md.h not found. Incompatible data types. On widows cygwin1.dll is required when running Java code on the native library. and more. Actually we were compiling NLP Solver’s native library (IPOPT) on windows 32 bit and on 64bit linux machine.
 Solving the chaos! Here are the steps we have followed to solve the above issues:</description>
+        </item>
+        
+        <item>
+            <title>Claude Code for Agentic AI: From Foundations to Real Agents</title>
+            <link>https://thinkuldeep.com//post/agentic-ai-hands-on-4/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/agentic-ai-hands-on-4/</guid>
+            <description>In a previous hands-on articles, we built agents using local LLMs, and another article hands-on with AI-Integrated Development Environment using Claude Code. This article continues that journey,
+Skills, Cloud.md
+allowed_tools - Read, Grep, Glob, Bash
+GOlden rules Keep under 500 character. Evals and extendedign thinkings..
+Promt Caching.. user progressive disclosuer.
+Skills references scripts, - run without loading its content in memory. only output consumes the token
+references, assests.
+CLAUDE.md loads into every conversation and is best for always-on project standards.</description>
         </item>
         
     </channel>

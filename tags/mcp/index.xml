@@ -21,5 +21,21 @@ Here the focus is different:
 In this article, we will teach Claude how to work with us. We will progressively build: Skills, Agents, MCP tools, Plugin integrations amd by the end, Claude will act as: an About-Me agent, a Books price agent, and an externally powered MCP agent</description>
         </item>
         
+        <item>
+            <title>Claude Code for Agentic AI: From Foundations to Real Agents</title>
+            <link>https://thinkuldeep.com//post/agentic-ai-hands-on-4/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            <guid>https://thinkuldeep.com//post/agentic-ai-hands-on-4/</guid>
+            <description>In a previous hands-on articles, we built agents using local LLMs, and another article hands-on with AI-Integrated Development Environment using Claude Code. This article continues that journey,
+Skills, Cloud.md
+allowed_tools - Read, Grep, Glob, Bash
+GOlden rules Keep under 500 character. Evals and extendedign thinkings..
+Promt Caching.. user progressive disclosuer.
+Skills references scripts, - run without loading its content in memory. only output consumes the token
+references, assests.
+CLAUDE.md loads into every conversation and is best for always-on project standards.</description>
+        </item>
+        
     </channel>
 </rss>

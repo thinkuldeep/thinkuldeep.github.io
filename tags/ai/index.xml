@@ -15,12 +15,11 @@
             <pubDate>Fri, 15 May 2026 11:00:00 -0400</pubDate>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//about/certificates/</guid>
-            <description>Anthropic - Building with the Claude API This browser does not support PDFs. Please download the PDF to view it: Download PDF.
+            <description>Anthropic - Claude Code in Action This browser does not support PDFs. Please download the PDF to view it: Download PDF.
 ☞ Show Credential ☞ Course Details
-Anthropic - Introduction to agent skills This browser does not support PDFs. Please download the PDF to view it: Download PDF.
+Anthropic - Introduction to Model Context Protocol This browser does not support PDFs. Please download the PDF to view it: Download PDF.
 ☞ Show Credential ☞ Course Details
-Evaluation for LLM Applications ☞ Show Credential
-The Complete Guide To Mastering Python ☞ Show Credential</description>
+Anthropic - Building with the Claude API This browser does not support PDFs. Please download the PDF to view it: Download PDF.</description>
         </item>
         
         <item>
@@ -1001,13 +1000,17 @@ Solving the chaos! Here are the steps we have followed to solve the above issues
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//post/agentic-ai-hands-on-4/</guid>
             <description>In a previous hands-on articles, we built agents using local LLMs, and another article hands-on with AI-Integrated Development Environment using Claude Code. This article continues that journey,
+Compacting
+Memory Management Claude&amp;hellip;
+/Escape #memory&amp;hellip; /Touble tap escape - to escape to previous.. /compact - summarise the conversation and continue /clear
+/commands.
+/hooks&amp;hellip;
+//adding to git hub..
+Pre/Post hook.
+ToolName -
 Skills, Cloud.md
 allowed_tools - Read, Grep, Glob, Bash
-GOlden rules Keep under 500 character. Evals and extendedign thinkings..
-Promt Caching.. user progressive disclosuer.
-Skills references scripts, - run without loading its content in memory. only output consumes the token
-references, assests.
-CLAUDE.md loads into every conversation and is best for always-on project standards.</description>
+GOlden rules Keep under 500 character.</description>
         </item>
         
     </channel>

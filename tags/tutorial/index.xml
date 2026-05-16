@@ -223,13 +223,17 @@ Server A :</description>
             <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
             <guid>https://thinkuldeep.com//post/agentic-ai-hands-on-4/</guid>
             <description>In a previous hands-on articles, we built agents using local LLMs, and another article hands-on with AI-Integrated Development Environment using Claude Code. This article continues that journey,
+Compacting
+Memory Management Claude&amp;hellip;
+/Escape #memory&amp;hellip; /Touble tap escape - to escape to previous.. /compact - summarise the conversation and continue /clear
+/commands.
+/hooks&amp;hellip;
+//adding to git hub..
+Pre/Post hook.
+ToolName -
 Skills, Cloud.md
 allowed_tools - Read, Grep, Glob, Bash
-GOlden rules Keep under 500 character. Evals and extendedign thinkings..
-Promt Caching.. user progressive disclosuer.
-Skills references scripts, - run without loading its content in memory. only output consumes the token
-references, assests.
-CLAUDE.md loads into every conversation and is best for always-on project standards.</description>
+GOlden rules Keep under 500 character.</description>
         </item>
         
     </channel>

@@ -48,7 +48,7 @@
 
   <meta itemprop="name" content="Claude Code for Agentic AI: From Foundations to Real Agents">
   <meta itemprop="description" content="From basic usage to advanced agent architecture using Skills, Agents, and MCP tools">
-  <meta itemprop="wordCount" content="1419">
+  <meta itemprop="wordCount" content="1794">
   <meta itemprop="keywords" content="Evolution,AI,GenAI,Technology,Prompt,Tutorial,Learnings,Mcp,Development,Agenticai,Future,Practice,Claude,Ide,Integration"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Claude Code for Agentic AI: From Foundations to Real Agents">
 <meta name="twitter:description" content="From basic usage to advanced agent architecture using Skills, Agents, and MCP tools">
 
@@ -297,12 +297,23 @@
 
       
       
-        <span class="f6 mv4 dib tracked"> - 7 minutes read </span>
-        <span class="f6 mv4 dib tracked"> - 1419 words </span>
+        <span class="f6 mv4 dib tracked"> - 9 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 1794 words </span>
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In a previous <a href="/post/agentic-ai-hands-on/">hands-on articles</a>, we built agents using <a href="/post/agentic-ai-hands-on-2/">local LLMs</a>, and another article hands-on with <a href="/post/ai-integrated-development-environment/">AI-Integrated Development Environment</a> using Claude Code.
 This article continues that journey,</p>
+<p>Compacting</p>
+<p>Memory Management Claude&hellip;</p>
+<p>/Escape #memory&hellip;
+/Touble tap escape - to escape to previous..
+/compact - summarise the conversation and continue
+/clear</p>
+<p>/commands.</p>
+<p>/hooks&hellip;</p>
+<p>//adding to git hub..</p>
+<p>Pre/Post hook.</p>
+<p>ToolName -</p>
 <p>Skills,
 Cloud.md</p>
 <p>allowed_tools - Read, Grep, Glob, Bash</p>
@@ -317,17 +328,35 @@ user progressive disclosuer.</p>
 <li>Skills
 references</li>
 </ul>
+<p>curl -LsSf <a href="https://astral.sh/uv/install.sh">https://astral.sh/uv/install.sh</a> | sh</p>
 <p>scripts, - run without loading its content in memory. only output consumes the token</p>
-<p>references,
-assests.</p>
+<p>references,</p>
+<p>assests.</p>
+<p>Tools
+Tools: Model-Controlled
+Tools are controlled entirely by Claude. The AI model decides when to call these functions, and the results are used directly by Claude to accomplish tasks.</p>
+<p>Tools are perfect for giving Claude additional capabilities it can use autonomously. When you ask Claude to &ldquo;calculate the square root of 3 using JavaScript,&rdquo; it&rsquo;s Claude that decides to use a JavaScript execution tool to run the calculation.</p>
+<p>Resources: App-Controlled
+Resources are controlled by your application code. Your app decides when to fetch resource data and how to use it - typically for UI elements or to add context to conversations.</p>
+<p>In our project, we used resources in two ways:</p>
+<p>Fetching data to populate autocomplete options in the UI
+Retrieving content to augment prompts with additional context
+Think of the &ldquo;Add from Google Drive&rdquo; feature in Claude&rsquo;s interface - the application code determines which documents to show and handles injecting their content into the chat context.</p>
+<p>Prompts: User-Controlled
+Prompts are triggered by user actions. Users decide when to run these predefined workflows through UI interactions like button clicks, menu selections, or slash commands.</p>
+<p>Prompts are ideal for implementing workflows that users can trigger on demand. In Claude&rsquo;s interface, those workflow buttons below the chat input are examples of prompts - predefined, optimized workflows that users can start with a single click.</p>
+<p>Choosing the Right Primitive
+Here&rsquo;s a quick decision guide:</p>
+<p>Need to give Claude new capabilities? Use tools
+Need to get data into your app for UI or context? Use resources
+Want to create predefined workflows for users? Use prompts
+You can see all three primitives in action in Claude&rsquo;s official interface. The workflow buttons demonstrate prompts, the Google Drive integration shows resources in action, and when Claude executes code or performs calculations, it&rsquo;s using tools behind the scenes.</p>
+<p>These are high-level guidelines to help you choose the right primitive for your specific use case. Each serves a different part of your application stack - tools serve the model, resources serve your app, and prompts serve your users.</p>
 <p>CLAUDE.md loads into every conversation and is best for always-on project standards. Skills load on demand and are best for task-specific expertise
 Subagents run in isolated execution contexts — use them for delegated work. Skills add knowledge to your current conversation
 Hooks are event-driven (fire on file saves, tool calls). Skills are request-driven (activate based on what you&rsquo;re asking)
 MCP servers provide external tools and integrations — a different category entirely from skills
 Each feature handles its own specialty — combine them rather than forcing everything into one approach</p>
-<ul>
-<li></li>
-</ul>
 <p>Here the focus is different:</p>
 <blockquote>
 <p>👉 How Claude Code becomes an Agent Platform — not just a coding assistant.</p>

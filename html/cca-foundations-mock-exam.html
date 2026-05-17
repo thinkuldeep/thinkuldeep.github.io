@@ -1,0 +1,1389 @@
+<!DOCTYPE html>
+
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CCA-F · Foundations Mock Exam</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,700;9..144,900&family=JetBrains+Mono:wght@400;500;700&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper:        #f5f1e8;
+    --paper-warm:   #ede6d3;
+    --ink:          #1a1814;
+    --ink-soft:     #45403a;
+    --ink-faint:    #8a847a;
+    --rule:         #cdc4b0;
+    --accent:       #b94e2a;     /* burnt orange */
+    --accent-dark:  #8c3a1f;
+    --green:        #2c6e49;
+    --green-soft:   #d8e8de;
+    --red:          #a8331f;
+    --red-soft:     #f1d8d2;
+    --gold:         #b88a2c;
+    --gold-soft:    #ece1c0;
+    --shadow:       0 1px 0 rgba(26,24,20,.05), 0 6px 20px -10px rgba(26,24,20,.15);
+  }
+
+- { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+  font-family: ‘Inter Tight’, system-ui, sans-serif;
+  background: var(–paper);
+  color: var(–ink);
+  line-height: 1.55;
+  min-height: 100vh;
+  /* subtle paper texture */
+  background-image:
+  radial-gradient(rgba(26,24,20,.025) 1px, transparent 1px),
+  radial-gradient(rgba(26,24,20,.018) 1px, transparent 1px);
+  background-size: 32px 32px, 17px 17px;
+  background-position: 0 0, 9px 11px;
+  }
+
+/* Display & typography */
+h1, h2, h3, h4 { font-family: ‘Fraunces’, serif; font-weight: 500; letter-spacing: -0.01em; color: var(–ink); margin: 0; }
+h1 { font-size: clamp(2.4rem, 5vw, 3.6rem); line-height: 1; font-weight: 900; letter-spacing: -0.03em; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.2rem; }
+code, .mono { font-family: ‘JetBrains Mono’, monospace; font-size: 0.92em; }
+
+/* Layout */
+.wrap { max-width: 920px; margin: 0 auto; padding: 48px 28px 96px; }
+.topbar {
+display: flex; align-items: center; justify-content: space-between;
+border-bottom: 1px solid var(–rule);
+padding-bottom: 14px; margin-bottom: 36px;
+font-family: ‘JetBrains Mono’, monospace;
+font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase;
+color: var(–ink-soft);
+}
+.topbar .stamp { color: var(–accent); font-weight: 700; }
+.topbar .right { display: flex; gap: 18px; align-items: center; }
+
+/* Hero (home view) */
+.hero { margin-bottom: 56px; position: relative; }
+.hero .kicker {
+font-family: ‘JetBrains Mono’, monospace;
+font-size: 0.78rem; letter-spacing: 0.18em; text-transform: uppercase;
+color: var(–accent); margin-bottom: 14px;
+}
+.hero .sub {
+font-family: ‘Fraunces’, serif;
+font-size: 1.25rem; font-style: italic; color: var(–ink-soft);
+margin-top: 18px; max-width: 640px; font-weight: 400;
+}
+.hero .quill {
+position: absolute; top: -20px; right: -10px;
+font-family: ‘Fraunces’, serif; font-size: 14rem; line-height: 1;
+color: rgba(185, 78, 42, 0.07); pointer-events: none; user-select: none;
+font-weight: 900;
+}
+
+/* Cards */
+.card {
+background: #faf6ec;
+border: 1px solid var(–rule);
+padding: 28px 30px;
+box-shadow: var(–shadow);
+margin-bottom: 22px;
+}
+.card-title {
+display: flex; align-items: baseline; gap: 14px; margin-bottom: 18px;
+}
+.card-title h2 { margin: 0; }
+.card-title .num {
+font-family: ‘JetBrains Mono’, monospace; font-size: 0.75rem;
+color: var(–ink-faint); letter-spacing: 0.12em;
+}
+
+/* Mode picker */
+.mode-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 640px) { .mode-grid { grid-template-columns: 1fr; } }
+.mode {
+border: 1px solid var(–rule); background: var(–paper-warm);
+padding: 22px; cursor: pointer; transition: all .15s ease;
+position: relative;
+}
+.mode:hover { border-color: var(–accent); transform: translateY(-2px); }
+.mode.selected {
+border-color: var(–accent); background: #fff;
+box-shadow: inset 4px 0 0 var(–accent);
+}
+.mode h3 { margin-bottom: 6px; }
+.mode p { margin: 0; font-size: 0.92rem; color: var(–ink-soft); }
+.mode .badge {
+position: absolute; top: 14px; right: 14px;
+font-family: ‘JetBrains Mono’, monospace; font-size: 0.7rem;
+color: var(–ink-faint); letter-spacing: 0.1em; text-transform: uppercase;
+}
+
+/* Settings row */
+.settings-row { display: flex; gap: 22px; flex-wrap: wrap; align-items: flex-end; margin-top: 12px; }
+.field { display: flex; flex-direction: column; gap: 6px; }
+.field label {
+font-family: ‘JetBrains Mono’, monospace; font-size: 0.72rem;
+letter-spacing: 0.1em; text-transform: uppercase; color: var(–ink-faint);
+}
+.field input[type=“number”], .field select {
+font-family: ‘Inter Tight’, sans-serif; font-size: 1rem;
+padding: 8px 12px; background: #fff; color: var(–ink);
+border: 1px solid var(–rule); border-radius: 0;
+min-width: 120px;
+}
+.field input[type=“number”]:focus, .field select:focus {
+outline: none; border-color: var(–accent);
+}
+
+/* Buttons */
+.btn {
+font-family: ‘Inter Tight’, sans-serif; font-size: 0.95rem; font-weight: 600;
+padding: 12px 22px; border: 1px solid var(–ink); background: var(–ink);
+color: var(–paper); cursor: pointer; transition: all .15s ease;
+letter-spacing: 0.02em; border-radius: 0;
+}
+.btn:hover { background: var(–accent); border-color: var(–accent); }
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.btn.secondary { background: transparent; color: var(–ink); }
+.btn.secondary:hover { background: var(–ink); color: var(–paper); }
+.btn.ghost { background: transparent; color: var(–ink-soft); border-color: var(–rule); }
+.btn.ghost:hover { color: var(–accent); border-color: var(–accent); background: transparent; }
+.btn.danger { border-color: var(–red); color: var(–red); background: transparent; }
+.btn.danger:hover { background: var(–red); color: var(–paper); }
+.btn.lg { padding: 16px 32px; font-size: 1.05rem; }
+.actions-row { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px; }
+
+/* Resume banner */
+.resume {
+background: var(–gold-soft); border: 1px solid var(–gold);
+padding: 16px 20px; margin-bottom: 22px;
+display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap;
+}
+.resume .lbl { font-family: ‘JetBrains Mono’, monospace; font-size: 0.74rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(–ink-soft); }
+.resume strong { font-family: ‘Fraunces’, serif; font-weight: 700; font-size: 1.05rem; }
+
+/* Exam view */
+.exam-header {
+display: flex; align-items: center; justify-content: space-between;
+background: var(–ink); color: var(–paper);
+padding: 14px 24px; margin-bottom: 0;
+font-family: ‘JetBrains Mono’, monospace; font-size: 0.85rem;
+letter-spacing: 0.05em;
+position: sticky; top: 0; z-index: 10;
+}
+.exam-header .progress-text { color: var(–paper-warm); }
+.exam-header .timer { font-weight: 700; font-size: 1rem; }
+.exam-header .timer.warn { color: var(–gold); }
+.exam-header .timer.danger { color: #ff8c70; animation: pulse 1s ease-in-out infinite; }
+@keyframes pulse { 50% { opacity: 0.55; } }
+
+.progress-bar { height: 3px; background: var(–rule); position: relative; }
+.progress-bar .fill { position: absolute; left: 0; top: 0; bottom: 0; background: var(–accent); transition: width .3s ease; }
+
+/* Scenario banner — frames the block of questions sharing one scenario */
+.scenario-banner {
+background: var(–ink); color: var(–paper);
+padding: 22px 30px; border-bottom: 3px solid var(–accent);
+display: flex; align-items: flex-start; justify-content: space-between; gap: 24px;
+flex-wrap: wrap;
+}
+.scenario-banner .left { flex: 1; min-width: 240px; }
+.scenario-banner .kicker {
+font-family: ‘JetBrains Mono’, monospace;
+font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase;
+color: var(–accent); margin-bottom: 8px;
+}
+.scenario-banner .title {
+font-family: ‘Fraunces’, serif; font-size: 1.6rem; font-weight: 700;
+line-height: 1.15; letter-spacing: -0.01em; color: var(–paper);
+}
+.scenario-banner .meta {
+font-family: ‘JetBrains Mono’, monospace;
+font-size: 0.78rem; letter-spacing: 0.06em; color: var(–paper-warm);
+white-space: nowrap; padding-top: 6px;
+}
+.scenario-banner .meta strong { color: var(–paper); }
+.scenario-banner.new-block {
+animation: bannerIn 0.35s ease;
+}
+@keyframes bannerIn {
+from { opacity: 0; transform: translateY(-6px); }
+to   { opacity: 1; transform: translateY(0); }
+}
+.new-block-flag {
+display: inline-block;
+font-family: ‘JetBrains Mono’, monospace; font-size: 0.7rem;
+letter-spacing: 0.14em; text-transform: uppercase;
+color: var(–ink); background: var(–accent);
+padding: 3px 10px; margin-top: 10px;
+border-radius: 0;
+}
+
+/* Question */
+.question-card {
+background: #faf6ec; border: 1px solid var(–rule); border-top: none;
+padding: 36px 38px; box-shadow: var(–shadow);
+}
+.q-meta {
+display: flex; gap: 16px; align-items: center; margin-bottom: 18px;
+font-family: ‘JetBrains Mono’, monospace; font-size: 0.74rem;
+color: var(–ink-faint); letter-spacing: 0.08em; text-transform: uppercase;
+flex-wrap: wrap;
+}
+.q-meta .pill {
+background: var(–paper-warm); padding: 4px 10px; border: 1px solid var(–rule);
+}
+.q-meta .pill.domain { background: var(–ink); color: var(–paper); border-color: var(–ink); }
+.q-text {
+font-family: ‘Fraunces’, serif; font-size: 1.32rem; line-height: 1.4;
+color: var(–ink); font-weight: 500; margin-bottom: 28px;
+}
+
+/* Choices */
+.choices { display: flex; flex-direction: column; gap: 10px; }
+.choice {
+display: flex; gap: 16px; padding: 16px 18px;
+background: #fff; border: 1px solid var(–rule); cursor: pointer;
+transition: all .12s ease; position: relative;
+}
+.choice:hover { border-color: var(–ink-soft); background: #fffdf5; }
+.choice.selected {
+border-color: var(–accent); background: #fff;
+box-shadow: inset 4px 0 0 var(–accent);
+}
+.choice .letter {
+font-family: ‘JetBrains Mono’, monospace; font-weight: 700;
+font-size: 1rem; color: var(–accent);
+flex-shrink: 0; width: 24px;
+}
+.choice .body { font-size: 1rem; color: var(–ink); }
+.choice.locked { cursor: default; }
+.choice.correct {
+border-color: var(–green); background: var(–green-soft);
+box-shadow: inset 4px 0 0 var(–green);
+}
+.choice.correct .letter { color: var(–green); }
+.choice.incorrect-selected {
+border-color: var(–red); background: var(–red-soft);
+box-shadow: inset 4px 0 0 var(–red);
+}
+.choice.incorrect-selected .letter { color: var(–red); }
+.choice .explanation {
+grid-column: 2;
+margin-top: 10px;
+font-size: 0.92rem; line-height: 1.5;
+color: var(–ink-soft); font-style: italic;
+display: none;
+border-top: 1px dashed var(–rule); padding-top: 10px;
+}
+.choice.show-expl { display: flex; flex-direction: column; }
+.choice.show-expl .explanation { display: block; }
+.choice.show-expl .top-row { display: flex; gap: 16px; }
+
+/* Nav */
+.qnav {
+display: flex; justify-content: space-between; gap: 12px;
+margin-top: 26px; padding-top: 22px;
+border-top: 1px solid var(–rule); align-items: center;
+}
+.qnav-spacer { flex: 1; }
+.qnav .nums {
+font-family: ‘JetBrains Mono’, monospace; font-size: 0.78rem;
+color: var(–ink-faint); letter-spacing: 0.06em;
+}
+
+/* Question grid (sidebar replacement) */
+.qgrid-section { margin-top: 14px; }
+.qgrid-scenario-block { margin-bottom: 14px; }
+.qgrid-scenario-label {
+font-family: ‘JetBrains Mono’, monospace; font-size: 0.7rem;
+letter-spacing: 0.1em; text-transform: uppercase;
+color: var(–ink-faint); margin-bottom: 6px;
+display: flex; align-items: center; gap: 8px;
+}
+.qgrid-scenario-label::before {
+content: ‘’; display: inline-block; width: 8px; height: 8px;
+background: var(–accent);
+}
+.qgrid {
+display: grid; grid-template-columns: repeat(auto-fill, minmax(36px, 1fr));
+gap: 6px;
+}
+.qgrid button {
+aspect-ratio: 1; border: 1px solid var(–rule); background: #fff;
+font-family: ‘JetBrains Mono’, monospace; font-size: 0.78rem;
+color: var(–ink-soft); cursor: pointer; padding: 0; border-radius: 0;
+}
+.qgrid button:hover { border-color: var(–ink); }
+.qgrid button.answered { background: var(–ink); color: var(–paper); border-color: var(–ink); }
+.qgrid button.flagged {
+background: var(–gold-soft); border-color: var(–gold);
+color: var(–ink); position: relative;
+}
+.qgrid button.flagged.answered::after {
+content: ‘’; position: absolute; top: 2px; right: 2px;
+width: 6px; height: 6px; background: var(–accent); border-radius: 50%;
+}
+.qgrid button.current { outline: 2px solid var(–accent); outline-offset: 2px; }
+
+/* Results */
+.score-hero {
+text-align: center; padding: 48px 28px;
+background: linear-gradient(180deg, var(–paper-warm) 0%, transparent 100%);
+border: 1px solid var(–rule);
+margin-bottom: 28px;
+}
+.score-hero .label {
+font-family: ‘JetBrains Mono’, monospace;
+font-size: 0.78rem; letter-spacing: 0.18em; text-transform: uppercase;
+color: var(–ink-soft); margin-bottom: 12px;
+}
+.score-hero .score {
+font-family: ‘Fraunces’, serif; font-size: 6rem; line-height: 1;
+font-weight: 900; letter-spacing: -0.04em;
+color: var(–ink);
+}
+.score-hero .score.pass { color: var(–green); }
+.score-hero .score.fail { color: var(–red); }
+.score-hero .of { font-size: 1.4rem; color: var(–ink-faint); margin-left: 8px; font-weight: 400; }
+.score-hero .verdict {
+font-family: ‘Fraunces’, serif; font-size: 1.4rem; font-style: italic;
+margin-top: 16px;
+}
+.score-hero .verdict.pass { color: var(–green); }
+.score-hero .verdict.fail { color: var(–red); }
+.score-hero .raw {
+margin-top: 18px; font-family: ‘JetBrains Mono’, monospace;
+font-size: 0.85rem; color: var(–ink-soft);
+}
+
+.breakdown { display: grid; grid-template-columns: 1fr; gap: 12px; }
+.domain-row {
+display: grid; grid-template-columns: 1fr 80px 100px;
+align-items: center; gap: 14px;
+padding: 14px 18px;
+background: #faf6ec; border: 1px solid var(–rule);
+}
+.domain-row .name { font-family: ‘Fraunces’, serif; font-size: 1.05rem; font-weight: 500; }
+.domain-row .weight { font-family: ‘JetBrains Mono’, monospace; font-size: 0.78rem; color: var(–ink-faint); }
+.domain-row .bar {
+height: 8px; background: var(–rule); position: relative; overflow: hidden;
+}
+.domain-row .bar .fill { position: absolute; left: 0; top: 0; bottom: 0; background: var(–green); }
+.domain-row .bar .fill.low { background: var(–red); }
+.domain-row .bar .fill.mid { background: var(–gold); }
+.domain-row .pct { font-family: ‘JetBrains Mono’, monospace; font-weight: 700; font-size: 0.95rem; text-align: right; }
+
+/* Review of all questions in results */
+.review-section { margin-top: 36px; }
+.review-scenario-header {
+display: flex; align-items: baseline; gap: 14px;
+margin: 24px 0 12px 0;
+padding-bottom: 8px;
+border-bottom: 2px solid var(–ink);
+}
+.review-scenario-header:first-of-type { margin-top: 4px; }
+.review-scenario-header h3 {
+font-family: ‘Fraunces’, serif; font-weight: 700; font-size: 1.25rem;
+margin: 0;
+}
+.review-scenario-header .stats {
+font-family: ‘JetBrains Mono’, monospace; font-size: 0.78rem;
+color: var(–ink-faint); letter-spacing: 0.06em; margin-left: auto;
+}
+.review-scenario-header .stats .ok { color: var(–green); font-weight: 700; }
+.review-scenario-header .stats .bad { color: var(–red); font-weight: 700; }
+.review-item {
+border: 1px solid var(–rule);
+background: #faf6ec;
+margin-bottom: 14px;
+padding: 0;
+}
+.review-item summary {
+padding: 14px 18px; cursor: pointer; list-style: none;
+display: flex; gap: 14px; align-items: center;
+font-family: ‘Inter Tight’, sans-serif; font-size: 0.98rem;
+}
+.review-item summary::-webkit-details-marker { display: none; }
+.review-item summary::before {
+content: ‘+’; font-family: ‘JetBrains Mono’, monospace; font-size: 1.2rem;
+color: var(–accent); width: 16px;
+}
+.review-item[open] summary::before { content: ‘−’; }
+.review-item .marker {
+width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0;
+}
+.review-item .marker.correct { background: var(–green); }
+.review-item .marker.wrong { background: var(–red); }
+.review-item .marker.skipped { background: var(–ink-faint); }
+.review-item .summary-text { flex: 1; color: var(–ink); }
+.review-item .summary-meta {
+font-family: ‘JetBrains Mono’, monospace; font-size: 0.72rem;
+color: var(–ink-faint); letter-spacing: 0.06em;
+}
+.review-body { padding: 0 18px 20px 18px; }
+.review-body .q-text { font-size: 1.1rem; margin-bottom: 18px; }
+
+/* History list */
+.history-list { display: flex; flex-direction: column; gap: 8px; }
+.history-row {
+display: grid; grid-template-columns: 1fr auto auto auto;
+align-items: center; gap: 14px;
+padding: 12px 16px; background: var(–paper-warm); border: 1px solid var(–rule);
+font-family: ‘JetBrains Mono’, monospace; font-size: 0.85rem;
+}
+.history-row .date { color: var(–ink-soft); }
+.history-row .score { font-weight: 700; font-size: 1rem; }
+.history-row .pass { color: var(–green); }
+.history-row .fail { color: var(–red); }
+.history-row .mode-lbl { color: var(–ink-faint); text-transform: uppercase; font-size: 0.72rem; }
+
+/* Misc */
+.muted { color: var(–ink-faint); }
+.small { font-size: 0.85rem; }
+.center { text-align: center; }
+hr.rule { border: 0; border-top: 1px solid var(–rule); margin: 32px 0; }
+.flag-btn {
+background: transparent; border: 1px solid var(–rule);
+padding: 8px 14px; font-family: ‘JetBrains Mono’, monospace;
+font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase;
+color: var(–ink-soft); cursor: pointer;
+}
+.flag-btn:hover { border-color: var(–gold); color: var(–gold); }
+.flag-btn.active { background: var(–gold); border-color: var(–gold); color: var(–ink); }
+
+/* Modal */
+.modal-bg {
+position: fixed; inset: 0; background: rgba(26,24,20,.65);
+display: flex; align-items: center; justify-content: center; z-index: 100;
+padding: 20px;
+}
+.modal {
+background: var(–paper); border: 1px solid var(–ink);
+padding: 32px 36px; max-width: 540px; width: 100%;
+box-shadow: 0 20px 60px rgba(0,0,0,.3);
+}
+.modal h3 { margin-bottom: 14px; font-family: ‘Fraunces’, serif; font-size: 1.5rem; }
+.modal p { color: var(–ink-soft); margin: 0 0 22px 0; }
+.modal-actions { display: flex; gap: 12px; justify-content: flex-end; }
+
+/* Smaller screens */
+@media (max-width: 640px) {
+.wrap { padding: 24px 16px 64px; }
+.question-card { padding: 22px 18px; }
+.q-text { font-size: 1.1rem; }
+.score-hero .score { font-size: 4.5rem; }
+.domain-row { grid-template-columns: 1fr 60px 80px; gap: 10px; }
+.exam-header { padding: 12px 16px; font-size: 0.78rem; }
+.hero .quill { display: none; }
+}
+</style>
+
+</head>
+<body>
+
+<div id="app"></div>
+
+<script>
+/* ============================================================
+   QUESTION POOL
+   ============================================================ */
+const QUESTION_POOL = [{"id":"s1-q01","scenario":"Customer Support Resolution Agent","domain":1,"domainName":"Agentic Architecture & Orchestration","question":"Production data shows that in 12% of cases, your agent skips get_customer entirely and calls lookup_order using only the customer's stated name, occasionally leading to misidentified accounts and incorrect refunds. What change would most effectively address this reliability issue?","choices":[{"text":"Add a programmatic prerequisite that blocks lookup_order and process_refund calls until get_customer has returned a verified customer ID.","correct":true,"explanation":"Correct. When a tool sequence is required for critical business logic (identity verification before refunds), programmatic enforcement via hooks/prerequisite gates provides deterministic guarantees that prompt-based approaches cannot."},{"text":"Enhance the system prompt to state that customer verification via get_customer is mandatory before any order operations.","correct":false,"explanation":"Prompt instructions have a non-zero failure rate, which is unacceptable when errors have financial consequences."},{"text":"Add few-shot examples showing the agent always calling get_customer first, even when customers volunteer order details.","correct":false,"explanation":"Few-shot examples remain probabilistic; they improve compliance but do not guarantee it for high-stakes flows."},{"text":"Implement a routing classifier that analyses each request and enables only the subset of tools appropriate for that request type.","correct":false,"explanation":"This addresses tool availability, not tool ordering, which is the actual root cause here."}]},{"id":"s1-q02","scenario":"Customer Support Resolution Agent","domain":2,"domainName":"Tool Design & MCP Integration","question":"Production logs show the agent frequently calls get_customer when users ask about orders (e.g., \"check my order #12345\"), instead of calling lookup_order. Both tools have minimal descriptions (\"Retrieves customer information\" / \"Retrieves order details\") and accept similar identifier formats. What's the most effective first step to improve tool selection reliability?","choices":[{"text":"Expand each tool's description to include input formats it handles, example queries, edge cases, and boundaries explaining when to use it versus similar tools.","correct":true,"explanation":"Correct. Tool descriptions are the primary mechanism LLMs use for tool selection. With minimal descriptions the model lacks the context to differentiate. This is the proportionate, high-leverage first step."},{"text":"Add 5-8 few-shot examples to the system prompt demonstrating correct tool selection patterns for order-related queries.","correct":false,"explanation":"Adds token overhead and treats the symptom; the root cause is inadequate descriptions, which should be fixed first."},{"text":"Implement a routing layer that parses user input and pre-selects the appropriate tool based on detected keywords and identifier patterns.","correct":false,"explanation":"Over-engineered: bypasses the LLM's natural language understanding rather than fixing the descriptions."},{"text":"Consolidate both tools into a single lookup_entity tool that accepts any identifier and internally determines which backend to query.","correct":false,"explanation":"A valid architectural option but disproportionate as a first step when better descriptions will likely resolve the issue."}]},{"id":"s1-q03","scenario":"Customer Support Resolution Agent","domain":5,"domainName":"Context Management & Reliability","question":"Your agent achieves 55% first-contact resolution, well below the 80% target. Logs show it escalates straightforward cases (standard damage replacements with photo evidence) while attempting to autonomously handle complex situations requiring policy exceptions. What's the most effective way to improve escalation calibration?","choices":[{"text":"Add explicit escalation criteria to your system prompt with few-shot examples demonstrating when to escalate versus resolve autonomously.","correct":true,"explanation":"Correct. The root cause is unclear decision boundaries. Explicit criteria plus illustrative few-shot examples is the proportionate first response before adding infrastructure."},{"text":"Have the agent self-report a confidence score (1-10) before each response and automatically route requests to humans when confidence falls below a threshold.","correct":false,"explanation":"LLM self-reported confidence is poorly calibrated; the agent is already wrongly confident on hard cases."},{"text":"Deploy a separate classifier model trained on historical tickets to predict which requests need escalation before the main agent begins processing.","correct":false,"explanation":"Over-engineered: needs labelled data and ML infrastructure when prompt-level fixes have not been tried."},{"text":"Implement sentiment analysis to detect customer frustration levels and automatically escalate when negative sentiment exceeds a threshold.","correct":false,"explanation":"Sentiment does not correlate with case complexity; this addresses a different problem entirely."}]},{"id":"s1-q04","scenario":"Customer Support Resolution Agent","domain":2,"domainName":"Tool Design & MCP Integration","question":"Your agent's MCP tools return uniform errors like \"Operation failed\" when something goes wrong. The agent then retries indefinitely on permission-denied errors and gives up immediately on transient timeouts. What change to your MCP tool error responses would best fix this?","choices":[{"text":"Return structured error metadata including errorCategory (transient/validation/permission), isRetryable boolean, and a human-readable description.","correct":true,"explanation":"Correct. Structured error metadata lets the agent reason about whether to retry, escalate, or explain to the user. Uniform errors strip away the context needed for good recovery decisions."},{"text":"Increase the default retry budget so the agent has more chances to succeed on transient errors.","correct":false,"explanation":"Wastes retries on non-retryable errors and still does not communicate why something failed."},{"text":"Always return success with an empty payload on failure, and let the agent infer from the missing data what went wrong.","correct":false,"explanation":"Silently suppressing errors is an anti-pattern: it hides failure signals and risks incorrect behaviour."},{"text":"Raise an exception that terminates the agent loop so a human can review what happened.","correct":false,"explanation":"Terminating the whole workflow on every error prevents legitimate local recovery and harms the user experience."}]},{"id":"s1-q05","scenario":"Customer Support Resolution Agent","domain":1,"domainName":"Agentic Architecture & Orchestration","question":"Compliance requires that refunds over $500 never be auto-processed. Your prompt says \"never refund more than $500 without escalation,\" but logs show occasional violations. What is the most reliable fix?","choices":[{"text":"Add a hook that intercepts process_refund calls and blocks any refund above $500, redirecting to escalate_to_human.","correct":true,"explanation":"Correct. Hooks provide deterministic guarantees. Critical compliance rules must be programmatically enforced — prompt instructions are probabilistic."},{"text":"Strengthen the system prompt with stronger language and add several few-shot examples showing $500 refusals.","correct":false,"explanation":"Still probabilistic; an LLM may occasionally violate even strongly worded constraints."},{"text":"Lower the agent's temperature to make it more deterministic.","correct":false,"explanation":"Lower temperature does not guarantee constraint compliance and harms response quality."},{"text":"Have the agent self-verify its planned refund amount before calling process_refund.","correct":false,"explanation":"Self-verification still relies on the model's judgement and is not deterministic."}]},{"id":"s1-q06","scenario":"Customer Support Resolution Agent","domain":5,"domainName":"Context Management & Reliability","question":"Customers raise multiple issues in a single message (e.g., a refund, a missing item, and an address change). The agent often resolves only the first issue and forgets the others. What is the best fix?","choices":[{"text":"Have the agent decompose multi-concern messages into distinct items, investigate each (in parallel where possible), and synthesise a unified resolution.","correct":true,"explanation":"Correct. Explicit decomposition prevents attention from collapsing on the first issue and ensures every concern is addressed before responding."},{"text":"Ask the customer to send only one issue per message.","correct":false,"explanation":"Pushes the problem to the user; customers will not reliably comply."},{"text":"Increase max_tokens so the agent has more space to discuss all issues.","correct":false,"explanation":"The problem is task decomposition, not token budget."},{"text":"Add a confidence threshold below which the agent escalates the entire ticket to a human.","correct":false,"explanation":"Escalating multi-issue messages by default would tank first-contact resolution; the issues themselves may be simple."}]},{"id":"s1-q07","scenario":"Customer Support Resolution Agent","domain":5,"domainName":"Context Management & Reliability","question":"When the agent escalates to a human, the human receives only the conversation transcript and often has to ask the customer to repeat information. What's the best way to improve the handoff?","choices":[{"text":"Compile a structured handoff summary (customer ID, root cause, refund amount, recommended action) when escalating.","correct":true,"explanation":"Correct. Structured handoffs ensure the human gets the facts they need without re-interrogating the customer or reading the entire transcript."},{"text":"Send the human reviewer the full unmodified conversation history.","correct":false,"explanation":"Transcripts are verbose and force the human to re-derive facts the agent already established."},{"text":"Let the human re-run the agent with /resume to inherit context automatically.","correct":false,"explanation":"Resumption is for the agent, not the human; humans need a brief structured summary they can act on."},{"text":"Have the agent end its turn silently and trust the routing layer to attach context.","correct":false,"explanation":"Silent escalation drops valuable context the agent has already gathered."}]},{"id":"s1-q08","scenario":"Customer Support Resolution Agent","domain":5,"domainName":"Context Management & Reliability","question":"A customer types \"I want to speak to a human, this is the third time I'm contacting you.\" The agent attempts an investigation first. What does the exam guide say about handling this?","choices":[{"text":"Honour explicit requests for a human agent immediately, without first attempting investigation.","correct":true,"explanation":"Correct. Explicit customer requests for escalation are a primary escalation trigger and must be honoured immediately."},{"text":"Acknowledge the frustration and continue to investigate; only escalate if the issue cannot be resolved.","correct":false,"explanation":"Overrides an explicit customer request, which is the exact anti-pattern called out in the exam guide."},{"text":"Run a sentiment analysis tool and escalate only if frustration is above the threshold.","correct":false,"explanation":"Sentiment is not a reliable proxy for handling explicit escalation requests."},{"text":"Ask the customer to confirm they really want a human before transferring.","correct":false,"explanation":"Adds friction and ignores an unambiguous request."}]},{"id":"s1-q09","scenario":"Customer Support Resolution Agent","domain":2,"domainName":"Tool Design & MCP Integration","question":"Your get_customer tool returns Unix timestamps, lookup_order returns ISO 8601 strings, and process_refund returns numeric status codes. The agent occasionally misinterprets these formats when reasoning over them. What is the most reliable fix?","choices":[{"text":"Implement PostToolUse hooks that normalise heterogeneous data formats from different MCP tools before the agent processes them.","correct":true,"explanation":"Correct. PostToolUse hooks intercept tool results for transformation. Normalising at the boundary keeps the model reasoning over consistent shapes."},{"text":"Tell the agent in the system prompt about each tool's data format.","correct":false,"explanation":"Adds prompt overhead and still relies on the model to convert correctly every time."},{"text":"Switch all tools to return raw strings and let the agent infer the format from context.","correct":false,"explanation":"Increases ambiguity rather than reducing it."},{"text":"Use a forced tool_choice to ensure the formats are consumed in a fixed order.","correct":false,"explanation":"Ordering does not solve a format-interpretation problem."}]},{"id":"s1-q10","scenario":"Customer Support Resolution Agent","domain":5,"domainName":"Context Management & Reliability","question":"Over long multi-turn sessions, your agent sometimes loses track of refund amounts and order numbers, replacing them with vague summaries. What is the best mitigation?","choices":[{"text":"Extract transactional facts (amounts, dates, order numbers, statuses) into a persistent \"case facts\" block included in each prompt, outside summarised history.","correct":true,"explanation":"Correct. Persisting structured facts outside the summarisation pipeline prevents progressive summarisation from eroding numerical precision."},{"text":"Increase the model's context window by switching to a larger-context model.","correct":false,"explanation":"Larger context does not prevent progressive summarisation from condensing values; lost-in-the-middle effects can still apply."},{"text":"Disable summarisation entirely and send the full conversation each turn.","correct":false,"explanation":"Quickly exhausts the context budget on long sessions and worsens lost-in-the-middle effects."},{"text":"Lower the temperature so the model is less likely to paraphrase amounts.","correct":false,"explanation":"Temperature does not control summarisation behaviour."}]},{"id":"s1-q11","scenario":"Customer Support Resolution Agent","domain":5,"domainName":"Context Management & Reliability","question":"Your policy is silent on competitor price matching. A customer requests it. What should the agent do?","choices":[{"text":"Escalate, because policy is ambiguous or silent on the customer's specific request.","correct":true,"explanation":"Correct. Policy gaps are an appropriate escalation trigger — the agent should not invent policy on the fly."},{"text":"Refuse the request, because if it's not in policy it's not allowed.","correct":false,"explanation":"Treats silence as denial, which is not the agent's call to make and may harm the customer relationship."},{"text":"Approve the request, because absence of prohibition implies permission.","correct":false,"explanation":"Risks making unauthorised policy decisions with financial impact."},{"text":"Ask the customer to contact a different support channel.","correct":false,"explanation":"Pushes the problem to the user instead of routing it correctly via escalation."}]},{"id":"s1-q12","scenario":"Customer Support Resolution Agent","domain":2,"domainName":"Tool Design & MCP Integration","question":"lookup_order returns 40+ fields per order. After a few turns, conversation context is dominated by tool result noise. What's the best mitigation?","choices":[{"text":"Trim verbose tool outputs to only relevant fields before they accumulate in context (e.g., keep only return-relevant fields).","correct":true,"explanation":"Correct. Trimming at the boundary keeps the working context focused and prevents irrelevant fields from crowding out important information."},{"text":"Switch to a model with a much larger context window.","correct":false,"explanation":"Doesn't fix the noise problem and is more expensive; lost-in-the-middle still applies."},{"text":"Tell the agent in the system prompt to ignore irrelevant fields.","correct":false,"explanation":"Tokens are still consumed and the agent's attention is still split across them."},{"text":"Compress old tool results into a single summary message.","correct":false,"explanation":"Progressive summarisation risks dropping precise values like amounts and IDs."}]},{"id":"s2-q01","scenario":"Code Generation with Claude Code","domain":3,"domainName":"Claude Code Configuration & Workflows","question":"You want to create a custom /review slash command that runs your team's standard code review checklist. This command should be available to every developer when they clone or pull the repository. Where should you create this command file?","choices":[{"text":"In the .claude/commands/ directory in the project repository.","correct":true,"explanation":"Correct. Project-scoped commands live in .claude/commands/ and are version-controlled so every developer gets them automatically."},{"text":"In ~/.claude/commands/ in each developer's home directory.","correct":false,"explanation":"User-scoped: personal only, not shared via version control."},{"text":"In the CLAUDE.md file at the project root.","correct":false,"explanation":"CLAUDE.md is for project instructions and context, not slash command definitions."},{"text":"In a .claude/config.json file with a commands array.","correct":false,"explanation":"This configuration mechanism doesn't exist in Claude Code."}]},{"id":"s2-q02","scenario":"Code Generation with Claude Code","domain":3,"domainName":"Claude Code Configuration & Workflows","question":"You've been assigned to restructure a monolithic application into microservices, affecting dozens of files and requiring decisions about service boundaries. Which approach should you take in Claude Code?","choices":[{"text":"Enter plan mode to explore the codebase, understand dependencies, and design an implementation approach before making changes.","correct":true,"explanation":"Correct. Plan mode is designed for large-scale, architectural, multi-file changes where design exploration prevents costly rework."},{"text":"Start with direct execution and make changes incrementally, letting the implementation reveal natural service boundaries.","correct":false,"explanation":"Risks costly rework when late-discovered dependencies invalidate earlier decisions."},{"text":"Use direct execution with comprehensive upfront instructions detailing exactly how each service should be structured.","correct":false,"explanation":"Assumes you already know the correct structure without exploring the code."},{"text":"Begin in direct execution mode and only switch to plan mode if you encounter unexpected complexity.","correct":false,"explanation":"The complexity is already known up front; plan mode should be used from the start."}]},{"id":"s2-q03","scenario":"Code Generation with Claude Code","domain":3,"domainName":"Claude Code Configuration & Workflows","question":"Your codebase has React components with hooks, API handlers using async/await, and database repositories. Test files (e.g., Button.test.tsx next to Button.tsx) are spread throughout. What's the most maintainable way to ensure Claude automatically applies the correct conventions when generating code?","choices":[{"text":"Create rule files in .claude/rules/ with YAML frontmatter specifying glob patterns to conditionally apply conventions based on file paths.","correct":true,"explanation":"Correct. Glob-pattern rules in .claude/rules/ apply conventions regardless of directory, ideal for test files spread across the codebase, and only load when relevant."},{"text":"Consolidate all conventions in the root CLAUDE.md under headers for each area, relying on Claude to infer which section applies.","correct":false,"explanation":"Inference is unreliable; you want deterministic, file-path-based activation."},{"text":"Create skills in .claude/skills/ for each code type that include the relevant conventions in their SKILL.md files.","correct":false,"explanation":"Skills are invoked on demand; you need automatic application based on file paths."},{"text":"Place a separate CLAUDE.md file in each subdirectory containing that area's specific conventions.","correct":false,"explanation":"Directory-bound CLAUDE.md files can't handle files (like tests) spread across many directories."}]},{"id":"s2-q04","scenario":"Code Generation with Claude Code","domain":3,"domainName":"Claude Code Configuration & Workflows","question":"A new teammate is not getting the team's testing conventions, while everyone else does. The senior engineer who set things up has them in ~/.claude/CLAUDE.md. What's the issue?","choices":[{"text":"User-level configuration (~/.claude/CLAUDE.md) is personal and not shared via version control; project conventions must live at the project level (e.g., .claude/CLAUDE.md or root CLAUDE.md).","correct":true,"explanation":"Correct. User-level memory is per-developer only. Team conventions must be in project-level configuration so they're picked up by anyone who clones the repo."},{"text":"The new teammate needs to install a different version of Claude Code.","correct":false,"explanation":"Versioning doesn't change which configuration files Claude Code reads."},{"text":"Claude Code only loads CLAUDE.md from the directory you start it in.","correct":false,"explanation":"The hierarchy loads user, project, and directory levels; the issue is which level the rules are in."},{"text":"The teammate must explicitly invoke /memory load on startup.","correct":false,"explanation":"/memory inspects what is loaded; it doesn't replace correct configuration scoping."}]},{"id":"s2-q05","scenario":"Code Generation with Claude Code","domain":3,"domainName":"Claude Code Configuration & Workflows","question":"Your CLAUDE.md has grown to 800 lines covering testing, API conventions, deployment, security, and accessibility. Claude's behaviour has become inconsistent. What's the best refactor?","choices":[{"text":"Split into focused topic-specific files in .claude/rules/ (e.g., testing.md, api-conventions.md, deployment.md) and use @import where appropriate.","correct":true,"explanation":"Correct. Modular organisation reduces cognitive load on the model and lets path-scoped rules load only when relevant."},{"text":"Move all 800 lines to ~/.claude/CLAUDE.md so they live at the user level.","correct":false,"explanation":"Hides team conventions from teammates and doesn't address the size or inconsistency problem."},{"text":"Convert the whole file into a single skill in .claude/skills/.","correct":false,"explanation":"Skills are invoked on demand; you'd lose always-on coverage."},{"text":"Compress the file with terser language and remove examples.","correct":false,"explanation":"Removes the most useful guidance (examples) and doesn't address modularity."}]},{"id":"s2-q06","scenario":"Code Generation with Claude Code","domain":3,"domainName":"Claude Code Configuration & Workflows","question":"You're adding a /scaffold-feature skill that performs verbose codebase analysis and brainstorms options. Without isolation, this floods the main conversation. What's the right configuration?","choices":[{"text":"Use context: fork in the skill frontmatter so it runs in an isolated sub-agent context.","correct":true,"explanation":"Correct. context: fork keeps verbose exploratory output out of the main session, preserving context for ongoing work."},{"text":"Set allowed-tools: [] so the skill cannot use any tools.","correct":false,"explanation":"Disables the skill's ability to do its job; it doesn't solve context pollution."},{"text":"Use argument-hint to make the developer choose what to scaffold.","correct":false,"explanation":"argument-hint is about prompting for required arguments, not about context isolation."},{"text":"Move the skill to ~/.claude/skills/ so it runs personally.","correct":false,"explanation":"User scope versus project scope is unrelated to context isolation."}]},{"id":"s2-q07","scenario":"Code Generation with Claude Code","domain":3,"domainName":"Claude Code Configuration & Workflows","question":"After Claude rewrote five files in your repo, you noticed the changes were based on stale knowledge. You want to resume the same investigation but make sure Claude knows what changed. What's the right approach?","choices":[{"text":"Resume the session with --resume <name> and inform the agent about the specific file changes for targeted re-analysis.","correct":true,"explanation":"Correct. Named resumption keeps useful prior context; explicitly flagging which files changed enables targeted re-analysis rather than full re-exploration."},{"text":"Use fork_session to branch and re-explore everything from scratch.","correct":false,"explanation":"Fork is for exploring divergent approaches from a shared baseline, not for refreshing stale tool results."},{"text":"Continue with the same session and trust the agent to re-read files.","correct":false,"explanation":"Prior tool results are stale; the agent may rely on them without verifying."},{"text":"Use /compact to shrink the existing context before continuing.","correct":false,"explanation":"/compact reduces token usage but doesn't tell the agent which files actually changed."}]},{"id":"s2-q08","scenario":"Code Generation with Claude Code","domain":3,"domainName":"Claude Code Configuration & Workflows","question":"You want to compare two refactoring approaches from the same baseline codebase analysis without polluting the original session. What's the right tool?","choices":[{"text":"Use fork_session to create independent branches from the shared analysis baseline.","correct":true,"explanation":"Correct. fork_session is specifically for exploring divergent approaches from a common baseline."},{"text":"Use --resume twice with the same session name.","correct":false,"explanation":"Doesn't create independent branches; you'd just rejoin the same session."},{"text":"Open two terminals and run Claude Code separately in each, copying the analysis manually.","correct":false,"explanation":"Reinvents fork_session manually and is error-prone."},{"text":"Use /compact and then re-run the analysis.","correct":false,"explanation":"Throws away the baseline analysis you wanted to share."}]},{"id":"s2-q09","scenario":"Code Generation with Claude Code","domain":3,"domainName":"Claude Code Configuration & Workflows","question":"When asked to add a date validation conditional to one function in one file with a clear stack trace, which mode is appropriate?","choices":[{"text":"Direct execution — the change is well-scoped and the cause is clear.","correct":true,"explanation":"Correct. Direct execution suits simple, well-understood single-file changes; plan mode would be overkill."},{"text":"Plan mode — every change should be planned first.","correct":false,"explanation":"Plan mode is for complex tasks with architectural implications, not single-line fixes."},{"text":"Spawn an Explore subagent to map the codebase first.","correct":false,"explanation":"Unnecessary discovery overhead for a localised, well-defined change."},{"text":"Fork the session before making the change.","correct":false,"explanation":"fork_session is for divergent approaches, not routine fixes."}]},{"id":"s2-q10","scenario":"Code Generation with Claude Code","domain":3,"domainName":"Claude Code Configuration & Workflows","question":"After implementing a feature, you ask Claude in the same session whether the code is correct. It enthusiastically approves its own work, missing two real bugs. What's the underlying issue?","choices":[{"text":"Self-review limitations: a model retains its generation reasoning context, making it less likely to question its own decisions.","correct":true,"explanation":"Correct. Independent review instances (without the generator's reasoning context) are more effective at catching subtle issues than self-review."},{"text":"The model wasn't given enough tools to verify the code.","correct":false,"explanation":"Additional tools don't address the reasoning-context bias of self-review."},{"text":"Temperature was too high during review.","correct":false,"explanation":"Temperature isn't the cause; the bias comes from shared session context."},{"text":"The CLAUDE.md is missing review criteria.","correct":false,"explanation":"Even with perfect criteria, self-review in the same session retains the generation bias."}]},{"id":"s2-q11","scenario":"Code Generation with Claude Code","domain":3,"domainName":"Claude Code Configuration & Workflows","question":"You're integrating a third-party Jira workflow into Claude Code. There's a maintained community MCP server for Jira. What should you do?","choices":[{"text":"Use the community Jira MCP server; reserve custom MCP servers for team-specific workflows.","correct":true,"explanation":"Correct. Existing community MCP servers should be preferred for standard integrations; build custom only when the workflow is genuinely team-specific."},{"text":"Build your own Jira MCP server so you fully control its surface.","correct":false,"explanation":"Unjustified maintenance burden when a maintained option exists."},{"text":"Avoid MCP and have Claude call the Jira REST API directly via Bash.","correct":false,"explanation":"Bypasses the MCP model and forfeits tool discovery, descriptions, and structured errors."},{"text":"Wait until Anthropic ships an official Jira integration.","correct":false,"explanation":"Blocks your workflow on speculation about future features."}]},{"id":"s2-q12","scenario":"Code Generation with Claude Code","domain":3,"domainName":"Claude Code Configuration & Workflows","question":"Where should shared MCP server configuration live so that every developer cloning the repo gets the same setup, with credentials supplied via environment variables?","choices":[{"text":"In .mcp.json at the project root, using ${ENV_VAR} expansion for credentials.","correct":true,"explanation":"Correct. Project-scoped .mcp.json is version-controlled and shared; environment variable expansion keeps secrets out of the repo."},{"text":"In ~/.claude.json in each developer's home directory.","correct":false,"explanation":"User-scoped and personal; teammates won't pick it up automatically."},{"text":"In CLAUDE.md as a description of the MCP servers to install.","correct":false,"explanation":"CLAUDE.md is documentation for the model, not a configuration loader for MCP servers."},{"text":"Hard-coded in a shell script that each developer runs once.","correct":false,"explanation":"Brittle and easy to forget; misses the standard configuration mechanism."}]},{"id":"s3-q01","scenario":"Multi-Agent Research System","domain":1,"domainName":"Agentic Architecture & Orchestration","question":"After running on \"impact of AI on creative industries,\" each subagent worked correctly but the final report covered only visual arts, missing music, writing, and film. Coordinator logs show it decomposed the topic into \"AI in digital art,\" \"AI in graphic design,\" and \"AI in photography.\" Most likely root cause?","choices":[{"text":"The coordinator's task decomposition is too narrow, resulting in subagent assignments that don't cover all relevant domains.","correct":true,"explanation":"Correct. The decomposition itself excluded music, writing, and film. Subagents executed correctly within their assigned (but narrow) scope."},{"text":"The synthesis agent lacks instructions for identifying coverage gaps.","correct":false,"explanation":"Synthesis can only synthesise what's delivered; the missing material was never researched."},{"text":"The web search agent's queries weren't comprehensive enough.","correct":false,"explanation":"Web search executed its assignments correctly; the assignments themselves were too narrow."},{"text":"The document analysis agent filtered out non-visual creative industries.","correct":false,"explanation":"Those sources never reached document analysis because they weren't searched for."}]},{"id":"s3-q02","scenario":"Multi-Agent Research System","domain":5,"domainName":"Context Management & Reliability","question":"Your web search subagent times out on a complex topic. Which error propagation pattern best enables intelligent recovery by the coordinator?","choices":[{"text":"Return structured error context including failure type, attempted query, any partial results, and potential alternative approaches.","correct":true,"explanation":"Correct. Structured errors give the coordinator the information needed to retry with modifications, try alternatives, or proceed with partial results."},{"text":"Retry exponentially within the subagent and return generic \"search unavailable\" after all retries fail.","correct":false,"explanation":"Generic statuses strip context the coordinator needs to make recovery decisions."},{"text":"Catch the timeout and return an empty result set marked as successful.","correct":false,"explanation":"Silently suppressing errors hides failures and risks incomplete final reports."},{"text":"Propagate the timeout exception to a top-level handler that terminates the workflow.","correct":false,"explanation":"Killing the whole workflow on one failure prevents recovery strategies from succeeding."}]},{"id":"s3-q03","scenario":"Multi-Agent Research System","domain":2,"domainName":"Tool Design & MCP Integration","question":"The synthesis agent frequently needs to verify small facts (dates, names, statistics). Currently it round-trips through the coordinator to the web search agent for every verification, adding 40% latency. 85% of verifications are simple fact-checks. Best approach?","choices":[{"text":"Give the synthesis agent a scoped verify_fact tool for simple lookups; route complex verifications through the coordinator.","correct":true,"explanation":"Correct. Least-privilege scoped cross-role tools handle the 85% common case while preserving the coordination pattern for complex cases."},{"text":"Batch all verifications and send them to the web search agent at the end of synthesis.","correct":false,"explanation":"Creates blocking dependencies because later synthesis steps may need earlier facts confirmed."},{"text":"Give the synthesis agent full access to all web search tools.","correct":false,"explanation":"Over-provisions the synthesis agent, breaking separation of concerns and degrading tool selection reliability."},{"text":"Pre-cache extra context around every source during initial research.","correct":false,"explanation":"Speculative caching can't reliably predict what synthesis will need to verify."}]},{"id":"s3-q04","scenario":"Multi-Agent Research System","domain":1,"domainName":"Agentic Architecture & Orchestration","question":"Your coordinator currently invokes subagents sequentially: search, then analysis, then synthesis. Latency is high. The first two phases are independent and could run in parallel. How should you implement parallelism in the SDK?","choices":[{"text":"Have the coordinator emit multiple Task tool calls in a single response.","correct":true,"explanation":"Correct. Parallel subagents are spawned by emitting multiple Task tool calls in one coordinator response, rather than across separate turns."},{"text":"Have each subagent call the next one directly to skip the coordinator.","correct":false,"explanation":"Breaks the hub-and-spoke pattern, removes observability, and creates inconsistent error handling."},{"text":"Reduce the coordinator's max_tokens so it finishes faster between turns.","correct":false,"explanation":"Doesn't introduce parallelism; risks truncating its responses."},{"text":"Spawn the same subagent twice with different prompts and merge results manually.","correct":false,"explanation":"Doesn't address concurrent execution of distinct subagents."}]},{"id":"s3-q05","scenario":"Multi-Agent Research System","domain":1,"domainName":"Agentic Architecture & Orchestration","question":"A new synthesis subagent appears to have no idea what the search agent found. What is the most likely cause?","choices":[{"text":"Subagents have isolated context and do not automatically inherit the coordinator's conversation history; the search findings must be passed explicitly in the synthesis subagent's prompt.","correct":true,"explanation":"Correct. Subagent context must be explicitly provided; they do not share memory with the coordinator or with each other."},{"text":"The synthesis subagent's max_tokens is too low to hold the prior findings.","correct":false,"explanation":"Token budget is not the issue; the data was never passed in."},{"text":"Search results need to be saved to a shared global variable.","correct":false,"explanation":"There is no automatic shared-memory mechanism; explicit passing in the prompt is required."},{"text":"The coordinator must call /memory load before invoking synthesis.","correct":false,"explanation":"/memory is a Claude Code concept, not the SDK subagent context mechanism."}]},{"id":"s3-q06","scenario":"Multi-Agent Research System","domain":5,"domainName":"Context Management & Reliability","question":"Your synthesis output frequently merges findings from multiple sources without source attribution. What is the best fix?","choices":[{"text":"Require subagents to output structured claim-source mappings (URL, document name, excerpt) that downstream agents preserve through synthesis.","correct":true,"explanation":"Correct. Provenance must be preserved as structured metadata so it survives summarisation and synthesis."},{"text":"Tell the synthesis agent in its system prompt to \"keep sources where possible.\"","correct":false,"explanation":"Vague prompt-level instructions get dropped during summarisation; structured mappings are needed."},{"text":"Render the entire raw research bundle in the final report.","correct":false,"explanation":"Defeats the purpose of synthesis and overwhelms readers."},{"text":"Use a higher-temperature setting so the agent is more creative with attribution.","correct":false,"explanation":"Higher temperature actively works against precise attribution."}]},{"id":"s3-q07","scenario":"Multi-Agent Research System","domain":5,"domainName":"Context Management & Reliability","question":"Two credible sources disagree on the size of the market for AI music tools. What should the synthesis agent do?","choices":[{"text":"Annotate the conflict with source attribution and present both values, distinguishing well-established findings from contested ones.","correct":true,"explanation":"Correct. Conflicts should be surfaced with provenance rather than silently resolved; readers can judge for themselves."},{"text":"Pick the more recent value and discard the other.","correct":false,"explanation":"Arbitrary resolution; the older value may use a more defensible methodology."},{"text":"Average the two values.","correct":false,"explanation":"Fabricates a statistic that no source supports."},{"text":"Drop the contested statistic from the report entirely.","correct":false,"explanation":"Omits useful information; better to annotate than suppress."}]},{"id":"s3-q08","scenario":"Multi-Agent Research System","domain":1,"domainName":"Agentic Architecture & Orchestration","question":"Your coordinator's allowedTools currently lists Read, Write, and a few MCP tools, but not Task. It cannot spawn subagents. What's the fix?","choices":[{"text":"Add \"Task\" to allowedTools so the coordinator can spawn subagents.","correct":true,"explanation":"Correct. The Task tool is the mechanism for spawning subagents; without it in allowedTools, the coordinator can't delegate."},{"text":"Call subagents directly via the Bash tool.","correct":false,"explanation":"Bash isn't a subagent spawn mechanism; Task is."},{"text":"Configure subagents as MCP servers and call them like tools.","correct":false,"explanation":"Misrepresents how subagent invocation works in the Agent SDK."},{"text":"Set tool_choice: \"any\" to force the coordinator to delegate.","correct":false,"explanation":"tool_choice doesn't grant access to tools that aren't in allowedTools."}]},{"id":"s3-q09","scenario":"Multi-Agent Research System","domain":5,"domainName":"Context Management & Reliability","question":"Your final report sometimes treats a 2020 statistic and a 2024 statistic as a contradiction. What's the best fix?","choices":[{"text":"Require subagents to include publication or data-collection dates in structured outputs.","correct":true,"explanation":"Correct. Temporal metadata lets the synthesis agent reason about changes over time instead of misreading them as contradictions."},{"text":"Instruct the synthesis agent to assume newer is always more accurate.","correct":false,"explanation":"Newer isn't always better; methodology and scope still matter."},{"text":"Drop all statistics older than two years.","correct":false,"explanation":"Discards potentially relevant historical context and is brittle."},{"text":"Tell the synthesis agent in its system prompt to be careful with dates.","correct":false,"explanation":"Vague guidance that's likely to be lost through summarisation; structured dates are more robust."}]},{"id":"s3-q10","scenario":"Multi-Agent Research System","domain":1,"domainName":"Agentic Architecture & Orchestration","question":"You see two subagents researching almost identical sub-topics, duplicating effort. What's the most appropriate fix?","choices":[{"text":"Partition the research scope across subagents (distinct subtopics or source types) so they don't overlap.","correct":true,"explanation":"Correct. The coordinator's job is to decompose and partition scope so each subagent covers a distinct slice."},{"text":"Have subagents share a mutex on each query to avoid double-fetching.","correct":false,"explanation":"Patches the symptom without fixing the underlying decomposition problem."},{"text":"Reduce the number of subagents to one.","correct":false,"explanation":"Loses parallelism and the value of specialised subagents."},{"text":"Cache search results globally between subagents.","correct":false,"explanation":"Doesn't address why the coordinator assigned overlapping work in the first place."}]},{"id":"s3-q11","scenario":"Multi-Agent Research System","domain":5,"domainName":"Context Management & Reliability","question":"The web search subagent fails for one of six topics, but the other five succeed. Currently the workflow terminates entirely. What's the best behaviour?","choices":[{"text":"Proceed with partial results and annotate the synthesis output with a coverage gap for the failed topic.","correct":true,"explanation":"Correct. Partial-result tolerance plus explicit coverage annotations gives the user useful output while being honest about gaps."},{"text":"Re-run the entire workflow from scratch.","correct":false,"explanation":"Wasteful; the five successful topics shouldn't be redone."},{"text":"Silently drop the failed topic and present the rest as complete.","correct":false,"explanation":"Hides a gap from the reader, which can mislead."},{"text":"Fail the whole workflow until every topic succeeds.","correct":false,"explanation":"Anti-pattern: terminating on a single failure when partial results are useful."}]},{"id":"s3-q12","scenario":"Multi-Agent Research System","domain":1,"domainName":"Agentic Architecture & Orchestration","question":"The synthesis agent produces a coherent narrative but misses obvious gaps that became visible only once findings were aggregated. What pattern best addresses this?","choices":[{"text":"Implement an iterative refinement loop where the coordinator evaluates synthesis output for gaps, re-delegates targeted queries, and re-invokes synthesis.","correct":true,"explanation":"Correct. Iterative refinement closes the loop: synthesis surfaces gaps, the coordinator fills them, then synthesis runs again."},{"text":"Have the synthesis agent score its own confidence and stop when it crosses a threshold.","correct":false,"explanation":"Self-reported confidence is poorly calibrated and won't reliably catch gaps."},{"text":"Run synthesis once at higher temperature to surface creative gaps.","correct":false,"explanation":"Higher temperature doesn't reliably identify factual coverage gaps."},{"text":"Skip synthesis and let the user spot the gaps.","correct":false,"explanation":"Pushes the work onto the user and defeats the system's purpose."}]},{"id":"s4-q01","scenario":"Developer Productivity with Claude","domain":2,"domainName":"Tool Design & MCP Integration","question":"You want to find all callers of a function named processOrder in a large codebase. Which built-in tool is most appropriate?","choices":[{"text":"Grep — it searches file contents for patterns and is the right fit for finding callers of a function across many files.","correct":true,"explanation":"Correct. Grep searches file contents (function names, error messages, imports) which is what's needed to locate callers."},{"text":"Glob — to find files whose names match a pattern.","correct":false,"explanation":"Glob matches file paths, not contents; it won't tell you who calls a function."},{"text":"Read — open every file and scan visually.","correct":false,"explanation":"Reading the whole codebase is wasteful when content search would zero in on callers."},{"text":"Bash with `find` and `cat` piped together.","correct":false,"explanation":"Reinvents Grep; less reliable and a worse fit for the built-in tool set."}]},{"id":"s4-q02","scenario":"Developer Productivity with Claude","domain":2,"domainName":"Tool Design & MCP Integration","question":"You want to find every test file in the repo regardless of language. What's the right tool?","choices":[{"text":"Glob with a pattern like **/*.test.* or **/test_*.py.","correct":true,"explanation":"Correct. Glob is designed for filename and extension pattern matching across the tree."},{"text":"Grep for the literal text \"test\".","correct":false,"explanation":"Would also match non-test files that mention the word \"test\" and miss tests that don't."},{"text":"Bash `ls -R | grep test`.","correct":false,"explanation":"Brittle, slow, and reinvents Glob."},{"text":"Read every file looking for test imports.","correct":false,"explanation":"Hugely wasteful when a path-based match is sufficient."}]},{"id":"s4-q03","scenario":"Developer Productivity with Claude","domain":2,"domainName":"Tool Design & MCP Integration","question":"Edit fails because the snippet you want to change appears in three places in the file. What's the recommended fallback?","choices":[{"text":"Use Read to load the whole file, then Write to overwrite it with the targeted change applied.","correct":true,"explanation":"Correct. When Edit can't find a unique anchor, Read + Write is the recommended reliable fallback."},{"text":"Repeat Edit multiple times and hope it picks the right occurrence.","correct":false,"explanation":"Edit's behaviour with non-unique matches is the failure mode being asked about, not a workaround."},{"text":"Run Bash `sed` against the file.","correct":false,"explanation":"Bypasses the built-in tools' safety and consistency; not the recommended pattern."},{"text":"Ask the user to make the change manually.","correct":false,"explanation":"Defeats the purpose of agentic assistance when Read + Write resolves it cleanly."}]},{"id":"s4-q04","scenario":"Developer Productivity with Claude","domain":2,"domainName":"Tool Design & MCP Integration","question":"Your agent prefers the built-in Grep over a more capable MCP search tool that supports semantic search. What's the best fix?","choices":[{"text":"Enhance the MCP tool's description to clearly explain its semantic capabilities, expected inputs/outputs, and when to use it instead of Grep.","correct":true,"explanation":"Correct. Tool descriptions are how the model picks tools. A minimal MCP description can lose out to well-known built-ins."},{"text":"Remove Grep from allowedTools.","correct":false,"explanation":"Cripples cases where Grep is the right tool; the real fix is helping the model differentiate."},{"text":"Force the agent with tool_choice to always call the MCP tool.","correct":false,"explanation":"Loses the LLM's judgement and will misuse the tool when Grep would be better."},{"text":"Increase the MCP tool's max_tokens budget.","correct":false,"explanation":"Doesn't affect tool selection."}]},{"id":"s4-q05","scenario":"Developer Productivity with Claude","domain":2,"domainName":"Tool Design & MCP Integration","question":"You're exposing a list of open Jira issues to the agent so it doesn't have to perform exploratory tool calls. Which MCP primitive is most appropriate?","choices":[{"text":"MCP resources — they expose content catalogues like issue summaries, schemas, or doc hierarchies for the agent to consult.","correct":true,"explanation":"Correct. Resources are the right primitive for browsable content; they reduce the need for exploratory tool calls."},{"text":"An MCP tool that the agent invokes on every turn.","correct":false,"explanation":"Forces a tool call even when the content is browsable as a resource; less efficient."},{"text":"A SKILL.md in .claude/skills/.","correct":false,"explanation":"Skills are workflow descriptions, not data exposure mechanisms."},{"text":"A static block in CLAUDE.md.","correct":false,"explanation":"Static text in CLAUDE.md doesn't update with live Jira state."}]},{"id":"s4-q06","scenario":"Developer Productivity with Claude","domain":1,"domainName":"Agentic Architecture & Orchestration","question":"You're asked to \"add comprehensive tests to a legacy codebase.\" The task is open-ended and the structure is unfamiliar. What decomposition pattern fits best?","choices":[{"text":"Dynamic adaptive decomposition: first map structure, identify high-impact areas, then create a prioritised plan that adapts as dependencies are discovered.","correct":true,"explanation":"Correct. Open-ended exploratory tasks benefit from adaptive plans, where each step's findings inform the next."},{"text":"Fixed sequential prompt chaining: a pre-defined pipeline of analysis → planning → implementation.","correct":false,"explanation":"Prompt chaining suits predictable multi-aspect tasks; legacy exploration is too open-ended for a fixed pipeline."},{"text":"Spawn one subagent per file and merge results.","correct":false,"explanation":"Brute force without prioritisation; ignores the value of mapping structure first."},{"text":"Generate tests for every file in alphabetical order.","correct":false,"explanation":"Doesn't prioritise high-impact areas; likely to produce low-value tests."}]},{"id":"s4-q07","scenario":"Developer Productivity with Claude","domain":2,"domainName":"Tool Design & MCP Integration","question":"Your developer-productivity agent has 18 tools available and tool selection has become unreliable. What's the most likely fix?","choices":[{"text":"Restrict the tool set per task/agent role to the 4-5 tools actually relevant; route specialised needs through scoped tools.","correct":true,"explanation":"Correct. Too many tools degrade selection reliability. Scoped, role-appropriate tool sets are recommended."},{"text":"Increase the temperature so the model is more exploratory.","correct":false,"explanation":"More exploration in tool selection is the opposite of what's needed."},{"text":"Add longer descriptions to every tool.","correct":false,"explanation":"Helps marginally but won't fix the core problem of decision complexity from too many tools."},{"text":"Force a single tool via tool_choice for every turn.","correct":false,"explanation":"Removes flexibility entirely and breaks tasks that genuinely need different tools."}]},{"id":"s4-q08","scenario":"Developer Productivity with Claude","domain":3,"domainName":"Claude Code Configuration & Workflows","question":"You want a custom skill that always runs with file-write tools available but never with destructive shell commands. How should you configure it?","choices":[{"text":"Set allowed-tools in the skill's frontmatter to the specific write tools you want, excluding Bash.","correct":true,"explanation":"Correct. allowed-tools in skill frontmatter restricts the tool surface available during skill execution."},{"text":"Configure it globally via ~/.claude/CLAUDE.md.","correct":false,"explanation":"User-level memory doesn't gate tool availability for a specific skill."},{"text":"Use tool_choice: \"any\" so Claude must use something.","correct":false,"explanation":"tool_choice is an API knob unrelated to per-skill tool restrictions."},{"text":"Trust the agent to avoid Bash via prompt instructions.","correct":false,"explanation":"Probabilistic, not enforceable; allowed-tools is the deterministic mechanism."}]},{"id":"s4-q09","scenario":"Developer Productivity with Claude","domain":5,"domainName":"Context Management & Reliability","question":"After an hour of codebase exploration, your agent starts giving inconsistent answers and references \"typical patterns\" rather than specific classes you've discovered. What is happening and what helps?","choices":[{"text":"Context degradation in extended sessions. Use scratchpad files for key findings and delegate verbose discovery to subagents.","correct":true,"explanation":"Correct. Persisting findings in scratchpads and isolating verbose discovery in subagents counteracts long-session degradation."},{"text":"The model is hallucinating because of a high temperature; lower it.","correct":false,"explanation":"Temperature isn't the cause; long-session attention dilution is."},{"text":"Switch to a smaller model to keep things fast.","correct":false,"explanation":"Smaller models typically make this worse, not better."},{"text":"Disable summarisation entirely and resend the whole history.","correct":false,"explanation":"Worsens lost-in-the-middle effects and exhausts context faster."}]},{"id":"s4-q10","scenario":"Developer Productivity with Claude","domain":1,"domainName":"Agentic Architecture & Orchestration","question":"You want to investigate \"all test files\" in parallel with separate questions, while preserving high-level coordination in your main session. What's the best approach?","choices":[{"text":"Spawn subagents (via Task) to investigate specific questions, while the main agent preserves high-level coordination.","correct":true,"explanation":"Correct. Subagent delegation isolates verbose investigation output and keeps the main session focused on synthesis and decisions."},{"text":"Read every test file into the main session up front.","correct":false,"explanation":"Pollutes main session context with verbose discovery output."},{"text":"Use /compact aggressively to keep context small.","correct":false,"explanation":"/compact reduces context but doesn't enable parallel investigation."},{"text":"Run several Claude Code processes in parallel and stitch results manually.","correct":false,"explanation":"Reinvents subagent spawning with extra friction and no shared orchestration."}]},{"id":"s5-q01","scenario":"Claude Code for Continuous Integration","domain":3,"domainName":"Claude Code Configuration & Workflows","question":"Your pipeline runs `claude \"Analyse this pull request for security issues\"` but the job hangs indefinitely. Logs indicate Claude Code is waiting for interactive input. What's the correct approach?","choices":[{"text":"Add the -p flag: `claude -p \"Analyse this pull request for security issues\"`.","correct":true,"explanation":"Correct. -p (or --print) runs Claude Code non-interactively: it processes the prompt, prints the result, and exits — exactly what CI needs."},{"text":"Set environment variable CLAUDE_HEADLESS=true.","correct":false,"explanation":"No such environment variable; this is a fabricated option."},{"text":"Redirect stdin from /dev/null.","correct":false,"explanation":"A Unix workaround that doesn't address Claude Code's actual non-interactive flag."},{"text":"Add --batch.","correct":false,"explanation":"There's no --batch flag on Claude Code; batch processing is a separate API concept."}]},{"id":"s5-q02","scenario":"Claude Code for Continuous Integration","domain":4,"domainName":"Prompt Engineering & Structured Output","question":"Your CI reviewer's findings need to be posted as inline PR comments. What's the most reliable way to produce machine-parseable output?","choices":[{"text":"Use --output-format json with --json-schema to enforce a strict schema.","correct":true,"explanation":"Correct. JSON output enforced by a schema is reliably parseable downstream, eliminating string-scraping failures."},{"text":"Ask Claude Code to format its output as a Markdown table.","correct":false,"explanation":"Markdown is brittle to parse; whitespace and headers vary."},{"text":"Have a second Claude call summarise the first's free-text output into JSON.","correct":false,"explanation":"Adds cost, latency, and a new failure mode for no benefit over schema-enforced output."},{"text":"Pipe stdout through a regex.","correct":false,"explanation":"Fragile and unnecessary when first-class JSON output is supported."}]},{"id":"s5-q03","scenario":"Claude Code for Continuous Integration","domain":4,"domainName":"Prompt Engineering & Structured Output","question":"Your CI generates 80% false positives in the \"style\" review category, eroding developer trust. Other categories are accurate. What's the most effective immediate response?","choices":[{"text":"Temporarily disable the high false-positive style category while you improve its prompt and criteria.","correct":true,"explanation":"Correct. Disabling a noisy category protects trust in the categories that work, while you iterate on its criteria."},{"text":"Lower the model's temperature so it flags fewer issues overall.","correct":false,"explanation":"Suppresses real issues alongside false positives and doesn't address category-specific quality."},{"text":"Instruct the model to \"be conservative\" and \"only report high-confidence issues.\"","correct":false,"explanation":"Vague confidence-based instructions don't reliably improve precision."},{"text":"Switch to a smaller, less verbose model.","correct":false,"explanation":"Doesn't target the precision issue and may make things worse."}]},{"id":"s5-q04","scenario":"Claude Code for Continuous Integration","domain":4,"domainName":"Prompt Engineering & Structured Output","question":"Your real-time CI does (1) a blocking pre-merge check that must finish before merge and (2) an overnight technical debt report. Management wants 50% cost savings via the Message Batches API. What should you propose?","choices":[{"text":"Use the Batch API for the overnight technical debt report only; keep real-time calls for the blocking pre-merge check.","correct":true,"explanation":"Correct. Batch processing offers 50% savings but no guaranteed latency (up to 24 hours), making it unsuitable for blocking workflows but ideal for overnight jobs."},{"text":"Switch both to batch and poll for completion.","correct":false,"explanation":"Polling can't bound latency; blocking pre-merge can't tolerate 24-hour windows."},{"text":"Keep both on real-time to avoid result-ordering issues.","correct":false,"explanation":"Misconception — batch results are correlated by custom_id."},{"text":"Switch both to batch with a timeout fallback to real-time.","correct":false,"explanation":"Adds complexity for no gain over matching each workflow to its appropriate API."}]},{"id":"s5-q05","scenario":"Claude Code for Continuous Integration","domain":4,"domainName":"Prompt Engineering & Structured Output","question":"A PR modifies 14 files. Single-pass review across all 14 is inconsistent: detailed feedback for some, superficial for others, contradictions across files. Best restructuring?","choices":[{"text":"Split into focused passes: analyse each file individually for local issues, then run a separate cross-file integration pass.","correct":true,"explanation":"Correct. Per-file passes ensure consistent depth; a separate integration pass catches cross-file data-flow issues without attention dilution."},{"text":"Require developers to split large PRs into 3-4 file submissions.","correct":false,"explanation":"Shifts the burden to developers without improving the system."},{"text":"Switch to a larger-context model to fit everything in one pass.","correct":false,"explanation":"Larger context windows don't solve attention quality with many files."},{"text":"Run three reviews and only flag issues found in at least two.","correct":false,"explanation":"Suppresses real but intermittently detected issues; consensus voting hurts recall."}]},{"id":"s5-q06","scenario":"Claude Code for Continuous Integration","domain":3,"domainName":"Claude Code Configuration & Workflows","question":"Your CI-invoked Claude Code keeps suggesting tests that duplicate scenarios already covered by existing test files. What's the best fix?","choices":[{"text":"Provide the existing test files in the prompt context so test generation avoids duplicating covered scenarios.","correct":true,"explanation":"Correct. Including existing tests in context is how the agent learns what's already covered."},{"text":"Lower temperature so the agent doesn't \"create new\" tests.","correct":false,"explanation":"Temperature doesn't tell the model which tests already exist."},{"text":"Limit the model to generating only one test per file.","correct":false,"explanation":"Arbitrary cap that doesn't address coverage awareness."},{"text":"Hide the test directories so the agent can't see them.","correct":false,"explanation":"Backwards — the agent needs to see them to avoid duplication."}]},{"id":"s5-q07","scenario":"Claude Code for Continuous Integration","domain":4,"domainName":"Prompt Engineering & Structured Output","question":"When commits are pushed to an existing PR, your reviewer re-posts the same comments on unchanged lines, spamming developers. What's the right approach?","choices":[{"text":"Include prior review findings in context for re-runs and instruct Claude to report only new or still-unaddressed issues.","correct":true,"explanation":"Correct. Sharing previous findings lets the model deduplicate and focus on net-new feedback."},{"text":"Lower the model's temperature to be less repetitive.","correct":false,"explanation":"Temperature doesn't address knowledge of prior comments."},{"text":"Only review the diff and never look at the surrounding context.","correct":false,"explanation":"Diff-only review misses integration concerns and doesn't deduplicate by itself."},{"text":"Run review only on the very first push of each PR.","correct":false,"explanation":"Misses real new issues in later commits."}]},{"id":"s5-q08","scenario":"Claude Code for Continuous Integration","domain":3,"domainName":"Claude Code Configuration & Workflows","question":"Your team's testing standards, valued test criteria, and fixture conventions live nowhere the CI-invoked Claude can see. Test generation quality is poor. Best fix?","choices":[{"text":"Document testing standards, valuable test criteria, and available fixtures in CLAUDE.md so CI-invoked Claude Code picks them up.","correct":true,"explanation":"Correct. CLAUDE.md is the canonical mechanism for project context that always loads, including in CI runs."},{"text":"Pass standards as a long flag on every CLI invocation.","correct":false,"explanation":"Brittle and easy to drift from the documented standards."},{"text":"Embed standards as Bash comments in the pipeline YAML.","correct":false,"explanation":"Comments don't reach the model."},{"text":"Train a custom model on your standards.","correct":false,"explanation":"Heavy-handed and out of scope; the goal is configuration, not training."}]},{"id":"s5-q09","scenario":"Claude Code for Continuous Integration","domain":4,"domainName":"Prompt Engineering & Structured Output","question":"Your reviewer's severity classification is inconsistent: similar issues are sometimes \"critical,\" sometimes \"minor.\" What's the most effective fix?","choices":[{"text":"Define explicit severity criteria with concrete code examples for each severity level.","correct":true,"explanation":"Correct. Severity needs categorical, example-anchored definitions to be applied consistently."},{"text":"Tell the model to \"err on the side of critical\" to be safer.","correct":false,"explanation":"Inflates severity uniformly and erodes trust."},{"text":"Reduce severity levels to a single \"flagged\" label.","correct":false,"explanation":"Loses the prioritisation that helps developers triage."},{"text":"Sort findings by line number rather than severity.","correct":false,"explanation":"Cosmetic; doesn't fix the underlying classification inconsistency."}]},{"id":"s6-q01","scenario":"Structured Data Extraction","domain":4,"domainName":"Prompt Engineering & Structured Output","question":"You need guaranteed JSON-schema-compliant output from Claude for downstream systems. What's the most reliable approach?","choices":[{"text":"Use tool_use with a JSON schema as the tool's input parameters, and extract the structured data from the tool_use response.","correct":true,"explanation":"Correct. Tool use with a JSON schema eliminates JSON syntax errors and yields strict, schema-compliant structured output."},{"text":"Ask Claude to \"respond only in JSON\" in the system prompt.","correct":false,"explanation":"Prompt-only requests still produce occasional syntax errors; tool use enforces schema validity."},{"text":"Parse free-text output with a regex and fix it up.","correct":false,"explanation":"Brittle and reinvents what tool_use already guarantees."},{"text":"Use prompt caching to lock the format.","correct":false,"explanation":"Prompt caching is a cost optimisation, not a format enforcer."}]},{"id":"s6-q02","scenario":"Structured Data Extraction","domain":4,"domainName":"Prompt Engineering & Structured Output","question":"Some documents don't contain a particular field. You see Claude inventing values to fill required fields. What's the best fix?","choices":[{"text":"Mark those fields as optional/nullable in the schema so the model can return null rather than fabricate.","correct":true,"explanation":"Correct. Required fields pressure the model to invent values; nullable/optional fields give it a faithful way to say \"absent.\""},{"text":"Increase max_tokens so the model has more room to reason.","correct":false,"explanation":"Doesn't change the schema constraint that's pressuring the model to fabricate."},{"text":"Use tool_choice: \"any\" instead of forced selection.","correct":false,"explanation":"Doesn't affect whether individual fields are required."},{"text":"Lower temperature to 0.","correct":false,"explanation":"Lower temperature doesn't override schema requirements; the model will still produce a value."}]},{"id":"s6-q03","scenario":"Structured Data Extraction","domain":4,"domainName":"Prompt Engineering & Structured Output","question":"Your extraction pipeline supports three document types and three extraction tools. The agent sometimes returns conversational text instead of calling any tool. What setting fixes this?","choices":[{"text":"Set tool_choice: \"any\" so the model must call a tool (it can choose which).","correct":true,"explanation":"Correct. \"any\" forces a tool call when you need structured output but want to let the model choose among multiple schemas."},{"text":"Set tool_choice: \"auto\".","correct":false,"explanation":"\"auto\" allows the model to return text instead of calling a tool — exactly the failure mode here."},{"text":"Force one specific tool with {type: \"tool\", name: \"...\"} regardless of document type.","correct":false,"explanation":"Useful when one tool is always right; here the document type varies, so \"any\" is the better fit."},{"text":"Remove the conversational text fields from the schema.","correct":false,"explanation":"Doesn't prevent the model from skipping tool calls entirely."}]},{"id":"s6-q04","scenario":"Structured Data Extraction","domain":4,"domainName":"Prompt Engineering & Structured Output","question":"You want extract_metadata to run before any enrichment tools, every time. What's the right configuration?","choices":[{"text":"Use tool_choice: {\"type\": \"tool\", \"name\": \"extract_metadata\"} on the first turn, then run subsequent steps in follow-up turns.","correct":true,"explanation":"Correct. Forced tool selection guarantees a specific tool is invoked first; you then proceed with normal tool_choice for enrichment."},{"text":"Trust the system prompt to instruct \"always call extract_metadata first.\"","correct":false,"explanation":"Probabilistic; doesn't guarantee ordering for critical steps."},{"text":"Set tool_choice: \"any\" and hope the model picks extract_metadata first.","correct":false,"explanation":"\"any\" doesn't constrain which tool is chosen."},{"text":"Disable enrichment tools entirely.","correct":false,"explanation":"Defeats the rest of your pipeline."}]},{"id":"s6-q05","scenario":"Structured Data Extraction","domain":4,"domainName":"Prompt Engineering & Structured Output","question":"Your extracted invoices sometimes have line_items that don't sum to the stated total. The JSON schema validates fine. What's the most useful change?","choices":[{"text":"Add a calculated_total field alongside stated_total so discrepancies are explicit and downstream systems can flag them.","correct":true,"explanation":"Correct. Strict schemas eliminate syntax errors but not semantic errors; surfacing both values lets you detect and act on inconsistencies."},{"text":"Make line_items required.","correct":false,"explanation":"Doesn't address whether the items sum to the total."},{"text":"Drop the total field entirely.","correct":false,"explanation":"Loses useful data; doesn't expose semantic inconsistencies."},{"text":"Use tool_choice: \"any\".","correct":false,"explanation":"Tool choice is about which tool runs, not about validating arithmetic in the result."}]},{"id":"s6-q06","scenario":"Structured Data Extraction","domain":5,"domainName":"Context Management & Reliability","question":"Some required fields are simply absent from many source documents. Your retry loop keeps failing on the same documents. What's the most accurate assessment?","choices":[{"text":"Retries are ineffective when the required information is genuinely absent; only format and structural errors are reliably fixable by retry.","correct":true,"explanation":"Correct. The retry-with-feedback pattern works for format/structural mismatches, not for missing source information."},{"text":"Increase retry count to 10 and the model will eventually find the data.","correct":false,"explanation":"Won't conjure information that isn't in the source."},{"text":"Add few-shot examples for those fields and try again.","correct":false,"explanation":"Examples help the model generalise structure; they can't supply absent facts."},{"text":"Switch to a larger model.","correct":false,"explanation":"Won't extract information that isn't there."}]},{"id":"s6-q07","scenario":"Structured Data Extraction","domain":4,"domainName":"Prompt Engineering & Structured Output","question":"You're submitting 100,000 documents for overnight extraction. Cost matters; latency doesn't. Best API choice?","choices":[{"text":"Message Batches API — 50% cost savings, up to 24-hour processing window, with custom_id to correlate failures.","correct":true,"explanation":"Correct. Non-blocking, latency-tolerant workloads are the exact fit for the Batches API."},{"text":"Synchronous API with maximum concurrency.","correct":false,"explanation":"Pays full price for no latency benefit you actually need."},{"text":"Streaming API to start showing results sooner.","correct":false,"explanation":"Streaming doesn't reduce cost and overnight jobs don't need progressive UI updates."},{"text":"A single long request with all 100k documents.","correct":false,"explanation":"Will exceed context limits and is not how the API is designed to be used."}]},{"id":"s6-q08","scenario":"Structured Data Extraction","domain":4,"domainName":"Prompt Engineering & Structured Output","question":"Out of a batch of 5,000 documents, 137 failed. How should you handle them?","choices":[{"text":"Identify failures by custom_id and resubmit only those, with appropriate modifications (e.g., chunking documents that exceeded context limits).","correct":true,"explanation":"Correct. custom_id-based correlation is the canonical pattern; only failed items get rework, with targeted fixes per failure cause."},{"text":"Resubmit the entire batch of 5,000 documents.","correct":false,"explanation":"Wasteful: 4,863 documents already succeeded."},{"text":"Drop failed documents and report 97% success.","correct":false,"explanation":"Hides extraction problems and loses useful data."},{"text":"Switch the 137 failures to the synchronous API regardless of cause.","correct":false,"explanation":"Doesn't address the root cause of each failure (e.g., oversized documents); chunking + resubmit is more appropriate."}]},{"id":"s6-q09","scenario":"Structured Data Extraction","domain":5,"domainName":"Context Management & Reliability","question":"Your team reports 97% aggregate extraction accuracy but downstream consumers complain about errors. Best next investigation?","choices":[{"text":"Analyse accuracy by document type and field; aggregate metrics can mask poor performance on specific segments.","correct":true,"explanation":"Correct. Segment-level accuracy is essential before reducing human review; the headline number can hide concentrated failures."},{"text":"Increase overall sample size until aggregate accuracy stabilises.","correct":false,"explanation":"Larger samples don't reveal segment-specific weaknesses."},{"text":"Trust the 97% figure and tell consumers to handle their own validation.","correct":false,"explanation":"Ignores feedback that there's a real quality problem."},{"text":"Lower the confidence threshold for human review.","correct":false,"explanation":"Premature change without diagnosing which segments are actually failing."}]},{"id":"s6-q10","scenario":"Structured Data Extraction","domain":5,"domainName":"Context Management & Reliability","question":"You want to route only uncertain extractions to scarce human reviewers. What's the right design?","choices":[{"text":"Have the model output field-level confidence scores, calibrate thresholds with a labelled validation set, and route low-confidence or contradictory items to human review.","correct":true,"explanation":"Correct. Calibrated, field-level confidence routing focuses scarce review capacity where it matters most."},{"text":"Route a fixed 10% of all extractions to human review at random.","correct":false,"explanation":"Random sampling is useful for measurement but doesn't focus reviewers on uncertain cases."},{"text":"Route only documents the model flags as \"unclear.\"","correct":false,"explanation":"Single self-reported flag is uncalibrated and likely to miss real edge cases."},{"text":"Route only documents with multiple validation failures.","correct":false,"explanation":"Validation failures and semantic uncertainty aren't the same; calibration on labelled data is needed."}]},{"id":"s6-q11","scenario":"Structured Data Extraction","domain":4,"domainName":"Prompt Engineering & Structured Output","question":"Your invoices come in many shapes: some have line items as tables, some as inline lists, some as narrative descriptions. Quality across formats is uneven. Best fix?","choices":[{"text":"Add 2-4 few-shot examples demonstrating correct extraction from each format variant.","correct":true,"explanation":"Correct. Few-shot examples are the most effective way to teach the model to generalise across structural variety."},{"text":"Write longer, more detailed prose descriptions of every format.","correct":false,"explanation":"Prose-only descriptions are interpreted inconsistently; concrete examples beat abstract description."},{"text":"Switch to a model with a larger context window.","correct":false,"explanation":"Doesn't address the format-variation problem."},{"text":"Force tool_choice to a single extraction schema for all formats.","correct":false,"explanation":"One schema may be right but variety in inputs needs example-anchored guidance."}]},{"id":"s6-q12","scenario":"Structured Data Extraction","domain":4,"domainName":"Prompt Engineering & Structured Output","question":"You want an extensible categorisation field that handles a known set of categories plus rare \"other\" cases without breaking schema validation. What's the right pattern?","choices":[{"text":"Use an enum with an \"other\" value plus a free-text detail string for the rare cases.","correct":true,"explanation":"Correct. The enum-plus-\"other\"-plus-detail pattern keeps the common path strictly typed while gracefully handling the long tail."},{"text":"Make the field a free-text string with no enum.","correct":false,"explanation":"Loses the consistency benefit of an enum for the common categories."},{"text":"Define every conceivable category up front in the enum.","correct":false,"explanation":"Impossible to enumerate and brittle as the world changes."},{"text":"Use a nullable enum and rely on null for unknowns.","correct":false,"explanation":"Loses information about what the unknown actually is; \"other\" + detail captures both."}]},{"id":"s6-q13","scenario":"Structured Data Extraction","domain":4,"domainName":"Prompt Engineering & Structured Output","question":"Your extraction frequently fails JSON schema validation due to inconsistent formatting (e.g., dates as \"3/4/24\" vs \"2024-03-04\"). What helps most?","choices":[{"text":"Include explicit format normalisation rules in the prompt alongside the strict output schema.","correct":true,"explanation":"Correct. Strict schemas alone don't normalise input variation; explicit normalisation rules in the prompt teach the model to convert before emitting."},{"text":"Loosen the schema to accept any date string.","correct":false,"explanation":"Pushes the inconsistency problem downstream."},{"text":"Switch to free-text output and post-process in Python.","correct":false,"explanation":"Loses the reliability of schema-enforced output."},{"text":"Run the extraction twice and compare results.","correct":false,"explanation":"Doubles cost without addressing format variation."}]}];
+
+/* ============================================================
+   CONSTANTS
+   ============================================================ */
+const STORAGE_KEY = 'ccaf-mock-exam-v1';
+const HISTORY_KEY = 'ccaf-mock-exam-history-v1';
+const PASS_SCORE = 720;
+const MIN_SCALED = 100;
+const MAX_SCALED = 1000;
+
+// Domain weights from the official exam guide
+const DOMAIN_INFO = {
+  1: { name: 'Agentic Architecture & Orchestration', weight: 27 },
+  2: { name: 'Tool Design & MCP Integration',         weight: 18 },
+  3: { name: 'Claude Code Configuration & Workflows', weight: 20 },
+  4: { name: 'Prompt Engineering & Structured Output', weight: 20 },
+  5: { name: 'Context Management & Reliability',      weight: 15 }
+};
+
+/* ============================================================
+   STORAGE
+   ============================================================ */
+function loadActive()  { try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || null; } catch { return null; } }
+function saveActive(s) { localStorage.setItem(STORAGE_KEY, JSON.stringify(s)); }
+function clearActive() { localStorage.removeItem(STORAGE_KEY); }
+function loadHistory() { try { return JSON.parse(localStorage.getItem(HISTORY_KEY)) || []; } catch { return []; } }
+function saveHistory(h){ localStorage.setItem(HISTORY_KEY, JSON.stringify(h)); }
+
+/* ============================================================
+   UTILITIES
+   ============================================================ */
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function escapeHtml(s) {
+  return String(s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+// Render text with backticks as <code>
+function fmt(s) {
+  return escapeHtml(s).replace(/`([^`]+)`/g, '<code>$1</code>');
+}
+
+function letter(i) { return ['A','B','C','D','E','F'][i] || '?'; }
+
+function formatTime(seconds) {
+  if (seconds < 0) seconds = 0;
+  const m = Math.floor(seconds / 60);
+  const s = seconds % 60;
+  return `${m}:${s.toString().padStart(2, '0')}`;
+}
+
+function formatDateTime(ts) {
+  const d = new Date(ts);
+  return d.toLocaleString('en-GB', { dateStyle: 'medium', timeStyle: 'short' });
+}
+
+/* ============================================================
+   SCORING
+   Convert raw % to a scaled 100–1000 score.
+   Mapped so that 70% raw = 720 scaled (the passing threshold).
+   ============================================================ */
+function computeScaledScore(correctCount, total) {
+  if (total === 0) return MIN_SCALED;
+  const pct = correctCount / total;          // 0..1
+  // Piecewise linear: 0% -> 100; 70% -> 720; 100% -> 1000
+  let scaled;
+  if (pct <= 0.70) {
+    scaled = MIN_SCALED + (720 - MIN_SCALED) * (pct / 0.70);
+  } else {
+    scaled = 720 + (MAX_SCALED - 720) * ((pct - 0.70) / 0.30);
+  }
+  return Math.round(scaled);
+}
+
+/* ============================================================
+   EXAM BUILDER
+   Selects N questions, attempting to mirror official weighting,
+   then randomises answer order per question.
+   ============================================================ */
+function buildExam(opts) {
+  const { numQuestions, mode, timeLimitMinutes } = opts;
+
+  // The real exam presents 4 of 6 scenarios. Pick a scenario count that scales
+  // sensibly with the requested question count, capped at the number of
+  // available scenarios.
+  const allScenarios = Array.from(new Set(QUESTION_POOL.map(q => q.scenario)));
+  const desiredScenarios = numQuestions >= 40 ? 4
+                          : numQuestions >= 24 ? 3
+                          : numQuestions >= 12 ? 2
+                          : 1;
+  const scenarioCount = Math.min(desiredScenarios, allScenarios.length);
+  const chosenScenarios = shuffle(allScenarios).slice(0, scenarioCount);
+
+  // Group pool by scenario for sampling
+  const byScenario = {};
+  QUESTION_POOL.forEach(q => {
+    if (!byScenario[q.scenario]) byScenario[q.scenario] = [];
+    byScenario[q.scenario].push(q);
+  });
+
+  // Distribute numQuestions across chosen scenarios as evenly as possible,
+  // bounded by how many questions each scenario actually has in the pool.
+  const allocations = {};
+  chosenScenarios.forEach(s => allocations[s] = 0);
+  let remaining = numQuestions;
+
+  // First pass: even base allocation
+  const base = Math.floor(numQuestions / scenarioCount);
+  chosenScenarios.forEach(s => {
+    const take = Math.min(base, byScenario[s].length);
+    allocations[s] = take;
+    remaining -= take;
+  });
+  // Second pass: distribute leftovers one at a time, round-robin over scenarios
+  // that still have capacity
+  let guard = 0;
+  while (remaining > 0 && guard++ < 1000) {
+    let placed = false;
+    for (const s of shuffle(chosenScenarios)) {
+      if (allocations[s] < byScenario[s].length) {
+        allocations[s]++;
+        remaining--;
+        placed = true;
+        if (remaining === 0) break;
+      }
+    }
+    if (!placed) break; // every chosen scenario is exhausted
+  }
+
+  // If chosen scenarios collectively can't supply enough questions, top up by
+  // adding another scenario from the unused set.
+  if (remaining > 0) {
+    const unused = allScenarios.filter(s => !chosenScenarios.includes(s));
+    for (const s of shuffle(unused)) {
+      if (remaining === 0) break;
+      chosenScenarios.push(s);
+      const take = Math.min(remaining, byScenario[s].length);
+      allocations[s] = take;
+      remaining -= take;
+    }
+  }
+
+  // Sample questions per chosen scenario and randomise their order WITHIN
+  // the scenario block.
+  const scenarioBlocks = chosenScenarios
+    .filter(s => (allocations[s] || 0) > 0)
+    .map(s => {
+      const sample = shuffle(byScenario[s]).slice(0, allocations[s]);
+      return { scenario: s, questions: sample };
+    });
+
+  // Randomise the ORDER of scenario blocks so it isn't always the same lineup.
+  const orderedBlocks = shuffle(scenarioBlocks);
+
+  // Flatten while preserving grouping. For each question, also randomise its
+  // answer order.
+  const examQuestions = [];
+  orderedBlocks.forEach(block => {
+    block.questions.forEach(q => {
+      examQuestions.push({
+        id: q.id,
+        scenario: q.scenario,
+        domain: q.domain,
+        domainName: q.domainName,
+        question: q.question,
+        choiceOrder: shuffle(q.choices.map((_, i) => i))
+      });
+    });
+  });
+
+  return {
+    version: 1,
+    startedAt: Date.now(),
+    finishedAt: null,
+    mode,                                // 'timed' or 'untimed'
+    timeLimitSeconds: mode === 'timed' ? timeLimitMinutes * 60 : null,
+    elapsedSeconds: 0,
+    currentIndex: 0,
+    questions: examQuestions,
+    answers: {},                         // { qid: selectedDisplayIndex }
+    flagged: {},                         // { qid: true }
+  };
+}
+
+function getQuestionData(qid) {
+  return QUESTION_POOL.find(q => q.id === qid);
+}
+
+/* ============================================================
+   STATE & ROUTING
+   ============================================================ */
+let state = {
+  view: 'home',         // home | exam | results
+  exam: null,           // active exam state
+  timerInterval: null,
+  results: null         // computed results object
+};
+
+function go(view) {
+  state.view = view;
+  render();
+}
+
+/* ============================================================
+   RENDERING — HOME
+   ============================================================ */
+function renderHome() {
+  const active = loadActive();
+  const history = loadHistory();
+
+  let resumeHtml = '';
+  if (active) {
+    const answered = Object.keys(active.answers || {}).length;
+    const total = active.questions.length;
+    resumeHtml = `
+      <div class="resume">
+        <div>
+          <div class="lbl">Exam in progress</div>
+          <strong>${escapeHtml(active.mode === 'timed' ? 'Timed' : 'Untimed')} exam · ${answered} of ${total} answered</strong>
+        </div>
+        <div class="actions-row">
+          <button class="btn" onclick="resumeExam()">Resume</button>
+          <button class="btn danger" onclick="discardExam()">Discard</button>
+        </div>
+      </div>
+    `;
+  }
+
+  let historyHtml = '';
+  if (history.length) {
+    historyHtml = `
+      <div class="card">
+        <div class="card-title">
+          <span class="num">03</span>
+          <h2>Recent attempts</h2>
+        </div>
+        <div class="history-list">
+          ${history.slice(0, 8).map(h => `
+            <div class="history-row">
+              <span class="date">${escapeHtml(formatDateTime(h.finishedAt))}</span>
+              <span class="mode-lbl">${escapeHtml(h.mode)} · ${h.total}q</span>
+              <span class="score ${h.passed ? 'pass' : 'fail'}">${h.scaledScore}</span>
+              <span class="${h.passed ? 'pass' : 'fail'}">${h.passed ? 'PASS' : 'FAIL'}</span>
+            </div>
+          `).join('')}
+        </div>
+        ${history.length > 8 ? `<p class="small muted" style="margin-top:14px">Showing 8 most recent of ${history.length}.</p>` : ''}
+        <div class="actions-row" style="margin-top:18px">
+          <button class="btn ghost" onclick="clearHistory()">Clear history</button>
+        </div>
+      </div>
+    `;
+  }
+
+  const totalInPool = QUESTION_POOL.length;
+
+  return `
+    <div class="wrap">
+      <div class="topbar">
+        <span class="stamp">● CCA-F</span>
+        <div class="right">
+          <span>Mock Exam</span>
+          <span>·</span>
+          <span>${totalInPool} Q pool</span>
+        </div>
+      </div>
+
+      <div class="hero">
+        <div class="quill">Q</div>
+        <div class="kicker">Claude Certified Architect · Foundations</div>
+        <h1>The Mock Exam.</h1>
+        <p class="sub">Scenario-grounded practice for the CCA-F certification. ${totalInPool} questions in the pool, sampled and shuffled fresh on every attempt — answer order included.</p>
+      </div>
+
+      ${resumeHtml}
+
+      <div class="card">
+        <div class="card-title">
+          <span class="num">01</span>
+          <h2>Choose your mode</h2>
+        </div>
+        <div class="mode-grid">
+          <div class="mode selected" id="mode-timed" onclick="selectMode('timed')">
+            <span class="badge">Realistic</span>
+            <h3>Timed</h3>
+            <p>Mirrors the real exam: 60 questions in 120 minutes by default. Cannot review explanations until the timer ends or you submit.</p>
+          </div>
+          <div class="mode" id="mode-untimed" onclick="selectMode('untimed')">
+            <span class="badge">Study</span>
+            <h3>Untimed</h3>
+            <p>Take your time. See the correct answer and the explanations for every option as soon as you answer each question.</p>
+          </div>
+        </div>
+
+        <div class="settings-row">
+          <div class="field">
+            <label>Questions</label>
+            <input type="number" id="num-questions" min="5" max="${totalInPool}" value="${Math.min(60, totalInPool)}">
+          </div>
+          <div class="field" id="time-field">
+            <label>Time limit (minutes)</label>
+            <input type="number" id="time-limit" min="5" max="240" value="120">
+          </div>
+          <div style="flex:1"></div>
+          <div class="actions-row">
+            <button class="btn lg" onclick="startExam()">Begin exam →</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">
+          <span class="num">02</span>
+          <h2>How it works</h2>
+        </div>
+        <p style="margin:0; color: var(--ink-soft);">
+          Each attempt samples a subset of the six production scenarios (4 by default, as the real exam does)
+          and presents <strong>all questions for one scenario together before moving to the next</strong>.
+          Within each scenario, question order and answer order are randomised every time.
+          Your score is reported on the official 100–1,000 scale &mdash; <strong>720 is the pass mark</strong>.
+        </p>
+      </div>
+
+      ${historyHtml}
+
+      <p class="small muted center" style="margin-top: 40px;">
+        Progress is saved automatically to your browser. Close the tab and come back — your in-progress exam will be waiting.
+      </p>
+    </div>
+  `;
+}
+
+let _selectedMode = 'timed';
+function selectMode(mode) {
+  _selectedMode = mode;
+  document.getElementById('mode-timed').classList.toggle('selected', mode === 'timed');
+  document.getElementById('mode-untimed').classList.toggle('selected', mode === 'untimed');
+  const tf = document.getElementById('time-field');
+  if (tf) tf.style.display = mode === 'timed' ? '' : 'none';
+}
+
+function startExam() {
+  const numEl = document.getElementById('num-questions');
+  const timeEl = document.getElementById('time-limit');
+  let numQuestions = parseInt(numEl.value, 10);
+  let timeLimitMinutes = parseInt(timeEl.value, 10);
+  if (isNaN(numQuestions) || numQuestions < 1) numQuestions = 60;
+  numQuestions = Math.min(numQuestions, QUESTION_POOL.length);
+  if (isNaN(timeLimitMinutes) || timeLimitMinutes < 1) timeLimitMinutes = 120;
+
+  state.exam = buildExam({
+    numQuestions,
+    mode: _selectedMode,
+    timeLimitMinutes
+  });
+  saveActive(state.exam);
+  startTimer();
+  go('exam');
+}
+
+function resumeExam() {
+  state.exam = loadActive();
+  if (!state.exam) { go('home'); return; }
+  startTimer();
+  go('exam');
+}
+
+function discardExam() {
+  if (!confirm('Discard the exam in progress? This cannot be undone.')) return;
+  clearActive();
+  render();
+}
+
+function clearHistory() {
+  if (!confirm('Clear all past attempt history?')) return;
+  localStorage.removeItem(HISTORY_KEY);
+  render();
+}
+
+/* ============================================================
+   TIMER
+   ============================================================ */
+function startTimer() {
+  stopTimer();
+  state.exam._tickStart = Date.now();
+  state.timerInterval = setInterval(() => {
+    const now = Date.now();
+    const delta = Math.floor((now - state.exam._tickStart) / 1000);
+    state.exam._tickStart = now;
+    state.exam.elapsedSeconds = (state.exam.elapsedSeconds || 0) + delta;
+    saveActive(state.exam);
+    // Only re-render timer text (not full re-render)
+    updateTimerDisplay();
+    // Check timeout for timed mode
+    if (state.exam.mode === 'timed' && state.exam.timeLimitSeconds &&
+        state.exam.elapsedSeconds >= state.exam.timeLimitSeconds) {
+      finishExam(/*timedOut=*/true);
+    }
+  }, 1000);
+}
+
+function stopTimer() {
+  if (state.timerInterval) {
+    clearInterval(state.timerInterval);
+    state.timerInterval = null;
+  }
+}
+
+function updateTimerDisplay() {
+  const el = document.getElementById('timer-display');
+  if (!el || !state.exam) return;
+  if (state.exam.mode === 'timed') {
+    const remaining = state.exam.timeLimitSeconds - state.exam.elapsedSeconds;
+    el.textContent = formatTime(remaining);
+    el.classList.remove('warn', 'danger');
+    if (remaining <= 60) el.classList.add('danger');
+    else if (remaining <= 300) el.classList.add('warn');
+  } else {
+    el.textContent = formatTime(state.exam.elapsedSeconds);
+  }
+}
+
+/* ============================================================
+   RENDERING — EXAM
+   ============================================================ */
+function renderExam() {
+  const ex = state.exam;
+  if (!ex) return renderHome();
+  const idx = ex.currentIndex;
+  const q = ex.questions[idx];
+  const qData = getQuestionData(q.id);
+  const total = ex.questions.length;
+  const answered = Object.keys(ex.answers).length;
+  const progressPct = (answered / total) * 100;
+  const userAnswerIdx = ex.answers[q.id];      // selected DISPLAY index
+  const isAnswered = userAnswerIdx !== undefined;
+  const showExplanations = ex.mode === 'untimed' && isAnswered;
+  const flagged = !!ex.flagged[q.id];
+
+  // Compute scenario block info: which questions share this scenario,
+  // position within block, whether this is the first question in the block.
+  const blockIndices = [];
+  ex.questions.forEach((qq, i) => { if (qq.scenario === q.scenario) blockIndices.push(i); });
+  const blockSize = blockIndices.length;
+  const posInBlock = blockIndices.indexOf(idx) + 1;        // 1-based
+  const isNewBlock = idx === 0 || ex.questions[idx - 1].scenario !== q.scenario;
+  // Which scenario number is this overall (1st, 2nd, etc. in the exam)?
+  const scenarioOrder = [];
+  ex.questions.forEach(qq => {
+    if (!scenarioOrder.includes(qq.scenario)) scenarioOrder.push(qq.scenario);
+  });
+  const scenarioNum = scenarioOrder.indexOf(q.scenario) + 1;
+  const scenariosTotal = scenarioOrder.length;
+
+  // For each displayed choice, work out its origin
+  const choicesHtml = q.choiceOrder.map((origIdx, displayIdx) => {
+    const c = qData.choices[origIdx];
+    let cls = 'choice';
+    if (!showExplanations) {
+      if (userAnswerIdx === displayIdx) cls += ' selected';
+    } else {
+      cls += ' locked';
+      if (c.correct) cls += ' correct show-expl';
+      else if (displayIdx === userAnswerIdx) cls += ' incorrect-selected show-expl';
+    }
+    return `
+      <div class="${cls}" onclick="${showExplanations ? '' : `selectAnswer(${displayIdx})`}">
+        <div class="top-row">
+          <div class="letter">${letter(displayIdx)}</div>
+          <div class="body">${fmt(c.text)}</div>
+        </div>
+        ${showExplanations && (c.correct || displayIdx === userAnswerIdx) ?
+          `<div class="explanation">${fmt(c.explanation)}</div>` :
+          ''}
+      </div>
+    `;
+  }).join('');
+
+  // Question navigator grid — grouped by scenario block
+  const gridBlocks = scenarioOrder.map(scenario => {
+    const indices = [];
+    ex.questions.forEach((qq, i) => { if (qq.scenario === scenario) indices.push(i); });
+    const blockAnswered = indices.filter(i => ex.answers[ex.questions[i].id] !== undefined).length;
+    const buttons = indices.map(i => {
+      const qq = ex.questions[i];
+      const cls = [
+        ex.answers[qq.id] !== undefined ? 'answered' : '',
+        ex.flagged[qq.id] ? 'flagged' : '',
+        i === idx ? 'current' : ''
+      ].filter(Boolean).join(' ');
+      return `<button class="${cls}" onclick="gotoQuestion(${i})" title="Question ${i + 1}: ${escapeHtml(qq.scenario)}">${i + 1}</button>`;
+    }).join('');
+    return `
+      <div class="qgrid-scenario-block">
+        <div class="qgrid-scenario-label">
+          <span>${escapeHtml(scenario)}</span>
+          <span style="flex:1"></span>
+          <span style="color:var(--ink-faint);text-transform:none;letter-spacing:0">${blockAnswered}/${indices.length}</span>
+        </div>
+        <div class="qgrid">${buttons}</div>
+      </div>
+    `;
+  }).join('');
+
+  const timerLbl = ex.mode === 'timed' ? 'Time left' : 'Elapsed';
+
+  return `
+    <div class="exam-header">
+      <span class="progress-text">Question ${idx + 1} / ${total} · ${answered} answered${ex.mode === 'untimed' ? ' · Study mode' : ''}</span>
+      <span>
+        ${timerLbl}: <span class="timer" id="timer-display">${
+          ex.mode === 'timed'
+            ? formatTime(ex.timeLimitSeconds - ex.elapsedSeconds)
+            : formatTime(ex.elapsedSeconds)
+        }</span>
+      </span>
+    </div>
+    <div class="progress-bar"><div class="fill" style="width: ${progressPct}%"></div></div>
+
+    <div class="wrap" style="padding-top: 28px;">
+
+      <div class="scenario-banner ${isNewBlock ? 'new-block' : ''}">
+        <div class="left">
+          <div class="kicker">Scenario ${scenarioNum} of ${scenariosTotal}</div>
+          <div class="title">${escapeHtml(q.scenario)}</div>
+          ${isNewBlock && idx > 0 ? `<div class="new-block-flag">New scenario</div>` : ''}
+        </div>
+        <div class="meta">
+          Question <strong>${posInBlock}</strong> of <strong>${blockSize}</strong> in this scenario
+        </div>
+      </div>
+
+      <div class="question-card">
+        <div class="q-meta">
+          <span class="pill domain">D${q.domain} · ${escapeHtml(q.domainName)}</span>
+          <span style="flex:1"></span>
+          <button class="flag-btn ${flagged ? 'active' : ''}" onclick="toggleFlag('${q.id}')">
+            ${flagged ? '★ Flagged' : '☆ Flag for review'}
+          </button>
+        </div>
+        <div class="q-text">${fmt(q.question)}</div>
+        <div class="choices">${choicesHtml}</div>
+
+        <div class="qnav">
+          <button class="btn secondary" onclick="prevQuestion()" ${idx === 0 ? 'disabled' : ''}>← Previous</button>
+          <span class="nums">${idx + 1} / ${total}</span>
+          <div class="qnav-spacer"></div>
+          ${idx < total - 1
+            ? `<button class="btn" onclick="nextQuestion()">Next →</button>`
+            : `<button class="btn" onclick="confirmFinish()">Finish exam</button>`}
+        </div>
+      </div>
+
+      <div class="card" style="margin-top: 20px;">
+        <div class="card-title">
+          <span class="num">NAV</span>
+          <h3 style="margin:0">Jump to question</h3>
+          <span class="qnav-spacer" style="flex:1"></span>
+          <span class="muted small">${answered}/${total} answered</span>
+        </div>
+        <div class="qgrid-section">${gridBlocks}</div>
+        <div class="actions-row" style="margin-top: 18px;">
+          <button class="btn ghost" onclick="goHomeConfirm()">Pause &amp; return home</button>
+          <span style="flex:1"></span>
+          <button class="btn" onclick="confirmFinish()">Submit exam</button>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function selectAnswer(displayIdx) {
+  const ex = state.exam;
+  const q = ex.questions[ex.currentIndex];
+  ex.answers[q.id] = displayIdx;
+  saveActive(ex);
+  render();
+}
+
+function toggleFlag(qid) {
+  const ex = state.exam;
+  if (ex.flagged[qid]) delete ex.flagged[qid];
+  else ex.flagged[qid] = true;
+  saveActive(ex);
+  render();
+}
+
+function prevQuestion() {
+  if (state.exam.currentIndex > 0) {
+    state.exam.currentIndex--;
+    saveActive(state.exam);
+    render();
+  }
+}
+
+function nextQuestion() {
+  if (state.exam.currentIndex < state.exam.questions.length - 1) {
+    state.exam.currentIndex++;
+    saveActive(state.exam);
+    render();
+  }
+}
+
+function gotoQuestion(i) {
+  state.exam.currentIndex = i;
+  saveActive(state.exam);
+  render();
+}
+
+function goHomeConfirm() {
+  // Keep the exam saved; just go home
+  stopTimer();
+  go('home');
+}
+
+function confirmFinish() {
+  const ex = state.exam;
+  const unanswered = ex.questions.length - Object.keys(ex.answers).length;
+  let msg;
+  if (unanswered > 0) {
+    msg = `You have ${unanswered} unanswered question${unanswered === 1 ? '' : 's'}. Submit anyway? Unanswered questions are scored as incorrect.`;
+  } else {
+    msg = `Submit your exam? You won't be able to change your answers afterwards.`;
+  }
+  if (confirm(msg)) finishExam(false);
+}
+
+/* ============================================================
+   FINISH & RESULTS
+   ============================================================ */
+function finishExam(timedOut) {
+  stopTimer();
+  const ex = state.exam;
+  ex.finishedAt = Date.now();
+
+  // Compute results
+  let correctCount = 0;
+  const byDomain = {};
+  Object.keys(DOMAIN_INFO).forEach(d => byDomain[d] = { correct: 0, total: 0 });
+  const reviewItems = [];
+
+  ex.questions.forEach(q => {
+    const qData = getQuestionData(q.id);
+    byDomain[q.domain].total++;
+    const userIdx = ex.answers[q.id];        // display idx (or undefined)
+    let isCorrect = false;
+    let userOrigIdx = null;
+    if (userIdx !== undefined) {
+      userOrigIdx = q.choiceOrder[userIdx];
+      isCorrect = qData.choices[userOrigIdx].correct === true;
+    }
+    if (isCorrect) {
+      correctCount++;
+      byDomain[q.domain].correct++;
+    }
+    reviewItems.push({
+      qid: q.id,
+      isCorrect,
+      skipped: userIdx === undefined,
+      userIdx,
+      userOrigIdx,
+      choiceOrder: q.choiceOrder,
+      scenario: q.scenario,
+      domain: q.domain,
+      domainName: q.domainName,
+      question: q.question
+    });
+  });
+
+  const total = ex.questions.length;
+  const scaled = computeScaledScore(correctCount, total);
+  const passed = scaled >= PASS_SCORE;
+
+  const results = {
+    scaledScore: scaled,
+    passed,
+    correctCount,
+    total,
+    rawPct: total ? (correctCount / total * 100) : 0,
+    byDomain,
+    reviewItems,
+    timedOut,
+    elapsedSeconds: ex.elapsedSeconds,
+    mode: ex.mode,
+    startedAt: ex.startedAt,
+    finishedAt: ex.finishedAt
+  };
+  state.results = results;
+
+  // Save to history
+  const history = loadHistory();
+  history.unshift({
+    finishedAt: ex.finishedAt,
+    scaledScore: scaled,
+    passed,
+    correctCount,
+    total,
+    mode: ex.mode === 'timed' ? 'Timed' : 'Untimed',
+    elapsedSeconds: ex.elapsedSeconds
+  });
+  saveHistory(history.slice(0, 50));
+
+  clearActive();
+  go('results');
+}
+
+function renderResults() {
+  const r = state.results;
+  if (!r) return renderHome();
+
+  const verdict = r.passed
+    ? 'Passing standard met. Well executed.'
+    : r.scaledScore >= 650
+      ? 'Close. Targeted review of weaker domains and you’re there.'
+      : 'Significant gaps. Work the official guide alongside hands-on practice.';
+
+  // Domain breakdown
+  const breakdownHtml = Object.entries(DOMAIN_INFO).map(([d, info]) => {
+    const dr = r.byDomain[d];
+    const pct = dr.total ? Math.round(dr.correct / dr.total * 100) : 0;
+    const fillClass = pct >= 70 ? '' : (pct >= 50 ? 'mid' : 'low');
+    return `
+      <div class="domain-row">
+        <div>
+          <div class="name">D${d} · ${escapeHtml(info.name)}</div>
+          <div class="weight">Official weight: ${info.weight}% · ${dr.correct}/${dr.total} correct</div>
+        </div>
+        <div class="bar"><div class="fill ${fillClass}" style="width: ${pct}%"></div></div>
+        <div class="pct">${pct}%</div>
+      </div>
+    `;
+  }).join('');
+
+  // Review items
+  // Group review items by scenario, preserving the order in which scenarios appeared
+  const reviewScenarioOrder = [];
+  const reviewByScenario = {};
+  r.reviewItems.forEach((item, i) => {
+    if (!reviewByScenario[item.scenario]) {
+      reviewByScenario[item.scenario] = [];
+      reviewScenarioOrder.push(item.scenario);
+    }
+    reviewByScenario[item.scenario].push({ item, globalIdx: i });
+  });
+
+  const reviewHtml = reviewScenarioOrder.map(scenario => {
+    const group = reviewByScenario[scenario];
+    const correct = group.filter(g => g.item.isCorrect).length;
+    const wrong = group.filter(g => !g.item.isCorrect && !g.item.skipped).length;
+    const skipped = group.filter(g => g.item.skipped).length;
+
+    const itemsHtml = group.map(({ item, globalIdx }) => {
+      const qData = getQuestionData(item.qid);
+      const marker = item.skipped ? 'skipped' : (item.isCorrect ? 'correct' : 'wrong');
+      const status = item.skipped ? 'Skipped' : (item.isCorrect ? 'Correct' : 'Incorrect');
+
+      const choicesHtml = item.choiceOrder.map((origIdx, displayIdx) => {
+        const c = qData.choices[origIdx];
+        let cls = 'choice locked';
+        if (c.correct) cls += ' correct show-expl';
+        else if (displayIdx === item.userIdx) cls += ' incorrect-selected show-expl';
+        const showExpl = c.correct || displayIdx === item.userIdx;
+        return `
+          <div class="${cls}">
+            <div class="top-row">
+              <div class="letter">${letter(displayIdx)}</div>
+              <div class="body">${fmt(c.text)}</div>
+            </div>
+            ${showExpl ? `<div class="explanation">${fmt(c.explanation)}</div>` : ''}
+          </div>
+        `;
+      }).join('');
+
+      return `
+        <details class="review-item">
+          <summary>
+            <span class="marker ${marker}"></span>
+            <span class="summary-text">Q${globalIdx + 1}. ${fmt(item.question.length > 110 ? item.question.slice(0, 110) + '…' : item.question)}</span>
+            <span class="summary-meta">D${item.domain} · ${status}</span>
+          </summary>
+          <div class="review-body">
+            <div class="q-meta">
+              <span class="pill domain">D${item.domain} · ${escapeHtml(item.domainName)}</span>
+            </div>
+            <div class="q-text">${fmt(item.question)}</div>
+            <div class="choices">${choicesHtml}</div>
+          </div>
+        </details>
+      `;
+    }).join('');
+
+    return `
+      <div class="review-scenario-header">
+        <h3>${escapeHtml(scenario)}</h3>
+        <span class="stats">
+          <span class="ok">${correct} correct</span>
+          ${wrong ? ` · <span class="bad">${wrong} wrong</span>` : ''}
+          ${skipped ? ` · <span>${skipped} skipped</span>` : ''}
+          · ${group.length} total
+        </span>
+      </div>
+      ${itemsHtml}
+    `;
+  }).join('');
+
+  return `
+    <div class="wrap">
+      <div class="topbar">
+        <span class="stamp">● CCA-F</span>
+        <div class="right">
+          <span>Results</span>
+          <span>·</span>
+          <span>${formatDateTime(r.finishedAt)}</span>
+        </div>
+      </div>
+
+      <div class="score-hero">
+        <div class="label">Scaled score</div>
+        <div class="score ${r.passed ? 'pass' : 'fail'}">${r.scaledScore}<span class="of">/1000</span></div>
+        <div class="verdict ${r.passed ? 'pass' : 'fail'}">${escapeHtml(verdict)}</div>
+        <div class="raw">
+          ${r.correctCount} of ${r.total} correct (${r.rawPct.toFixed(1)}%)
+          · ${r.mode === 'timed' ? 'Timed' : 'Untimed'} · ${formatTime(r.elapsedSeconds)}
+          ${r.timedOut ? ' · Time expired' : ''}
+        </div>
+        <div class="raw">Pass mark: ${PASS_SCORE}</div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">
+          <span class="num">DOMAIN</span>
+          <h2>Performance by domain</h2>
+        </div>
+        <div class="breakdown">${breakdownHtml}</div>
+        <p class="small muted" style="margin-top:16px">
+          Aim for ≥70% in every domain. A weak domain can drag your scaled score under 720 even if the others are strong.
+        </p>
+      </div>
+
+      <div class="card review-section">
+        <div class="card-title">
+          <span class="num">REVIEW</span>
+          <h2>Every question, with explanations</h2>
+        </div>
+        <p class="small muted" style="margin-top:-8px; margin-bottom:18px">
+          Grouped by scenario, in the order you saw them. Click any question to expand —
+          the correct answer and your answer (if different) both show their rationale.
+        </p>
+        ${reviewHtml}
+      </div>
+
+      <div class="actions-row" style="margin-top: 32px; justify-content: center;">
+        <button class="btn lg" onclick="go('home')">← Back to home</button>
+      </div>
+    </div>
+  `;
+}
+
+/* ============================================================
+   MAIN RENDER
+   ============================================================ */
+function render() {
+  const app = document.getElementById('app');
+  let html;
+  if (state.view === 'exam' && state.exam) html = renderExam();
+  else if (state.view === 'results' && state.results) html = renderResults();
+  else html = renderHome();
+  app.innerHTML = html;
+
+  // Re-attach timer display reference after render (no-op if no exam)
+  if (state.view === 'exam' && state.exam && !state.timerInterval) startTimer();
+  if (state.view !== 'exam') stopTimer();
+}
+
+// Initial mount
+document.addEventListener('DOMContentLoaded', () => {
+  const active = loadActive();
+  if (active) {
+    // Stay on home; user chooses to resume
+    state.exam = null;
+  }
+  render();
+});
+</script>
+
+</body>
+</html>

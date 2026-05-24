@@ -5,8 +5,6 @@
         <link>https://thinkuldeep.com//hi/categories/</link>
         <description>Recent content in Categories on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>hi</language>
-        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
-        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster><atom:link href="https://thinkuldeep.com/hi/categories/index.xml" rel="self" type="application/rss+xml" />
+        <language>hi</language><atom:link href="https://thinkuldeep.com/hi/categories/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

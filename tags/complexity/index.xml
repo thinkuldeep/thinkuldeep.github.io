@@ -6,14 +6,12 @@
         <description>Recent content in Complexity on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
-        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Mon, 11 Oct 2021 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/complexity/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Managing enterprise complexity with XR</title>
             <link>https://thinkuldeep.com//post/managing-enterprise-complexity-xr/</link>
             <pubDate>Mon, 11 Oct 2021 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/managing-enterprise-complexity-xr/</guid>
             <description>Modern enterprises must manage multiple layers of complexity across thousands of assets, workflows, and processes — and there’s near-zero tolerance for issues that interrupt operations, damage profitability, or put workers’ safety at risk.
 These layers of enterprise complexity create significant challenges in four key areas:

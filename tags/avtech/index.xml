@@ -6,14 +6,12 @@
         <description>Recent content in Avtech on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
-        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Mon, 09 Dec 2024 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/avtech/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>XConf-2024 - Thoughtworks India - Takeaways</title>
             <link>https://thinkuldeep.com//event/thoughtworks-xconf-2024/</link>
             <pubDate>Mon, 09 Dec 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//event/thoughtworks-xconf-2024/</guid>
             <description>November was a month filled with learning and sharing! After the inspiring XR Summit 2024 at IIT Madras, I had the privilege of attending another fantastic event—XConf 2024 by Thoughtworks India. Here are my key takeaways from this incredible gathering of technologists.
 About XConf XConf is Thoughtworks&amp;rsquo; annual technology event, designed by technologists for technologists. Sponsored this year by AWS and CockroachDB, it celebrates innovation and the transformative power of software in the real world.</description>
@@ -23,7 +21,7 @@ About XConf XConf is Thoughtworks&amp;rsquo; annual technology event, designed b
             <title>Thoughtworks&#39; Looking Glass 2024 - Takeaways</title>
             <link>https://thinkuldeep.com//post/thougthworks-looking-glass-2024/</link>
             <pubDate>Wed, 10 Jan 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/thougthworks-looking-glass-2024/</guid>
             <description>Thoughtworks unveils its latest tech trends report, &amp;lsquo;Looking Glass&amp;rsquo;, a comprehensive analysis of emerging technologies designed to empower organizations and leaders in making informed decisions. The 2024 edition of report, covering over 100 trends, is segmented through five lenses, each offering insights, signals, and strategic recommendations for adoption, analysis, and anticipation.
 Key takeaways: Here are my key takeaways:
@@ -34,7 +32,7 @@ AI&amp;rsquo;s ubiquitous reach - AI is going in every facet of technology, from
             <title>XConf-2023 - Thoughtworks India - Takeaways</title>
             <link>https://thinkuldeep.com//event/thoughtworks-xconf-2023/</link>
             <pubDate>Thu, 21 Sep 2023 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//event/thoughtworks-xconf-2023/</guid>
             <description>The XConf XConf is Thoughtworks annual technology event created by technologists. It is designed for technologists who care deeply about software and its impact on the world.
 Last year, I presented on the topic of AI Assisted Content Pipeline for XR. This year, we took it a step further by hosting an immersive experience booth. We featured cutting-edge AR/VR devices and engaged in in-depth discussions about various industrial applications. It was truly enriching to interact with participants, share our insights, and absorb their perspectives.</description>

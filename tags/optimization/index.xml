@@ -6,14 +6,12 @@
         <description>Recent content in Optimization on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
-        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Thu, 27 Jun 2024 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Generative XR – Space aware AI bringing new era of immersion</title>
             <link>https://thinkuldeep.com//post/generative-xr-space-aware-ai-bringing-new-era-of-immersion/</link>
             <pubDate>Thu, 27 Jun 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/generative-xr-space-aware-ai-bringing-new-era-of-immersion/</guid>
             <description>Artificial Intelligence has made significant strides with the development of Large Language Models (LLMs) or Generative AI, which are trained to understand and respond to human language naturally. Tools like OpenAI’s ChatGPT, Google’s Gemini, and Microsoft’s Co-pilot have become the go-to resources for &amp;ldquo;Ask me anything&amp;rdquo; queries. These innovations have been touted as potential Google Search Killer, disrupting the way we search for information, communicate with machines, and receive machine responses.</description>
         </item>
@@ -22,7 +20,7 @@
             <title>🤝 Why collaboration is essential for building a successful XR future?</title>
             <link>https://thinkuldeep.com//post/why-collaboration-is-essential-for-building-a-successful-xr-future/</link>
             <pubDate>Fri, 19 Apr 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/why-collaboration-is-essential-for-building-a-successful-xr-future/</guid>
             <description>The era of isolated development and secret-keeping innovation is fading. In the past, companies, individuals could thrive by becoming subject matter experts within their own walls. However, the rise of generative AI, fueled by shared knowledge, has changed the game. AI can now imagine and generate solutions faster than ever. The future belongs to those who embrace openness, collaboration, and shared learning.
 Expertise alone isn’t enough. Today, success hinges on building strong networks, fostering partnerships, and collaborating within communities.</description>
@@ -32,7 +30,7 @@ Expertise alone isn’t enough. Today, success hinges on building strong network
             <title>🤝 Making the XR content usable with AI!</title>
             <link>https://thinkuldeep.com//post/making-the-xr-content-usable-with-ai/</link>
             <pubDate>Sun, 24 Mar 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/making-the-xr-content-usable-with-ai/</guid>
             <description>Generative AI is revolutionizing content generation across various mediums, disrupting traditional methods in text, images, art, movies, and music creation. XR (Extended Reality) is also undergoing this transformation. In a previous article, Raju Kandaswamy and I discussed how AI aids in generating content for XR, meeting the dynamic needs of XR and the metaverse.
 We highlighted content management as a key challenge in XR and metaverse adoption. While generative AI methods offer some solutions, the significant hurdle of content optimization remains.</description>
@@ -42,7 +40,7 @@ We highlighted content management as a key challenge in XR and metaverse adoptio
             <title>MySQL Tuning</title>
             <link>https://thinkuldeep.com//post/mysql-tuning/</link>
             <pubDate>Sat, 10 Mar 2012 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/mysql-tuning/</guid>
             <description>We have faced &amp;lsquo;out of space&amp;rsquo; issue on disk even after clearing old data on database server(MySQL) and temporary data on application. We noticed that 90% of the space was occupied by the database tables which were used to store very large de-normalized statistical data and when we track the database table we noticed there is not much data in the database in the tables but they were still occupying space on disk.</description>
         </item>
@@ -51,7 +49,7 @@ We highlighted content management as a key challenge in XR and metaverse adoptio
             <title>Compiling Java Native C/C&#43;&#43; Code</title>
             <link>https://thinkuldeep.com//post/java-jni-cpp/</link>
             <pubDate>Mon, 20 Feb 2012 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/java-jni-cpp/</guid>
             <description>We have faced multiple issues while compiling a native c/c++ code and using it with JNI in our Java application
 How to write a JNI program. jni_md.h not found. Incompatible data types. On widows cygwin1.dll is required when running Java code on the native library. and more. Actually we were compiling NLP Solver’s native library (IPOPT) on windows 32 bit and on 64bit linux machine.

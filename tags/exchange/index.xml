@@ -6,14 +6,12 @@
         <description>Recent content in Exchange on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
-        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Sun, 22 Jan 2012 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/exchange/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Managing Calendar and Invites in Java</title>
             <link>https://thinkuldeep.com//post/java-calendar-and-invite/</link>
             <pubDate>Sun, 22 Jan 2012 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/java-calendar-and-invite/</guid>
             <description>Calendars are used to store formation for various events. Calendar viewer displays the month-date view and for each day displays the events/reminders information.
 Invites are the events in the form of email. Once the invite for an event sent to a user via email then that event will be stored in the calendar view and same can be seen in the day information of the calendar view.

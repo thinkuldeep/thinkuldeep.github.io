@@ -6,14 +6,12 @@
         <description>Recent content in Code Review on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
-        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Thu, 19 Mar 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/code-review/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Mastering Python - AI Writes Code. Developers Must Understand It</title>
             <link>https://thinkuldeep.com//post/mastering-python/</link>
             <pubDate>Thu, 19 Mar 2026 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/mastering-python/</guid>
             <description>AI can generate code in seconds. As a result, the role of developers is rapidly shifting—from writing code to reviewing, guiding, and constraining AI-generated outputs to ensure they truly fit the need.
 However, effective code review is not easy.

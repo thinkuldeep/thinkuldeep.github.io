@@ -6,14 +6,12 @@
         <description>Recent content in Open Source on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
-        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Wed, 25 Mar 2026 01:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Open-sources and Apps</title>
             <link>https://thinkuldeep.com//about/open-sources/</link>
             <pubDate>Wed, 25 Mar 2026 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//about/open-sources/</guid>
             <description>Agentic AI - Hands On Practices Agentic AI Hands-on practice for developing end to end AI agent, and understanding the internals.
 ☞ Github ☞ Learn More
@@ -27,7 +25,7 @@ Gen AI Hands On Practices Google Colab Hands-on practice for developing Gen AI a
             <title>Humanizing AI: Reflections on 2025 and the Road Ahead for 2026</title>
             <link>https://thinkuldeep.com//post/2025-reflections-2026-anticipation/</link>
             <pubDate>Thu, 01 Jan 2026 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/2025-reflections-2026-anticipation/</guid>
             <description>As we close 2025 and step into 2026, this moment offers more than a calendar transition—it offers clarity. The past year tested assumptions, accelerated adoption, and forced recalibration across technology, business, and society.
 For me personally, 2025 was a milestone year. After reflecting on two decades in the industry, I published my second book, Jagjeevan: Living Larger Than Life, in both Hindi and English, while continuing to engage readers through Exploring the Metaverse.</description>
@@ -37,7 +35,7 @@ For me personally, 2025 was a milestone year. After reflecting on two decades in
             <title>OpenThread Commissioner Implementation in Java</title>
             <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-java/</link>
             <pubDate>Mon, 10 Mar 2025 11:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/iot-thread-external-commissioner-java/</guid>
             <description>In a previous article, we explored how to build and use an Android app as an external commissioner to onboard Thread devices into a network. This article takes it a step further by demonstrating how to implement a Java-based external commissioner.
 The thread commissioning process involves the following key steps:
@@ -48,7 +46,7 @@ Discovering the Border Router Connecting to the Border Router Adding Joiner Rule
             <title>Testing the Ground: Reflections on 2024 and the Road Ahead for 2025</title>
             <link>https://thinkuldeep.com//post/2024-reflections-2025-anticipation/</link>
             <pubDate>Tue, 31 Dec 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/2024-reflections-2025-anticipation/</guid>
             <description>As we bid farewell to 2024 and welcome 2025, it’s a perfect moment to reflect on the lessons this year has offered—both rewarding and challenging—and to prepare for the opportunities ahead.
 This year marked a significant milestone as I celebrated 20 years in the industry. Along this journey, I shared my experiences by publishing a book, contributing over 30 articles and whitepapers on topics like the AI-powered metaverse, IoT, D&amp;amp;Iand product management.</description>
@@ -58,7 +56,7 @@ This year marked a significant milestone as I celebrated 20 years in the industr
             <title>🙏 Exploring the Metaverse | Testimonial 5</title>
             <link>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-5/</link>
             <pubDate>Wed, 14 Aug 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/exploring-the-metaverse-testimonial-5/</guid>
             <description>My book &amp;lsquo;Exploring the Metaverse&amp;rsquo;, is now available in stores globally, including Amazon and BPB Online. It features forewords and testimonials from a diverse group of industry leaders, adding valuable perspectives to the content.
 One of the most distinguished endorsements comes from Prof. M Manivannan, who leads the Experiential Technologies Innovation Center (XTIC) at IIT Madras.
@@ -69,7 +67,7 @@ Prof. Mani has spearheaded innovation at XTIC and have made India proud. His pio
             <title>XR - the Enabler | XROS Fellowship Report</title>
             <link>https://thinkuldeep.com//post/extending-reality-the-enabler-xros/</link>
             <pubDate>Mon, 15 Jul 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/extending-reality-the-enabler-xros/</guid>
             <description>Welcome to Internet 3.0, a transformative era where reality takes on new dimensions, driven by eXtended Reality (XR) at its core, along with AI, Cloud, IoT, and more. This evolution is the product of collaborative efforts involving academia, government, industry, and individuals. My book, Exploring the Metaverse, available globally, outlines this kind of collaboration as a call to action for all of us.
 FICCI XROS Fellowship Program Federation of Indian Chambers of Commerce &amp;amp; Industry (FICCI), is the voice of india&amp;rsquo;s business and industry for policy change.</description>
@@ -79,7 +77,7 @@ FICCI XROS Fellowship Program Federation of Indian Chambers of Commerce &amp;amp
             <title>Foundational shifts: Reflecting on 2023 and anticipating ahead</title>
             <link>https://thinkuldeep.com//post/2023-reflections-2024-anticipation/</link>
             <pubDate>Sat, 30 Dec 2023 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/2023-reflections-2024-anticipation/</guid>
             <description>As we say goodbye to 2023 and welcome 2024, it&amp;rsquo;s a time to think about the good and tough parts of the year. Not everything goes the way we want, but we can learn from both the good and bad experiences. I see 2023 as a year of making things better, like fixing the base of a building. I&amp;rsquo;ve picked my top five observations on foundational changes from this year, and some might continue into 2024.</description>
         </item>
@@ -88,7 +86,7 @@ FICCI XROS Fellowship Program Federation of Indian Chambers of Commerce &amp;amp
             <title>Panelist at FICCI XROS Fellowship Summit</title>
             <link>https://thinkuldeep.com//event/ficci-xros-fellowship-summit/</link>
             <pubDate>Tue, 21 Nov 2023 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//event/ficci-xros-fellowship-summit/</guid>
             <description>Welcome to Internet 3.0, the transformative era where reality takes on new dimensions, driven by eXtending Reality (XR) at it&amp;rsquo;s core, along with AI, Cloud, IoT, and more. This evolution would be the product of collaborative efforts involving academia, government, industry, and individuals. I recently had the privilege of participating as a panelist at an event hosted by the pioneers shaping the future of the internet. In this article, I share my insights and a summary of this remarkable event.</description>
         </item>

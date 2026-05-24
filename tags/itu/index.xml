@@ -6,14 +6,12 @@
         <description>Recent content in ITU on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
-        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Mon, 15 Dec 2025 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/itu/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>XR Symposium Takeaways and Book Launch at IIT Madras</title>
             <link>https://thinkuldeep.com//post/xr-symposium-takeaways-and-book-launch/</link>
             <pubDate>Mon, 15 Dec 2025 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/xr-symposium-takeaways-and-book-launch/</guid>
             <description>I recently had the privilege of speaking at XR Symposium 2025, hosted by XTIC, IIT Madras. My heartfelt thanks to Prof. Mani and his team for the kind invitation and to Thoughtworks for making all the arrangements seamless.
 The event was nothing short of extraordinary – a world-class symposium showcasing groundbreaking advancements, with an exciting lineup of sessions led by industry pioneers and academics. The topics covered were diverse, thought-provoking, and visionary.</description>
@@ -23,7 +21,7 @@ The event was nothing short of extraordinary – a world-class symposium showcas
             <title>Patents and Papers</title>
             <link>https://thinkuldeep.com//about/patents/</link>
             <pubDate>Sat, 01 Nov 2025 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//about/patents/</guid>
             <description>This listing includes patent applications that are pending as well as patents that have already been granted by the United States Patent and Trademark Office (USPTO). It also includes the papers published in various conferences and journals.
 ITU-T Technical Report - Potential requirements of IoT-based Perishable Goods Monitoring System ITU-T Study Group 20 accepted my recommendation as a Technical Report. It defines key layers for IoT-based retail monitoring systems — including Sensing, Communication, Integration, Application &amp;amp; Analytics, and Management &amp;amp; Maintenance layers.</description>

@@ -6,14 +6,12 @@
         <description>Recent content in RAG on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
-        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Mon, 27 Apr 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/rag/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Agentic AI using Local LLM Setup</title>
             <link>https://thinkuldeep.com//post/agentic-ai-hands-on-2/</link>
             <pubDate>Mon, 27 Apr 2026 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/agentic-ai-hands-on-2/</guid>
             <description>In Agentic AI Hands-On — Part 1, we built our first AI Agent and explored how a well-designed prompt can drive real-world actions — browsing websites, calling APIs, or performing calculations through tools.
 We implemented the agent using the basic architecture
@@ -25,7 +23,7 @@ Where the agent relied on OpenAI LLMs hosted over cloud and accessed through a p
             <title>Agentic AI | Hands-on Practices – Part 1</title>
             <link>https://thinkuldeep.com//post/agentic-ai-hands-on/</link>
             <pubDate>Wed, 25 Mar 2026 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/agentic-ai-hands-on/</guid>
             <description>In my previous article, I explored the journey from AI → GenAI → Agentic AI and also emphasized why being hands-on still matters, even when AI can generate code in seconds.
 The role of developers is clearly evolving—from pure builders to reviewers, orchestrators, and system designers.

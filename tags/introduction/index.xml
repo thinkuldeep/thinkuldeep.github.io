@@ -6,14 +6,12 @@
         <description>Recent content in Introduction on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
-        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Thu, 19 Mar 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/introduction/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Mastering Python - AI Writes Code. Developers Must Understand It</title>
             <link>https://thinkuldeep.com//post/mastering-python/</link>
             <pubDate>Thu, 19 Mar 2026 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/mastering-python/</guid>
             <description>AI can generate code in seconds. As a result, the role of developers is rapidly shifting—from writing code to reviewing, guiding, and constraining AI-generated outputs to ensure they truly fit the need.
 However, effective code review is not easy.
@@ -24,7 +22,7 @@ The expertise required to review AI-generated code cannot exist without first wr
             <title>Speaker - Lean2Lead tech track - Twisted realities</title>
             <link>https://thinkuldeep.com//event/lean2lead_xr_2023/</link>
             <pubDate>Sat, 15 Jul 2023 01:00:00 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//event/lean2lead_xr_2023/</guid>
             <description>Lean2Lead is a network of women at work, with will to lead and succeed in their respective areas of work. They are 400+ women from different industries together in this group for exchange of ideas, connecting and coaching, building network with industry leaders and inspiring each other for building strategies for success in leadership and executive roles.
 I am speaking at their tech session series, on 15 July 2023, 3-4 PM.</description>
@@ -34,7 +32,7 @@ I am speaking at their tech session series, on 15 July 2023, 3-4 PM.</descriptio
             <title>Speaker - Google DSC - How to get started with AR VR?</title>
             <link>https://thinkuldeep.com//event/google_dsk_skct_xr_introduction/</link>
             <pubDate>Sun, 07 Jun 2020 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//event/google_dsk_skct_xr_introduction/</guid>
             <description>Conducted a live session at Google Developer Students Club of Sri Krishna College of Technology, Coimbatore, TN, India
 Intro here LinkedIn
@@ -45,7 +43,7 @@ Live session, recording. The talks is about What is AR VR? Why to start with AR 
             <title>Speaker &amp; Organizer - IOTNCR - Ideation to Production Workshop</title>
             <link>https://thinkuldeep.com//event/iotncr-ideation-to-production/</link>
             <pubDate>Sat, 29 Apr 2017 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//event/iotncr-ideation-to-production/</guid>
             <description>Conducted a workshop on IoT with IOTNCR. I have spoken on IoT technology landscape, and many of other speaker given enlightening talks.
 Intro here Nagarro invites IOT enthusiasts to Ideation to Production:An Entrepreneurship Workshop,Apr 29 #IOTNCR #Nagarroiotncr https://t.co/kvQi1CARjG pic.twitter.com/QbY94UId6c
@@ -56,7 +54,7 @@ Intro here Nagarro invites IOT enthusiasts to Ideation to Production:An Entrepre
             <title>IOT 101: A primer on Internet of Things</title>
             <link>https://thinkuldeep.com//post/iot_simplified/</link>
             <pubDate>Tue, 21 Feb 2017 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/iot_simplified/</guid>
             <description>IOT 101 A Primer on Internet of Things from Kuldeep Singh The IoT can be described as “Connecting the Things to internet”.
 A comprehensive IoT ecosystem consists of many different parts such as electronic circuitry, sensing and acting capability, embedded systems, edge computing, network protocols, communication networks, cloud computing, big data management and analytics, business rules etcetera. This maze of varied parts can be better classified into 4 broad categories:</description>
@@ -66,7 +64,7 @@ A comprehensive IoT ecosystem consists of many different parts such as electroni
             <title>SIGFOX - An Introduction</title>
             <link>https://thinkuldeep.com//post/sigfox-an-introduction/</link>
             <pubDate>Mon, 17 Aug 2015 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/sigfox-an-introduction/</guid>
             <description>SIGFOX is providing a communication solution dedicated to the Internet of Things
 Dedicated to the IOT means:
@@ -77,7 +75,7 @@ Simplicity: No configuration, no pairing, no signaling Autonomy: Very low energy
             <title>Introduction to Java Lambda Expression</title>
             <link>https://thinkuldeep.com//post/java8-lambda-expression/</link>
             <pubDate>Wed, 10 Dec 2014 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/java8-lambda-expression/</guid>
             <description>After Java 8, developers can apply functional programming constructs in a pure Object-Oriented programming language through lambda expressions. Using lambda expression sequential and parallel execution can be achieved by passing behavior into methods. In Java world lambdas can be thought of as an anonymous method with a more compact syntax. Here compact means it is not mandatory to specify access modifiers, return type and parameter types while defining the expression.</description>
         </item>
@@ -86,7 +84,7 @@ Simplicity: No configuration, no pairing, no signaling Autonomy: Very low energy
             <title>Introduction to Java Stream API</title>
             <link>https://thinkuldeep.com//post/java8-stream-api/</link>
             <pubDate>Mon, 08 Dec 2014 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/java8-stream-api/</guid>
             <description>Prior to JDK 8, collections can only be managed through iterators with the use of for, foreach or while loops. It means that we instruct a computer to execute the algorithm steps.
 int sum(List&amp;lt;Integer&amp;gt; list) { Iterator&amp;lt;Integer&amp;gt; intIterator = list.iterator(); int sum = 0; while (intIterator.hasNext()) { int number = intIterator.next(); if (number &amp;gt; 5) { sum += number; } } return sum; } The above approach has the following tailbacks:</description>
@@ -96,7 +94,7 @@ int sum(List&amp;lt;Integer&amp;gt; list) { Iterator&amp;lt;Integer&amp;gt; intI
             <title>Groovy - Getting Started</title>
             <link>https://thinkuldeep.com//post/groovy-getting-started/</link>
             <pubDate>Mon, 20 May 2013 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/groovy-getting-started/</guid>
             <description>This article help you start with Groovy, with step by step guide and series of examples. It starts with an overview and then covers in detail examples.
 Groovy Overview Groovy is an Object Oriented Scripting Language which provides Dynamic, Easy-to-use and Integration capabilities to the Java Virtual Machine. It absorbs most of the syntax from Java and it is much powerful in terms of functionalities which is manifested in the form Closures, Dynamic Typing, Builders etc.</description>
@@ -106,7 +104,7 @@ Groovy Overview Groovy is an Object Oriented Scripting Language which provides D
             <title>Scala - Getting Started - Part 2</title>
             <link>https://thinkuldeep.com//post/scala-getting-started-part2/</link>
             <pubDate>Sat, 18 May 2013 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/scala-getting-started-part2/</guid>
             <description>In previous article we learned basics of Scala, in this articles we will learn how to setup build scripts for scala and build applications using scala.
 We will also learn few web development frameworks for Scala and compare them with similar framework in Java.
@@ -118,7 +116,7 @@ Integration with Ant Below example shows how Scala project can be built by the a
             <title>Scala - Getting Started - Part 1</title>
             <link>https://thinkuldeep.com//post/scala-getting-started-part1/</link>
             <pubDate>Mon, 06 May 2013 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/scala-getting-started-part1/</guid>
             <description>This article help you to start with Scala, with step by step guide and series of examples. It starts with an overview and then covers in detail examples. In later articles, I will write about feature comparison with other languages. It article is helpful for people coming from Java background, how it is not the prerequisites.
 Scala Overview Scala is a general purpose programming language designed to express common programming patterns in a concise, elegant, and type-safe way.</description>
@@ -128,7 +126,7 @@ Scala Overview Scala is a general purpose programming language designed to expre
             <title>Rule Engine - Getting Started with Drools</title>
             <link>https://thinkuldeep.com//post/rule-engine-getting-started/</link>
             <pubDate>Sat, 03 Mar 2012 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/rule-engine-getting-started/</guid>
             <description>This article let you start with Rule Engine Drools, with step by step guide and series of examples. It starts with an overview and then covers in detail examples.
 Rule Engine Overview The underlying idea of a rule engine is to externalize the business or application logic. A rule engine can be viewed as a sophisticated interpreter of if-then statements. The if-then statements are the rules. A rule is composed of two parts, a condition and an action: When the condition is met, the action is executed.</description>

@@ -6,14 +6,12 @@
         <description>Recent content in Learning on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
-        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Fri, 13 Feb 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/learning/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Connecting Thread Devices to the Internet over CoAP</title>
             <link>https://thinkuldeep.com//post/iot-thread-devices-coap/</link>
             <pubDate>Fri, 13 Feb 2026 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/iot-thread-devices-coap/</guid>
             <description>In my earlier IoT series, we explored Thread networks and protocols—how they form self-healing IPv6 mesh networks designed for low-power IoT environments.
 We looked at connectivity over UDP and TCP/HTTP protocols, and how Thread devices can reach the internet using a Border Router.
@@ -24,7 +22,7 @@ In this article, we move one step further by implementing CoAP (Constrained Appl
             <title>📕 Available Now! Jagjeevan : Living Larger than Life</title>
             <link>https://thinkuldeep.com//post/jagjeevan-avaiable-now/</link>
             <pubDate>Thu, 01 Jan 2026 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/jagjeevan-avaiable-now/</guid>
             <description>📕 Jagjeevan: Living Larger Than Life is a heartfelt tribute to the extraordinary life and timeless wisdom of Shri Jagguram—an enlightened soul whose values shaped generations. Blending personal memories with profound life lessons, it captures the essence of a man who lived with humility, discipline, compassion, and unwavering purpose.
 Through ten insightful chapters, the book explores heritage, resilience, responsibility, inner strength, family unity, conflict resolution, gratitude, and the power of one’s actions.</description>
@@ -34,7 +32,7 @@ Through ten insightful chapters, the book explores heritage, resilience, respons
             <title>Speaker | Gatherverse Book Summit 2025</title>
             <link>https://thinkuldeep.com//event/gatherverse-booksummit-2025/</link>
             <pubDate>Tue, 09 Dec 2025 23:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//event/gatherverse-booksummit-2025/</guid>
             <description>📢 Gatherverse Book Summit 2025: Exploring Books, Language and Meaning in the Age of New Technology.
 In the intersection of emerging technologies and humanity, this GatherVerse event aims to deep dive into the current and future state of books in an age defined by artificial intelligence. This is a space for authors, researchers, engineers, ethicists, educators, publishers, technologists and readers. We explore what it means to write, publish, and trust books in a time where machine-generated language is flooding the landscape</description>
@@ -44,7 +42,7 @@ In the intersection of emerging technologies and humanity, this GatherVerse even
             <title>📕 Coming Soon! Jagjeevan : Living Larger than Life</title>
             <link>https://thinkuldeep.com//post/jagjeevan-coming-soon/</link>
             <pubDate>Sun, 16 Nov 2025 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/jagjeevan-coming-soon/</guid>
             <description>Life teaches us lessons every single moment—but only when we pause to reflect do we truly grow. Everyone faces challenges; no life is free from problems. What defines us is not the struggle, but how we rise above it.
 Most challenges we encounter today are the same ones our previous generations faced—whether they relate to daily life, relationships, earning, spending, or navigating responsibilities. So much wisdom already exists around us, in our homes, in our traditions, in the stories of our elders.</description>
@@ -54,7 +52,7 @@ Most challenges we encounter today are the same ones our previous generations fa
             <title>DNS Resolution In Thread Network</title>
             <link>https://thinkuldeep.com//post/iot-thread-dns-resolution/</link>
             <pubDate>Tue, 15 Apr 2025 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/iot-thread-dns-resolution/</guid>
             <description>In previous articles, we explored communication between a Thread device and external (non-Thread) networks, primarily over TCP/HTTP using IP addresses and ports. However, in real-world applications, we rarely use raw IP addresses. Instead, we rely on hostnames — which are resolved to IP addresses using DNS (Domain Name System).
 Public DNS resolution (like Google’s 8.8.8.8) handles global domain names, typically configured at the OS or browser level. But for private, local networks — like those used in IoT and Thread-based deployments — we need a local DNS setup to resolve custom hostnames (e.</description>
@@ -64,7 +62,7 @@ Public DNS resolution (like Google’s 8.8.8.8) handles global domain names, typ
             <title>OpenThread Commissioner Implementation in Java</title>
             <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-java/</link>
             <pubDate>Mon, 10 Mar 2025 11:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/iot-thread-external-commissioner-java/</guid>
             <description>In a previous article, we explored how to build and use an Android app as an external commissioner to onboard Thread devices into a network. This article takes it a step further by demonstrating how to implement a Java-based external commissioner.
 The thread commissioning process involves the following key steps:
@@ -75,7 +73,7 @@ Discovering the Border Router Connecting to the Border Router Adding Joiner Rule
             <title>Building and Using OpenThread Commissioner Mobile App</title>
             <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-android/</link>
             <pubDate>Wed, 05 Mar 2025 11:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/iot-thread-external-commissioner-android/</guid>
             <description>In our previous article, we set up an external commissioner outside a Thread network using a command-line tool on a PC. However, OpenThread also provides a mobile app that can serve as an external commissioner.
 This guide will walk you through building and using the OpenThread Commissioner mobile app to provision a device onto a Thread network.
@@ -86,7 +84,7 @@ Building the OpenThread Commissioner Mobile App OpenThread provides an Android a
             <title>External Commissioning in Thread Network</title>
             <link>https://thinkuldeep.com//post/iot-thread-external-commissioner-cli/</link>
             <pubDate>Wed, 26 Feb 2025 11:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/iot-thread-external-commissioner-cli/</guid>
             <description>In our previous article, we set up a commissioner within a Thread network by starting the commissioner from a thread node. However, a Thread network can also be provisioned using an external commissioner outside the thread network.
 This article will guide you through the configuration of an external commissioner for a Thread network using a Commissioner CLI setup on a mac/linux pc.
@@ -97,7 +95,7 @@ Commissioner CLI The Commissioner CLI can be built on macOS or Linux using the f
             <title>Implementing a TCP Client in nRF Connect</title>
             <link>https://thinkuldeep.com//post/iot-thread-tcp-client-implementation/</link>
             <pubDate>Sat, 15 Feb 2025 11:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/iot-thread-tcp-client-implementation/</guid>
             <description>In a previous article, we implemented a Joiner that is programmatically provisioned by a Commissioner node to join a Thread network. Once an IoT device is part of the Thread network, the next step is to enable communication with other Thread nodes or external hosts. We previously discussed and tested UDP-based communication in Connecting Thread devices to Internet. In this article, we explore a similar approach with TCP OT CLI, and here we are implementing a custom TCP client that sends data to a TCP server programmatically.</description>
         </item>
@@ -106,7 +104,7 @@ Commissioner CLI The Commissioner CLI can be built on macOS or Linux using the f
             <title>nRF Connect SDK Advanced Practices</title>
             <link>https://thinkuldeep.com//post/iot-nrf-connect-sdk-advanced/</link>
             <pubDate>Sun, 09 Feb 2025 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/iot-nrf-connect-sdk-advanced/</guid>
             <description>In our previous article, we provided a brief overview of the nRF Connect SDK and demonstrated how to build a simple application. This article explores advanced practices for working with the nRF Connect SDK, focusing on Zephyr OS internals, including timers, schedulers, bootloading, DFU, and FOTA concepts. It builds on our previous introduction to the nRF Connect SDK and provides insights into developing multi-threaded firmware, troubleshooting, and deploying firmware over the air (OTA).</description>
         </item>
@@ -115,7 +113,7 @@ Commissioner CLI The Commissioner CLI can be built on macOS or Linux using the f
             <title>Implementing a Joiner in nRF Connect SDK</title>
             <link>https://thinkuldeep.com//post/iot-thread-joiner-implementation/</link>
             <pubDate>Sat, 08 Feb 2025 11:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/iot-thread-joiner-implementation/</guid>
             <description>In a previous article, we explored how a Commissioner node provisions a Joiner in a Thread network using OpenThread&amp;rsquo;s default firmware. However, in real-world applications, custom firmware logic is often required, along with programmatic control over the commissioning process. In this article, we will implement a Joiner using the nRF Connect SDK, following these four key steps.
 Joiner in Action The Joiner process involves the following steps:
@@ -126,7 +124,7 @@ Enable Thread – Ensure that the Thread network and IPv6 are enabled.</descript
             <title>Simplifying Thread Network Provisioning with Joiner and Commissioner</title>
             <link>https://thinkuldeep.com//post/iot-thread-network-provisioning/</link>
             <pubDate>Sat, 08 Feb 2025 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/iot-thread-network-provisioning/</guid>
             <description>In previous articles, we explored the Thread protocol and connected Thread devices to the internet using a Border Router. We joined the Thread network by manually configuring each node with a full dataset containing network credentials such as the PAN ID, Network Key, Network Name, and more (refer to Step 6.1: Access Network Credentials). While this method works, it becomes impractical when provisioning hundreds of Thread devices in real-world scenarios.</description>
         </item>
@@ -135,7 +133,7 @@ Enable Thread – Ensure that the Thread network and IPv6 are enabled.</descript
             <title>Getting Started with Bluetooth Low Energy (BLE)</title>
             <link>https://thinkuldeep.com//post/iot-ble/</link>
             <pubDate>Thu, 23 Jan 2025 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/iot-ble/</guid>
             <description>In a previous article, we explored how to build IoT firmware applications using the nRF Connect SDK. We examined its project structure and learned how to build and flash firmware on the nRF52840 dongle. If you missed it, you can catch up here:
 For more hands-on practices, use nRF52840 Development Kit (DK), that offers advanced developer features. You need to connect this board via a high-speed data cable like this one, to get it detected on your PC.</description>
@@ -145,7 +143,7 @@ For more hands-on practices, use nRF52840 Development Kit (DK), that offers adva
             <title>Getting Started with nRF Connect SDK</title>
             <link>https://thinkuldeep.com//post/iot-nrf-connect-sdk/</link>
             <pubDate>Wed, 08 Jan 2025 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/iot-nrf-connect-sdk/</guid>
             <description>In the previous article, we explored setting up a Thread Network and enabling communication within and outside the network via a Border Router using OpenThread and the nRF Connect SDK. While we covered installing and configuring the SDK during the setup, we didn’t dive into the development process for nRF Connect SDK Apps. Let’s address that now!
 What We’ll Cover This article introduces the nRF Connect SDK and walks through building applications with it.</description>
@@ -155,7 +153,7 @@ What We’ll Cover This article introduces the nRF Connect SDK and walks through
             <title>Connecting Thread Devices to Internet</title>
             <link>https://thinkuldeep.com//post/iot-thread-devices-internet/</link>
             <pubDate>Wed, 01 Jan 2025 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/iot-thread-devices-internet/</guid>
             <description>In previous articles, we explored the Thread Network and its protocol, focusing on the formation, functionality, and topology of the network. Thread is a lightweight, low-power communication protocol for IoT devices, operating on IPv6. We discussed its ability to automatically establish a mesh network and maintain connectivity through its robust topology.
 We simulated a Thread network using Docker. Now in this article, we’ll create a Thread network between physical devices and connect it to the internet.</description>
@@ -165,7 +163,7 @@ We simulated a Thread network using Docker. Now in this article, we’ll create 
             <title>Understanding the Thread Protocol and Network</title>
             <link>https://thinkuldeep.com//post/iot-the-thread-protocol-and-network/</link>
             <pubDate>Sat, 26 Oct 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/iot-the-thread-protocol-and-network/</guid>
             <description>In previous articles, we explored MQTT in-depth, even setting up a web-based remote controller that simulated a physical button. We did this in a “Soft IoT” way, avoiding hardware intricacies. However, in IoT, networking between devices plays a crucial role. Not all IoT devices are connected to the Internet or can communicate via MQTT over the internet, as shown in our earlier examples. These devices need a low-latency, low-power network that can auto-discover and manage device communication seamlessly.</description>
         </item>
@@ -174,7 +172,7 @@ We simulated a Thread network using Docker. Now in this article, we’ll create 
             <title>Soft IoT Continued: Bringing the Internet into IoT</title>
             <link>https://thinkuldeep.com//post/soft-iot-continued/</link>
             <pubDate>Fri, 18 Oct 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/soft-iot-continued/</guid>
             <description>Simplifying IoT learning doesn’t have to mean getting bogged down with hardware details. Instead, let’s dive into Soft IoT — where we focus on software-driven IoT exploration. In this article, we’ll learn how to read inputs from a button and turn it into a web based remote control for an LED, all while keeping things software-centric..
 In the previous article, we introduced Soft IoT using a Grove Pi board, which simplifies IoT learning by hiding wiring and connections complexity.</description>
@@ -184,7 +182,7 @@ In the previous article, we introduced Soft IoT using a Grove Pi board, which si
             <title>Getting Started with Soft IoT</title>
             <link>https://thinkuldeep.com//post/soft-iot/</link>
             <pubDate>Wed, 09 Oct 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/soft-iot/</guid>
             <description>Learning IoT doesn’t have to be complex, especially when starting out. In this post, we’ll explore how to get started with IoT without diving deep into hardware complexities like wiring or understanding intricate sensor details.
 In an earlier article, we set up a Raspberry Pi. My son initially saw it as just another, albeit slower, computer. There was no “IoT” in it yet, just a basic device. But IoT is about more than just the device itself; it’s about integrating sensors and actuators.</description>
@@ -194,7 +192,7 @@ In an earlier article, we set up a Raspberry Pi. My son initially saw it as just
             <title>Booting Up the Internet of Things</title>
             <link>https://thinkuldeep.com//post/iot-rebooting/</link>
             <pubDate>Wed, 25 Sep 2024 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/iot-rebooting/</guid>
             <description>A few years ago, I bought a Raspberry Pi 3, but during a house move, I misplaced it. Fast forward to this Diwali cleaning, and to my surprise, I found it! My son’s curiosity was piqued, so we decided to set it up together. While my recent focus has been on XR technologies and we setup XRPractices, but this moment brought me back to IoT — sparking the idea to share my journey and experiences through a series of articles on getting started with IoT.</description>
         </item>

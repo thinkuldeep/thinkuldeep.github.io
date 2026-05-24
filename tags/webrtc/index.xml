@@ -6,14 +6,12 @@
         <description>Recent content in WebRTC on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
-        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Sun, 10 Aug 2025 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/webrtc/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Patent Granted: Spatially interact with 3D Model from a 2D app in the smart glasses</title>
             <link>https://thinkuldeep.com//post/patent-granted-xr-4/</link>
             <pubDate>Sun, 10 Aug 2025 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/patent-granted-xr-4/</guid>
             <description>💡 Innovation often starts with solving everyday problems. While working on XR solutions and building operating systems for smart glasses, we solved one such challenge.
 Earlier, with our patented AppSpace method, we enabled rendering a phone’s 2D apps in 3D on smart glasses. But we found a gap — there was no direct way for a 2D app (like Chrome) to interact with 3D spatial content.
@@ -24,7 +22,7 @@ Earlier, with our patented AppSpace method, we enabled rendering a phone’s 2D 
             <title>Patent Granted: Streaming of Composite Alpha Blended AR/MR Video</title>
             <link>https://thinkuldeep.com//post/patent-granted-xr-3/</link>
             <pubDate>Tue, 03 Jun 2025 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/patent-granted-xr-3/</guid>
             <description>💡 Innovation Often Begins with Solving Everyday Problems
 In our daily work, we regularly develop methods, processes, features, or approaches to address specific challenges. While these may initially seem like routine solutions, some of them quietly evolve into true innovations—often without us realizing it at the time.

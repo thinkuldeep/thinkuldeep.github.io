@@ -6,14 +6,12 @@
         <description>Recent content in Coap on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <managingEditor>thinkuldeep@gmail.com (Kuldeep Singh)</managingEditor>
-        <webMaster>thinkuldeep@gmail.com (Kuldeep Singh)</webMaster>
         <lastBuildDate>Fri, 13 Feb 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/coap/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Connecting Thread Devices to the Internet over CoAP</title>
             <link>https://thinkuldeep.com//post/iot-thread-devices-coap/</link>
             <pubDate>Fri, 13 Feb 2026 10:58:08 -0400</pubDate>
-            <author>thinkuldeep@gmail.com (Kuldeep Singh)</author>
+            
             <guid>https://thinkuldeep.com//post/iot-thread-devices-coap/</guid>
             <description>In my earlier IoT series, we explored Thread networks and protocols—how they form self-healing IPv6 mesh networks designed for low-power IoT environments.
 We looked at connectivity over UDP and TCP/HTTP protocols, and how Thread devices can reach the internet using a Border Router.

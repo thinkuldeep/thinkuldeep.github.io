@@ -6,22 +6,11 @@
         <description>Recent content in Technology on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sun, 24 May 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/technology/index.xml" rel="self" type="application/rss+xml" />
-        <item>
-            <title>🤖AI/works™, 📕 Jagjeevan - the Power of Sensible Defaults</title>
-            <link>https://thinkuldeep.com//post/ai-works-jagjeevan-sensible-defaults/</link>
-            <pubDate>Sun, 24 May 2026 10:58:08 -0400</pubDate>
-            
-            <guid>https://thinkuldeep.com//post/ai-works-jagjeevan-sensible-defaults/</guid>
-            <description>Recently, I got an opportunity to meet fellow thoughtworkers and leaders in person again at Thoughtworks. After the experiences I reflected on My ICU Time!, this meetup felt especially meaningful.
-One of the central themes of our discussions was AI/works™-Thoughtworks’ agentic development platform, and how it is changing the way we think about software development, collaboration, and even the meaning of “work” itself.
-As the conversations unfolded, I realized something deeply interesting.</description>
-        </item>
-        
+        <lastBuildDate>Tue, 26 May 2026 11:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/technology/index.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>About</title>
             <link>https://thinkuldeep.com//about/</link>
-            <pubDate>Fri, 15 May 2026 11:00:00 -0400</pubDate>
+            <pubDate>Tue, 26 May 2026 11:00:00 -0400</pubDate>
             
             <guid>https://thinkuldeep.com//about/</guid>
             <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
@@ -31,14 +20,26 @@ As the conversations unfolded, I realized something deeply interesting.</descrip
         <item>
             <title>Certificates</title>
             <link>https://thinkuldeep.com//about/certificates/</link>
-            <pubDate>Fri, 15 May 2026 11:00:00 -0400</pubDate>
+            <pubDate>Tue, 26 May 2026 11:00:00 -0400</pubDate>
             
             <guid>https://thinkuldeep.com//about/certificates/</guid>
-            <description>Anthropic - Claude Code in Action This browser does not support PDFs. Please download the PDF to view it: Download PDF.
+            <description>Anthropic - Claude Certified Architect This browser does not support PDFs. Please download the PDF to view it: Download PDF.
 ☞ Show Credential ☞ Course Details
-Anthropic - Introduction to Model Context Protocol This browser does not support PDFs. Please download the PDF to view it: Download PDF.
+Microsoft Certified: Azure AI Fundamentals ☞ Show Credential
+Anthropic - Claude Code in Action This browser does not support PDFs. Please download the PDF to view it: Download PDF.
 ☞ Show Credential ☞ Course Details
-Anthropic - Building with the Claude API This browser does not support PDFs. Please download the PDF to view it: Download PDF.</description>
+Anthropic - Introduction to Model Context Protocol This browser does not support PDFs.</description>
+        </item>
+        
+        <item>
+            <title>🤖AI/works™, 📕 Jagjeevan - the Power of Sensible Defaults</title>
+            <link>https://thinkuldeep.com//post/ai-works-jagjeevan-sensible-defaults/</link>
+            <pubDate>Sun, 24 May 2026 10:58:08 -0400</pubDate>
+            
+            <guid>https://thinkuldeep.com//post/ai-works-jagjeevan-sensible-defaults/</guid>
+            <description>Recently, I got an opportunity to meet fellow thoughtworkers and leaders in person again at Thoughtworks. After the experiences I reflected on My ICU Time!, this meetup felt especially meaningful.
+One of the central themes of our discussions was AI/works™-Thoughtworks’ agentic development platform, and how it is changing the way we think about software development, collaboration, and even the meaning of “work” itself.
+As the conversations unfolded, I realized something deeply interesting.</description>
         </item>
         
         <item>

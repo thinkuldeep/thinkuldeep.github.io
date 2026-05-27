@@ -6,7 +6,20 @@
         <description>Recent content in Learnings on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sun, 24 May 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/learnings/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Wed, 27 May 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/learnings/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Claude Certified Architect - Practices, Tips and Tricks</title>
+            <link>https://thinkuldeep.com//post/agentic-ai-hands-on-4/</link>
+            <pubDate>Wed, 27 May 2026 10:58:08 -0400</pubDate>
+            
+            <guid>https://thinkuldeep.com//post/agentic-ai-hands-on-4/</guid>
+            <description>The AI world is rapidly shifting from chatbots to agents.
+From simple prompting to orchestration. From asking questions to building systems that can reason, delegate, remember, retrieve, execute, and collaborate.
+Over the last few months, I have been deeply exploring this transition through hands-on experiments around Agentic AI
+Recently, I cleared the Claude Certified Architect (CCA-F) exam, and I wanted to share what genuinely helped me during this journey.
+One important realization during this journey:</description>
+        </item>
+        
         <item>
             <title>🤖AI/works™, 📕 Jagjeevan - the Power of Sensible Defaults</title>
             <link>https://thinkuldeep.com//post/ai-works-jagjeevan-sensible-defaults/</link>
@@ -616,25 +629,6 @@ Time was when virtual and augmented reality was regarded as simply gaming techno
             
             <guid>https://thinkuldeep.com//post/lessons_from_microservices_development/</guid>
             <description>Microservices-based development is happening all around the industry; more than 70% are trying development of microservice-based software. Microservices simplify integration of the businesses, processes, technology, and people by breaking down the big-bang monolith problem to a smaller set that can be handled independently. However, it also comes with the problem of managing relations between these smaller sets. We used to manage fewer independent units, so there was less operation and planning effort.</description>
-        </item>
-        
-        <item>
-            <title>Claude Code for Agentic AI: From Foundations to Real Agents</title>
-            <link>https://thinkuldeep.com//post/agentic-ai-hands-on-4/</link>
-            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            
-            <guid>https://thinkuldeep.com//post/agentic-ai-hands-on-4/</guid>
-            <description>In a previous hands-on articles, we built agents using local LLMs, and another article hands-on with AI-Integrated Development Environment using Claude Code. This article continues that journey,
-Compacting
-Memory Management Claude&amp;hellip;
-/Escape #memory&amp;hellip; /Touble tap escape - to escape to previous.. /compact - summarise the conversation and continue /clear
-/commands.
-/hooks&amp;hellip;
-//adding to git hub..
-Pre/Post hook.
-ToolName -
-https://claudecertifications.com/claude-certified-architect/domains/agentic-architecture
-Session management &amp;ndash;resume flag: continue previous sessions with preserved context</description>
         </item>
         
     </channel>

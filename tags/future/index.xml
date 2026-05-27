@@ -19,6 +19,19 @@ The summit focuses on real environments, from clinics and classrooms to factorie
         </item>
         
         <item>
+            <title>Claude Certified Architect - Practices, Tips and Tricks</title>
+            <link>https://thinkuldeep.com//post/agentic-ai-hands-on-4/</link>
+            <pubDate>Wed, 27 May 2026 10:58:08 -0400</pubDate>
+            
+            <guid>https://thinkuldeep.com//post/agentic-ai-hands-on-4/</guid>
+            <description>The AI world is rapidly shifting from chatbots to agents.
+From simple prompting to orchestration. From asking questions to building systems that can reason, delegate, remember, retrieve, execute, and collaborate.
+Over the last few months, I have been deeply exploring this transition through hands-on experiments around Agentic AI
+Recently, I cleared the Claude Certified Architect (CCA-F) exam, and I wanted to share what genuinely helped me during this journey.
+One important realization during this journey:</description>
+        </item>
+        
+        <item>
             <title>Claude Code for Agentic AI: From Foundations to Real Agents</title>
             <link>https://thinkuldeep.com//post/agentic-ai-hands-on-3/</link>
             <pubDate>Mon, 04 May 2026 10:58:08 -0400</pubDate>
@@ -255,25 +268,6 @@ AI&amp;rsquo;s ubiquitous reach - AI is going in every facet of technology, from
             <guid>https://thinkuldeep.com//post/future-of-shoping/</guid>
             <description>eXtended Reality (XR) that includes AR and VR technologies have been silently disrupting the gaming industry for more than a decade. In the recent past, the tech has gained some traction in the education and training space.
 Today, however, COVID-19 with its mandates of social distancing and less to no physical interactions has accelerated adoption for XR. The tech is virtual, contactless, and delivers outstanding brand experiences - perfect for the new normal that multiple industries like retail will benefit from.</description>
-        </item>
-        
-        <item>
-            <title>Claude Code for Agentic AI: From Foundations to Real Agents</title>
-            <link>https://thinkuldeep.com//post/agentic-ai-hands-on-4/</link>
-            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            
-            <guid>https://thinkuldeep.com//post/agentic-ai-hands-on-4/</guid>
-            <description>In a previous hands-on articles, we built agents using local LLMs, and another article hands-on with AI-Integrated Development Environment using Claude Code. This article continues that journey,
-Compacting
-Memory Management Claude&amp;hellip;
-/Escape #memory&amp;hellip; /Touble tap escape - to escape to previous.. /compact - summarise the conversation and continue /clear
-/commands.
-/hooks&amp;hellip;
-//adding to git hub..
-Pre/Post hook.
-ToolName -
-https://claudecertifications.com/claude-certified-architect/domains/agentic-architecture
-Session management &amp;ndash;resume flag: continue previous sessions with preserved context</description>
         </item>
         
     </channel>

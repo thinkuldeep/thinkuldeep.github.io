@@ -8,6 +8,17 @@
         <language>en</language>
         <lastBuildDate>Mon, 02 Mar 2020 12:00:00 -0500</lastBuildDate><atom:link href="https://thinkuldeep.com/post/index.xml" rel="self" type="application/rss+xml" />
         <item>
+            <title>From Tap to Trace: Observability in KMP Applications</title>
+            <link>https://thinkuldeep.com//post/sdui-observability-kmp/</link>
+            <pubDate>Fri, 12 Jun 2026 10:58:08 -0400</pubDate>
+            
+            <guid>https://thinkuldeep.com//post/sdui-observability-kmp/</guid>
+            <description>In an earlier article, I shared hands-on practices for building a cross-platform application using Kotlin Multiplatform (KMP) and Server-Driven UI (SDUI).
+We built a simple application where the UI layout is fully controlled by the server, allowing Android and iOS experiences to evolve simultaneously without requiring frequent App Store or Play Store releases.
+In this article, we will extend that application by implementing end-to-end observability, enabling us to monitor both mobile and server-side behavior in a single pane of glass using OpenTelemetry.</description>
+        </item>
+        
+        <item>
             <title>Claude Certified Architect - Practices, Tips and Tricks</title>
             <link>https://thinkuldeep.com//post/being-cca-f/</link>
             <pubDate>Wed, 27 May 2026 10:58:08 -0400</pubDate>

@@ -19,6 +19,16 @@ In this article, we will extend that application by implementing end-to-end obse
         </item>
         
         <item>
+            <title>About</title>
+            <link>https://thinkuldeep.com//about/</link>
+            <pubDate>Sat, 30 May 2026 01:00:00 -0400</pubDate>
+            
+            <guid>https://thinkuldeep.com//about/</guid>
+            <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
+👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
+        </item>
+        
+        <item>
             <title>Claude Certified Architect - Practices, Tips and Tricks</title>
             <link>https://thinkuldeep.com//post/being-cca-f/</link>
             <pubDate>Wed, 27 May 2026 10:58:08 -0400</pubDate>
@@ -29,16 +39,6 @@ From simple prompting to orchestration. From asking questions to building system
 Over the last few months, I have been deeply exploring this transition through hands-on experiments around Agentic AI
 Recently, I cleared the Claude Certified Architect (CCA-F) exam, and I wanted to share what genuinely helped me during this journey.
 One important realization during this journey:</description>
-        </item>
-        
-        <item>
-            <title>About</title>
-            <link>https://thinkuldeep.com//about/</link>
-            <pubDate>Tue, 26 May 2026 11:00:00 -0400</pubDate>
-            
-            <guid>https://thinkuldeep.com//about/</guid>
-            <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
-👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
         </item>
         
         <item>

@@ -6,7 +6,30 @@
         <description>Recent content in Technology on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Fri, 12 Jun 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sun, 28 Jun 2026 01:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>About</title>
+            <link>https://thinkuldeep.com//about/</link>
+            <pubDate>Sun, 28 Jun 2026 01:00:00 -0400</pubDate>
+            
+            <guid>https://thinkuldeep.com//about/</guid>
+            <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
+👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
+        </item>
+        
+        <item>
+            <title>Guest Lecture: AI Adoption and the Role of Humans</title>
+            <link>https://thinkuldeep.com//event/guest-lecture-ai-adaption-and-role-of-human/</link>
+            <pubDate>Thu, 18 Jun 2026 10:58:08 -0400</pubDate>
+            
+            <guid>https://thinkuldeep.com//event/guest-lecture-ai-adaption-and-role-of-human/</guid>
+            <description>AI has become almost omnipresent
+Today, everyone talks about AI, and sometimes it feels as if years of expertise can suddenly seem less valuable because AI appears capable of doing everything you do—and sometimes even what you cannot.
+This naturally raises big questions:
+🤖 Is AI eating jobs or creating new ones? ⚡ Is AI making humans obsolete or making us more powerful?
+🤔 Should we fear AI or embrace it?</description>
+        </item>
+        
         <item>
             <title>From Tap to Trace: Observability in KMP Applications</title>
             <link>https://thinkuldeep.com//post/sdui-observability-kmp/</link>
@@ -16,16 +39,6 @@
             <description>In an earlier article, I shared hands-on practices for building a cross-platform application using Kotlin Multiplatform (KMP) and Server-Driven UI (SDUI).
 We built a simple application where the UI layout is fully controlled by the server, allowing Android and iOS experiences to evolve simultaneously without requiring frequent App Store or Play Store releases.
 In this article, we will extend that application by implementing end-to-end observability, enabling us to monitor both mobile and server-side behavior in a single pane of glass using OpenTelemetry.</description>
-        </item>
-        
-        <item>
-            <title>About</title>
-            <link>https://thinkuldeep.com//about/</link>
-            <pubDate>Sat, 30 May 2026 01:00:00 -0400</pubDate>
-            
-            <guid>https://thinkuldeep.com//about/</guid>
-            <description>📨 Contact Me 📃 My Resume 🎗️ Communities I Support 🛟 My Life Mantras 🗣️ What others says about me 🐦‍🔥️ My Inventions 📚️ My Books 🏆️ My Awards
-👉 Few words about Kuldeep! Kuldeep has built his career empowering businesses with the Tech@Core approach. He has incubated IoT and AR/VR Centres of Excellence with a strong focus on building development practices such as CICD, TDD, automation testing and XP around new technologies.</description>
         </item>
         
         <item>

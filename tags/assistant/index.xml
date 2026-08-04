@@ -6,7 +6,19 @@
         <description>Recent content in Assistant on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sun, 29 Mar 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/assistant/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Tue, 04 Aug 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/assistant/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Engineering Leadership Playbook (ELP)</title>
+            <link>https://thinkuldeep.com//post/engineering-leadership-playbook-0/</link>
+            <pubDate>Tue, 04 Aug 2026 10:58:08 -0400</pubDate>
+            
+            <guid>https://thinkuldeep.com//post/engineering-leadership-playbook-0/</guid>
+            <description>Over the last two decades, I have had the privilege of working across software development, consulting, architecture, product engineering, IoT, XR, AI, web3, metaverse, embedded systems, and enterprise modernization.
+During this journey, I have worked with small incubator team of a few engineers, or enterprise projects with 100s of engineers, consulting organizations, product companies, and engineering teams spread across multiple countries.
+One observation has remained remarkably consistent.
+Organizations rarely struggle because of technology.</description>
+        </item>
+        
         <item>
             <title>AI-Assisted Jagjeevan Dose — My ICU Time!</title>
             <link>https://thinkuldeep.com//post/ai-assisted-dose-of-jagjeevan/</link>
@@ -28,6 +40,19 @@ AI explains reports. AI answers late-night doubts. AI reassures us when anxiety 
             <guid>https://thinkuldeep.com//post/ai-integrated-development-environment/</guid>
             <description>Integrated Development Environments (IDEs) have played a crucial role in shaping the way software is developed. Engineering Practices such as Agile development, eXtreme Programming, Test-Driven Development (TDD), became practical largely because IDEs provided a visual and integrated workflow for writing and managing code.
 In the early days, developers interacting heavily on command-line. Formatting code, navigating files, searching references, and refactoring logic were mostly manual tasks. Over time, IDEs transformed this experience.</description>
+        </item>
+        
+        <item>
+            <title>Engineering Budget Planning in the AI Era</title>
+            <link>https://thinkuldeep.com//post/engineering-budget-planning-in-ai-era/</link>
+            <pubDate>Sun, 03 Aug 2025 10:58:08 -0400</pubDate>
+            
+            <guid>https://thinkuldeep.com//post/engineering-budget-planning-in-ai-era/</guid>
+            <description>Every year, engineering leaders sit around conference tables with finance partners discussing one question:
+&amp;ldquo;How should we optimize the engineering budget?&amp;rdquo;
+Unfortunately, &amp;ldquo;optimize&amp;rdquo; often becomes synonymous with &amp;ldquo;reduce.&amp;rdquo;
+Can we reduce headcount? Can AI replace developers? Can we outsource more work? Can we delay hiring? Can we spend less on learning? These questions may improve the next quarterly financial report, but rarely do they build better engineering organizations.
+As Artificial Intelligence becomes part of every software engineering team&amp;rsquo;s daily workflow, another question has become increasingly common.</description>
         </item>
         
     </channel>

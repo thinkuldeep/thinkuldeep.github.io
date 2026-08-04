@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Head on Kuldeep Singh</title>
+        <link>https://thinkuldeep.com//tags/head/</link>
+        <description>Recent content in Head on Kuldeep Singh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Tue, 04 Aug 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/head/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Engineering Leadership Playbook (ELP)</title>
+            <link>https://thinkuldeep.com//post/engineering-leadership-playbook-0/</link>
+            <pubDate>Tue, 04 Aug 2026 10:58:08 -0400</pubDate>
+            
+            <guid>https://thinkuldeep.com//post/engineering-leadership-playbook-0/</guid>
+            <description>Over the last two decades, I have had the privilege of working across software development, consulting, architecture, product engineering, IoT, XR, AI, web3, metaverse, embedded systems, and enterprise modernization.
+During this journey, I have worked with small incubator team of a few engineers, or enterprise projects with 100s of engineers, consulting organizations, product companies, and engineering teams spread across multiple countries.
+One observation has remained remarkably consistent.
+Organizations rarely struggle because of technology.</description>
+        </item>
+        
+    </channel>
+</rss>

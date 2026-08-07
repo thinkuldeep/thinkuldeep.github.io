@@ -6,7 +6,19 @@
         <description>Recent content in Welcome to Kuldeep&#39;s Space on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Tue, 04 Aug 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Fri, 07 Aug 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>ELP - Engineering Budget Planning in the AI Era</title>
+            <link>https://thinkuldeep.com//post/engineering-budget-planning-in-ai-era/</link>
+            <pubDate>Fri, 07 Aug 2026 10:58:08 -0400</pubDate>
+            
+            <guid>https://thinkuldeep.com//post/engineering-budget-planning-in-ai-era/</guid>
+            <description>Every year, engineering leaders sit around conference tables with finance partners discussing one question:
+&amp;ldquo;How should we optimize the engineering budget?&amp;rdquo;
+Unfortunately, &amp;ldquo;optimize&amp;rdquo; often becomes synonymous with &amp;ldquo;reduce.&amp;rdquo;
+Can we reduce headcount? Can AI replace developers? Can we outsource more work? Can we delay hiring? Can we spend less on learning? These questions may improve the next quarterly financial report, but rarely do they build better engineering organizations. As part of Engineering Leadership Playbook (ELP) I share this article on engineering budget planning.</description>
+        </item>
+        
         <item>
             <title>Engineering Leadership Playbook (ELP)</title>
             <link>https://thinkuldeep.com//post/engineering-leadership-playbook-0/</link>
@@ -556,19 +568,6 @@ As part of the lead-up to the summit, OpenUK and OpenHQ have been hosting pre-su
             <description>💡 Innovation often starts with solving everyday problems. While working on XR solutions and building operating systems for smart glasses, we solved one such challenge.
 Earlier, with our patented AppSpace method, we enabled rendering a phone’s 2D apps in 3D on smart glasses. But we found a gap — there was no direct way for a 2D app (like Chrome) to interact with 3D spatial content.
 🏅 Thrilled to share that our solution to this is now recognized with a U.</description>
-        </item>
-        
-        <item>
-            <title>Engineering Budget Planning in the AI Era</title>
-            <link>https://thinkuldeep.com//post/engineering-budget-planning-in-ai-era/</link>
-            <pubDate>Sun, 03 Aug 2025 10:58:08 -0400</pubDate>
-            
-            <guid>https://thinkuldeep.com//post/engineering-budget-planning-in-ai-era/</guid>
-            <description>Every year, engineering leaders sit around conference tables with finance partners discussing one question:
-&amp;ldquo;How should we optimize the engineering budget?&amp;rdquo;
-Unfortunately, &amp;ldquo;optimize&amp;rdquo; often becomes synonymous with &amp;ldquo;reduce.&amp;rdquo;
-Can we reduce headcount? Can AI replace developers? Can we outsource more work? Can we delay hiring? Can we spend less on learning? These questions may improve the next quarterly financial report, but rarely do they build better engineering organizations.
-As Artificial Intelligence becomes part of every software engineering team&amp;rsquo;s daily workflow, another question has become increasingly common.</description>
         </item>
         
         <item>

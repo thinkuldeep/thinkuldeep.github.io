@@ -6,9 +6,24 @@
         <description>Recent content in Elp on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Fri, 07 Aug 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/elp/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Fri, 14 Aug 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/elp/index.xml" rel="self" type="application/rss+xml" />
         <item>
-            <title>ELP - Engineering Budget Planning in the AI Era</title>
+            <title>Platform Engineering in the AI Era: Building Engineering Leverage</title>
+            <link>https://thinkuldeep.com//post/elp-platform-engineering-in-ai-era/</link>
+            <pubDate>Fri, 14 Aug 2026 10:58:08 -0400</pubDate>
+            
+            <guid>https://thinkuldeep.com//post/elp-platform-engineering-in-ai-era/</guid>
+            <description>In my previous article in the Engineering Leadership Playbook, I wrote about engineering budgets in the AI era.
+The central idea was simple:
+Don&amp;rsquo;t optimize engineering for lower cost. Optimize it for greater human leverage.
+AI should not simply become a reason to ask, &amp;ldquo;How many engineers can we reduce?&amp;rdquo;, rather we ask:
+&amp;ldquo;How can we make every engineer more capable?&amp;rdquo;
+That naturally leads to the next question:
+Where do we create that leverage?</description>
+        </item>
+        
+        <item>
+            <title>Engineering Budget Planning in the AI Era</title>
             <link>https://thinkuldeep.com//post/engineering-budget-planning-in-ai-era/</link>
             <pubDate>Fri, 07 Aug 2026 10:58:08 -0400</pubDate>
             

@@ -6,7 +6,17 @@
         <description>Recent content in Design on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Tue, 26 May 2026 11:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Thu, 20 Aug 2026 01:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Patents and Papers</title>
+            <link>https://thinkuldeep.com//about/patents/</link>
+            <pubDate>Thu, 20 Aug 2026 01:00:00 -0400</pubDate>
+            
+            <guid>https://thinkuldeep.com//about/patents/</guid>
+            <description>This listing includes patent applications that are pending as well as patents that have already been granted by the United States Patent and Trademark Office (USPTO). It also includes the papers published in various conferences and journals.
+Technical Report - Metaverse: Technologies &amp;amp; Use Cases across verticals Contributed as Rapporteur to a technical report on the Metaverse and its usecases for India, in collaboration with Telecommunication Engineering Centre (TEC), and XTIC, IIT Madras ☞ The Technical Report ☞ More Details</description>
+        </item>
+        
         <item>
             <title>Certificates</title>
             <link>https://thinkuldeep.com//about/certificates/</link>
@@ -19,16 +29,6 @@ Microsoft Certified: Azure AI Fundamentals ☞ Show Credential
 Anthropic - Claude Code in Action This browser does not support PDFs. Please download the PDF to view it: Download PDF.
 ☞ Show Credential ☞ Course Details
 Anthropic - Introduction to Model Context Protocol This browser does not support PDFs.</description>
-        </item>
-        
-        <item>
-            <title>Patents and Papers</title>
-            <link>https://thinkuldeep.com//about/patents/</link>
-            <pubDate>Sat, 01 Nov 2025 01:00:00 -0400</pubDate>
-            
-            <guid>https://thinkuldeep.com//about/patents/</guid>
-            <description>This listing includes patent applications that are pending as well as patents that have already been granted by the United States Patent and Trademark Office (USPTO). It also includes the papers published in various conferences and journals.
-ITU-T Technical Report - Potential requirements of IoT-based Perishable Goods Monitoring System ITU-T Study Group 20 accepted my recommendation as a Technical Report. It defines key layers for IoT-based retail monitoring systems — including Sensing, Communication, Integration, Application &amp;amp; Analytics, and Management &amp;amp; Maintenance layers.</description>
         </item>
         
         <item>

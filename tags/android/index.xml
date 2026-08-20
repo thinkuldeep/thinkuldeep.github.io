@@ -6,7 +6,17 @@
         <description>Recent content in Android on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Fri, 12 Jun 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Thu, 20 Aug 2026 01:00:00 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Patents and Papers</title>
+            <link>https://thinkuldeep.com//about/patents/</link>
+            <pubDate>Thu, 20 Aug 2026 01:00:00 -0400</pubDate>
+            
+            <guid>https://thinkuldeep.com//about/patents/</guid>
+            <description>This listing includes patent applications that are pending as well as patents that have already been granted by the United States Patent and Trademark Office (USPTO). It also includes the papers published in various conferences and journals.
+Technical Report - Metaverse: Technologies &amp;amp; Use Cases across verticals Contributed as Rapporteur to a technical report on the Metaverse and its usecases for India, in collaboration with Telecommunication Engineering Centre (TEC), and XTIC, IIT Madras ☞ The Technical Report ☞ More Details</description>
+        </item>
+        
         <item>
             <title>From Tap to Trace: Observability in KMP Applications</title>
             <link>https://thinkuldeep.com//post/sdui-observability-kmp/</link>
@@ -26,16 +36,6 @@ In this article, we will extend that application by implementing end-to-end obse
             <guid>https://thinkuldeep.com//post/server-driven-ui-with-kmp/</guid>
             <description>Over the years, I’ve written about interoperability and why it is essential for enterprise systems that must cross technological and business boundaries. Enterprises applications rarely live in isolation. They integrate across platforms, stacks, and ecosystems. Without proper planning, maintaining multiple platforms and technology stacks quickly becomes expensive and complex.
 This challenge becomes even more evident in cross-platform mobile development. I have previously explored solutions like Unity, PhoneGap (Now Cordova), React Native and Titanium.</description>
-        </item>
-        
-        <item>
-            <title>Patents and Papers</title>
-            <link>https://thinkuldeep.com//about/patents/</link>
-            <pubDate>Sat, 01 Nov 2025 01:00:00 -0400</pubDate>
-            
-            <guid>https://thinkuldeep.com//about/patents/</guid>
-            <description>This listing includes patent applications that are pending as well as patents that have already been granted by the United States Patent and Trademark Office (USPTO). It also includes the papers published in various conferences and journals.
-ITU-T Technical Report - Potential requirements of IoT-based Perishable Goods Monitoring System ITU-T Study Group 20 accepted my recommendation as a Technical Report. It defines key layers for IoT-based retail monitoring systems — including Sensing, Communication, Integration, Application &amp;amp; Analytics, and Management &amp;amp; Maintenance layers.</description>
         </item>
         
         <item>

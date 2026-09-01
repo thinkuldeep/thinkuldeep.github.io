@@ -6,7 +6,19 @@
         <description>Recent content in Aiagent on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Fri, 14 Aug 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/aiagent/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Tue, 01 Sep 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/aiagent/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Why Engineering Experience (EX) is the New Competitive Advantage in the AI Era</title>
+            <link>https://thinkuldeep.com//post/elp-engineering-experience-competitive-advantage/</link>
+            <pubDate>Tue, 01 Sep 2026 10:58:08 -0400</pubDate>
+            
+            <guid>https://thinkuldeep.com//post/elp-engineering-experience-competitive-advantage/</guid>
+            <description>In my previous article in this ELP series, I wrote about Engineering Budget Planning in the AI Era. The message was simple:
+Don&amp;rsquo;t optimize engineering for lower cost. Optimize it for greater leverage.
+Then in another article, I explored Platform Engineering as one of the ways to create that leverage.
+Now, we may have better platforms, better automation, and increasingly capable AI, but when engineering leaders discuss productivity, the conversation usually revolves around delivery and outcome metrics.</description>
+        </item>
+        
         <item>
             <title>Platform Engineering in the AI Era: Building Engineering Leverage</title>
             <link>https://thinkuldeep.com//post/elp-platform-engineering-in-ai-era/</link>

@@ -25,7 +25,7 @@ body {
 }
 
 .bg-black-60{
-    background-color: #0079c880;
+    /**background-color: #0079c880;*/
 }
 
 .content {
@@ -418,5 +418,5 @@ code, .code {
 }
 
 .page-header-custom {
-    background-image: linear-gradient(rgb(0, 121, 200, 0.7), rgb(0, 121, 200, 0.6), rgb(0, 121, 200, 0.7), rgb(0, 121, 200, 0.6), rgb(0, 121, 200, 0.1));
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.1));
 }

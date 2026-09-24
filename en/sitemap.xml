@@ -3,7 +3,7 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://thinkuldeep.com//tags/about/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -18,7 +18,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/blogs/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -33,7 +33,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/books/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -48,7 +48,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/change/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -63,7 +63,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/communication/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -78,7 +78,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/consulting/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -93,7 +93,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/covid19/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -108,7 +108,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/dose/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -122,13 +122,8 @@
                 href="https://thinkuldeep.com//tags/dose/"
         />
     </url><url>
-        <loc>https://thinkuldeep.com//post/eight-thoughtful-years/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
         <loc>https://thinkuldeep.com//tags/event/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -142,8 +137,13 @@
                 href="https://thinkuldeep.com//tags/event/"
         />
     </url><url>
+        <loc>https://thinkuldeep.com//post/thoughtworks-farewell/</loc>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
         <loc>https://thinkuldeep.com//tags/general/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -158,7 +158,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/habit/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -173,12 +173,12 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/iit/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com//tags/impact/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -193,17 +193,17 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/interoperability/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com//tags/itu-t/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com//tags/jagjeevan/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -218,12 +218,12 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/journey/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com//tags/leadership/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -238,7 +238,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/learnings/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -253,7 +253,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/life/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -268,7 +268,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/metaverse/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -283,12 +283,12 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/mips/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com//tags/motivational/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -303,7 +303,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/opportunity/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -318,7 +318,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/reading/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -333,7 +333,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/reflection/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -348,7 +348,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/selfhelp/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -363,17 +363,17 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/story/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com//tags/student/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com//tags/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -393,7 +393,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/takeaway/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -408,7 +408,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/takeaways/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -423,7 +423,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/talks/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -438,12 +438,12 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/thoughtworkings/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com//tags/thoughtworks/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -463,7 +463,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/tips/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -478,12 +478,12 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/university/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com//</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -503,7 +503,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/writing/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -518,7 +518,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/xr/</loc>
-        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-23T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -536,6 +536,11 @@
                 hreflang="en"
                 href="https://thinkuldeep.com//tags/xr/"
         />
+    </url><url>
+        <loc>https://thinkuldeep.com//post/eight-thoughtful-years/</loc>
+        <lastmod>2026-09-14T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
     </url><url>
         <loc>https://thinkuldeep.com//tags/ai/</loc>
         <lastmod>2026-09-13T10:58:08-04:00</lastmod>

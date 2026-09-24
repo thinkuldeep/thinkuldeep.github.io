@@ -8,7 +8,7 @@ body {
     position: sticky;
     top: 0;
     text-align: center;
-    background: rgb(31, 32, 35);
+    background: #0079c8;
     z-index: 1000;
  }
 
@@ -21,11 +21,11 @@ body {
 }
 
 .bg-black {
-    background-color: rgb(43, 5, 111, 0.95);
+    background-color: #0079c8;
 }
 
 .bg-black-60{
-    background-color: rgb(43, 5, 111, 0.5);
+    background-color: #0079c880;
 }
 
 .content {
@@ -48,7 +48,7 @@ body {
 }
 
 a[href*="https://freehitcounters.org/"] {
-    color: rgb(43, 5, 111, 0.95);
+    color: rgb(0, 121, 200, 0.95);
 }
 
 .visitor-count{
@@ -69,7 +69,7 @@ img.home-link {
 }
 
 img.home-link:hover {
-    border: 3px solid #4e3588;
+    border: 3px solid #0502b0;
 }
 
 .f-subheadline-l {
@@ -86,7 +86,7 @@ a.show-search {
 }
 
 a.hover-green:hover {
-    color: #4e3588;
+    color: #0502b0;
 }
 
 a.hover-green:focus {
@@ -104,7 +104,7 @@ a.show-search  svg path {
     fill: rgba(255, 255, 255, 0.7)
 }
 a.show-search:hover svg path {
-    fill: #4e3588;
+    fill: #0502b0;
 }
 
 aside.search {
@@ -174,12 +174,12 @@ aside.search .close svg {
     height: 2rem;
 }
 aside.search .close svg path {
-    fill: #4e3588;
+    fill: #0502b0;
 }
 aside.search .search-wrapper {
     position: fixed;
     width: 100%;
-    background: rgb(43, 5, 111, 0.95);
+    background: rgb(0, 121, 200, 0.95);
     padding: 3rem 1.5rem 1.5rem;
 }
 @media screen and (max-width: 36rem) {
@@ -188,7 +188,7 @@ aside.search .search-wrapper {
     }
 }
 aside.search .search-wrapper input[type="search"] {
-    border: 3px solid #4e3588;
+    border: 3px solid #0502b0;
     color: rgba(0, 0, 0, 0.2);
     line-height: 2rem;
     font-size: 2rem;
@@ -215,10 +215,10 @@ aside.search .search-wrapper input[type="search"]::placeholder {
     opacity: 1;
 }
 aside.search .search-wrapper input[type="search"]:focus {
-    border: 3px solid #4e3588;
+    border: 3px solid #0502b0;
     outline: none;
     color: #3d434c;
-    box-shadow: 0 0 18px #4e3588;
+    box-shadow: 0 0 18px #0502b0;
 }
 aside.search .search-wrapper input[type="search"]::-webkit-search-decoration, aside.search .search-wrapper input[type="search"]::-webkit-search-cancel-button, aside.search .search-wrapper input[type="search"]::-webkit-search-results-button, aside.search .search-wrapper input[type="search"]::-webkit-search-results-decoration {
     -webkit-appearance: none;
@@ -248,13 +248,13 @@ aside.search ul.search-results li h4 a {
     border-bottom: none;
 }
 aside.search ul.search-results li .tags .tag {
-    color: #4e3588;
+    color: #0502b0;
 }
 aside.search ul.search-results li .tags .tag:first-child {
     margin-left: 0;
 }
 aside.search ul.search-results li .tags .tag:hover {
-    color: #4e3588;
+    color: #0502b0;
     background: rgba(255, 255, 255, .1);
 }
 aside.search ul.search-results li .purpose span {
@@ -294,7 +294,7 @@ code, .code {
 /* Add a black background color to the top navigation */
 .topnav {
     overflow: hidden;
-    background: rgb(43, 5, 111, 0.95);
+    background:#0079c8;
 }
 
 /* Style the links inside the navigation bar */
@@ -403,7 +403,7 @@ code, .code {
         position: sticky;
         top: 0;
         text-align: center;
-        background: rgb(43, 5, 111, 0.95);
+        background: #0079c8
         z-index: 1000;
     }
 
@@ -418,5 +418,5 @@ code, .code {
 }
 
 .page-header-custom {
-    background-image: linear-gradient(rgb(43, 5, 111, 0.7), rgb(43, 5, 111, 0.6), rgb(43, 5, 111, 0.7), rgb(43, 5, 111, 0.6), rgb(43, 5, 111, 0.1));
+    background-image: linear-gradient(rgb(0, 121, 200, 0.7), rgb(0, 121, 200, 0.6), rgb(0, 121, 200, 0.7), rgb(0, 121, 200, 0.6), rgb(0, 121, 200, 0.1));
 }

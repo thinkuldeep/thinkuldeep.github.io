@@ -420,3 +420,7 @@ code, .code {
 .page-header-custom {
     background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.1));
 }
+
+p a.link, a.tags.link, .subhead a.link {
+ color: #0079c8
+}

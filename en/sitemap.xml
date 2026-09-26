@@ -538,7 +538,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/ai/</loc>
-        <lastmod>2026-09-17T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-20T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -553,7 +553,7 @@
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/ar/</loc>
-        <lastmod>2026-09-17T10:58:08-04:00</lastmod>
+        <lastmod>2026-09-20T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
         <xhtml:link
@@ -570,6 +570,96 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://thinkuldeep.com//tags/ar/"
+        />
+    </url><url>
+        <loc>https://thinkuldeep.com//tags/awards/</loc>
+        <lastmod>2026-09-20T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com//tags/evaluator/</loc>
+        <lastmod>2026-09-20T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com//tags/ficci/</loc>
+        <lastmod>2026-09-20T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com//tags/gaming/</loc>
+        <lastmod>2026-09-20T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com//tags/judge/</loc>
+        <lastmod>2026-09-20T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com//tags/jury/</loc>
+        <lastmod>2026-09-20T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com//tags/mr/</loc>
+        <lastmod>2026-09-20T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com//de/tags/mr/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com//tags/mr/"
+        />
+    </url><url>
+        <loc>https://thinkuldeep.com//tags/startup/</loc>
+        <lastmod>2026-09-20T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com//tags/students/</loc>
+        <lastmod>2026-09-20T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com//hi/tags/students/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com//tags/students/"
+        />
+    </url><url>
+        <loc>https://thinkuldeep.com//event/ficci-baf-awards-super-jury/</loc>
+        <lastmod>2026-09-20T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url><url>
+        <loc>https://thinkuldeep.com//tags/vr/</loc>
+        <lastmod>2026-09-20T10:58:08-04:00</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://thinkuldeep.com//hi/tags/vr/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://thinkuldeep.com//de/tags/vr/"
+        />
+        <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://thinkuldeep.com//tags/vr/"
         />
     </url><url>
         <loc>https://thinkuldeep.com//tags/book/</loc>
@@ -622,21 +712,6 @@
                 href="https://thinkuldeep.com//tags/iot/"
         />
     </url><url>
-        <loc>https://thinkuldeep.com//tags/mr/</loc>
-        <lastmod>2026-09-17T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://thinkuldeep.com//de/tags/mr/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//tags/mr/"
-        />
-    </url><url>
         <loc>https://thinkuldeep.com//event/itu-t-sg20-rapporteur-group-meeting-26/</loc>
         <lastmod>2026-09-17T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -656,26 +731,6 @@
         <lastmod>2026-09-17T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com//tags/vr/</loc>
-        <lastmod>2026-09-17T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com//hi/tags/vr/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://thinkuldeep.com//de/tags/vr/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//tags/vr/"
-        />
     </url><url>
         <loc>https://thinkuldeep.com//tags/xtic/</loc>
         <lastmod>2026-09-17T10:58:08-04:00</lastmod>
@@ -1602,21 +1657,6 @@
                 href="https://thinkuldeep.com//post/jagjeevan-reaches-parliament/"
         />
     </url><url>
-        <loc>https://thinkuldeep.com//tags/students/</loc>
-        <lastmod>2026-04-06T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://thinkuldeep.com//hi/tags/students/"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://thinkuldeep.com//tags/students/"
-        />
-    </url><url>
         <loc>https://thinkuldeep.com//tags/testimonial/</loc>
         <lastmod>2026-04-06T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -1692,17 +1732,7 @@
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>https://thinkuldeep.com//tags/awards/</loc>
-        <lastmod>2026-03-25T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
         <loc>https://thinkuldeep.com//tags/javascript/</loc>
-        <lastmod>2026-03-25T01:00:00-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com//tags/judge/</loc>
         <lastmod>2026-03-25T01:00:00-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
@@ -2697,11 +2727,6 @@
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>
-        <loc>https://thinkuldeep.com//tags/ficci/</loc>
-        <lastmod>2024-11-28T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
         <loc>https://thinkuldeep.com//post/xr-summit-2024-takeaways/</loc>
         <lastmod>2024-11-28T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
@@ -2934,11 +2959,6 @@
     </url><url>
         <loc>https://thinkuldeep.com//event/ai-powered-xr/</loc>
         <lastmod>2024-07-25T10:58:08-04:00</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url><url>
-        <loc>https://thinkuldeep.com//tags/startup/</loc>
-        <lastmod>2024-07-15T10:58:08-04:00</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url><url>

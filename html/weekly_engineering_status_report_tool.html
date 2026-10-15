@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weekly Engineering Status Report</title>
+    <style>
+        :root {
+          --ink: #172033; --muted: #647084; --line: #dce2ea; --paper: #ffffff;
+          --bg: #f3f6fa; --blue: #2457a7; --blue-soft: #eaf1ff;
+          --green: #16794b; --green-bg: #e6f6ed; --amber: #946200; --amber-bg: #fff3d2;
+          --red: #b42318; --red-bg: #ffebe9;
+        }
+        * { box-sizing: border-box; }
+        body { margin: 0; background: var(--bg); color: var(--ink); font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+        .page { max-width: 1120px; margin: 28px auto; padding: 0 18px 36px; }
+        .toolbar { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:16px; }
+        .toolbar p { margin:0; color:var(--muted); font-size:12px; }
+        button { border:0; border-radius:9px; background:var(--blue); color:#fff; padding:10px 15px; font-weight:650; cursor:pointer; }
+        button.secondary { background:#fff; border:1px solid var(--line); color:var(--ink); }
+        header { background:linear-gradient(120deg,#173a72,#2863b7); color:white; padding:26px 30px; border-radius:16px 16px 0 0; }
+        .eyebrow { text-transform:uppercase; letter-spacing:.13em; font-size:10px; font-weight:750; opacity:.8; }
+        h1 { font-size:28px; margin:6px 0 16px; letter-spacing:-.025em; }
+        .meta-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; }
+        .meta { background:rgba(255,255,255,.11); border:1px solid rgba(255,255,255,.2); border-radius:10px; padding:10px 12px; min-height:68px; }
+        .meta label { display:block; color:#dbe7ff; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.07em; margin-bottom:5px; }
+        .meta input, .meta select { color:white; background:transparent; border:0; border-bottom:1px solid rgba(255,255,255,.4); border-radius:0; width:100%; padding:3px 0; outline:none; }
+        .meta input::placeholder { color:#d5e1f5; }
+        .meta select option { color:var(--ink); }
+        main { background:var(--paper); border:1px solid var(--line); border-top:0; border-radius:0 0 16px 16px; padding:22px; box-shadow:0 8px 28px rgba(22,39,68,.06); }
+        .section { margin-bottom:24px; }
+        .section:last-child { margin-bottom:0; }
+        .section-head { display:flex; align-items:center; gap:10px; margin:0 0 12px; font-size:15px; }
+        .num { display:inline-grid; place-items:center; width:26px; height:26px; border-radius:8px; background:var(--blue-soft); color:var(--blue); font-size:12px; }
+        .summary-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+        .field { border:1px solid var(--line); border-radius:10px; padding:12px; min-width:0; }
+        .field label { display:block; color:var(--muted); font-size:11px; font-weight:700; margin-bottom:6px; }
+        input, select, textarea { font:inherit; color:var(--ink); background:#fff; border:1px solid var(--line); border-radius:7px; padding:8px 9px; width:100%; min-width:0; }
+        textarea { resize:vertical; min-height:58px; }
+        input:focus, select:focus, textarea:focus { outline:2px solid #bfd3ff; border-color:#7da4ef; }
+        .status-line { display:flex; align-items:center; gap:9px; flex-wrap:wrap; }
+        .status-line select { width:auto; min-width:130px; }
+        .hint { color:var(--muted); font-size:11px; margin:8px 0 0; }
+        .table-wrap { overflow-x:auto; border:1px solid var(--line); border-radius:10px; }
+        table { border-collapse:collapse; width:100%; min-width:620px; }
+        th { background:#f7f9fc; color:#526078; text-align:left; text-transform:uppercase; letter-spacing:.06em; font-size:10px; padding:10px; }
+        td { padding:7px; border-top:1px solid var(--line); vertical-align:top; }
+        td input, td select, td textarea { border-color:transparent; background:transparent; padding:7px; }
+        td input:focus, td select:focus, td textarea:focus { background:white; border-color:#7da4ef; }
+        .risk-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+        .risk-card { border:1px solid var(--line); border-radius:10px; padding:12px; }
+        .risk-card h3 { margin:0 0 10px; font-size:12px; }
+        .risk-card .field { border:0; padding:0; margin-bottom:9px; }
+        .risk-card .field:last-child { margin-bottom:0; }
+        .add-row { margin-top:10px; padding:7px 11px; font-size:12px; }
+        .rules { background:#f7f9fc; border:1px solid var(--line); border-radius:10px; padding:14px 16px; }
+        .rules ol { margin:8px 0 0; padding-left:20px; color:#344054; }
+        .rules li { margin:5px 0; }
+        .footer { display:flex; justify-content:space-between; gap:12px; margin-top:18px; color:var(--muted); font-size:11px; }
+        [contenteditable="true"] { outline:none; }
+        @media (max-width:760px) {
+          .meta-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+          .summary-grid, .risk-grid { grid-template-columns:1fr; }
+          header { padding:22px 18px; } main { padding:16px; } h1 { font-size:24px; }
+          .toolbar { align-items:flex-start; flex-direction:column; }
+        }
+        @media print {
+          @page { size: A4; margin: 12mm; }
+          body { background:white; font-size:10px; }
+          .page { max-width:none; margin:0; padding:0; }
+          .toolbar, .add-row, .no-print { display:none !important; }
+          header { border-radius:0; padding:16px 18px; print-color-adjust:exact; -webkit-print-color-adjust:exact; }
+          h1 { font-size:21px; margin-bottom:10px; }
+          main { padding:14px; box-shadow:none; border-radius:0; }
+          .section { margin-bottom:15px; break-inside:avoid; }
+          .field { padding:8px; }
+          textarea { min-height:34px; }
+          th { print-color-adjust:exact; -webkit-print-color-adjust:exact; }
+          input, select, textarea { border-color:#dce2ea; padding:5px; }
+          .meta input, .meta select { border-color:rgba(255,255,255,.4); }
+          .footer { margin-top:10px; }
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+    <div class="toolbar">
+        <p>Editable report template · Replace the example status and bracketed prompts with current evidence.</p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <button class="secondary" type="button" onclick="resetReport()">Reset template</button>
+            <button type="button" onclick="window.print()">Print / Save as PDF</button>
+        </div>
+    </div>
+    <header>
+        <div class="eyebrow">Engineering governance · Weekly update</div>
+        <h1>Weekly Engineering Status</h1>
+        <div class="meta-grid">
+            <div class="meta"><label>Reporting period</label><input aria-label="Reporting period" placeholder="Start date – End date"></div>
+            <div class="meta"><label>Team / Product</label><input aria-label="Team or product" placeholder="Team name"></div>
+            <div class="meta"><label>Accountable leader</label><input aria-label="Accountable leader" placeholder="Engineering Manager"></div>
+            <div class="meta"><label>Overall status</label><select aria-label="Overall status"><option>Amber — illustrative</option><option>Green</option><option>Amber</option><option>Red</option><option>Not assessed</option></select></div>
+        </div>
+        <div style="margin-top:12px;max-width:520px">
+            <div class="meta"><label>Next milestone</label><input aria-label="Next milestone" placeholder="Milestone and date"></div>
+        </div>
+    </header>
+    <main>
+        <section class="section">
+            <h2 class="section-head"><span class="num">1</span> Executive summary</h2>
+            <div class="summary-grid">
+                <div class="field"><label>Overall confidence</label><select><option>Choose status…</option><option>Green</option><option>Amber</option><option>Red</option></select></div>
+                <div class="field"><label>Most important outcome delivered</label><textarea placeholder="Outcome delivered this week"></textarea></div>
+                <div class="field"><label>Biggest change since last report</label><textarea placeholder="What changed and why"></textarea></div>
+                <div class="field"><label>Primary concern</label><textarea placeholder="Risk or blocker requiring attention"></textarea></div>
+            </div>
+            <p class="hint">Lead with outcomes, changes, and exceptions—not a diary of activities.</p>
+        </section>
+
+        <section class="section">
+            <h2 class="section-head"><span class="num">2</span> Delivery and commitments</h2>
+            <div class="table-wrap"><table>
+                <thead><tr><th style="width:23%">Measure</th><th>Current position</th></tr></thead>
+                <tbody>
+                <tr><td><strong>Key milestones</strong></td><td><textarea placeholder="Status and forecast; distinguish commitment from forecast"></textarea></td></tr>
+                <tr><td><strong>Scope changes</strong></td><td><textarea placeholder="What changed and why"></textarea></td></tr>
+                <tr><td><strong>Dependencies</strong></td><td><textarea placeholder="Dependency, owner, expected resolution"></textarea></td></tr>
+                <tr><td><strong>Next week’s priorities</strong></td><td><textarea placeholder="Top three outcomes"></textarea></td></tr>
+                </tbody>
+            </table></div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-head"><span class="num">3</span> Engineering health</h2>
+            <div class="table-wrap"><table>
+                <thead><tr><th style="width:23%">Dimension</th><th style="width:20%">Status / trend</th><th>Evidence / source link</th></tr></thead>
+                <tbody>
+                <tr><td><strong>Quality and testing</strong></td><td><select><option>Not assessed</option><option>Green</option><option>Amber</option><option>Red</option></select></td><td><input placeholder="Pipeline, defects, link to evidence"></td></tr>
+                <tr><td><strong>Security</strong></td><td><select><option>Not assessed</option><option>Green</option><option>Amber</option><option>Red</option></select></td><td><input placeholder="Findings, exceptions, link to evidence"></td></tr>
+                <tr><td><strong>Reliability</strong></td><td><select><option>Not assessed</option><option>Green</option><option>Amber</option><option>Red</option></select></td><td><input placeholder="SLOs, incidents, link to evidence"></td></tr>
+                <tr><td><strong>Delivery flow</strong></td><td><select><option>Not assessed</option><option>Green</option><option>Amber</option><option>Red</option></select></td><td><input placeholder="Lead time, blocked work, link to evidence"></td></tr>
+                <tr><td><strong>Lifecycle practices</strong></td><td><select><option>Not assessed</option><option>Green</option><option>Amber</option><option>Red</option></select></td><td><input placeholder="Control evidence, gaps, link to evidence"></td></tr>
+                </tbody>
+            </table></div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-head"><span class="num">4</span> Top risks and mitigations</h2>
+            <div class="risk-grid">
+                <div class="risk-card">
+                    <h3>Risk 1</h3>
+                    <div class="field"><label>Risk and impact</label><textarea placeholder="Describe the risk and likely impact"></textarea></div>
+                    <div class="field"><label>Mitigation / contingency</label><textarea placeholder="Next action and fallback plan"></textarea></div>
+                    <div class="summary-grid">
+                        <div class="field"><label>Owner</label><input placeholder="Name or role"></div>
+                        <div class="field"><label>Target date</label><input type="date"></div>
+                    </div>
+                </div>
+                <div class="risk-card">
+                    <h3>Risk 2</h3>
+                    <div class="field"><label>Risk and impact</label><textarea placeholder="Describe the risk and likely impact"></textarea></div>
+                    <div class="field"><label>Mitigation / contingency</label><textarea placeholder="Next action and fallback plan"></textarea></div>
+                    <div class="summary-grid">
+                        <div class="field"><label>Owner</label><input placeholder="Name or role"></div>
+                        <div class="field"><label>Target date</label><input type="date"></div>
+                    </div>
+                </div>
+            </div>
+            <button class="secondary add-row" type="button" onclick="addRisk()">+ Add risk</button>
+        </section>
+
+        <section class="section">
+            <h2 class="section-head"><span class="num">5</span> Decisions and support required</h2>
+            <div class="table-wrap"><table id="decisions">
+                <thead><tr><th>Decision / support</th><th>Required from</th><th>Needed by</th><th class="no-print">Action</th></tr></thead>
+                <tbody><tr><td><input placeholder="Decision or support needed"></td><td><input placeholder="Leader / team"></td><td><input type="date" aria-label="Decision needed by"></td><td class="no-print"><button class="secondary" type="button" onclick="removeRow(this)">Remove</button></td></tr></tbody>
+            </table></div>
+            <button class="secondary add-row" type="button" onclick="addTableRow('decisions',3)">+ Add decision</button>
+        </section>
+
+        <section class="section">
+            <h2 class="section-head"><span class="num">6</span> Improvement actions</h2>
+            <div class="table-wrap"><table id="actions">
+                <thead><tr><th>Action</th><th>Owner</th><th>Due date</th><th>Status</th><th class="no-print">Action</th></tr></thead>
+                <tbody><tr><td><input placeholder="Improvement action"></td><td><input placeholder="Owner"></td><td><input type="date" aria-label="Action due date"></td><td><select><option>Not started</option><option>In progress</option><option>Blocked</option><option>Complete</option></select></td><td class="no-print"><button class="secondary" type="button" onclick="removeRow(this)">Remove</button></td></tr></tbody>
+            </table></div>
+            <button class="secondary add-row" type="button" onclick="addTableRow('actions',4)">+ Add improvement action</button>
+        </section>
+
+        <section class="section">
+            <h2 class="section-head"><span class="num">✓</span> Rules for good weekly reporting</h2>
+            <div class="rules">
+                <ol>
+                    <li>Report outcomes and exceptions, not a diary of activities.</li>
+                    <li>Include changes from the previous reporting period.</li>
+                    <li>Every amber or red status explains why, what happens next, and who owns the response.</li>
+                    <li>Distinguish committed dates from forecasts and estimates.</li>
+                    <li>Link to source systems instead of duplicating detailed technical evidence.</li>
+                    <li>Avoid misleading completion percentages when remaining work or uncertainty is significant.</li>
+                    <li>Treat a missing update as a visibility problem—not proof that a team is healthy or unhealthy.</li>
+                </ol>
+            </div>
+        </section>
+        <div class="footer"><span>Weekly Engineering Status · Working template</span><span>Replace prompts with current data and evidence.</span></div>
+    </main>
+</div>
+<script>
+    function addTableRow(id, cols) {
+      const tbody = document.querySelector('#' + id + ' tbody');
+      const tr = document.createElement('tr');
+      for (let i = 0; i < cols; i++) {
+        const td = document.createElement('td');
+        if (i === cols - 1) {
+          td.className = 'no-print';
+          td.innerHTML = '<button class="secondary" type="button" onclick="removeRow(this)">Remove</button>';
+        } else if (id === 'actions' && i === 3) {
+          td.innerHTML = '<select><option>Not started</option><option>In progress</option><option>Blocked</option><option>Complete</option></select>';
+        } else if ((id === 'decisions' && i === 2) || (id === 'actions' && i === 2)) {
+          td.innerHTML = '<input type="date">';
+        } else {
+          td.innerHTML = '<input placeholder="' + (id === 'decisions' ? ['Decision or support needed','Leader / team'][i] : ['Improvement action','Owner'][i]) + '">';
+        }
+        tr.appendChild(td);
+      }
+      tbody.appendChild(tr);
+    }
+    function removeRow(button) {
+      const row = button.closest('tr');
+      const body = row.parentElement;
+      if (body.rows.length > 1) row.remove();
+      else row.querySelectorAll('input, textarea').forEach(el => el.value = '');
+    }
+    function addRisk() {
+      const container = document.querySelector('.risk-grid');
+      const count = container.querySelectorAll('.risk-card').length + 1;
+      const card = document.createElement('div');
+      card.className = 'risk-card';
+      card.innerHTML = `<h3>Risk ${count}</h3>
+        <div class="field"><label>Risk and impact</label><textarea placeholder="Describe the risk and likely impact"></textarea></div>
+        <div class="field"><label>Mitigation / contingency</label><textarea placeholder="Next action and fallback plan"></textarea></div>
+        <div class="summary-grid"><div class="field"><label>Owner</label><input placeholder="Name or role"></div><div class="field"><label>Target date</label><input type="date"></div></div>`;
+      container.appendChild(card);
+    }
+    function resetReport() {
+      if (!confirm('Reset all fields to the blank template?')) return;
+      document.querySelectorAll('input, textarea').forEach(el => el.value = '');
+      document.querySelectorAll('select').forEach(el => el.selectedIndex = 0);
+      document.querySelectorAll('#decisions tbody tr:not(:first-child), #actions tbody tr:not(:first-child)').forEach(el => el.remove());
+      document.querySelectorAll('#decisions tbody tr, #actions tbody tr').forEach(row => row.querySelectorAll('input').forEach(el => el.value = ''));
+      document.querySelectorAll('.risk-card:not(:nth-child(-n+2))').forEach(el => el.remove());
+    }
+</script>
+</body>
+</html>

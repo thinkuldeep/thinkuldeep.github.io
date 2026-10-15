@@ -6,7 +6,18 @@
         <description>Recent content in Experience on Kuldeep Singh</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Tue, 01 Sep 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/experience/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sun, 11 Oct 2026 10:58:08 -0400</lastBuildDate><atom:link href="https://thinkuldeep.com/tags/experience/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>Engineering Governance in the AI Era</title>
+            <link>https://thinkuldeep.com//post/elp-engineering-governance-in-ai-era/</link>
+            <pubDate>Sun, 11 Oct 2026 10:58:08 -0400</pubDate>
+            
+            <guid>https://thinkuldeep.com//post/elp-engineering-governance-in-ai-era/</guid>
+            <description>As AI-assisted engineering accelerates software development, engineering governance becomes more essential than ever. A weak engineering practices and gaps in governance are exposed faster, with potentially greater consequences.
+Engineering leaders responsible for multiple teams may get plenty of information via dashboards, delivery reports, risk registers, and status meetings. Yet a fundamental question remains:
+Do we have confidence in the health of our engineering organisation, or are we simply confident in the status reports we receive?</description>
+        </item>
+        
         <item>
             <title>Why Engineering Experience (EX) is the New Competitive Advantage in the AI Era</title>
             <link>https://thinkuldeep.com//post/elp-engineering-experience-competitive-advantage/</link>

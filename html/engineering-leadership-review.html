@@ -1,0 +1,299 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weekly Engineering Leadership Review</title>
+    <style>
+        :root {
+          --bg: #f4f6fa;
+          --surface: #fff;
+          --text: #192438;
+          --muted: #68758a;
+          --line: #e4e9f1;
+          --blue: #315cce;
+          --blue-light: #edf2ff;
+          --green: #19764b;
+        }
+        * { box-sizing: border-box; }
+        body {
+          margin: 0;
+          background: var(--bg);
+          color: var(--text);
+          font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+        }
+        .container { max-width: 1120px; margin: auto; padding: 34px 24px; }
+        header {
+          display: flex; justify-content: space-between;
+          align-items: flex-start; gap: 20px; margin-bottom: 26px;
+        }
+        .eyebrow {
+          color: var(--blue); text-transform: uppercase;
+          letter-spacing: .13em; font-weight: 800; font-size: 11px;
+        }
+        h1 { font-size: clamp(27px, 4vw, 36px); line-height: 1.15; letter-spacing: -.04em; margin: 8px 0; }
+        .subtitle { color: var(--muted); max-width: 650px; }
+        .duration {
+          border: 1px solid var(--line); border-radius: 14px;
+          background: var(--surface); padding: 14px 20px; text-align: center;
+          min-width: 112px;
+        }
+        .duration strong { display: block; font-size: 28px; line-height: 1.2; }
+        .duration span { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+        .toolbar { display: flex; justify-content: space-between; gap: 12px; align-items: center; margin-bottom: 18px; }
+        .toolbar p { margin: 0; color: var(--muted); font-size: 12px; }
+        button {
+          cursor: pointer; border: 1px solid var(--line); background: white;
+          border-radius: 8px; padding: 9px 13px; font: inherit; font-size: 12px;
+          font-weight: 700; color: var(--text);
+        }
+        button.primary { background: var(--blue); border-color: var(--blue); color: white; }
+        button:hover { filter: brightness(.97); }
+        .agenda { display: grid; gap: 12px; }
+        .session {
+          display: grid; grid-template-columns: 82px 1fr auto;
+          gap: 18px; align-items: start; padding: 20px;
+          background: var(--surface); border: 1px solid var(--line);
+          border-radius: 14px; transition: border-color .2s;
+        }
+        .session.active { border-color: var(--blue); box-shadow: 0 0 0 2px #315cce12; }
+        .time {
+          background: var(--blue-light); color: var(--blue);
+          border-radius: 10px; text-align: center; padding: 10px 5px;
+          font-weight: 800; font-size: 19px; line-height: 1.2;
+        }
+        .time small { display: block; font-size: 10px; margin-top: 5px; text-transform: uppercase; }
+        h2 { font-size: 16px; margin: 0 0 5px; letter-spacing: -.02em; }
+        .prompt { color: var(--muted); margin: 0 0 12px; }
+        ul { padding-left: 18px; margin: 0; color: #344157; }
+        li { margin: 4px 0; }
+        .session-actions { display: flex; flex-direction: column; align-items: end; gap: 8px; }
+        .tag {
+          font-size: 10px; text-transform: uppercase; letter-spacing: .07em;
+          font-weight: 800; color: var(--muted); white-space: nowrap;
+        }
+        .progress-wrap { margin: 20px 0 26px; }
+        .progress-label { display: flex; justify-content: space-between; color: var(--muted); font-size: 12px; margin-bottom: 7px; }
+        .progress { height: 6px; background: #e1e6ef; border-radius: 99px; overflow: hidden; }
+        .progress div { height: 100%; width: 0%; background: var(--blue); transition: width .2s; }
+        .section {
+          background: var(--surface); border: 1px solid var(--line);
+          border-radius: 14px; padding: 22px; margin-top: 18px;
+        }
+        .section-heading { display: flex; justify-content: space-between; gap: 15px; align-items: start; margin-bottom: 15px; }
+        .section-heading h2 { font-size: 18px; }
+        .section-heading p { color: var(--muted); font-size: 12px; margin: 3px 0 0; }
+        .table-wrap { overflow-x: auto; }
+        table { border-collapse: collapse; width: 100%; min-width: 580px; font-size: 12px; }
+        th { background: #f8f9fc; color: var(--muted); text-transform: uppercase; font-size: 10px; letter-spacing: .06em; text-align: left; }
+        th, td { padding: 11px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+        tr:last-child td { border-bottom: 0; }
+        td input, td select {
+          width: 100%; min-width: 95px; border: 1px solid var(--line);
+          border-radius: 6px; padding: 7px; background: white; font: inherit;
+        }
+        td input:focus, td select:focus { outline: 2px solid #315cce33; border-color: var(--blue); }
+        .empty-note { color: var(--muted); font-size: 12px; margin-top: 12px; }
+        .footer { color: var(--muted); font-size: 11px; margin-top: 22px; display: flex; justify-content: space-between; gap: 12px; }
+        @media (max-width: 700px) {
+          .container { padding: 22px 14px; }
+          header { display: block; }
+          .duration { display: inline-block; margin-top: 16px; }
+          .session { grid-template-columns: 65px 1fr; gap: 12px; padding: 15px; }
+          .session-actions { grid-column: 2; flex-direction: row; align-items: center; }
+          .toolbar { align-items: flex-start; flex-direction: column; }
+          .section { padding: 15px; }
+        }
+        @media print {
+          body { background: white; }
+          .container { max-width: none; padding: 0; }
+          .toolbar button, .session-actions button, .section-heading button { display: none; }
+          .session, .section { break-inside: avoid; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+<main class="container">
+    <header>
+        <div>
+            <div class="eyebrow">Engineering governance · Template 2</div>
+            <h1>Weekly Engineering<br>Leadership Review</h1>
+            <p class="subtitle">
+                A decision-focused 60-minute review of portfolio changes, material risks,
+                cross-team dependencies and leadership interventions.
+                Weekly reports are read beforehand, not aloud in the meeting.
+            </p>
+        </div>
+        <div class="duration"><strong>60<span style="font-size:14px">m</span></strong><span>Total meeting time</span></div>
+    </header>
+
+    <div class="toolbar">
+        <p>Suggested rule: discuss exceptions and decisions; keep routine status updates asynchronous.</p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <button onclick="resetAgenda()">Reset agenda</button>
+            <button class="primary" onclick="window.print()">Print / Save PDF</button>
+        </div>
+    </div>
+
+    <div class="progress-wrap">
+        <div class="progress-label"><span>Agenda progress</span><span id="progressText">0 of 5 sessions completed</span></div>
+        <div class="progress"><div id="progressBar"></div></div>
+    </div>
+
+    <section class="agenda" id="agenda">
+        <article class="session" data-minutes="10">
+            <div class="time">10m<small>00–10</small></div>
+            <div>
+                <h2>01 · Portfolio changes</h2>
+                <p class="prompt">What has materially changed since last week?</p>
+                <ul>
+                    <li>Which commitments or forecasts have shifted?</li>
+                    <li>What new risks or opportunities need leadership attention?</li>
+                    <li>What has changed in overall portfolio confidence?</li>
+                </ul>
+            </div>
+            <div class="session-actions"><span class="tag">Align</span><button onclick="complete(this)">Mark done</button></div>
+        </article>
+
+        <article class="session" data-minutes="15">
+            <div class="time">15m<small>10–25</small></div>
+            <div>
+                <h2>02 · Exceptions and material risks</h2>
+                <p class="prompt">Focus on issues that threaten outcomes, customers or controls.</p>
+                <ul>
+                    <li>Critical incidents and reliability concerns</li>
+                    <li>Security findings or authorised exceptions</li>
+                    <li>Threatened milestones and deteriorating engineering health</li>
+                    <li>Mitigation, accountable owner and target date</li>
+                </ul>
+            </div>
+            <div class="session-actions"><span class="tag">Assess</span><button onclick="complete(this)">Mark done</button></div>
+        </article>
+
+        <article class="session" data-minutes="15">
+            <div class="time">15m<small>25–40</small></div>
+            <div>
+                <h2>03 · Cross-team dependencies</h2>
+                <p class="prompt">Resolve bottlenecks that individual teams cannot solve alone.</p>
+                <ul>
+                    <li>Ownership conflicts and unresolved dependencies</li>
+                    <li>Platform bottlenecks and shared capacity constraints</li>
+                    <li>Architecture decisions requiring alignment</li>
+                    <li>Agreed owner and date for each resolution</li>
+                </ul>
+            </div>
+            <div class="session-actions"><span class="tag">Resolve</span><button onclick="complete(this)">Mark done</button></div>
+        </article>
+
+        <article class="session" data-minutes="15">
+            <div class="time">15m<small>40–55</small></div>
+            <div>
+                <h2>04 · Decisions and interventions</h2>
+                <p class="prompt">Make the decisions needed to move forward.</p>
+                <ul>
+                    <li>Agree trade-offs across scope, time, quality and capacity</li>
+                    <li>Approve exceptions within delegated authority</li>
+                    <li>Assign leadership support to unblock delivery</li>
+                    <li>Record the decision, rationale and accountable owner</li>
+                </ul>
+            </div>
+            <div class="session-actions"><span class="tag">Decide</span><button onclick="complete(this)">Mark done</button></div>
+        </article>
+
+        <article class="session" data-minutes="5">
+            <div class="time">5m<small>55–60</small></div>
+            <div>
+                <h2>05 · Commitments and closure</h2>
+                <p class="prompt">Leave with clear decisions, ownership and deadlines.</p>
+                <ul>
+                    <li>Confirm decisions and action owners</li>
+                    <li>Validate deadlines and expected outcomes</li>
+                    <li>Identify items requiring executive escalation</li>
+                </ul>
+            </div>
+            <div class="session-actions"><span class="tag">Commit</span><button onclick="complete(this)">Mark done</button></div>
+        </article>
+    </section>
+
+    <section class="section">
+        <div class="section-heading">
+            <div><h2>Decision log</h2><p>Capture decisions made during the review, including rationale and ownership.</p></div>
+            <button class="primary" onclick="addRow('decisions')">+ Add decision</button>
+        </div>
+        <div class="table-wrap"><table id="decisions">
+            <thead><tr><th>Decision</th><th>Rationale / impact</th><th>Decision owner</th><th>Date</th><th></th></tr></thead>
+            <tbody><tr><td><input placeholder="Decision made"></td><td><input placeholder="Why / expected impact"></td><td><input placeholder="Name / role"></td><td><input type="date"></td><td><button onclick="removeRow(this)">Remove</button></td></tr></tbody>
+        </table></div>
+        <p class="empty-note">Record the decision, not just the discussion. Note any conditions or follow-up required.</p>
+    </section>
+
+    <section class="section">
+        <div class="section-heading">
+            <div><h2>Action register</h2><p>Track follow-through across teams and leadership.</p></div>
+            <button class="primary" onclick="addRow('actions')">+ Add action</button>
+        </div>
+        <div class="table-wrap"><table id="actions">
+            <thead><tr><th>Action / outcome</th><th>Accountable owner</th><th>Due date</th><th>Status</th><th></th></tr></thead>
+            <tbody><tr><td><input placeholder="Action required"></td><td><input placeholder="Name / role"></td><td><input type="date"></td><td><select><option>Not started</option><option>In progress</option><option>Blocked</option><option>Complete</option></select></td><td><button onclick="removeRow(this)">Remove</button></td></tr></tbody>
+        </table></div>
+        <p class="empty-note">Every action should have one accountable owner, a due date and a clear outcome.</p>
+    </section>
+
+    <section class="section">
+        <div class="section-heading"><div><h2>Meeting close-out</h2><p>Use the final five minutes to confirm the following.</p></div></div>
+        <label style="display:block;margin:10px 0"><input type="checkbox"> Decisions captured in the decision log</label>
+        <label style="display:block;margin:10px 0"><input type="checkbox"> Actions have owners and deadlines</label>
+        <label style="display:block;margin:10px 0"><input type="checkbox"> Executive escalations identified</label>
+        <label style="display:block;margin:10px 0"><input type="checkbox"> Updated actions communicated to relevant teams</label>
+    </section>
+
+    <footer class="footer">
+        <span>Weekly Engineering Leadership Review</span>
+        <span>60 minutes · Decisions over status reporting</span>
+    </footer>
+</main>
+
+<script>
+    function complete(button) {
+      const card = button.closest('.session');
+      const done = card.classList.toggle('active');
+      button.textContent = done ? 'Completed ✓' : 'Mark done';
+      button.setAttribute('aria-pressed', done);
+      updateProgress();
+    }
+    function updateProgress() {
+      const cards = [...document.querySelectorAll('.session')];
+      const count = cards.filter(c => c.classList.contains('active')).length;
+      document.getElementById('progressText').textContent = `${count} of ${cards.length} sessions completed`;
+      document.getElementById('progressBar').style.width = `${count / cards.length * 100}%`;
+    }
+    function resetAgenda() {
+      document.querySelectorAll('.session').forEach(card => {
+        card.classList.remove('active');
+        const button = card.querySelector('button');
+        button.textContent = 'Mark done';
+        button.setAttribute('aria-pressed', 'false');
+      });
+      updateProgress();
+    }
+    function addRow(tableId) {
+      const table = document.getElementById(tableId);
+      const tbody = table.querySelector('tbody');
+      const row = tbody.rows[0].cloneNode(true);
+      row.querySelectorAll('input').forEach(input => input.value = '');
+      row.querySelectorAll('select').forEach(select => select.selectedIndex = 0);
+      tbody.appendChild(row);
+      row.querySelector('input')?.focus();
+    }
+    function removeRow(button) {
+      const tbody = button.closest('tbody');
+      if (tbody.rows.length > 1) button.closest('tr').remove();
+      else {
+        button.closest('tr').querySelectorAll('input').forEach(input => input.value = '');
+        button.closest('tr').querySelectorAll('select').forEach(select => select.selectedIndex = 0);
+      }
+    }
+</script>
+</body>
+</html>

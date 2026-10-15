@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weekly Engineering Status</title>
+    <style>
+        :root {
+          --bg: #f4f6f9;
+          --surface: #ffffff;
+          --text: #172033;
+          --muted: #687386;
+          --line: #e3e8ef;
+          --blue: #2457c5;
+          --amber: #a96608;
+          --amber-bg: #fff2d9;
+          --green: #18794e;
+          --green-bg: #e3f6ec;
+          --red: #b42318;
+          --red-bg: #fee9e7;
+        }
+        * { box-sizing: border-box; }
+        body {
+          margin: 0;
+          background: var(--bg);
+          color: var(--text);
+          font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+        }
+        .page { max-width: 1180px; margin: 0 auto; padding: 32px 24px 48px; }
+        .topbar { display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; margin-bottom: 24px; }
+        .eyebrow { color: var(--blue); font-size: 11px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 7px; }
+        h1 { font-size: clamp(28px, 4vw, 38px); letter-spacing: -.04em; line-height: 1.12; margin: 0; }
+        .subtitle { color: var(--muted); margin-top: 8px; }
+        .period { color: var(--muted); font-size: 12px; text-align: right; white-space: nowrap; }
+        .period strong { display: block; color: var(--text); font-size: 14px; margin-top: 4px; }
+        .overview { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; margin-bottom: 18px; }
+        .metric, .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; box-shadow: 0 3px 12px rgba(20, 35, 60, .025); }
+        .metric { padding: 16px; min-height: 105px; }
+        .metric-label { color: var(--muted); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; margin-bottom: 9px; }
+        .metric-value { font-size: 16px; font-weight: 750; line-height: 1.25; overflow-wrap: anywhere; }
+        .metric-sub { color: var(--muted); font-size: 12px; margin-top: 5px; }
+        .status { display: inline-flex; align-items: center; gap: 7px; border-radius: 999px; padding: 5px 10px; font-size: 12px; font-weight: 800; }
+        .status::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+        .amber { color: var(--amber); background: var(--amber-bg); }
+        .green { color: var(--green); background: var(--green-bg); }
+        .red { color: var(--red); background: var(--red-bg); }
+        .layout { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(300px, .85fr); gap: 18px; align-items: start; }
+        .stack { display: grid; gap: 18px; }
+        .panel { padding: 20px; min-width: 0; }
+        .panel-head { display: flex; align-items: center; gap: 10px; margin-bottom: 15px; }
+        .number { display: grid; place-items: center; width: 27px; height: 27px; border-radius: 8px; background: #edf2ff; color: var(--blue); font-weight: 800; font-size: 12px; flex: 0 0 auto; }
+        h2 { font-size: 16px; letter-spacing: -.02em; margin: 0; }
+        .hint { color: var(--muted); font-size: 12px; margin: 2px 0 0; }
+        .summary-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .summary-item { padding: 12px; background: #f8fafc; border: 1px solid #edf0f5; border-radius: 10px; min-width: 0; }
+        .summary-item span { display: block; color: var(--muted); font-size: 11px; margin-bottom: 5px; }
+        .summary-item strong { font-size: 13px; font-weight: 650; }
+        .table-wrap { width: 100%; overflow-x: auto; }
+        table { border-collapse: collapse; width: 100%; font-size: 12px; }
+        th { color: var(--muted); text-align: left; font-weight: 750; text-transform: uppercase; letter-spacing: .045em; font-size: 10px; background: #f8fafc; }
+        th, td { padding: 11px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+        td:first-child { font-weight: 650; color: #283449; }
+        tr:last-child td { border-bottom: 0; }
+        .placeholder { color: #7a8495; font-style: italic; font-weight: 400; }
+        .risk { border: 1px solid #f1dfbd; background: #fffaf0; border-radius: 11px; padding: 14px; }
+        .risk-title { font-weight: 750; margin-bottom: 7px; }
+        .risk dl { display: grid; grid-template-columns: 92px 1fr; gap: 5px 10px; margin: 0; font-size: 12px; }
+        .risk dt { color: var(--muted); }
+        .risk dd { margin: 0; font-weight: 600; }
+        .action-list { display: grid; gap: 10px; }
+        .action { display: flex; gap: 10px; align-items: flex-start; padding: 11px 0; border-bottom: 1px solid var(--line); }
+        .action:last-child { border-bottom: 0; padding-bottom: 0; }
+        .checkbox { width: 16px; height: 16px; border: 1.5px solid #b8c2d0; border-radius: 4px; flex: 0 0 auto; margin-top: 2px; }
+        .action-main { flex: 1; min-width: 0; }
+        .action-main strong { display: block; font-size: 12px; }
+        .action-meta { color: var(--muted); font-size: 11px; margin-top: 3px; }
+        .footer { margin-top: 20px; display: flex; justify-content: space-between; gap: 12px; color: var(--muted); font-size: 11px; }
+        @media (max-width: 900px) {
+          .overview { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+          .layout { grid-template-columns: 1fr; }
+        }
+        @media (max-width: 600px) {
+          .page { padding: 22px 14px 32px; }
+          .topbar { display: block; }
+          .period { text-align: left; margin-top: 14px; }
+          .overview { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+          .summary-grid { grid-template-columns: 1fr; }
+          .panel { padding: 15px; }
+          .footer { display: block; }
+          .footer span { display: block; margin-top: 4px; }
+        }
+        @media print {
+          body { background: white; }
+          .page { max-width: none; padding: 0; }
+          .metric, .panel { box-shadow: none; break-inside: avoid; }
+          .layout { grid-template-columns: 1.35fr .85fr; }
+        }
+    </style>
+</head>
+<body>
+<main class="page">
+    <header class="topbar">
+        <div>
+            <div class="eyebrow">Engineering · Weekly report</div>
+            <h1>Weekly Engineering Status</h1>
+            <div class="subtitle">A concise view of delivery confidence, engineering health and decisions.</div>
+        </div>
+        <div class="period">REPORTING PERIOD<strong>[Start date – End date]</strong></div>
+    </header>
+
+    <section class="overview" aria-label="Report overview">
+        <div class="metric"><div class="metric-label">Team / Product</div><div class="metric-value">[Team name]</div><div class="metric-sub">Product or service</div></div>
+        <div class="metric"><div class="metric-label">Accountable leader</div><div class="metric-value">[Engineering Manager]</div><div class="metric-sub">Report owner</div></div>
+        <div class="metric"><div class="metric-label">Overall status</div><div class="metric-value"><span class="status amber">Amber</span></div><div class="metric-sub">Illustrative status</div></div>
+        <div class="metric"><div class="metric-label">Next milestone</div><div class="metric-value">[Milestone]</div><div class="metric-sub">[Target date]</div></div>
+        <div class="metric"><div class="metric-label">Overall confidence</div><div class="metric-value"><span class="status amber">Amber</span></div><div class="metric-sub">Delivery outlook</div></div>
+    </section>
+
+    <div class="layout">
+        <div class="stack">
+            <section class="panel">
+                <div class="panel-head"><span class="number">01</span><div><h2>Executive summary</h2><p class="hint">What changed, what matters, and whether the team is on track.</p></div></div>
+                <div class="summary-grid">
+                    <div class="summary-item"><span>Most important outcome delivered</span><strong class="placeholder">[Outcome]</strong></div>
+                    <div class="summary-item"><span>Biggest change since last report</span><strong class="placeholder">[Change]</strong></div>
+                    <div class="summary-item"><span>Primary concern</span><strong class="placeholder">[Risk or blocker]</strong></div>
+                    <div class="summary-item"><span>Overall confidence</span><strong><span class="status amber">Amber</span> <span class="placeholder">[Rationale]</span></strong></div>
+                </div>
+            </section>
+
+            <section class="panel">
+                <div class="panel-head"><span class="number">02</span><div><h2>Delivery and commitments</h2><p class="hint">Milestones, scope, dependencies and near-term priorities.</p></div></div>
+                <div class="table-wrap"><table>
+                    <thead><tr><th>Measure</th><th>Current position</th></tr></thead>
+                    <tbody>
+                    <tr><td>Key milestones</td><td class="placeholder">[Status and forecast]</td></tr>
+                    <tr><td>Scope changes</td><td class="placeholder">[What changed and why]</td></tr>
+                    <tr><td>Dependencies</td><td class="placeholder">[Owner and expected resolution]</td></tr>
+                    <tr><td>Next week’s priorities</td><td class="placeholder">[Top three outcomes]</td></tr>
+                    </tbody>
+                </table></div>
+            </section>
+
+            <section class="panel">
+                <div class="panel-head"><span class="number">03</span><div><h2>Engineering health</h2><p class="hint">Status should be supported by current evidence.</p></div></div>
+                <div class="table-wrap"><table>
+                    <thead><tr><th>Dimension</th><th>Status / trend</th><th>Evidence</th></tr></thead>
+                    <tbody>
+                    <tr><td>Quality and testing</td><td><span class="status amber">Amber</span></td><td class="placeholder">[Pipeline / defects]</td></tr>
+                    <tr><td>Security</td><td><span class="status green">Green</span></td><td class="placeholder">[Findings / exceptions]</td></tr>
+                    <tr><td>Reliability</td><td><span class="status amber">Amber</span></td><td class="placeholder">[SLO / incidents]</td></tr>
+                    <tr><td>Delivery flow</td><td><span class="status amber">Amber</span></td><td class="placeholder">[Lead time / blocked work]</td></tr>
+                    <tr><td>Lifecycle practices</td><td><span class="status green">Green</span></td><td class="placeholder">[Control evidence / gaps]</td></tr>
+                    </tbody>
+                </table></div>
+            </section>
+        </div>
+
+        <div class="stack">
+            <section class="panel">
+                <div class="panel-head"><span class="number">04</span><div><h2>Top risks and mitigations</h2><p class="hint">The risk, response and accountable owner.</p></div></div>
+                <div class="risk">
+                    <div class="risk-title">[Risk description and impact]</div>
+                    <dl>
+                        <dt>Mitigation</dt><dd class="placeholder">[Action and contingency]</dd>
+                        <dt>Owner</dt><dd class="placeholder">[Name or role]</dd>
+                        <dt>Target date</dt><dd class="placeholder">[Date]</dd>
+                    </dl>
+                </div>
+            </section>
+
+            <section class="panel">
+                <div class="panel-head"><span class="number">05</span><div><h2>Decisions and support required</h2><p class="hint">Items that need action beyond the team.</p></div></div>
+                <div class="table-wrap"><table>
+                    <thead><tr><th>Decision / support</th><th>Required from</th><th>Needed by</th></tr></thead>
+                    <tbody><tr><td class="placeholder">[Decision]</td><td class="placeholder">[Leader / team]</td><td class="placeholder">[Date]</td></tr></tbody>
+                </table></div>
+            </section>
+
+            <section class="panel">
+                <div class="panel-head"><span class="number">06</span><div><h2>Improvement actions</h2><p class="hint">Track actions through to completion.</p></div></div>
+                <div class="table-wrap"><table>
+                    <thead><tr><th>Action</th><th>Owner / due</th><th>Status</th></tr></thead>
+                    <tbody><tr><td class="placeholder">[Action]</td><td><span class="placeholder">[Owner]</span><br><span class="placeholder">[Due date]</span></td><td><span class="status amber">In progress</span></td></tr></tbody>
+                </table></div>
+            </section>
+
+            <section class="panel">
+                <div class="panel-head"><span class="number">i</span><div><h2>Reporting note</h2><p class="hint">Keep the report evidence-led.</p></div></div>
+                <p style="margin:0;color:var(--muted);font-size:12px">Replace placeholders with current facts. Use Green, Amber or Red consistently, call out material changes, and assign an owner and target date to every significant risk or action. Missing or stale evidence should not silently default to Green.</p>
+            </section>
+        </div>
+    </div>
+
+    <footer class="footer"><div>Weekly Engineering Status · Static report template</div><span>Prepared by: [Name / role] · Last updated: [Date]</span></footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,401 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Engineering Decisions & Actions Log</title>
+    <style>
+        :root {
+          --ink: #202938;
+          --muted: #64748b;
+          --line: #dbe2ea;
+          --surface: #f5f7fa;
+          --accent: #2457a7;
+        }
+        * { box-sizing: border-box; }
+        body {
+          margin: 0; font: 14px/1.5 system-ui, sans-serif;
+          color: var(--ink); background: var(--surface);
+        }
+        main { max-width: 1200px; margin: auto; padding: 28px 20px; }
+        h1 { margin: 0 0 6px; font-size: 27px; }
+        h2 { font-size: 18px; margin: 0 0 16px; }
+        p { color: var(--muted); }
+        .panel {
+          background: white; border: 1px solid var(--line);
+          border-radius: 10px; padding: 20px; margin: 18px 0;
+        }
+        .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+        .wide { grid-column: span 2; }
+        label { display: block; font-weight: 600; margin-bottom: 5px; }
+        input, select, textarea {
+          width: 100%; padding: 9px 10px; border: 1px solid #cbd5e1;
+          border-radius: 6px; font: inherit; background: white; color: var(--ink);
+        }
+        textarea { min-height: 78px; resize: vertical; }
+        .field { min-width: 0; }
+        .actions { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 16px; }
+        button {
+          padding: 9px 13px; border: 1px solid var(--line); border-radius: 6px;
+          background: white; color: var(--ink); cursor: pointer; font: inherit;
+        }
+        button.primary { background: var(--accent); color: white; border-color: var(--accent); }
+        button.danger { color: #b42318; }
+        button:hover { filter: brightness(.96); }
+        .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+        .stat { background: white; border: 1px solid var(--line); border-radius: 8px; padding: 14px; }
+        .stat strong { display: block; font-size: 24px; }
+        .stat span { color: var(--muted); font-size: 12px; }
+        .toolbar { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 14px; }
+        .toolbar input, .toolbar select { max-width: 260px; }
+        .table-wrap { overflow-x: auto; }
+        table { border-collapse: collapse; width: 100%; background: white; }
+        th, td { text-align: left; vertical-align: top; padding: 11px; border-bottom: 1px solid var(--line); }
+        th { background: #f8fafc; font-size: 12px; white-space: nowrap; }
+        td { min-width: 120px; }
+        td.details { min-width: 230px; white-space: pre-wrap; }
+        .tag { display: inline-block; padding: 3px 8px; border-radius: 20px; background: #edf2f7; font-size: 12px; }
+        .hint { font-size: 12px; }
+        .empty { text-align: center; color: var(--muted); padding: 24px; }
+        @media (max-width: 760px) {
+          .grid { grid-template-columns: 1fr; }
+          .wide { grid-column: span 1; }
+          .stats { grid-template-columns: repeat(2, 1fr); }
+          main { padding: 18px 12px; }
+        }
+        @media print {
+          body { background: white; }
+          main { max-width: none; padding: 0; }
+          .no-print, form, .actions-cell { display: none !important; }
+          .panel, .stat { border: 1px solid #ccc; break-inside: avoid; }
+          .table-wrap { overflow: visible; }
+          th, td { padding: 6px; font-size: 10px; }
+        }
+    </style>
+</head>
+<body>
+<main>
+    <header>
+        <h1>Engineering Decisions & Actions Log</h1>
+        <p>Record consequential engineering decisions, track commitments, and retain evidence that actions are complete.</p>
+    </header>
+
+    <section class="stats" aria-label="Summary">
+        <div class="stat"><strong id="total">0</strong><span>Total records</span></div>
+        <div class="stat"><strong id="decisions">0</strong><span>Decisions recorded</span></div>
+        <div class="stat"><strong id="open">0</strong><span>Actions outstanding</span></div>
+        <div class="stat"><strong id="overdue">0</strong><span>Overdue actions</span></div>
+    </section>
+
+    <section class="panel no-print">
+        <h2 id="formTitle">Record a decision or action</h2>
+        <form id="recordForm">
+            <div class="grid">
+                <div class="field">
+                    <label for="recordType">Record type *</label>
+                    <select id="recordType" required>
+                        <option value="Decision">Engineering decision</option>
+                        <option value="Action">Governance action</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="recordId">ID *</label>
+                    <input id="recordId" required placeholder="DEC-014 or A-101">
+                </div>
+                <div class="field">
+                    <label for="dateRaised">Date raised *</label>
+                    <input id="dateRaised" type="date" required>
+                </div>
+
+                <div class="field wide">
+                    <label for="title">Decision required / action *</label>
+                    <input id="title" required placeholder="Standardise authentication integration">
+                </div>
+                <div class="field">
+                    <label for="owner">Accountable owner *</label>
+                    <input id="owner" required placeholder="Engineering Director">
+                </div>
+
+                <div class="field wide decision-field">
+                    <label for="context">Context and problem</label>
+                    <textarea id="context" placeholder="What problem, risk, or opportunity prompted this record?"></textarea>
+                </div>
+                <div class="field decision-field">
+                    <label for="options">Options considered</label>
+                    <textarea id="options" placeholder="Alternative approaches and trade-offs"></textarea>
+                </div>
+
+                <div class="field wide decision-field">
+                    <label for="rationale">Decision and rationale</label>
+                    <textarea id="rationale" placeholder="Agreed approach and why it was selected"></textarea>
+                </div>
+                <div class="field">
+                    <label for="impact">Impacted teams / services</label>
+                    <input id="impact" placeholder="Platform, CRM, QE">
+                </div>
+
+                <div class="field">
+                    <label for="priority">Priority</label>
+                    <select id="priority">
+                        <option>Medium</option><option>Critical</option>
+                        <option>High</option><option>Low</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="status">Status *</label>
+                    <select id="status" required>
+                        <option>Open</option>
+                        <option>In progress</option>
+                        <option>Pending review</option>
+                        <option>Blocked</option>
+                        <option>Closed</option>
+                        <option>Deferred</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="dueDate">Due / review date</label>
+                    <input id="dueDate" type="date">
+                </div>
+
+                <div class="field wide">
+                    <label for="followUp">Follow-up actions, owners and deadlines</label>
+                    <textarea id="followUp" placeholder="Action — owner — due date. Use one line per action."></textarea>
+                </div>
+                <div class="field">
+                    <label for="closure">Evidence of closure</label>
+                    <textarea id="closure" placeholder="Test result, approved ADR, scan report, recovery test, or link"></textarea>
+                </div>
+
+                <div class="field wide decision-field">
+                    <label for="trigger">Review trigger</label>
+                    <textarea id="trigger" placeholder="What change, evidence, or condition should cause reconsideration?"></textarea>
+                </div>
+                <div class="field">
+                    <label for="reference">Reference / evidence link</label>
+                    <input id="reference" type="url" placeholder="https://...">
+                </div>
+            </div>
+            <p class="hint">Use a unique ID for each record. Create separate action records when individual commitments need independent ownership, deadlines, or closure evidence.</p>
+            <div class="actions">
+                <button class="primary" type="submit" id="saveButton">Save record</button>
+                <button type="button" id="clearButton">Clear form</button>
+                <button type="button" id="cancelEdit" hidden>Cancel edit</button>
+            </div>
+        </form>
+    </section>
+
+    <section class="panel">
+        <h2>Decision and action register</h2>
+        <div class="toolbar no-print">
+            <input id="search" type="search" placeholder="Search ID, title, owner, team…">
+            <select id="typeFilter">
+                <option value="">All record types</option>
+                <option>Decision</option><option>Action</option>
+            </select>
+            <select id="statusFilter">
+                <option value="">All statuses</option>
+                <option>Open</option><option>In progress</option>
+                <option>Pending review</option><option>Blocked</option>
+                <option>Closed</option><option>Deferred</option>
+            </select>
+            <button type="button" id="exportButton">Export CSV</button>
+            <button type="button" id="printButton">Print / Save PDF</button>
+        </div>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                <tr>
+                    <th>ID / Type</th>
+                    <th>Decision / Action</th>
+                    <th>Owner</th>
+                    <th>Priority</th>
+                    <th>Status</th>
+                    <th>Due / Review</th>
+                    <th>Closure evidence</th>
+                    <th class="no-print">Manage</th>
+                </tr>
+                </thead>
+                <tbody id="recordsBody">
+                <tr><td colspan="8" class="empty">No records yet. Add a decision or action above.</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="hint">Overdue means the due date has passed and the record is not closed. Deferred items remain visible for governance review.</p>
+    </section>
+    <p class="hint">Prototype note: records are held in this browser page's memory and are not persisted after refresh. Export CSV regularly, or connect this template to an approved shared system for team-wide use.</p>
+</main>
+
+<script>
+    (() => {
+      const $ = id => document.getElementById(id);
+      const fields = [
+        "recordType", "recordId", "dateRaised", "title", "owner", "context",
+        "options", "rationale", "impact", "priority", "status", "dueDate",
+        "followUp", "closure", "trigger", "reference"
+      ];
+      let records = [];
+      let editingId = null;
+
+      const today = new Date();
+      $("dateRaised").value = [
+        today.getFullYear(),
+        String(today.getMonth() + 1).padStart(2, "0"),
+        String(today.getDate()).padStart(2, "0")
+      ].join("-");
+
+      function value(id) { return $(id).value.trim(); }
+      function overdue(record) {
+        return record.dueDate &&
+          record.dueDate < new Date().toISOString().slice(0, 10) &&
+          record.status !== "Closed";
+      }
+      function escapeHTML(input) {
+        return String(input ?? "").replace(/[&<>"']/g, ch => ({
+          "&": "&amp;", "<": "&lt;", ">": "&gt;",
+          '"': "&quot;", "'": "&#39;"
+        })[ch]);
+      }
+
+      function updateFormMode() {
+        const isDecision = $("recordType").value === "Decision";
+        document.querySelectorAll(".decision-field").forEach(el => {
+          el.style.display = isDecision ? "" : "none";
+        });
+      }
+      $("recordType").addEventListener("change", updateFormMode);
+
+      function resetForm() {
+        $("recordForm").reset();
+        editingId = null;
+        $("dateRaised").value = today.toISOString().slice(0, 10);
+        $("formTitle").textContent = "Record a decision or action";
+        $("saveButton").textContent = "Save record";
+        $("cancelEdit").hidden = true;
+        updateFormMode();
+      }
+
+      function render() {
+        const query = value("search").toLowerCase();
+        const type = value("typeFilter");
+        const status = value("statusFilter");
+        const filtered = records.filter(r => {
+          const haystack = fields.map(k => r[k] || "").join(" ").toLowerCase();
+          return (!query || haystack.includes(query)) &&
+            (!type || r.recordType === type) &&
+            (!status || r.status === status);
+        });
+
+        $("total").textContent = records.length;
+        $("decisions").textContent = records.filter(r => r.recordType === "Decision").length;
+        $("open").textContent = records.filter(r => r.recordType === "Action" && r.status !== "Closed").length;
+        $("overdue").textContent = records.filter(overdue).length;
+
+        const body = $("recordsBody");
+        if (!filtered.length) {
+          body.innerHTML = '<tr><td colspan="8" class="empty">No matching records.</td></tr>';
+          return;
+        }
+
+        body.innerHTML = filtered.map(r => `
+          <tr>
+            <td><strong>${escapeHTML(r.recordId)}</strong><br>
+              <span class="tag">${escapeHTML(r.recordType)}</span></td>
+            <td class="details"><strong>${escapeHTML(r.title)}</strong>
+              ${r.context ? "<br>" + escapeHTML(r.context) : ""}
+              ${r.rationale ? "<br><br><strong>Decision:</strong> " + escapeHTML(r.rationale) : ""}
+              ${r.followUp ? "<br><br><strong>Follow-up:</strong><br>" + escapeHTML(r.followUp) : ""}
+              ${r.trigger ? "<br><br><strong>Review trigger:</strong> " + escapeHTML(r.trigger) : ""}
+              ${r.reference ? '<br><br><a href="' + escapeHTML(r.reference) + '" target="_blank" rel="noopener">Reference</a>' : ""}
+            </td>
+            <td>${escapeHTML(r.owner)}<br><span class="hint">${escapeHTML(r.impact)}</span></td>
+            <td>${escapeHTML(r.priority)}</td>
+            <td><span class="tag">${escapeHTML(r.status)}</span>
+              ${overdue(r) ? '<br><span style="color:#b42318">Overdue</span>' : ""}</td>
+            <td>${escapeHTML(r.dueDate || "—")}</td>
+            <td class="details">${escapeHTML(r.closure || "—")}</td>
+            <td class="actions-cell no-print">
+              <button type="button" data-edit="${escapeHTML(r.recordId)}">Edit</button>
+              <button type="button" class="danger" data-delete="${escapeHTML(r.recordId)}">Delete</button>
+            </td>
+          </tr>
+        `).join("");
+      }
+
+      $("recordForm").addEventListener("submit", event => {
+        event.preventDefault();
+        const record = {};
+        fields.forEach(k => record[k] = value(k));
+
+        const duplicate = records.some(r =>
+          r.recordId.toLowerCase() === record.recordId.toLowerCase() &&
+          r.recordId !== editingId
+        );
+        if (duplicate) {
+          alert("That ID already exists. Use a unique decision or action ID.");
+          return;
+        }
+
+        if (editingId) {
+          records = records.map(r => r.recordId === editingId ? record : r);
+        } else {
+          records.push(record);
+        }
+        resetForm();
+        render();
+      });
+
+      $("recordsBody").addEventListener("click", event => {
+        const editId = event.target.dataset.edit;
+        const deleteId = event.target.dataset.delete;
+
+        if (editId) {
+          const record = records.find(r => r.recordId === editId);
+          if (!record) return;
+          fields.forEach(k => $(k).value = record[k] || "");
+          editingId = editId;
+          $("formTitle").textContent = "Edit " + editId;
+          $("saveButton").textContent = "Update record";
+          $("cancelEdit").hidden = false;
+          updateFormMode();
+          $("recordForm").scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+
+        if (deleteId && confirm("Delete record " + deleteId + "?")) {
+          records = records.filter(r => r.recordId !== deleteId);
+          if (editingId === deleteId) resetForm();
+          render();
+        }
+      });
+
+      $("clearButton").addEventListener("click", resetForm);
+      $("cancelEdit").addEventListener("click", resetForm);
+      ["search", "typeFilter", "statusFilter"].forEach(id =>
+        $(id).addEventListener("input", render)
+      );
+      $("printButton").addEventListener("click", () => window.print());
+
+      $("exportButton").addEventListener("click", () => {
+        if (!records.length) {
+          alert("There are no records to export.");
+          return;
+        }
+        const headers = fields;
+        const csvCell = v => '"' + String(v ?? "").replace(/"/g, '""') + '"';
+        const csv = [headers, ...records.map(r => headers.map(k => r[k] || ""))]
+          .map(row => row.map(csvCell).join(",")).join("\r\n");
+        const blob = new Blob(["\uFEFF" + csv], { type: "text/csv;charset=utf-8;" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "engineering-decisions-actions.csv";
+        a.click();
+        URL.revokeObjectURL(url);
+      });
+
+      updateFormMode();
+      render();
+    })();
+</script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Executive Engineering Health — Illustrative Dashboard</title>
+  <style>
+    :root {
+      --ink: #172b4d;
+      --muted: #5e6c84;
+      --line: #dfe5ec;
+      --surface: #ffffff;
+      --canvas: #f5f7fa;
+      --blue: #175cd3;
+      --blue-soft: #eaf2ff;
+      --green: #18794e;
+      --green-soft: #e8f7ef;
+      --amber: #946200;
+      --amber-soft: #fff4d6;
+      --red: #b42318;
+      --red-soft: #ffebe9;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 28px;
+      background: var(--canvas); color: var(--ink);
+      font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .dashboard { max-width: 1120px; margin: 0 auto; }
+    .eyebrow {
+      margin: 0 0 6px; color: var(--blue); font-size: .76rem;
+      font-weight: 750; letter-spacing: .09em; text-transform: uppercase;
+    }
+    h1 { margin: 0; font-size: clamp(1.65rem, 3vw, 2.25rem); letter-spacing: -.035em; line-height: 1.15; }
+    .subtitle { color: var(--muted); margin: 10px 0 22px; }
+    .topline { display:flex; align-items:flex-start; justify-content:space-between; gap:16px; flex-wrap:wrap; }
+    .pill {
+      display:inline-flex; align-items:center; gap:7px; padding:6px 10px;
+      border:1px solid #cbd8ed; border-radius:999px; color:#244a82;
+      background:#f1f6ff; font-size:.78rem; font-weight:700; white-space:nowrap;
+    }
+    .dot { width:7px; height:7px; border-radius:50%; background:currentColor; }
+    .metrics { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; margin:22px 0; }
+    .card, .panel { background:var(--surface); border:1px solid var(--line); border-radius:15px; box-shadow:0 2px 8px rgba(23,43,77,.035); }
+    .card { padding:19px; min-height:150px; }
+    .metric-label { color:var(--muted); font-weight:650; font-size:.88rem; }
+    .metric-value { font-size:clamp(1.85rem,3vw,2.35rem); font-weight:780; letter-spacing:-.045em; line-height:1.2; margin:12px 0 7px; }
+    .metric-note { color:var(--muted); font-size:.84rem; }
+    .section-title { font-size:1.12rem; margin:0 0 4px; letter-spacing:-.015em; }
+    .section-subtitle { margin:0 0 16px; color:var(--muted); font-size:.9rem; }
+    .panel { padding:22px; }
+    .signals { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+    .signal {
+      display:grid; grid-template-columns:minmax(0,1fr) auto; gap:14px;
+      align-items:center; border:1px solid var(--line); border-radius:12px; padding:15px 16px;
+    }
+    .signal h3 { font-size:.96rem; margin:0 0 3px; }
+    .signal p { margin:0; color:var(--muted); font-size:.86rem; }
+    .status { display:inline-flex; align-items:center; gap:6px; border-radius:999px; padding:5px 9px; font-size:.75rem; font-weight:750; white-space:nowrap; }
+    .status::before { content:""; width:6px; height:6px; border-radius:50%; background:currentColor; }
+    .healthy { color:var(--green); background:var(--green-soft); }
+    .attention { color:var(--amber); background:var(--amber-soft); }
+    .critical { color:var(--red); background:var(--red-soft); }
+    .footnote { margin:17px 0 0; padding-top:14px; border-top:1px solid var(--line); color:var(--muted); font-size:.8rem; }
+    .footer { display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; color:var(--muted); font-size:.78rem; margin:14px 2px 0; }
+    @media (max-width:800px) { body { padding:18px; } .metrics { grid-template-columns:repeat(2,minmax(0,1fr)); } .signals { grid-template-columns:1fr; } }
+    @media (max-width:460px) { body { padding:12px; } .metrics { gap:9px; } .card { padding:14px; min-height:135px; } .panel { padding:16px; } .signal { grid-template-columns:1fr; align-items:start; } }
+    @media print { body { padding:0; background:white; } .card,.panel { box-shadow:none; break-inside:avoid; } }
+  </style>
+</head>
+<body>
+<main class="dashboard">
+  <header class="topline">
+    <div>
+      <p class="eyebrow">Engineering portfolio</p>
+      <h1>Executive engineering health</h1>
+      <p class="subtitle">A concise view of delivery confidence, material risks, and engineering health across teams.</p>
+    </div>
+    <span class="pill"><span class="dot"></span> Illustrative dashboard</span>
+  </header>
+
+  <section class="metrics" aria-label="Portfolio summary metrics">
+    <article class="card">
+      <div class="metric-label">Teams reporting</div>
+      <div class="metric-value">12 / 12</div>
+      <div class="metric-note">Reporting completeness</div>
+    </article>
+    <article class="card">
+      <div class="metric-label">Delivery confidence</div>
+      <div class="metric-value">9 / 12</div>
+      <div class="metric-note">Teams on track</div>
+    </article>
+    <article class="card">
+      <div class="metric-label">Critical risks</div>
+      <div class="metric-value">3</div>
+      <div class="metric-note">Require active ownership</div>
+    </article>
+    <article class="card">
+      <div class="metric-label">Overdue actions</div>
+      <div class="metric-value">5</div>
+      <div class="metric-note">Past target date</div>
+    </article>
+  </section>
+
+  <section class="panel" aria-labelledby="signals-title">
+    <h2 class="section-title" id="signals-title">Portfolio signals</h2>
+    <p class="section-subtitle">High-level indicators to focus leadership attention and guide decisions.</p>
+    <div class="signals">
+      <article class="signal">
+        <div><h3>Delivery</h3><p>Forecast against committed milestones</p></div>
+        <span class="status attention">Attention</span>
+      </article>
+      <article class="signal">
+        <div><h3>Quality</h3><p>Escaped defects and pipeline health</p></div>
+        <span class="status healthy">Healthy</span>
+      </article>
+      <article class="signal">
+        <div><h3>Reliability</h3><p>Service objectives and incidents</p></div>
+        <span class="status attention">Attention</span>
+      </article>
+      <article class="signal">
+        <div><h3>Security</h3><p>Critical vulnerabilities and exceptions</p></div>
+        <span class="status critical">Critical</span>
+      </article>
+      <article class="signal">
+        <div><h3>Engineering practices</h3><p>Evidence-backed controls and remediation</p></div>
+        <span class="status attention">Attention</span>
+      </article>
+    </div>
+    <p class="footnote">A useful rule is to show a metric only when its value can be interpreted against a target, baseline, threshold or meaningful trend. All figures and statuses above are illustrative, not actual organisational data.</p>
+  </section>
+
+  <div class="footer">
+    <span>Executive view · Review exceptions, decisions, and ownership</span>
+    <span>Template — adapt indicators and thresholds to your context</span>
+  </div>
+</main>
+</body>
+</html>

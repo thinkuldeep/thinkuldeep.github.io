@@ -424,3 +424,36 @@ code, .code {
 p a.link, a.tags.link, .subhead a.link {
  color: #0079c8
 }
+
+.ktable table {
+   border-collapse: separate;
+   border-spacing: 0;
+   border: solid thin #0079c8;
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+.ktable table th {
+    background-color: #0079c8;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.ktable th, .ktable td {
+    border : 1px solid #0079c8;
+    vertical-align: middle;
+    padding: 2px 0.5em;
+    font-size: 0.9em;
+}
+
+.lh-copy blockquote {
+  border-left: 4px solid #0079c8;
+  color: #0079c8;
+  font-style: italic;
+  background : #eee
+}
+
+header h1 {
+color: #0079c8;
+}

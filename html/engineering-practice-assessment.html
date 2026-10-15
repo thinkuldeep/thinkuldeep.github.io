@@ -1,0 +1,297 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Engineering Practice Assessment</title>
+    <style>
+        :root {
+          --bg:#f4f6fa;--surface:#fff;--text:#192438;--muted:#68758a;
+          --line:#e2e8f0;--blue:#315cce;--blue-light:#edf2ff;
+          --green:#18794e;--green-bg:#e4f6ec;--amber:#955900;--amber-bg:#fff1d6;
+          --red:#b42318;--red-bg:#fee9e7;
+        }
+        *{box-sizing:border-box}
+        body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+        .page{max-width:1250px;margin:auto;padding:30px 22px 42px}
+        header{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;margin-bottom:24px}
+        .eyebrow{color:var(--blue);font-size:11px;font-weight:800;letter-spacing:.13em;text-transform:uppercase}
+        h1{font-size:clamp(27px,4vw,36px);letter-spacing:-.04em;line-height:1.15;margin:7px 0}
+        .subtitle{color:var(--muted);max-width:790px;margin:0}
+        .header-badge{background:#fff;border:1px solid var(--line);border-radius:12px;padding:13px 16px;min-width:145px}
+        .header-badge strong{display:block;font-size:15px}
+        .header-badge span{font-size:11px;color:var(--muted)}
+        .toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:20px 0}
+        .toolbar p{margin:0;color:var(--muted);font-size:12px}
+        button{cursor:pointer;border:1px solid var(--line);background:#fff;color:var(--text);border-radius:8px;padding:9px 13px;font:inherit;font-size:12px;font-weight:750}
+        button.primary{background:var(--blue);border-color:var(--blue);color:white}
+        button:hover{filter:brightness(.97)}
+        .overview{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:18px}
+        .metric,.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:0 3px 12px #14233c06}
+        .metric{padding:15px}
+        .metric-label{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;font-weight:800}
+        .metric-value{font-size:24px;font-weight:800;line-height:1.3;margin-top:6px}
+        .metric-sub{font-size:11px;color:var(--muted)}
+        .panel{padding:20px;margin-bottom:18px;min-width:0}
+        .panel-head{display:flex;align-items:center;gap:10px;margin-bottom:15px}
+        .number{width:28px;height:28px;display:grid;place-items:center;background:var(--blue-light);color:var(--blue);border-radius:8px;font-size:12px;font-weight:800;flex-shrink:0}
+        h2{font-size:16px;letter-spacing:-.02em;margin:0}
+        .hint{font-size:12px;color:var(--muted);margin:3px 0 0}
+        .fields{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+        .field{min-width:0}
+        .field.wide{grid-column:span 2}
+        label{display:block;font-size:12px;font-weight:750;color:#354258;margin-bottom:6px}
+        input,select,textarea{width:100%;border:1px solid #d8e0eb;border-radius:8px;padding:9px 10px;background:white;color:var(--text);font:inherit;font-size:12px}
+        input:focus,select:focus,textarea:focus{outline:2px solid #315cce25;border-color:var(--blue)}
+        .table-wrap{width:100%;overflow-x:auto}
+        table{border-collapse:collapse;width:100%;min-width:1500px;font-size:12px}
+        th{background:#f8fafc;color:var(--muted);font-size:10px;letter-spacing:.055em;text-transform:uppercase;text-align:left;white-space:normal}
+        th,td{padding:10px 9px;border-bottom:1px solid var(--line);vertical-align:top}
+        tr:last-child td{border-bottom:0}
+        td:first-child{font-weight:750;min-width:120px}
+        td.expectation{min-width:190px;max-width:230px;color:#425067}
+        td.evidence{min-width:165px;max-width:210px;color:#425067}
+        td select,td input{min-width:105px;padding:8px}
+        td input[type="date"]{min-width:130px}
+        .status{display:inline-flex;border-radius:99px;padding:4px 8px;font-size:10px;font-weight:800;white-space:nowrap}
+        .s-pass{background:var(--green-bg);color:var(--green)}
+        .s-partial{background:var(--amber-bg);color:var(--amber)}
+        .s-fail{background:var(--red-bg);color:var(--red)}
+        .s-na{background:#edf0f5;color:#586477}
+        .notice{background:#f8faff;border:1px solid #dce6ff;border-radius:10px;padding:13px 15px;color:#40506a;font-size:12px;margin-bottom:18px}
+        .notice strong{color:var(--text)}
+        .guidance{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+        .guide{padding:14px;border:1px solid var(--line);border-radius:10px;background:#fafbfd}
+        .guide strong{display:block;margin-bottom:5px;font-size:12px}
+        .guide p{font-size:12px;color:var(--muted);margin:0}
+        .footer{display:flex;justify-content:space-between;gap:12px;color:var(--muted);font-size:11px;margin-top:18px}
+        @media(max-width:850px){.overview{grid-template-columns:repeat(2,minmax(0,1fr))}.fields{grid-template-columns:repeat(2,minmax(0,1fr))}.guidance{grid-template-columns:1fr}}
+        @media(max-width:550px){.page{padding:20px 12px}.panel{padding:14px}header{display:block}.header-badge{display:inline-block;margin-top:14px}.fields{grid-template-columns:1fr}.field.wide{grid-column:auto}.footer{display:block}.footer span{display:block;margin-top:5px}}
+        @media print{body{background:white}.page{max-width:none;padding:0}.toolbar button{display:none}.panel,.metric{box-shadow:none;break-inside:avoid}.table-wrap{overflow:visible}table{min-width:0;font-size:8px}th,td{padding:5px 4px}td input,td select{border:0;padding:2px;min-width:0;font-size:8px}.overview{grid-template-columns:repeat(4,1fr)}}
+    </style>
+</head>
+<body>
+<main class="page">
+    <header>
+        <div>
+            <div class="eyebrow">Engineering governance · Template 4</div>
+            <h1>Engineering Practice Assessment</h1>
+            <p class="subtitle">Assess whether engineering controls exist, operate effectively and produce evidence. Record gaps, accountable owners, remediation commitments, approved exceptions and retest outcomes.</p>
+        </div>
+        <div class="header-badge"><strong>Control assurance</strong><span>Existence + effectiveness</span></div>
+    </header>
+
+    <div class="toolbar">
+        <p>Illustrative starting statuses are unassessed. Select an assessment result for every applicable control.</p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <button onclick="resetAssessment()">Reset assessment</button>
+            <button onclick="window.print()">Print / Save PDF</button>
+            <button class="primary" onclick="downloadCSV()">Export CSV</button>
+        </div>
+    </div>
+
+    <section class="overview">
+        <div class="metric"><div class="metric-label">Controls assessed</div><div class="metric-value" id="assessed">0 / 6</div><div class="metric-sub">Controls with a recorded result</div></div>
+        <div class="metric"><div class="metric-label">Effective</div><div class="metric-value" id="effective">0</div><div class="metric-sub">Controls passing assessment</div></div>
+        <div class="metric"><div class="metric-label">Gaps identified</div><div class="metric-value" id="gaps">0</div><div class="metric-sub">Partial or ineffective controls</div></div>
+        <div class="metric"><div class="metric-label">High / critical severity</div><div class="metric-value" id="severe">0</div><div class="metric-sub">Open high-priority findings</div></div>
+    </section>
+
+    <div class="notice">
+        <strong>Assessment principle:</strong> A control is not effective simply because a policy, tool or pipeline exists. Verify that it is applied to the relevant production-bound changes, runs as intended, identifies failures and leads to appropriate action.
+    </div>
+
+    <section class="panel">
+        <div class="panel-head"><span class="number">01</span><div><h2>Assessment context</h2><p class="hint">Identify the scope and accountable assessor.</p></div></div>
+        <div class="fields">
+            <div class="field"><label for="team">Team / product</label><input id="team" placeholder="Team or product name"></div>
+            <div class="field"><label for="assessor">Assessor</label><input id="assessor" placeholder="Name / role"></div>
+            <div class="field"><label for="date">Assessment date</label><input id="date" type="date"></div>
+            <div class="field"><label for="period">Assessment period</label><input id="period" placeholder="e.g. Q4 2026"></div>
+            <div class="field wide"><label for="scope">Scope / systems assessed</label><input id="scope" placeholder="Repositories, services, pipelines or platforms included"></div>
+            <div class="field wide"><label for="notes">Overall observations</label><input id="notes" placeholder="Key findings, trends or scope limitations"></div>
+        </div>
+    </section>
+
+    <section class="panel">
+        <div class="panel-head"><span class="number">02</span><div><h2>Control assessment register</h2><p class="hint">Record existence and effectiveness separately, then assign severity and remediation where needed.</p></div></div>
+        <div class="table-wrap">
+            <table id="controls">
+                <thead>
+                <tr>
+                    <th>Control</th>
+                    <th>Expectation</th>
+                    <th>Evidence source</th>
+                    <th>Exists?</th>
+                    <th>Effective?</th>
+                    <th>Assessment</th>
+                    <th>Severity</th>
+                    <th>Gap owner</th>
+                    <th>Assessment date</th>
+                    <th>Remediation target</th>
+                    <th>Exception approval</th>
+                    <th>Retest result</th>
+                    <th>Evidence / notes</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr data-control="Peer review">
+                    <td>Peer review</td>
+                    <td class="expectation">Required changes receive appropriate review before merge.</td>
+                    <td class="evidence">Repository rules and pull requests</td>
+                    <td><select aria-label="Peer review exists" class="exists"><option value="">Unassessed</option><option>Yes</option><option>Partial</option><option>No</option></select></td>
+                    <td><select aria-label="Peer review effective" class="effective"><option value="">Unassessed</option><option>Yes</option><option>Partial</option><option>No</option><option>N/A</option></select></td>
+                    <td><select aria-label="Peer review assessment" class="assessment"><option value="">Unassessed</option><option>Pass</option><option>Partial</option><option>Fail</option><option>N/A</option></select></td>
+                    <td><select aria-label="Peer review severity" class="severity"><option value="">Not set</option><option>Low</option><option>Medium</option><option>High</option><option>Critical</option></select></td>
+                    <td><input aria-label="Peer review gap owner" placeholder="Owner"></td>
+                    <td><input aria-label="Peer review assessment date" type="date"></td>
+                    <td><input aria-label="Peer review remediation target" type="date"></td>
+                    <td><input aria-label="Peer review exception approval" placeholder="Approver / ref"></td>
+                    <td><select aria-label="Peer review retest result"><option value="">Not retested</option><option>Pass</option><option>Fail</option><option>Pending</option><option>N/A</option></select></td>
+                    <td><input aria-label="Peer review evidence" placeholder="Link / notes"></td>
+                </tr>
+                <tr data-control="Automated testing">
+                    <td>Automated testing</td>
+                    <td class="expectation">Critical paths have appropriate automated tests that run on relevant changes.</td>
+                    <td class="evidence">CI and test reports</td>
+                    <td><select aria-label="Automated testing exists" class="exists"><option value="">Unassessed</option><option>Yes</option><option>Partial</option><option>No</option></select></td>
+                    <td><select aria-label="Automated testing effective" class="effective"><option value="">Unassessed</option><option>Yes</option><option>Partial</option><option>No</option><option>N/A</option></select></td>
+                    <td><select aria-label="Automated testing assessment" class="assessment"><option value="">Unassessed</option><option>Pass</option><option>Partial</option><option>Fail</option><option>N/A</option></select></td>
+                    <td><select aria-label="Automated testing severity" class="severity"><option value="">Not set</option><option>Low</option><option>Medium</option><option>High</option><option>Critical</option></select></td>
+                    <td><input aria-label="Automated testing gap owner" placeholder="Owner"></td>
+                    <td><input aria-label="Automated testing assessment date" type="date"></td>
+                    <td><input aria-label="Automated testing remediation target" type="date"></td>
+                    <td><input aria-label="Automated testing exception approval" placeholder="Approver / ref"></td>
+                    <td><select aria-label="Automated testing retest result"><option value="">Not retested</option><option>Pass</option><option>Fail</option><option>Pending</option><option>N/A</option></select></td>
+                    <td><input aria-label="Automated testing evidence" placeholder="Link / notes"></td>
+                </tr>
+                <tr data-control="Security">
+                    <td>Security</td>
+                    <td class="expectation">Required scanning and remediation controls operate, with findings handled within agreed timelines.</td>
+                    <td class="evidence">Security platform</td>
+                    <td><select aria-label="Security exists" class="exists"><option value="">Unassessed</option><option>Yes</option><option>Partial</option><option>No</option></select></td>
+                    <td><select aria-label="Security effective" class="effective"><option value="">Unassessed</option><option>Yes</option><option>Partial</option><option>No</option><option>N/A</option></select></td>
+                    <td><select aria-label="Security assessment" class="assessment"><option value="">Unassessed</option><option>Pass</option><option>Partial</option><option>Fail</option><option>N/A</option></select></td>
+                    <td><select aria-label="Security severity" class="severity"><option value="">Not set</option><option>Low</option><option>Medium</option><option>High</option><option>Critical</option></select></td>
+                    <td><input aria-label="Security gap owner" placeholder="Owner"></td>
+                    <td><input aria-label="Security assessment date" type="date"></td>
+                    <td><input aria-label="Security remediation target" type="date"></td>
+                    <td><input aria-label="Security exception approval" placeholder="Approver / ref"></td>
+                    <td><select aria-label="Security retest result"><option value="">Not retested</option><option>Pass</option><option>Fail</option><option>Pending</option><option>N/A</option></select></td>
+                    <td><input aria-label="Security evidence" placeholder="Link / notes"></td>
+                </tr>
+                <tr data-control="Deployment">
+                    <td>Deployment</td>
+                    <td class="expectation">Release and recovery mechanisms are tested and usable.</td>
+                    <td class="evidence">Deployment pipeline</td>
+                    <td><select aria-label="Deployment exists" class="exists"><option value="">Unassessed</option><option>Yes</option><option>Partial</option><option>No</option></select></td>
+                    <td><select aria-label="Deployment effective" class="effective"><option value="">Unassessed</option><option>Yes</option><option>Partial</option><option>No</option><option>N/A</option></select></td>
+                    <td><select aria-label="Deployment assessment" class="assessment"><option value="">Unassessed</option><option>Pass</option><option>Partial</option><option>Fail</option><option>N/A</option></select></td>
+                    <td><select aria-label="Deployment severity" class="severity"><option value="">Not set</option><option>Low</option><option>Medium</option><option>High</option><option>Critical</option></select></td>
+                    <td><input aria-label="Deployment gap owner" placeholder="Owner"></td>
+                    <td><input aria-label="Deployment assessment date" type="date"></td>
+                    <td><input aria-label="Deployment remediation target" type="date"></td>
+                    <td><input aria-label="Deployment exception approval" placeholder="Approver / ref"></td>
+                    <td><select aria-label="Deployment retest result"><option value="">Not retested</option><option>Pass</option><option>Fail</option><option>Pending</option><option>N/A</option></select></td>
+                    <td><input aria-label="Deployment evidence" placeholder="Link / notes"></td>
+                </tr>
+                <tr data-control="Observability">
+                    <td>Observability</td>
+                    <td class="expectation">Critical services have actionable telemetry and alerts with appropriate response ownership.</td>
+                    <td class="evidence">Monitoring platform</td>
+                    <td><select aria-label="Observability exists" class="exists"><option value="">Unassessed</option><option>Yes</option><option>Partial</option><option>No</option></select></td>
+                    <td><select aria-label="Observability effective" class="effective"><option value="">Unassessed</option><option>Yes</option><option>Partial</option><option>No</option><option>N/A</option></select></td>
+                    <td><select aria-label="Observability assessment" class="assessment"><option value="">Unassessed</option><option>Pass</option><option>Partial</option><option>Fail</option><option>N/A</option></select></td>
+                    <td><select aria-label="Observability severity" class="severity"><option value="">Not set</option><option>Low</option><option>Medium</option><option>High</option><option>Critical</option></select></td>
+                    <td><input aria-label="Observability gap owner" placeholder="Owner"></td>
+                    <td><input aria-label="Observability assessment date" type="date"></td>
+                    <td><input aria-label="Observability remediation target" type="date"></td>
+                    <td><input aria-label="Observability exception approval" placeholder="Approver / ref"></td>
+                    <td><select aria-label="Observability retest result"><option value="">Not retested</option><option>Pass</option><option>Fail</option><option>Pending</option><option>N/A</option></select></td>
+                    <td><input aria-label="Observability evidence" placeholder="Link / notes"></td>
+                </tr>
+                <tr data-control="Incident learning">
+                    <td>Incident learning</td>
+                    <td class="expectation">Significant incidents result in tracked, owned and reviewed improvements.</td>
+                    <td class="evidence">Incident management system</td>
+                    <td><select aria-label="Incident learning exists" class="exists"><option value="">Unassessed</option><option>Yes</option><option>Partial</option><option>No</option></select></td>
+                    <td><select aria-label="Incident learning effective" class="effective"><option value="">Unassessed</option><option>Yes</option><option>Partial</option><option>No</option><option>N/A</option></select></td>
+                    <td><select aria-label="Incident learning assessment" class="assessment"><option value="">Unassessed</option><option>Pass</option><option>Partial</option><option>Fail</option><option>N/A</option></select></td>
+                    <td><select aria-label="Incident learning severity" class="severity"><option value="">Not set</option><option>Low</option><option>Medium</option><option>High</option><option>Critical</option></select></td>
+                    <td><input aria-label="Incident learning gap owner" placeholder="Owner"></td>
+                    <td><input aria-label="Incident learning assessment date" type="date"></td>
+                    <td><input aria-label="Incident learning remediation target" type="date"></td>
+                    <td><input aria-label="Incident learning exception approval" placeholder="Approver / ref"></td>
+                    <td><select aria-label="Incident learning retest result"><option value="">Not retested</option><option>Pass</option><option>Fail</option><option>Pending</option><option>N/A</option></select></td>
+                    <td><input aria-label="Incident learning evidence" placeholder="Link / notes"></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="panel">
+        <div class="panel-head"><span class="number">03</span><div><h2>Assessment guidance</h2><p class="hint">Apply consistent interpretation across teams.</p></div></div>
+        <div class="guidance">
+            <div class="guide"><strong>Pass</strong><p>The control exists, operates on the required scope, and evidence demonstrates that it works.</p></div>
+            <div class="guide"><strong>Partial</strong><p>The control exists or works inconsistently, has incomplete coverage, or needs material improvement.</p></div>
+            <div class="guide"><strong>Fail</strong><p>The control is absent, not operating, or cannot demonstrate the required assurance.</p></div>
+            <div class="guide"><strong>Severity</strong><p>Rate the impact and urgency of the gap using agreed organisational definitions.</p></div>
+            <div class="guide"><strong>Exception approval</strong><p>Record the authorised approver and reference, plus any expiry or review date in the evidence notes.</p></div>
+            <div class="guide"><strong>Retest</strong><p>Verify remediation using fresh evidence. A retest pass should not be inferred from a change being marked complete.</p></div>
+        </div>
+    </section>
+
+    <footer class="footer"><span>Engineering Practice Assessment · Template 4</span><span>Evidence-led assurance · Ownership · Remediation · Retest</span></footer>
+</main>
+<script>
+    function updateSummary(){
+      const rows=[...document.querySelectorAll('#controls tbody tr')];
+      let assessed=0,effective=0,gaps=0,severe=0;
+      rows.forEach(row=>{
+        const assessment=row.querySelector('.assessment').value;
+        const severity=row.querySelector('.severity').value;
+        if(assessment)assessed++;
+        if(assessment==='Pass')effective++;
+        if(['Partial','Fail'].includes(assessment))gaps++;
+        if(['High','Critical'].includes(severity)&&['Partial','Fail'].includes(assessment))severe++;
+      });
+      document.getElementById('assessed').textContent=assessed+' / '+rows.length;
+      document.getElementById('effective').textContent=effective;
+      document.getElementById('gaps').textContent=gaps;
+      document.getElementById('severe').textContent=severe;
+    }
+    document.querySelectorAll('#controls select').forEach(el=>el.addEventListener('change',updateSummary));
+    function resetAssessment(){
+      if(!confirm('Reset all control assessment fields?'))return;
+      document.querySelectorAll('#controls select').forEach(el=>el.selectedIndex=0);
+      document.querySelectorAll('#controls input').forEach(el=>el.value='');
+      updateSummary();
+    }
+    function downloadCSV(){
+      const rows=[];
+      rows.push(['Team / product',document.getElementById('team').value]);
+      rows.push(['Assessor',document.getElementById('assessor').value]);
+      rows.push(['Assessment date',document.getElementById('date').value]);
+      rows.push(['Assessment period',document.getElementById('period').value]);
+      rows.push(['Scope',document.getElementById('scope').value]);
+      rows.push([]);
+      const headers=['Control','Expectation','Evidence source','Exists?','Effective?','Assessment','Severity','Gap owner','Assessment date','Remediation target','Exception approval','Retest result','Evidence / notes'];
+      rows.push(headers);
+      document.querySelectorAll('#controls tbody tr').forEach(tr=>{
+        const cells=[tr.cells[0].innerText,tr.cells[1].innerText,tr.cells[2].innerText];
+        tr.querySelectorAll('select,input').forEach(el=>cells.push(el.value));
+        rows.push(cells);
+      });
+      const csv=rows.map(row=>row.map(value=>'"'+String(value??'').replace(/"/g,'""')+'"').join(',')).join('\r\n');
+      const blob=new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8;'});
+      const url=URL.createObjectURL(blob);
+      const a=document.createElement('a');
+      a.href=url;a.download='engineering-practice-assessment.csv';a.click();
+      URL.revokeObjectURL(url);
+    }
+    updateSummary();
+</script>
+</body>
+</html>

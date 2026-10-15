@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Engineering Risk Register</title>
+    <style>
+        :root {
+          --bg:#f4f6fa; --surface:#fff; --text:#182438; --muted:#68758a;
+          --line:#e2e8f0; --blue:#315cce; --blue-light:#edf2ff;
+          --green:#18794e; --green-bg:#e4f6ec; --amber:#9a5b00; --amber-bg:#fff1d6;
+          --red:#b42318; --red-bg:#fee9e7;
+        }
+        *{box-sizing:border-box}
+        body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+        .page{max-width:1180px;margin:auto;padding:30px 22px 44px}
+        header{display:flex;justify-content:space-between;gap:22px;align-items:flex-start;margin-bottom:22px}
+        .eyebrow{font-size:11px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:var(--blue)}
+        h1{font-size:clamp(27px,4vw,36px);line-height:1.15;letter-spacing:-.04em;margin:7px 0}
+        .subtitle{max-width:720px;color:var(--muted);margin:0}
+        .header-note{background:#fff;border:1px solid var(--line);border-radius:12px;padding:13px 16px;min-width:150px}
+        .header-note strong{display:block;font-size:13px}
+        .header-note span{color:var(--muted);font-size:11px}
+        .toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:20px 0}
+        .toolbar p{margin:0;color:var(--muted);font-size:12px}
+        button{border:1px solid var(--line);background:#fff;color:var(--text);padding:9px 13px;border-radius:8px;font:inherit;font-size:12px;font-weight:700;cursor:pointer}
+        button.primary{background:var(--blue);border-color:var(--blue);color:#fff}
+        button:hover{filter:brightness(.97)}
+        .grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(280px,.8fr);gap:18px;align-items:start}
+        .stack{display:grid;gap:18px;min-width:0}
+        .panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;min-width:0}
+        .panel-head{display:flex;align-items:center;gap:10px;margin-bottom:16px}
+        .number{width:28px;height:28px;display:grid;place-items:center;flex:0 0 auto;background:var(--blue-light);color:var(--blue);border-radius:8px;font-weight:800;font-size:12px}
+        h2{font-size:16px;letter-spacing:-.02em;margin:0}
+        .hint{font-size:12px;color:var(--muted);margin:3px 0 0}
+        label{display:block;font-size:12px;font-weight:750;color:#354258;margin-bottom:6px}
+        input,select,textarea{width:100%;border:1px solid #d8e0eb;border-radius:8px;padding:10px 11px;background:#fff;color:var(--text);font:inherit;font-size:13px}
+        textarea{min-height:84px;resize:vertical}
+        input:focus,select:focus,textarea:focus{outline:2px solid #315cce25;border-color:var(--blue)}
+        .field{min-width:0}
+        .fields{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+        .fields .full{grid-column:1/-1}
+        small.help{display:block;color:var(--muted);font-size:11px;font-weight:400;margin-top:5px}
+        .risk-score{border-radius:12px;padding:15px;background:#f8fafc;border:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;align-items:center}
+        .risk-score .label{font-size:11px;color:var(--muted);text-transform:uppercase;font-weight:800;letter-spacing:.06em}
+        .risk-score strong{font-size:26px;line-height:1.2}
+        .pill{display:inline-flex;align-items:center;border-radius:99px;padding:5px 10px;font-size:11px;font-weight:800;white-space:nowrap}
+        .low{background:var(--green-bg);color:var(--green)}
+        .medium{background:var(--amber-bg);color:var(--amber)}
+        .high{background:var(--red-bg);color:var(--red)}
+        .scale{font-size:12px;color:#3f4c60;margin:0;padding-left:18px}
+        .scale li{margin:6px 0}
+        .example{background:#f8faff;border-left:3px solid var(--blue);padding:13px 15px;border-radius:0 9px 9px 0;color:#3e4b61;font-size:12px}
+        .example strong{display:block;color:var(--text);margin-bottom:5px}
+        .table-wrap{overflow-x:auto}
+        table{border-collapse:collapse;width:100%;min-width:760px;font-size:12px}
+        th{background:#f8fafc;color:var(--muted);font-size:10px;letter-spacing:.06em;text-transform:uppercase;text-align:left}
+        th,td{padding:11px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+        tr:last-child td{border-bottom:0}
+        td input,td select{min-width:90px;padding:7px;font-size:12px}
+        .empty{color:var(--muted);font-size:12px;margin:12px 0 0}
+        .footer{display:flex;justify-content:space-between;gap:12px;color:var(--muted);font-size:11px;margin-top:20px}
+        @media(max-width:820px){.grid{grid-template-columns:1fr}.header-note{min-width:125px}}
+        @media(max-width:580px){.page{padding:20px 12px 30px}header{display:block}.header-note{margin-top:14px;display:inline-block}.panel{padding:15px}.fields{grid-template-columns:1fr}.fields .full{grid-column:auto}.footer{display:block}.footer span{display:block;margin-top:5px}}
+        @media print{body{background:#fff}.page{max-width:none;padding:0}.toolbar button{display:none}.panel{break-inside:avoid;box-shadow:none}.grid{grid-template-columns:1.2fr .8fr}input,select,textarea{border-color:#bbb}}
+    </style>
+</head>
+<body>
+<main class="page">
+    <header>
+        <div>
+            <div class="eyebrow">Engineering governance · Risk management</div>
+            <h1>Engineering Risk Register</h1>
+            <p class="subtitle">A consistent, evidence-led risk record for teams and engineering leadership. Capture the cause, uncertain event, impact, response, ownership and escalation conditions—not just a status colour.</p>
+        </div>
+        <div class="header-note"><strong>Reusable template</strong><span>One record per risk · Cross-team ready</span></div>
+    </header>
+
+    <div class="toolbar">
+        <p>Complete the fields below. Likelihood × impact calculates an inherent risk score.</p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <button onclick="clearForm()">Clear form</button>
+            <button onclick="window.print()">Print / Save PDF</button>
+            <button class="primary" onclick="addRegisterRow()">Add to register ↓</button>
+        </div>
+    </div>
+
+    <div class="grid">
+        <div class="stack">
+            <section class="panel">
+                <div class="panel-head"><span class="number">01</span><div><h2>Risk identification</h2><p class="hint">Identify the risk and the team accountable for it.</p></div></div>
+                <div class="fields">
+                    <div class="field"><label for="riskId">Risk ID</label><input id="riskId" value="RISK-001" placeholder="e.g. RISK-001"></div>
+                    <div class="field"><label for="team">Team / product</label><input id="team" placeholder="Team or product name"></div>
+                    <div class="field"><label for="category">Category</label><select id="category"><option>Delivery</option><option>Architecture</option><option>Security</option><option>Reliability</option><option>People</option><option>Dependency</option><option>Compliance</option></select></div>
+                    <div class="field"><label for="owner">Risk owner</label><input id="owner" placeholder="Person accountable"></div>
+                    <div class="field full"><label for="statement">Risk statement</label><textarea id="statement" placeholder="Because [cause], [uncertain event] may occur, potentially resulting in [impact]."></textarea><small class="help">Use the structure: cause → uncertain event → potential impact.</small></div>
+                </div>
+            </section>
+
+            <section class="panel">
+                <div class="panel-head"><span class="number">02</span><div><h2>Likelihood, impact and exposure</h2><p class="hint">Use a consistent 1–5 scale across all teams.</p></div></div>
+                <div class="fields">
+                    <div class="field"><label for="likelihood">Likelihood (1–5)</label><select id="likelihood" onchange="updateScore()"><option value="1">1 — Rare</option><option value="2">2 — Unlikely</option><option value="3" selected>3 — Possible</option><option value="4">4 — Likely</option><option value="5">5 — Almost certain</option></select></div>
+                    <div class="field"><label for="impact">Impact (1–5)</label><select id="impact" onchange="updateScore()"><option value="1">1 — Negligible</option><option value="2">2 — Minor</option><option value="3" selected>3 — Moderate</option><option value="4">4 — Major</option><option value="5">5 — Severe</option></select></div>
+                    <div class="field full"><div class="risk-score"><div><div class="label">Inherent risk score</div><strong id="score">9 / 25</strong></div><span id="level" class="pill medium">Medium · Illustrative</span></div><small class="help">Example bands: 1–4 Low, 5–14 Medium, 15–25 High. Adapt bands to your organisation’s risk policy.</small></div>
+                    <div class="field"><label for="residual">Residual risk</label><select id="residual"><option value="">Select remaining exposure</option><option>Low</option><option>Medium</option><option>High</option><option>Not yet assessed</option></select></div>
+                    <div class="field"><label for="target">Target date</label><input id="target" type="date"></div>
+                </div>
+            </section>
+
+            <section class="panel">
+                <div class="panel-head"><span class="number">03</span><div><h2>Response plan</h2><p class="hint">Describe prevention, recovery and the point at which leadership must act.</p></div></div>
+                <div class="fields">
+                    <div class="field full"><label for="mitigation">Mitigation</label><textarea id="mitigation" placeholder="Actions that reduce the likelihood or impact; include owners where useful."></textarea></div>
+                    <div class="field full"><label for="contingency">Contingency</label><textarea id="contingency" placeholder="What will the team do if the risk materialises?"></textarea></div>
+                    <div class="field full"><label for="trigger">Escalation trigger</label><textarea id="trigger" placeholder="A measurable condition or event that requires leadership intervention."></textarea></div>
+                    <div class="field full"><label for="evidence">Evidence / links</label><textarea id="evidence" placeholder="Links to tickets, incidents, assessments, decisions or delivery forecasts."></textarea></div>
+                </div>
+            </section>
+        </div>
+
+        <aside class="stack">
+            <section class="panel">
+                <div class="panel-head"><span class="number">i</span><div><h2>Scoring guide</h2><p class="hint">Apply the same definitions consistently.</p></div></div>
+                <p style="font-size:12px;color:var(--muted);margin-top:0">Likelihood</p>
+                <ol class="scale">
+                    <li><b>Rare</b> — exceptional circumstances</li>
+                    <li><b>Unlikely</b> — not expected, but possible</li>
+                    <li><b>Possible</b> — may occur</li>
+                    <li><b>Likely</b> — expected in many circumstances</li>
+                    <li><b>Almost certain</b> — expected to occur</li>
+                </ol>
+                <p style="font-size:12px;color:var(--muted)">Impact</p>
+                <ol class="scale">
+                    <li><b>Negligible</b> — minimal disruption</li>
+                    <li><b>Minor</b> — localised, manageable effect</li>
+                    <li><b>Moderate</b> — meaningful delivery or service impact</li>
+                    <li><b>Major</b> — significant customer, delivery or operational impact</li>
+                    <li><b>Severe</b> — critical business, customer, security or compliance impact</li>
+                </ol>
+            </section>
+
+            <section class="panel">
+                <div class="panel-head"><span class="number">✓</span><div><h2>Quality check</h2><p class="hint">Before submitting the risk.</p></div></div>
+                <label style="font-weight:500"><input type="checkbox" style="width:auto;margin-right:7px">Statement identifies cause, event and impact</label>
+                <label style="font-weight:500;margin-top:12px"><input type="checkbox" style="width:auto;margin-right:7px">A named owner is accountable</label>
+                <label style="font-weight:500;margin-top:12px"><input type="checkbox" style="width:auto;margin-right:7px">Mitigation and contingency are distinct</label>
+                <label style="font-weight:500;margin-top:12px"><input type="checkbox" style="width:auto;margin-right:7px">Residual risk is assessed after mitigation</label>
+                <label style="font-weight:500;margin-top:12px"><input type="checkbox" style="width:auto;margin-right:7px">Escalation trigger and target date are clear</label>
+                <label style="font-weight:500;margin-top:12px"><input type="checkbox" style="width:auto;margin-right:7px">Evidence links support the assessment</label>
+            </section>
+
+            <section class="panel">
+                <div class="panel-head"><span class="number">Ex</span><div><h2>Example risk statement</h2><p class="hint">Specific and actionable.</p></div></div>
+                <div class="example">
+                    <strong>Dependency · Authentication integration</strong>
+                    Because the external identity provider has not confirmed its interface change, authentication integration may miss the release window, potentially delaying customer onboarding.
+                </div>
+                <p class="empty">Avoid vague entries such as “Integration risk: amber.” State what may happen, why it may happen, and the consequence.</p>
+            </section>
+        </aside>
+    </div>
+
+    <section class="panel" style="margin-top:18px">
+        <div class="panel-head"><span class="number">04</span><div><h2>Risk register preview</h2><p class="hint">Add completed records to build a simple cross-team register in this page.</p></div></div>
+        <div class="table-wrap"><table id="register">
+            <thead><tr><th>Risk ID</th><th>Team / product</th><th>Category</th><th>Risk owner</th><th>Score</th><th>Residual risk</th><th>Target date</th><th>Risk statement</th></tr></thead>
+            <tbody><tr id="emptyRow"><td colspan="8" style="color:var(--muted)">No risks added yet. Complete the form and select “Add to register”.</td></tr></tbody>
+        </table></div>
+        <p class="empty">This is a browser-only template. Register entries are not saved to a server or retained after refresh. Export or connect to your organisation’s risk system for durable tracking.</p>
+    </section>
+
+    <footer class="footer"><span>Engineering Risk Register · Template</span><span>Consistent records · Clear ownership · Evidence-led escalation</span></footer>
+</main>
+<script>
+    function updateScore(){
+      const l=Number(document.getElementById('likelihood').value);
+      const i=Number(document.getElementById('impact').value);
+      const score=l*i;
+      document.getElementById('score').textContent=score+' / 25';
+      const level=document.getElementById('level');
+      level.className='pill '+(score>=15?'high':score>=5?'medium':'low');
+      level.textContent=(score>=15?'High':score>=5?'Medium':'Low')+' · Illustrative';
+    }
+    function val(id){return document.getElementById(id).value.trim()}
+    function addRegisterRow(){
+      const required=[['riskId','Risk ID'],['team','Team / product'],['owner','Risk owner'],['statement','Risk statement']];
+      for(const [id,label] of required){
+        if(!val(id)){document.getElementById(id).focus();alert('Please complete '+label+'.');return}
+      }
+      const tbody=document.querySelector('#register tbody');
+      document.getElementById('emptyRow')?.remove();
+      const l=Number(val('likelihood')),i=Number(val('impact)),score=l*i;
+      const tr=document.createElement('tr');
+      const values=[val('riskId'),val('team'),val('category'),val('owner'),score+' / 25',val('residual')||'Not assessed',val('target')||'—',val('statement')];
+      values.forEach((v,index)=>{
+        const td=document.createElement('td');
+        td.textContent=v;
+        if(index===4){const p=document.createElement('span');p.className='pill '+(score>=15?'high':score>=5?'medium':'low');p.textContent=v;td.textContent='';td.appendChild(p)}
+        tr.appendChild(td);
+      });
+      tbody.appendChild(tr);
+      tr.scrollIntoView({behavior:'smooth',block:'nearest'});
+    }
+    function clearForm(){
+      if(!confirm('Clear the risk form fields?'))return;
+      ['team','owner','statement','mitigation','contingency','trigger','evidence','target'].forEach(id=>document.getElementById(id).value='');
+      document.getElementById('riskId').value='RISK-001';
+      document.getElementById('category').selectedIndex=0;
+      document.getElementById('likelihood').value='3';
+      document.getElementById('impact').value='3';
+      document.getElementById('residual').value='';
+      document.querySelectorAll('input[type=checkbox]').forEach(c=>c.checked=false);
+      updateScore();
+    }
+    updateScore();
+</script>
+</body>
+</html>
